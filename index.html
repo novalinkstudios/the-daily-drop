@@ -1,0 +1,1568 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Daily Drop · NovaLink Studios</title>
+<meta name="description" content="Three things worth thinking about today — for operators, strategists, project managers, and admins navigating AI." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy:    #0D2340;
+    --blue:    #00BCEB;
+    --gold:    #FBAB18;
+    --magenta: #E20074;
+    --white:   #FFFFFF;
+    --light:   #F0F6FA;
+    --muted:   #6B7A8D;
+    --text:    #0D2340;
+
+    /* Derived UI tokens */
+    --rule:         rgba(13, 35, 64, 0.08);
+    --rule-strong:  rgba(13, 35, 64, 0.16);
+    --tag-bg:       rgba(0, 188, 235, 0.10);
+    --accent-soft:  rgba(0, 188, 235, 0.13);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--light);
+    color: var(--text);
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 188, 235, 0.3);
+  }
+  a:hover { border-bottom-color: var(--blue); }
+
+  /* ═════════════════════════════════════════
+     HERO
+     ═════════════════════════════════════════ */
+  .hero {
+    background: var(--navy);
+    color: var(--white);
+    padding: 64px 64px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -120px; right: -80px;
+    width: 480px; height: 480px;
+    background: radial-gradient(circle, rgba(0,188,235,0.14) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 30%;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(251,171,24,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-top {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .hero-left { max-width: 760px; }
+  .hero-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 20px;
+  }
+  .hero-title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: clamp(40px, 7vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin-bottom: 18px;
+  }
+  .hero-title em {
+    font-style: italic;
+    color: var(--blue);
+  }
+  .hero-tagline {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 14px;
+    color: var(--white);
+  }
+  .hero-sub {
+    font-size: 14.5px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.62);
+    max-width: 560px;
+    line-height: 1.7;
+  }
+
+  /* ═════════════════════════════════════════
+     NAVBAR (sticky controls strip)
+     ═════════════════════════════════════════ */
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+    padding: 14px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .navbar-brand {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--navy);
+    letter-spacing: -0.005em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .navbar-brand::before {
+    content: "";
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: var(--blue);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0, 188, 235, 0.18);
+  }
+  .navbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+
+  /* ═════════════════════════════════════════
+     CALENDAR PICKER + DATE STEPPER
+     ═════════════════════════════════════════ */
+  .date-stepper {
+    display: inline-flex;
+    align-items: stretch;
+    background: var(--white);
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    overflow: visible;
+  }
+  .step-btn {
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, color 0.15s;
+  }
+  .step-btn:hover:not(:disabled) {
+    background: var(--light);
+    color: var(--blue);
+  }
+  .step-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .cal-wrap { position: relative; }
+  .cal-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: transparent;
+    border: none;
+    border-left: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 8px 12px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .cal-trigger:hover { background: var(--light); }
+  .cal-trigger[aria-expanded="true"] {
+    background: var(--light);
+    color: var(--blue);
+  }
+  .cal-icon { flex-shrink: 0; color: var(--blue); }
+
+  .cal-popover {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: var(--white);
+    border: 1px solid var(--rule-strong);
+    border-radius: 6px;
+    padding: 8px;
+    width: 190px;
+    box-shadow: 0 16px 40px -10px rgba(13, 35, 64, 0.22), 0 4px 12px -4px rgba(13, 35, 64, 0.10);
+    z-index: 50;
+  }
+  .cal-popover[hidden] { display: none; }
+  .cal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .cal-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 12px;
+    color: var(--navy);
+  }
+  .cal-nav {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1;
+    width: 18px; height: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cal-nav:hover { background: var(--light); color: var(--blue); }
+  .cal-nav:disabled { opacity: 0.3; cursor: not-allowed; }
+  .cal-nav:disabled:hover { background: transparent; color: var(--text); }
+  .cal-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    margin-bottom: 2px;
+  }
+  .cal-weekdays span {
+    text-align: center;
+    font-size: 8.5px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    padding: 2px 0;
+  }
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+  }
+  .cal-day {
+    aspect-ratio: 1;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--muted);
+    font-family: inherit;
+    font-size: 10.5px;
+    font-weight: 500;
+    border-radius: 50%;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .cal-day.empty { visibility: hidden; }
+  .cal-day.has-drop {
+    color: var(--text);
+    cursor: pointer;
+  }
+  .cal-day.has-drop::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: var(--blue);
+  }
+  .cal-day.has-drop:hover { background: var(--light); }
+  .cal-day.today {
+    border-color: var(--gold);
+    color: var(--text);
+    font-weight: 700;
+  }
+  .cal-day.selected {
+    background: var(--navy);
+    color: var(--white);
+    border-color: var(--navy);
+  }
+  .cal-day.selected::after { background: var(--blue); }
+
+  .today-btn {
+    background: var(--navy);
+    color: var(--white);
+    border: 1px solid var(--navy);
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 9px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .today-btn:hover {
+    background: var(--blue);
+    border-color: var(--blue);
+  }
+
+  /* ═════════════════════════════════════════
+     MAIN COLUMN
+     ═════════════════════════════════════════ */
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 32px 80px;
+  }
+
+  /* Date hero (inside drop) */
+  .date-hero { margin-bottom: 36px; }
+  .date-weekday {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 14px;
+  }
+  .date-display {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: clamp(48px, 9vw, 80px);
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+    color: var(--navy);
+    margin: 0;
+  }
+  .date-display em {
+    font-style: italic;
+    color: var(--blue);
+  }
+  .intro {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 24px 0 0;
+    max-width: 560px;
+  }
+
+  /* Trend block (collapsible) */
+  .trend {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+  }
+  summary { cursor: pointer; list-style: none; outline: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::marker { display: none; }
+
+  .trend-summary, .homework-summary {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .trend-summary-text, .homework-summary-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .chevron {
+    font-size: 18px;
+    color: var(--blue);
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1;
+    transition: transform 0.25s ease;
+    user-select: none;
+  }
+  .trend[open] > .trend-summary .chevron,
+  .homework[open] > .homework-summary .chevron {
+    transform: rotate(90deg);
+  }
+  .trend-summary:hover .trend-title,
+  .homework-summary:hover .homework-title {
+    color: var(--blue);
+  }
+
+  .trend-num {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .trend-title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    color: var(--navy);
+    margin: 0;
+    transition: color 0.15s ease;
+  }
+  .trend-body-wrap {
+    margin-top: 22px;
+  }
+  .trend-body {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text);
+    margin: 0 0 24px;
+  }
+  .trend-body em {
+    background: var(--accent-soft);
+    color: var(--text);
+    padding: 1px 5px;
+    font-style: normal;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+
+  /* Role slants */
+  .slants {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 28px;
+    border-left: 2px solid var(--blue);
+    padding-left: 18px;
+  }
+  .slants li {
+    margin-bottom: 10px;
+    font-size: 15.5px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .slants li:last-child { margin-bottom: 0; }
+  .slants em {
+    background: var(--accent-soft);
+    padding: 1px 4px;
+    font-style: normal;
+    border-radius: 2px;
+  }
+  .role {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--navy);
+    background: var(--tag-bg);
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: 2px;
+  }
+
+  /* Challenge */
+  .challenge {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 22px 24px;
+    margin-top: 8px;
+  }
+  .challenge-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--magenta);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .challenge-label::before {
+    content: "\2192";
+    font-size: 16px;
+    line-height: 1;
+  }
+  .challenge-text {
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--text);
+    margin: 0;
+  }
+  .challenge-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: step;
+  }
+  .challenge-steps li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 38px;
+    margin-bottom: 14px;
+    font-size: 15.5px;
+    line-height: 1.55;
+    color: var(--text);
+    min-height: 22px;
+  }
+  .challenge-steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--white);
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue);
+    box-sizing: border-box;
+  }
+  .challenge-steps li:last-child { margin-bottom: 0; }
+  .challenge-steps em {
+    background: var(--accent-soft);
+    padding: 1px 5px;
+    font-style: normal;
+    border-radius: 2px;
+    font-weight: 500;
+  }
+
+  /* Homework (collapsible) */
+  .homework {
+    margin-top: 64px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+  }
+  .homework-eyebrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+    display: block;
+  }
+  .homework-title {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.22;
+    color: var(--navy);
+    margin: 0;
+    letter-spacing: -0.01em;
+    transition: color 0.15s ease;
+  }
+  .homework-body-wrap {
+    margin-top: 22px;
+  }
+  .homework-body {
+    font-size: 16.5px;
+    line-height: 1.6;
+    color: var(--text);
+    margin: 0;
+  }
+  .homework-prompt {
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 18px 22px;
+    margin-top: 18px;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--navy);
+    border-radius: 0 6px 6px 0;
+  }
+  .homework-prompt em {
+    color: var(--blue);
+    font-style: italic;
+  }
+
+  /* Prev / Next nav — TOP (slim) */
+  .drop-nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 36px;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed var(--rule-strong);
+  }
+  .drop-nav-top .drop-nav-btn {
+    background: transparent;
+    border: none;
+    padding: 4px 0;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    flex: 0 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .drop-nav-top .drop-nav-btn:hover:not(:disabled) { color: var(--blue); }
+  .drop-nav-top .drop-nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .drop-nav-top .arrow {
+    color: var(--blue);
+    font-weight: 700;
+  }
+  .drop-nav-top .drop-nav-btn:disabled .arrow { color: var(--muted); }
+
+  /* Prev / Next nav — BOTTOM (boxed) */
+  .drop-nav {
+    margin-top: 72px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .drop-nav .drop-nav-btn {
+    flex: 1 1 0;
+    min-width: 0;
+    background: var(--white);
+    border: 1px solid var(--rule-strong);
+    border-radius: 6px;
+    padding: 16px 20px;
+    text-align: left;
+    cursor: pointer;
+    color: var(--text);
+    font-family: inherit;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .drop-nav .drop-nav-btn:hover:not(:disabled) {
+    border-color: var(--blue);
+    background: rgba(0, 188, 235, 0.04);
+  }
+  .drop-nav .drop-nav-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: transparent;
+  }
+  .drop-nav .drop-nav-btn.next { text-align: right; }
+  .drop-nav-label {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 4px;
+  }
+  .drop-nav-date {
+    display: block;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--navy);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--muted);
+  }
+  .empty h2 {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0 0 12px;
+    color: var(--navy);
+  }
+  .empty p { margin: 0 0 22px; font-size: 16px; }
+  .empty a {
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
+  }
+
+  /* Footer */
+  footer {
+    background: var(--navy);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 32px 32px 40px;
+    text-align: center;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+  }
+
+  /* ═════════════════════════════════════════
+     RESPONSIVE
+     ═════════════════════════════════════════ */
+  @media (max-width: 760px) {
+    .hero { padding: 40px 24px 36px; }
+    .hero::before { width: 320px; height: 320px; top: -100px; right: -60px; }
+    .hero-title { font-size: 38px; }
+    .hero-tagline { font-size: 17px; }
+    .hero-sub { font-size: 13.5px; }
+    .navbar { padding: 12px 20px; }
+    .navbar-brand { font-size: 16px; }
+    .cal-popover { right: auto; left: 0; width: 190px; }
+    main { padding: 32px 22px 64px; }
+    .trend { margin-top: 40px; padding-top: 24px; }
+    .trend-num { font-size: 28px; margin-bottom: 8px; }
+    .trend-title { font-size: 22px; }
+    .homework { margin-top: 56px; padding-top: 24px; }
+    .homework-title { font-size: 21px; }
+    .trend-summary, .homework-summary { gap: 14px; }
+    .chevron { font-size: 16px; }
+    .drop-nav { margin-top: 56px; gap: 8px; }
+    .drop-nav .drop-nav-btn { padding: 14px 16px; }
+    .drop-nav-date { font-size: 14px; }
+    .drop-nav-top { margin-bottom: 28px; padding-bottom: 14px; }
+    .drop-nav-top .drop-nav-btn { font-size: 12px; gap: 4px; }
+    footer { padding: 24px 22px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-top">
+    <div class="hero-left">
+      <div class="hero-eyebrow">NovaLink Studios · The Daily Drop</div>
+      <h1 class="hero-title">The Daily<br><em>Drop</em></h1>
+      <p class="hero-tagline">Come curious. Leave with something you can use on Monday.</p>
+      <p class="hero-sub">The Daily Drop is a community for professionals in operations, strategy, project management, and admin roles who want to work smarter with AI — no hype, no fear, just practical tools and honest takes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ STICKY CONTROLS ══ -->
+<nav class="navbar" aria-label="Daily Drop controls">
+  <div class="navbar-brand">Daily Drop</div>
+  <div class="navbar-controls">
+    <div class="date-stepper">
+      <button class="step-btn" id="step-prev" aria-label="Previous drop">&#8249;</button>
+      <div class="cal-wrap">
+        <button class="cal-trigger" id="cal-trigger" aria-haspopup="dialog" aria-expanded="false">
+          <svg class="cal-icon" width="13" height="13" viewBox="0 0 16 16" aria-hidden="true">
+            <rect x="1.5" y="3" width="13" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M1.5 6.5h13" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M5 1.5v3M11 1.5v3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+          </svg>
+          <span id="cal-trigger-label">Archive</span>
+        </button>
+        <div class="cal-popover" id="cal-popover" role="dialog" aria-label="Choose a date" hidden>
+          <div class="cal-header">
+            <button class="cal-nav" id="cal-prev" aria-label="Previous month">&#8249;</button>
+            <div class="cal-title" id="cal-title"></div>
+            <button class="cal-nav" id="cal-next" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="cal-weekdays">
+            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+        </div>
+      </div>
+      <button class="step-btn" id="step-next" aria-label="Next drop">&#8250;</button>
+    </div>
+    <button class="today-btn" id="today-btn">Today</button>
+  </div>
+</nav>
+
+<main id="content"></main>
+
+<footer>
+  The Daily Drop · A NovaLink Studios community for professionals learning to work smarter with AI.
+</footer>
+
+<script>
+  /* ════════════════════════════════════════════════════════════════
+     DROPS DATA — edit this object to add new daily drops.
+     Key format: "YYYY-MM-DD"
+     ════════════════════════════════════════════════════════════════ */
+  const DROPS = {
+    "2026-06-16": {
+      intro: "Tuesday: what separates the orgs winning with AI from the ones still pitching it. Plus something small for you to try tonight.",
+      trends: [
+        {
+          title: "The 25% gap",
+          body: "Hackett Group's 2026 Enterprise Key Issues Study found that the organizations getting transformational AI results — <em>25%+ improvements across customer experience, employee experience, and productivity</em> — aren't the ones deploying the most tools. They're the ones reimagining their operating model. The lever is structural, not technological.",
+          slants: {
+            strategy:   "If your AI roadmap is a tool list, you're losing to orgs whose AI roadmap is an operating-model redesign.",
+            operations: "The most underrated AI question right now: <em>\"Which of our standard processes deserve to exist at all?\"</em>",
+            pm:         "Project portfolios are still designed around human cadence. The next wave reshapes the portfolio itself, not just the projects in it.",
+            admin:      "If you've been told to 'make existing workflows faster,' push back. The question is whether the workflow should look the same at all."
+          },
+          challenge: {
+            steps: [
+              "Pick a single workflow you own end-to-end (intake to delivery).",
+              "On paper or in a doc, draw it as 5–7 steps from start to finish.",
+              "For each step, mark one of three labels: <em>\"Required for value,\"</em> <em>\"Habit, not value,\"</em> or <em>\"Worth questioning.\"</em>",
+              "Look at the 'Habit' and 'Worth questioning' labels — that's your AI-redesign opportunity list.",
+              "Share your most surprising 'Habit, not value' step in the group."
+            ]
+          }
+        },
+        {
+          title: "The 'strategy theater' gap",
+          body: "Writer's 2026 enterprise survey landed a hard finding: <em>75% of executives admit their company's AI strategy is \"more for show\" than actual guidance</em>, with 39% lacking any formal revenue plan tied to AI. There's a vacuum at the strategy layer — and operators who can connect strategy to measurable outcomes just became more valuable.",
+          slants: {
+            strategy:   "If you're in strategy and your AI deck is real, you're rarer than you think. Lean into outcome metrics, not capability lists.",
+            operations: "When leadership's strategy is unclear, ops becomes the de facto translator. Document the gap, then propose the bridge.",
+            pm:         "'Connect strategy to delivery' has always been a PM superpower. AI just made it 10× more visible.",
+            admin:      "If you can summarize what's actually being asked (vs. what's being announced), that clarity is a leadership skill in disguise."
+          },
+          challenge: {
+            steps: [
+              "Find your company's most recent AI announcement or strategy doc that's safe to share with an AI tool.",
+              "Open your preferred AI tool.",
+              "Paste in the doc and add this prompt: <em>\"Pull out every specific, measurable outcome promised here. If there are none, say so.\"</em>",
+              "Look at the list. Notice the ratio of concrete outcomes to aspirational language.",
+              "Share one observation in the group — was the strategy specific, or mostly directional?"
+            ]
+          }
+        },
+        {
+          title: "Knowing which AI mode to use is the new skill",
+          body: "Microsoft's 2026 Copilot update introduced <em>\"Quick Response\" and \"Think Deeper\" modes</em> — two different reasoning depths for two different kinds of questions. The skill isn't using the tool; it's knowing which mode for which question. Expect every major AI tool to follow this pattern.",
+          slants: {
+            strategy:   "Quick Response for status, Think Deeper for trade-off decisions. Mixing them up wastes either time or quality.",
+            operations: "Most ops questions are quick lookups; a few are real analysis. Match the mode to the task and your team's output improves.",
+            pm:         "Use Quick Response for stand-up summaries. Use Think Deeper for risk assessment and dependency mapping.",
+            admin:      "Drafting an email? Quick. Resolving a calendar conflict that affects three execs? Deeper. Trust the difference."
+          },
+          challenge: {
+            steps: [
+              "Open an AI tool that offers different reasoning modes (Copilot, Gemini, Claude, ChatGPT all have variations).",
+              "Pick the SAME work question and ask it twice — once in fast mode, once in slow/deep mode.",
+              "Compare the answers. Was the slower one actually better, or just longer?",
+              "Decide your own rule of thumb: <em>\"For [type of question], I'll use [mode].\"</em>",
+              "Share your rule of thumb in the group — we'll learn from each other's defaults."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Use AI to win an argument with yourself tonight.",
+        body: "Most of us have one small decision we've been putting off — a purchase, a route change, a routine swap. Tonight, let AI play both sides.",
+        prompt: "\"I'm trying to decide whether to [the thing]. Steelman the case for doing it. Then steelman the case against. Don't give me a recommendation — I'll decide.\"<br><br>The trick is <em>asking for both sides, no recommendation</em>. You'll think more clearly than if you'd asked for advice."
+      }
+    },
+
+    "2026-06-15": {
+      intro: "Welcome to a fresh week. Three things to think about — and one small thing to try tonight.",
+      trends: [
+        {
+          title: "Using AI more, feeling less sure about it",
+          body: "ManpowerGroup's 2026 Global Talent Barometer caught something unexpected: <em>regular AI usage jumped 13 points to 45% of workers, while confidence in using technology fell 18 points</em>. The gap between doing it and feeling good about it is real — and it's exactly why peer communities like this one exist.",
+          slants: {
+            strategy:   "Confidence comes from frameworks. Pick one decision lens and apply it to AI's output, not the other way around.",
+            operations: "If you're using AI but quietly second-guessing every output, you're in the majority. Compare notes with someone before redoing the work.",
+            pm:         "Your team likely feels this too. Make AI use a normal topic in retros — not a separate AI-only conversation.",
+            admin:      "Trust your judgment. AI doesn't know context the way you do, and 'this doesn't sound right' is almost always worth flagging."
+          },
+          challenge: {
+            steps: [
+              "Open any AI tool you've used recently (work or personal).",
+              "Find one piece of AI output from the last week that left you a little unsure.",
+              "Paste it back into the AI with this prompt: <em>\"Critique this. What might be wrong, missing, or weaker than it sounds?\"</em>",
+              "Read the self-critique. Notice how it changes your confidence in the original.",
+              "Share what you found in the group — was the self-critique useful or hand-wavy?"
+            ]
+          }
+        },
+        {
+          title: "Assistants are becoming agents",
+          body: "<em>McKinsey found 62% of organizations are already experimenting with agentic AI</em>, and Gartner expects 40% of enterprise applications to feature embedded task-specific agents by 2026 — up from under 5% in 2025. The shift: from \"answer my question\" to \"run this multi-step task and report back.\"",
+          slants: {
+            strategy:   "If your strategy assumes humans coordinate every step, it's already aging. Plan for agents that own short workflows.",
+            operations: "The new ops bottleneck won't be doing the work — it'll be defining the work clearly enough for an agent to run it.",
+            pm:         "Directing agents is a project management skill. You already manage humans who need clear briefs and check-ins. Same muscle.",
+            admin:      "Routine scheduling, reminders, follow-ups — agents handle these first. Your value moves to context and judgment calls."
+          },
+          challenge: {
+            steps: [
+              "Pick one task you do every week that has clear steps — booking a meeting, summarizing a thread, formatting a doc.",
+              "Open your preferred AI tool.",
+              "Write out the steps in plain English, as if briefing a new teammate. Be specific about inputs and what 'done' looks like.",
+              "Paste your brief in and ask: <em>\"If you were an agent doing this task, what would you need from me that I haven't given you?\"</em>",
+              "Share one gap you discovered in the group — that's your starter playbook for working with agents."
+            ]
+          }
+        },
+        {
+          title: "New AI roles, no coding required",
+          body: "A wave of new positions is opening up around agent orchestration, AI governance, and human-AI workflow design. The encouraging part for operators: <em>many of these roles value process thinking, communication, governance, and strategic skills as much as coding ability</em>. Your operations background is more relevant than you think.",
+          slants: {
+            strategy:   "Whoever defines how AI fits into the strategic planning cycle owns a new center of gravity. That can be you.",
+            operations: "Workflow design is operations work — just with a new collaborator (the agent) in the workflow.",
+            pm:         "Multi-agent coordination is project management with non-human teammates. Same coordination logic, broader toolkit.",
+            admin:      "You already manage information flow, scheduling, and exec needs. Agent governance is a natural extension."
+          },
+          challenge: {
+            steps: [
+              "Open a doc or note.",
+              "Write down one part of your current job that you genuinely enjoy — the thinking part, not the typing part.",
+              "Open an AI tool and ask: <em>\"What's an emerging 2026 role that builds on someone who is good at [that thing]?\"</em>",
+              "Read the response with curiosity, not pressure. Note one role title that intrigues you.",
+              "Share the role with the group — let's see what shows up across the community."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Tonight, ask AI for help with one thing on your personal to-do list.",
+        body: "Monday-night habit-builder: pick something small from your personal list and let AI take a swing. The point isn't the answer — it's noticing how it feels to ask.",
+        prompt: "\"Here's something I'm trying to figure out: [name it — a gift idea, a tough text, a recipe, a budget question]. Ask me 2 questions to understand my situation, then give me 3 options ranked by [whatever matters most].\"<br><br>The <em>ranked-by</em> trick is the move. Make AI commit to an opinion, not just list possibilities."
+      }
+    },
+
+    "2026-06-14": {
+      intro: "Three things worth thinking about today — and one for you to try at home.",
+      trends: [
+        {
+          title: "The strategic memo is being rebuilt — fast",
+          body: "Microsoft's 2026 Work Trend Index just landed. <em>49% of Copilot conversations now support cognitive work</em> — analysis, problem-solving, strategic thinking — and 58% of AI users say they're producing work they couldn't have done a year ago. The work isn't disappearing. It's being promoted.",
+          slants: {
+            strategy:   "You're shifting from <em>writer</em> to <em>editor + pressure-tester</em>.",
+            operations: "Synthesis across systems is now a 30-min job, not a 3-day one.",
+            pm:         "Status reports get auto-drafted; framing the right questions is the new value-add.",
+            admin:      "Your judgment on tone, context, and 'what the exec actually meant' becomes the premium skill."
+          },
+          challenge: {
+            steps: [
+              "Pick a document you wrote last quarter — a recommendation, memo, or proposal. Make sure it doesn't contain confidential client or customer information.",
+              "Open your preferred AI tool (Copilot, Gemini, Claude, ChatGPT — whatever you have access to).",
+              "Paste the document in, then add this prompt: <em>\"Argue against this from the perspective of a skeptical executive. Be specific about the weakest assumptions.\"</em>",
+              "Read the response carefully and identify one point you hadn't considered before.",
+              "Share that insight in the group — what surprised you most?"
+            ]
+          }
+        },
+        {
+          title: "The Transformation Paradox",
+          body: "Deloitte's 2026 enterprise report puts it plainly: <em>companies are layering AI onto legacy processes instead of redesigning work holistically</em>. The investment isn't compounding because the workflow underneath is still pre-AI.",
+          slants: {
+            strategy:   "The QBR was built for a pre-AI world. Rethink the inputs and outputs.",
+            operations: "Your SOPs probably encode 2019 assumptions.",
+            pm:         "\"Weekly check-ins\" exist because info moved slowly. Does it still?",
+            admin:      "Calendar-and-email triage workflows are ripe for a clean-slate redesign."
+          },
+          challenge: {
+            steps: [
+              "Pick ONE recurring meeting or process you own — the QBR, a weekly check-in, a status report.",
+              "Open a notes app or grab a piece of paper.",
+              "Write at the top: <em>\"If AI were a teammate from minute one, this would [...]\"</em>",
+              "Finish the sentence. Don't overthink it — the first instinct is usually the most honest one.",
+              "Share your one-sentence answer in the group."
+            ]
+          }
+        },
+        {
+          title: "AI fluency is the new literacy",
+          body: "Stanford HAI's 2026 AI Index: AI-related skills now appear in <em>2.5% of all U.S. job postings — a 297% increase over a decade</em>. This isn't \"learn to code.\" It's <em>learn to direct, evaluate, and trust-but-verify</em> AI output.",
+          slants: {
+            strategy:   "Prompting is problem-framing. The clearer your ask, the sharper your strategy.",
+            operations: "Knowing when AI is wrong saves more time than AI being right.",
+            pm:         "Agent orchestration is the next PM specialty.",
+            admin:      "You already know how things actually work here. AI doesn't."
+          },
+          challenge: {
+            steps: [
+              "Open a blank document or note.",
+              "List your top 3 weekly recurring tasks — the things you do every week without fail.",
+              "Next to each task, write one of three labels: <em>\"AI could draft this\"</em>, <em>\"AI could review my work on this\"</em>, or <em>\"Only I can do this.\"</em>",
+              "Look at your split. Pick one task you didn't realize AI could help with.",
+              "Share your split in the group, and call out that one surprise task."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Brand new to AI? Start with something personal tonight.",
+        body: "The fastest way to lose the fear: use AI on something where there's no security policy and no judgment. Try one of these in your free tool of choice (ChatGPT, Claude, Gemini, or Perplexity all have free web versions):",
+        prompt: "\"I'm trying to [plan a weekend / write a tough message / figure out a recipe from what's in my fridge / understand a confusing bill]. Ask me 3 questions before you help, so your answer actually fits.\"<br><br>That last line — <em>ask me questions first</em> — is the single most useful prompting habit you'll ever learn."
+      }
+    },
+
+    "2026-06-13": {
+      intro: "Saturday's drop is lighter on purpose. Three angles on how AI can teach you something this weekend — no work allowed.",
+      trends: [
+        {
+          title: "AI tutors got weirdly good in 2026",
+          body: "One of AI's most underrated uses this year — quietly bigger than enterprise pilots in many people's daily lives — is <em>personalized tutoring</em>. Patient, infinite, judgment-free explainers for whatever you've been meaning to learn. The barrier was never finding an explanation; it was finding one that matched your level.",
+          slants: {
+            strategy:   "Learning to learn faster is a leadership skill. AI tutoring is the cheapest way to compound it.",
+            operations: "Pick one process at your company you don't fully understand. Ask AI to explain it from scratch.",
+            pm:         "Quietly studying a domain through AI before a project lands is the new prep work. Free and invisible.",
+            admin:      "If you've ever felt 'I should know this by now,' AI is the no-judgment teacher you deserved years ago."
+          },
+          challenge: {
+            steps: [
+              "Pick one thing you've quietly been meaning to understand — a finance concept, a piece of tech, a historical event, anything.",
+              "Open a free AI tool (ChatGPT, Claude, Gemini, Perplexity).",
+              "Use this prompt: <em>\"Teach me [topic] like I'm a curious adult with no background. Use a metaphor I'd recognize from everyday life. Then ask me one question to check if I got it.\"</em>",
+              "Answer the check-in question honestly.",
+              "Share what you learned in the group — and whether the metaphor actually helped."
+            ]
+          }
+        },
+        {
+          title: "Reading AI critically is the real skill",
+          body: "Plenty of people can ask AI questions. The smaller, more valuable group can <em>spot when the answer is wrong</em>. That muscle isn't built by using AI more — it's built by deliberately challenging it.",
+          slants: {
+            strategy:   "Skeptical readers of AI output make better strategic decisions. Train the muscle in low-stakes settings.",
+            operations: "The first answer is rarely the best one. Make 'ask twice with different framing' a habit.",
+            pm:         "Verification beats generation. The job is increasingly to check what AI claims, not to ask it more things.",
+            admin:      "You already double-check exec emails before they go. Same instinct, new collaborator."
+          },
+          challenge: {
+            steps: [
+              "Pick a topic you actually know well — a hobby, a former job, a specialty.",
+              "Open AI and ask: <em>\"Give me 5 facts about [your area of expertise].\"</em>",
+              "Read carefully. Find at least one fact that's wrong, misleading, or oversimplified.",
+              "Reply: <em>\"Fact #X is wrong because [your correction]. What else might you have gotten wrong?\"</em>",
+              "Share in the group what AI got wrong about something you know."
+            ]
+          }
+        },
+        {
+          title: "Hobby AI is the easiest practice ground",
+          body: "There's a pattern across communities like this one: members who use AI on something they genuinely love — a recipe, a fantasy league, a garden, a creative project — build prompting skill faster than members who only use it at work. The reason: <em>they don't tolerate bad answers when it's something they care about</em>.",
+          slants: {
+            strategy:   "Your weekend AI practice sharpens your weekday judgment. Don't treat them as separate.",
+            operations: "The instincts you develop fighting AI on a personal project transfer directly to fighting it on a work problem.",
+            pm:         "Project-managing a fun side project with AI teaches scope creep faster than any pro training.",
+            admin:      "Using AI on something personal builds the taste that work AI doesn't earn from you."
+          },
+          challenge: {
+            steps: [
+              "Pick one hobby, interest, or personal project you'd love to spend an hour on this weekend.",
+              "Open a free AI tool.",
+              "Ask: <em>\"Help me get one hour of meaningful progress on [thing] this weekend. Ask me 3 questions first, then give me a 3-step plan.\"</em>",
+              "Do at least one of the steps.",
+              "Share what you actually did in the group — even if it's tiny."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Teach AI something this weekend.",
+        body: "Flip the script. AI usually teaches you. Tonight, teach it. The act of explaining clarifies your own thinking — that's the real win.",
+        prompt: "\"I want to teach you something I know well: [topic]. I'll explain it in my own words. After I do, ask me 2 questions that would help you understand it better.\"<br><br>The <em>'ask me questions to deepen your understanding'</em> framing turns AI into a curious student. Surprisingly clarifying."
+      }
+    },
+
+    "2026-06-12": {
+      intro: "Friday: the gap between feeling more productive and your org becoming more productive. Three things to think about — and a weekend mindset for tonight.",
+      trends: [
+        {
+          title: "5× faster individually, 29% ROI organizationally",
+          body: "Writer's 2026 enterprise survey put a sharp number on the AI productivity paradox: <em>individual productivity gains of 5×, but only 29% of organizations see significant ROI from generative AI</em>. The gap isn't capability — it's that personal gains aren't compounding into shipped outcomes.",
+          slants: {
+            strategy:   "Don't celebrate individual AI gains as org wins. The work is in the handoffs between people, not the work itself.",
+            operations: "Look for places where someone's AI-assisted output bottlenecks on someone else's old process. That's where the leak is.",
+            pm:         "If devs ship 2× faster but reviews and QA didn't scale, throughput didn't move. Find the new bottleneck.",
+            admin:      "When AI lets one person do twice as much, the system isn't faster — it just looks faster until it hits the next gate."
+          },
+          challenge: {
+            steps: [
+              "Think of one workflow at your job that involves more than one person — a proposal, a sign-off, a content review.",
+              "On paper, list the steps and who owns each one.",
+              "Next to each step, mark: <em>\"This person uses AI here,\"</em> <em>\"They don't,\"</em> or <em>\"Not sure.\"</em>",
+              "Look at the pattern. Where does an AI-fast step hand off to a non-AI step? That's the bottleneck.",
+              "Share the bottleneck you spotted in the group — without naming names."
+            ]
+          }
+        },
+        {
+          title: "Synthesis is the new senior skill",
+          body: "As more team members produce AI-drafted work, the new bottleneck becomes <em>synthesizing across multiple AI outputs</em> into a single coherent direction. Anyone can generate; few can synthesize. The synthesis skill is what separates the AI-savvy operator from the AI-flooded one.",
+          slants: {
+            strategy:   "Synthesis across multiple analysts' AI-assisted briefs is the new senior-strategist skill. Practice it deliberately.",
+            operations: "When three people send you AI-drafted summaries, your job is to find the contradictions, not to paste them together.",
+            pm:         "Two AI-generated status updates that say the same thing differently are a warning sign, not redundancy. Look for what's missing.",
+            admin:      "You see drafts before anyone else. Spot the assumptions repeated across them — that's where the team's blind spot is."
+          },
+          challenge: {
+            steps: [
+              "Find two AI-generated outputs you have access to — both yours, or one yours and one from a colleague (with permission, no confidential data).",
+              "Open your preferred AI tool.",
+              "Paste both in and add: <em>\"What do these two outputs agree on, what do they disagree on, and what does neither one address?\"</em>",
+              "Read the response carefully. The 'neither one addresses' part is usually the gold.",
+              "Share one blind spot you found in the group."
+            ]
+          }
+        },
+        {
+          title: "The 11.5% productivity bump nobody's bragging about",
+          body: "Buried in ManpowerGroup's 2026 data: enterprises reported an average <em>11.5% increase in net productivity over the past 12 months</em>, partly from AI and partly from broader efficiency work. Real, modest, hard-won. Not the 10× headlines — but compounding year over year, this is what changes how companies actually run.",
+          slants: {
+            strategy:   "Plan for compounding, not breakthroughs. 11% per year is over 50% in five — and it's exactly where good operators add value.",
+            operations: "Steady process improvements are back in fashion. Pair each AI experiment with a measurable old-school KPI.",
+            pm:         "Velocity charts should track sustained gains, not spikes. A 10% rolling improvement is the win.",
+            admin:      "Small efficiencies you find — better templates, smarter folders, AI-assisted scheduling — add up faster than they look."
+          },
+          challenge: {
+            steps: [
+              "Write down three things you do this week that take noticeably less time than they did a year ago.",
+              "For each, note what changed (tool, habit, skill, team).",
+              "Pick the one with the biggest gain.",
+              "Open your AI tool and ask: <em>\"Here's something I do faster now: [describe]. What's the next improvement I could make to compound the gain?\"</em>",
+              "Share your top time-saver — and the next improvement AI suggested — in the group."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "End-of-week mindset reset.",
+        body: "Fridays are good for closing tabs — literal and mental. Tonight, use AI to help you actually finish your week.",
+        prompt: "\"I'm trying to end this week feeling like I closed it well. Ask me 3 questions to help me decide what's worth carrying into next week and what I should let go of.\"<br><br>The trick is making AI a <em>reflection prompt</em>, not an answer machine. The 'let go' question is the one that matters."
+      }
+    },
+
+    "2026-06-11": {
+      intro: "Thursday's drop: the most expensive AI subscription is the one nobody uses. Three things to think about — plus something small for tonight.",
+      trends: [
+        {
+          title: "Half of you have AI access. Most of you aren't using it.",
+          body: "Deloitte's January 2026 enterprise report flagged something blunt: <em>under 60% of employees with access to AI tools actually use those tools in their daily workflows</em> — nearly the same as last year. The takeaway: licenses don't create habits. People do.",
+          slants: {
+            strategy:   "Your AI ROI calculations probably assume usage you're not getting. Audit actual adoption before you defend the spend.",
+            operations: "Find one tool your team has access to but doesn't open. Pick the friction point — login, integration, training — and fix that one.",
+            pm:         "Use sprints to make AI usage explicit: 'This week, try X tool for stand-ups.' Habit beats capability.",
+            admin:      "If you've got AI access through your role and aren't using it, you're not alone. Pick the smallest possible first try."
+          },
+          challenge: {
+            steps: [
+              "List every AI tool you currently have access to — even free ones. (Copilot? Gemini? Claude? ChatGPT?)",
+              "Mark each: <em>\"Use weekly,\"</em> <em>\"Use rarely,\"</em> or <em>\"Don't use.\"</em>",
+              "Pick one from the 'Don't use' list and open it now.",
+              "Ask it one real question you would normally Google or ask a colleague.",
+              "Share which tool surprised you most in the group — good or bad."
+            ]
+          }
+        },
+        {
+          title: "Hours saved are real — but unevenly distributed",
+          body: "Recent enterprise studies converge on a number: <em>employees who use AI well save 2–3 hours per day</em> on routine activities. The catch: the gains skew heavily toward people who've crossed the 'I actually trust this' threshold. Trust is the throttle.",
+          slants: {
+            strategy:   "Your AI ROI model is missing a variable: time-to-trust. Plan for it explicitly.",
+            operations: "Track time saved on a single workflow for two weeks. You'll find your real ROI faster than any vendor case study.",
+            pm:         "Time savings on individual tasks don't always show up in team velocity. The bottleneck moves — find where.",
+            admin:      "If you're saving 30 minutes a day, that's 2.5 hours a week. Don't fill it with more tasks — use some for learning."
+          },
+          challenge: {
+            steps: [
+              "Pick one daily task that takes 15+ minutes (drafting an email, summarizing a doc, formatting notes).",
+              "Time yourself doing it the old way today.",
+              "Tomorrow, do the same task with AI as the first draft, then edit.",
+              "Time it again. Note the actual difference, and the quality difference.",
+              "Share your before/after in the group — let's see which tasks are worth the swap."
+            ]
+          }
+        },
+        {
+          title: "The Chief AI Officer is officially a thing",
+          body: "<em>61% of enterprises now have a Chief AI Officer or equivalent role</em>, per recent enterprise surveys. That signals something: AI strategy moved out of IT pilots and into the boardroom. Companies with dedicated AI leadership are more likely to see measurable productivity gains.",
+          slants: {
+            strategy:   "If your org has a CAIO, find them. If it doesn't, identify who's filling that gap unofficially — it's often someone in ops or strategy.",
+            operations: "AI governance is going to land on someone in your org. Volunteer before it's volunteered for you.",
+            pm:         "AI program management is becoming its own specialty. If you like coordinating across functions, this is your lane.",
+            admin:      "Whoever owns AI at your company needs an org-savvy partner. Admins frequently end up in that role."
+          },
+          challenge: {
+            steps: [
+              "Search your company's intranet or internal news for 'AI strategy' or 'AI governance.'",
+              "Find the name of the person leading it (CAIO, VP of AI, or de facto owner).",
+              "Open your preferred AI tool and ask: <em>\"Help me draft a 3-sentence intro email to a [their role] explaining one thing I've learned about AI in my role and one thing I'd like to learn from them.\"</em>",
+              "Save the draft. Don't send it yet — sit with it.",
+              "Share whether you found a clear AI leader in your org, or if it's still ambiguous."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Use AI to plan a tiny weekend win.",
+        body: "It's almost Friday. Pick one small thing you want to feel good about by Sunday night — finishing a book, organizing a drawer, calling a friend, trying a new recipe — and let AI help you plan it.",
+        prompt: "\"I want to [the small thing] this weekend. Help me figure out the smallest version that still counts. Ask me 2 questions about what would make it actually happen.\"<br><br>The <em>smallest version that still counts</em> framing kills perfectionism. Try it on bigger things later."
+      }
+    }
+
+    /* ── Add new entries above this line. ── */
+  };
+
+  /* ════════════════════════════════════════════════════════════════
+     RENDERING + CALENDAR LOGIC (no need to edit below this line)
+     ════════════════════════════════════════════════════════════════ */
+
+  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const ROLE_LABELS = { strategy: 'Strategy', operations: 'Operations', pm: 'Project Mgmt', admin: 'Administrative' };
+
+  function parseDate(key) {
+    const [y, m, d] = key.split('-').map(Number);
+    return new Date(y, m - 1, d);
+  }
+  function toKey(d) {
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+  function todayKey() { return toKey(new Date()); }
+
+  function formatDateHero(key) {
+    const d = parseDate(key);
+    return {
+      weekday: WEEKDAYS[d.getDay()],
+      monthDay: `${MONTHS[d.getMonth()]} ${d.getDate()}`,
+      year: d.getFullYear()
+    };
+  }
+  function formatTriggerLabel(key) {
+    const d = parseDate(key);
+    return `${MONTHS_SHORT[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+
+  function defaultKey() {
+    const today = todayKey();
+    const keys = Object.keys(DROPS).sort();
+    if (DROPS[today]) return today;
+    const past = keys.filter(k => k <= today);
+    if (past.length) return past[past.length - 1];
+    return keys[keys.length - 1];
+  }
+
+  let calCursor;
+
+  function renderCalendar() {
+    const grid = document.getElementById('cal-grid');
+    const title = document.getElementById('cal-title');
+    const year = calCursor.getFullYear();
+    const month = calCursor.getMonth();
+
+    title.textContent = `${MONTHS[month]} ${year}`;
+
+    const firstWeekday = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const today = todayKey();
+
+    let html = '';
+    for (let i = 0; i < firstWeekday; i++) {
+      html += `<button class="cal-day empty" tabindex="-1" aria-hidden="true"></button>`;
+    }
+    for (let day = 1; day <= daysInMonth; day++) {
+      const key = `${year}-${String(month+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+      const has = DROPS[key] ? 'has-drop' : '';
+      const isToday = key === today ? 'today' : '';
+      const isSelected = key === currentKey ? 'selected' : '';
+      const cls = ['cal-day', has, isToday, isSelected].filter(Boolean).join(' ');
+      const disabled = has ? '' : 'disabled aria-disabled="true"';
+      html += `<button class="${cls}" data-key="${key}" ${disabled}>${day}</button>`;
+    }
+    grid.innerHTML = html;
+
+    grid.querySelectorAll('.cal-day.has-drop').forEach(btn => {
+      btn.addEventListener('click', () => {
+        setKey(btn.dataset.key);
+        closeCalendar();
+      });
+    });
+
+    const allKeys = Object.keys(DROPS).sort();
+    if (allKeys.length) {
+      const earliest = parseDate(allKeys[0]);
+      const latest = parseDate(allKeys[allKeys.length - 1]);
+      document.getElementById('cal-prev').disabled =
+        (year < earliest.getFullYear()) ||
+        (year === earliest.getFullYear() && month <= earliest.getMonth());
+      document.getElementById('cal-next').disabled =
+        (year > latest.getFullYear()) ||
+        (year === latest.getFullYear() && month >= latest.getMonth());
+    }
+  }
+
+  function openCalendar() {
+    const popover = document.getElementById('cal-popover');
+    const trigger = document.getElementById('cal-trigger');
+    calCursor = new Date(parseDate(currentKey).getFullYear(), parseDate(currentKey).getMonth(), 1);
+    renderCalendar();
+    popover.hidden = false;
+    trigger.setAttribute('aria-expanded', 'true');
+    setTimeout(() => document.addEventListener('click', onOutsideClick), 0);
+  }
+  function closeCalendar() {
+    document.getElementById('cal-popover').hidden = true;
+    document.getElementById('cal-trigger').setAttribute('aria-expanded', 'false');
+    document.removeEventListener('click', onOutsideClick);
+  }
+  function onOutsideClick(e) {
+    if (!e.target.closest('#cal-popover') && !e.target.closest('#cal-trigger')) {
+      closeCalendar();
+    }
+  }
+
+  document.getElementById('cal-trigger').addEventListener('click', () => {
+    const isOpen = !document.getElementById('cal-popover').hidden;
+    isOpen ? closeCalendar() : openCalendar();
+  });
+  document.getElementById('cal-prev').addEventListener('click', () => {
+    calCursor = new Date(calCursor.getFullYear(), calCursor.getMonth() - 1, 1);
+    renderCalendar();
+  });
+  document.getElementById('cal-next').addEventListener('click', () => {
+    calCursor = new Date(calCursor.getFullYear(), calCursor.getMonth() + 1, 1);
+    renderCalendar();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !document.getElementById('cal-popover').hidden) closeCalendar();
+
+    const calOpen = !document.getElementById('cal-popover').hidden;
+    const inField = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || '');
+    if (calOpen || inField) return;
+
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+      const allKeys = Object.keys(DROPS).sort();
+      const idx = allKeys.indexOf(currentKey);
+      if (idx === -1) return;
+      const target = e.key === 'ArrowLeft' ? allKeys[idx - 1] : allKeys[idx + 1];
+      if (target) {
+        e.preventDefault();
+        setKey(target);
+      }
+    }
+  });
+
+  function renderSlants(slants) {
+    return Object.entries(slants).map(([role, text]) =>
+      `<li><span class="role">${ROLE_LABELS[role] || role}</span>${text}</li>`
+    ).join('');
+  }
+
+  function renderChallenge(c) {
+    if (typeof c === 'string') {
+      return `<p class="challenge-text">${c}</p>`;
+    }
+    if (c && Array.isArray(c.steps)) {
+      return `<ol class="challenge-steps">${c.steps.map(s => `<li>${s}</li>`).join('')}</ol>`;
+    }
+    return '';
+  }
+
+  function renderTrend(t, i) {
+    const num = String(i + 1).padStart(2, '0');
+    return `
+      <details class="trend">
+        <summary class="trend-summary">
+          <div class="trend-summary-text">
+            <span class="trend-num">${num}</span>
+            <h2 class="trend-title">${t.title}</h2>
+          </div>
+          <span class="chevron" aria-hidden="true">❯</span>
+        </summary>
+        <div class="trend-body-wrap">
+          <p class="trend-body">${t.body}</p>
+          <ul class="slants">${renderSlants(t.slants)}</ul>
+          <div class="challenge">
+            <div class="challenge-label">Try this with the community</div>
+            ${renderChallenge(t.challenge)}
+          </div>
+        </div>
+      </details>
+    `;
+  }
+
+  function renderDropNavTop(key) {
+    const allKeys = Object.keys(DROPS).sort();
+    const idx = allKeys.indexOf(key);
+    const prev = idx > 0 ? allKeys[idx - 1] : null;
+    const next = idx >= 0 && idx < allKeys.length - 1 ? allKeys[idx + 1] : null;
+
+    const fmt = k => {
+      const d = parseDate(k);
+      return `${WEEKDAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}`;
+    };
+
+    return `
+      <nav class="drop-nav-top" aria-label="Drop navigation (top)">
+        <button class="drop-nav-btn prev" data-target="${prev || ''}" ${prev ? '' : 'disabled'} aria-label="${prev ? 'Previous: ' + fmt(prev) : 'No previous drop'}">
+          <span class="arrow">←</span><span>${prev ? fmt(prev) : 'No earlier drops'}</span>
+        </button>
+        <button class="drop-nav-btn next" data-target="${next || ''}" ${next ? '' : 'disabled'} aria-label="${next ? 'Next: ' + fmt(next) : 'No next drop'}">
+          <span>${next ? fmt(next) : 'Latest drop'}</span><span class="arrow">→</span>
+        </button>
+      </nav>
+    `;
+  }
+
+  function renderDropNav(key) {
+    const allKeys = Object.keys(DROPS).sort();
+    const idx = allKeys.indexOf(key);
+    const prev = idx > 0 ? allKeys[idx - 1] : null;
+    const next = idx >= 0 && idx < allKeys.length - 1 ? allKeys[idx + 1] : null;
+
+    const fmt = k => {
+      const d = parseDate(k);
+      return `${WEEKDAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}`;
+    };
+
+    return `
+      <nav class="drop-nav" aria-label="Drop navigation">
+        <button class="drop-nav-btn prev" data-target="${prev || ''}" ${prev ? '' : 'disabled'} aria-label="${prev ? 'Previous drop: ' + fmt(prev) : 'No previous drop'}">
+          <span class="drop-nav-label">← Previous</span>
+          <span class="drop-nav-date">${prev ? fmt(prev) : '—'}</span>
+        </button>
+        <button class="drop-nav-btn next" data-target="${next || ''}" ${next ? '' : 'disabled'} aria-label="${next ? 'Next drop: ' + fmt(next) : 'No next drop'}">
+          <span class="drop-nav-label">Next →</span>
+          <span class="drop-nav-date">${next ? fmt(next) : '—'}</span>
+        </button>
+      </nav>
+    `;
+  }
+
+  function renderDrop(key) {
+    const drop = DROPS[key];
+    const main = document.getElementById('content');
+
+    if (!drop) {
+      const recent = Object.keys(DROPS).sort().reverse()[0];
+      main.innerHTML = `
+        <div class="empty">
+          <h2>No drop for ${formatDateHero(key).monthDay}, ${formatDateHero(key).year}.</h2>
+          <p>Try the most recent one — <a href="#" id="goto-recent">${formatDateHero(recent).monthDay}, ${formatDateHero(recent).year}</a>.</p>
+        </div>
+      `;
+      document.getElementById('goto-recent').addEventListener('click', e => {
+        e.preventDefault();
+        setKey(recent);
+      });
+      return;
+    }
+
+    const dh = formatDateHero(key);
+    main.innerHTML = `
+      ${renderDropNavTop(key)}
+      <div class="date-hero">
+        <div class="date-weekday">${dh.weekday}</div>
+        <h1 class="date-display">${dh.monthDay}<em>, ${dh.year}</em></h1>
+        <p class="intro">${drop.intro}</p>
+      </div>
+      ${drop.trends.map(renderTrend).join('')}
+      <details class="homework">
+        <summary class="homework-summary">
+          <div class="homework-summary-text">
+            <span class="homework-eyebrow">Homework</span>
+            <h2 class="homework-title">${drop.homework.title}</h2>
+          </div>
+          <span class="chevron" aria-hidden="true">❯</span>
+        </summary>
+        <div class="homework-body-wrap">
+          <p class="homework-body">${drop.homework.body}</p>
+          <div class="homework-prompt">${drop.homework.prompt}</div>
+        </div>
+      </details>
+      ${renderDropNav(key)}
+    `;
+
+    main.querySelectorAll('.drop-nav-btn[data-target]').forEach(btn => {
+      if (btn.disabled) return;
+      btn.addEventListener('click', () => {
+        const target = btn.dataset.target;
+        if (target) setKey(target);
+      });
+    });
+
+    if (hasNavigated) {
+      document.querySelector('.navbar').scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
+    hasNavigated = true;
+  }
+
+  let hasNavigated = false;
+
+  function updateStepperState(key) {
+    const allKeys = Object.keys(DROPS).sort();
+    const idx = allKeys.indexOf(key);
+    const hasPrev = idx > 0;
+    const hasNext = idx >= 0 && idx < allKeys.length - 1;
+    const prevBtn = document.getElementById('step-prev');
+    const nextBtn = document.getElementById('step-next');
+    if (prevBtn) prevBtn.disabled = !hasPrev;
+    if (nextBtn) nextBtn.disabled = !hasNext;
+  }
+
+  document.getElementById('step-prev').addEventListener('click', () => {
+    const allKeys = Object.keys(DROPS).sort();
+    const idx = allKeys.indexOf(currentKey);
+    if (idx > 0) setKey(allKeys[idx - 1]);
+  });
+  document.getElementById('step-next').addEventListener('click', () => {
+    const allKeys = Object.keys(DROPS).sort();
+    const idx = allKeys.indexOf(currentKey);
+    if (idx >= 0 && idx < allKeys.length - 1) setKey(allKeys[idx + 1]);
+  });
+
+  let currentKey = defaultKey();
+
+  function setKey(key) {
+    currentKey = key;
+    document.getElementById('cal-trigger-label').textContent = formatTriggerLabel(key);
+    updateStepperState(key);
+    renderDrop(key);
+  }
+
+  document.getElementById('today-btn').addEventListener('click', () => {
+    const t = todayKey();
+    setKey(DROPS[t] ? t : defaultKey());
+  });
+
+  setKey(currentKey);
+</script>
+
+</body>
+</html>
