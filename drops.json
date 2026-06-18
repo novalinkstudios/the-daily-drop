@@ -93,5 +93,66 @@
       "body": "With hallucination detection now a fundable business, the most valuable habit you can build is doing it yourself. Pick one AI answer you took at face value.",
       "prompt": "\"Here's something an AI told me recently: [paste it]. Act as a skeptical fact-checker. List every claim that is specific and checkable, and rate how confident you are that each is true.\"<br><br>The move is making the AI <em>grade its own confidence, claim by claim</em>. You'll quickly learn which kinds of answers to trust — and which to verify."
     }
+  },
+  "2026-06-18": {
+    "intro": "Thursday: three quiet shifts that separate the people pulling ahead with AI from the people just busy with it — plus a two-minute habit for tonight.",
+    "trends": [
+      {
+        "title": "Your prompt is a delegation, not a search",
+        "body": "The biggest shift in 2026 isn't model capability — it's realizing that <em>a good prompt is a good brief</em>. The people getting the most from AI treat it like onboarding a sharp new hire: give it context, constraints, and a clear picture of what \"done\" looks like. The skill transfers directly from managing people.",
+        "slants": {
+          "strategy": "The clarity you bring to a prompt is the same clarity your strategy needs. If you can't brief the AI, the plan probably isn't ready.",
+          "operations": "Vague prompts produce vague output, the same way vague tickets produce rework. Treat prompt-writing as a form of process documentation.",
+          "pm": "You already write briefs for contractors and teammates. Prompting is that exact muscle, pointed at a tireless collaborator.",
+          "admin": "The context you hold — who needs what, when, and why — is what makes AI useful. You are the brief."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a task you'd normally hand to a capable new teammate.",
+            "Write the instruction as if you were onboarding them: the context, the inputs, and what a great result looks like.",
+            "Paste it into your AI tool, then compare the output to a one-line version of the same ask. Share what changed in the group — the detailed brief usually wins by a mile."
+          ]
+        }
+      },
+      {
+        "title": "The meeting that became a memo",
+        "body": "A quiet pattern across teams this year: meetings that exist mainly to <em>share information</em> are being replaced by AI-drafted written updates people read on their own time. The meetings that survive are the ones that need real-time judgment — debate, decisions, trust-building. The rest are going async by default.",
+        "slants": {
+          "strategy": "Audit your recurring meetings with one question: does this need humans in the same moment, or just the same information? Only the first kind earns a live slot.",
+          "operations": "A status meeting is a synchronization tax. If AI can draft the update, the meeting's only real job is the exceptions.",
+          "pm": "Standups built for information-sharing can become a written thread. Reserve live time for blockers and decisions.",
+          "admin": "You can see which meetings actually move things and which are ritual. That instinct is now a scheduling superpower."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one recurring meeting you attend that's mostly information-sharing.",
+            "With AI's help, draft what that meeting's update would look like as a five-line written post.",
+            "Decide honestly: could the live meeting be shorter — or skipped — if everyone read this instead? Share your verdict in the group."
+          ]
+        }
+      },
+      {
+        "title": "Small automations compound",
+        "body": "The flashy demos get the attention, but the real 2026 gains are quiet: a saved prompt, a templated reply, a recurring summary. <em>None of them are impressive alone.</em> Stacked over weeks, they're the difference between feeling buried and feeling ahead.",
+        "slants": {
+          "strategy": "Don't wait for the transformational AI project. The compounding wins come from many small, boring automations nobody writes a case study about.",
+          "operations": "Every repetitive task you template today pays out every time it recurs. Start a running list of \"things I do more than weekly.\"",
+          "pm": "Automate your own reporting first. The time you save is time you can spend on the judgment work only you can do.",
+          "admin": "You're closest to the repetitive work — which means you're closest to the biggest pile of small wins. Claim them."
+        },
+        "challenge": {
+          "steps": [
+            "List three things you typed or did more than twice this week.",
+            "Pick the most repetitive one and build a reusable prompt or template for it.",
+            "Use it once today, save it somewhere you'll find it again, and share your one reusable template idea in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Tonight, save one prompt you'll use again.",
+      "body": "Most people rewrite the same request to AI from scratch every single time. Tonight, turn one of those into a reusable template.",
+      "prompt": "\"Here's a request I make often: [describe it]. Rewrite it as a reusable template with [BRACKETS] for the parts that change each time, so I can paste it and just fill in the blanks.\"<br><br>The move is making AI build your <em>template</em>, not just answer once. Future-you will thank present-you."
+    }
   }
 }
