@@ -112,6 +112,19 @@
     max-width: 560px;
     line-height: 1.7;
   }
+  .hero-byline {
+    margin-top: 22px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .hero-byline strong {
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+  }
 
   /* ═════════════════════════════════════════
      NAVBAR (sticky controls strip)
@@ -274,10 +287,12 @@
   .cal-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 22px;
     gap: 1px;
   }
   .cal-day {
-    aspect-ratio: 1;
+    min-width: 0;
+    height: 22px;
     background: transparent;
     border: 1px solid transparent;
     color: var(--muted);
@@ -778,6 +793,7 @@
       <h1 class="hero-title">The Daily<br><em>Drop</em></h1>
       <p class="hero-tagline">Come curious. Leave with something you can use on Monday.</p>
       <p class="hero-sub">The Daily Drop is a community for professionals in operations, strategy, project management, and admin roles who want to work smarter with AI — no hype, no fear, just practical tools and honest takes.</p>
+      <p class="hero-byline">Curated daily by <strong>Anjanette W</strong></p>
     </div>
   </div>
 </section>
@@ -1379,6 +1395,7 @@
   });
 
   function renderSlants(slants) {
+    if (!slants) return '';
     return Object.entries(slants).map(([role, text]) =>
       `<li><span class="role">${ROLE_LABELS[role] || role}</span>${text}</li>`
     ).join('');
@@ -1407,11 +1424,11 @@
         </summary>
         <div class="trend-body-wrap">
           <p class="trend-body">${t.body}</p>
-          <ul class="slants">${renderSlants(t.slants)}</ul>
-          <div class="challenge">
+          ${t.slants ? `<ul class="slants">${renderSlants(t.slants)}</ul>` : ''}
+          ${t.challenge ? `<div class="challenge">
             <div class="challenge-label">Try this with the community</div>
             ${renderChallenge(t.challenge)}
-          </div>
+          </div>` : ''}
         </div>
       </details>
     `;
@@ -1492,8 +1509,8 @@
         <h1 class="date-display">${dh.monthDay}<em>, ${dh.year}</em></h1>
         <p class="intro">${drop.intro}</p>
       </div>
-      ${drop.trends.map(renderTrend).join('')}
-      <details class="homework">
+      ${(drop.trends || []).map(renderTrend).join('')}
+      ${drop.homework ? `<details class="homework">
         <summary class="homework-summary">
           <div class="homework-summary-text">
             <span class="homework-eyebrow">Homework</span>
@@ -1505,7 +1522,7 @@
           <p class="homework-body">${drop.homework.body}</p>
           <div class="homework-prompt">${drop.homework.prompt}</div>
         </div>
-      </details>
+      </details>` : ''}
       ${renderDropNav(key)}
     `;
 
@@ -1561,7 +1578,25 @@
     setKey(DROPS[t] ? t : defaultKey());
   });
 
-  setKey(currentKey);
+  /* Daily feed: drops.json is fetched at load and merged over the built-in
+     archive below. The daily-ai-trends scheduled task appends new dated
+     entries to drops.json (see README-feed.md for the expected format), so
+     new drops appear without editing this file. If the fetch fails (e.g.
+     opened via file://), the page still renders the baked-in archive. */
+  async function init() {
+    try {
+      const res = await fetch('drops.json', { cache: 'no-store' });
+      if (res.ok) {
+        const feed = await res.json();
+        if (feed && typeof feed === 'object') Object.assign(DROPS, feed);
+      }
+    } catch (e) {
+      console.warn('Daily Drop: drops.json unavailable, showing built-in archive.', e);
+    }
+    setKey(defaultKey());
+  }
+
+  init();
 </script>
 
 </body>

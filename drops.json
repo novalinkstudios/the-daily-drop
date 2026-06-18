@@ -1,0 +1,97 @@
+{
+  "2026-06-17": {
+    "intro": "Wednesday: five fast-moving stories from the AI world — who's partnering with whom, where the money's going, and what any of it means for the work you'll do this week.",
+    "trends": [
+      {
+        "title": "Siri is going Gemini",
+        "body": "Apple is reportedly set to power a rebuilt Siri with Google's Gemini models rather than going it alone. <em>The most-used assistant on the planet outsourcing its brain</em> is a tell: even the biggest players have decided that owning every layer of the stack isn't worth it. Partnering beats building when the model isn't your differentiator.",
+        "slants": {
+          "strategy": "\"Build vs. buy\" just got settled at the top. If Apple won't build its own frontier model, your org probably shouldn't either — integrate the best one and compete on the experience.",
+          "operations": "Assume the assistant your team uses will swap engines underneath them. Write your workflows against capabilities, not against a specific vendor's quirks.",
+          "pm": "Vendor dependencies are now strategy decisions, not procurement footnotes. Track which model powers each tool in your stack — it can change overnight.",
+          "admin": "Whatever assistant you rely on, expect it to get noticeably smarter without you doing anything. Re-test your go-to prompts when that happens."
+        },
+        "challenge": {
+          "steps": [
+            "List the AI assistant or tool you lean on most at work.",
+            "Note which underlying model powers it today (a quick search usually tells you).",
+            "Ask yourself: if that engine were swapped tomorrow, what in my routine would break? Share the riskiest dependency you spot in the group."
+          ]
+        }
+      },
+      {
+        "title": "Moonshot AI raises $2B",
+        "body": "Moonshot AI — the lab behind the Kimi models — closed a <em>$2 billion</em> round, one of the largest single raises of the year. The signal isn't the dollar figure; it's that serious capital is still flowing to model-builders outside the usual handful of US names. The frontier is getting more crowded, not less.",
+        "slants": {
+          "strategy": "More well-funded labs means more genuine competition, which means falling prices and fewer lock-in moats. Don't sign multi-year commitments as if today's leader is permanent.",
+          "operations": "A more crowded model market is good for your budget. Build a habit of re-pricing your AI tooling every quarter.",
+          "pm": "New capable models keep arriving. Bake a \"re-evaluate our model choice\" checkpoint into your annual planning, not just your kickoffs.",
+          "admin": "You don't need to track every funding round — just know that the tool you use today won't be the only good option for long."
+        },
+        "challenge": {
+          "steps": [
+            "Pull up what your team currently pays (in money or seats) for AI tools.",
+            "Spend five minutes checking whether a newer or cheaper model now covers the same need.",
+            "Share one place where competition might already be saving you money."
+          ]
+        }
+      },
+      {
+        "title": "Gemma 4 lands as open weights",
+        "body": "Google released <em>Gemma 4 with open weights</em> — meaning anyone can download and run it on their own hardware. Capable, free-to-run models keep closing the gap with the paid frontier. For privacy-sensitive or cost-sensitive work, \"run it yourself\" is becoming a real option, not a hobbyist experiment.",
+        "slants": {
+          "strategy": "Open-weight models change the data-privacy calculus. Work that couldn't touch a third-party API may now be doable in-house.",
+          "operations": "For high-volume, repetitive tasks, a self-hosted open model can be dramatically cheaper than per-call pricing. Flag those candidates now.",
+          "pm": "\"Can this run on our own infrastructure?\" is now a real question for AI features. Add it to your requirements-gathering.",
+          "admin": "You won't be running models yourself — but it's worth knowing your IT team may soon offer an internal, private AI tool for sensitive documents."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one task you'd love to use AI for but haven't, because the data is too sensitive to paste into a public tool.",
+            "Write it down — that's a candidate for a private, self-hosted model.",
+            "Share the category of task (no confidential details) in the group so we can compare notes on what's now newly possible."
+          ]
+        }
+      },
+      {
+        "title": "Agentic browsing comes to Chrome on Android",
+        "body": "Google is bringing <em>agentic browsing to Chrome on Android</em> — letting the browser carry out multi-step tasks on your behalf, on the device most people actually use. The agent era stops being a desktop demo and lands in everyone's pocket. The skill shifts from \"search and click\" to \"delegate and verify.\"",
+        "slants": {
+          "strategy": "When the browser can act, not just display, the surfaces customers reach you through change. Revisit assumptions about how people will actually navigate to your product.",
+          "operations": "Agents doing tasks in a browser will hit your forms and flows in new ways. Test whether your processes survive an agent — not just a human — walking through them.",
+          "pm": "Delegating a multi-step task to an agent is its own skill. Start practicing on low-stakes personal errands so you're fluent before it matters at work.",
+          "admin": "This is the stuff that eats your day — booking, filling forms, chasing info. Watch for it arriving on your phone, and let it handle the boring multi-step chores first."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one tedious, multi-step task you do in a browser (comparison shopping, filling a repetitive form, gathering links).",
+            "Write the task out as a clear instruction you could hand to an agent — be explicit about what \"done\" looks like.",
+            "Share your instruction in the group. The clearer your brief, the more ready you are for agentic tools."
+          ]
+        }
+      },
+      {
+        "title": "\"Probably\" raises $9M to catch AI hallucinations",
+        "body": "A startup called Probably raised <em>$9 million</em> to build hallucination detection — tools that flag when an AI is confidently making things up. The fact that catching AI errors is now a fundable category says everything: <em>verification, not generation, is where the value is moving</em>. The hard part was never getting an answer; it's trusting it.",
+        "slants": {
+          "strategy": "Trust infrastructure is becoming its own market. If AI output feeds your decisions, budget for verification the way you'd budget for an audit.",
+          "operations": "Build a verification step into every AI-assisted workflow now, before tooling catches up. A human spot-check is the cheapest hallucination detector you have.",
+          "pm": "\"Who verifies the AI's output, and how?\" belongs in your project plans as an explicit, owned step — not an assumed one.",
+          "admin": "Your instinct to double-check before something goes to an exec is exactly the skill this whole market is being built to replicate. Keep trusting it."
+        },
+        "challenge": {
+          "steps": [
+            "Find one recent piece of AI output you used without independently checking it.",
+            "Verify one specific claim in it against a primary source.",
+            "Share whether it held up — and how long the check actually took. Often it's faster than we fear."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Tonight, fact-check one thing AI told you this week.",
+      "body": "With hallucination detection now a fundable business, the most valuable habit you can build is doing it yourself. Pick one AI answer you took at face value.",
+      "prompt": "\"Here's something an AI told me recently: [paste it]. Act as a skeptical fact-checker. List every claim that is specific and checkable, and rate how confident you are that each is true.\"<br><br>The move is making the AI <em>grade its own confidence, claim by claim</em>. You'll quickly learn which kinds of answers to trust — and which to verify."
+    }
+  }
+}

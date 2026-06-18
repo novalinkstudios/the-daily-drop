@@ -1,0 +1,5 @@
+# Local tooling / editor state
+.claude/
+
+# Netlify local deploy linkage (site ID, etc.)
+.netlify/
