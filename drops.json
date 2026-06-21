@@ -131,5 +131,72 @@
       "body": "Everyone's got one — a message to send, a boundary to set, a favor to ask, a topic to raise. No work context needed. Open a free tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I need to [describe the conversation — ask a neighbor something, bring up a topic with a friend, negotiate with a contractor, talk to a family member about X]. Give me 3 different ways to open the conversation, ranked from most direct to most gentle. For each, tell me what tone it sets.\"<br><br>The <em>ranked with tone labels</em> trick helps you choose consciously instead of defaulting to whatever feels safest."
     }
+  },
+  "2026-06-21": {
+    "intro": "Sunday check-in. The AI adoption numbers are in, and the gap between organizations that have AI and those using it well keeps growing — and the cause isn't the technology.",
+    "trends": [
+      {
+        "title": "The 'enablement illusion' is the new AI risk",
+        "body": "Most leaders are measuring AI adoption by access, not by whether it changes anything. Gartner's May 2026 global survey of 12,000+ employees found that workers who are AI-proficient across multiple use cases are <em>3.2 times more likely to drive effective process improvements</em> than those with basic access. By 2027, Gartner predicts half of enterprises without a people-first AI strategy will lose their best AI talent.",
+        "slants": {
+          "strategy": "Reframe your AI KPIs: shift from 'licenses deployed' to 'workflows meaningfully changed' — that's where the ROI signal actually lives.",
+          "operations": "Audit which teams have AI access but no structured time or training to use it — that's where the enablement illusion costs the most.",
+          "pm": "Build AI proficiency as a project success criterion, not just adoption rate — capability depth drives results, not tool access alone.",
+          "admin": "If you've been given AI tools but no clear guidance on using them, that's your organization's gap to close, not yours — advocate for a structured use-case session with your team."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Think of one recurring task you do weekly that feels repetitive — a status update, a summary, or a data lookup.",
+            "Paste this prompt: <em>I need to [describe your task]. Walk me through how AI could help me do this faster, and give me a sample prompt I can use next time.</em>",
+            "Try the sample prompt on a real, non-sensitive example.",
+            "Note what worked and what you would adjust.",
+            "Share your task and the sample prompt in the community group — help others see what's possible."
+          ]
+        }
+      },
+      {
+        "title": "Agents are in production, but half of companies skipped the redesign",
+        "body": "Active AI agents in the Microsoft 365 ecosystem grew <em>15x year over year</em>, per Microsoft's 2026 Work Trend Index of 20,000 knowledge workers. Deloitte found that nearly half of organizations introduced AI without redesigning the workflows or roles around it — so agents are running on top of broken processes instead of better ones.",
+        "slants": {
+          "strategy": "Before scaling agentic AI, map one existing workflow end-to-end and identify what's being automated versus what's just being accelerated — that difference determines your actual efficiency gain.",
+          "operations": "If your team uses agents to speed up a manual handoff, the handoff is the problem — use this as a trigger to redesign the process, not just automate it.",
+          "pm": "Add a workflow redesign checkpoint to your AI rollout process — deploying an agent without it is like adding a faster engine to a car with no steering.",
+          "admin": "If a new AI tool was added to your workflow without explanation, it's fair to ask how it changes what you're supposed to do — that question is worth raising."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one process your team uses regularly that has more than three steps.",
+            "Open your company-approved AI tool and type: <em>Here is a workflow my team uses: [describe it in plain English]. Which steps could an AI agent handle, and which require human judgment?</em>",
+            "Review the response — does it flag any steps you hadn't considered?",
+            "Write down one step that could go to AI and one that definitely shouldn't.",
+            "Share your findings in the community group — what was the most surprising step to keep human?"
+          ]
+        }
+      },
+      {
+        "title": "How managers model AI use shapes outcomes more than tools do",
+        "body": "Microsoft's 2026 Work Trend Index found that when managers actively model their own AI use, employees report a <em>30-point lift in trust in agentic AI</em> and a 22-point lift in how critically they evaluate AI output. Organizational culture accounts for more than twice the impact on AI value as individual employee mindset — 67% versus 32%.",
+        "slants": {
+          "strategy": "If AI adoption is stalling in your org, look at your managers before your tech stack — culture and manager behavior are 2x more predictive of AI ROI than individual mindset.",
+          "operations": "Have team leads share one AI-assisted output per week in team meetings, with a note on what worked and what needed fixing — that's the modeling that moves metrics.",
+          "pm": "Psychological safety around AI experimentation is measurable: teams where managers encourage trying and failing with AI tools report up to 20 points higher AI readiness — build that into your team norms.",
+          "admin": "When your manager shares how they use AI, pay attention — it signals what the organization considers safe to try, and it's worth taking note of."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last time you shared work that AI helped you with — did you mention the AI, or leave it invisible?",
+            "Open your company-approved AI tool and use this prompt: <em>Write a casual 3-sentence note I could share with a coworker explaining one way I used AI this week. Keep it conversational and honest about what it did well.</em>",
+            "Edit the draft to sound like you.",
+            "Share it in the community group — modeling starts with one person going first."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a trip you've been putting off",
+      "body": "Got a summer trip living in your head as 'someday'? Turn it into an actual plan — no work data, no risk. Try this in ChatGPT, Claude, or Gemini (all free):",
+      "prompt": "I want to plan a trip to [your destination or 'somewhere new within a few hours of me']. Before you give me suggestions, ask me 3 questions that will help you understand my travel style and budget.<br><br>After I answer, give me a 3-day itinerary with one 'splurge' option and one 'budget-friendly' version for each day."
+    }
   }
 }
