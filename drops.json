@@ -1,4 +1,4 @@
-{
+﻿{
   "2026-06-17": {
     "intro": "Wednesday: the gap between having AI and winning with AI keeps widening. Three things to think about — and a low-key experiment for tonight.",
     "trends": [
@@ -197,6 +197,73 @@
       "title": "Plan a trip you've been putting off",
       "body": "Got a summer trip living in your head as 'someday'? Turn it into an actual plan — no work data, no risk. Try this in ChatGPT, Claude, or Gemini (all free):",
       "prompt": "I want to plan a trip to [your destination or 'somewhere new within a few hours of me']. Before you give me suggestions, ask me 3 questions that will help you understand my travel style and budget.<br><br>After I answer, give me a 3-day itinerary with one 'splurge' option and one 'budget-friendly' version for each day."
+    }
+  },
+  "2026-06-23": {
+    "intro": "Tuesday. Three new data points this week confirm what most leaders already sense: AI is forcing a rethink of how work is organized — not just what tools are on the menu.",
+    "trends": [
+      {
+        "title": "Leadership alignment is the real AI bottleneck",
+        "body": "Microsoft's 2026 Work Trend Index found that <em>82% of leaders call 2026 a pivotal year to rethink strategy and operations</em> — but only 1 in 4 AI users say leadership is consistently aligned on what AI should do. The gap isn't tooling; it's direction.",
+        "slants": {
+          "strategy": "If your AI investments aren't paired with a clear owner and measurable outcome, they're experiments, not strategy — and experiments don't show up in next year's budget.",
+          "operations": "Misaligned leadership means mixed signals for the people actually running the tools — define what 'good AI use' looks like on your team so your staff isn't guessing.",
+          "pm": "Leadership misalignment surfaces in your project — as scope creep, last-minute AI requests, and post-launch pivots. Surface the question of AI governance in kickoff, not retrospective.",
+          "admin": "When AI strategy is unclear from the top, frontline staff get asked to figure it out themselves — your practical experience using these tools is exactly what leadership needs to hear."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"Our organization is adopting AI but leadership alignment is weak. What are 3 practical questions a team lead or senior contributor could raise in the next all-hands to push for clearer direction?\"</em>",
+            "Pick the one question that feels most relevant to your team.",
+            "Ask a follow-up: <em>\"Rewrite that question as a 2-sentence message I could send to my manager before our next 1:1.\"</em>",
+            "Share your question in the community group — even if you haven't sent it yet."
+          ]
+        }
+      },
+      {
+        "title": "AI agents are now an enterprise infrastructure problem",
+        "body": "Gartner projects that <em>40% of enterprise applications will include task-specific AI agents by the end of 2026</em>, up from fewer than 5% in 2025. Microsoft shipped its Work IQ APIs (June 16) to help IT teams build controlled agents inside Microsoft 365 — signaling that agents are moving from pilot to plumbing.",
+        "slants": {
+          "strategy": "Every agent your organization deploys is an infrastructure commitment — before approving the next one, ask who owns it, how its output gets reviewed, and what happens when it makes a mistake.",
+          "operations": "The people who feel agent sprawl first are ops: someone has to define the handoffs, catch the edge cases, and own the process when an agent does something unexpected — start designing that role now.",
+          "pm": "Agent integrations belong in your project charter, not your backlog — scope includes who monitors the agent, what triggers human review, and what the rollback plan is.",
+          "admin": "As agents handle more routing, scheduling, and drafting, the value you add shifts to quality control and judgment — make sure you know what the agents in your stack are doing each day."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"What is an AI agent, in plain language? Give me 3 examples of AI agents a typical office professional might already be using without realizing it.\"</em>",
+            "Identify whether any of those sound familiar in your own work.",
+            "Ask a follow-up: <em>\"For one of those agent types, what are 3 questions I should ask before trusting its output at work?\"</em>",
+            "Share one agent you recognize in your workflow in the community group."
+          ]
+        }
+      },
+      {
+        "title": "The job market is splitting — and human skills are winning",
+        "body": "PwC's 2026 Global AI Jobs Barometer (June 15) found that <em>roles where AI elevates human judgment are seeing twice the job growth and 42% faster salary growth</em> than roles where AI simply handles the work. The finding flips the common fear: AI isn't replacing expertise — it's making it worth more.",
+        "slants": {
+          "strategy": "The competitive talent question isn't 'who can use AI' — it's 'who can use AI to think better.' Redesign roles around the judgment AI can't replicate, and you'll have something harder to commoditize.",
+          "operations": "Process design, exception handling, and cross-functional coordination are growing more valuable — not less — as AI handles the routine. These are exactly what great ops people are already good at.",
+          "pm": "The PM skills AI amplifies most are prioritization, stakeholder alignment, and judgment under uncertainty — all things you build through practice, not prompts. Keep investing there.",
+          "admin": "The admin functions with the strongest outlook require relationship management, organizational knowledge, and contextual judgment — these are not automatable, and they're increasingly rare."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"I work in [your role or field]. What specific skills in my role are becoming MORE valuable as AI handles routine tasks? Give me 3, with a concrete example of how each shows up in day-to-day work.\"</em>",
+            "Pick the skill you feel least confident about right now.",
+            "Ask a follow-up: <em>\"Give me one 15-minute practice scenario I can try this week to strengthen [that skill] — keep it personal, not work-related, so there's no risk.\"</em>",
+            "Share what skill you're focusing on in the community group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Decode your summer utility bill with AI",
+      "body": "Try this at home: use AI to decode a bill that always feels like a mystery. The technique is called structured output — you tell the AI exactly what sections you want back, which makes the answer far easier to act on. Try this in ChatGPT, Claude, or Gemini (all free).",
+      "prompt": "I'm going to paste my electric or gas bill. Please analyze it and give me: (1) a plain-English summary of what I'm paying for, (2) the 2–3 biggest cost drivers this month, (3) one practical thing I can do to reduce the bill without major changes, and (4) any charges or fees I should question or look into.<br><br>Here is my bill: [paste your bill text here]"
     }
   }
 }
