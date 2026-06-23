@@ -199,6 +199,73 @@
       "prompt": "I want to plan a trip to [your destination or 'somewhere new within a few hours of me']. Before you give me suggestions, ask me 3 questions that will help you understand my travel style and budget.<br><br>After I answer, give me a 3-day itinerary with one 'splurge' option and one 'budget-friendly' version for each day."
     }
   },
+    "2026-06-22": {
+    "intro": "Monday. Most companies have AI agents in production now — so this week's real question isn't whether to deploy, it's whether anyone's actually steering them. Three things to think about, and a five-minute experiment to start the week.",
+    "trends": [
+      {
+        "title": "Most AI agents are running without a kill switch",
+        "body": "Writer's 2026 AI Adoption in the Enterprise survey (with Workplace Intelligence, covering 1,200 executives and 1,200 employees) found that <em>36% of organizations have no formal plan for supervising AI agents</em>, and 35% admit they couldn't immediately 'pull the plug' on one that went rogue. Meanwhile 67% of executives believe their company has already suffered a data leak from unapproved AI tools, and 55% describe AI use at their company as a 'chaotic free-for-all.'",
+        "slants": {
+          "strategy": "Governance is now a competitive advantage, not a compliance tax — the orgs that can safely say 'yes' to AI will out-execute the ones still saying 'wait.' Make agent oversight a metric leadership actually reviews.",
+          "operations": "For every agent your team runs, write down two things this week: who owns it, and how you'd stop it. If you can't answer either, that's your highest-priority fix.",
+          "pm": "Add a 'named owner and documented off-switch' line to your AI deployment checklist — an agent without both isn't production-ready, no matter how well it demos.",
+          "admin": "If you're using an AI tool that was never officially approved, you're not alone — but flag it so it can be made safe rather than hidden. Shadow AI only becomes a breach when nobody knows it's there."
+        },
+        "challenge": {
+          "steps": [
+            "List every AI tool or agent you personally use for work — including the unofficial ones.",
+            "Open your company-approved AI tool and paste: <em>Here is a list of AI tools I use for work: [your list]. For each one, ask me a question that would help determine whether it's touching sensitive company data.</em>",
+            "Answer the questions honestly for yourself.",
+            "Flag anything that touches sensitive data to your manager or IT — frame it as 'help me use this safely,' not a confession.",
+            "Share one thing you learned about your own AI footprint in the community group."
+          ]
+        }
+      },
+      {
+        "title": "97% deployed agents. Only 29% are seeing returns.",
+        "body": "The same 2026 enterprise research found that while <em>97% of organizations deployed AI agents in the past year</em> — and 80%+ of the Fortune 500 now run them in production — only 29% report significant ROI, and 79% say they're facing real challenges scaling AI, a double-digit jump from 2025. The bottleneck isn't access to agents; it's the workflows and oversight around them.",
+        "slants": {
+          "strategy": "If your ROI story is still 'we deployed X agents,' you're measuring activity, not value. Trace one agent to a dollar saved or an hour freed — if you can't, that's the gap to close before deploying the next one.",
+          "operations": "Resist adding another agent this week. Take one you already have and remove a step of friction around it — most agent ROI leaks out through the human handoffs at the edges.",
+          "pm": "Treat every agent rollout like a product with a success metric defined before launch. 'It's live' is a milestone, not an outcome.",
+          "admin": "If an agent is supposed to save you time but you're spending more time double-checking it, that's real signal — surface it. The fix is usually upstream, not your patience."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI agent or automation your team already uses.",
+            "Open your company-approved AI tool and type: <em>An AI agent at my company does [describe what it does]. Help me figure out whether it's actually saving time — ask me 3 questions about how the work flowed before and after.</em>",
+            "Answer the questions and notice where the real time goes now.",
+            "Identify one handoff or check around the agent that could be smoothed.",
+            "Share the friction point you found in the community group — odds are someone else has it too."
+          ]
+        }
+      },
+      {
+        "title": "The people going deep with AI are pulling away",
+        "body": "Across 2026 workforce research, the divide keeps widening between casual users and 'super-users' who weave AI through multiple tasks: super-users report saving roughly <em>nine hours a week</em> and are several times more productive than slow adopters. Yet 56% of the global workforce says they've had <em>no recent AI training</em>, and 57% lack access to mentorship. The capability is available; the structured chance to build it often isn't.",
+        "slants": {
+          "strategy": "Your biggest AI ROI lever this quarter may be training, not tooling — the proficiency gap, not the access gap, is what separates your top performers from the rest.",
+          "operations": "Block 30 minutes this week for your team to swap one AI workflow each. Peer learning closes the proficiency gap faster than any vendor webinar.",
+          "pm": "Build skill-building into project timelines, not as an afterthought — a team that's nine hours a week more efficient pays back the training time inside the first sprint.",
+          "admin": "You don't need permission to get better at this. Pick one task you do often and spend 15 minutes finding a sharper way to do it with AI — that compounds."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one task you did with AI this week that felt just 'okay.'",
+            "Open your company-approved AI tool and paste: <em>Last time I used AI for [task], I [describe what you did]. Suggest three ways I could have gotten a better result, and rewrite my approach as a reusable prompt.</em>",
+            "Save the reusable prompt somewhere you'll find it again.",
+            "Use it on your next real task.",
+            "Share your reusable prompt in the community group — give someone else a nine-hours-a-week head start."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Design your ideal Saturday",
+      "body": "Mondays are easier when there's something to look forward to. Use AI to plan one genuinely good day off — no agenda, no obligations, no work data. Try it in ChatGPT, Claude, or Gemini (all free):",
+      "prompt": "I want to design my ideal Saturday with zero obligations. Before suggesting anything, ask me 3 questions about what actually recharges me — whether that's quiet, adventure, people, or none of the above.<br><br>Then give me a loose hour-by-hour plan for the day, with one option that costs nothing and one small 'treat yourself' upgrade."
+    }
+  },
   "2026-06-23": {
     "intro": "Tuesday. Three new data points this week confirm what most leaders already sense: AI is forcing a rethink of how work is organized — not just what tools are on the menu.",
     "trends": [
