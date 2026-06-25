@@ -332,5 +332,72 @@
       "body": "Try this at home: use AI to decode a bill that always feels like a mystery. The technique is called structured output — you tell the AI exactly what sections you want back, which makes the answer far easier to act on. Try this in ChatGPT, Claude, or Gemini (all free).",
       "prompt": "I'm going to paste my electric or gas bill. Please analyze it and give me: (1) a plain-English summary of what I'm paying for, (2) the 2–3 biggest cost drivers this month, (3) one practical thing I can do to reduce the bill without major changes, and (4) any charges or fees I should question or look into.<br><br>Here is my bill: [paste your bill text here]"
     }
+  },
+  "2026-06-24": {
+    "intro": "Wednesday. This week's AI signals are pointing in one direction: the professionals treating AI as a full workflow partner — not just a single-task helper — are unlocking a level of output that's changing what \"good work\" looks like. The opportunity to be one of them is wide open.",
+    "trends": [
+      {
+        "title": "Your AI Tool Can Now Run the Whole Play",
+        "body": "The biggest shift in AI productivity in 2026 isn't a new model — it's a new mode of working. Today's leading AI platforms don't just answer questions; they complete entire workflows: researching, drafting, formatting, and delivering — all in one pass. <em>The AI productivity landscape has shifted decisively from single-task assistants to multi-step agents capable of owning full workflows from research through final output, with over 20 major platforms releasing agentic features in the first half of 2026, per aisofting.com's 2026 AI Productivity Tools Update.</em> For working professionals, this means the unit of delegation is no longer a prompt — it's an entire process.",
+        "slants": {
+          "strategy": "If your team is still using AI one question at a time, you're running a 2024 strategy with 2026 tools — the competitive advantage now lives in delegating whole workflows, not individual tasks.",
+          "operations": "Full-workflow AI means a process that used to take your team a full day — intake, research, draft, format — can now return a polished output in under an hour, compressing turnaround and freeing capacity for higher-value work.",
+          "pm": "Think of AI agents as a force multiplier on your projects: research briefs, status summaries, and stakeholder updates can now be produced autonomously, letting you focus on the decisions and relationships that need your judgment.",
+          "admin": "Multi-step AI means you can hand off a complex support task — travel research, meeting prep, briefing documents — and get back a finished, ready-to-share result, making your contribution feel more strategic than ever."
+        },
+        "challenge": {
+          "steps": [
+            "Identify one recurring multi-step task you do weekly — something that involves research, then writing or summarizing a result.",
+            "Open your AI tool and paste this prompt: <em>\"You are my expert assistant. Complete this task from start to finish: [describe your task in 1-2 sentences]. First, gather the key information. Then organize the main points. Then write the final output.\"</em>",
+            "Review the full output — note where it landed well and where it missed the mark.",
+            "Run this follow-up to refine: <em>\"Revise the output with these changes: [your specific edits]. Format the final version as [your preferred format — bullet list, email, one-pager, etc.].\"</em>",
+            "Save your two-prompt sequence as a reusable template for this task going forward."
+          ]
+        }
+      },
+      {
+        "title": "AI Meeting Notes Just Crossed the Unicorn Line",
+        "body": "The AI meeting intelligence category just had its defining moment. Granola — which automatically captures, structures, and summarizes your meetings — closed a $125M Series C and reached a <em>$1.5 billion valuation, up from $250 million just one year earlier, according to TechCrunch (March 2026)</em>. The message from investors and enterprises alike: AI-powered meeting context is becoming foundational infrastructure, not a productivity add-on.",
+        "slants": {
+          "strategy": "A $1.5B bet on meeting intelligence signals that the companies winning right now treat meeting context as a strategic asset — if your team's decisions are still scattered across personal notes and inboxes, now is the time to centralize.",
+          "operations": "AI meeting tools close the gap between what was decided and what actually gets done — every action item, owner, and deadline surfaces automatically, making follow-through a default rather than an extra effort.",
+          "pm": "When AI captures every meeting decision and next step automatically, your status updates practically write themselves and your projects move faster — this is leverage that makes you look like you have more bandwidth than anyone else in the room.",
+          "admin": "AI meeting tools transform the admin role from manual transcription to strategic review — you're distributing clean summaries and clear action items, a visible upgrade that showcases your value to the whole team."
+        },
+        "challenge": {
+          "steps": [
+            "Before your next meeting, open your AI tool and have it ready — you'll use it right after.",
+            "After the meeting, paste your raw notes with this prompt: <em>\"Here are my notes from a [type of meeting] meeting. Please extract: (1) key decisions made, (2) action items with owners, (3) open questions still unresolved, and (4) a 3-sentence summary. [paste notes here]\"</em>",
+            "Review the output and correct any misattributions or items that were missed.",
+            "Follow up with: <em>\"Format this as a brief recap message I can send to the attendees. Keep it under 150 words and use a professional but warm tone.\"</em>",
+            "Send the recap (or save it as your post-meeting template) — and track how much time you just recovered."
+          ]
+        }
+      },
+      {
+        "title": "Enterprise AI Spending Just Hit Warp Speed",
+        "body": "The numbers behind enterprise AI adoption in 2026 are now hard to ignore. Anthropic's annualized revenue surpassed <em>$30 billion — up from approximately $9 billion just six months earlier — with over 1,000 businesses now each spending more than $1 million annually, a number that doubled in under two months, per Anthropic</em>. When organizations are committing at this scale, AI fluency has moved from a résumé bonus to a baseline professional expectation.",
+        "slants": {
+          "strategy": "Revenue growth at this speed signals that enterprise AI adoption has crossed into the mainstream — strategy leaders who haven't built AI into their operating model aren't early movers anymore, but there's still real advantage in moving now.",
+          "operations": "As your organization's AI tools become more capable and embedded, the ops professional who already knows how to leverage them becomes the go-to resource — positioning you ahead of the next wave before it arrives.",
+          "pm": "As AI becomes standard across enterprise stacks, PMs who can define AI-augmented workflows will have a decisive advantage in velocity, quality, and the confidence of their stakeholders.",
+          "admin": "The faster enterprise AI adoption accelerates, the more valuable the admin who already knows how to use these tools well becomes — now is the moment to build that expertise and let it be visible."
+        },
+        "challenge": {
+          "steps": [
+            "Choose one deliverable you produce regularly — a report, brief, summary, or proposal — and note how long it currently takes you from scratch.",
+            "Open your AI tool and try this prompt: <em>\"Act as an expert in [your field or role]. Draft a [deliverable type] based on this input: [paste your source material, bullet points, or key facts here].\"</em>",
+            "Time how long it takes from first prompt to a polished draft — compare it to your usual time.",
+            "Refine with: <em>\"Tighten the language, cut anything repetitive, and add one specific example or stat to strengthen the main point.\"</em>",
+            "Track your time savings across three uses of this workflow, then share the result with your manager as a case for formalizing the process."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Weekend Menu in Five Minutes",
+      "body": "Tonight's homework is a low-stakes way to practice structured output — the prompting technique where you tell AI exactly what format and categories you want in the response. It's one of the highest-leverage skills you can build, because it transfers directly to any work task where you need organized information fast: briefings, comparison tables, action plans, project summaries. Use your fridge as the dataset and see how precisely AI organizes to your specs.",
+      "prompt": "Act as a practical home meal planner. Based on these ingredients and constraints: [paste what's in your fridge plus any dietary preferences or time limits], create a weekend plan — Saturday dinner and Sunday brunch — that requires no special shopping. Format each meal as: Meal name | Key ingredients | Cook time | One reason we'll love it."
+    }
   }
 }
