@@ -1,4 +1,71 @@
 ﻿{
+  "2026-06-26": {
+    "intro": "Friday. This week's biggest AI moves are all about infrastructure catching up to ambition — a new chip, a new agent inside your existing tools, and new data confirming the time savings are real. The question now is what you do with them.",
+    "trends": [
+      {
+        "title": "Your AI Tools Just Got a Speed and Cost Upgrade",
+        "body": "OpenAI and Broadcom announced Jalapeño on June 24 — OpenAI's first custom AI inference chip, built from scratch in just nine months. Designed specifically for large language models, the chip delivers <em>performance per watt substantially better than today's state-of-the-art, with gigawatt-scale data center deployments beginning before end of 2026</em> (OpenAI/Broadcom). When the infrastructure powering your AI tools gets faster and cheaper, so does everything you build with it.",
+        "slants": {
+          "strategy": "Faster inference and lower infrastructure costs mean AI capabilities that only large enterprises could afford in 2025 will be accessible to mid-market teams within 12 months — plan for capability jumps, not just cost reductions.",
+          "operations": "Speed-optimized AI infrastructure means the latency issues that make some AI workflows impractical today are likely to disappear — revisit automations you ruled out as too slow.",
+          "pm": "When AI gets faster and cheaper, scope conversations change — projects that required phasing AI in incrementally can now be designed with AI-first flows from the start.",
+          "admin": "Infrastructure advances like this don't require you to do anything — but they're worth knowing, because they're why the AI tools you use today will feel noticeably more capable six months from now."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"What is an AI inference chip, and why does having a custom one matter for a company like OpenAI? Explain it in terms a non-technical professional would understand.\"</em>",
+            "Note one thing that surprised you or changed how you think about how AI tools actually work.",
+            "Ask a follow-up: <em>\"If AI inference gets twice as fast and half as expensive in the next 12 months, what are 3 ways a typical mid-sized company might change how it uses AI?\"</em>",
+            "Share one of the three ideas in the community group."
+          ]
+        }
+      },
+      {
+        "title": "Microsoft's New AI Agent Works While You Sleep",
+        "body": "Microsoft unveiled Scout this week — an always-on AI agent built into Microsoft 365 that autonomously handles multi-step tasks across Teams, Outlook, calendars, OneDrive, and SharePoint without waiting for step-by-step instructions. <em>Scout is designed to coordinate schedules, surface workflow bottlenecks, and carry out routine activities autonomously across the Microsoft stack</em> (Microsoft, June 2026). For the hundreds of millions of professionals already in M365, it's not a new tool to learn — it's a layer inside the tools you already use every day.",
+        "slants": {
+          "strategy": "Scout isn't a productivity add-on — it's a signal that Microsoft is repositioning M365 as an autonomous work platform. Organizations that define what Scout should and shouldn't do now will shape how their teams work, rather than react to it.",
+          "operations": "An autonomous agent that surfaces bottlenecks and coordinates across systems is exactly what an operations function needs — the teams that figure out how to direct Scout's attention will compound their throughput significantly.",
+          "pm": "Scout can monitor project channels, flag stalled threads, and draft status updates automatically — the PMs who learn to define its parameters well will spend less time chasing and more time leading.",
+          "admin": "If you support executives inside M365, Scout will increasingly handle routine scheduling and drafting tasks — and your value will shift to the judgment calls it can't make, like what actually matters to the people you support."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"I use Microsoft 365 every day. What are 5 repetitive tasks in Outlook, Teams, or calendar management that an AI agent could realistically handle autonomously — and what would I need to define or configure to make that work well?\"</em>",
+            "Pick the one task that would save you the most time if handled automatically.",
+            "Ask a follow-up: <em>\"What is the one thing a human should always review before an AI agent sends a message or schedules a meeting on their behalf — and why?\"</em>",
+            "Share your top time-saving task in the community group."
+          ]
+        }
+      },
+      {
+        "title": "AI Is Saving a Full Workday Per Week — Now What?",
+        "body": "BCG's 2026 Global AI at Work report surveyed nearly 12,000 frontline employees and found that <em>42% of regular AI users are saving eight hours per week — a full workday — but 66% say they received little to no guidance on what to do with that time</em> (BCG, 2026). The gap between time reclaimed and value created is now the defining challenge of AI adoption, not tool availability.",
+        "slants": {
+          "strategy": "You can measure AI ROI by time saved or by value created — the companies pulling ahead are the ones where leadership has converted saved hours into capacity for higher-value work, not just a lighter calendar.",
+          "operations": "If your team is saving eight hours a week but output hasn't visibly shifted, the gap is process design — now is the time to redirect that capacity deliberately, before it gets absorbed back into low-value work.",
+          "pm": "When stakeholders ask about AI ROI, \"hours saved\" is a weak answer and \"what we built with those hours\" is a strong one — help your team translate freed capacity into tangible deliverables in the project plan.",
+          "admin": "Time saved is the beginning, not the end — if AI is handling your routine tasks, this is the moment to step into the higher-visibility work that makes your role indispensable: relationship management, complex coordination, and judgment."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"I use AI regularly at work. What are 3 high-value activities I could spend more time on if AI handles my most repetitive tasks? I work in [your role or department] — give me specific examples, not generic advice.\"</em>",
+            "Pick the one activity that would have the most visible impact on your work or your team.",
+            "Ask a follow-up: <em>\"Give me a simple 3-step plan for carving out 30 minutes this week to start doing that higher-value activity, even if my calendar looks full.\"</em>",
+            "Share what you're planning to do with your saved time in the community group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Decode your credit card statement with AI",
+      "body": "Try this at home: use AI to make sense of a statement you usually just scroll past. The technique is called role prompting — you give the AI a specific perspective to analyze from, which dramatically sharpens the output. Try this in ChatGPT, Claude, or Gemini (all free).",
+      "prompt": "Act as a personal finance coach reviewing my credit card statement. I'll paste it below. Please give me: (1) a plain-English breakdown of where my money went by category, (2) two or three spending patterns worth knowing about, (3) one specific thing I might want to cut or question, and (4) a one-line encouragement based on what you see. Here is my statement: [paste your statement here]"
+    }
+  },
   "2026-06-17": {
     "intro": "Wednesday: the gap between having AI and winning with AI keeps widening. Three things to think about — and a low-key experiment for tonight.",
     "trends": [
