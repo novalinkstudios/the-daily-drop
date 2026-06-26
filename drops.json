@@ -400,6 +400,73 @@
       "prompt": "I'm going to paste my electric or gas bill. Please analyze it and give me: (1) a plain-English summary of what I'm paying for, (2) the 2–3 biggest cost drivers this month, (3) one practical thing I can do to reduce the bill without major changes, and (4) any charges or fees I should question or look into.<br><br>Here is my bill: [paste your bill text here]"
     }
   },
+  "2026-06-25": {
+    "intro": "Thursday. This week's biggest AI moves are all about the ecosystem growing up: new career tracks, smarter agents, and policy clarity that lets your organization say yes to AI with confidence.",
+    "trends": [
+      {
+        "title": "A New AI Career Track Just Opened — At Scale",
+        "body": "OpenAI launched its Partner Network with a $150 million commitment targeting <em>300,000 certified AI consultants by the end of 2026 — a credentialing wave roughly the size of Accenture's entire global workforce</em> (OpenAI, June 14). The three-tier program (Select, Advanced, Elite) adds specializations in AI agents, Codex, and cybersecurity. It's the fastest professional AI credentialing expansion on record.",
+        "slants": {
+          "strategy": "If your team gets into this ecosystem early — as a certified implementer or an informed buyer — you're positioned ahead of the 300K wave, not swept along in it.",
+          "operations": "Certified AI partners mean you'll have access to a vetted network of implementers when it's time to scale beyond pilot — understanding the tier structure helps you choose the right partner faster.",
+          "pm": "Enterprise AI projects are increasingly delivered through certified partner networks — knowing the Select, Advanced, and Elite tier distinctions helps you scope vendor relationships and set realistic delivery expectations.",
+          "admin": "Certifications like these are how organizations validate AI competence — now is a great time to explore whether there's a credential path worth pursuing in your own role, even informally."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"What is a professional certification program, and why do organizations create them? Give me 3 reasons why OpenAI might want to certify 300,000 consultants rather than just publish free documentation.\"</em>",
+            "Pick the reason that resonates most with your industry or organization.",
+            "Ask a follow-up: <em>\"What would I need to know or be able to do to add genuine value as an AI-informed professional working alongside one of these certified consultants?\"</em>",
+            "Share one skill or knowledge area you want to build in the community group."
+          ]
+        }
+      },
+      {
+        "title": "AI Agents Are Resolving Three-Quarters of Support Tickets — Automatically",
+        "body": "Salesforce announced a $3.6 billion acquisition of Fin, an AI customer service platform, on June 15. Fin's AI Agent already <em>resolves 76% of customer support volume end-to-end across chat, email, SMS, WhatsApp, and phone</em> (Salesforce/TechCrunch). The deal fast-tracks Salesforce's Agentforce strategy, adding an agent layer that SMBs and enterprise teams can deploy quickly.",
+        "slants": {
+          "strategy": "When AI handles the routine, every human interaction becomes a premium signal — now is the time to define which customer moments are worth keeping human and build your team's skills there.",
+          "operations": "A 76% resolution rate means your operations team's energy shifts from ticket triage to exception design — the people who thrive are those who can define when the agent should hand off to a human.",
+          "pm": "If Salesforce is in your stack, Agentforce plus Fin is coming to your roadmap — get ahead of it by asking your team now how handoff logic between AI agents and humans should work.",
+          "admin": "As AI handles routine requests, your role becomes the escalation and relationship layer — the moments that actually matter to people. That's not a smaller role; it's a more visible one."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"I work in [your field or team]. What are the 3 most repetitive requests or tasks that come to my team or to me? Which of these could a well-designed AI agent realistically handle?\"</em>",
+            "Pick one task from the list the AI identified.",
+            "Ask a follow-up: <em>\"If an AI agent handled that task automatically, what is the most important thing a human still needs to review or follow up on — and why?\"</em>",
+            "Share the task you identified in the community group."
+          ]
+        }
+      },
+      {
+        "title": "Washington Just Made It Easier to Say Yes to Enterprise AI",
+        "body": "On June 2, the White House signed an executive order establishing a voluntary framework for frontier AI development and a new AI Cybersecurity Clearinghouse. The order <em>explicitly prohibits mandatory licensing or pre-clearance requirements for AI models</em> (White House), a deliberate policy choice to accelerate adoption. Enterprises now have a clear signal: build.",
+        "slants": {
+          "strategy": "No mandatory licensing means the investment climate for enterprise AI stays open — organizations that treat this window as a build moment will be running when others are still evaluating.",
+          "operations": "The AI Cybersecurity Clearinghouse means coordinated vulnerability tracking across industries — a practical step toward the security baseline that makes it easier to get AI tools approved internally.",
+          "pm": "Policy stability reduces the risk profile of long-horizon AI projects — if deals have stalled on 'we need to wait and see what regulators do,' this is a meaningful signal to bring back to the table.",
+          "admin": "A voluntary framework means your organization has real latitude to move — and real responsibility to set its own standards. Being fluent in your company's AI policies is increasingly a strategic skill."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste: <em>\"In plain language, what is the difference between a mandatory regulation and a voluntary framework for AI? What are 2 advantages and 1 risk of the voluntary approach for a typical mid-sized company?\"</em>",
+            "Think about how your own organization approaches AI — does it wait for rules, or move ahead of them?",
+            "Ask a follow-up: <em>\"What are 3 questions I should ask my IT or compliance team to understand how our organization's AI policies are structured right now?\"</em>",
+            "Share one question from the list in the community group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a weekend trip in 10 minutes with AI",
+      "body": "Try this at home: use AI to plan a quick weekend getaway using a technique called chain prompting — where each answer feeds your next question. This builds the habit of treating AI as a thinking partner rather than a search engine. Try it in ChatGPT, Claude, or Gemini (all free).",
+      "prompt": "I want to plan a quick weekend trip. Here are my constraints: [budget range, departure city, time of year, any must-haves or must-avoids]. Please give me: (1) 3 destination options that fit, (2) one specific activity for each, (3) a Friday-to-Sunday rough itinerary for my top pick, and (4) one thing I should book in advance and one I can leave flexible."
+    }
+  },
   "2026-06-24": {
     "intro": "Wednesday. This week's AI signals are pointing in one direction: the professionals treating AI as a full workflow partner — not just a single-task helper — are unlocking a level of output that's changing what \"good work\" looks like. The opportunity to be one of them is wide open.",
     "trends": [
