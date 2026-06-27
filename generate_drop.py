@@ -58,7 +58,7 @@ OUTPUT: Return ONLY valid JSON. No markdown. No code fences.
       "title": "Short editorial headline",
       "body": "2-3 sentences. Key stat in <em>source, date</em>.",
       "slants": {{"strategy": "...", "operations": "...", "pm": "...", "admin": "..."}},
-      "challenge": {{"steps": ["Step 1: Open your company-approved AI tool.", "Step 2: Paste: <em>\\"prompt here\\"</em>", "Step 3: Note one thing from the output.", "Step 4: Ask a follow-up: <em>\\"follow-up here\\"</em>", "Step 5: Share one insight in the community group."]}}
+      "challenge": {{"steps": ["Step 1: Open any AI assistant (ChatGPT, Copilot, Claude, etc.).", "Step 2: Paste: <em>\\"prompt here\\"</em>", "Step 3: Note one thing that surprised you.", "Step 4: Ask a follow-up: <em>\\"follow-up here\\"</em>", "Step 5: Save or screenshot your best result."]}}
     }}
   ],
   "homework": {{
