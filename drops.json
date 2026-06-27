@@ -1,4 +1,4 @@
-﻿{
+{
   "2026-06-26": {
     "intro": "Friday. This week's biggest AI moves are all about infrastructure catching up to ambition — a new chip, a new agent inside your existing tools, and new data confirming the time savings are real. The question now is what you do with them.",
     "trends": [
@@ -266,7 +266,7 @@
       "prompt": "I want to plan a trip to [your destination or 'somewhere new within a few hours of me']. Before you give me suggestions, ask me 3 questions that will help you understand my travel style and budget.<br><br>After I answer, give me a 3-day itinerary with one 'splurge' option and one 'budget-friendly' version for each day."
     }
   },
-    "2026-06-22": {
+  "2026-06-22": {
     "intro": "Monday. Most companies have AI agents in production now — so this week's real question isn't whether to deploy, it's whether anyone's actually steering them. Three things to think about, and a five-minute experiment to start the week.",
     "trends": [
       {
@@ -532,6 +532,73 @@
       "title": "Plan Your Weekend Menu in Five Minutes",
       "body": "Tonight's homework is a low-stakes way to practice structured output — the prompting technique where you tell AI exactly what format and categories you want in the response. It's one of the highest-leverage skills you can build, because it transfers directly to any work task where you need organized information fast: briefings, comparison tables, action plans, project summaries. Use your fridge as the dataset and see how precisely AI organizes to your specs.",
       "prompt": "Act as a practical home meal planner. Based on these ingredients and constraints: [paste what's in your fridge plus any dietary preferences or time limits], create a weekend plan — Saturday dinner and Sunday brunch — that requires no special shopping. Format each meal as: Meal name | Key ingredients | Cook time | One reason we'll love it."
+    }
+  },
+  "2026-06-27": {
+    "intro": "This week, the AI industry revealed just how high the stakes have climbed — from custom silicon to international IP theft to a wave of new regulation. Whether you build strategy, run operations, manage projects, or keep the office humming, these three stories reshape what 'using AI responsibly' actually means in practice.",
+    "trends": [
+      {
+        "title": "Custom Chips Signal the Real AI Cost War",
+        "body": "OpenAI and Broadcom unveiled Jalapeño on June 25, the first custom AI inference chip designed to cut the cost of running models like ChatGPT by up to 50% (<em>Build Fast with AI, June 26, 2026</em>). The chip was built in just nine months, partly using OpenAI's own models to accelerate design — and it's the opening move in a multi-generation hardware roadmap targeting gigawatt-scale data centers through 2029. For context, OpenAI spent roughly $14 billion on inference alone in 2025, making this a profitability-defining bet, not a side project.",
+        "slants": {
+          "strategy": "Cheaper inference costs cascade into cheaper AI services for enterprises. Start modeling how a 30-50% reduction in per-query AI costs would change your build-vs-buy calculations for AI tooling over the next 18 months.",
+          "operations": "Lower inference costs mean AI-powered automation becomes viable for higher-volume, lower-margin tasks you may have ruled out before — think document processing, quality checks, and internal knowledge search at scale.",
+          "pm": "Timeline shift: custom chips reach production ramp in 2027 and full scale in 2028. Factor this into any AI roadmap — the tools you pilot today will get significantly cheaper to run before your three-year plan ends.",
+          "admin": "As AI tools get cheaper to run, expect vendors to shift pricing models. Watch for subscription tiers that bundle more AI features at current prices — and negotiate renewals accordingly."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini).",
+            "Step 2: Paste: <em>\"Our team currently spends approximately [X hours/week] on [repetitive task]. If AI-powered automation for this task became 50% cheaper within 18 months, what would a phased adoption plan look like? Include cost-benefit considerations and risks.\"</em>",
+            "Step 3: Review the output — note which risks or benefits you hadn't considered.",
+            "Step 4: Ask a follow-up: <em>\"Now rewrite this as a one-page executive brief I could share with leadership to start the conversation, including a 'do nothing' scenario.\"</em>",
+            "Step 5: Save your best version. You now have a draft business case ready for the next planning cycle."
+          ]
+        }
+      },
+      {
+        "title": "The Biggest AI Theft You've Never Heard Of",
+        "body": "Anthropic formally accused Alibaba's Qwen AI lab of running 28.8 million fraudulent exchanges through 25,000 fake accounts between April and June 2026, calling it the largest known distillation attack in AI history (<em>Wall Street Journal / Build Fast with AI, June 26, 2026</em>). Distillation works by sending millions of carefully designed prompts to a rival's model and training your own on the collected outputs — no passwords stolen, no firewalls breached. The targeted capabilities were agentic reasoning, software engineering, and long-horizon task completion — the exact features enterprises are paying premium prices for.",
+        "slants": {
+          "strategy": "This reframes competitive intelligence risk. If a frontier model's capabilities can be systematically extracted through normal API access, your strategic advantage from choosing a premium AI vendor has a shelf life. Build switching costs into your AI vendor evaluation.",
+          "operations": "Review how your team's AI tools handle data going in. If proprietary processes, templates, or decision logic flow into prompts, those could become training data for someone else's model. Establish prompt hygiene guidelines now.",
+          "pm": "Add 'model IP security' as a standing item in AI vendor assessments. Ask vendors: What distillation protections do you have? How do you detect abnormal usage patterns? Document the answers.",
+          "admin": "If your organization uses AI tools with API access, ensure account provisioning follows the same identity verification standards as other enterprise software. Fraudulent accounts were the attack vector here."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I manage operations for a mid-size company that uses AI tools daily. Explain 'model distillation attacks' in plain language, then list 5 practical steps our team can take to protect our proprietary knowledge when using AI assistants.\"</em>",
+            "Step 3: Identify which of the 5 steps your team already follows and which are new.",
+            "Step 4: Ask a follow-up: <em>\"Turn the steps we're missing into a simple checklist I can share with my team in an email — keep it under 200 words, no jargon.\"</em>",
+            "Step 5: Send that checklist to your team. Small step, real impact."
+          ]
+        }
+      },
+      {
+        "title": "AI Regulation Just Got Real — and Close",
+        "body": "Colorado's revised AI law (SB 26-189) was signed on May 14 and takes effect January 1, 2027, replacing the original Colorado AI Act with narrower but still significant requirements around consumer notice, adverse-outcome explanations, and human review for automated decisions (<em>Norton Rose Fulbright / Littler, May 2026</em>). Meanwhile, the EU AI Act's high-risk system requirements hit August 2, 2026, and several US states have June 30 compliance deadlines for their own AI regulations (<em>Build Fast with AI, June 25, 2026</em>). For any team using AI in hiring, lending, insurance, or customer decisions, the compliance window is measured in weeks, not quarters.",
+        "slants": {
+          "strategy": "The regulatory landscape is fragmenting fast — state-by-state in the US, plus the EU. Build a cross-jurisdictional AI governance framework now rather than scrambling to comply one law at a time. Align with NIST AI RMF or ISO 42001 as a baseline.",
+          "operations": "Audit every AI tool touching consequential decisions: hiring screens, credit scoring, customer service routing, claims processing. Document which tools are in scope and whether you can demonstrate human review in the decision chain.",
+          "pm": "Add a 'regulatory compliance' milestone to any AI implementation project. The new Colorado law requires three-year record retention for consequential AI decisions — make sure your project documentation practices can meet that bar.",
+          "admin": "Start building your AI tool inventory now. You'll need to know every AI system in use, who has access, what decisions it influences, and what documentation exists. This is the foundational asset for any compliance effort."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I work at a company that uses AI tools for [hiring/customer service/internal decisions]. We operate in [your state or country]. Summarize in plain language what AI-related regulations may apply to us in the next 12 months, and what the top 3 compliance actions we should take now.\"</em>",
+            "Step 3: Compare the output against what your organization is actually doing today. Note the gaps.",
+            "Step 4: Ask a follow-up: <em>\"Create a simple AI tool inventory template with columns for: tool name, vendor, what decisions it influences, who has access, data inputs, and last review date. Format as a table.\"</em>",
+            "Step 5: Save the template and start filling it in. This is the single most useful compliance artifact you can create today."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Dream Weekend Getaway — AI-Style",
+      "body": "Summer's here and you deserve a break. Let AI help you plan a spontaneous weekend trip you'd actually enjoy — tailored to your budget, interests, and the season.",
+      "prompt": "I want to plan a weekend getaway for myself (or with a friend/partner). My budget is around $[amount]. I love [interests, e.g., hiking, food, live music, bookstores, quiet places]. I can travel up to [X hours] from [your city]. Suggest 3 destination options with a loose itinerary for each — including one place I've probably never heard of. Keep it fun, not over-planned."
     }
   }
 }
