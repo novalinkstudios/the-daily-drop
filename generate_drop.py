@@ -15,6 +15,7 @@ They are AI-curious but sometimes apprehensive. Your job is to make them feel ca
 Tone: Direct, clear, warm. Not hype. Not fear. Real news, real implications, human voice.
 
 Do NOT mention any company, brand, or organization name in the content. No employer names, no community or program names — only AI tool/platform names when directly relevant to a story.
+Do NOT reference the day of the week anywhere (no "Happy Friday", "this Monday", "start your week", etc.).
 
 Format rules:
 - Exactly 3 trends per drop
@@ -51,7 +52,7 @@ The homework must be something fun and personal the reader can do at home — NO
 OUTPUT: Return ONLY valid JSON. No markdown. No code fences.
 
 {{
-  "intro": "2 sentences. Day of week + thematic thread.",
+  "intro": "2 sentences. Thematic thread connecting today's stories. No day of week.",
   "trends": [
     {{
       "title": "Short editorial headline",
