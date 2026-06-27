@@ -843,7 +843,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-06-19": {
+    "2026-06-27": {
+      intro: "Happy Friday, NovaLink Studios \u2014 the AI news cycle this week moved at infrastructure speed, not demo speed. From custom silicon to industrial-scale IP theft to the first comprehensive US state AI law hitting its final countdown, here is what matters for your Monday planning.",
+      trends: [
+        {
+          title: "OpenAI and Broadcom Unveil Jalape\u00f1o \u2014 OpenAI's First Custom Inference Chip Targeting 50% Cost Reduction",
+          body: "On June 24\u201325, OpenAI and Broadcom unveiled Jalape\u00f1o, OpenAI's first custom-designed AI inference chip, with engineering samples physically delivered to Sam Altman and Greg Brockman at OpenAI HQ. The chip is designed exclusively for inference \u2014 running trained models \u2014 and targets a 50% reduction in LLM serving costs, a profitability-defining lever given that OpenAI spent roughly $14 billion serving ChatGPT on third-party GPUs in 2025 <em>Build Fast with AI, June 26 2026</em>. Broadcom expects prototype data-center deployment by end of 2026 with full production ramp in 2027\u20132028 <em>unrot.co, June 26 2026</em>.",
+          slants: {
+            strategy: "Custom silicon signals OpenAI is building a vertically integrated stack. Evaluate whether your AI vendor's cost trajectory is structurally improving or still renting commodity compute \u2014 this affects long-term contract pricing.",
+            operations: "A 50% inference cost drop at scale will eventually flow into API pricing. Begin modeling scenario budgets now for 2027\u20132028 when Jalape\u00f1o hits production, and identify which high-volume inference workloads would benefit most.",
+            pm: "Product roadmaps relying on OpenAI models should factor in a future where token costs halve. Features previously shelved for cost reasons \u2014 real-time AI copilots, always-on agents \u2014 may become viable. Revisit your backlog.",
+            admin: "Track OpenAI's chip announcements as part of vendor risk assessment. A company investing in its own silicon is less likely to face sudden price spikes from GPU shortages, making it a more stable long-term partner."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open your current AI spend dashboard or invoicing tool and pull last quarter's total inference API costs by provider.",
+              "Step 2: Paste this prompt into your AI assistant: <em>\"Given that OpenAI's new Jalape\u00f1o inference chip targets a 50% reduction in serving costs with production ramp in 2027\u20132028, model three scenarios for how our quarterly AI API spend of [insert amount] could change if OpenAI passes through 20%, 35%, or 50% of those savings as API price reductions. Output a table with quarterly projections for 2027 and 2028.\"</em>",
+              "Step 3: Compare the three scenarios against your current budget forecast and identify which product features or workloads become cost-viable under the most conservative scenario.",
+              "Step 4: Ask your AI assistant: <em>\"Based on our current product roadmap, which three AI-powered features were deprioritized due to inference cost and would become viable if per-token costs dropped by 20%? For each, estimate the user impact and implementation effort.\"</em>",
+              "Step 5: Share your scenario table and feature shortlist in the NovaLink community channel for peer review."
+            ]
+          }
+        },
+        {
+          title: "Anthropic Accuses Alibaba of Running the Largest Known AI Distillation Attack \u2014 28.8 Million Claude Exchanges",
+          body: "Anthropic sent a letter to US Senators Tim Scott and Elizabeth Warren on June 10 accusing Alibaba's Qwen AI lab of operating 25,000 fraudulent accounts that generated 28.8 million Claude interactions between April 22 and June 5, 2026, specifically targeting agentic reasoning, coding, and long-horizon task capabilities <em>unrot.co, June 26 2026</em>. This nearly doubles the 16 million exchanges from a prior campaign attributed to DeepSeek, Moonshot, and MiniMax earlier in 2026 <em>Build Fast with AI, June 26 2026</em>. For enterprise teams, distillation attacks mean a weaker model can inherit frontier capabilities without the governance and safety controls of the original system.",
+          slants: {
+            strategy: "Distillation attacks are now an acknowledged geopolitical risk. If your organization uses frontier AI for proprietary workflows, assess whether your prompts and outputs could be harvested and replicated by competitors using similar techniques.",
+            operations: "Review API access controls and usage anomaly detection across all AI tools your teams use. If you expose internal AI systems via APIs, implement rate limiting, behavioral analysis, and session-fingerprinting to detect bulk extraction patterns.",
+            pm: "Any product feature built on a frontier model's unique capabilities could be commoditized if those capabilities are distilled into cheaper alternatives. Document which product differentiators depend on model-specific strengths and build switching-cost moats around workflow integration, not raw model output.",
+            admin: "Update your vendor risk register to include distillation risk as a category. Ask AI vendors directly what anti-distillation measures they employ and request documentation for compliance files."
+          },
+          challenge: {
+            steps: [
+              "Step 1: List every external AI API your organization calls, along with approximate monthly call volumes and the nature of the prompts being sent.",
+              "Step 2: Paste this prompt into your AI assistant: <em>\"We use the following AI APIs: [list APIs and call volumes]. For each, assess the distillation risk \u2014 how easily could a competitor replicate our AI-powered outputs by systematically querying the same API? Rate each as Low, Medium, or High risk and explain your reasoning. Then suggest one mitigation step for each Medium or High risk item.\"</em>",
+              "Step 3: For any API rated Medium or High, review your current access controls and check whether you have anomaly detection, rate limiting, or session monitoring in place.",
+              "Step 4: Ask your AI assistant: <em>\"Draft a 5-question vendor security questionnaire focused on anti-distillation protections that we can send to our AI API providers. Include questions about fraudulent account detection, output watermarking, and usage anomaly alerting.\"</em>",
+              "Step 5: Share your risk ratings and vendor questionnaire draft in the NovaLink community for feedback from peers."
+            ]
+          }
+        },
+        {
+          title: "Colorado's AI Law Reaches June 30 Deadline \u2014 Original Act Replaced by Narrower SB 26-189, Effective January 2027",
+          body: "The original Colorado AI Act was set to take effect June 30, 2026, but Governor Polis signed SB 26-189 on May 14, repealing and replacing it with a narrower disclosure-based framework focused on automated decision-making technology rather than broad high-risk AI governance <em>Hunton Privacy Blog, May 22 2026</em>. The revised law eliminates mandatory impact assessments and algorithmic discrimination reporting in favor of consumer disclosure, post-adverse-outcome explanations, and meaningful human review rights, with enforcement beginning January 1, 2027 <em>Norton Rose Fulbright, May 22 2026</em>. Enterprises operating nationally should note this shifts the US state model away from the EU AI Act's approach and toward a privacy-law-style transparency regime <em>Carpe Datum Law, May 18 2026</em>.",
+          slants: {
+            strategy: "The Colorado pivot signals that US state AI regulation is converging on disclosure and transparency, not EU-style risk management. Use this window to set your AI governance posture at the transparency standard before it becomes table stakes across multiple states.",
+            operations: "The January 2027 deadline means you have six months to implement consumer disclosure workflows, post-adverse-outcome notices, and human review processes for any automated decision-making that touches employment, housing, lending, insurance, health care, or education in Colorado.",
+            pm: "If your product makes or influences consequential decisions for end users, map which features qualify as covered ADMT under the new law. Build disclosure UX and human-review escalation paths into your product roadmap now \u2014 retrofitting is always more expensive.",
+            admin: "Begin drafting internal documentation templates for ADMT disclosures and adverse-outcome notices. The Attorney General must adopt implementing rules before January 1, 2027, so monitor rulemaking developments and calendar key dates for your compliance team."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Identify every product, feature, or internal tool in your organization that uses AI to make, guide, or assist decisions about individuals in employment, housing, lending, insurance, health care, education, or government services.",
+              "Step 2: Paste this prompt into your AI assistant: <em>\"Colorado's revised AI law (SB 26-189, effective January 1 2027) requires deployers of covered automated decision-making technology to provide pre-use disclosures, post-adverse-outcome explanations, data correction rights, and meaningful human review for consequential decisions. Here is our list of AI-powered decision tools: [paste list]. For each, determine whether it likely qualifies as covered ADMT, what disclosures would be required, and flag any that would need a human review escalation path.\"</em>",
+              "Step 3: Prioritize the tools flagged as likely covered and assign owners to draft disclosure language and human-review workflows for each.",
+              "Step 4: Ask your AI assistant: <em>\"Create a 90-day compliance sprint plan with milestones for implementing Colorado SB 26-189 ADMT requirements across our flagged tools, including disclosure drafting, human review process design, staff training, and legal review checkpoints.\"</em>",
+              "Step 5: Share your compliance sprint plan in the NovaLink community and tag your legal and ops leads for review."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Build Your AI Vendor Risk Card",
+        body: "This weekend, pick your organization's single most-used AI API or model provider. Build a one-page Vendor Risk Card covering five dimensions: cost trajectory (will custom chips or competition lower your costs?), IP protection (what anti-distillation measures does the vendor employ?), regulatory exposure (does the vendor's data handling comply with Colorado SB 26-189 and the EU AI Act's August 2026 transparency obligations?), concentration risk (what happens if this vendor's model goes offline like Fable 5?), and switching cost (how hard would it be to move to an alternative model in 30 days?). Score each dimension Green/Yellow/Red and identify the single highest-risk area to address in Q3.",
+        prompt: "Act as an enterprise AI risk analyst. I will provide details about our primary AI vendor: [vendor name], [model/product used], [approximate monthly spend], [primary use cases], and [contract terms]. Build a one-page Vendor Risk Card with five sections: (1) Cost Trajectory \u2014 assess whether the vendor's infrastructure investments suggest prices will rise or fall over 24 months; (2) IP & Distillation Protection \u2014 evaluate what safeguards exist against output harvesting; (3) Regulatory Exposure \u2014 flag any compliance gaps with Colorado SB 26-189 and EU AI Act transparency obligations taking effect August 2026; (4) Concentration Risk \u2014 assess single-vendor dependency and what happens if the model goes offline; (5) Switching Cost \u2014 estimate effort to migrate to an alternative in 30 days. Score each section Green, Yellow, or Red with a one-sentence justification. End with the single highest-priority action item for Q3 2026."
+      }
+    },
+  "2026-06-19": {
       intro: "Friday: AI is reshaping org charts, stretching the workday, and putting a premium on thinking without it. Three things to sit with — and one to try tonight.",
       trends: [
         {
