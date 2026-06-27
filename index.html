@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-06-19": {
+    "2026-06-27": {
+      intro: "This week, the AI industry crossed into hardware, geopolitics, and regulation all at once. From a custom chip designed to halve inference costs, to the largest known AI theft campaign, to the first U.S. state AI law hitting its deadline completely rewritten \u2014 the ground is shifting under every business that uses or builds with AI.",
+      trends: [
+        {
+          title: "OpenAI Built Its Own Chip \u2014 And It Could Cut AI Costs in Half",
+          body: "OpenAI unveiled Jalape\u00f1o, its first custom inference chip built with Broadcom, designed from scratch in just nine months \u2014 a record for high-performance chip development. The chip is purpose-built to run AI models (not train them), targeting the massive daily cost of serving ChatGPT and Codex to hundreds of millions of users. <em>Early testing shows cost savings of roughly 50% compared with typical AI GPUs, according to Broadcom's CEO (Bloomberg, June 24, 2026).</em>",
+          slants: {
+            strategy: "When a leading AI provider starts building its own silicon, it signals that AI costs are about to structurally decline \u2014 factor cheaper AI into your 2027-2028 planning models.",
+            operations: "Lower inference costs mean AI-powered automation features in your tools will get cheaper to run, expanding what's economically viable to automate at scale.",
+            pm: "Faster, cheaper AI inference could accelerate delivery of AI features across your product roadmap \u2014 start tracking vendor infrastructure announcements as inputs to your timeline.",
+            admin: "As AI tools become cheaper to run behind the scenes, expect more AI features bundled into the productivity software you already use \u2014 at no extra cost to your team."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (ChatGPT, Copilot, Claude, etc.).",
+              "Step 2: Paste: <em>\"I manage a team that uses AI tools daily. If the cost of running AI dropped by 50% over the next two years, what new use cases should I consider automating that aren't cost-effective today? Give me 5 specific examples relevant to a business operations team.\"</em>",
+              "Step 3: Review the list and highlight one idea you hadn't considered before.",
+              "Step 4: Ask a follow-up: <em>\"For the most promising idea on that list, outline a simple 30-day pilot plan I could propose to my manager, including success metrics.\"</em>",
+              "Step 5: Save the pilot plan and share it with a colleague for feedback."
+            ]
+          }
+        },
+        {
+          title: "The Largest AI Theft Campaign Ever Just Went Public",
+          body: "Anthropic formally accused a major Chinese tech company of running 25,000 fraudulent accounts that generated 28.8 million interactions with Claude between April and June 2026, specifically targeting the model's most advanced coding and reasoning capabilities. The technique, called distillation, doesn't hack anything \u2014 it simply uses the AI as any normal user would, then harvests the outputs to train a competing model. <em>The campaign was nearly double the volume of a similar attack disclosed in February 2026 involving other Chinese AI labs (Wall Street Journal / Unrot, June 26, 2026).</em>",
+          slants: {
+            strategy: "AI intellectual property theft is now a boardroom-level risk \u2014 ask whether your organization's proprietary knowledge could be extracted from AI tools you've fine-tuned or customized.",
+            operations: "If your team feeds proprietary data into any AI platform, review your data-sharing agreements and understand who else can access the outputs.",
+            pm: "Add AI vendor security posture to your procurement checklist \u2014 ask vendors specifically how they detect and prevent large-scale distillation attacks.",
+            admin: "Audit how many AI accounts your organization manages and whether access controls prevent unauthorized bulk usage that could expose your workflows."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (ChatGPT, Copilot, Claude, etc.).",
+              "Step 2: Paste: <em>\"Explain 'AI model distillation attacks' in plain English. What are the risks for a non-technical business team that uses AI tools daily? What 3 questions should I ask our IT team about how we're protected?\"</em>",
+              "Step 3: Read through the explanation and note which risk feels most relevant to your work.",
+              "Step 4: Ask a follow-up: <em>\"Draft a short email I can send to our IT or security team asking whether our AI vendor agreements include protections against distillation and data extraction. Keep it under 100 words and professional.\"</em>",
+              "Step 5: Customize the email and send it \u2014 or save it for your next security review."
+            ]
+          }
+        },
+        {
+          title: "The First Major U.S. State AI Law Just Hit Its Deadline \u2014 Completely Rewritten",
+          body: "Colorado's original AI Act \u2014 the most comprehensive state-level AI regulation in the country \u2014 was set to take effect on June 30, 2026, but the governor signed a replacement bill that strips out mandatory bias audits and risk management programs, replacing them with a simpler transparency-and-disclosure framework effective January 1, 2027. The rewrite came after coordinated federal legal pressure, including a federal lawsuit and DOJ intervention challenging the original law's constitutionality. <em>The governor signed the replacement just 47 days before the original law's enforcement date (Tech Times, June 23, 2026).</em>",
+          slants: {
+            strategy: "The shift from prescriptive AI regulation to transparency-focused rules signals where U.S. policy is heading \u2014 build your AI governance around disclosure and auditability, not rigid compliance checklists.",
+            operations: "If your team uses AI in hiring, lending, or other high-stakes decisions, the compliance burden just got lighter in Colorado \u2014 but disclosure requirements still apply, so document how AI influences decisions.",
+            pm: "Track state AI laws as a project risk \u2014 what's required today may change fast, so build governance processes that are flexible rather than locked to one regulatory framework.",
+            admin: "Start building a simple log of where AI tools touch consequential decisions in your workflows \u2014 transparency and disclosure requirements are becoming the baseline across states."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (ChatGPT, Copilot, Claude, etc.).",
+              "Step 2: Paste: <em>\"I work in business operations. Create a simple checklist of 8-10 questions I can use to audit where our team uses AI tools in decisions that affect people \u2014 like hiring, performance reviews, customer approvals, or resource allocation. Format it as a table with columns: Process, AI Tool Used, Decision Impact, Disclosure in Place (Y/N).\"</em>",
+              "Step 3: Fill in the table for your own team's workflows \u2014 even partially.",
+              "Step 4: Ask a follow-up: <em>\"Based on the trend toward AI transparency laws in the U.S., draft a one-paragraph internal policy statement our team could adopt that commits to disclosing when AI materially influences a decision about a person. Keep it simple and human.\"</em>",
+              "Step 5: Share the draft policy with your manager or legal team as a conversation starter."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Plan Your Ultimate Summer Weekend Escape",
+        body: "You've been tracking AI news all week. Now let AI return the favor. Use it to plan a perfect weekend trip \u2014 somewhere you've been wanting to go but haven't gotten around to researching.",
+        prompt: "I want to plan a weekend getaway within a 3-hour drive of [YOUR CITY]. I like [INTERESTS: e.g., hiking, good food, live music, quiet towns, beaches]. My budget is around $[AMOUNT] for two people. Give me 3 destination options with a short itinerary for each: where to stay, what to do Saturday morning and afternoon, where to eat dinner, and one unexpected local experience most visitors miss. Keep it fun and specific."
+      }
+    },
+  "2026-06-19": {
       intro: "Friday: AI is reshaping org charts, stretching the workday, and putting a premium on thinking without it. Three things to sit with — and one to try tonight.",
       trends: [
         {
