@@ -600,5 +600,72 @@
       "body": "Summer's here and you deserve a break. Let AI help you plan a spontaneous weekend trip you'd actually enjoy — tailored to your budget, interests, and the season.",
       "prompt": "I want to plan a weekend getaway for myself (or with a friend/partner). My budget is around $[amount]. I love [interests, e.g., hiking, food, live music, bookstores, quiet places]. I can travel up to [X hours] from [your city]. Suggest 3 destination options with a loose itinerary for each — including one place I've probably never heard of. Keep it fun, not over-planned."
     }
+  },
+  "2026-06-28": {
+    "intro": "The AI landscape is fracturing in real time — market share is splitting, regulation is shape-shifting, and autonomous agents are moving from demos to daily workflows. Today's three stories all point to the same truth: the era of defaulting to a single AI tool, a single compliance plan, or a single way of working is officially over.",
+    "trends": [
+      {
+        "title": "ChatGPT Drops Below 50% Market Share — The Multi-Tool Era Is Here",
+        "body": "ChatGPT's share of global AI assistant users fell to 46.4% by the end of May 2026, dipping below 50% for the first time, while Gemini rose to 27.7% and Claude reached 10.3% <em>(Sensor Tower State of AI 2026, reported by TechCrunch, June 16, 2026)</em>. Despite the decline, ChatGPT crossed 1.1 billion monthly users — the fastest app ever to reach that milestone. The real signal: users are actively switching between assistants, and Claude leads subscription conversion at 13% of users paying — beating every competitor on revenue per user.",
+        "slants": {
+          "strategy": "Your team is probably already using multiple AI tools informally. Get ahead of this by evaluating which assistant performs best for which task category — coding, writing, analysis, scheduling — and build an approved multi-tool policy before shadow AI becomes a governance headache.",
+          "operations": "Workflow dependencies on a single AI provider are now a concentration risk. Map which processes rely on AI assistants and identify where switching costs or outages could stall your operations.",
+          "pm": "If you're standardizing your team's AI stack, this data gives you leverage to test alternatives. Run a two-week pilot comparing outputs across two assistants for your most common project tasks — scope summaries, risk logs, status updates — and let results, not brand loyalty, drive the decision.",
+          "admin": "You're likely the person fielding subscription and access requests. Use this moment to create a simple internal catalog: which AI tools are approved, what each is best at, and who to contact for access. You'll save yourself dozens of one-off conversations."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any two AI assistants you have access to (e.g., ChatGPT and Gemini, or Claude and ChatGPT).",
+            "Step 2: Paste the same prompt into both: <em>\"Summarize the three biggest risks to our Q3 project timeline given these constraints: [paste a recent project brief or status update].\"</em>",
+            "Step 3: Compare the two outputs side by side. Note which one gave more actionable detail, which organized information more clearly, and which surprised you.",
+            "Step 4: Ask the weaker performer a follow-up: <em>\"That summary missed operational dependencies. Please redo it, focusing on cross-team handoff risks and resource bottlenecks.\"</em>",
+            "Step 5: Save or screenshot both results — you now have a personal benchmark for future tool decisions."
+          ]
+        }
+      },
+      {
+        "title": "Colorado Rewrites Its AI Law Two Weeks Before Deadline — Regulation Is a Moving Target",
+        "body": "Colorado's Governor signed SB 26-189 on May 14, replacing the state's sweeping AI Act with a narrower framework focused on transparency and disclosure, pushing the effective date to January 1, 2027 <em>(Seyfarth Shaw, May 22, 2026)</em>. The original law — the most comprehensive state AI regulation in the U.S. — had been challenged in court and stayed by a federal judge after intervention from the DOJ's AI Litigation Task Force <em>(Law and the Workplace, May 11, 2026)</em>. The new law eliminates mandatory risk management programs and impact assessments, replacing them with targeted disclosure obligations and a 60-day cure period before enforcement.",
+        "slants": {
+          "strategy": "Don't read this as 'regulation went away.' Read it as 'regulation pivoted to transparency.' If your organization uses AI in hiring, lending, or healthcare decisions, disclosure obligations are still coming. Start building the internal documentation habit now — it's cheaper to prepare than to retrofit.",
+          "operations": "The shift from impact assessments to disclosure-based compliance means your processes need clear audit trails for any AI-assisted consequential decisions. Work with your legal and compliance teams to identify which workflows are in scope before January 2027.",
+          "pm": "If you manage any AI implementation projects, this is a scope change worth flagging. Compliance deliverables just shifted from 'build a risk management program' to 'build a disclosure and notice workflow.' Update your project plans accordingly.",
+          "admin": "You may be the person asked to track which AI tools are used in hiring or performance decisions. Start a simple log now: tool name, use case, date deployed. When the rules finalize, you'll already have the data your compliance team needs."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I work at a mid-size company that uses AI tools in [hiring / customer service / performance reviews — pick one]. In plain language, what would a transparency disclosure look like if we had to tell people we used AI in that decision? Give me a draft notice under 100 words.\"</em>",
+            "Step 3: Read the draft. Note one thing that would make a customer or employee feel more informed — and one thing that feels like legal jargon that a real person would ignore.",
+            "Step 4: Ask a follow-up: <em>\"Rewrite that notice at an 8th-grade reading level and add a sentence explaining how someone could ask a human to review the decision.\"</em>",
+            "Step 5: Save your best version — it's a useful starting point if your team ever needs one."
+          ]
+        }
+      },
+      {
+        "title": "Autonomous Workplace Agents Go Live — Scout, Codex Plugins, and the Background AI Era",
+        "body": "A new always-on AI agent called Scout was unveiled for the Microsoft 365 ecosystem, designed to operate autonomously across email, calendars, Teams, and file storage — performing tasks in the background without waiting for prompts <em>(MarketingProfs, June 5, 2026)</em>. Separately, Codex received six new enterprise plugins for sales, analytics, creative production, and more, with capabilities set to appear inside ChatGPT in coming weeks <em>(MarketingProfs, June 5, 2026)</em>. Meanwhile, 85% of organizations say they want to be 'agentic' within three years, but 76% admit their current infrastructure can't support it <em>(MIT Technology Review / Ema, June 2026)</em>.",
+        "slants": {
+          "strategy": "Autonomous agents that access calendars, email, and shared drives raise immediate questions about data governance, permissions, and oversight. Before any pilot, define what an agent is allowed to see, do, and decide — and what requires a human sign-off.",
+          "operations": "Background agents can handle scheduling conflicts, flag workflow bottlenecks, and route routine requests. But 'always-on' also means 'always accessing data.' Work with IT to map exactly which systems an agent would touch and ensure access controls are tight.",
+          "pm": "Agentic AI can automate status collection, meeting prep, and dependency tracking — but only if your project data is structured and accessible. Start by cleaning up one project workspace: consistent naming, updated statuses, linked documents. That's the foundation agents need.",
+          "admin": "You're likely the first person who'd benefit from an always-on scheduling and routing agent. Start small: identify your three most repetitive weekly tasks (meeting coordination, room booking, supply requests) and ask your IT team if any current tools already have agent features you haven't activated."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"Act as my virtual chief of staff. Here is my typical week: [briefly describe 3-5 recurring meetings or tasks]. Identify which tasks could be fully automated by an AI agent, which need a human check before acting, and which should stay fully manual. Present this as a simple three-column table.\"</em>",
+            "Step 3: Review the table. Note one task you'd genuinely trust an agent to handle — and one where the idea makes you uncomfortable. That discomfort is useful data.",
+            "Step 4: Ask a follow-up: <em>\"For the tasks you marked as automatable, what data or permissions would the agent need access to? List the potential risks of granting that access.\"</em>",
+            "Step 5: Save your table — it's a ready-made conversation starter if your team begins evaluating agent tools."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Perfect Lazy Weekend",
+      "body": "Summer's here and you deserve a weekend that recharges you. Let AI help you design a two-day plan tailored to your actual interests — not a generic travel blog listicle.",
+      "prompt": "I have a free weekend coming up and I want to make the most of it without overplanning. Here's what I enjoy: [list 2-3 hobbies or interests, e.g., cooking, hiking, reading thrillers]. I live near [your city or region]. My budget is about $[amount]. I want a mix of one adventure activity, one relaxing activity, and one meal I cook from scratch that I've never tried before. Build me a two-day itinerary with specific suggestions, a simple grocery list for the meal, and one wildcard surprise idea I wouldn't think of on my own."
+    }
   }
 }
