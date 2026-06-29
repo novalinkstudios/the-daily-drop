@@ -667,5 +667,72 @@
       "body": "Summer's here and you deserve a weekend that recharges you. Let AI help you design a two-day plan tailored to your actual interests — not a generic travel blog listicle.",
       "prompt": "I have a free weekend coming up and I want to make the most of it without overplanning. Here's what I enjoy: [list 2-3 hobbies or interests, e.g., cooking, hiking, reading thrillers]. I live near [your city or region]. My budget is about $[amount]. I want a mix of one adventure activity, one relaxing activity, and one meal I cook from scratch that I've never tried before. Build me a two-day itinerary with specific suggestions, a simple grocery list for the meal, and one wildcard surprise idea I wouldn't think of on my own."
     }
+  },
+  "2026-06-29": {
+    "intro": "AI regulation, AI bundling, and AI theft all hit inflection points this week — and each one changes how your team will use, buy, or govern these tools by year's end. Here's what matters, what it means for your role, and what to try right now.",
+    "trends": [
+      {
+        "title": "Colorado Rewrites the Nation's First Comprehensive AI Law — and Buys Everyone Six More Months",
+        "body": "Colorado's original AI Act was set to take effect tomorrow, June 30, imposing risk management programs, impact assessments, and anti-discrimination duties on any business using high-risk AI systems serving Colorado residents. Instead, Governor Polis signed SB 189 on May 14, repealing the original law and replacing it with a narrower disclosure-based framework that takes effect January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates the duty-of-care standard and most deployer obligations, but still requires pre-use notices and 30-day post-adverse-outcome disclosures whenever automated decision-making tools materially influence consequential decisions in employment, healthcare, housing, education, or financial services <em>(Littler Mendelson, May 15, 2026)</em>. For any team using AI in hiring, lending, or customer decisioning, the clock has reset — but it hasn't stopped.",
+        "slants": {
+          "strategy": "Use this six-month window to build an AI governance framework voluntarily rather than scrambling later. Colorado's pivot signals that disclosure and transparency — not risk management bureaucracy — will be the dominant US model. Get ahead of it.",
+          "operations": "Inventory every AI tool in your workflows that touches hiring, customer eligibility, pricing, or service access. Even under the lighter law, you'll need to prove notice was given and records were kept for three years.",
+          "pm": "Add 'AI disclosure checkpoint' to any project plan involving automated decision-making. If your product or process uses AI to score, rank, or recommend in consequential areas, flag it now — before January.",
+          "admin": "Start a simple tracking spreadsheet: tool name, vendor, what decisions it influences, and who it affects. This will be the backbone of compliance documentation when the new law kicks in."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini — your pick).",
+            "Step 2: Paste this prompt: <em>\"I work in [your function]. List every way my team might use AI tools to influence decisions about employees, customers, or applicants — including tools we might not think of as 'AI.' Format as a table with columns: Tool/Process, Decision Type, Who Is Affected.\"</em>",
+            "Step 3: Review the output and highlight any row that surprises you — especially embedded AI you forgot about (e.g., resume screeners, chatbot routing, dynamic pricing).",
+            "Step 4: Ask this follow-up: <em>\"For each item flagged, draft a one-sentence plain-language disclosure I could give to the affected person explaining that AI played a role in this decision.\"</em>",
+            "Step 5: Save your table and disclosures. You just built a rough compliance starter kit — months ahead of schedule."
+          ]
+        }
+      },
+      {
+        "title": "Copilot Stops Being an Add-On and Becomes the Default",
+        "body": "Starting July 1, 2026, Copilot becomes a permanent, bundled component of two core productivity suite SKUs — Business Standard with Copilot at $23.50/user/month and Business Premium with Copilot at $32/user/month <em>(Microsoft Partner Center Announcements, June 2026)</em>. This isn't a promotion or a trial: AI is now embedded in the subscription your team already pays for, removing the friction of selling or approving it as a separate line item <em>(Microsoft Partner Center Announcements, June 2026)</em>. For millions of small and mid-size businesses, the question shifts overnight from 'Should we buy AI?' to 'Are we using what we're already paying for?'",
+        "slants": {
+          "strategy": "This changes your AI ROI conversation entirely. You're no longer justifying a new purchase — you're justifying why you haven't activated something you're already paying for. Build a 30-day adoption plan now.",
+          "operations": "Expect a wave of new Copilot users who've never touched it. Prepare lightweight guides, use-case examples, and guardrails so adoption is productive, not chaotic.",
+          "pm": "Audit your current project management stack for overlap with Copilot features — meeting summaries, status drafts, action-item extraction. Identify where it saves real time vs. where it creates noise.",
+          "admin": "You are now the de facto Copilot power user for your team. Learn three high-value Copilot actions (email summarization, meeting recap, document drafting) and become the person who shows others how."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant you have access to today.",
+            "Step 2: Paste this prompt: <em>\"I'm an [operations manager / admin / PM / strategist] at a company with about [X] employees. We use [Microsoft 365 / Google Workspace / both]. List 5 specific daily tasks I do that an AI copilot built into my productivity suite could handle or accelerate. Be specific — include the task, the time it currently takes, and how AI changes it.\"</em>",
+            "Step 3: Pick the one task where the time savings would be most meaningful to your week.",
+            "Step 4: Ask this follow-up: <em>\"Write me a step-by-step workflow for using an AI assistant to handle [that task], including exactly what to type or click at each step.\"</em>",
+            "Step 5: Try the workflow once this week. Screenshot your result and note how long it actually took."
+          ]
+        }
+      },
+      {
+        "title": "28.8 Million Stolen Conversations: The Biggest AI Distillation Attack Ever Reported",
+        "body": "Anthropic sent a letter to US Senators accusing a major foreign AI lab of running 28.8 million interactions through 25,000 fraudulent accounts over six weeks — from April 22 to June 5, 2026 — to systematically extract Claude's agentic reasoning, coding, and long-horizon task capabilities <em>(unrot.co, June 26, 2026)</em>. No passwords were stolen and no firewalls were breached; the attackers simply used the product as a normal user would, at massive scale, then used the outputs to train a competing model <em>(unrot.co, June 26, 2026)</em>. It's a stark reminder that in the AI era, your vendor's intellectual property risks can become your operational risks overnight — especially if a model you depend on gets pulled or degraded in response.",
+        "slants": {
+          "strategy": "This is a supply-chain story. If your AI strategy depends on a single model provider, a security incident or government action against that provider becomes your business disruption. Build multi-model optionality into your roadmap.",
+          "operations": "Review your team's API usage patterns and access controls. If 25,000 fake accounts went undetected for six weeks on a frontier AI platform, ask what anomalous usage patterns might be invisible in your own tool stack.",
+          "pm": "Add 'model dependency risk' to your project risk registers. If a critical workflow relies on one specific AI model, document the fallback — which alternative model, at what cost, with what retraining time.",
+          "admin": "Check how many seats, logins, or API keys your team has for AI tools. Do an access audit: who has accounts, are any unused, and could any be misused? Good hygiene prevents bad surprises."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"My team uses AI tools including [list your tools — e.g., ChatGPT, Claude, Copilot, Jasper]. Create a simple AI vendor risk assessment table with columns: Tool Name, What We Use It For, What Happens If It Goes Offline for 2 Weeks, Alternative We Could Switch To, Estimated Switch Time.\"</em>",
+            "Step 3: Look at the 'What Happens If It Goes Offline' column. Note which tool going down would hurt the most.",
+            "Step 4: Ask this follow-up: <em>\"For my highest-risk AI dependency, draft a 3-step contingency plan my team could execute within 24 hours if that tool became unavailable.\"</em>",
+            "Step 5: Share the contingency plan with one colleague. Resilience is a team sport."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Perfect Lazy Evening — With an AI Sous Chef",
+      "body": "Summer's here and you deserve a night off. Let AI help you plan a ridiculously good dinner at home using only what's in your kitchen (or close to it).",
+      "prompt": "I want to cook something special tonight but I don't want to go to the store. Here's what I have in my fridge and pantry: [list 8-10 ingredients you actually have]. Suggest 3 dinner options ranked by impressiveness, with estimated cook times. Make one of them something I've probably never tried before. Include a drink pairing I can make with what I have or with one simple addition."
+    }
   }
 }
