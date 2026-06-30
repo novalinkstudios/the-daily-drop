@@ -734,5 +734,72 @@
       "body": "Summer's here and you deserve a night off. Let AI help you plan a ridiculously good dinner at home using only what's in your kitchen (or close to it).",
       "prompt": "I want to cook something special tonight but I don't want to go to the store. Here's what I have in my fridge and pantry: [list 8-10 ingredients you actually have]. Suggest 3 dinner options ranked by impressiveness, with estimated cook times. Make one of them something I've probably never tried before. Include a drink pairing I can make with what I have or with one simple addition."
     }
+  },
+  "2026-06-30": {
+    "intro": "Today marks the final day of what many are calling the most consequential month in AI history — and the themes are unmistakable: frontier models are getting more powerful, access is getting more political, and regulation is finally getting real. Here are three stories that define what comes next for your team.",
+    "trends": [
+      {
+        "title": "GPT-5.6 Is Here — But You Can't Use It Yet",
+        "body": "OpenAI previewed GPT-5.6 on June 26 as a three-tier model family — Sol (flagship), Terra (balanced), and Luna (fast/cheap) — but launched it only to roughly 20 U.S.-government-approved organizations via API and Codex, making it the first American frontier model to ship under a government-managed access list <em>(OpenAI, June 26, 2026)</em>. Terra matches GPT-5.5 performance at half the cost, and Sol introduces an \"ultra\" mode that deploys sub-agents to break complex tasks into parallel work. Broad ChatGPT availability is expected within weeks, but the gating precedent signals that frontier AI releases may increasingly involve government coordination before public access.",
+        "slants": {
+          "strategy": "This tiered model structure (Sol/Terra/Luna) is a preview of how AI pricing will work going forward — map your team's tasks to tiers now so you're ready to optimize spend the moment access opens.",
+          "operations": "Terra at half the cost of GPT-5.5 for comparable quality could meaningfully change your AI budget math. Start listing which workflows could shift from current models to a cheaper tier without quality loss.",
+          "pm": "The government-gated rollout means your timeline for adopting new models now includes a regulatory variable. Build that uncertainty into any AI-dependent project plan.",
+          "admin": "No action needed yet — GPT-5.6 isn't in ChatGPT. But bookmark OpenAI's release notes page so you're first to know when it drops into your model picker."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant you currently use.",
+            "Step 2: Paste this prompt: <em>\"List 5 tasks I do weekly that require deep reasoning vs. 5 that are simple and repetitive. For each, recommend whether a flagship, balanced, or fast/cheap AI tier would be the best fit.\"</em>",
+            "Step 3: Review the split — notice which category has more tasks.",
+            "Step 4: Follow up with: <em>\"Based on this split, estimate what percentage of my AI usage could shift to a lower-cost tier without losing quality.\"</em>",
+            "Step 5: Save the result — you now have a rough cost-optimization plan for when tiered pricing hits your tools."
+          ]
+        }
+      },
+      {
+        "title": "Colorado's AI Law Just Got a Last-Minute Rewrite",
+        "body": "Colorado's original AI Act — the most comprehensive state-level AI regulation in the U.S. — was set to take effect today, but Governor Polis signed SB 189 on May 14, replacing it with a narrower, disclosure-focused framework and pushing the effective date to January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates the original law's duty of care, risk management programs, and impact assessment mandates in favor of transparency requirements around automated decision-making. With the EU AI Act's high-risk system rules taking effect August 2, 2026, and dozens of state AI bills still active, the regulatory patchwork is far from settled.",
+        "slants": {
+          "strategy": "The Colorado pivot from EU-style risk management to disclosure-based rules signals where U.S. AI regulation is heading. Build your governance framework around transparency — it's the common thread across every emerging law.",
+          "operations": "You have six months of breathing room before January 2027, but don't waste it. Use this window to inventory every AI tool touching consequential decisions in hiring, finance, or customer service.",
+          "pm": "If your projects use AI for any automated decisions affecting people, start a simple log: what tool, what decision, what data. That documentation habit will serve you regardless of which laws pass.",
+          "admin": "If your organization serves Colorado residents, flag this for leadership. The new law still requires disclosure when AI materially influences adverse decisions — someone needs to own that process."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I work at a mid-sized company. List every way we might use AI to make decisions about people — hiring, performance reviews, customer approvals, pricing. For each, note whether it would likely require disclosure under a transparency-focused AI law.\"</em>",
+            "Step 3: Circle the one that surprises you most — the AI use you hadn't thought of as a 'decision about people.'",
+            "Step 4: Ask a follow-up: <em>\"For the highest-risk use case you identified, draft a plain-language disclosure statement a company could provide to an affected individual.\"</em>",
+            "Step 5: Save the draft — even if your state hasn't passed a law yet, you now have a head start on disclosure language."
+          ]
+        }
+      },
+      {
+        "title": "The AI Chip War Just Got Personal",
+        "body": "OpenAI and Broadcom unveiled Jalapeño on June 25 — OpenAI's first custom-designed inference chip, built in just nine months and targeting roughly 50% cheaper model serving costs <em>(Build Fast with AI, June 26, 2026)</em>. The chip tackles inference (running models for users), not training, and directly addresses the day-to-day cost of serving ChatGPT and Codex to over 900 million weekly users. Meanwhile, Amazon's custom silicon business crossed a $20 billion annual run rate, and reports emerged of Anthropic exploring inference workloads on Microsoft's Maia 200 chips — signaling that every major AI player is racing to own their hardware stack.",
+        "slants": {
+          "strategy": "When AI providers cut their infrastructure costs by 50%, that savings eventually flows to customers as lower API prices or better free tiers. Factor falling inference costs into your 2027 AI budget planning.",
+          "operations": "Cheaper inference means more AI calls become economically viable. Workflows you shelved because they were 'too expensive per query' may be worth revisiting in 6-12 months.",
+          "pm": "Custom chips signal long-term platform commitment. When evaluating AI vendors, ask about their infrastructure roadmap — providers investing in custom silicon are less likely to disappear.",
+          "admin": "No immediate action, but watch for pricing changes. When providers cut their costs this dramatically, subscription tiers and feature access tend to shift — stay alert for plan updates."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"Explain like I'm a business professional (not an engineer): what is the difference between AI training and AI inference, and why does cheaper inference matter more for everyday users?\"</em>",
+            "Step 3: Note the one analogy that clicks for you — save it for the next time someone asks you about AI costs.",
+            "Step 4: Follow up with: <em>\"If inference costs dropped 50% over the next 18 months, what new business use cases would become affordable that aren't today? Give me 5 specific examples relevant to a mid-sized company.\"</em>",
+            "Step 5: Screenshot your favorite example — it might be your team's next AI project."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Dream Summer Weekend",
+      "body": "The first half of the year is officially behind you. Before the second half gets hectic, let AI help you design one perfect summer weekend — just for you (or you and your favorite people).",
+      "prompt": "I have one free weekend coming up this summer. I like [insert 2-3 things you enjoy — e.g., hiking, trying new restaurants, live music]. I'm based in [your city]. Plan a detailed, realistic 2-day weekend itinerary that includes one thing I've never tried before, one great meal, and at least two hours of doing absolutely nothing. Keep it low-budget and high-joy."
+    }
   }
 }
