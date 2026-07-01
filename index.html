@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-06-30": {
+    "2026-07-01": {
+      intro: "Today the price of AI meets the price of not paying attention \u2014 from exploding token budgets to hidden contract clauses to a landmark state AI law just signed into being. All three stories share a theme: the operational details you ignore now become the strategic crises you manage later.",
+      trends: [
+        {
+          title: "Your AI Budget May Already Be Gone",
+          body: "Enterprise AI spending is spiraling out of control as agentic workflows consume tokens at 5\u201330x the rate of simple chatbot queries. Uber burned through its entire 2026 AI budget in four months, with individual engineers running up $500\u2013$2,000 per month in token costs alone <em>(MindStudio, June 22, 2026)</em>. Even OpenAI's CEO acknowledged that cost concerns went from 'never coming up' to the second-most common issue he hears from customers <em>(CockroachLabs / CNBC, June 2026)</em>.",
+          slants: {
+            strategy: "Token economics are the new cloud economics. If your organization doesn't have a model-routing strategy \u2014 matching tasks to the cheapest capable model \u2014 you're overspending by 60\u201380%. Push for a token governance framework before next quarter's budget review.",
+            operations: "Set hard per-team and per-tool spending caps now, not after the invoice arrives. Separate development and production AI billing so you can see what's testing versus what's running. Audit which workflows actually need frontier models.",
+            pm: "Add 'estimated token cost per sprint' as a line item in your project plans. If your team is using AI agents that loop through 10\u201320 model calls per task, those costs compound fast. Build cost checkpoints into your delivery milestones.",
+            admin: "Track who has API access and what tools they're subscribed to. Many teams are paying for overlapping AI subscriptions. A simple audit of active AI tool licenses across your department can surface thousands in monthly savings."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (ChatGPT, Claude, or Gemini).",
+              "Step 2: Paste this prompt: <em>\"I manage a team of 12 people who each use AI tools daily. Assume average token usage of 500,000 tokens per person per day across a mix of frontier and budget models. Build me a simple monthly cost projection spreadsheet layout with columns for: team member, primary tool, model tier, estimated daily tokens, cost per million tokens, and projected monthly spend. Include a summary row.\"</em>",
+              "Step 3: Review the output and note one cost driver you hadn't considered before.",
+              "Step 4: Ask this follow-up: <em>\"Now suggest three specific ways I could reduce this team's total AI spend by 40% without reducing their output quality, including which tasks could safely use a cheaper model tier.\"</em>",
+              "Step 5: Save the spreadsheet layout and cost-reduction ideas \u2014 share them with your finance partner this week."
+            ]
+          }
+        },
+        {
+          title: "Colorado Just Rewrote the AI Rulebook \u2014 And You Should Care Even If You're Not There",
+          body: "On May 14, 2026, Colorado's governor signed SB 26-189, replacing the nation's most comprehensive AI law with a narrower, disclosure-focused framework taking effect January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates mandatory impact assessments and risk management programs, replacing them with transparency requirements, adverse-outcome notices, and consumer rights to meaningful human review <em>(Littler, May 15, 2026)</em>. It signals that the U.S. is diverging from the EU's risk-based model toward a disclosure-and-rights approach \u2014 and other states are likely to follow.",
+          slants: {
+            strategy: "Don't celebrate the lighter requirements. The new law's January 2027 deadline still requires notice processes, human-review capabilities, and three-year record retention for any AI used in consequential decisions. Start mapping which of your AI systems touch hiring, lending, insurance, or housing decisions.",
+            operations: "Build a simple inventory of every automated tool in your workflows that influences a decision about a person \u2014 hiring screens, credit checks, customer scoring. The new law covers 'any technology that processes personal data and uses computation,' which is broader than just AI.",
+            pm: "If you're running any project that deploys decision-support AI, add a 'regulatory readiness' milestone. Include: consumer disclosure language, an adverse-outcome notification process, and a human-review escalation path.",
+            admin: "Start a records retention plan now. The law requires three years of records for covered automated decisions. Identify where those records currently live and whether your systems can produce them on request."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"I work at an organization that uses automated tools for [hiring/customer scoring/loan decisions \u2014 pick one]. Colorado's new AI law (SB 26-189, effective January 2027) requires pre-use consumer disclosure, adverse-outcome notices with explanation of the AI's role, and meaningful human review on request. Create a plain-language compliance checklist I can share with my team, organized by: what we need to disclose, when we need to notify, and how we enable human review.\"</em>",
+              "Step 3: Identify one item on the checklist your organization isn't currently doing.",
+              "Step 4: Ask this follow-up: <em>\"Draft a short internal memo (under 200 words) I can send to leadership explaining why we should start preparing for this law now, even if we don't operate in Colorado, since other states are expected to adopt similar frameworks.\"</em>",
+              "Step 5: Save the checklist and memo draft. Bring them to your next leadership or compliance meeting."
+            ]
+          }
+        },
+        {
+          title: "Your SaaS Contracts Might Be Training Someone Else's AI on Your Data",
+          body: "A Stanford CodeX analysis found that 92% of AI vendor contracts claim data usage rights beyond what's needed for service delivery \u2014 and many allow vendors to use customer data for competitive intelligence <em>(PYMNTS, June 24, 2026)</em>. Standard contract language written before generative AI existed \u2014 clauses allowing vendors to 'improve' or 'enhance' products \u2014 can legally extend to training AI models on your proprietary workflows, deal structures, and internal documents. Only 17% of AI contracts clearly commit to following all applicable laws, compared to 36% in standard SaaS agreements <em>(PYMNTS, June 24, 2026)</em>.",
+          slants: {
+            strategy: "This is a competitive intelligence risk masquerading as a vendor agreement. A model trained on your proprietary workflows can reproduce those patterns in products sold to your competitors. Elevate AI contract review from procurement to strategy.",
+            operations: "Pull your top five AI vendor contracts and search for the words 'improve,' 'enhance,' 'build,' and 'train.' If those terms aren't explicitly excluded from applying to AI model training, you have an exposure you probably didn't know about.",
+            pm: "Before onboarding any new AI tool for your project, add a contract review step. Ask specifically: Can the vendor use our prompts, outputs, or uploaded data to train models? Who owns patterns the model derives from our data?",
+            admin: "Create a simple tracker: vendor name, contract date, whether AI training rights are addressed, and renewal date. This becomes your team's AI contract risk register. Flag any contract up for renewal in the next 90 days for immediate review."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"I need to review a SaaS vendor contract for hidden AI training rights. Generate a list of 10 specific contract clauses or phrases I should search for that could grant the vendor rights to use my organization's data, prompts, or outputs to train or fine-tune their AI models. For each, explain in one sentence why it's risky.\"</em>",
+              "Step 3: Pick the three riskiest clauses and check whether they appear in one of your current vendor agreements.",
+              "Step 4: Ask this follow-up: <em>\"Now draft three contract amendment clauses I could propose to a vendor to explicitly prohibit using our data for AI training, require notification before any model changes that affect our data, and define ownership of insights derived from our data.\"</em>",
+              "Step 5: Save the clause checklist and proposed amendments. Share with your procurement or legal team."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Plan Your Perfect Summer Day Trip",
+        body: "July is here and you've earned a day off from thinking about tokens, contracts, and compliance. Let AI help you plan an unforgettable day trip you can actually take this month.",
+        prompt: "I live near [your city]. Plan a one-day summer trip within 90 minutes of driving. I enjoy [pick two: hiking, food markets, historical sites, waterfront views, bookshops, art galleries, live music]. Include a morning activity, a lunch spot with a signature dish, an afternoon experience, and a sunset viewing spot. Keep it relaxed \u2014 no rushing. Budget under $75 per person."
+      }
+    },
+  "2026-06-30": {
       intro: "Today marks the final day of what many are calling the most consequential month in AI history \u2014 and the themes are unmistakable: frontier models are getting more powerful, access is getting more political, and regulation is finally getting real. Here are three stories that define what comes next for your team.",
       trends: [
         {
