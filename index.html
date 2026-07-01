@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>The Forecast · AOA: AI Ops Accelerator</title>
-<meta name="description" content="Curated AI landscape intelligence for Cisco Ops professionals — three trends worth knowing today, from tools and models to research and real-world impact." />
+<title>The Daily Drop · NovaLink Studios</title>
+<meta name="description" content="Three things worth thinking about today — for operators, strategists, project managers, and admins navigating AI." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +12,20 @@
 
 <style>
   :root {
-    --navy:    #07091A;
-    --blue:    #00BCEB;
-    --gold:    #F5891E;
-    --magenta: #00BCEB;
+    --navy:    #0A0A0A;
+    --blue:    #C9A840;
+    --gold:    #C9A840;
+    --magenta: #C9A840;
     --white:   #FFFFFF;
-    --light:   #0D1020;
-    --muted:   #6B7A99;
-    --text:    #E2EAF4;
+    --light:   #141414;
+    --muted:   #8A7E6A;
+    --text:    #EDE8DE;
 
     /* Derived UI tokens */
-    --rule:         rgba(0, 188, 235, 0.15);
-    --rule-strong:  rgba(0, 188, 235, 0.28);
-    --tag-bg:       rgba(0, 188, 235, 0.10);
-    --accent-soft:  rgba(0, 188, 235, 0.14);
+    --rule:         rgba(201, 168, 64, 0.15);
+    --rule-strong:  rgba(201, 168, 64, 0.28);
+    --tag-bg:       rgba(201, 168, 64, 0.12);
+    --accent-soft:  rgba(201, 168, 64, 0.16);
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -59,7 +59,7 @@
     position: absolute;
     top: -120px; right: -80px;
     width: 480px; height: 480px;
-    background: radial-gradient(circle, rgba(0,188,235,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201,168,64,0.08) 0%, transparent 70%);
     pointer-events: none;
   }
   .hero::after {
@@ -67,7 +67,7 @@
     position: absolute;
     bottom: -60px; left: 30%;
     width: 300px; height: 300px;
-    background: radial-gradient(circle, rgba(0,188,235,0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201,168,64,0.05) 0%, transparent 70%);
     pointer-events: none;
   }
   .hero-top {
@@ -77,14 +77,6 @@
     margin: 0 auto;
   }
   .hero-left { max-width: 760px; }
-  .hero-logo-wrap {
-    margin-bottom: 28px;
-  }
-  .hero-logo {
-    height: 52px;
-    width: auto;
-    display: block;
-  }
   .hero-eyebrow {
     font-size: 11px;
     font-weight: 600;
@@ -798,21 +790,18 @@
 <section class="hero">
   <div class="hero-top">
     <div class="hero-left">
-      <div class="hero-logo-wrap">
-        <img src="aoa-logo.png" alt="AOA: AI Ops Accelerator" class="hero-logo" />
-      </div>
-      <div class="hero-eyebrow">AOA: AI Ops Accelerator &nbsp;·&nbsp; The Forecast</div>
-      <h1 class="hero-title">The<br><em>Forecast</em></h1>
+      <div class="hero-eyebrow">NovaLink Studios · The Daily Drop</div>
+      <h1 class="hero-title">The Daily<br><em>Drop</em></h1>
       <p class="hero-tagline">Come curious. Leave with something you can use on Monday.</p>
-      <p class="hero-sub">The Forecast is AOA's curated AI intelligence briefing for Cisco Ops professionals — three trends worth knowing today, from new tools and models to research and real-world wins. No hype, no jargon, just signal that matters for your role.</p>
-      <p class="hero-byline">Curated daily by <strong>AOA · Anjie</strong></p>
+      <p class="hero-sub">The Daily Drop is a community for professionals in operations, strategy, project management, and admin roles who want to work smarter with AI — no hype, no fear, just practical tools and honest takes.</p>
+      <p class="hero-byline">Curated daily by <strong>Anjanette W</strong></p>
     </div>
   </div>
 </section>
 
 <!-- ══ STICKY CONTROLS ══ -->
 <nav class="navbar" aria-label="Daily Drop controls">
-  <div class="navbar-brand">The Forecast · AOA</div>
+  <div class="navbar-brand">Daily Drop</div>
   <div class="navbar-controls">
     <div class="date-stepper">
       <button class="step-btn" id="step-prev" aria-label="Previous drop">&#8249;</button>
@@ -1866,4 +1855,19 @@
      opened via file://), the page still renders the baked-in archive. */
   async function init() {
     try {
-      const res = await fetch('drops.j
+      const res = await fetch('drops.json', { cache: 'no-store' });
+      if (res.ok) {
+        const feed = await res.json();
+        if (feed && typeof feed === 'object') Object.assign(DROPS, feed);
+      }
+    } catch (e) {
+      console.warn('Daily Drop: drops.json unavailable, showing built-in archive.', e);
+    }
+    setKey(defaultKey());
+  }
+
+  init();
+</script>
+
+</body>
+</html>
