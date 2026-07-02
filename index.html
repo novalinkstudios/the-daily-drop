@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-07-01": {
+    "2026-07-02": {
+      intro: "AI got cheaper, scarier, and more regulated \u2014 all in the same week. Today's three stories share a thread: the tools are moving faster than the rules, and the organizations that adjust their playbooks now will be the ones still standing when the dust settles.",
+      trends: [
+        {
+          title: "Claude Sonnet 5 Drops \u2014 and It's a Direct Answer to Runaway AI Bills",
+          body: "Claude Sonnet 5 launched June 30 as the new default for all free and paid users, with introductory API pricing of $2 per million input tokens through August 31 <em>(Anthropic / Future Tools, June 30, 2026)</em>. The timing is deliberate: enterprises have been recoiling from agentic AI spending in Q2 2026, with roughly 95% of enterprise AI usage still running on expensive frontier models when cheaper options could handle the task <em>(CNBC, June 26, 2026)</em>. Early production partners report multi-step automations that previously stalled mid-workflow now complete end to end at lower cost.",
+          slants: {
+            strategy: "This is the moment to revisit your AI vendor strategy. Model routing \u2014 matching tasks to the right-cost model \u2014 is no longer optional. Map your team's AI usage by task complexity and start shifting simple tasks off frontier models.",
+            operations: "Audit your current AI token spend immediately. Finance teams are being surprised by large AI bills they never planned for. Set up usage dashboards and per-team spending limits before the next invoice arrives.",
+            pm: "Test Sonnet 5 on a real agentic workflow your team already runs \u2014 status updates, ticket triage, or stakeholder summaries. Document where it matches your current tool and where it falls short. That comparison is your leverage.",
+            admin: "Ask your AI platform admin (or vendor) whether you have visibility into credit spend by user or department. If the answer is no, flag it. The new generation of AI tools ships with spend controls \u2014 make sure yours are turned on."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (Claude, ChatGPT, or Gemini).",
+              "Step 2: Paste this prompt: <em>\"List 5 categories of tasks my team does weekly. For each, rate whether it needs a frontier AI model or could use a lightweight model. Format as a table with columns: Task, Complexity (High/Medium/Low), Model Tier Needed.\"</em>",
+              "Step 3: Review the table \u2014 note one task you're currently overspending on.",
+              "Step 4: Ask a follow-up: <em>\"For the low-complexity tasks you identified, draft a one-paragraph recommendation I could send to my manager about switching to a cheaper AI model tier to reduce costs.\"</em>",
+              "Step 5: Save or screenshot the recommendation for your next team meeting."
+            ]
+          }
+        },
+        {
+          title: "Five Eyes Intelligence Alliance Tells Every Business: AI Cyber Threats Are Months Away, Not Years",
+          body: "On June 22, 2026, the cybersecurity agencies of all five Five Eyes nations issued a rare joint statement warning that frontier AI models will fundamentally transform offensive cyber capabilities and that risk assumptions can become outdated in months, not years <em>(NSA / Five Eyes Joint Statement, June 22, 2026)</em>. The warning came days after reports that an advanced AI agent had penetrated nearly all classified systems managed by the NSA and U.S. Cyber Command within hours <em>(CBS News, June 23, 2026)</em>. Experts warn that small and medium businesses who have underinvested in cybersecurity will be especially exposed.",
+          slants: {
+            strategy: "Cybersecurity is now a board-level AI issue, not just an IT issue. If your risk assessments are on an annual cycle, they may be outdated before the next review. Push for quarterly threat-model updates that factor in AI-accelerated attacks.",
+            operations: "Review your access controls this week. The Five Eyes advisory specifically recommends limiting who has access to critical systems and patching legacy software. Start with the basics: multi-factor authentication and software update compliance.",
+            pm: "Add a cybersecurity checkpoint to your project kickoff templates. Any project that involves AI tools, customer data, or third-party integrations should include a brief risk assessment step \u2014 even a five-minute conversation with IT.",
+            admin: "Run a quick inventory of every AI tool your team uses, including free ones. Each tool is a potential access point. Document who uses what and whether company data is being uploaded. This simple list is your first line of defense."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"I work in a mid-size organization. Create a simple 10-question cybersecurity hygiene checklist I can share with my team. Focus on AI-specific risks like data uploaded to AI tools, phishing generated by AI, and weak access controls.\"</em>",
+              "Step 3: Read through the checklist \u2014 note one item your team probably hasn't addressed yet.",
+              "Step 4: Ask a follow-up: <em>\"Turn that checklist into a short email I can send to my team with a friendly but serious tone, explaining why AI makes cybersecurity more urgent right now.\"</em>",
+              "Step 5: Save the email draft and consider actually sending it."
+            ]
+          }
+        },
+        {
+          title: "Colorado Rewrites Its AI Law \u2014 and the Compliance Clock Is Ticking for Everyone",
+          body: "Colorado's governor signed SB 26-189 on May 14, 2026, replacing the state's original AI governance law with a narrower but still significant framework focused on transparency and disclosure for automated decision-making in employment, lending, housing, and healthcare, effective January 1, 2027 <em>(Norton Rose Fulbright, May 22, 2026)</em>. The revised law requires advance notice to consumers when AI influences consequential decisions, human review of adverse outcomes, and three-year record retention \u2014 with violations carrying penalties up to $20,000 each <em>(Littler Mendelson, May 15, 2026)</em>. More states are expected to follow, making proactive compliance a strategic advantage.",
+          slants: {
+            strategy: "Don't wait for your state to pass its own version. Use Colorado's framework as a voluntary baseline now. Companies that build transparency and disclosure into their AI processes early will spend less scrambling later.",
+            operations: "If your organization uses AI in hiring, lending, or customer decisions, start mapping which tools qualify as 'automated decision-making technology' under the new definitions. Document how each tool influences outcomes.",
+            pm: "Build a compliance-readiness milestone into any project that deploys AI for customer-facing or employee-facing decisions. Include disclosure language, human review steps, and a record-retention plan from day one.",
+            admin: "Start a simple log of every AI tool used in decisions that affect people \u2014 hiring screeners, scheduling tools, customer service bots. Note what data goes in and what decisions come out. This record is exactly what regulators will ask for."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"My organization uses AI tools in [hiring / customer service / operations \u2014 pick one]. Under Colorado's new AI law (SB 26-189), what types of consumer disclosures and human review processes would we likely need? Give me a plain-language summary in 5 bullet points.\"</em>",
+              "Step 3: Review the bullets \u2014 note one area where your team currently has no process.",
+              "Step 4: Ask a follow-up: <em>\"Draft a one-page internal checklist our team can use to prepare for AI transparency requirements, even if our state hasn't passed a law yet. Keep it practical and jargon-free.\"</em>",
+              "Step 5: Save the checklist and share it with whoever manages compliance or operations at your organization."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Plan Your Dream Weekend Getaway with AI",
+        body: "Summer's here. Let AI do the research legwork so you can focus on the fun part \u2014 actually going. Pick a place within driving distance you've been meaning to visit, and let your AI assistant build the itinerary.",
+        prompt: "I want to plan a relaxed weekend getaway within 3 hours of [your city]. I like [food / hiking / bookshops / live music \u2014 pick two]. Build me a full itinerary: where to stay (budget-friendly), three must-do activities, two restaurants to try, and one unexpected local gem most tourists miss. Keep it fun and specific."
+      }
+    },
+  "2026-07-01": {
       intro: "Today the price of AI meets the price of not paying attention \u2014 from exploding token budgets to hidden contract clauses to a landmark state AI law just signed into being. All three stories share a theme: the operational details you ignore now become the strategic crises you manage later.",
       trends: [
         {
