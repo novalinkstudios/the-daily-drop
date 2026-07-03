@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-07-02": {
+    "2026-07-03": {
+      intro: "AI is accelerating on every front \u2014 more powerful models landing in more hands, spy agencies sounding alarms about what those models can do, and CFOs realizing the bill for all that power is out of control. Today's three stories trace one arc: capability is no longer the bottleneck \u2014 governance is.",
+      trends: [
+        {
+          title: "Claude Sonnet 5 Goes Live \u2014 and California Just Gave It to 300,000 State Workers",
+          body: "Claude Sonnet 5 launched June 30 and became the default model for all free and paid Claude users on July 1 \u2014 performing near the flagship Opus 4.8 on many tasks at introductory pricing of just $2 per million input tokens <em>(Build Fast with AI, July 1 2026)</em>. Meanwhile, California signed a first-of-its-kind deal giving every state agency, city, and county access to Claude at a 50% discount, making it the largest US government AI deployment in history <em>(Build Fast with AI, July 1 2026)</em>. The state's custom AI assistant 'Poppy' was piloted with 2,800 employees across 67 departments before the statewide rollout.",
+          slants: {
+            strategy: "A state government just chose a single AI vendor for 300,000 workers. Watch for this pattern \u2014 centralized AI procurement is replacing department-by-department experimentation. Map your own organization's AI buying structure before someone maps it for you.",
+            operations: "California's 'Poppy' assistant uses pre-built query templates for common state tasks. This is the model: standardize your top 10 repeatable processes into AI templates so every team member gets consistent, high-quality output.",
+            pm: "The statewide rollout started with a 2,800-person pilot across 67 departments \u2014 a structured scale-up, not a big-bang launch. Use this as a case study for phased AI rollout planning in your own programs.",
+            admin: "Poppy was built with pre-built query templates for routine business questions \u2014 things like scheduling, documentation, and process lookups. If you handle repetitive internal questions, this is a blueprint for saving hours each week."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini \u2014 whatever you use).",
+              "Step 2: Paste this prompt: <em>\"I handle [describe your role \u2014 e.g., scheduling, vendor coordination, internal requests]. List the 5 most repetitive questions or tasks I probably deal with weekly, then write a short template prompt I could reuse for each one.\"</em>",
+              "Step 3: Review the five templates. Note which one would save you the most time this week.",
+              "Step 4: Test your top template on a real task right now. Then ask a follow-up: <em>\"How could I refine this template to give better results for [your specific context]?\"</em>",
+              "Step 5: Save your best template somewhere you'll actually find it \u2014 a pinned note, a bookmark, a sticky note on your monitor."
+            ]
+          }
+        },
+        {
+          title: "Five Eyes Spy Alliance Tells Every Business: AI-Powered Cyberattacks Are Months Away",
+          body: "The intelligence agencies of the US, UK, Canada, Australia, and New Zealand issued a rare joint warning on June 22 that frontier AI models will 'fundamentally transform both offensive and defensive cyber capabilities' with a timeline of 'months, not years' <em>(CBS News, June 23 2026)</em>. The Five Eyes advisory specifically noted that AI 'lowers barriers for malicious actors and increases the speed and complexity of attacks' <em>(Cybersecurity Dive, June 23 2026)</em>. Experts warned that small and medium businesses are especially exposed \u2014 one national security analyst called under-prepared organizations 'sitting ducks' <em>(CNN, June 23 2026)</em>.",
+          slants: {
+            strategy: "The Five Eyes statement explicitly said cybersecurity is now 'a core business risk and leadership responsibility' \u2014 not an IT department function. If your board doesn't discuss AI security, that's a gap your competitors may not share.",
+            operations: "The advisory recommended three concrete actions: use AI tools defensively, shorten patch windows (the US federal mandate dropped to 3 days), and limit access to critical systems. Audit who on your team has access to what \u2014 this week.",
+            pm: "If your projects involve any AI-connected tools (copilots, agents, browser extensions), this warning applies directly. Add a standing security-review checkpoint to your project templates now, before an incident forces one in.",
+            admin: "You're often the person who manages software access and permissions. This is your moment to shine: create a simple inventory of every AI tool your team uses, who has access, and what data it can touch."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"I work at a mid-size organization. We use several AI tools including [list any you use \u2014 e.g., ChatGPT, Copilot, Grammarly]. Act as a cybersecurity advisor and give me a plain-English checklist of the 5 most important things our team should do this month to reduce AI-related security risk.\"</em>",
+              "Step 3: Read the checklist and circle the one item you're most unsure about.",
+              "Step 4: Ask a follow-up: <em>\"Explain item [number] like I'm a non-technical manager. What's the worst-case scenario if we ignore it, and what's the easiest first step to fix it?\"</em>",
+              "Step 5: Share your checklist with one colleague who should see it."
+            ]
+          }
+        },
+        {
+          title: "The Tokenmaxxing Era Is Over \u2014 CFOs Are Taking Back the AI Budget",
+          body: "Enterprises are slamming the brakes on runaway AI spending. One major tech company exhausted its entire 2026 AI coding budget in just four months, and average enterprise AI budgets have ballooned from $1.2 million in 2024 to $7 million in 2026 \u2014 a 320% increase \u2014 even as per-token prices dropped <em>(TechFinitive, July 2 2026)</em>. A KPMG survey found only 26% of companies have comprehensive visibility into their AI costs, and one AI consultant reported a client that spent half a billion dollars in a single month after failing to set usage limits <em>(Axios, May 28 2026)</em>. The industry is shifting from 'use more AI' to 'use AI where it actually matters.'",
+          slants: {
+            strategy: "The reckoning is structural: both leading AI labs filed confidentially for IPOs in June, meaning their revenue growth depends on you spending more. Your job is the opposite \u2014 tie every AI dollar to a measurable business outcome before the next budget cycle.",
+            operations: "Model routing \u2014 automatically matching tasks to cheaper or more expensive AI models based on complexity \u2014 can cut costs 60\u201380% without quality loss. If your team uses one AI model for everything, you're overpaying by an order of magnitude.",
+            pm: "Add token/cost tracking as a line item in project budgets now. If you wouldn't let a team run a server without monitoring costs, don't let them run AI agents without the same discipline.",
+            admin: "You're likely the first person to see unexpected invoices. Flag any AI-related charges that have jumped \u2014 you might be the early warning system your finance team needs."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste this prompt: <em>\"I want to audit how my team uses AI tools. Create a simple one-page AI usage tracker template with columns for: tool name, what it's used for, who uses it, estimated monthly cost, and whether the output is essential or nice-to-have.\"</em>",
+              "Step 3: Fill in the tracker with what you know right now \u2014 even rough guesses count.",
+              "Step 4: Ask a follow-up: <em>\"Based on this tracker, which tasks could probably be handled by a free or lower-cost AI tool instead of a premium one? Suggest specific alternatives.\"</em>",
+              "Step 5: Save the completed tracker and share it with whoever manages your team's software budget."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Plan Your Ultimate Summer Weekend",
+        body: "Forget work \u2014 you deserve a weekend that feels like a mini vacation. Let AI help you design a perfect two-day itinerary based on what actually energizes you.",
+        prompt: "I have a free weekend coming up and I want to make it memorable. I'm based in [your city/area]. I enjoy [list 2-3 things you love \u2014 e.g., hiking, trying new restaurants, live music, reading in parks]. My budget is [low/medium/flexible]. Plan me a two-day weekend itinerary with specific suggestions for Saturday morning, afternoon, and evening, and Sunday morning and afternoon. Include one surprise activity I probably wouldn't think of on my own. Keep it relaxed \u2014 no rushing."
+      }
+    },
+  "2026-07-02": {
       intro: "AI got cheaper, scarier, and more regulated \u2014 all in the same week. Today's three stories share a thread: the tools are moving faster than the rules, and the organizations that adjust their playbooks now will be the ones still standing when the dust settles.",
       trends: [
         {
