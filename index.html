@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-07-03": {
+    "2026-07-04": {
+      intro: "This week, the world's governments scrambled to keep up with AI \u2014 from a UN panel declaring the governance window is closing, to spy agencies warning that AI-powered cyberattacks are months away, to a major new AI model rolling out to 300,000 state workers. The thread connecting it all: the gap between what AI can do and what we're ready for is widening, and the people who prepare now \u2014 not later \u2014 will come out ahead.",
+      trends: [
+        {
+          title: "The UN Just Said the Quiet Part Out Loud: AI Is Outrunning the Rules",
+          body: "On July 1, a 40-member UN scientific panel released its first-ever global assessment of AI, warning that capabilities are advancing faster than any government's ability to regulate them. The report found that over a billion people now use conversational AI weekly, while the US controls roughly 75% of the computing power behind the top 500 AI supercomputers. <em>UN Independent International Scientific Panel on AI, Preliminary Report, July 1, 2026</em>. Co-chair Yoshua Bengio called it a \"turning point\" for the growing intelligence of machines, and UN Secretary-General Guterres urged governments: \"Do not wait.\"",
+          slants: {
+            strategy: "This report will shape procurement requirements and compliance frameworks globally. If you sell to government or regulated industries, expect new AI governance questions to appear in RFPs within 6\u201312 months. Start documenting your AI usage now.",
+            operations: "The report highlights fragmented governance \u2014 over 40 frameworks exist worldwide, rarely tested for effectiveness. If your workflows touch multiple regions, map which AI regulations apply where before you're surprised by one.",
+            pm: "AI task complexity is reportedly doubling every 4\u20137 months. That means the scope of what AI agents can handle in your projects is shifting faster than your planning cycles. Build quarterly AI capability reviews into your project governance.",
+            admin: "The report flags AI sycophancy \u2014 systems telling users what they want to hear \u2014 as a documented safety risk. If you're using AI to draft communications or summarize meetings, always verify key facts before sending."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste: <em>\"Our team uses AI for [describe 2-3 tasks]. Based on the UN's July 2026 preliminary report on AI governance gaps, what are the top 3 risks we should document and what simple safeguards would you recommend for a mid-size team?\"</em>",
+              "Step 3: Note which risk surprised you \u2014 most people underestimate the compliance and data-residency ones.",
+              "Step 4: Ask a follow-up: <em>\"Now draft a one-page internal AI usage policy covering these risks. Keep it plain language, under 500 words, suitable for a team of non-technical professionals.\"</em>",
+              "Step 5: Save the draft. Even an imperfect policy is better than none \u2014 and you just made one in five minutes."
+            ]
+          }
+        },
+        {
+          title: "Five Eyes to Businesses: AI Cyberattacks Are Months Away, Not Years",
+          body: "The intelligence agencies of the US, UK, Canada, Australia, and New Zealand issued a rare joint warning on June 22 that frontier AI models will fundamentally transform offensive cyber capabilities within months. The statement urged business leaders to treat cybersecurity as a board-level responsibility, not an IT department function <em>CBS News, June 23, 2026</em>. Experts warned that small and medium businesses that have underinvested in security \"will basically be like sitting ducks\" <em>CNN, June 23, 2026</em>.",
+          slants: {
+            strategy: "This is a board-level signal. If your leadership team still treats cybersecurity as a cost center buried in IT, this Five Eyes statement is your leverage to get it on the executive agenda \u2014 with budget attached.",
+            operations: "The agencies specifically recommended shortening vulnerability patching windows. Review your patch cycle: if it's measured in weeks, it needs to be measured in days. Ask your IT team what their current average is.",
+            pm: "Every project with external integrations, APIs, or cloud services now carries heightened cyber risk. Add a security checkpoint to your project kickoff template \u2014 even a simple 'who reviewed access permissions?' question.",
+            admin: "You are often the first person to receive phishing emails and suspicious requests. AI-generated scams are getting more convincing. Bookmark your organization's reporting process and flag anything that feels slightly off \u2014 your instincts matter more now."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant.",
+              "Step 2: Paste: <em>\"I work in [your role] at a mid-size organization. Based on the June 2026 Five Eyes joint statement on AI cyber risks, give me 5 practical things I can personally do this week to reduce my team's exposure to AI-enhanced phishing and social engineering attacks.\"</em>",
+              "Step 3: Circle the one action you could do today with zero budget and no approvals needed.",
+              "Step 4: Ask a follow-up: <em>\"Now write a short Slack message or email I can send to my team explaining why AI-powered phishing is different from traditional phishing, and one habit change that would help. Keep it under 100 words and non-alarmist.\"</em>",
+              "Step 5: Send it. You just became the person who raised the flag early."
+            ]
+          }
+        },
+        {
+          title: "Claude Sonnet 5 Goes Live \u2014 and California Just Gave 300,000 Workers Access",
+          body: "Claude Sonnet 5 launched June 30 as the default model for all free and paid users, scoring 63.2% on agentic coding benchmarks versus its predecessor's 58.1%, with a 1-million-token context window and introductory pricing of $2 per million input tokens through August <em>BuildFastWithAI, July 1, 2026</em>. Meanwhile, California signed the largest US state government AI deployment in history, giving all state agencies, cities, and counties access at a 50% discount \u2014 with an AI assistant named Poppy already piloted by 2,800 employees across 67 departments <em>BuildFastWithAI, July 1, 2026</em>.",
+          slants: {
+            strategy: "California's deal is a signal: government-scale AI procurement is shifting from cautious pilots to full deployment. If you serve public sector clients, the expectation that AI is part of your workflow is accelerating faster than many planned for.",
+            operations: "A 1-million-token context window means you can feed entire process manuals, policy documents, or contract sets into a single prompt. Test whether your longest standard document fits \u2014 and what quality of analysis you get back.",
+            pm: "The 63.2% agentic benchmark score means the model can handle more multi-step tasks with less hand-holding. Try giving it a real project brief and asking it to break down a work plan \u2014 then compare the output to what you'd build manually.",
+            admin: "California's Poppy assistant was built with pre-built query templates for common tasks. That's the model to follow: instead of starting from scratch every time, build a personal library of your 5 most-used prompts and save them where you can grab them fast."
+          },
+          challenge: {
+            steps: [
+              "Step 1: Open any AI assistant (Claude, ChatGPT, Gemini \u2014 any will work).",
+              "Step 2: Paste: <em>\"I regularly handle these tasks at work: [list 3-5 repetitive tasks like scheduling, drafting status updates, summarizing documents]. For each one, write me a reusable prompt template I can copy-paste whenever I need it. Format each as a fill-in-the-blank template.\"</em>",
+              "Step 3: Pick the template that would save you the most time this week and test it on a real task.",
+              "Step 4: Ask a follow-up: <em>\"Now suggest how I could combine two of these templates into a single prompt that handles both steps at once \u2014 and explain when that's a good idea versus when I should keep them separate.\"</em>",
+              "Step 5: Save your templates somewhere permanent \u2014 a note, a doc, a pinned message. You just built your own 'Poppy.'"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Plan Your Ultimate Summer Weekend \u2014 AI-Style",
+        body: "It's the Fourth of July. Whether you're celebrating, resting, or just looking for something fun to do, let AI help you plan a perfect personal weekend. No work allowed \u2014 this is purely for you.",
+        prompt: "I have this weekend free and I want to make it memorable. Here's what I enjoy: [list 2-3 hobbies or interests, e.g., cooking, hiking, live music]. I'm located in [your city or region]. My budget is [low/medium/flexible]. Plan me a detailed, hour-by-hour itinerary for one perfect day \u2014 include a surprise activity I wouldn't think of on my own, a meal I should try making from scratch, and one thing to do that requires zero screens."
+      }
+    },
+  "2026-07-03": {
       intro: "AI is accelerating on every front \u2014 more powerful models landing in more hands, spy agencies sounding alarms about what those models can do, and CFOs realizing the bill for all that power is out of control. Today's three stories trace one arc: capability is no longer the bottleneck \u2014 governance is.",
       trends: [
         {
