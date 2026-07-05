@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-07-04": {
+    "2026-07-05": {
+      intro: "Today's stories are all about who's actually doing the adapting when AI hits an org chart \u2014 the managers left holding the validation work, the agents you can now hand a whole task to instead of a single question, and the hard data on whether AI is really cutting headcount.",
+      trends: [
+        {
+          title: "Middle managers are becoming AI's unofficial quality control team",
+          body: "New Harvard Business Review research based on interviews at two major consulting firms found that while senior leaders lean into AI's strategic upside, <em>middle managers were overloaded with new responsibilities\u2014validating AI outputs, identifying errors, coaching their teams in AI skills</em>\u2014all without formal support (HBR, June 2026). A separate Salesforce survey found 78% of managers feel personally responsible for their team's AI adoption, yet only <em>32% work in organizations with formal AI tracking</em> (Salesforce, June 2026).",
+          slants: {
+            strategy: "This is a planning gap, not a people gap \u2014 build the validation and coaching load into role design before you set adoption targets, not after.",
+            operations: "Treat AI output review as a workflow step with its own time and owner, the same way you'd account for QA on any process change.",
+            pm: "Add a lightweight 'AI-assisted' checkpoint to your project status template so review time doesn't quietly disappear into someone's evenings.",
+            admin: "If you support a manager who's drowning in AI review work, ask what parts of that checking process you could take a first pass at."
+          },
+          challenge: {
+            steps: [
+              "Pick one AI-assisted output from this week \u2014 a draft email, summary, or report.",
+              "Open your company-approved AI tool and ask: <em>\"Give me a 5-point checklist I can use to validate accuracy and tone before I send this kind of AI-assisted work to a manager.\"</em>",
+              "Run your own output through that checklist and note anything it catches that you missed.",
+              "Add one item to the checklist based on what you just learned.",
+              "Share your checklist in the group so others can borrow it."
+            ]
+          }
+        },
+        {
+          title: "AI agents want the whole task now, not just your questions",
+          body: "A Harvard Business School analysis of hundreds of millions of user interactions found knowledge workers are the heaviest users of agentic AI, and the pattern is a real shift: <em>moving from asking AI for answers to delegating the entire task</em> (HBS Working Knowledge, June 2026). Researcher Jeremy Yang put it plainly \u2014 the tools take <em>\"objectives and preferences, instead of step-by-step instructions\"</em> (HBS Working Knowledge, June 2026).",
+          slants: {
+            strategy: "Start writing goals and guardrails for agents into your planning docs, not just task lists \u2014 that's the unit of work now.",
+            operations: "Pick one recurring, well-defined process and hand it a goal instead of a script; see where it needs a human checkpoint.",
+            pm: "Rewrite one recurring deliverable as an outcome statement instead of a sequence of steps, then let the agent ask you what it needs.",
+            admin: "Try describing what you want done, not how, and see whether the tool asks smarter clarifying questions than you'd have thought to answer."
+          },
+          challenge: {
+            steps: [
+              "Pick a recurring task you usually do step-by-step, like a weekly status update.",
+              "Instead of instructions, describe the goal: <em>\"I want a weekly status update summarizing progress, risks, and next steps for [project]. Ask me for the info you need, then draft it.\"</em>",
+              "Notice what it asks you before drafting \u2014 that's the gap between a tool and a delegate.",
+              "Compare the result to how you'd normally write it and flag anything it missed or got right.",
+              "Share your prompt and takeaway in the group."
+            ]
+          }
+        },
+        {
+          title: "The data says AI adopters are hiring, not cutting",
+          body: "A new Ramp and Revelio Labs study of over 21,000 U.S. firms found <em>companies that invest heavily in AI grow headcount 10% over the two years following adoption</em>, with entry-level headcount up 12% (Ramp, June 2026). The catch: gains show up <em>\"roughly 6-12 months after adoption\"</em>, once firms build real workflows around the tools rather than bolting them on (Ramp, June 2026).",
+          slants: {
+            strategy: "Use this data to reframe the AI-and-headcount conversation in planning meetings \u2014 the story isn't automation replacing people, it's slow, workflow-dependent payoff.",
+            operations: "Expect a lag between rollout and results \u2014 set expectations with leadership now so a quiet first two quarters doesn't get read as failure.",
+            pm: "Build project resourcing plans assuming teams grow alongside AI tools over time, not shrink the day after rollout.",
+            admin: "If a colleague is anxious about AI and job cuts, this is a real number to bring to that conversation, not just reassurance."
+          },
+          challenge: {
+            steps: [
+              "Think of a recent headline or hallway comment about AI cutting jobs.",
+              "Ask your company-approved AI tool: <em>\"Summarize the strongest evidence for and against AI adoption causing layoffs, using recent labor market data.\"</em>",
+              "Compare the summary to what you assumed going in.",
+              "Write one grounded sentence you'd use to reassure a nervous colleague.",
+              "Share it in the group."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI plan your next low-key weekend",
+        body: "Pick any free tool \u2014 ChatGPT, Claude, Gemini, or Perplexity \u2014 and let it plan a short trip with you instead of for you. This one teaches the 'ask me questions first' technique, which is one of the most useful prompting habits you'll ever pick up.",
+        prompt: "\"I want to plan a low-key weekend trip within 3 hours of [your city]. Before you suggest anything, ask me five questions about my budget, interests, and travel style, then give me three ranked options.\""
+      }
+    },
+  "2026-07-04": {
       intro: "This week, the world's governments scrambled to keep up with AI \u2014 from a UN panel declaring the governance window is closing, to spy agencies warning that AI-powered cyberattacks are months away, to a major new AI model rolling out to 300,000 state workers. The thread connecting it all: the gap between what AI can do and what we're ready for is widening, and the people who prepare now \u2014 not later \u2014 will come out ahead.",
       trends: [
         {
