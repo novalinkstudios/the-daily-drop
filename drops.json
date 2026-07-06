@@ -1,4 +1,71 @@
-﻿{
+{
+  "2026-07-06": {
+    "intro": "Monday. This week is already stacked with momentum — a landmark government AI deployment, a global commission putting world leaders behind AI for everyone, and the most capable everyday AI model yet just became your default tool.",
+    "trends": [
+      {
+        "title": "State Government's Biggest AI Bet Opens Doors for Everyone",
+        "body": "California Governor Newsom announced a landmark partnership with Anthropic, making Claude available to every state agency — and optionally every city and county — at a 50% discount. <em>Over 2,800 state employees across 67 departments are already piloting the tool</em> (TechCrunch, June 2026), handling everything from Medicaid case management to document drafting. This is the largest US state government AI deployment in history, and a clear signal that AI-powered work is becoming standard at every level of public and private service.",
+        "slants": {
+          "strategy": "When a state the size of California standardizes on AI for day-to-day government operations, it signals that AI fluency is moving from competitive advantage to table stakes — position your team now.",
+          "operations": "State-scale AI deployment means the tool you're using is proven at volumes and complexity levels far beyond most organizations — your confidence in building AI-powered processes should grow accordingly.",
+          "pm": "Government project managers are using AI for Medicaid case management and document summarization — the same productivity gains are available in your projects, with no procurement process required.",
+          "admin": "The tasks state workers are using AI for — drafting, summarizing, analyzing documents — are exactly what you do every day; this is your clearest signal yet that AI-assisted admin work is the new professional standard."
+        },
+        "challenge": {
+          "steps": [
+            "Identify one document you regularly draft or summarize — a meeting summary, status update, or briefing.",
+            "Open your company-approved AI tool and paste: <em>\"You are a professional analyst. Summarize the following document in 5 clear bullet points for a non-technical audience: [paste your document here]\"</em>",
+            "Review the summary and note what it got right and what it missed.",
+            "Refine it with: <em>\"Rewrite this summary as a 3-sentence executive briefing for a director. Lead with the most important finding.\"</em>",
+            "Save both prompts as a reusable template for this document type."
+          ]
+        }
+      },
+      {
+        "title": "Global Leaders Make AI Access for All a Shared Mission",
+        "body": "The United Nations and ITU launched the AI for Good Global Commission on July 2, co-chaired by Salesforce CEO Marc Benioff and Rwandan President Paul Kagame. <em>More than 40 founding members — including the CEOs of Amazon, Nvidia, and Microsoft — have committed to ensuring AI-driven economic gains reach developing nations</em> (Axios, July 2026). Their inaugural meeting is happening this week at the AI for Good Global Summit in Geneva.",
+        "slants": {
+          "strategy": "When tech CEOs and heads of state align on a shared AI agenda, the organizations building AI fluency right now will have a meaningful voice in how this unfolds — don't wait to get comfortable with the technology.",
+          "operations": "Global AI governance frameworks create clearer standards for data, privacy, and procurement — getting your operations AI-ready now means less scrambling when those standards land.",
+          "pm": "International AI frameworks will shape compliance requirements in your roadmaps — understanding the landscape today puts you ahead of the planning curve tomorrow.",
+          "admin": "Major commissions generate constant streams of reports and briefings — AI is your best tool for staying current on complex global trends so your executive always has the context they need."
+        },
+        "challenge": {
+          "steps": [
+            "Find one recent AI-related headline from this week — the AI for Good Commission launch is a great starting point.",
+            "Open your company-approved AI tool and paste: <em>\"Summarize this story and explain what it means for professionals in [your industry]: [paste the headline or article text here]\"</em>",
+            "Identify one implication that's relevant to your team or role.",
+            "Draft a short briefing: <em>\"Write a 3-sentence summary I could share with my manager about why the UN AI for Good Global Commission matters to our organization.\"</em>",
+            "Share your summary in your team channel or with a colleague as a trends-to-watch post."
+          ]
+        }
+      },
+      {
+        "title": "Your AI Assistant Just Got a Significant Upgrade — for Free",
+        "body": "Anthropic launched Claude Sonnet 5 on July 1 as the new default model for Free and Pro users, bringing near-Opus-level performance at a fraction of the cost. The model features a 1-million-token context window, dramatically stronger multi-step reasoning, and improved tool use — making complex workflows that once required premium-tier models available to everyone. <em>Introductory pricing runs at $2 per million input tokens through August 31, 2026</em> (Anthropic, July 2026).",
+        "slants": {
+          "strategy": "A model approaching top-tier performance at standard pricing means your team can run more sophisticated AI workflows without a budget increase — the gap between enterprise AI and everyday AI just narrowed significantly.",
+          "operations": "Sonnet 5's stronger multi-step reasoning means you can automate longer, more complex processes — giving ops teams the kind of leverage that used to require custom development.",
+          "pm": "The 1-million-token context window means you can paste an entire project plan, contract, or sprint backlog into one prompt for analysis, summarization, or risk identification.",
+          "admin": "With a more capable default model, routine tasks like drafting emails, prepping agendas, and summarizing meeting notes are noticeably faster and more accurate — your everyday AI just got a meaningful upgrade."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and check which model you're currently using (look in settings or the model selector).",
+            "Paste a long document — a meeting transcript, project brief, or email thread — and try: <em>\"Analyze this document and identify the top 3 action items, who should own each one, and the suggested deadline based on what's discussed: [paste here]\"</em>",
+            "Review the extracted action items and refine any that need more context.",
+            "Try a multi-step follow-up: <em>\"Now draft a follow-up email to the team summarizing these action items in a friendly, professional tone. Keep it under 150 words.\"</em>",
+            "Send or schedule the email and note how much time the two-prompt workflow saved you compared to your usual process."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Design Your Dream Room with AI",
+      "body": "This one's purely for fun — and for practicing structured prompting with rich context. Give AI a detailed picture of your style, constraints, and wish list to generate a room redesign or home decor plan you'd actually love. You're building the same skill that makes your work prompts dramatically more specific and useful.",
+      "prompt": "You are an interior designer. Using the information below, suggest a complete redesign for my [room type] — including color palette, furniture arrangement, lighting ideas, and 3 specific styles or pieces to look for. My current setup: [describe it]. My style preferences: [describe your taste]. My budget: [range]. My biggest pain point with this room: [what bothers you most about it]."
+    }
+  },
   "2026-06-29": {
     "intro": "Sunday. The week ended with AI moving deeper into infrastructure — chips, protocols, and workplace measurement. Three ways the foundation under your tools got stronger.",
     "trends": [
