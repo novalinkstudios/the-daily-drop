@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "2026-07-06": {
     "intro": "Monday. This week is already stacked with momentum — a landmark government AI deployment, a global commission putting world leaders behind AI for everyone, and the most capable everyday AI model yet just became your default tool.",
     "trends": [
@@ -200,6 +201,8 @@
       "prompt": "Act as my personal logistics assistant. I need to get through the following tasks today: [list your errands or to-dos]. My constraints are: [available time, location, any must-dos vs. nice-to-haves]. Please give me: (1) a recommended order that minimizes backtracking or wasted time, (2) an estimated time for each task, (3) one task I should probably skip or defer if I'm short on time, and (4) a buffer recommendation so I don't feel rushed."
     }
   },
+=======
+>>>>>>> 09dccf59d3735f9c323cb8103249b70c87e5d8f5
   "2026-06-26": {
     "intro": "Friday. This week's biggest AI moves are all about infrastructure catching up to ambition — a new chip, a new agent inside your existing tools, and new data confirming the time savings are real. The question now is what you do with them.",
     "trends": [
@@ -734,5 +737,611 @@
       "body": "Tonight's homework is a low-stakes way to practice structured output — the prompting technique where you tell AI exactly what format and categories you want in the response. It's one of the highest-leverage skills you can build, because it transfers directly to any work task where you need organized information fast: briefings, comparison tables, action plans, project summaries. Use your fridge as the dataset and see how precisely AI organizes to your specs.",
       "prompt": "Act as a practical home meal planner. Based on these ingredients and constraints: [paste what's in your fridge plus any dietary preferences or time limits], create a weekend plan — Saturday dinner and Sunday brunch — that requires no special shopping. Format each meal as: Meal name | Key ingredients | Cook time | One reason we'll love it."
     }
+<<<<<<< HEAD
+=======
+  },
+  "2026-06-27": {
+    "intro": "This week, the AI industry revealed just how high the stakes have climbed — from custom silicon to international IP theft to a wave of new regulation. Whether you build strategy, run operations, manage projects, or keep the office humming, these three stories reshape what 'using AI responsibly' actually means in practice.",
+    "trends": [
+      {
+        "title": "Custom Chips Signal the Real AI Cost War",
+        "body": "OpenAI and Broadcom unveiled Jalapeño on June 25, the first custom AI inference chip designed to cut the cost of running models like ChatGPT by up to 50% (<em>Build Fast with AI, June 26, 2026</em>). The chip was built in just nine months, partly using OpenAI's own models to accelerate design — and it's the opening move in a multi-generation hardware roadmap targeting gigawatt-scale data centers through 2029. For context, OpenAI spent roughly $14 billion on inference alone in 2025, making this a profitability-defining bet, not a side project.",
+        "slants": {
+          "strategy": "Cheaper inference costs cascade into cheaper AI services for enterprises. Start modeling how a 30-50% reduction in per-query AI costs would change your build-vs-buy calculations for AI tooling over the next 18 months.",
+          "operations": "Lower inference costs mean AI-powered automation becomes viable for higher-volume, lower-margin tasks you may have ruled out before — think document processing, quality checks, and internal knowledge search at scale.",
+          "pm": "Timeline shift: custom chips reach production ramp in 2027 and full scale in 2028. Factor this into any AI roadmap — the tools you pilot today will get significantly cheaper to run before your three-year plan ends.",
+          "admin": "As AI tools get cheaper to run, expect vendors to shift pricing models. Watch for subscription tiers that bundle more AI features at current prices — and negotiate renewals accordingly."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini).",
+            "Step 2: Paste: <em>\"Our team currently spends approximately [X hours/week] on [repetitive task]. If AI-powered automation for this task became 50% cheaper within 18 months, what would a phased adoption plan look like? Include cost-benefit considerations and risks.\"</em>",
+            "Step 3: Review the output — note which risks or benefits you hadn't considered.",
+            "Step 4: Ask a follow-up: <em>\"Now rewrite this as a one-page executive brief I could share with leadership to start the conversation, including a 'do nothing' scenario.\"</em>",
+            "Step 5: Save your best version. You now have a draft business case ready for the next planning cycle."
+          ]
+        }
+      },
+      {
+        "title": "The Biggest AI Theft You've Never Heard Of",
+        "body": "Anthropic formally accused Alibaba's Qwen AI lab of running 28.8 million fraudulent exchanges through 25,000 fake accounts between April and June 2026, calling it the largest known distillation attack in AI history (<em>Wall Street Journal / Build Fast with AI, June 26, 2026</em>). Distillation works by sending millions of carefully designed prompts to a rival's model and training your own on the collected outputs — no passwords stolen, no firewalls breached. The targeted capabilities were agentic reasoning, software engineering, and long-horizon task completion — the exact features enterprises are paying premium prices for.",
+        "slants": {
+          "strategy": "This reframes competitive intelligence risk. If a frontier model's capabilities can be systematically extracted through normal API access, your strategic advantage from choosing a premium AI vendor has a shelf life. Build switching costs into your AI vendor evaluation.",
+          "operations": "Review how your team's AI tools handle data going in. If proprietary processes, templates, or decision logic flow into prompts, those could become training data for someone else's model. Establish prompt hygiene guidelines now.",
+          "pm": "Add 'model IP security' as a standing item in AI vendor assessments. Ask vendors: What distillation protections do you have? How do you detect abnormal usage patterns? Document the answers.",
+          "admin": "If your organization uses AI tools with API access, ensure account provisioning follows the same identity verification standards as other enterprise software. Fraudulent accounts were the attack vector here."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I manage operations for a mid-size company that uses AI tools daily. Explain 'model distillation attacks' in plain language, then list 5 practical steps our team can take to protect our proprietary knowledge when using AI assistants.\"</em>",
+            "Step 3: Identify which of the 5 steps your team already follows and which are new.",
+            "Step 4: Ask a follow-up: <em>\"Turn the steps we're missing into a simple checklist I can share with my team in an email — keep it under 200 words, no jargon.\"</em>",
+            "Step 5: Send that checklist to your team. Small step, real impact."
+          ]
+        }
+      },
+      {
+        "title": "AI Regulation Just Got Real — and Close",
+        "body": "Colorado's revised AI law (SB 26-189) was signed on May 14 and takes effect January 1, 2027, replacing the original Colorado AI Act with narrower but still significant requirements around consumer notice, adverse-outcome explanations, and human review for automated decisions (<em>Norton Rose Fulbright / Littler, May 2026</em>). Meanwhile, the EU AI Act's high-risk system requirements hit August 2, 2026, and several US states have June 30 compliance deadlines for their own AI regulations (<em>Build Fast with AI, June 25, 2026</em>). For any team using AI in hiring, lending, insurance, or customer decisions, the compliance window is measured in weeks, not quarters.",
+        "slants": {
+          "strategy": "The regulatory landscape is fragmenting fast — state-by-state in the US, plus the EU. Build a cross-jurisdictional AI governance framework now rather than scrambling to comply one law at a time. Align with NIST AI RMF or ISO 42001 as a baseline.",
+          "operations": "Audit every AI tool touching consequential decisions: hiring screens, credit scoring, customer service routing, claims processing. Document which tools are in scope and whether you can demonstrate human review in the decision chain.",
+          "pm": "Add a 'regulatory compliance' milestone to any AI implementation project. The new Colorado law requires three-year record retention for consequential AI decisions — make sure your project documentation practices can meet that bar.",
+          "admin": "Start building your AI tool inventory now. You'll need to know every AI system in use, who has access, what decisions it influences, and what documentation exists. This is the foundational asset for any compliance effort."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I work at a company that uses AI tools for [hiring/customer service/internal decisions]. We operate in [your state or country]. Summarize in plain language what AI-related regulations may apply to us in the next 12 months, and what the top 3 compliance actions we should take now.\"</em>",
+            "Step 3: Compare the output against what your organization is actually doing today. Note the gaps.",
+            "Step 4: Ask a follow-up: <em>\"Create a simple AI tool inventory template with columns for: tool name, vendor, what decisions it influences, who has access, data inputs, and last review date. Format as a table.\"</em>",
+            "Step 5: Save the template and start filling it in. This is the single most useful compliance artifact you can create today."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Dream Weekend Getaway — AI-Style",
+      "body": "Summer's here and you deserve a break. Let AI help you plan a spontaneous weekend trip you'd actually enjoy — tailored to your budget, interests, and the season.",
+      "prompt": "I want to plan a weekend getaway for myself (or with a friend/partner). My budget is around $[amount]. I love [interests, e.g., hiking, food, live music, bookstores, quiet places]. I can travel up to [X hours] from [your city]. Suggest 3 destination options with a loose itinerary for each — including one place I've probably never heard of. Keep it fun, not over-planned."
+    }
+  },
+  "2026-06-28": {
+    "intro": "The AI landscape is fracturing in real time — market share is splitting, regulation is shape-shifting, and autonomous agents are moving from demos to daily workflows. Today's three stories all point to the same truth: the era of defaulting to a single AI tool, a single compliance plan, or a single way of working is officially over.",
+    "trends": [
+      {
+        "title": "ChatGPT Drops Below 50% Market Share — The Multi-Tool Era Is Here",
+        "body": "ChatGPT's share of global AI assistant users fell to 46.4% by the end of May 2026, dipping below 50% for the first time, while Gemini rose to 27.7% and Claude reached 10.3% <em>(Sensor Tower State of AI 2026, reported by TechCrunch, June 16, 2026)</em>. Despite the decline, ChatGPT crossed 1.1 billion monthly users — the fastest app ever to reach that milestone. The real signal: users are actively switching between assistants, and Claude leads subscription conversion at 13% of users paying — beating every competitor on revenue per user.",
+        "slants": {
+          "strategy": "Your team is probably already using multiple AI tools informally. Get ahead of this by evaluating which assistant performs best for which task category — coding, writing, analysis, scheduling — and build an approved multi-tool policy before shadow AI becomes a governance headache.",
+          "operations": "Workflow dependencies on a single AI provider are now a concentration risk. Map which processes rely on AI assistants and identify where switching costs or outages could stall your operations.",
+          "pm": "If you're standardizing your team's AI stack, this data gives you leverage to test alternatives. Run a two-week pilot comparing outputs across two assistants for your most common project tasks — scope summaries, risk logs, status updates — and let results, not brand loyalty, drive the decision.",
+          "admin": "You're likely the person fielding subscription and access requests. Use this moment to create a simple internal catalog: which AI tools are approved, what each is best at, and who to contact for access. You'll save yourself dozens of one-off conversations."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any two AI assistants you have access to (e.g., ChatGPT and Gemini, or Claude and ChatGPT).",
+            "Step 2: Paste the same prompt into both: <em>\"Summarize the three biggest risks to our Q3 project timeline given these constraints: [paste a recent project brief or status update].\"</em>",
+            "Step 3: Compare the two outputs side by side. Note which one gave more actionable detail, which organized information more clearly, and which surprised you.",
+            "Step 4: Ask the weaker performer a follow-up: <em>\"That summary missed operational dependencies. Please redo it, focusing on cross-team handoff risks and resource bottlenecks.\"</em>",
+            "Step 5: Save or screenshot both results — you now have a personal benchmark for future tool decisions."
+          ]
+        }
+      },
+      {
+        "title": "Colorado Rewrites Its AI Law Two Weeks Before Deadline — Regulation Is a Moving Target",
+        "body": "Colorado's Governor signed SB 26-189 on May 14, replacing the state's sweeping AI Act with a narrower framework focused on transparency and disclosure, pushing the effective date to January 1, 2027 <em>(Seyfarth Shaw, May 22, 2026)</em>. The original law — the most comprehensive state AI regulation in the U.S. — had been challenged in court and stayed by a federal judge after intervention from the DOJ's AI Litigation Task Force <em>(Law and the Workplace, May 11, 2026)</em>. The new law eliminates mandatory risk management programs and impact assessments, replacing them with targeted disclosure obligations and a 60-day cure period before enforcement.",
+        "slants": {
+          "strategy": "Don't read this as 'regulation went away.' Read it as 'regulation pivoted to transparency.' If your organization uses AI in hiring, lending, or healthcare decisions, disclosure obligations are still coming. Start building the internal documentation habit now — it's cheaper to prepare than to retrofit.",
+          "operations": "The shift from impact assessments to disclosure-based compliance means your processes need clear audit trails for any AI-assisted consequential decisions. Work with your legal and compliance teams to identify which workflows are in scope before January 2027.",
+          "pm": "If you manage any AI implementation projects, this is a scope change worth flagging. Compliance deliverables just shifted from 'build a risk management program' to 'build a disclosure and notice workflow.' Update your project plans accordingly.",
+          "admin": "You may be the person asked to track which AI tools are used in hiring or performance decisions. Start a simple log now: tool name, use case, date deployed. When the rules finalize, you'll already have the data your compliance team needs."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I work at a mid-size company that uses AI tools in [hiring / customer service / performance reviews — pick one]. In plain language, what would a transparency disclosure look like if we had to tell people we used AI in that decision? Give me a draft notice under 100 words.\"</em>",
+            "Step 3: Read the draft. Note one thing that would make a customer or employee feel more informed — and one thing that feels like legal jargon that a real person would ignore.",
+            "Step 4: Ask a follow-up: <em>\"Rewrite that notice at an 8th-grade reading level and add a sentence explaining how someone could ask a human to review the decision.\"</em>",
+            "Step 5: Save your best version — it's a useful starting point if your team ever needs one."
+          ]
+        }
+      },
+      {
+        "title": "Autonomous Workplace Agents Go Live — Scout, Codex Plugins, and the Background AI Era",
+        "body": "A new always-on AI agent called Scout was unveiled for the Microsoft 365 ecosystem, designed to operate autonomously across email, calendars, Teams, and file storage — performing tasks in the background without waiting for prompts <em>(MarketingProfs, June 5, 2026)</em>. Separately, Codex received six new enterprise plugins for sales, analytics, creative production, and more, with capabilities set to appear inside ChatGPT in coming weeks <em>(MarketingProfs, June 5, 2026)</em>. Meanwhile, 85% of organizations say they want to be 'agentic' within three years, but 76% admit their current infrastructure can't support it <em>(MIT Technology Review / Ema, June 2026)</em>.",
+        "slants": {
+          "strategy": "Autonomous agents that access calendars, email, and shared drives raise immediate questions about data governance, permissions, and oversight. Before any pilot, define what an agent is allowed to see, do, and decide — and what requires a human sign-off.",
+          "operations": "Background agents can handle scheduling conflicts, flag workflow bottlenecks, and route routine requests. But 'always-on' also means 'always accessing data.' Work with IT to map exactly which systems an agent would touch and ensure access controls are tight.",
+          "pm": "Agentic AI can automate status collection, meeting prep, and dependency tracking — but only if your project data is structured and accessible. Start by cleaning up one project workspace: consistent naming, updated statuses, linked documents. That's the foundation agents need.",
+          "admin": "You're likely the first person who'd benefit from an always-on scheduling and routing agent. Start small: identify your three most repetitive weekly tasks (meeting coordination, room booking, supply requests) and ask your IT team if any current tools already have agent features you haven't activated."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"Act as my virtual chief of staff. Here is my typical week: [briefly describe 3-5 recurring meetings or tasks]. Identify which tasks could be fully automated by an AI agent, which need a human check before acting, and which should stay fully manual. Present this as a simple three-column table.\"</em>",
+            "Step 3: Review the table. Note one task you'd genuinely trust an agent to handle — and one where the idea makes you uncomfortable. That discomfort is useful data.",
+            "Step 4: Ask a follow-up: <em>\"For the tasks you marked as automatable, what data or permissions would the agent need access to? List the potential risks of granting that access.\"</em>",
+            "Step 5: Save your table — it's a ready-made conversation starter if your team begins evaluating agent tools."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Perfect Lazy Weekend",
+      "body": "Summer's here and you deserve a weekend that recharges you. Let AI help you design a two-day plan tailored to your actual interests — not a generic travel blog listicle.",
+      "prompt": "I have a free weekend coming up and I want to make the most of it without overplanning. Here's what I enjoy: [list 2-3 hobbies or interests, e.g., cooking, hiking, reading thrillers]. I live near [your city or region]. My budget is about $[amount]. I want a mix of one adventure activity, one relaxing activity, and one meal I cook from scratch that I've never tried before. Build me a two-day itinerary with specific suggestions, a simple grocery list for the meal, and one wildcard surprise idea I wouldn't think of on my own."
+    }
+  },
+  "2026-06-29": {
+    "intro": "AI regulation, AI bundling, and AI theft all hit inflection points this week — and each one changes how your team will use, buy, or govern these tools by year's end. Here's what matters, what it means for your role, and what to try right now.",
+    "trends": [
+      {
+        "title": "Colorado Rewrites the Nation's First Comprehensive AI Law — and Buys Everyone Six More Months",
+        "body": "Colorado's original AI Act was set to take effect tomorrow, June 30, imposing risk management programs, impact assessments, and anti-discrimination duties on any business using high-risk AI systems serving Colorado residents. Instead, Governor Polis signed SB 189 on May 14, repealing the original law and replacing it with a narrower disclosure-based framework that takes effect January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates the duty-of-care standard and most deployer obligations, but still requires pre-use notices and 30-day post-adverse-outcome disclosures whenever automated decision-making tools materially influence consequential decisions in employment, healthcare, housing, education, or financial services <em>(Littler Mendelson, May 15, 2026)</em>. For any team using AI in hiring, lending, or customer decisioning, the clock has reset — but it hasn't stopped.",
+        "slants": {
+          "strategy": "Use this six-month window to build an AI governance framework voluntarily rather than scrambling later. Colorado's pivot signals that disclosure and transparency — not risk management bureaucracy — will be the dominant US model. Get ahead of it.",
+          "operations": "Inventory every AI tool in your workflows that touches hiring, customer eligibility, pricing, or service access. Even under the lighter law, you'll need to prove notice was given and records were kept for three years.",
+          "pm": "Add 'AI disclosure checkpoint' to any project plan involving automated decision-making. If your product or process uses AI to score, rank, or recommend in consequential areas, flag it now — before January.",
+          "admin": "Start a simple tracking spreadsheet: tool name, vendor, what decisions it influences, and who it affects. This will be the backbone of compliance documentation when the new law kicks in."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini — your pick).",
+            "Step 2: Paste this prompt: <em>\"I work in [your function]. List every way my team might use AI tools to influence decisions about employees, customers, or applicants — including tools we might not think of as 'AI.' Format as a table with columns: Tool/Process, Decision Type, Who Is Affected.\"</em>",
+            "Step 3: Review the output and highlight any row that surprises you — especially embedded AI you forgot about (e.g., resume screeners, chatbot routing, dynamic pricing).",
+            "Step 4: Ask this follow-up: <em>\"For each item flagged, draft a one-sentence plain-language disclosure I could give to the affected person explaining that AI played a role in this decision.\"</em>",
+            "Step 5: Save your table and disclosures. You just built a rough compliance starter kit — months ahead of schedule."
+          ]
+        }
+      },
+      {
+        "title": "Copilot Stops Being an Add-On and Becomes the Default",
+        "body": "Starting July 1, 2026, Copilot becomes a permanent, bundled component of two core productivity suite SKUs — Business Standard with Copilot at $23.50/user/month and Business Premium with Copilot at $32/user/month <em>(Microsoft Partner Center Announcements, June 2026)</em>. This isn't a promotion or a trial: AI is now embedded in the subscription your team already pays for, removing the friction of selling or approving it as a separate line item <em>(Microsoft Partner Center Announcements, June 2026)</em>. For millions of small and mid-size businesses, the question shifts overnight from 'Should we buy AI?' to 'Are we using what we're already paying for?'",
+        "slants": {
+          "strategy": "This changes your AI ROI conversation entirely. You're no longer justifying a new purchase — you're justifying why you haven't activated something you're already paying for. Build a 30-day adoption plan now.",
+          "operations": "Expect a wave of new Copilot users who've never touched it. Prepare lightweight guides, use-case examples, and guardrails so adoption is productive, not chaotic.",
+          "pm": "Audit your current project management stack for overlap with Copilot features — meeting summaries, status drafts, action-item extraction. Identify where it saves real time vs. where it creates noise.",
+          "admin": "You are now the de facto Copilot power user for your team. Learn three high-value Copilot actions (email summarization, meeting recap, document drafting) and become the person who shows others how."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant you have access to today.",
+            "Step 2: Paste this prompt: <em>\"I'm an [operations manager / admin / PM / strategist] at a company with about [X] employees. We use [Microsoft 365 / Google Workspace / both]. List 5 specific daily tasks I do that an AI copilot built into my productivity suite could handle or accelerate. Be specific — include the task, the time it currently takes, and how AI changes it.\"</em>",
+            "Step 3: Pick the one task where the time savings would be most meaningful to your week.",
+            "Step 4: Ask this follow-up: <em>\"Write me a step-by-step workflow for using an AI assistant to handle [that task], including exactly what to type or click at each step.\"</em>",
+            "Step 5: Try the workflow once this week. Screenshot your result and note how long it actually took."
+          ]
+        }
+      },
+      {
+        "title": "28.8 Million Stolen Conversations: The Biggest AI Distillation Attack Ever Reported",
+        "body": "Anthropic sent a letter to US Senators accusing a major foreign AI lab of running 28.8 million interactions through 25,000 fraudulent accounts over six weeks — from April 22 to June 5, 2026 — to systematically extract Claude's agentic reasoning, coding, and long-horizon task capabilities <em>(unrot.co, June 26, 2026)</em>. No passwords were stolen and no firewalls were breached; the attackers simply used the product as a normal user would, at massive scale, then used the outputs to train a competing model <em>(unrot.co, June 26, 2026)</em>. It's a stark reminder that in the AI era, your vendor's intellectual property risks can become your operational risks overnight — especially if a model you depend on gets pulled or degraded in response.",
+        "slants": {
+          "strategy": "This is a supply-chain story. If your AI strategy depends on a single model provider, a security incident or government action against that provider becomes your business disruption. Build multi-model optionality into your roadmap.",
+          "operations": "Review your team's API usage patterns and access controls. If 25,000 fake accounts went undetected for six weeks on a frontier AI platform, ask what anomalous usage patterns might be invisible in your own tool stack.",
+          "pm": "Add 'model dependency risk' to your project risk registers. If a critical workflow relies on one specific AI model, document the fallback — which alternative model, at what cost, with what retraining time.",
+          "admin": "Check how many seats, logins, or API keys your team has for AI tools. Do an access audit: who has accounts, are any unused, and could any be misused? Good hygiene prevents bad surprises."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"My team uses AI tools including [list your tools — e.g., ChatGPT, Claude, Copilot, Jasper]. Create a simple AI vendor risk assessment table with columns: Tool Name, What We Use It For, What Happens If It Goes Offline for 2 Weeks, Alternative We Could Switch To, Estimated Switch Time.\"</em>",
+            "Step 3: Look at the 'What Happens If It Goes Offline' column. Note which tool going down would hurt the most.",
+            "Step 4: Ask this follow-up: <em>\"For my highest-risk AI dependency, draft a 3-step contingency plan my team could execute within 24 hours if that tool became unavailable.\"</em>",
+            "Step 5: Share the contingency plan with one colleague. Resilience is a team sport."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Perfect Lazy Evening — With an AI Sous Chef",
+      "body": "Summer's here and you deserve a night off. Let AI help you plan a ridiculously good dinner at home using only what's in your kitchen (or close to it).",
+      "prompt": "I want to cook something special tonight but I don't want to go to the store. Here's what I have in my fridge and pantry: [list 8-10 ingredients you actually have]. Suggest 3 dinner options ranked by impressiveness, with estimated cook times. Make one of them something I've probably never tried before. Include a drink pairing I can make with what I have or with one simple addition."
+    }
+  },
+  "2026-06-30": {
+    "intro": "Today marks the final day of what many are calling the most consequential month in AI history — and the themes are unmistakable: frontier models are getting more powerful, access is getting more political, and regulation is finally getting real. Here are three stories that define what comes next for your team.",
+    "trends": [
+      {
+        "title": "GPT-5.6 Is Here — But You Can't Use It Yet",
+        "body": "OpenAI previewed GPT-5.6 on June 26 as a three-tier model family — Sol (flagship), Terra (balanced), and Luna (fast/cheap) — but launched it only to roughly 20 U.S.-government-approved organizations via API and Codex, making it the first American frontier model to ship under a government-managed access list <em>(OpenAI, June 26, 2026)</em>. Terra matches GPT-5.5 performance at half the cost, and Sol introduces an \"ultra\" mode that deploys sub-agents to break complex tasks into parallel work. Broad ChatGPT availability is expected within weeks, but the gating precedent signals that frontier AI releases may increasingly involve government coordination before public access.",
+        "slants": {
+          "strategy": "This tiered model structure (Sol/Terra/Luna) is a preview of how AI pricing will work going forward — map your team's tasks to tiers now so you're ready to optimize spend the moment access opens.",
+          "operations": "Terra at half the cost of GPT-5.5 for comparable quality could meaningfully change your AI budget math. Start listing which workflows could shift from current models to a cheaper tier without quality loss.",
+          "pm": "The government-gated rollout means your timeline for adopting new models now includes a regulatory variable. Build that uncertainty into any AI-dependent project plan.",
+          "admin": "No action needed yet — GPT-5.6 isn't in ChatGPT. But bookmark OpenAI's release notes page so you're first to know when it drops into your model picker."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant you currently use.",
+            "Step 2: Paste this prompt: <em>\"List 5 tasks I do weekly that require deep reasoning vs. 5 that are simple and repetitive. For each, recommend whether a flagship, balanced, or fast/cheap AI tier would be the best fit.\"</em>",
+            "Step 3: Review the split — notice which category has more tasks.",
+            "Step 4: Follow up with: <em>\"Based on this split, estimate what percentage of my AI usage could shift to a lower-cost tier without losing quality.\"</em>",
+            "Step 5: Save the result — you now have a rough cost-optimization plan for when tiered pricing hits your tools."
+          ]
+        }
+      },
+      {
+        "title": "Colorado's AI Law Just Got a Last-Minute Rewrite",
+        "body": "Colorado's original AI Act — the most comprehensive state-level AI regulation in the U.S. — was set to take effect today, but Governor Polis signed SB 189 on May 14, replacing it with a narrower, disclosure-focused framework and pushing the effective date to January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates the original law's duty of care, risk management programs, and impact assessment mandates in favor of transparency requirements around automated decision-making. With the EU AI Act's high-risk system rules taking effect August 2, 2026, and dozens of state AI bills still active, the regulatory patchwork is far from settled.",
+        "slants": {
+          "strategy": "The Colorado pivot from EU-style risk management to disclosure-based rules signals where U.S. AI regulation is heading. Build your governance framework around transparency — it's the common thread across every emerging law.",
+          "operations": "You have six months of breathing room before January 2027, but don't waste it. Use this window to inventory every AI tool touching consequential decisions in hiring, finance, or customer service.",
+          "pm": "If your projects use AI for any automated decisions affecting people, start a simple log: what tool, what decision, what data. That documentation habit will serve you regardless of which laws pass.",
+          "admin": "If your organization serves Colorado residents, flag this for leadership. The new law still requires disclosure when AI materially influences adverse decisions — someone needs to own that process."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I work at a mid-sized company. List every way we might use AI to make decisions about people — hiring, performance reviews, customer approvals, pricing. For each, note whether it would likely require disclosure under a transparency-focused AI law.\"</em>",
+            "Step 3: Circle the one that surprises you most — the AI use you hadn't thought of as a 'decision about people.'",
+            "Step 4: Ask a follow-up: <em>\"For the highest-risk use case you identified, draft a plain-language disclosure statement a company could provide to an affected individual.\"</em>",
+            "Step 5: Save the draft — even if your state hasn't passed a law yet, you now have a head start on disclosure language."
+          ]
+        }
+      },
+      {
+        "title": "The AI Chip War Just Got Personal",
+        "body": "OpenAI and Broadcom unveiled Jalapeño on June 25 — OpenAI's first custom-designed inference chip, built in just nine months and targeting roughly 50% cheaper model serving costs <em>(Build Fast with AI, June 26, 2026)</em>. The chip tackles inference (running models for users), not training, and directly addresses the day-to-day cost of serving ChatGPT and Codex to over 900 million weekly users. Meanwhile, Amazon's custom silicon business crossed a $20 billion annual run rate, and reports emerged of Anthropic exploring inference workloads on Microsoft's Maia 200 chips — signaling that every major AI player is racing to own their hardware stack.",
+        "slants": {
+          "strategy": "When AI providers cut their infrastructure costs by 50%, that savings eventually flows to customers as lower API prices or better free tiers. Factor falling inference costs into your 2027 AI budget planning.",
+          "operations": "Cheaper inference means more AI calls become economically viable. Workflows you shelved because they were 'too expensive per query' may be worth revisiting in 6-12 months.",
+          "pm": "Custom chips signal long-term platform commitment. When evaluating AI vendors, ask about their infrastructure roadmap — providers investing in custom silicon are less likely to disappear.",
+          "admin": "No immediate action, but watch for pricing changes. When providers cut their costs this dramatically, subscription tiers and feature access tend to shift — stay alert for plan updates."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"Explain like I'm a business professional (not an engineer): what is the difference between AI training and AI inference, and why does cheaper inference matter more for everyday users?\"</em>",
+            "Step 3: Note the one analogy that clicks for you — save it for the next time someone asks you about AI costs.",
+            "Step 4: Follow up with: <em>\"If inference costs dropped 50% over the next 18 months, what new business use cases would become affordable that aren't today? Give me 5 specific examples relevant to a mid-sized company.\"</em>",
+            "Step 5: Screenshot your favorite example — it might be your team's next AI project."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Dream Summer Weekend",
+      "body": "The first half of the year is officially behind you. Before the second half gets hectic, let AI help you design one perfect summer weekend — just for you (or you and your favorite people).",
+      "prompt": "I have one free weekend coming up this summer. I like [insert 2-3 things you enjoy — e.g., hiking, trying new restaurants, live music]. I'm based in [your city]. Plan a detailed, realistic 2-day weekend itinerary that includes one thing I've never tried before, one great meal, and at least two hours of doing absolutely nothing. Keep it low-budget and high-joy."
+    }
+  },
+  "2026-07-01": {
+    "intro": "Today the price of AI meets the price of not paying attention — from exploding token budgets to hidden contract clauses to a landmark state AI law just signed into being. All three stories share a theme: the operational details you ignore now become the strategic crises you manage later.",
+    "trends": [
+      {
+        "title": "Your AI Budget May Already Be Gone",
+        "body": "Enterprise AI spending is spiraling out of control as agentic workflows consume tokens at 5–30x the rate of simple chatbot queries. Uber burned through its entire 2026 AI budget in four months, with individual engineers running up $500–$2,000 per month in token costs alone <em>(MindStudio, June 22, 2026)</em>. Even OpenAI's CEO acknowledged that cost concerns went from 'never coming up' to the second-most common issue he hears from customers <em>(CockroachLabs / CNBC, June 2026)</em>.",
+        "slants": {
+          "strategy": "Token economics are the new cloud economics. If your organization doesn't have a model-routing strategy — matching tasks to the cheapest capable model — you're overspending by 60–80%. Push for a token governance framework before next quarter's budget review.",
+          "operations": "Set hard per-team and per-tool spending caps now, not after the invoice arrives. Separate development and production AI billing so you can see what's testing versus what's running. Audit which workflows actually need frontier models.",
+          "pm": "Add 'estimated token cost per sprint' as a line item in your project plans. If your team is using AI agents that loop through 10–20 model calls per task, those costs compound fast. Build cost checkpoints into your delivery milestones.",
+          "admin": "Track who has API access and what tools they're subscribed to. Many teams are paying for overlapping AI subscriptions. A simple audit of active AI tool licenses across your department can surface thousands in monthly savings."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, or Gemini).",
+            "Step 2: Paste this prompt: <em>\"I manage a team of 12 people who each use AI tools daily. Assume average token usage of 500,000 tokens per person per day across a mix of frontier and budget models. Build me a simple monthly cost projection spreadsheet layout with columns for: team member, primary tool, model tier, estimated daily tokens, cost per million tokens, and projected monthly spend. Include a summary row.\"</em>",
+            "Step 3: Review the output and note one cost driver you hadn't considered before.",
+            "Step 4: Ask this follow-up: <em>\"Now suggest three specific ways I could reduce this team's total AI spend by 40% without reducing their output quality, including which tasks could safely use a cheaper model tier.\"</em>",
+            "Step 5: Save the spreadsheet layout and cost-reduction ideas — share them with your finance partner this week."
+          ]
+        }
+      },
+      {
+        "title": "Colorado Just Rewrote the AI Rulebook — And You Should Care Even If You're Not There",
+        "body": "On May 14, 2026, Colorado's governor signed SB 26-189, replacing the nation's most comprehensive AI law with a narrower, disclosure-focused framework taking effect January 1, 2027 <em>(Hunton Privacy Blog, May 22, 2026)</em>. The rewrite eliminates mandatory impact assessments and risk management programs, replacing them with transparency requirements, adverse-outcome notices, and consumer rights to meaningful human review <em>(Littler, May 15, 2026)</em>. It signals that the U.S. is diverging from the EU's risk-based model toward a disclosure-and-rights approach — and other states are likely to follow.",
+        "slants": {
+          "strategy": "Don't celebrate the lighter requirements. The new law's January 2027 deadline still requires notice processes, human-review capabilities, and three-year record retention for any AI used in consequential decisions. Start mapping which of your AI systems touch hiring, lending, insurance, or housing decisions.",
+          "operations": "Build a simple inventory of every automated tool in your workflows that influences a decision about a person — hiring screens, credit checks, customer scoring. The new law covers 'any technology that processes personal data and uses computation,' which is broader than just AI.",
+          "pm": "If you're running any project that deploys decision-support AI, add a 'regulatory readiness' milestone. Include: consumer disclosure language, an adverse-outcome notification process, and a human-review escalation path.",
+          "admin": "Start a records retention plan now. The law requires three years of records for covered automated decisions. Identify where those records currently live and whether your systems can produce them on request."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I work at an organization that uses automated tools for [hiring/customer scoring/loan decisions — pick one]. Colorado's new AI law (SB 26-189, effective January 2027) requires pre-use consumer disclosure, adverse-outcome notices with explanation of the AI's role, and meaningful human review on request. Create a plain-language compliance checklist I can share with my team, organized by: what we need to disclose, when we need to notify, and how we enable human review.\"</em>",
+            "Step 3: Identify one item on the checklist your organization isn't currently doing.",
+            "Step 4: Ask this follow-up: <em>\"Draft a short internal memo (under 200 words) I can send to leadership explaining why we should start preparing for this law now, even if we don't operate in Colorado, since other states are expected to adopt similar frameworks.\"</em>",
+            "Step 5: Save the checklist and memo draft. Bring them to your next leadership or compliance meeting."
+          ]
+        }
+      },
+      {
+        "title": "Your SaaS Contracts Might Be Training Someone Else's AI on Your Data",
+        "body": "A Stanford CodeX analysis found that 92% of AI vendor contracts claim data usage rights beyond what's needed for service delivery — and many allow vendors to use customer data for competitive intelligence <em>(PYMNTS, June 24, 2026)</em>. Standard contract language written before generative AI existed — clauses allowing vendors to 'improve' or 'enhance' products — can legally extend to training AI models on your proprietary workflows, deal structures, and internal documents. Only 17% of AI contracts clearly commit to following all applicable laws, compared to 36% in standard SaaS agreements <em>(PYMNTS, June 24, 2026)</em>.",
+        "slants": {
+          "strategy": "This is a competitive intelligence risk masquerading as a vendor agreement. A model trained on your proprietary workflows can reproduce those patterns in products sold to your competitors. Elevate AI contract review from procurement to strategy.",
+          "operations": "Pull your top five AI vendor contracts and search for the words 'improve,' 'enhance,' 'build,' and 'train.' If those terms aren't explicitly excluded from applying to AI model training, you have an exposure you probably didn't know about.",
+          "pm": "Before onboarding any new AI tool for your project, add a contract review step. Ask specifically: Can the vendor use our prompts, outputs, or uploaded data to train models? Who owns patterns the model derives from our data?",
+          "admin": "Create a simple tracker: vendor name, contract date, whether AI training rights are addressed, and renewal date. This becomes your team's AI contract risk register. Flag any contract up for renewal in the next 90 days for immediate review."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I need to review a SaaS vendor contract for hidden AI training rights. Generate a list of 10 specific contract clauses or phrases I should search for that could grant the vendor rights to use my organization's data, prompts, or outputs to train or fine-tune their AI models. For each, explain in one sentence why it's risky.\"</em>",
+            "Step 3: Pick the three riskiest clauses and check whether they appear in one of your current vendor agreements.",
+            "Step 4: Ask this follow-up: <em>\"Now draft three contract amendment clauses I could propose to a vendor to explicitly prohibit using our data for AI training, require notification before any model changes that affect our data, and define ownership of insights derived from our data.\"</em>",
+            "Step 5: Save the clause checklist and proposed amendments. Share with your procurement or legal team."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Perfect Summer Day Trip",
+      "body": "July is here and you've earned a day off from thinking about tokens, contracts, and compliance. Let AI help you plan an unforgettable day trip you can actually take this month.",
+      "prompt": "I live near [your city]. Plan a one-day summer trip within 90 minutes of driving. I enjoy [pick two: hiking, food markets, historical sites, waterfront views, bookshops, art galleries, live music]. Include a morning activity, a lunch spot with a signature dish, an afternoon experience, and a sunset viewing spot. Keep it relaxed — no rushing. Budget under $75 per person."
+    }
+  },
+  "2026-07-02": {
+    "intro": "AI got cheaper, scarier, and more regulated — all in the same week. Today's three stories share a thread: the tools are moving faster than the rules, and the organizations that adjust their playbooks now will be the ones still standing when the dust settles.",
+    "trends": [
+      {
+        "title": "Claude Sonnet 5 Drops — and It's a Direct Answer to Runaway AI Bills",
+        "body": "Claude Sonnet 5 launched June 30 as the new default for all free and paid users, with introductory API pricing of $2 per million input tokens through August 31 <em>(Anthropic / Future Tools, June 30, 2026)</em>. The timing is deliberate: enterprises have been recoiling from agentic AI spending in Q2 2026, with roughly 95% of enterprise AI usage still running on expensive frontier models when cheaper options could handle the task <em>(CNBC, June 26, 2026)</em>. Early production partners report multi-step automations that previously stalled mid-workflow now complete end to end at lower cost.",
+        "slants": {
+          "strategy": "This is the moment to revisit your AI vendor strategy. Model routing — matching tasks to the right-cost model — is no longer optional. Map your team's AI usage by task complexity and start shifting simple tasks off frontier models.",
+          "operations": "Audit your current AI token spend immediately. Finance teams are being surprised by large AI bills they never planned for. Set up usage dashboards and per-team spending limits before the next invoice arrives.",
+          "pm": "Test Sonnet 5 on a real agentic workflow your team already runs — status updates, ticket triage, or stakeholder summaries. Document where it matches your current tool and where it falls short. That comparison is your leverage.",
+          "admin": "Ask your AI platform admin (or vendor) whether you have visibility into credit spend by user or department. If the answer is no, flag it. The new generation of AI tools ships with spend controls — make sure yours are turned on."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (Claude, ChatGPT, or Gemini).",
+            "Step 2: Paste this prompt: <em>\"List 5 categories of tasks my team does weekly. For each, rate whether it needs a frontier AI model or could use a lightweight model. Format as a table with columns: Task, Complexity (High/Medium/Low), Model Tier Needed.\"</em>",
+            "Step 3: Review the table — note one task you're currently overspending on.",
+            "Step 4: Ask a follow-up: <em>\"For the low-complexity tasks you identified, draft a one-paragraph recommendation I could send to my manager about switching to a cheaper AI model tier to reduce costs.\"</em>",
+            "Step 5: Save or screenshot the recommendation for your next team meeting."
+          ]
+        }
+      },
+      {
+        "title": "Five Eyes Intelligence Alliance Tells Every Business: AI Cyber Threats Are Months Away, Not Years",
+        "body": "On June 22, 2026, the cybersecurity agencies of all five Five Eyes nations issued a rare joint statement warning that frontier AI models will fundamentally transform offensive cyber capabilities and that risk assumptions can become outdated in months, not years <em>(NSA / Five Eyes Joint Statement, June 22, 2026)</em>. The warning came days after reports that an advanced AI agent had penetrated nearly all classified systems managed by the NSA and U.S. Cyber Command within hours <em>(CBS News, June 23, 2026)</em>. Experts warn that small and medium businesses who have underinvested in cybersecurity will be especially exposed.",
+        "slants": {
+          "strategy": "Cybersecurity is now a board-level AI issue, not just an IT issue. If your risk assessments are on an annual cycle, they may be outdated before the next review. Push for quarterly threat-model updates that factor in AI-accelerated attacks.",
+          "operations": "Review your access controls this week. The Five Eyes advisory specifically recommends limiting who has access to critical systems and patching legacy software. Start with the basics: multi-factor authentication and software update compliance.",
+          "pm": "Add a cybersecurity checkpoint to your project kickoff templates. Any project that involves AI tools, customer data, or third-party integrations should include a brief risk assessment step — even a five-minute conversation with IT.",
+          "admin": "Run a quick inventory of every AI tool your team uses, including free ones. Each tool is a potential access point. Document who uses what and whether company data is being uploaded. This simple list is your first line of defense."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I work in a mid-size organization. Create a simple 10-question cybersecurity hygiene checklist I can share with my team. Focus on AI-specific risks like data uploaded to AI tools, phishing generated by AI, and weak access controls.\"</em>",
+            "Step 3: Read through the checklist — note one item your team probably hasn't addressed yet.",
+            "Step 4: Ask a follow-up: <em>\"Turn that checklist into a short email I can send to my team with a friendly but serious tone, explaining why AI makes cybersecurity more urgent right now.\"</em>",
+            "Step 5: Save the email draft and consider actually sending it."
+          ]
+        }
+      },
+      {
+        "title": "Colorado Rewrites Its AI Law — and the Compliance Clock Is Ticking for Everyone",
+        "body": "Colorado's governor signed SB 26-189 on May 14, 2026, replacing the state's original AI governance law with a narrower but still significant framework focused on transparency and disclosure for automated decision-making in employment, lending, housing, and healthcare, effective January 1, 2027 <em>(Norton Rose Fulbright, May 22, 2026)</em>. The revised law requires advance notice to consumers when AI influences consequential decisions, human review of adverse outcomes, and three-year record retention — with violations carrying penalties up to $20,000 each <em>(Littler Mendelson, May 15, 2026)</em>. More states are expected to follow, making proactive compliance a strategic advantage.",
+        "slants": {
+          "strategy": "Don't wait for your state to pass its own version. Use Colorado's framework as a voluntary baseline now. Companies that build transparency and disclosure into their AI processes early will spend less scrambling later.",
+          "operations": "If your organization uses AI in hiring, lending, or customer decisions, start mapping which tools qualify as 'automated decision-making technology' under the new definitions. Document how each tool influences outcomes.",
+          "pm": "Build a compliance-readiness milestone into any project that deploys AI for customer-facing or employee-facing decisions. Include disclosure language, human review steps, and a record-retention plan from day one.",
+          "admin": "Start a simple log of every AI tool used in decisions that affect people — hiring screeners, scheduling tools, customer service bots. Note what data goes in and what decisions come out. This record is exactly what regulators will ask for."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"My organization uses AI tools in [hiring / customer service / operations — pick one]. Under Colorado's new AI law (SB 26-189), what types of consumer disclosures and human review processes would we likely need? Give me a plain-language summary in 5 bullet points.\"</em>",
+            "Step 3: Review the bullets — note one area where your team currently has no process.",
+            "Step 4: Ask a follow-up: <em>\"Draft a one-page internal checklist our team can use to prepare for AI transparency requirements, even if our state hasn't passed a law yet. Keep it practical and jargon-free.\"</em>",
+            "Step 5: Save the checklist and share it with whoever manages compliance or operations at your organization."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Dream Weekend Getaway with AI",
+      "body": "Summer's here. Let AI do the research legwork so you can focus on the fun part — actually going. Pick a place within driving distance you've been meaning to visit, and let your AI assistant build the itinerary.",
+      "prompt": "I want to plan a relaxed weekend getaway within 3 hours of [your city]. I like [food / hiking / bookshops / live music — pick two]. Build me a full itinerary: where to stay (budget-friendly), three must-do activities, two restaurants to try, and one unexpected local gem most tourists miss. Keep it fun and specific."
+    }
+  },
+  "2026-07-03": {
+    "intro": "AI is accelerating on every front — more powerful models landing in more hands, spy agencies sounding alarms about what those models can do, and CFOs realizing the bill for all that power is out of control. Today's three stories trace one arc: capability is no longer the bottleneck — governance is.",
+    "trends": [
+      {
+        "title": "Claude Sonnet 5 Goes Live — and California Just Gave It to 300,000 State Workers",
+        "body": "Claude Sonnet 5 launched June 30 and became the default model for all free and paid Claude users on July 1 — performing near the flagship Opus 4.8 on many tasks at introductory pricing of just $2 per million input tokens <em>(Build Fast with AI, July 1 2026)</em>. Meanwhile, California signed a first-of-its-kind deal giving every state agency, city, and county access to Claude at a 50% discount, making it the largest US government AI deployment in history <em>(Build Fast with AI, July 1 2026)</em>. The state's custom AI assistant 'Poppy' was piloted with 2,800 employees across 67 departments before the statewide rollout.",
+        "slants": {
+          "strategy": "A state government just chose a single AI vendor for 300,000 workers. Watch for this pattern — centralized AI procurement is replacing department-by-department experimentation. Map your own organization's AI buying structure before someone maps it for you.",
+          "operations": "California's 'Poppy' assistant uses pre-built query templates for common state tasks. This is the model: standardize your top 10 repeatable processes into AI templates so every team member gets consistent, high-quality output.",
+          "pm": "The statewide rollout started with a 2,800-person pilot across 67 departments — a structured scale-up, not a big-bang launch. Use this as a case study for phased AI rollout planning in your own programs.",
+          "admin": "Poppy was built with pre-built query templates for routine business questions — things like scheduling, documentation, and process lookups. If you handle repetitive internal questions, this is a blueprint for saving hours each week."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (ChatGPT, Claude, Gemini — whatever you use).",
+            "Step 2: Paste this prompt: <em>\"I handle [describe your role — e.g., scheduling, vendor coordination, internal requests]. List the 5 most repetitive questions or tasks I probably deal with weekly, then write a short template prompt I could reuse for each one.\"</em>",
+            "Step 3: Review the five templates. Note which one would save you the most time this week.",
+            "Step 4: Test your top template on a real task right now. Then ask a follow-up: <em>\"How could I refine this template to give better results for [your specific context]?\"</em>",
+            "Step 5: Save your best template somewhere you'll actually find it — a pinned note, a bookmark, a sticky note on your monitor."
+          ]
+        }
+      },
+      {
+        "title": "Five Eyes Spy Alliance Tells Every Business: AI-Powered Cyberattacks Are Months Away",
+        "body": "The intelligence agencies of the US, UK, Canada, Australia, and New Zealand issued a rare joint warning on June 22 that frontier AI models will 'fundamentally transform both offensive and defensive cyber capabilities' with a timeline of 'months, not years' <em>(CBS News, June 23 2026)</em>. The Five Eyes advisory specifically noted that AI 'lowers barriers for malicious actors and increases the speed and complexity of attacks' <em>(Cybersecurity Dive, June 23 2026)</em>. Experts warned that small and medium businesses are especially exposed — one national security analyst called under-prepared organizations 'sitting ducks' <em>(CNN, June 23 2026)</em>.",
+        "slants": {
+          "strategy": "The Five Eyes statement explicitly said cybersecurity is now 'a core business risk and leadership responsibility' — not an IT department function. If your board doesn't discuss AI security, that's a gap your competitors may not share.",
+          "operations": "The advisory recommended three concrete actions: use AI tools defensively, shorten patch windows (the US federal mandate dropped to 3 days), and limit access to critical systems. Audit who on your team has access to what — this week.",
+          "pm": "If your projects involve any AI-connected tools (copilots, agents, browser extensions), this warning applies directly. Add a standing security-review checkpoint to your project templates now, before an incident forces one in.",
+          "admin": "You're often the person who manages software access and permissions. This is your moment to shine: create a simple inventory of every AI tool your team uses, who has access, and what data it can touch."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I work at a mid-size organization. We use several AI tools including [list any you use — e.g., ChatGPT, Copilot, Grammarly]. Act as a cybersecurity advisor and give me a plain-English checklist of the 5 most important things our team should do this month to reduce AI-related security risk.\"</em>",
+            "Step 3: Read the checklist and circle the one item you're most unsure about.",
+            "Step 4: Ask a follow-up: <em>\"Explain item [number] like I'm a non-technical manager. What's the worst-case scenario if we ignore it, and what's the easiest first step to fix it?\"</em>",
+            "Step 5: Share your checklist with one colleague who should see it."
+          ]
+        }
+      },
+      {
+        "title": "The Tokenmaxxing Era Is Over — CFOs Are Taking Back the AI Budget",
+        "body": "Enterprises are slamming the brakes on runaway AI spending. One major tech company exhausted its entire 2026 AI coding budget in just four months, and average enterprise AI budgets have ballooned from $1.2 million in 2024 to $7 million in 2026 — a 320% increase — even as per-token prices dropped <em>(TechFinitive, July 2 2026)</em>. A KPMG survey found only 26% of companies have comprehensive visibility into their AI costs, and one AI consultant reported a client that spent half a billion dollars in a single month after failing to set usage limits <em>(Axios, May 28 2026)</em>. The industry is shifting from 'use more AI' to 'use AI where it actually matters.'",
+        "slants": {
+          "strategy": "The reckoning is structural: both leading AI labs filed confidentially for IPOs in June, meaning their revenue growth depends on you spending more. Your job is the opposite — tie every AI dollar to a measurable business outcome before the next budget cycle.",
+          "operations": "Model routing — automatically matching tasks to cheaper or more expensive AI models based on complexity — can cut costs 60–80% without quality loss. If your team uses one AI model for everything, you're overpaying by an order of magnitude.",
+          "pm": "Add token/cost tracking as a line item in project budgets now. If you wouldn't let a team run a server without monitoring costs, don't let them run AI agents without the same discipline.",
+          "admin": "You're likely the first person to see unexpected invoices. Flag any AI-related charges that have jumped — you might be the early warning system your finance team needs."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste this prompt: <em>\"I want to audit how my team uses AI tools. Create a simple one-page AI usage tracker template with columns for: tool name, what it's used for, who uses it, estimated monthly cost, and whether the output is essential or nice-to-have.\"</em>",
+            "Step 3: Fill in the tracker with what you know right now — even rough guesses count.",
+            "Step 4: Ask a follow-up: <em>\"Based on this tracker, which tasks could probably be handled by a free or lower-cost AI tool instead of a premium one? Suggest specific alternatives.\"</em>",
+            "Step 5: Save the completed tracker and share it with whoever manages your team's software budget."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Ultimate Summer Weekend",
+      "body": "Forget work — you deserve a weekend that feels like a mini vacation. Let AI help you design a perfect two-day itinerary based on what actually energizes you.",
+      "prompt": "I have a free weekend coming up and I want to make it memorable. I'm based in [your city/area]. I enjoy [list 2-3 things you love — e.g., hiking, trying new restaurants, live music, reading in parks]. My budget is [low/medium/flexible]. Plan me a two-day weekend itinerary with specific suggestions for Saturday morning, afternoon, and evening, and Sunday morning and afternoon. Include one surprise activity I probably wouldn't think of on my own. Keep it relaxed — no rushing."
+    }
+  },
+  "2026-07-04": {
+    "intro": "This week, the world's governments scrambled to keep up with AI — from a UN panel declaring the governance window is closing, to spy agencies warning that AI-powered cyberattacks are months away, to a major new AI model rolling out to 300,000 state workers. The thread connecting it all: the gap between what AI can do and what we're ready for is widening, and the people who prepare now — not later — will come out ahead.",
+    "trends": [
+      {
+        "title": "The UN Just Said the Quiet Part Out Loud: AI Is Outrunning the Rules",
+        "body": "On July 1, a 40-member UN scientific panel released its first-ever global assessment of AI, warning that capabilities are advancing faster than any government's ability to regulate them. The report found that over a billion people now use conversational AI weekly, while the US controls roughly 75% of the computing power behind the top 500 AI supercomputers. <em>UN Independent International Scientific Panel on AI, Preliminary Report, July 1, 2026</em>. Co-chair Yoshua Bengio called it a \"turning point\" for the growing intelligence of machines, and UN Secretary-General Guterres urged governments: \"Do not wait.\"",
+        "slants": {
+          "strategy": "This report will shape procurement requirements and compliance frameworks globally. If you sell to government or regulated industries, expect new AI governance questions to appear in RFPs within 6–12 months. Start documenting your AI usage now.",
+          "operations": "The report highlights fragmented governance — over 40 frameworks exist worldwide, rarely tested for effectiveness. If your workflows touch multiple regions, map which AI regulations apply where before you're surprised by one.",
+          "pm": "AI task complexity is reportedly doubling every 4–7 months. That means the scope of what AI agents can handle in your projects is shifting faster than your planning cycles. Build quarterly AI capability reviews into your project governance.",
+          "admin": "The report flags AI sycophancy — systems telling users what they want to hear — as a documented safety risk. If you're using AI to draft communications or summarize meetings, always verify key facts before sending."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"Our team uses AI for [describe 2-3 tasks]. Based on the UN's July 2026 preliminary report on AI governance gaps, what are the top 3 risks we should document and what simple safeguards would you recommend for a mid-size team?\"</em>",
+            "Step 3: Note which risk surprised you — most people underestimate the compliance and data-residency ones.",
+            "Step 4: Ask a follow-up: <em>\"Now draft a one-page internal AI usage policy covering these risks. Keep it plain language, under 500 words, suitable for a team of non-technical professionals.\"</em>",
+            "Step 5: Save the draft. Even an imperfect policy is better than none — and you just made one in five minutes."
+          ]
+        }
+      },
+      {
+        "title": "Five Eyes to Businesses: AI Cyberattacks Are Months Away, Not Years",
+        "body": "The intelligence agencies of the US, UK, Canada, Australia, and New Zealand issued a rare joint warning on June 22 that frontier AI models will fundamentally transform offensive cyber capabilities within months. The statement urged business leaders to treat cybersecurity as a board-level responsibility, not an IT department function <em>CBS News, June 23, 2026</em>. Experts warned that small and medium businesses that have underinvested in security \"will basically be like sitting ducks\" <em>CNN, June 23, 2026</em>.",
+        "slants": {
+          "strategy": "This is a board-level signal. If your leadership team still treats cybersecurity as a cost center buried in IT, this Five Eyes statement is your leverage to get it on the executive agenda — with budget attached.",
+          "operations": "The agencies specifically recommended shortening vulnerability patching windows. Review your patch cycle: if it's measured in weeks, it needs to be measured in days. Ask your IT team what their current average is.",
+          "pm": "Every project with external integrations, APIs, or cloud services now carries heightened cyber risk. Add a security checkpoint to your project kickoff template — even a simple 'who reviewed access permissions?' question.",
+          "admin": "You are often the first person to receive phishing emails and suspicious requests. AI-generated scams are getting more convincing. Bookmark your organization's reporting process and flag anything that feels slightly off — your instincts matter more now."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant.",
+            "Step 2: Paste: <em>\"I work in [your role] at a mid-size organization. Based on the June 2026 Five Eyes joint statement on AI cyber risks, give me 5 practical things I can personally do this week to reduce my team's exposure to AI-enhanced phishing and social engineering attacks.\"</em>",
+            "Step 3: Circle the one action you could do today with zero budget and no approvals needed.",
+            "Step 4: Ask a follow-up: <em>\"Now write a short Slack message or email I can send to my team explaining why AI-powered phishing is different from traditional phishing, and one habit change that would help. Keep it under 100 words and non-alarmist.\"</em>",
+            "Step 5: Send it. You just became the person who raised the flag early."
+          ]
+        }
+      },
+      {
+        "title": "Claude Sonnet 5 Goes Live — and California Just Gave 300,000 Workers Access",
+        "body": "Claude Sonnet 5 launched June 30 as the default model for all free and paid users, scoring 63.2% on agentic coding benchmarks versus its predecessor's 58.1%, with a 1-million-token context window and introductory pricing of $2 per million input tokens through August <em>BuildFastWithAI, July 1, 2026</em>. Meanwhile, California signed the largest US state government AI deployment in history, giving all state agencies, cities, and counties access at a 50% discount — with an AI assistant named Poppy already piloted by 2,800 employees across 67 departments <em>BuildFastWithAI, July 1, 2026</em>.",
+        "slants": {
+          "strategy": "California's deal is a signal: government-scale AI procurement is shifting from cautious pilots to full deployment. If you serve public sector clients, the expectation that AI is part of your workflow is accelerating faster than many planned for.",
+          "operations": "A 1-million-token context window means you can feed entire process manuals, policy documents, or contract sets into a single prompt. Test whether your longest standard document fits — and what quality of analysis you get back.",
+          "pm": "The 63.2% agentic benchmark score means the model can handle more multi-step tasks with less hand-holding. Try giving it a real project brief and asking it to break down a work plan — then compare the output to what you'd build manually.",
+          "admin": "California's Poppy assistant was built with pre-built query templates for common tasks. That's the model to follow: instead of starting from scratch every time, build a personal library of your 5 most-used prompts and save them where you can grab them fast."
+        },
+        "challenge": {
+          "steps": [
+            "Step 1: Open any AI assistant (Claude, ChatGPT, Gemini — any will work).",
+            "Step 2: Paste: <em>\"I regularly handle these tasks at work: [list 3-5 repetitive tasks like scheduling, drafting status updates, summarizing documents]. For each one, write me a reusable prompt template I can copy-paste whenever I need it. Format each as a fill-in-the-blank template.\"</em>",
+            "Step 3: Pick the template that would save you the most time this week and test it on a real task.",
+            "Step 4: Ask a follow-up: <em>\"Now suggest how I could combine two of these templates into a single prompt that handles both steps at once — and explain when that's a good idea versus when I should keep them separate.\"</em>",
+            "Step 5: Save your templates somewhere permanent — a note, a doc, a pinned message. You just built your own 'Poppy.'"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan Your Ultimate Summer Weekend — AI-Style",
+      "body": "It's the Fourth of July. Whether you're celebrating, resting, or just looking for something fun to do, let AI help you plan a perfect personal weekend. No work allowed — this is purely for you.",
+      "prompt": "I have this weekend free and I want to make it memorable. Here's what I enjoy: [list 2-3 hobbies or interests, e.g., cooking, hiking, live music]. I'm located in [your city or region]. My budget is [low/medium/flexible]. Plan me a detailed, hour-by-hour itinerary for one perfect day — include a surprise activity I wouldn't think of on my own, a meal I should try making from scratch, and one thing to do that requires zero screens."
+    }
+  },
+  "2026-07-05": {
+    "intro": "Today's stories are all about who's actually doing the adapting when AI hits an org chart — the managers left holding the validation work, the agents you can now hand a whole task to instead of a single question, and the hard data on whether AI is really cutting headcount.",
+    "trends": [
+      {
+        "title": "Middle managers are becoming AI's unofficial quality control team",
+        "body": "New Harvard Business Review research based on interviews at two major consulting firms found that while senior leaders lean into AI's strategic upside, <em>middle managers were overloaded with new responsibilities—validating AI outputs, identifying errors, coaching their teams in AI skills</em>—all without formal support (HBR, June 2026). A separate Salesforce survey found 78% of managers feel personally responsible for their team's AI adoption, yet only <em>32% work in organizations with formal AI tracking</em> (Salesforce, June 2026).",
+        "slants": {
+          "strategy": "This is a planning gap, not a people gap — build the validation and coaching load into role design before you set adoption targets, not after.",
+          "operations": "Treat AI output review as a workflow step with its own time and owner, the same way you'd account for QA on any process change.",
+          "pm": "Add a lightweight 'AI-assisted' checkpoint to your project status template so review time doesn't quietly disappear into someone's evenings.",
+          "admin": "If you support a manager who's drowning in AI review work, ask what parts of that checking process you could take a first pass at."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI-assisted output from this week — a draft email, summary, or report.",
+            "Open your company-approved AI tool and ask: <em>\"Give me a 5-point checklist I can use to validate accuracy and tone before I send this kind of AI-assisted work to a manager.\"</em>",
+            "Run your own output through that checklist and note anything it catches that you missed.",
+            "Add one item to the checklist based on what you just learned.",
+            "Share your checklist in the group so others can borrow it."
+          ]
+        }
+      },
+      {
+        "title": "AI agents want the whole task now, not just your questions",
+        "body": "A Harvard Business School analysis of hundreds of millions of user interactions found knowledge workers are the heaviest users of agentic AI, and the pattern is a real shift: <em>moving from asking AI for answers to delegating the entire task</em> (HBS Working Knowledge, June 2026). Researcher Jeremy Yang put it plainly — the tools take <em>\"objectives and preferences, instead of step-by-step instructions\"</em> (HBS Working Knowledge, June 2026).",
+        "slants": {
+          "strategy": "Start writing goals and guardrails for agents into your planning docs, not just task lists — that's the unit of work now.",
+          "operations": "Pick one recurring, well-defined process and hand it a goal instead of a script; see where it needs a human checkpoint.",
+          "pm": "Rewrite one recurring deliverable as an outcome statement instead of a sequence of steps, then let the agent ask you what it needs.",
+          "admin": "Try describing what you want done, not how, and see whether the tool asks smarter clarifying questions than you'd have thought to answer."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a recurring task you usually do step-by-step, like a weekly status update.",
+            "Instead of instructions, describe the goal: <em>\"I want a weekly status update summarizing progress, risks, and next steps for [project]. Ask me for the info you need, then draft it.\"</em>",
+            "Notice what it asks you before drafting — that's the gap between a tool and a delegate.",
+            "Compare the result to how you'd normally write it and flag anything it missed or got right.",
+            "Share your prompt and takeaway in the group."
+          ]
+        }
+      },
+      {
+        "title": "The data says AI adopters are hiring, not cutting",
+        "body": "A new Ramp and Revelio Labs study of over 21,000 U.S. firms found <em>companies that invest heavily in AI grow headcount 10% over the two years following adoption</em>, with entry-level headcount up 12% (Ramp, June 2026). The catch: gains show up <em>\"roughly 6-12 months after adoption\"</em>, once firms build real workflows around the tools rather than bolting them on (Ramp, June 2026).",
+        "slants": {
+          "strategy": "Use this data to reframe the AI-and-headcount conversation in planning meetings — the story isn't automation replacing people, it's slow, workflow-dependent payoff.",
+          "operations": "Expect a lag between rollout and results — set expectations with leadership now so a quiet first two quarters doesn't get read as failure.",
+          "pm": "Build project resourcing plans assuming teams grow alongside AI tools over time, not shrink the day after rollout.",
+          "admin": "If a colleague is anxious about AI and job cuts, this is a real number to bring to that conversation, not just reassurance."
+        },
+        "challenge": {
+          "steps": [
+            "Think of a recent headline or hallway comment about AI cutting jobs.",
+            "Ask your company-approved AI tool: <em>\"Summarize the strongest evidence for and against AI adoption causing layoffs, using recent labor market data.\"</em>",
+            "Compare the summary to what you assumed going in.",
+            "Write one grounded sentence you'd use to reassure a nervous colleague.",
+            "Share it in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan your next low-key weekend",
+      "body": "Pick any free tool — ChatGPT, Claude, Gemini, or Perplexity — and let it plan a short trip with you instead of for you. This one teaches the 'ask me questions first' technique, which is one of the most useful prompting habits you'll ever pick up.",
+      "prompt": "\"I want to plan a low-key weekend trip within 3 hours of [your city]. Before you suggest anything, ask me five questions about my budget, interests, and travel style, then give me three ranked options.\""
+    }
+>>>>>>> 09dccf59d3735f9c323cb8103249b70c87e5d8f5
   }
 }
