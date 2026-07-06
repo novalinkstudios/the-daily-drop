@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "2026-07-06": {
     "intro": "Monday. This week is already stacked with momentum — a landmark government AI deployment, a global commission putting world leaders behind AI for everyone, and the most capable everyday AI model yet just became your default tool.",
     "trends": [
@@ -67,142 +66,6 @@
       "prompt": "You are an interior designer. Using the information below, suggest a complete redesign for my [room type] — including color palette, furniture arrangement, lighting ideas, and 3 specific styles or pieces to look for. My current setup: [describe it]. My style preferences: [describe your taste]. My budget: [range]. My biggest pain point with this room: [what bothers you most about it]."
     }
   },
-  "2026-06-29": {
-    "intro": "Sunday. The week ended with AI moving deeper into infrastructure — chips, protocols, and workplace measurement. Three ways the foundation under your tools got stronger.",
-    "trends": [
-      {
-        "title": "Claude Could Get 30% Faster — And That Changes Your Budget",
-        "body": "Anthropic is in early talks with Microsoft to run Claude inference on the Maia 200 — Microsoft's custom AI chip built specifically for responding to prompts in real time. The Maia 200 delivers <em>over 30% better tokens per dollar than the current hardware in Microsoft's fleet</em> (Microsoft/CNBC, May 2026). For any team paying for Claude or other AI APIs today, better hardware economics at the infrastructure level translates directly into lower costs and faster responses over the next 12–18 months.",
-        "slants": {
-          "strategy": "Declining inference costs mean AI use cases that felt expensive to scale in 2025 become viable business investments in 2026 — this is the moment to revisit shelved proposals with a fresh cost model.",
-          "operations": "Faster, cheaper AI responses directly affect automation workflows that depend on real-time AI calls — if latency has been a blocker, re-evaluate those use cases now.",
-          "pm": "Lower AI infrastructure costs shift the ROI math on AI-enhanced projects — build cost assumptions that reflect the downward trajectory, not today's prices.",
-          "admin": "This is the kind of development worth flagging to leadership: the tools you already use are getting significantly more capable and cost-effective without you changing anything."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"Explain AI inference in plain English — what does it mean, why does the cost of inference matter to a company that uses AI tools, and what happens to those tools when inference gets 30% cheaper?\"</em>",
-            "Note one specific workflow in your role that would benefit from faster or cheaper AI responses.",
-            "Ask a follow-up: <em>\"If AI API costs dropped 30% in the next year, what are 3 things a small business or department team should reconsider building or automating that they might have ruled out as too expensive?\"</em>",
-            "Share one reconsideration from your list in your team's AI channel."
-          ]
-        }
-      },
-      {
-        "title": "Autonomous AI Agents Are No Longer Experimental — They're at Work",
-        "body": "The defining shift of 2026 isn't a new model — it's where AI models are showing up: doing multi-step work without waiting to be asked for each step. Agentic AI has moved from pilots to production, handling tasks across legal, finance, coding, admin support, and operations. <em>Enterprise deployments of agentic AI systems grew dramatically in early 2026, with companies reporting that tasks taking weeks now complete in hours or minutes</em> (Kersai / InfoWorld, 2026). The competitive gap between companies using agents and those just prompting is widening every quarter.",
-        "slants": {
-          "strategy": "Agentic AI isn't a feature — it's a fundamentally different capability model. Organizations that define which processes should be agent-driven now will have a structural advantage over those that decide reactively.",
-          "operations": "The processes most suited for agentic AI are the ones with clear steps, repetitive decisions, and multiple tools involved — which describes most of what an ops function handles daily.",
-          "pm": "Agents can monitor projects, surface blockers, draft updates, and coordinate across systems without waiting for you to ask. The PMs learning to design agent handoffs now are building skills that will define the role in three years.",
-          "admin": "The shift to agentic AI means the highest-value admin work becomes the judgment and relationship layer — knowing when to intervene, who to escalate to, and what context the agent missed."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"What is agentic AI, and how is it different from just using a chatbot? Give me 3 examples of what an AI agent might do autonomously in a typical office environment — no technical background required.\"</em>",
-            "Pick the example most relevant to your current role.",
-            "Ask a follow-up: <em>\"Walk me through what a week in my role might look like if an AI agent handled all the repetitive coordination and follow-up tasks — I work in [your role or department]. What would I spend my time on instead?\"</em>",
-            "Share what surprised you most about the AI agent scenario in your team's discussion space."
-          ]
-        }
-      },
-      {
-        "title": "AI Adoption at Work Is Now Measurable — And the Data Is Revealing",
-        "body": "ActivTrak, winner of the 2026 AI Breakthrough Award for Behavioral AI Solution of the Year, processes workforce behavioral data to show leaders exactly how AI adoption is affecting productivity, capacity, and utilization across their teams. The platform collects <em>11 million terabytes of work activity data per month, giving organizations unprecedented real-time visibility into where AI is working and where it isn't</em> (ActivTrak, 2026). For the first time, AI ROI isn't just a calculation — it's a live measurement.",
-        "slants": {
-          "strategy": "The ability to measure AI adoption in real time transforms AI investment from a leap of faith to a managed initiative — leaders who instrument AI rollouts now will outperform those who rely on surveys and anecdotes.",
-          "operations": "Behavioral data closes the loop on AI implementation: instead of guessing which workflows benefited, you can see exactly where time shifted and where capacity opened up.",
-          "pm": "Real-time AI adoption data changes how you report project AI benefits — instead of estimated time savings, you can point to measured productivity shifts, which is a much stronger case for continued investment.",
-          "admin": "Knowing that AI adoption is being measured isn't a threat — it's an opportunity. Being visibly ahead of the curve in your own AI usage is now more visible and more valued than it's ever been."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"How would a company measure whether its employees are actually adopting AI tools effectively — not just using them, but getting real value? Give me 5 specific things they might track, with a plain-English explanation of each.\"</em>",
-            "Pick the one measurement that would be most telling for your own team or department.",
-            "Ask a follow-up: <em>\"What's the difference between measuring AI activity and measuring AI value? Give me an example of a team that looks busy with AI but isn't getting real results — and what they should change.\"</em>",
-            "Reflect privately: what would your own AI usage metrics look like this week?"
-          ]
-        }
-      }
-    ],
-    "homework": {
-      "title": "Plan your week with an AI chief of staff",
-      "body": "Sunday is the perfect time to try AI as a thinking partner for the week ahead. This technique is called structured output prompting — you ask AI to organize your thinking into a specific format, which helps you spot gaps and priorities you'd otherwise miss.",
-      "prompt": "Act as my chief of staff helping me plan a high-impact week. I'll tell you what's on my plate: [paste your week's commitments, meetings, and to-dos here]. Please give me: (1) a prioritized view of the week with your recommended focus areas, (2) one thing I should protect time for that I might otherwise skip, (3) one thing I should consider delegating or deferring, and (4) a one-sentence intention I can use to stay focused all week."
-    }
-  },
-  "2026-06-28": {
-    "intro": "Saturday. Three stories worth knowing heading into the week — a major enterprise AI deployment, a design tool that just got a lot more powerful, and the protocol quietly connecting the AI tools your company already uses.",
-    "trends": [
-      {
-        "title": "HP Cut a One-Month Security Fix to One Day Using AI",
-        "body": "HP Inc. announced a strategic partnership with OpenAI on June 28, deploying the Frontier platform across customer service, device insights, employee productivity, and software development. The results from the pilot are striking: <em>HP Security teams used OpenAI to resolve software vulnerabilities that would have taken a full month without AI — compressing that timeline to a single day and eliminating approximately 82 hours of weekly security work</em> (OpenAI/HP, June 2026). This is what enterprise AI ROI looks like when it's real.",
-        "slants": {
-          "strategy": "HP's deployment across four distinct functions — customer experience, device intelligence, productivity, and dev — is a useful model for enterprise AI rollouts: start with the highest-friction workflows in each function, not with a single top-down tool.",
-          "operations": "82 hours of eliminated weekly work is a concrete ops benchmark. The question isn't whether AI can do this in your environment — it's which workflow would show a comparable result fastest.",
-          "pm": "HP's February-to-June pilot-to-partnership timeline is a useful reference for scoping AI adoption projects. A four-month evaluated rollout with measurable outcomes is a realistic and defensible project plan.",
-          "admin": "One of HP's first Frontier deployments is employee productivity — meaning AI is actively being used to help people like you work better. Ask your IT or ops team what tools in your stack are getting similar upgrades."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"I want to find the workflow in my job that is most like HP's security vulnerability fix — something repetitive, time-consuming, and rules-based that AI could dramatically speed up. My role is [describe your role]. Give me 3 candidates with an estimated time savings for each.\"</em>",
-            "Pick the one with the highest potential impact.",
-            "Ask a follow-up: <em>\"For the workflow I picked, walk me through how I would start an AI pilot this month — what would I test first, how would I measure success, and what would a realistic 30-day experiment look like?\"</em>",
-            "Share one workflow candidate in your team's AI channel."
-          ]
-        }
-      },
-      {
-        "title": "Figma Just Gave Designers a Built-In Animation Studio",
-        "body": "At Config 2026, Figma launched Motion — a full animation mode built directly into the Figma canvas, available in open beta on all plans. Designers switch a frame into Motion mode, get a timeline alongside their layers, and use AI to generate complex animations on demand. <em>Figma Motion exports finished animations to CSS, JSON, React, MP4, GIF, WebM, and animated SVG — and Dev Mode makes every timing value and easing curve directly copyable by developers</em> (Figma, June 2026). The workflow handoff between design and development just got significantly cleaner.",
-        "slants": {
-          "strategy": "Figma Motion closes the gap between designed intent and built output — organizations investing in design systems now have a path to animated components that stay consistent across products and teams without a separate animation tool.",
-          "operations": "If your team coordinates between designers and developers, Figma Motion changes the handoff: developers get exact animation specs in code-ready formats, which means fewer review cycles and faster shipping.",
-          "pm": "Animation work that previously required a specialist tool and a separate round of dev interpretation now lives in the same file as the design. Scope your future UI projects accordingly — animation is no longer the expensive phase.",
-          "admin": "If you produce decks, reports, or presentations, AI-powered animation tools like Figma Motion point to where presentation design is heading — soon, asking AI to animate your slides will be as simple as asking it to resize them."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"Explain what Figma Motion is and why it matters for a non-designer who works with design or marketing teams. What should I know about how it changes the process of going from a design concept to something that moves on screen?\"</em>",
-            "Note one type of content your team produces that could benefit from smoother motion or animation.",
-            "Ask a follow-up: <em>\"What are 3 ways that AI-powered animation tools — even simple ones — are changing the expectations around marketing materials, app interfaces, and presentations in 2026?\"</em>",
-            "Share one takeaway with a colleague who works in marketing or design."
-          ]
-        }
-      },
-      {
-        "title": "The Open Standard Connecting Your AI Tools Has 97 Million Monthly Downloads",
-        "body": "The Model Context Protocol (MCP) — an open standard that lets AI tools connect to external apps, data sources, and other AI agents — has reached 97 million monthly SDK downloads, 9,400+ public servers, and native support from Anthropic, OpenAI, Google DeepMind, and Microsoft. <em>MCP and Google's Agent-to-Agent Protocol (A2A) are now both Linux Foundation projects with a joint interoperability effort underway</em> (Zylos Research / WorkOS, June 2026). The plumbing connecting tomorrow's AI ecosystem is being built right now — and it's open.",
-        "slants": {
-          "strategy": "Open interoperability standards mean your organization's AI tools won't be locked into one vendor's ecosystem — the strategic bet is on workflows and data architecture, not on picking the one AI platform that wins.",
-          "operations": "MCP is what allows AI tools to actually pull data from your CRM, update your project management system, and query your databases without manual copy-paste. If your ops stack isn't connected today, this is the infrastructure making it possible soon.",
-          "pm": "Understanding that MCP exists — and that it's the reason AI tools are starting to work together across platforms — gives you credibility when stakeholders ask why AI workflows are becoming more integrated. It's not magic; it's an open protocol.",
-          "admin": "The practical implication: AI assistants are increasingly able to check your calendar, pull from shared documents, and update systems all in one step. That's MCP in action — and it's why AI feels like it's finally starting to remember context."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool.",
-            "Paste: <em>\"What is the Model Context Protocol (MCP) in plain English? Why does it matter that major AI companies all support the same open standard, and what does this mean for someone who uses AI tools at work but isn't a developer?\"</em>",
-            "Write down one thing you want your AI tool to be able to do that it can't quite do yet because of data access limits.",
-            "Ask a follow-up: <em>\"If AI tools could connect seamlessly to all the apps I use at work — email, calendar, project tracker, CRM, documents — what are 3 specific tasks that would become dramatically easier? Give me concrete examples for someone in [your role].\"</em>",
-            "Share your \"can't do yet\" wish-list item in the community group."
-          ]
-        }
-      }
-    ],
-    "homework": {
-      "title": "Have AI plan your Sunday errands",
-      "body": "Try giving AI a real logistics problem — a stack of weekend tasks — and see how well it can organize and sequence them for you. This is a technique called constraint-based planning: you give AI your constraints (time, location, priorities) and let it optimize the route.",
-      "prompt": "Act as my personal logistics assistant. I need to get through the following tasks today: [list your errands or to-dos]. My constraints are: [available time, location, any must-dos vs. nice-to-haves]. Please give me: (1) a recommended order that minimizes backtracking or wasted time, (2) an estimated time for each task, (3) one task I should probably skip or defer if I'm short on time, and (4) a buffer recommendation so I don't feel rushed."
-    }
-  },
-=======
->>>>>>> 09dccf59d3735f9c323cb8103249b70c87e5d8f5
   "2026-06-26": {
     "intro": "Friday. This week's biggest AI moves are all about infrastructure catching up to ambition — a new chip, a new agent inside your existing tools, and new data confirming the time savings are real. The question now is what you do with them.",
     "trends": [
@@ -737,8 +600,6 @@
       "body": "Tonight's homework is a low-stakes way to practice structured output — the prompting technique where you tell AI exactly what format and categories you want in the response. It's one of the highest-leverage skills you can build, because it transfers directly to any work task where you need organized information fast: briefings, comparison tables, action plans, project summaries. Use your fridge as the dataset and see how precisely AI organizes to your specs.",
       "prompt": "Act as a practical home meal planner. Based on these ingredients and constraints: [paste what's in your fridge plus any dietary preferences or time limits], create a weekend plan — Saturday dinner and Sunday brunch — that requires no special shopping. Format each meal as: Meal name | Key ingredients | Cook time | One reason we'll love it."
     }
-<<<<<<< HEAD
-=======
   },
   "2026-06-27": {
     "intro": "This week, the AI industry revealed just how high the stakes have climbed — from custom silicon to international IP theft to a wave of new regulation. Whether you build strategy, run operations, manage projects, or keep the office humming, these three stories reshape what 'using AI responsibly' actually means in practice.",
@@ -1342,6 +1203,5 @@
       "body": "Pick any free tool — ChatGPT, Claude, Gemini, or Perplexity — and let it plan a short trip with you instead of for you. This one teaches the 'ask me questions first' technique, which is one of the most useful prompting habits you'll ever pick up.",
       "prompt": "\"I want to plan a low-key weekend trip within 3 hours of [your city]. Before you suggest anything, ask me five questions about my budget, interests, and travel style, then give me three ranked options.\""
     }
->>>>>>> 09dccf59d3735f9c323cb8103249b70c87e5d8f5
   }
 }
