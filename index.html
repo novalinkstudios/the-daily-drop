@@ -844,7 +844,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
-    "2026-07-08": {
+    "2026-07-11": {
+      intro: "Today's throughline: the tech keeps getting easier, but the harder work is organizational \u2014 redesigning how teams operate, choosing tools that will still exist next quarter, and figuring out the new etiquette of talking about AI use out loud.",
+      trends: [
+        {
+          title: "The bottleneck isn't the AI anymore \u2014 it's your org chart",
+          body: "Microsoft's 2026 Work Trend Index confirms what a lot of planners already suspect: handing people AI tools isn't the same as building an organization that can actually use them. <em>Only 19% of AI users fall into the \"Frontier\" zone</em> where individual skill and organizational readiness are both high \u2014 the rest are stuck, blocked, or still figuring it out <em>(Microsoft Work Trend Index, May 2026)</em>. The tension is real: 65% of AI users fear falling behind if they don't adapt quickly, while 45% say it feels safer to just stick to their current workflow.",
+          slants: {
+            strategy: "Treat AI readiness as a structural project on your roadmap \u2014 audit where governance, incentives, and workflows still assume a pre-AI operating model, not just where headcount happens to use AI tools.",
+            operations: "Map which processes have people using AI ad hoc versus which ones have actually been redesigned end-to-end around it \u2014 that gap is where inconsistency and rework hide.",
+            pm: "Bake 'who reviews the AI's output and how' into project plans up front, instead of bolting it on after a rollout stalls.",
+            admin: "If you've quietly gotten ahead of your team on AI, that's a signal worth surfacing \u2014 flag the gap between what you've figured out and what your team's official workflow supports."
+          },
+          challenge: {
+            steps: [
+              "Pick one recurring task on your team that people already use AI for informally.",
+              "Ask your company-approved AI tool: <em>\"Here's a recurring task on my team: [describe task]. Write a simple three-step workflow showing where a human should review or approve the AI's output before it's used.\"</em>",
+              "Compare that draft workflow to what actually happens today \u2014 is there a real review step, or does AI output go straight out the door?",
+              "Write down one gap between the ideal workflow and the current one.",
+              "Share your gap and the AI-drafted workflow in the group."
+            ]
+          }
+        },
+        {
+          title: "AI tools are getting bought, buried, or both \u2014 plan around it",
+          body: "The AI tools market just had its biggest shakeup yet: SpaceX's reported $60 billion acquisition of the coding tool Cursor was the largest startup acquisition ever recorded, part of a quarter where roughly 80% of venture investment went to AI startups <em>(AI tools news roundup, July 2026)</em>. The steadier trend matters more for planners: <em>193 AI tools have already shut down or been acquired this year</em>, and Cursor itself acquired a smaller rival just three weeks before being bought \u2014 proof that the tool your team builds a workflow around today may look totally different by next quarter.",
+          slants: {
+            strategy: "Build vendor-churn risk into your AI roadmap the way you'd plan for a key supplier being acquired \u2014 assume today's tool stack looks different in 12 months.",
+            operations: "Before standardizing a process around any single AI tool, check whether your company-approved option has a stable enterprise agreement, not just a promising free tier.",
+            pm: "Add a 'tool continuity' line to project risk logs for any initiative that leans heavily on one AI vendor.",
+            admin: "If you've built a personal system around one free AI tool, keep a backup habit going with a second one \u2014 free tiers are shrinking fast across the board."
+          },
+          challenge: {
+            steps: [
+              "List the AI tools you or your team currently rely on for any part of your workflow.",
+              "Ask your company-approved AI tool: <em>\"I rely on [tool name] for [task]. If this tool changed its pricing, got acquired, or shut down tomorrow, what's a backup approach using a different tool or a manual process?\"</em>",
+              "Review the answer and pick one backup you could realistically use.",
+              "Write the backup plan down in one sentence.",
+              "Share your primary tool and backup plan in the group."
+            ]
+          }
+        },
+        {
+          title: "Being honest about using AI at work is quietly costing people",
+          body: "New research from Atlassian's Teamwork Lab found something uncomfortable: even though 94% of knowledge workers use AI at work, disclosing it still carries a real penalty. In a controlled experiment, <em>colleagues who admitted to using AI were rated 10x lazier and 24 points less likely to get recommended for a high-visibility project</em> than peers who produced identical work without mentioning AI <em>(Atlassian Teamwork Lab, June 2026)</em>. Framing your AI use as helping the team, rather than just saving yourself time, closed much of that gap.",
+          slants: {
+            strategy: "Set explicit team norms for how AI use gets discussed in planning documents and reviews \u2014 silence isn't a policy, it's a vacuum that culture will fill on its own.",
+            operations: "Close the trust gap fastest by using AI visibly yourself and narrating it as a team efficiency win, not a personal shortcut.",
+            pm: "Build 'AI-assisted' into status update templates as a normal field, so disclosing it stops feeling like a confession.",
+            admin: "If you're already the AI power user on your team, you have a chance to model open, team-framed AI use before the culture defaults to secrecy."
+          },
+          challenge: {
+            steps: [
+              "Think of one task you've used AI for recently but haven't mentioned to your manager or team.",
+              "Ask your company-approved AI tool: <em>\"Help me write a two-sentence note to my manager describing how I used AI to complete [task], framed around how it helped the team rather than just saving me time.\"</em>",
+              "Read the draft and adjust it so it sounds like you.",
+              "Send it, or say it out loud in your next team check-in.",
+              "Share what you sent or said in the group."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI interview you before it plans your weekend",
+        body: "Instead of dumping every trip detail into one giant prompt, try teaching the AI to ask you questions first \u2014 it's a technique that gets noticeably better results for any personal project, from trip planning to gift shopping. Use whichever free tool you like: ChatGPT, Claude, Gemini, or Perplexity.",
+        prompt: "I want to plan a two-day weekend trip within driving distance. Before you suggest anything, ask me five questions about my budget, interests, and who's coming \u2014 then use my answers to give me three ranked options."
+      }
+    },
+  "2026-07-08": {
       intro: "This week's signals are converging on a single idea: powerful AI capabilities that used to be exclusive to enterprise budgets are now arriving at every price tier \u2014 making this one of the best moments in the AI era to level up your skills and your team's output.",
       trends: [
         {
