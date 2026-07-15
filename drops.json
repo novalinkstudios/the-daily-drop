@@ -1337,5 +1337,69 @@
       "body": "Instead of dumping every trip detail into one giant prompt, try teaching the AI to ask you questions first — it's a technique that gets noticeably better results for any personal project, from trip planning to gift shopping. Use whichever free tool you like: ChatGPT, Claude, Gemini, or Perplexity.",
       "prompt": "I want to plan a two-day weekend trip within driving distance. Before you suggest anything, ask me five questions about my budget, interests, and who's coming — then use my answers to give me three ranked options."
     }
+  },
+  "2026-07-15": {
+    "intro": "Today's three stories all point the same direction: AI is moving from something you chat with to something that finishes work for you — which means your value is shifting from doing the task to deciding what 'done well' looks like.",
+    "trends": [
+      {
+        "title": "Your AI budget is about to chase outcomes, not chat",
+        "body": "Gartner now predicts that over half of all enterprises will stop paying for assistive intelligence (such as copilots and smart advisors) and instead will favor platforms that commit to workflow results by 2028. The shift is really about handing agents delegated authority to act inside company systems, not just suggest — Gartner frames this as whether AI possesses delegated authority to trigger actions across enterprise systems within policy and identity constraints (Gartner, April 2026).",
+        "slants": {
+          "strategy": "When you evaluate any new AI tool this year, ask one question first: does it just draft and suggest, or does it actually finish the workflow — because budgets are about to reward the second kind.",
+          "operations": "Expect your role to shift from running the process manually to setting the guardrails an agent operates inside, especially for approval-heavy, timing-sensitive workflows.",
+          "pm": "Build 'who approves what' into your project plans now, because the tools your team adopts next year may be able to take action, not just make recommendations.",
+          "admin": "The scheduling, filing, and booking tools you use may soon complete the whole task instead of just drafting it — which means your job shifts toward checking that it did it right."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one recurring task where you currently have to manually move information from an AI-generated draft into another system (a tracker, a calendar, a report template).",
+            "Ask your company-approved AI tool: <em>\"I do [task], which starts with [input] and ends with me manually entering results into [system]. Break this into the minimum steps a trustworthy agent would need to complete it end-to-end, and tell me which single step still needs a human approval checkpoint.\"</em>",
+            "Read the answer critically — does the suggested approval point actually make sense for your team, or is it too loose or too cautious?",
+            "Share your result in the group and note whether you'd trust an agent with that step today."
+          ]
+        }
+      },
+      {
+        "title": "AI agents just started finishing the job, not just answering it",
+        "body": "On July 9, OpenAI launched ChatGPT Work — an agent that takes a goal, gathers information across your connected apps and files, breaks the job into steps, and finishes it on its own. That's a real change from the chatbot pattern of the last two years, where an AI agent that reads across your apps, plans the steps, and hands back a built spreadsheet is a different tool than a chat window (Asanify AI News Digest, July 2026).",
+        "slants": {
+          "strategy": "Use this shift to reclaim time for the analysis only you can do — let an agent assemble the first-draft market scan or data pull so you can spend your hours on the 'so what.'",
+          "operations": "Pilot this on one repetitive, low-stakes workflow like weekly reporting, and keep a required human check before anything writes back to a system of record.",
+          "pm": "Try having an agent compile a first-pass status update across your project tools, then spend your saved time verifying it instead of assembling it from scratch.",
+          "admin": "Test it on a routine, low-risk task like drafting a standard letter or building a meeting packet — just don't feed it anything confidential to get there."
+        },
+        "challenge": {
+          "steps": [
+            "Choose one low-stakes, repetitive deliverable you produce regularly (a status summary, a simple slide, a routine email draft).",
+            "Prompt your company-approved AI tool: <em>\"Here is the context I can share: [safe, non-confidential details]. Draft a complete first version of [deliverable] as if you were finishing this task for me end-to-end, and flag any assumptions you made.\"</em>",
+            "Compare it against what you'd normally produce yourself — where did it save time, and where would you have caught something it missed?",
+            "Share your result in the group, including one assumption the AI got wrong."
+          ]
+        }
+      },
+      {
+        "title": "The skill AI quietly erodes is the one you need most",
+        "body": "New BCG research finds that the skills that leaders consider most critical to long-term performance—such as judgment and decision making, problem understanding and framing, and creative thinking—are most at risk due to AI deskilling. A separate study of knowledge workers found that participants who had more confidence in generative AI also said they engaged in less critical thinking when they used it to complete work tasks (BCG, June 2026; APA Monitor, July 2026).",
+        "slants": {
+          "strategy": "Before you ask AI for a recommendation on a strategic call, write your own answer in three sentences first — it keeps your judgment muscle in shape, not just your output.",
+          "operations": "Rotate which team members handle exception cases without AI assistance occasionally, so the skill of solving a messy problem from scratch doesn't quietly disappear.",
+          "pm": "In retrospectives, don't let an AI summary replace your own root-cause thinking — ask 'why' one more time than the AI did.",
+          "admin": "Keep drafting a few messages from a blank page each week; use AI to polish afterward instead of originate every time, so your own voice and judgment stay sharp."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one real work question you'd normally take straight to AI. Before opening any tool, write your own first-pass answer in three sentences.",
+            "Then ask your company-approved AI tool: <em>\"Give me your recommendation on [same question], and explain your reasoning.\"</em>",
+            "Compare the two answers side by side — where did your reasoning catch something the AI missed, or vice versa?",
+            "Share your result in the group, including one place you and the AI disagreed."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI interview you before it advises you",
+      "body": "Pick something personal you've been putting off — planning a weekend trip, picking a recipe for a picky eater, or drafting an awkward text — and try flipping the usual script: instead of asking AI for answers right away, make it ask you questions first. Use any free tool (ChatGPT, Claude, Gemini, or Perplexity) for this one.",
+      "prompt": "\"I want your help planning a low-budget weekend trip within driving distance. Before you give me any recommendations, ask me 5 questions about my budget, interests, and dealbreakers — and wait for my answers before you suggest anything.\""
+    }
   }
 }
