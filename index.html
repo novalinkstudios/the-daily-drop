@@ -844,6 +844,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-07-17": {
+      intro: "Today's stories all point to the same shift: AI is maturing from a technology question into a management one \u2014 how you pay for it, how you feed it, and which human skills it makes more valuable, not less.",
+      trends: [
+        {
+          title: "The real AI budget question isn't the model, it's the cleanup",
+          body: "A McKinsey report out today reframes how leaders should think about agent costs: <cite index=\"30-1\">Agentic AI tasks can use nearly 1,000 times more tokens than conventional code reasoning or chat-based AI tasks, the report said, \"Per-token pricing has stopped being a useful measure for what enterprises actually pay for gen AI.\"</cite> The bigger surprise is where the money actually goes: <cite index=\"30-9\">about 60 per cent an agentic task's costs, in fact, are tied to refining answers</cite>, not generating them. As McKinsey put it, <cite index=\"30-5\">the decision to scale an agent is increasingly becoming a complex and fast-changing economics decision, not a technical one</cite>.",
+          slants: {
+            strategy: "When you build the AI business case next quarter, budget for revision cycles and retries, not just a per-seat license fee.",
+            operations: "Before approving a new agent workflow, ask how much of its cost sits in verification and rework \u2014 that's the number that actually predicts your bill.",
+            pm: "Bake cost variance into your AI-enabled project plans, since the same task can price out differently depending on how many times the agent has to try again.",
+            admin: "The more back-and-forth you do polishing an AI draft, the more it's actually costing behind the scenes \u2014 tighter first requests save real money."
+          },
+          challenge: {
+            steps: [
+              "Pick one recurring task you already hand to an AI assistant, like a weekly status summary or a meeting recap.",
+              "Run it once with a single, specific request instead of your usual back-and-forth: <em>\"Draft this in its final, polished form in one attempt \u2014 don't wait for me to ask for revisions.\"</em>",
+              "Compare that one-shot result to how many rounds of editing you'd normally do to get the same quality.",
+              "Notice which part of the task \u2014 the first draft or the endless tweaking \u2014 actually took the most effort. That's the expensive part, for you and for the AI.",
+              "Share in the group: which task got cheaper (and faster) when you asked for the finished version up front?"
+            ]
+          }
+        },
+        {
+          title: "Your AI pilots are ready to scale \u2014 your data isn't",
+          body: "McKinsey's tech insights team flagged a quieter constraint behind all the agentic AI headlines: <cite index=\"4-1\">As companies push their AI pilots to scale, data is emerging as a constraint. Leaders are prioritizing data readiness</cite> before adding more automation. Separate industry research backs this up \u2014 <cite index=\"16-18\">nearly 60% of AI leaders say legacy integration is a primary adoption challenge when implementing advanced AI like agentic AI</cite>. Translation: the tool isn't the hard part anymore. Getting clean, connected information into it is.",
+          slants: {
+            strategy: "Add \"data readiness\" as its own line item in your AI roadmap \u2014 it now predicts scale-up success more than the model choice does.",
+            operations: "Before rolling an AI pilot out wider, audit whether the systems feeding it are consistent, not just whether the pilot worked in a clean test environment.",
+            pm: "Build a data-quality checkpoint into your AI project timeline; assume the integration work takes longer than the AI setup itself.",
+            admin: "If an AI tool gives you a confusing or incomplete answer, the problem is often messy source data upstream, not the tool \u2014 flag it instead of just re-prompting."
+          },
+          challenge: {
+            steps: [
+              "Pick one workflow where you already lean on an AI tool \u2014 a report, a dataset, a status doc.",
+              "Ask your company-approved AI tool: <em>\"List the top 3 places in this workflow where you had to guess, or where the information you received was inconsistent or incomplete.\"</em>",
+              "Read the output and see if any of those gaps are things you already suspected but hadn't named.",
+              "Pick one gap and flag it to whoever owns that data or process \u2014 a five-minute heads-up now saves a bigger headache later.",
+              "Share in the group what surprised you most about where the messiness lives."
+            ]
+          }
+        },
+        {
+          title: "AI is making junior jobs demand senior judgment",
+          body: "PwC's newest global jobs analysis found a real divide opening up in how AI reshapes careers. <cite index=\"24-1\">Analysis of US data shows AI-exposed entry-level roles are seven times more likely to require traditionally senior-level skills such as judgement and leadership. These roles grew 35% since 2019, while other entry-level roles declined by 10%</cite>. As the report put it, <cite index=\"24-6,24-7\">the traditional relationship between experience and expertise is changing. AI is removing some of the routine work that once acted as an apprenticeship, while increasing demand for judgement, leadership and adaptability much earlier in careers</cite>.",
+          slants: {
+            strategy: "Rethink your talent pipeline assumptions \u2014 the old model of \"years in seat before judgment calls\" is compressing fast, and your planning cycles should account for it.",
+            operations: "Look for the operational tasks AI has already absorbed on your team, then build in earlier, structured chances for junior staff to practice the judgment calls that remain.",
+            pm: "When staffing projects, weigh a junior team member's decision-making instincts as heavily as their tool proficiency \u2014 that's the skill AI isn't replacing.",
+            admin: "The routine parts of your role that AI now handles free up time for the parts that actually build your reputation: judgment, discretion, and knowing what matters."
+          },
+          challenge: {
+            steps: [
+              "Pick one task in your role that AI now does quickly for you \u2014 drafting, summarizing, formatting, scheduling.",
+              "Ask your company-approved AI tool: <em>\"Given that AI now handles this task quickly, what judgment or leadership skill becomes more valuable for me to strengthen next?\"</em>",
+              "Read the suggestion and think of one real moment this week where that skill would have mattered.",
+              "Write down one small way to practice that skill in the next two weeks.",
+              "Share in the group what skill came up \u2014 you might spot a pattern across the team."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI plan your next weekend getaway",
+        body: "Pick a free tool \u2014 ChatGPT, Claude, Gemini, or Perplexity \u2014 and use it to plan a short trip or day out you've been meaning to take. This time, instead of giving it all the details up front, make it work for the answer.",
+        prompt: "Try this: <em>\"I want to plan a weekend trip but haven't picked a destination. Before you suggest anything, ask me questions one at a time about my budget, interests, and how much driving or flying I'm willing to do. Then give me your top 3 ranked recommendations with a one-line reason for each.\"</em> Notice how asking it to question you first \u2014 instead of dumping everything at once \u2014 gets you a sharper, more personal answer."
+      }
+    },
   "2026-06-17": {
     "intro": "Wednesday: the gap between having AI and winning with AI keeps widening. Three things to think about — and a low-key experiment for tonight.",
     "trends": [
