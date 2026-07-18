@@ -2007,5 +2007,75 @@
       "body": "Pick a free tool — ChatGPT, Claude, Gemini, or Perplexity — and use it to plan a short trip or day out you've been meaning to take. This time, instead of giving it all the details up front, make it work for the answer.",
       "prompt": "Try this: <em>\"I want to plan a weekend trip but haven't picked a destination. Before you suggest anything, ask me questions one at a time about my budget, interests, and how much driving or flying I'm willing to do. Then give me your top 3 ranked recommendations with a one-line reason for each.\"</em> Notice how asking it to question you first — instead of dumping everything at once — gets you a sharper, more personal answer."
     }
+  },
+  "2026-07-18": {
+    "intro": "Today's drop is about where AI decisions actually get made: which workflows leadership funds, which tools employees quietly reach for anyway, and which skills your team needs to protect on purpose.",
+    "trends": [
+      {
+        "title": "Companies are done crowdsourcing AI pilots — and starting to pick winners",
+        "body": "PwC's 2026 predictions call out a pattern most large companies fell into: letting every team run its own AI experiment and hoping something sticks. <cite index=\"41-6\">Crowdsourcing AI efforts can create impressive adoption numbers, but it seldom produces meaningful business outcomes.</cite> The shift now is toward a smaller, sharper approach where <cite index=\"41-1,41-2\">senior leadership picks the spots for focused AI investments, looking for a few key workflows or business processes where payoffs from AI can be big</cite> (PwC, 2026).",
+        "source_url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
+        "slants": {
+          "strategy": "This is your job now — picking the two or three workflows worth a real AI bet, and building the business case for why the rest wait.",
+          "operations": "Expect fewer scattered pilots landing on your desk and more concentrated, well-resourced rollouts with a clear ROI target attached.",
+          "pm": "You'll likely run one deep AI project instead of five shallow ones — plan for more scrutiny and higher stakes on the project you do get.",
+          "admin": "The 'try whatever tool you like' era may be winding down as your org standardizes around a chosen few — get familiar with the frontrunners early."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Prompt it: <em>\"List the 3 recurring tasks on my team that eat the most time each week and have the clearest, most measurable outcome.\"</em>",
+            "Pick the one that feels most winnable — not the flashiest, the most measurable.",
+            "Follow up with: <em>\"Write a 3-sentence pitch for why this task should be our team's one focused AI project this quarter.\"</em>",
+            "Read the pitch, tighten anything that sounds off, and share it in the group."
+          ]
+        }
+      },
+      {
+        "title": "Employees trust their own AI judgment more than their company's rules",
+        "body": "A 2026 PagerDuty survey of 1,250 office professionals found <cite index=\"21-8\">two-thirds (66%) of workers who have used AI say they did so even though they believed it was not permitted under company policy</cite>. Even more striking: <cite index=\"21-1\">a majority of office professionals (72%) believe they understand how to use AI for their job better than the team responsible for managing AI at their company</cite> (PagerDuty, June 2026).",
+        "source_url": "https://www.pagerduty.com/blog/ai/shadow-ai-workplace-survey-2026/",
+        "slants": {
+          "strategy": "If two-thirds of your workforce is quietly using unapproved tools, your AI budget conversations are missing a huge piece of real usage data.",
+          "operations": "The workflow shortcuts your team found using personal AI tools are free signal — they show exactly where the approved tools fall short.",
+          "pm": "If your project plans assume everyone sticks to sanctioned tools only, you may be underestimating both your team's real capacity and its real risk.",
+          "admin": "Whatever time you're quietly saving with a personal AI tool is worth surfacing to your manager or IT — better to name it than hide it."
+        },
+        "challenge": {
+          "steps": [
+            "Jot down 2-3 AI tools you personally use for work tasks, whether officially approved or not.",
+            "Open your company-approved AI tool and prompt: <em>\"Here are tasks I do weekly: [list your tasks]. Which of these could I realistically move to an approved tool instead of a personal one?\"</em>",
+            "Read the suggestions honestly — don't dismiss them just because switching feels inconvenient.",
+            "Note one task where you'd still reach for another tool, and ask yourself if that's a real capability gap or just habit.",
+            "Share your honest answer in the group — this works best when people are candid, not defensive."
+          ]
+        }
+      },
+      {
+        "title": "Half of executives already see their teams' thinking skills slipping",
+        "body": "BCG's June 2026 research names a real organizational risk: <cite index=\"31-20\">in a global study of 70 C-suite leaders and senior executives across multiple industries, we found that half are already observing de-skilling in their organizations, and more than 60% believe that de-skilling will pose a material threat within the next three to five years.</cite> One fix already in motion: <cite index=\"31-1\">at CNIL, France's data protection authority, managers are responsible for assessing employees' ability to challenge AI outputs — not just to use them</cite>, making that judgment a visible, evaluated part of the job.",
+        "source_url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills",
+        "slants": {
+          "strategy": "Build skill-preservation checkpoints into your AI rollout plans now — the gap shows up later as a bad forecast nobody caught in time.",
+          "operations": "Map which of your processes now depend so heavily on AI that no one on the team could run them manually if the system went down.",
+          "pm": "Add a human-only checkpoint to at least one project phase per cycle so your team's judgment gets exercised, not just outsourced.",
+          "admin": "Keep practicing your own drafting and proofreading instincts on at least a few tasks a week — don't let AI polish become your only quality check."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one recurring task you now complete almost entirely with AI help.",
+            "Do it once this week without AI, and time yourself.",
+            "Open your company-approved AI tool and prompt: <em>\"Ask me questions before answering: help me spot 2 judgment calls in [describe the task] where I should double-check an AI's output before trusting it.\"</em>",
+            "Compare your unaided attempt to the AI's usual output — note where your instincts were sharper or shakier than you expected.",
+            "Share one honest takeaway in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a weekend getaway without doing all the legwork yourself",
+      "body": "Pick a place you've been meaning to visit and use ChatGPT, Claude, Gemini, or Perplexity to help you plan it — but make the tool work for the details, not just hand you a generic list.",
+      "prompt": "Try this: \"I want to plan a 2-day trip to [destination] on a budget of [amount]. Before you suggest anything, ask me questions about my travel style, food preferences, and pace so your plan actually fits me.\" Notice how the questions the AI asks change the quality of what it gives you back — that's the habit worth keeping for bigger prompts later."
+    }
   }
 }
