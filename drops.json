@@ -2077,5 +2077,72 @@
       "body": "Pick a place you've been meaning to visit and use ChatGPT, Claude, Gemini, or Perplexity to help you plan it — but make the tool work for the details, not just hand you a generic list.",
       "prompt": "Try this: \"I want to plan a 2-day trip to [destination] on a budget of [amount]. Before you suggest anything, ask me questions about my travel style, food preferences, and pace so your plan actually fits me.\" Notice how the questions the AI asks change the quality of what it gives you back — that's the habit worth keeping for bigger prompts later."
     }
+  },
+  "2026-07-19": {
+    "intro": "Today's throughline: as agentic AI moves from pitch deck to production, the winners are the ones who can tell real capability from relabeled automation, spot where agents are quietly touching routine buying decisions, and close the training gap before confidence collapses.",
+    "trends": [
+      {
+        "title": "Not every 'AI agent' is actually an agent — Gartner says stop assuming otherwise",
+        "body": "Gartner is telling planning leaders to stop taking agentic AI pitches at face value. At its Supply Chain Symposium, the firm warned that <em>hype and \"agent washing\" are creating real risks for organizations under pressure to deliver results</em>, and separately estimates that of the thousands of vendors now claiming agentic AI capability, only about 130 are building genuinely autonomous systems (Gartner, May 2026).",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-warns-of-agent-washing-risks-in-supply-chain-planning-technology-market",
+        "slants": {
+          "strategy": "Before you greenlight budget for an 'agentic' platform, require the vendor to show what it does that scripted automation couldn't already do.",
+          "operations": "Run any pilot on your messiest, most unpredictable real cases — not the vendor's clean demo — to see if it's a true agent or automation in a costume.",
+          "pm": "Add a vendor-evaluation checkpoint to your intake process so 'agentic' claims get tested against project requirements, not just marketing language.",
+          "admin": "When you're helping schedule or scope a new tool demo, ask the presenter directly what happens when the system hits something it's never seen before."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool or 'agentic' feature your team currently uses or is evaluating.",
+            "Open your company-approved AI assistant and ask it: <em>\"I'm evaluating a tool marketed as an 'AI agent' for [type of task]. Give me 5 specific questions I should ask the vendor to tell whether this is genuinely autonomous versus repackaged automation.\"</em>",
+            "Compare the answers against what you already know about the tool and flag any gaps.",
+            "Share your checklist in the group so teammates can reuse it before their next vendor call."
+          ]
+        }
+      },
+      {
+        "title": "AI agents are quietly starting to do your reordering, renewing, and invoice-paying",
+        "body": "Away from the consumer shopping headlines, enterprise-side agents are already handling real recurring work: <em>enterprise-side agents (Microsoft Copilot, Salesforce Agentforce, custom internal agents) reorder office supplies, renew SaaS subscriptions, and pay invoices on behalf of a company</em>. The consumer version of this is moving more cautiously — OpenAI recently paused its Instant Checkout feature, a signal that even the biggest players think the infrastructure and trust layers aren't fully ready yet.",
+        "source_url": "https://eco.com/support/en/articles/14839400-what-is-agentic-commerce-the-2026-guide",
+        "slants": {
+          "strategy": "Get ahead of spend visibility now — if agents start making micro-purchasing decisions, your forecasting model needs a line item for it.",
+          "operations": "Audit your recurring purchase and renewal workflows to identify which ones are low-risk enough to delegate to an agent with human approval built in.",
+          "pm": "Treat a first agentic-procurement pilot like any other project: define scope, approval checkpoints, and a rollback plan before it touches real spend.",
+          "admin": "You're well-positioned to own this shift — start learning how approval workflows for agent-initiated purchases actually work, since someone will need to monitor them."
+        },
+        "challenge": {
+          "steps": [
+            "List three recurring purchase or renewal tasks your team handles manually (software renewals, supply reorders, invoice approvals).",
+            "Ask your company-approved AI assistant: <em>\"Here are three recurring purchasing tasks on my team: [list them]. Which, if any, would be safe to delegate to an AI agent with human approval built in, and what guardrails should I put in place first?\"</em>",
+            "Pick the safest candidate and sketch what a one-step human approval checkpoint would look like.",
+            "Share your idea in the group chat."
+          ]
+        }
+      },
+      {
+        "title": "Companies are training their leaders on AI — and leaving everyone else to figure it out alone",
+        "body": "New research is putting a number on something a lot of people feel but rarely see measured: <em>78% of organizational decision-makers feel confident using AI at work, versus just 43% of the workers below them</em>. The report also finds that <em>36% of employees report self-teaching as their primary route to AI skills, compared to just 23% who received any formal employer training</em> (TrustedTech, July 2026).",
+        "source_url": "https://vmblog.com/news/trustedtech-research-exposes-the-ai-confidence-gap-threatening-to-leave-half-the-u-s-workforce-behind/",
+        "slants": {
+          "strategy": "Build training investment into the AI roadmap itself, not as an afterthought — the confidence gap is a business risk, not just an HR issue.",
+          "operations": "Identify which frontline teams are navigating AI tools alone and pair them with structured guidance instead of assuming they'll self-teach.",
+          "pm": "Add an AI-literacy check-in to project kickoffs so every team member — not just the lead — has a baseline before the work starts.",
+          "admin": "If formal training hasn't reached you yet, don't wait — a short, structured self-practice routine can close a lot of that gap on your own timeline."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one AI skill you've picked up mostly on your own, with little or no formal training.",
+            "Ask your company-approved AI assistant: <em>\"Act as a mentor helping me get better at using AI at work. Ask me three questions about how I currently use AI tools, then give me a simple two-week practice plan to build one specific skill.\"</em>",
+            "Try one of the suggested exercises today.",
+            "Share your two-week plan in the group and invite a teammate to try it alongside you."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan your next low-key weekend — but make it ask you first",
+      "body": "This one's just for you: pick a free tool (ChatGPT, Claude, Gemini, or Perplexity) and use it to plan a small weekend trip or day trip, but with a twist — you're going to make it interview you before it gives any answers.",
+      "prompt": "\"I want to plan a low-key weekend trip within driving distance. Before you suggest anything, ask me at least five questions about my budget, interests, and who's coming — then give me three ranked options with a one-line reason for each.\""
+    }
   }
 }
