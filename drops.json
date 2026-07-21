@@ -1,4 +1,74 @@
 {
+  "2026-07-21": {
+    "intro": "Tuesday. This week's stories share a bright thread: the most capable AI ever built is landing right in your hands, ready to take on real work — and the people who learn to direct it are pulling ahead.",
+    "trends": [
+      {
+        "title": "AI agents now do the work — you direct it",
+        "body": "The two biggest AI labs just landed on the same idea: deliver finished work, not chat. OpenAI's ChatGPT Work and Anthropic's Claude Cowork both arrived this month as agents that complete multi-step business tasks end to end. Gartner projects <em>40% of enterprise apps will feature task-specific AI agents by the end of 2026, up from less than 5% in 2025 (Gartner)</em>. The ability to delegate clearly — and check the result — is about to become one of the most valuable skills in the building.",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
+        "slants": {
+          "strategy": "Delegating to an agent is a real edge: the teams that master hand-off and review will ship in hours what used to take weeks.",
+          "operations": "Your most repetitive multi-step workflows are exactly what these agents are built for — freeing you for the judgment calls only you can make.",
+          "pm": "An agent that runs a task end to end lets you take on scope you'd normally need extra hands for. Your influence widens, not your workload.",
+          "admin": "When you can hand routine coordination to an agent and spot-check it, you become the person who makes the whole office run smoother — and it shows."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one multi-step task you own — booking travel, prepping a recurring report, organizing a shared folder.",
+            "Paste this prompt: <em>\"I want to hand you this whole task, not just one step: [describe the task]. Ask me any questions you need, then give me a complete plan and the finished first version.\"</em>",
+            "Review what it produced and note where it nailed it and where it needs your judgment.",
+            "Paste this follow-up: <em>\"Here's what I'd change: [your notes]. Deliver the final version with those fixes applied.\"</em>",
+            "Share in the group one task you'd happily hand to an agent from now on."
+          ]
+        }
+      },
+      {
+        "title": "The most capable AI yet is now everyone's",
+        "body": "OpenAI made its GPT-5.6 family — Sol, Terra, and Luna — publicly available on <em>July 9, 2026, after an initial preview to only about 20 organizations (CNBC)</em>. Sol is billed as OpenAI's best model yet for reasoning, coding, and complex problem-solving. The frontier tools that were locked to a handful of partners a few weeks ago are now yours to use — the playing field just leveled up in your favor.",
+        "source_url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+        "slants": {
+          "strategy": "When the most powerful models are available to everyone, advantage shifts to whoever applies them best — a race you win on creativity, not budget.",
+          "operations": "A sharper model means the AI you already use for drafts and analysis just got more reliable. Lean on it for the harder tasks you used to hold back.",
+          "pm": "Stronger reasoning means you can point AI at messier, higher-stakes planning problems and trust the first pass more — simplifying work you used to untangle by hand.",
+          "admin": "The gap between 'power user' and everyone else is narrowing. Get familiar with the newest model now and you'll be the go-to person others come to."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and think of a task you assumed was too complex to trust to AI.",
+            "Paste this prompt: <em>\"I used to think this was too complex for AI: [describe the task]. Walk me through how you'd tackle it step by step, then attempt it.\"</em>",
+            "Read the attempt and judge how close it got compared to your expectations.",
+            "Paste this follow-up: <em>\"Now push further — what's the most advanced version of this you could produce if I gave you more detail? Ask me for what you need.\"</em>",
+            "Share in the group one task the newest models handle better than you expected."
+          ]
+        }
+      },
+      {
+        "title": "Two-thirds see AI gains — the reinventors win big",
+        "body": "Deloitte's 2026 State of AI in the Enterprise found that <em>66% of organizations report productivity gains from AI, while only 34% have actually reimagined how they work around it (Deloitte)</em>. That gap is the opportunity: the value isn't going to whoever adopts AI, but to whoever rethinks the work itself. You don't need a bigger budget to join that group — you need a better question about what your team could do differently.",
+        "source_url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+        "slants": {
+          "strategy": "The advantage sits in the gap between 'using AI' and 'redesigning around it.' Ask what your team would build if AI were assumed, not added on.",
+          "operations": "Productivity gains are table stakes now. The bigger win is spotting one process you could run completely differently — that's where the outsized value lives.",
+          "pm": "Instead of bolting AI onto your current plan, sketch what the project would look like if you designed it AI-first. That reframing is where influence compounds.",
+          "admin": "You're often closest to how the work actually flows, which makes you uniquely placed to spot the process worth reinventing — a high-visibility contribution."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one routine process your team runs the same way every week.",
+            "Paste this prompt: <em>\"Here's a process my team repeats weekly: [describe it]. Don't just make it faster — redesign it as if AI were part of the team from the start. What would change?\"</em>",
+            "Read the redesign and mark the one idea that feels genuinely different, not just quicker.",
+            "Paste this follow-up: <em>\"Take that one idea and turn it into a simple 3-step pilot I could try this month.\"</em>",
+            "Share your pilot idea in the group — reinvention beats optimization."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan a themed dinner night at home",
+      "body": "This practices role prompting — giving AI a specific persona to sharpen its output. When you tell it who to be, the answers get more vivid and useful than a generic request. Try it on something fun and low-stakes.",
+      "prompt": "Try this: <em>\"Act as a seasoned chef planning a themed dinner night for me at home. Ask me about the cuisine I'm curious about, my cooking skill level, and any dietary needs — one question at a time — then design a simple menu with a shopping list and a loose timeline. The theme I'm thinking about is [paste your theme or cuisine here].\"</em><br><br>Notice how <em>telling AI who to be</em> — a chef, a coach, a tour guide — sharpens every answer it gives."
+    }
+  },
   "2026-06-17": {
     "intro": "Wednesday: the gap between having AI and winning with AI keeps widening. Three things to think about — and a low-key experiment for tonight.",
     "trends": [
