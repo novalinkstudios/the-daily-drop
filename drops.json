@@ -1,4 +1,74 @@
 {
+  "2026-07-22": {
+    "intro": "Wednesday. This week keeps circling one uplifting idea: as AI takes on more of the doing, your judgment and direction become the most valuable part — and it's never been more affordable to put to work.",
+    "trends": [
+      {
+        "title": "As AI does more, your judgment matters more",
+        "body": "Microsoft's 2026 Work Trend Index landed on a hopeful finding: as agents take on execution, people are gaining more control over decisions, not less. <em>58% of AI users say they're now producing work they couldn't have a year ago (Microsoft)</em>, and most treat AI output as a starting point they shape rather than a final answer. The skill rising fastest in value is your judgment about what good actually looks like.",
+        "source_url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+        "slants": {
+          "strategy": "The edge is shifting to leaders who set clear intent and standards — when agents handle execution, your direction becomes the differentiator.",
+          "operations": "Let agents carry the repetitive execution so your attention goes to the calls that need a human eye, the part that makes your work matter most.",
+          "pm": "As AI runs more of the doing, your role expands into orchestration and judgment — steering more scope without adding hours.",
+          "admin": "You're increasingly the one directing and quality-checking AI output, which puts your judgment front and center where the whole team can see it."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one task where the final call really depends on your judgment — a tricky email, a sensitive schedule, a first-draft plan.",
+            "Paste this prompt: <em>\"Give me a complete first version of this: [describe the task]. Then list the 3 judgment calls you think I, as the human, should personally decide.\"</em>",
+            "Look at those three judgment calls and confirm they're exactly where your experience adds the most value.",
+            "Paste this follow-up: <em>\"Here are my decisions on those calls: [your choices]. Revise the work to reflect my direction.\"</em>",
+            "Share in the group one place where your judgment turned a good AI draft into a great final result."
+          ]
+        }
+      },
+      {
+        "title": "Reclaim most of a workday every single week",
+        "body": "Fresh workforce data shows just how much time AI is handing back. Knowledge workers using production AI agents recover a <em>median 6.4 hours per week per seat, with senior practitioners saving 10–12 hours (McKinsey Global AI Survey / Slack Workforce Index)</em>. That's most of a workday freed up — hours you can redirect to the higher-impact work only you can do.",
+        "source_url": "https://www.uctoday.com/productivity-automation/ai-productivity-reports-2026/",
+        "slants": {
+          "strategy": "Those reclaimed hours are a strategic asset — point them at the initiatives that move the needle rather than the busywork that used to eat the week.",
+          "operations": "The tasks agents absorb are often your most repetitive ones, freeing hours you can reinvest in improving the process itself.",
+          "pm": "Hours back across your team means you can take on the stretch goals that were previously out of reach, expanding what your projects deliver.",
+          "admin": "When AI handles the routine coordination, you get hours back for the high-visibility work that gets you noticed."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one time-consuming routine you do every week — inbox triage, calendar juggling, report formatting.",
+            "Paste this prompt: <em>\"Here's a routine that eats my time every week: [describe it]. Design a faster way to do it with your help, and handle the first pass for me now.\"</em>",
+            "Time how long the AI-assisted version takes compared to your usual approach.",
+            "Paste this follow-up: <em>\"Turn this into a repeatable routine I can trigger with one message each week. Write the exact prompt I should reuse.\"</em>",
+            "Share in the group how many minutes you saved — and what you'll do with the time."
+          ]
+        }
+      },
+      {
+        "title": "The best AI just got dramatically cheaper for you",
+        "body": "The cost of running AI is collapsing in your favor. Inference costs have fallen <em>roughly 95% in two years — from about $30 per million tokens to under $0.50 for equal-quality models (Value Add VC analysis)</em>. The powerful tools once reserved for the biggest budgets are now within reach of any team willing to pick them up and use them.",
+        "source_url": "https://valueaddvc.com/blog/how-ai-inference-costs-have-dropped-95-in-two-years-and-what-happens-next",
+        "slants": {
+          "strategy": "Falling costs mean AI is no longer a budget question — advantage now goes to whoever applies it most creatively, a race any team can win.",
+          "operations": "Cheaper AI means you can finally automate the smaller tasks you used to skip, compounding time savings across your whole workflow.",
+          "pm": "With cost barriers dropping, you can build AI into more of your project without a budget fight — simplifying complexity for less.",
+          "admin": "Affordable, capable AI lands directly in your hands, so you can take on more and make the value you add visible."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and think of a small task you've skipped automating because it felt not worth the effort.",
+            "Paste this prompt: <em>\"Here's a small, low-stakes task I usually just power through: [describe it]. Show me the quickest way to hand it to you from now on.\"</em>",
+            "Try the AI-assisted version once and notice how little effort it actually takes.",
+            "Paste this follow-up: <em>\"Now suggest 3 other small tasks like this one that I could easily start handing to you.\"</em>",
+            "Share in the group one 'too small to bother' task that's now effortless with AI."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a weekend project with a step-by-step assistant",
+      "body": "This practices structured output — asking AI to return its answer in a specific, organized format so it's instantly usable. When you tell it exactly how to shape the response, you get a plan you can act on instead of a wall of text.",
+      "prompt": "Try this: <em>\"Act as a friendly project planner. Help me plan [paste your weekend project here] by returning a table with three columns: Step, What I Need, and Time Estimate. Ask me any questions you need first, one at a time.\"</em><br><br>Notice how <em>asking for a specific format</em> — a table, a checklist, a timeline — turns a vague answer into something you can use right away."
+    }
+  },
   "2026-07-21": {
     "intro": "Tuesday. This week's stories share a bright thread: the most capable AI ever built is landing right in your hands, ready to take on real work — and the people who learn to direct it are pulling ahead.",
     "trends": [
