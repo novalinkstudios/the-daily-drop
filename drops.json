@@ -1,4 +1,74 @@
 {
+  "2026-07-23": {
+  "intro": "Thursday. The week's throughline: a new wave of AI tools now runs the long, multi-step work for you — freeing you to lead, decide, and take on more than ever.",
+  "trends": [
+    {
+      "title": "Hand off the busywork to your new AI teammate",
+      "body": "July brought a fresh class of workplace agents built to run entire multi-step tasks for you. Tools like Claude Cowork and ChatGPT Work can now carry long-running email, calendar, and file jobs from start to finish, and firms deploying them at scale report software work productivity climbing by up to <em>70% (EY agentic AI rollout)</em>. Think of it as gaining a tireless teammate who handles the doing while you set the direction.",
+      "source_url": "https://www.aiapps.com/blog/top-ai-news-july-breakthroughs-launches-trends/",
+      "slants": {
+        "strategy": "The leaders who win this quarter are the ones who point these agents at real workflows first — early fluency is a compounding advantage over slower-moving competitors.",
+        "operations": "Offload the repetitive, multi-step chores to an agent and reinvest that time in improving how the whole process runs.",
+        "pm": "An agent that carries tasks end-to-end means you can shepherd more parallel workstreams without adding hours or headcount.",
+        "admin": "Delegating long coordination jobs to an AI agent frees you for the high-touch, high-visibility work that showcases your value."
+      },
+      "challenge": {
+        "steps": [
+          "Open your company-approved AI tool and pick one multi-step task you'd love to hand off — planning an event, prepping a recurring report, organizing a shared folder.",
+          "Paste this prompt: <em>\"You're my delegated assistant. Here's a multi-step task: [describe it]. Break it into a full plan, then complete step one and show me the result before continuing.\"</em>",
+          "Review that first step and confirm the agent is heading in the right direction.",
+          "Paste this follow-up: <em>\"Looks good — continue through the remaining steps, and flag anything you need my decision on.\"</em>",
+          "Share in the group one task you fully handed off this week and how it went."
+        ]
+      }
+    },
+    {
+      "title": "Agents are going mainstream — get in early",
+      "body": "AI agents are moving from experiment to everyday tool across the workplace. Gartner projects that <em>40% of enterprise applications will have task-specific AI agents built in by the end of 2026, up from under 5% a year ago</em>, one of the fastest technology shifts businesses have ever seen. That means the skills you build now will soon be table stakes — and you're getting a head start.",
+      "source_url": "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+      "slants": {
+        "strategy": "As agents get embedded in the tools your team already uses, the advantage goes to leaders who've mapped where they add the most value first.",
+        "operations": "Agents baked into your existing apps mean less tool-switching and smoother handoffs — the workflows you own get easier to run.",
+        "pm": "With agents native to more platforms, you can automate status-chasing and coordination, expanding your reach across projects.",
+        "admin": "As agent features arrive inside your everyday apps, being the person who knows how to use them well makes you the go-to expert on the team."
+      },
+      "challenge": {
+        "steps": [
+          "Open your company-approved AI tool and list the three apps you use most in a typical week.",
+          "Paste this prompt: <em>\"Here are the three apps I use most: [list them]. For each, suggest one realistic way an AI agent could take a repetitive task off my plate.\"</em>",
+          "Pick the single suggestion that would save you the most time and try it out.",
+          "Paste this follow-up: <em>\"Write me a simple step-by-step guide to set up and use that one, in plain language.\"</em>",
+          "Share in the group which app-based agent idea you're most excited to adopt."
+        ]
+      }
+    },
+    {
+      "title": "Powerful AI is now built for every team's budget",
+      "body": "Access to top-tier AI just got simpler and more predictable. As of July 1, Microsoft made its Copilot-included Microsoft 365 Business Standard and Business Premium plans <em>permanent SKUs (Microsoft)</em>, giving small and mid-sized teams steady, budget-friendly access to the same agentic tools big enterprises use. The playing field is leveling — and it's tilting toward teams ready to move.",
+      "source_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+      "slants": {
+        "strategy": "Predictable pricing on enterprise-grade AI means you can plan adoption with confidence and commit to it as a long-term capability, not a pilot.",
+        "operations": "Stable, built-in AI licensing removes the guesswork from rollout, so you can standardize how your team works with it.",
+        "pm": "With AI access locked in across the team, you can build it into your project workflows knowing everyone has the same tools.",
+        "admin": "Copilot bundled into your everyday suite means the AI assistant is right where you already work — no new logins, more time saved."
+      },
+      "challenge": {
+        "steps": [
+          "Open your company-approved AI tool and pick one everyday document or message you create regularly.",
+          "Paste this prompt: <em>\"Here's something I make often: [describe or paste it]. Create a reusable template I can fill in each time, and explain how to adapt it quickly.\"</em>",
+          "Save that template somewhere you'll actually find it next time.",
+          "Paste this follow-up: <em>\"Now draft a fresh version from this template using these details: [your specifics].\"</em>",
+          "Share in the group one template you created that you'll reuse every week."
+        ]
+      }
+    }
+  ],
+  "homework": {
+    "title": "Get a personalized packing list for your next trip",
+    "body": "This practices role prompting plus structured output — you assign the AI a persona and tell it exactly how to shape the answer. Giving it a clear role and format turns a generic reply into a tailored, ready-to-use list.",
+    "prompt": "Try this: <em>\"Act as a seasoned travel concierge. Build me a packing checklist for [paste your trip details — destination, dates, activities here], grouped into categories like Clothing, Toiletries, and Documents. Ask me one clarifying question first if you need to.\"</em><br><br>Notice how <em>giving the AI a role plus a required format</em> gets you a sharper, more usable answer than a plain request would."
+  }
+},
   "2026-07-22": {
     "intro": "Wednesday. This week keeps circling one uplifting idea: as AI takes on more of the doing, your judgment and direction become the most valuable part — and it's never been more affordable to put to work.",
     "trends": [
