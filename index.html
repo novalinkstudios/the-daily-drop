@@ -845,6 +845,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-07-24": {
+      intro: "Today's drop is about the gap between having AI and actually using it well \u2014 where AI budgets are quietly picking favorites, why access to a tool isn't the same as adoption, and why your editing eye just became one of the most valuable skills in the building.",
+      trends: [
+        {
+          title: "AI budgets are starting to play favorites",
+          body: "Gartner's newest forecast puts worldwide spending on AI models and platforms at <em>$64 billion in 2026, up 63.4% from $39 billion in 2025</em>, but the money isn't spreading evenly. Domain-specific and specialized models are forecast to grow 210% this year, far outpacing general platform spending, as Gartner's Arunasree Cheparthi put it, <em>\"spending is shifting toward providers who can demonstrate clear value across cost, latency, performance and reliability.\"</em>",
+          slants: {
+            strategy: "When you're evaluating AI tools for next year's roadmap, ask whether a narrow, purpose-built option beats the flagship general model for your specific use case.",
+            operations: "Expect procurement conversations to shift from \"let's roll out a chatbot\" to \"which specific tool solves which specific process,\" so start naming your top three process pain points now.",
+            pm: "Budget justifications for AI tools will increasingly need a tied-to-outcome argument, not a general \"AI enablement\" line item.",
+            admin: "The AI tool you're handed next might be narrower and more specialized than the chatbot you're used to, and that's often a good thing since narrow tools are usually simpler to use."
+          },
+          challenge: {
+            steps: [
+              "Open your company-approved AI tool and jot down the three tasks you use it for most often.",
+              "Ask it: <em>\"Based on these three tasks, tell me whether a general-purpose assistant like you is the best fit, or whether a specialized tool built for [name your function, e.g., scheduling, finance, or writing] might do better. Explain your reasoning like I'm new to AI tooling.\"</em>",
+              "Read the answer against your own gut sense \u2014 does it match how the tool actually performs for you?",
+              "Note one task where a narrower, purpose-built tool might genuinely help.",
+              "Share your finding in the group."
+            ]
+          }
+        },
+        {
+          title: "Everyone got the AI tool. Most people still aren't using it.",
+          body: "Deloitte's 2026 State of AI in the Enterprise report found that <em>workforce access to AI has expanded by 50% in just one year \u2014 growing from fewer than 40% to around 60% of workers now equipped with sanctioned AI tools</em>. But even among people with access, <em>fewer than 60% use it in their daily workflow, a pattern that remains largely unchanged from last year</em> \u2014 access clearly isn't the same as adoption.",
+          slants: {
+            strategy: "The metric worth tracking isn't rollout percentage, it's habit formation \u2014 track whether people trust the tool enough to use it on real work, not just whether they have a login.",
+            operations: "If your team has access but isn't using it, the blocker is probably unclear use cases rather than the tool itself, so map three specific tasks it should own.",
+            pm: "Build \"use the AI tool for X\" into existing rituals like status updates or standups rather than assuming a rollout alone changes behavior.",
+            admin: "If you were handed a company AI tool months ago and haven't opened it much, you're the majority, not the exception \u2014 this is a fine week to try it on one small task."
+          },
+          challenge: {
+            steps: [
+              "Pick one repetitive task you do every week that you've never tried using AI for.",
+              "Open your company-approved AI tool and give it: <em>\"Here is a task I do every week: [describe task]. Walk me through, step by step, how you could help with this, and flag any steps where I should double-check your work.\"</em>",
+              "Try it once, live, following the steps it gives you.",
+              "Note honestly how much time it actually saved, or didn't.",
+              "Share your result in the group."
+            ]
+          }
+        },
+        {
+          title: "Your editing eye just got a promotion",
+          body: "A June Harvard Business Review piece by Oxford's Matthias Holweg and Babson's Thomas Davenport warns that <em>generative AI's gifts come with a hidden danger: decay in the accuracy and quality of organizational knowledge</em>. When AI-generated work looks polished but is thin or wrong, <em>colleagues downstream waste time verifying, correcting, or redoing it</em>, and that pattern compounds until teams stop trusting internal documents altogether.",
+          slants: {
+            strategy: "The fix isn't less AI, it's clearer standards for what AI-assisted output must clear before it reaches a decision-maker.",
+            operations: "Build a quick human skim-and-edit step into any process where AI drafts something another team will rely on.",
+            pm: "Give the review step for AI-generated deliverables its own line in the project plan instead of assuming AI equals instantly done.",
+            admin: "Your read on whether something actually makes sense and sounds right is now one of the most valuable checks in the whole process, not a lesser task."
+          },
+          challenge: {
+            steps: [
+              "Pull up a recent piece of AI-assisted work you or a teammate produced.",
+              "Ask any AI assistant: <em>\"Review this text as a skeptical editor. Point out anything vague, generic, or unsupported, and tell me what a careful human reviewer would flag before this goes to a decision-maker.\"</em>",
+              "Compare its critique against your own read of the piece.",
+              "Fix the one issue that matters most.",
+              "Share what you caught in the group."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI interview you before it plans your next weekend",
+        body: "Pick a free tool \u2014 ChatGPT, Claude, Gemini, or Perplexity \u2014 and use it to plan something low-stakes and fun, like a day trip or a weekend getaway. The trick this time: make the AI ask you questions before it gives you a single suggestion.",
+        prompt: "\"I want to plan a weekend trip for [number of people/budget]. Before you suggest anything, ask me 5 questions to understand what I actually want. Then give me 3 ranked options based on my answers.\""
+      }
+    },
   "2026-07-19": {
       intro: "Today's throughline: as agentic AI moves from pitch deck to production, the winners are the ones who can tell real capability from relabeled automation, spot where agents are quietly touching routine buying decisions, and close the training gap before confidence collapses.",
       trends: [
