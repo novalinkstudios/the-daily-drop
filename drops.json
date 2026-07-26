@@ -1,4 +1,214 @@
 {
+  "2026-07-25": {
+    "intro": "Saturday. This week the whole ecosystem tilted toward helping you succeed — billions in hands-on support, a fast-growing market for agent skills, and everyday tools handling the busywork. You're perfectly placed to ride it.",
+    "trends": [
+      {
+        "title": "The reinforcements are arriving to help you win",
+        "body": "Microsoft and Amazon are pouring resources into hands-on teams whose whole job is helping companies turn AI tools into real results. Microsoft just committed <em>$2.5 billion and roughly 6,000 specialists to its new Frontier Company for enterprise AI deployment (Microsoft, via TechXplore)</em>, with AWS adding a $1 billion program of its own. The signal is clear: these tools shine when someone knows how to point them at the right problems — and that someone is you.",
+        "source_url": "https://techxplore.com/news/2026-07-microsoft-aws-deploy-armies-ai.html",
+        "slants": {
+          "strategy": "The vendors are betting billions that value comes from deployment, not just licenses — so the leaders who build internal know-how to apply AI capture the upside first.",
+          "operations": "Expert deployment teams exist because someone has to connect AI to real workflows; the ops leaders who map those workflows become the indispensable link.",
+          "pm": "These programs succeed when someone translates messy processes into clear, automatable steps — exactly the coordination work you already do, now worth more.",
+          "admin": "As companies invest in making AI genuinely useful, the people who know how the daily work really flows become the go-to guides everyone leans on."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one process on your team that people complain is slow or clunky.",
+            "Paste this prompt: <em>\"Act as a deployment consultant. Here's a slow process my team runs: [describe it]. Map it into clear steps and show me exactly where AI could take over.\"</em>",
+            "Pick the single step the AI flagged as the best candidate and try running it with your tool today.",
+            "Paste this follow-up: <em>\"Now write me a short, plain-language plan to roll this out to two teammates, including what to measure in the first week.\"</em>",
+            "Share in the group the one process you'd most want a deployment expert to help you automate."
+          ]
+        }
+      },
+      {
+        "title": "A whole new market is opening under your skills",
+        "body": "Directing AI agents is fast becoming one of the most valuable capabilities in business. Gartner projects that agentic AI could power <em>roughly 30% of enterprise application software revenue by 2035 — more than $450 billion, up from about 2% in 2025 (Gartner)</em>. Every dollar of that growth needs people who can design, guide, and trust these agents — a career lane that barely existed a year ago.",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
+        "slants": {
+          "strategy": "A market growing from 2% to 30% is a rare, visible wave — position your team's skills toward it now and you set the agenda instead of reacting to it.",
+          "operations": "As agents move into the software you run, the operators who know how to configure and supervise them become the ones the whole organization depends on.",
+          "pm": "Coordinating people and agents together is emerging as a core project skill; getting fluent now widens the scope of what you can lead.",
+          "admin": "The rise of agents creates a brand-new role — the person who sets them up and keeps them on track — and it's a natural, high-visibility step up."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and think of one recurring task you'd happily hand to a reliable assistant.",
+            "Paste this prompt: <em>\"Help me design a simple 'agent brief' for this task: [describe the task]. Include its goal, the exact steps, what data it needs, and when it should ask me before acting.\"</em>",
+            "Review the brief and tighten the 'ask me first' rules until you'd trust it running on its own.",
+            "Paste this follow-up: <em>\"Now run the task once using this brief with this example: [paste a real example], and show your work at each step.\"</em>",
+            "Share in the group the task you think will be first to run agent-style on your team."
+          ]
+        }
+      },
+      {
+        "title": "Let AI handle the meeting so you can lead it",
+        "body": "The tools you already open are quietly taking the busywork off your plate. Google says <em>over 110 million people used Meet's 'Take Notes for Me' in the past month — 8.5 times more than a year ago (Google Workspace)</em>, and it now captures summaries and action items even for in-person meetings or calls on Zoom and Teams. That frees you to actually engage in the room while the recap writes itself.",
+        "source_url": "https://workspace.google.com/blog/product-announcements/10-more-announcements-workspace-at-next-2026",
+        "slants": {
+          "strategy": "When note-taking is automatic, your meeting time converts fully into thinking and decision time — the highest-leverage use of a leader's attention.",
+          "operations": "Automatic summaries and action items mean nothing slips between meetings, so the handoffs you own run cleaner with less chasing.",
+          "pm": "Let the AI capture decisions and owners while you steer the conversation, and you can run more meetings without dropping a single follow-up.",
+          "admin": "With recaps handled automatically, you shift from scribe to orchestrator — the person who turns every meeting into clear, tracked next steps."
+        },
+        "challenge": {
+          "steps": [
+            "Before your next meeting, turn on your company-approved AI note-taker, or open your AI tool ready to paste notes afterward.",
+            "Paste this prompt: <em>\"Turn these raw meeting notes into a clean summary with decisions, action items, and owners: [paste your notes].\"</em>",
+            "Send the summary to attendees within an hour and watch how much faster follow-ups happen.",
+            "Paste this follow-up: <em>\"Draft short, friendly reminder messages for each owner about their action item, due this week.\"</em>",
+            "Share in the group how much meeting time you reclaimed by letting AI handle the recap."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a stress-free weekend trip",
+      "body": "This one practices structured output — asking AI to return information in a specific, ready-to-use format instead of a wall of text. When you tell it exactly how you want the answer organized, you get something you can act on right away.",
+      "prompt": "Act as a practical travel planner. Build me a weekend itinerary as a simple table with columns for Day, Time, Activity, and Estimated Cost. Keep it relaxed with room to breathe between activities. Here are the details: [paste your destination, dates, and budget here]."
+    }
+  },
+  "2026-07-24": {
+    "intro": "Friday. This week's throughline: the agents are here, they're trustworthy, and they're opening a brand-new seat at the table for people who know how to steer them. You're early — and that's the advantage.",
+    "trends": [
+      {
+        "title": "Now you can trust an agent with the real work",
+        "body": "OpenAI just unveiled Presence, a platform for building AI agents that stay inside the guardrails, policies, and escalation rules your team defines. On OpenAI's own support line, Presence already <em>resolves roughly 75% of inbound customer issues without a human stepping in (OpenAI, via Techgenyz)</em> — proof that a well-scoped agent can carry the routine load while people handle the moments that need a human touch.",
+        "source_url": "https://techgenyz.com/openai-presence-enterprise-ai-agents-platform-launch/",
+        "slants": {
+          "strategy": "Governed agents mean you can finally point automation at customer-facing work with confidence — the leaders who define the guardrails first set the pace for everyone else.",
+          "operations": "Hand the repeatable, policy-bound tasks to a governed agent and keep your attention on the exceptions, where your experience does the most good.",
+          "pm": "An agent that escalates cleanly lets you route more work through one predictable system, so you can oversee more without chasing every step.",
+          "admin": "When a trusted agent handles routine requests, you become the person who designs and supervises it — a visibly higher-value role."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one routine, rule-based request you handle often — a status update, a standard reply, a simple intake.",
+            "Paste this prompt: <em>\"Act as my process designer. Here's a routine request I handle: [describe it]. Draft a clear step-by-step policy for handling it, including exactly when a human should take over.\"</em>",
+            "Review the draft policy and adjust the escalation point to match your real judgment.",
+            "Paste this follow-up: <em>\"Now use that policy to handle this specific example end to end: [paste a real example], and flag anything that falls outside the rules.\"</em>",
+            "Share in the group one routine you could confidently hand to a well-defined agent."
+          ]
+        }
+      },
+      {
+        "title": "The tools you already use now come with agents",
+        "body": "AI agents aren't a separate app you have to go find anymore — they're being built right into the software you open every day. <em>80% of enterprise applications shipped or updated in early 2026 now embed at least one AI agent, up from 33% in 2024 (Gartner, via Digital Applied)</em>. That means the fastest-growing skill isn't installing new tools; it's spotting the agent already sitting inside the ones you have.",
+        "source_url": "https://www.digitalapplied.com/blog/ai-agent-adoption-2026-enterprise-data-points",
+        "slants": {
+          "strategy": "The advantage now goes to leaders who map where embedded agents add the most value — the capability is already in your stack, waiting to be pointed at the right work.",
+          "operations": "Agents built into your existing apps mean less switching between tools and smoother handoffs, so the workflows you own get quicker to run.",
+          "pm": "With agents native to the platforms you already coordinate in, you can automate status-chasing and updates, widening your reach across projects.",
+          "admin": "Being the person who knows how to use the agent already inside your everyday suite makes you the team's go-to expert."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and list the three apps you spend the most time in each week.",
+            "Paste this prompt: <em>\"Here are the three apps I use most: [list them]. For each, tell me whether it likely has an AI agent or assistant built in, and one practical task I could hand to it.\"</em>",
+            "Pick the suggestion that would save you the most time and try it in that app today.",
+            "Paste this follow-up: <em>\"Write me a plain-language, step-by-step guide to set up and use that built-in agent well.\"</em>",
+            "Share in the group which built-in agent surprised you most."
+          ]
+        }
+      },
+      {
+        "title": "Reclaim hours every week for the work that matters",
+        "body": "The time agents hand back is now showing up clearly in the data. Across roles, professionals using production AI agents are reclaiming <em>roughly 5 to 9 hours per week depending on the job (Digital Applied 2026 productivity data)</em> — from reporting and reconciliation to research and campaign prep. That's close to a full workday freed up for the higher-impact work only you can do.",
+        "source_url": "https://www.digitalapplied.com/blog/ai-agent-productivity-statistics-2026-roi-data-points",
+        "slants": {
+          "strategy": "Those reclaimed hours are a strategic asset — point them at the initiatives that move the business, not the busywork that used to fill the week.",
+          "operations": "The tasks agents absorb are usually your most repetitive ones, freeing hours you can reinvest in improving the process itself.",
+          "pm": "Hours back across the team means you can take on the stretch goals that were out of reach, expanding what your projects deliver.",
+          "admin": "When agents handle routine coordination, you get hours back for the high-visibility work that gets you noticed."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one weekly routine that eats your time — inbox triage, report formatting, meeting prep.",
+            "Paste this prompt: <em>\"Here's a routine that takes me too long each week: [describe it]. Design a faster way to do it with your help, and complete the first pass for me now.\"</em>",
+            "Time the AI-assisted version against your usual approach and note the difference.",
+            "Paste this follow-up: <em>\"Turn this into a repeatable routine I can trigger with one message each week — write the exact prompt I should reuse.\"</em>",
+            "Share in the group how many minutes you saved and what you'll do with the time."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a stress-free weekend dinner with friends",
+      "body": "This practices role prompting plus structured output — you give the AI a persona and tell it exactly how to shape the answer. A clear role plus a required format turns a vague reply into a ready-to-use plan.",
+      "prompt": "Try this: <em>\"Act as a calm, experienced dinner-party host. Build me a plan for a relaxed dinner for [number] guests, organized into three sections: a shopping list, a prep timeline for the day, and a simple menu. Ask me one clarifying question first if you need to. Here are the details: [paste your guest count, dietary needs, and the vibe you want here].\"</em><br><br>Notice how <em>a clear role plus a required format</em> gets you a sharper, more usable answer than a plain request would."
+    }
+  },
+  "2026-07-21": {
+    "intro": "Tuesday. This week's stories share a bright thread: the most capable AI ever built is landing right in your hands, ready to take on real work — and the people who learn to direct it are pulling ahead.",
+    "trends": [
+      {
+        "title": "AI agents now do the work — you direct it",
+        "body": "The two biggest AI labs just landed on the same idea: deliver finished work, not chat. OpenAI's ChatGPT Work and Anthropic's Claude Cowork both arrived this month as agents that complete multi-step business tasks end to end. Gartner projects <em>40% of enterprise apps will feature task-specific AI agents by the end of 2026, up from less than 5% in 2025 (Gartner)</em>. The ability to delegate clearly — and check the result — is about to become one of the most valuable skills in the building.",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
+        "slants": {
+          "strategy": "Delegating to an agent is a real edge: the teams that master hand-off and review will ship in hours what used to take weeks.",
+          "operations": "Your most repetitive multi-step workflows are exactly what these agents are built for — freeing you for the judgment calls only you can make.",
+          "pm": "An agent that runs a task end to end lets you take on scope you'd normally need extra hands for. Your influence widens, not your workload.",
+          "admin": "When you can hand routine coordination to an agent and spot-check it, you become the person who makes the whole office run smoother — and it shows."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one multi-step task you own — booking travel, prepping a recurring report, organizing a shared folder.",
+            "Paste this prompt: <em>\"I want to hand you this whole task, not just one step: [describe the task]. Ask me any questions you need, then give me a complete plan and the finished first version.\"</em>",
+            "Review what it produced and note where it nailed it and where it needs your judgment.",
+            "Paste this follow-up: <em>\"Here's what I'd change: [your notes]. Deliver the final version with those fixes applied.\"</em>",
+            "Share in the group one task you'd happily hand to an agent from now on."
+          ]
+        }
+      },
+      {
+        "title": "The most capable AI yet is now everyone's",
+        "body": "OpenAI made its GPT-5.6 family — Sol, Terra, and Luna — publicly available on <em>July 9, 2026, after an initial preview to only about 20 organizations (CNBC)</em>. Sol is billed as OpenAI's best model yet for reasoning, coding, and complex problem-solving. The frontier tools that were locked to a handful of partners a few weeks ago are now yours to use — the playing field just leveled up in your favor.",
+        "source_url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+        "slants": {
+          "strategy": "When the most powerful models are available to everyone, advantage shifts to whoever applies them best — a race you win on creativity, not budget.",
+          "operations": "A sharper model means the AI you already use for drafts and analysis just got more reliable. Lean on it for the harder tasks you used to hold back.",
+          "pm": "Stronger reasoning means you can point AI at messier, higher-stakes planning problems and trust the first pass more — simplifying work you used to untangle by hand.",
+          "admin": "The gap between 'power user' and everyone else is narrowing. Get familiar with the newest model now and you'll be the go-to person others come to."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and think of a task you assumed was too complex to trust to AI.",
+            "Paste this prompt: <em>\"I used to think this was too complex for AI: [describe the task]. Walk me through how you'd tackle it step by step, then attempt it.\"</em>",
+            "Read the attempt and judge how close it got compared to your expectations.",
+            "Paste this follow-up: <em>\"Now push further — what's the most advanced version of this you could produce if I gave you more detail? Ask me for what you need.\"</em>",
+            "Share in the group one task the newest models handle better than you expected."
+          ]
+        }
+      },
+      {
+        "title": "Two-thirds see AI gains — the reinventors win big",
+        "body": "Deloitte's 2026 State of AI in the Enterprise found that <em>66% of organizations report productivity gains from AI, while only 34% have actually reimagined how they work around it (Deloitte)</em>. That gap is the opportunity: the value isn't going to whoever adopts AI, but to whoever rethinks the work itself. You don't need a bigger budget to join that group — you need a better question about what your team could do differently.",
+        "source_url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+        "slants": {
+          "strategy": "The advantage sits in the gap between 'using AI' and 'redesigning around it.' Ask what your team would build if AI were assumed, not added on.",
+          "operations": "Productivity gains are table stakes now. The bigger win is spotting one process you could run completely differently — that's where the outsized value lives.",
+          "pm": "Instead of bolting AI onto your current plan, sketch what the project would look like if you designed it AI-first. That reframing is where influence compounds.",
+          "admin": "You're often closest to how the work actually flows, which makes you uniquely placed to spot the process worth reinventing — a high-visibility contribution."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one routine process your team runs the same way every week.",
+            "Paste this prompt: <em>\"Here's a process my team repeats weekly: [describe it]. Don't just make it faster — redesign it as if AI were part of the team from the start. What would change?\"</em>",
+            "Read the redesign and mark the one idea that feels genuinely different, not just quicker.",
+            "Paste this follow-up: <em>\"Take that one idea and turn it into a simple 3-step pilot I could try this month.\"</em>",
+            "Share your pilot idea in the group — reinvention beats optimization."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan a themed dinner night at home",
+      "body": "This practices role prompting — giving AI a specific persona to sharpen its output. When you tell it who to be, the answers get more vivid and useful than a generic request. Try it on something fun and low-stakes.",
+      "prompt": "Try this: <em>\"Act as a seasoned chef planning a themed dinner night for me at home. Ask me about the cuisine I'm curious about, my cooking skill level, and any dietary needs — one question at a time — then design a simple menu with a shopping list and a loose timeline. The theme I'm thinking about is [paste your theme or cuisine here].\"</em><br><br>Notice how <em>telling AI who to be</em> — a chef, a coach, a tour guide — sharpens every answer it gives."
+    }
+  },
   "2026-07-23": {
     "intro": "Thursday. The week's throughline: a new wave of AI tools now runs the long, multi-step work for you — freeing you to lead, decide, and take on more than ever.",
     "trends": [
@@ -137,76 +347,6 @@
       "title": "Plan a weekend project with a step-by-step assistant",
       "body": "This practices structured output — asking AI to return its answer in a specific, organized format so it's instantly usable. When you tell it exactly how to shape the response, you get a plan you can act on instead of a wall of text.",
       "prompt": "Try this: <em>\"Act as a friendly project planner. Help me plan [paste your weekend project here] by returning a table with three columns: Step, What I Need, and Time Estimate. Ask me any questions you need first, one at a time.\"</em><br><br>Notice how <em>asking for a specific format</em> — a table, a checklist, a timeline — turns a vague answer into something you can use right away."
-    }
-  },
-  "2026-07-21": {
-    "intro": "Tuesday. This week's stories share a bright thread: the most capable AI ever built is landing right in your hands, ready to take on real work — and the people who learn to direct it are pulling ahead.",
-    "trends": [
-      {
-        "title": "AI agents now do the work — you direct it",
-        "body": "The two biggest AI labs just landed on the same idea: deliver finished work, not chat. OpenAI's ChatGPT Work and Anthropic's Claude Cowork both arrived this month as agents that complete multi-step business tasks end to end. Gartner projects <em>40% of enterprise apps will feature task-specific AI agents by the end of 2026, up from less than 5% in 2025 (Gartner)</em>. The ability to delegate clearly — and check the result — is about to become one of the most valuable skills in the building.",
-        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
-        "slants": {
-          "strategy": "Delegating to an agent is a real edge: the teams that master hand-off and review will ship in hours what used to take weeks.",
-          "operations": "Your most repetitive multi-step workflows are exactly what these agents are built for — freeing you for the judgment calls only you can make.",
-          "pm": "An agent that runs a task end to end lets you take on scope you'd normally need extra hands for. Your influence widens, not your workload.",
-          "admin": "When you can hand routine coordination to an agent and spot-check it, you become the person who makes the whole office run smoother — and it shows."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool and pick one multi-step task you own — booking travel, prepping a recurring report, organizing a shared folder.",
-            "Paste this prompt: <em>\"I want to hand you this whole task, not just one step: [describe the task]. Ask me any questions you need, then give me a complete plan and the finished first version.\"</em>",
-            "Review what it produced and note where it nailed it and where it needs your judgment.",
-            "Paste this follow-up: <em>\"Here's what I'd change: [your notes]. Deliver the final version with those fixes applied.\"</em>",
-            "Share in the group one task you'd happily hand to an agent from now on."
-          ]
-        }
-      },
-      {
-        "title": "The most capable AI yet is now everyone's",
-        "body": "OpenAI made its GPT-5.6 family — Sol, Terra, and Luna — publicly available on <em>July 9, 2026, after an initial preview to only about 20 organizations (CNBC)</em>. Sol is billed as OpenAI's best model yet for reasoning, coding, and complex problem-solving. The frontier tools that were locked to a handful of partners a few weeks ago are now yours to use — the playing field just leveled up in your favor.",
-        "source_url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-        "slants": {
-          "strategy": "When the most powerful models are available to everyone, advantage shifts to whoever applies them best — a race you win on creativity, not budget.",
-          "operations": "A sharper model means the AI you already use for drafts and analysis just got more reliable. Lean on it for the harder tasks you used to hold back.",
-          "pm": "Stronger reasoning means you can point AI at messier, higher-stakes planning problems and trust the first pass more — simplifying work you used to untangle by hand.",
-          "admin": "The gap between 'power user' and everyone else is narrowing. Get familiar with the newest model now and you'll be the go-to person others come to."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool and think of a task you assumed was too complex to trust to AI.",
-            "Paste this prompt: <em>\"I used to think this was too complex for AI: [describe the task]. Walk me through how you'd tackle it step by step, then attempt it.\"</em>",
-            "Read the attempt and judge how close it got compared to your expectations.",
-            "Paste this follow-up: <em>\"Now push further — what's the most advanced version of this you could produce if I gave you more detail? Ask me for what you need.\"</em>",
-            "Share in the group one task the newest models handle better than you expected."
-          ]
-        }
-      },
-      {
-        "title": "Two-thirds see AI gains — the reinventors win big",
-        "body": "Deloitte's 2026 State of AI in the Enterprise found that <em>66% of organizations report productivity gains from AI, while only 34% have actually reimagined how they work around it (Deloitte)</em>. That gap is the opportunity: the value isn't going to whoever adopts AI, but to whoever rethinks the work itself. You don't need a bigger budget to join that group — you need a better question about what your team could do differently.",
-        "source_url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
-        "slants": {
-          "strategy": "The advantage sits in the gap between 'using AI' and 'redesigning around it.' Ask what your team would build if AI were assumed, not added on.",
-          "operations": "Productivity gains are table stakes now. The bigger win is spotting one process you could run completely differently — that's where the outsized value lives.",
-          "pm": "Instead of bolting AI onto your current plan, sketch what the project would look like if you designed it AI-first. That reframing is where influence compounds.",
-          "admin": "You're often closest to how the work actually flows, which makes you uniquely placed to spot the process worth reinventing — a high-visibility contribution."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool and pick one routine process your team runs the same way every week.",
-            "Paste this prompt: <em>\"Here's a process my team repeats weekly: [describe it]. Don't just make it faster — redesign it as if AI were part of the team from the start. What would change?\"</em>",
-            "Read the redesign and mark the one idea that feels genuinely different, not just quicker.",
-            "Paste this follow-up: <em>\"Take that one idea and turn it into a simple 3-step pilot I could try this month.\"</em>",
-            "Share your pilot idea in the group — reinvention beats optimization."
-          ]
-        }
-      }
-    ],
-    "homework": {
-      "title": "Let AI plan a themed dinner night at home",
-      "body": "This practices role prompting — giving AI a specific persona to sharpen its output. When you tell it who to be, the answers get more vivid and useful than a generic request. Try it on something fun and low-stakes.",
-      "prompt": "Try this: <em>\"Act as a seasoned chef planning a themed dinner night for me at home. Ask me about the cuisine I'm curious about, my cooking skill level, and any dietary needs — one question at a time — then design a simple menu with a shopping list and a loose timeline. The theme I'm thinking about is [paste your theme or cuisine here].\"</em><br><br>Notice how <em>telling AI who to be</em> — a chef, a coach, a tour guide — sharpens every answer it gives."
     }
   },
   "2026-06-17": {
@@ -2353,143 +2493,6 @@
       "title": "Let AI plan your next low-key weekend — but make it ask you first",
       "body": "This one's just for you: pick a free tool (ChatGPT, Claude, Gemini, or Perplexity) and use it to plan a small weekend trip or day trip, but with a twist — you're going to make it interview you before it gives any answers.",
       "prompt": "\"I want to plan a low-key weekend trip within driving distance. Before you suggest anything, ask me at least five questions about my budget, interests, and who's coming — then give me three ranked options with a one-line reason for each.\""
-    }
-  },
-  "2026-07-24": {
-    "intro": "Today's drop is about the gap between having AI and actually using it well — where AI budgets are quietly picking favorites, why access to a tool isn't the same as adoption, and why your editing eye just became one of the most valuable skills in the building.",
-    "trends": [
-      {
-        "title": "AI budgets are starting to play favorites",
-        "body": "Gartner's newest forecast puts worldwide spending on AI models and platforms at <em>$64 billion in 2026, up 63.4% from $39 billion in 2025</em>, but the money isn't spreading evenly. Domain-specific and specialized models are forecast to grow 210% this year, far outpacing general platform spending, as Gartner's Arunasree Cheparthi put it, <em>\"spending is shifting toward providers who can demonstrate clear value across cost, latency, performance and reliability.\"</em>",
-        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-20-gartner-forecasts-worldwide-ai-platforms-and-models-market-to-grow-63-percent-in-2026",
-        "slants": {
-          "strategy": "When you're evaluating AI tools for next year's roadmap, ask whether a narrow, purpose-built option beats the flagship general model for your specific use case.",
-          "operations": "Expect procurement conversations to shift from \"let's roll out a chatbot\" to \"which specific tool solves which specific process,\" so start naming your top three process pain points now.",
-          "pm": "Budget justifications for AI tools will increasingly need a tied-to-outcome argument, not a general \"AI enablement\" line item.",
-          "admin": "The AI tool you're handed next might be narrower and more specialized than the chatbot you're used to, and that's often a good thing since narrow tools are usually simpler to use."
-        },
-        "challenge": {
-          "steps": [
-            "Open your company-approved AI tool and jot down the three tasks you use it for most often.",
-            "Ask it: <em>\"Based on these three tasks, tell me whether a general-purpose assistant like you is the best fit, or whether a specialized tool built for [name your function, e.g., scheduling, finance, or writing] might do better. Explain your reasoning like I'm new to AI tooling.\"</em>",
-            "Read the answer against your own gut sense — does it match how the tool actually performs for you?",
-            "Note one task where a narrower, purpose-built tool might genuinely help.",
-            "Share your finding in the group."
-          ]
-        }
-      },
-      {
-        "title": "Everyone got the AI tool. Most people still aren't using it.",
-        "body": "Deloitte's 2026 State of AI in the Enterprise report found that <em>workforce access to AI has expanded by 50% in just one year — growing from fewer than 40% to around 60% of workers now equipped with sanctioned AI tools</em>. But even among people with access, <em>fewer than 60% use it in their daily workflow, a pattern that remains largely unchanged from last year</em> — access clearly isn't the same as adoption.",
-        "source_url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
-        "slants": {
-          "strategy": "The metric worth tracking isn't rollout percentage, it's habit formation — track whether people trust the tool enough to use it on real work, not just whether they have a login.",
-          "operations": "If your team has access but isn't using it, the blocker is probably unclear use cases rather than the tool itself, so map three specific tasks it should own.",
-          "pm": "Build \"use the AI tool for X\" into existing rituals like status updates or standups rather than assuming a rollout alone changes behavior.",
-          "admin": "If you were handed a company AI tool months ago and haven't opened it much, you're the majority, not the exception — this is a fine week to try it on one small task."
-        },
-        "challenge": {
-          "steps": [
-            "Pick one repetitive task you do every week that you've never tried using AI for.",
-            "Open your company-approved AI tool and give it: <em>\"Here is a task I do every week: [describe task]. Walk me through, step by step, how you could help with this, and flag any steps where I should double-check your work.\"</em>",
-            "Try it once, live, following the steps it gives you.",
-            "Note honestly how much time it actually saved, or didn't.",
-            "Share your result in the group."
-          ]
-        }
-      },
-      {
-        "title": "Your editing eye just got a promotion",
-        "body": "A June Harvard Business Review piece by Oxford's Matthias Holweg and Babson's Thomas Davenport warns that <em>generative AI's gifts come with a hidden danger: decay in the accuracy and quality of organizational knowledge</em>. When AI-generated work looks polished but is thin or wrong, <em>colleagues downstream waste time verifying, correcting, or redoing it</em>, and that pattern compounds until teams stop trusting internal documents altogether.",
-        "source_url": "https://hbr.org/2026/06/dont-let-ai-slop-muck-up-your-companys-processes",
-        "slants": {
-          "strategy": "The fix isn't less AI, it's clearer standards for what AI-assisted output must clear before it reaches a decision-maker.",
-          "operations": "Build a quick human skim-and-edit step into any process where AI drafts something another team will rely on.",
-          "pm": "Give the review step for AI-generated deliverables its own line in the project plan instead of assuming AI equals instantly done.",
-          "admin": "Your read on whether something actually makes sense and sounds right is now one of the most valuable checks in the whole process, not a lesser task."
-        },
-        "challenge": {
-          "steps": [
-            "Pull up a recent piece of AI-assisted work you or a teammate produced.",
-            "Ask any AI assistant: <em>\"Review this text as a skeptical editor. Point out anything vague, generic, or unsupported, and tell me what a careful human reviewer would flag before this goes to a decision-maker.\"</em>",
-            "Compare its critique against your own read of the piece.",
-            "Fix the one issue that matters most.",
-            "Share what you caught in the group."
-          ]
-        }
-      }
-    ],
-    "homework": {
-      "title": "Let AI interview you before it plans your next weekend",
-      "body": "Pick a free tool — ChatGPT, Claude, Gemini, or Perplexity — and use it to plan something low-stakes and fun, like a day trip or a weekend getaway. The trick this time: make the AI ask you questions before it gives you a single suggestion.",
-      "prompt": "\"I want to plan a weekend trip for [number of people/budget]. Before you suggest anything, ask me 5 questions to understand what I actually want. Then give me 3 ranked options based on my answers.\""
-    }
-  },
-  "2026-07-25": {
-    "intro": "Today's three threads all point the same direction: the money, the org chart, and the adoption curve are all quietly being redrawn around who actually uses AI well, not just who has access to it.",
-    "trends": [
-      {
-        "title": "Companies are shopping around for cheaper AI, and switching fast",
-        "body": "A growing number of enterprise customers are cutting spending on OpenAI and Anthropic, switching to cheaper AI alternatives and demanding clearer returns on investment. One founder described moving <em>100% of his company's traffic</em> from Claude to a cheaper open-weight model to save millions within months, calling it \"a matter of survival for the business\" (QZ, July 2026).",
-        "source_url": "https://qz.com/enterprise-ai-spending-openai-anthropic-roi-pullback-062626",
-        "slants": {
-          "strategy": "Treat your AI vendor list like any other supplier risk: single-vendor dependency is now a real line item in planning conversations, not a hypothetical.",
-          "operations": "Before you build a process around one AI tool, ask what breaks if your team switches vendors next quarter, because that switch is happening faster than it used to.",
-          "pm": "Bake a vendor-contingency line into project plans that depend on AI tooling, the same way you'd plan around a key supplier delay.",
-          "admin": "If your company-approved AI tool changes this year, expect a short adjustment period, not a crisis; the underlying skills you're building transfer across tools."
-        },
-        "challenge": {
-          "steps": [
-            "Pick one recurring task where you already lean on AI at work.",
-            "Ask your company-approved AI tool: <em>\"List the three biggest cost or reliability risks of depending on a single AI vendor for [describe the task], and one question I should ask my IT or procurement team about it.\"</em>",
-            "Read the response and pick the one risk that surprised you most.",
-            "Share that risk in the group and see if anyone else has heard something different from their team."
-          ]
-        }
-      },
-      {
-        "title": "The entry-level ladder just lost a rung",
-        "body": "A new hiring managers report finds that <em>48% would rather invest in AI tools than hire and train a recent college graduate</em>, and 45% of companies have already restructured so one senior worker plus AI covers work that used to take several entry-level hires (ResumeTemplates.com, July 2026).",
-        "source_url": "https://www.prnewswire.com/news-releases/class-of-2026-college-graduate-hiring-report-302828328.html",
-        "slants": {
-          "strategy": "Workforce planning models built around a steady pipeline of junior hires need a second scenario: senior-plus-AI staffing, sooner than most roadmaps assume.",
-          "operations": "Onboarding and training programs designed for a wave of new grads each year may need to shrink and shift toward teaching a smaller group to direct AI well.",
-          "pm": "With fewer junior team members to delegate to, expect to lean on AI for first-draft work yourself, and build review time into schedules accordingly.",
-          "admin": "Routine, high-volume admin tasks are the first candidates for this shift, so the judgment calls you make around scheduling, prioritization, and communication become your most visible value."
-        },
-        "challenge": {
-          "steps": [
-            "Think of one task on your team that's typically handed to a junior person or new hire.",
-            "Ask your company-approved AI tool: <em>\"Given this type of task [describe it in general terms], list two ways AI could help a senior employee handle it directly, and two risks of removing the entry-level step entirely.\"</em>",
-            "Read the output and flag one idea that feels genuinely useful versus one that feels risky.",
-            "Share your one useful idea and one risk in the group."
-          ]
-        }
-      },
-      {
-        "title": "Having the AI tool doesn't mean people are using it, managers do",
-        "body": "New Gallup data shows organizational AI adoption jumped to <em>47% of U.S. employees, up from 41% the prior quarter</em>, but the same report notes that having AI tools at work doesn't guarantee use. Adoption depends on manager support, workflow fit and whether workers see value in the tools, and workers who rarely use AI appear more vulnerable to job loss (Gallup, July 2026).",
-        "source_url": "https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx",
-        "slants": {
-          "strategy": "Adoption strategy isn't just a rollout plan; it's a manager-enablement plan, since that's the lever that actually moves usage.",
-          "operations": "If a workflow doesn't obviously fit AI, people won't force it in, so redesign the process around the tool rather than bolting the tool onto the old process.",
-          "pm": "Actively endorsing AI use on your project, not just permitting it, is what turns access into real usage on your team.",
-          "admin": "If your manager hasn't said anything about using AI for your daily tasks, that silence is likely the biggest reason you haven't started, so it's worth asking directly."
-        },
-        "challenge": {
-          "steps": [
-            "Pick one task you have access to AI for but haven't tried yet.",
-            "Ask your company-approved AI tool: <em>\"Explain like I'm new: walk me through exactly how you'd approach [describe the task], step by step, so I can decide if this actually helps.\"</em>",
-            "Try one of the suggested steps on real, non-confidential work.",
-            "Share in the group whether the walkthrough changed your mind about using AI for that task."
-          ]
-        }
-      }
-    ],
-    "homework": {
-      "title": "Let AI plan your weekend before you waste a Saturday scrolling",
-      "body": "Pick a free tool, ChatGPT, Claude, Gemini, or Perplexity, and hand over a real decision you'd normally agonize over, like planning a low-key weekend or a trip.",
-      "prompt": "Ask me five questions about my mood, budget, and energy level before you suggest anything. Then give me three ranked weekend plan options with the trade-offs of each."
     }
   }
 }
