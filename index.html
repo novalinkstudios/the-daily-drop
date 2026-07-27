@@ -845,6 +845,70 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-07-27": {
+      intro: "Today's throughline: the money, the tools, and the people around AI are all quietly renegotiating the same question \u2014 is this actually working, or does it just look like it is?",
+      trends: [
+        {
+          title: "AI spending jumped 63% \u2014 now it has to prove itself",
+          body: "Worldwide spending on AI models and platforms is projected to hit $64 billion in 2026, up 63.4% year over year, but Gartner says the easy-money phase is ending. <em>Enterprise AI budgets are coming under greater scrutiny, with increased focus on usage efficiency, cost control and measurable outcomes</em>, and dollars are moving toward vendors who can prove their tools actually deliver (Gartner, July 2026).",
+          slants: {
+            strategy: "When you build the business case for the next AI tool, lead with a measurable before/after number, not a feature list \u2014 that's what budget owners are asking for now.",
+            operations: "Expect renewals and procurement reviews to start asking for usage data and cost-per-task math instead of just a signed contract.",
+            pm: "Build a simple 'did it work' checkpoint into any project that adopts a new AI tool, so you have evidence ready when someone asks if it earned its keep.",
+            admin: "If you're requesting a new AI tool or license, bring one concrete example of time it would save you \u2014 that framing lands better than 'everyone else has it.'"
+          },
+          challenge: {
+            steps: [
+              "Pick one task you already do with your company-approved AI tool at least weekly.",
+              "Do the task once with the tool, timing yourself, then ask it: <em>\"Help me write a two-sentence summary comparing how long this task used to take me manually versus using you, in language I could show my manager.\"</em>",
+              "Read the output and edit anything that overstates the benefit \u2014 accuracy builds more trust than enthusiasm.",
+              "Share your before/after summary in the group chat so others can borrow the framing."
+            ]
+          }
+        },
+        {
+          title: "One AI helper is becoming a small team of them",
+          body: "Forrester and Gartner both point to 2026 as the year multi-agent setups \u2014 where several specialized AI agents split up a task and hand off work to each other \u2014 become the norm instead of a single all-purpose assistant handling everything alone. Anthropic's own research found <em>its multi-agent system with Claude Opus 4 as the lead agent and Claude Sonnet 4 subagents outperformed single-agent Claude Opus 4 by 90.2%</em> on complex research tasks, but the company is also candid that this only pays off for the right kind of work.",
+          slants: {
+            strategy: "Start mapping which of your team's multi-step processes have natural 'handoff points' \u2014 those are exactly where a coordinated agent workflow could replace several separate tool requests.",
+            operations: "Document your process handoffs clearly and in order; that sequence is the blueprint an orchestrated AI workflow will eventually follow.",
+            pm: "Think of upcoming AI tooling less like one assistant and more like a small subcontractor team \u2014 assign clear swim lanes the same way you would to human contributors.",
+            admin: "Watch for scheduling, inbox triage, and follow-ups to start moving through one connected system instead of separate one-off AI requests \u2014 knowing the handoff order will make you the person who understands how it works."
+          },
+          challenge: {
+            steps: [
+              "Pick one process at work that currently requires you to hand information from one step to another (like drafting something, then reviewing it, then sending it).",
+              "Describe that process in general terms to your company-approved AI tool and ask: <em>\"If two AI agents were working together on this instead of me doing every step, how would you split the work between them?\"</em>",
+              "Compare its suggested split to how you actually do it today \u2014 note anywhere it caught a handoff you hadn't thought about.",
+              "Share the split it proposed in the group chat, especially if it surprised you."
+            ]
+          }
+        },
+        {
+          title: "Employees are already building their own AI workaround",
+          body: "A Gartner survey of over 12,000 employees found <em>88% of employees with enterprise AI access also use personal AI tools for business tasks</em>, often because the sanctioned tool is clunkier or slower than the one on their phone. Only 27% of executives say they have a comprehensive AI strategy, which is part of why Gartner predicts half of companies without one will lose their best AI talent to competitors by 2027 (Gartner, May 2026).",
+          slants: {
+            strategy: "If people on your team are quietly using personal AI tools instead of the company one, treat that as free user-experience feedback and route it to whoever owns your AI roadmap.",
+            operations: "Audit whether your approved tool is actually easy to open and use inside daily workflows \u2014 friction, not policy gaps, is usually what drives people to their own apps.",
+            pm: "Check in with your project team about whether the sanctioned AI tool fits their day-to-day tasks; a tool nobody opens doesn't show up as a risk until it's already a habit.",
+            admin: "If you've caught yourself reaching for a personal chatbot instead of the work-approved one, that's useful information \u2014 mention it to your manager instead of just working around it quietly."
+          },
+          challenge: {
+            steps: [
+              "Think honestly about whether you've used a personal AI app for a work task in the last month, even something small.",
+              "If so, ask any AI assistant: <em>\"I use [personal AI tool] instead of my company's approved AI tool for [task]. What are three reasons that might be happening, and what would fix each one?\"</em>",
+              "Pick the reason that feels most true and jot it down in one sentence.",
+              "Share that one sentence in the group \u2014 patterns across the team are worth more than any single answer."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI plan something just for you this week",
+        body: "Pick something personal you've been putting off \u2014 planning a trip, meal-prepping a week of dinners, or drafting a tough text to a friend \u2014 and try it in ChatGPT, Claude, Gemini, or Perplexity, all free to use.",
+        prompt: "Before you tell it what to do, try this prompting technique: <em>\"I want your help with [your personal task]. Before you give me any suggestions, ask me 5 questions to understand my situation better.\"</em> Answer its questions, then see how much sharper its actual suggestions get compared to just asking it directly."
+      }
+    },
   "2026-07-26": {
       intro: "Today's three stories all land on the same idea from different directions: the real AI advantage goes to people who rethink how work gets done, not just the ones who click generate.",
       trends: [
