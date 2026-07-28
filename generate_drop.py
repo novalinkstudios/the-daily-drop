@@ -3,6 +3,12 @@ import json, os, re, sys
 import urllib.request
 from datetime import date
 
+try:
+    import anthropic as _anthropic
+except ImportError:
+    _anthropic = None
+
+
 TODAY = date.today().isoformat()
 DROPS_PATH = "drops.json"
 INDEX_PATH = "index.html"
@@ -40,6 +46,52 @@ def fetch_entry():
             "Make sure it ran first, then re-trigger this workflow."
         )
     return source_drops[TODAY]
+
+
+
+def _generate_leaders_slant(title, body, strategy):
+    """Generate a leaders slant via Claude API, or fall back to strategy."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key or _anthropic is None:
+        return strategy
+    try:
+        client = _anthropic.Anthropic(api_key=api_key)
+        prompt = (
+            f"Title: {title}\nBody: {body}\nStrategy slant: {strategy}\n\n"
+            "Write a 1-2 sentence 'Leaders' perspective for a manager or org leader "
+            "deciding how to direct their team around this AI trend. "
+            "Focus on an action or decision they should make NOW for their organization "
+            "(not just for themselves personally). Under 45 words. No bullet points."
+        )
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=150,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return msg.content[0].text.strip()
+    except Exception as e:
+        print(f"Warning: leaders slant generation failed ({e}); using strategy as fallback.")
+        return strategy
+
+
+def ensure_leaders_slants(entry):
+    """Add a 'leaders' key to any trend slants block that's missing it."""
+    for trend in entry.get("trends", []):
+        slants = trend.get("slants", {})
+        if slants and "leaders" not in slants:
+            leaders = _generate_leaders_slant(
+                trend.get("title", ""),
+                trend.get("body", ""),
+                slants.get("strategy", ""),
+            )
+            # Insert leaders right after strategy
+            new_slants = {}
+            for k, v in slants.items():
+                new_slants[k] = v
+                if k == "strategy":
+                    new_slants["leaders"] = leaders
+            trend["slants"] = new_slants
+    return entry
 
 
 def to_js(d, e):
@@ -99,6 +151,7 @@ def main():
         print(f"{TODAY} already published.")
         sys.exit(0)
     entry = fetch_entry()
+    entry = ensure_leaders_slants(entry)
     drops[TODAY] = entry
     save_drops(drops)
     inject_html(entry)
