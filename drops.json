@@ -2631,5 +2631,78 @@
       "body": "Pick something personal you've been putting off — planning a trip, meal-prepping a week of dinners, or drafting a tough text to a friend — and try it in ChatGPT, Claude, Gemini, or Perplexity, all free to use.",
       "prompt": "Before you tell it what to do, try this prompting technique: <em>\"I want your help with [your personal task]. Before you give me any suggestions, ask me 5 questions to understand my situation better.\"</em> Answer its questions, then see how much sharper its actual suggestions get compared to just asking it directly."
     }
+  },
+  "2026-07-28": {
+    "intro": "Tuesday. Momentum keeps building: assistants that handle busywork on their own, faster models doing more per dollar, and fresh data showing AI is becoming a normal part of how you work.",
+    "trends": [
+      {
+        "title": "Your assistant can now handle the busywork itself",
+        "body": "A new kind of assistant just arrived: Microsoft's Autopilots, led by an agent called Scout, quietly handle scheduling, prep, and deadline tracking across your everyday apps without waiting to be asked. It's early proof of a shift that's working in your favor — <em>39% of employees already report noticeable productivity gains from AI over the past year (DHR Global)</em>, and hands-free help only widens that lead.",
+        "source_url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+        "slants": {
+          "strategy": "Agents that act on their own turn AI from a tool your team opens into help that's always running, so leaders who map out where hands-free support fits will pull ahead first.",
+          "leaders": "The shift to hands-free coordination changes what you delegate — not just to people, but to systems. Leaders who define now which decisions stay human and which get handed to agents will set the pace before the default gets set for them.",
+          "operations": "Let an assistant own the repetitive coordination — scheduling, reminders, follow-ups — and you reclaim hours for the higher-value work that actually needs you.",
+          "pm": "An agent tracking deadlines and prep in the background means fewer status chases and more room for you to steer the work, expanding what one person can shepherd.",
+          "admin": "When an assistant handles the calendar-wrangling and document prep, you're free to focus on the judgment calls and relationships that make your support irreplaceable."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and list the three recurring coordination tasks that eat the most of your week.",
+            "Paste this prompt: <em>\"Here are three recurring tasks I handle every week: [list them]. For each, describe how an AI assistant could take the first pass so I only review and approve.\"</em>",
+            "Pick the task with the clearest, most repeatable steps and try handing its first draft to AI today.",
+            "Paste this follow-up: <em>\"Turn the best approach into a simple checklist I can reuse each week to run this task with AI.\"</em>",
+            "Share with the group the one recurring task you'd most like to hand off to an assistant."
+          ]
+        }
+      },
+      {
+        "title": "A faster model that does more per dollar",
+        "body": "The models behind your daily tools keep getting leaner and quicker. Google's new Gemini 3.6 Flash runs <em>17% more token-efficient than the version it replaces, with computer-use built in (Google)</em>, meaning faster answers and more capability for the same spend. When the engine improves, everything you build on top of it gets easier.",
+        "source_url": "https://cloud.google.com/blog/topics/google-cloud-next/welcome-to-google-cloud-next26",
+        "slants": {
+          "strategy": "More capability per dollar means the experiments you shelved as too costly are suddenly worth revisiting, so leaders who reassess now capture the upside early.",
+          "leaders": "Efficiency gains in the underlying models translate directly into budget flexibility and faster iteration cycles. Revisit AI investments you shelved on cost or speed grounds — the economics have shifted enough to reopen the conversation.",
+          "operations": "A faster, cheaper model means the AI steps in your workflow run quicker and stretch further, letting you automate more of the day without a bigger budget.",
+          "pm": "Leaner models let you fold AI into more parts of a project without the cost conversation, simplifying work that used to need extra hands.",
+          "admin": "Quicker, more affordable AI makes the drafting and organizing you do faster and easier to justify, keeping you at the front of every new capability."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one task where speed matters most in your day.",
+            "Paste this prompt: <em>\"I want to speed up this task: [describe it]. Show me the fastest way to get a strong first result, and what details to give you up front.\"</em>",
+            "Run the task with the AI's suggested approach and time how long it takes compared to your usual way.",
+            "Paste this follow-up: <em>\"Now make this repeatable: give me a short prompt template I can reuse to get this result every time.\"</em>",
+            "Share with the group the task where AI saved you the most time this week."
+          ]
+        }
+      },
+      {
+        "title": "AI skills are quickly becoming everyday skills",
+        "body": "Using AI at work is shifting from novelty to norm, and getting comfortable now puts you ahead of the curve. A new SHRM survey of nearly 5,900 U.S. workers finds <em>41% already use AI for their jobs (SHRM)</em>, climbing sharply as the tools land in more roles. The people who build the habit early become the ones everyone else turns to.",
+        "source_url": "https://www.shrm.org/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+        "slants": {
+          "strategy": "As AI fluency becomes a baseline expectation, leaders who help their teams build it now turn a rising tide into a genuine competitive advantage.",
+          "leaders": "With 41% of workers already using AI daily, the leadership question has shifted from adoption to direction. The teams with an advantage aren't just using AI — they have someone setting standards for how.",
+          "operations": "Every bit of AI skill you build compounds, making the workflows you own smoother and marking you as the person who knows how to get results.",
+          "pm": "As more of your team adopts AI, coordinating how it's used well becomes a natural extension of your role — and a highly visible one.",
+          "admin": "Being early and fluent with AI positions you as the go-to resource in your office, turning a growing trend into real visibility for your value."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and think about one skill you'd like to be known for on your team.",
+            "Paste this prompt: <em>\"I want to get noticeably better at using AI for [name the skill or task]. Give me a simple week-long practice plan with one small exercise per day.\"</em>",
+            "Do today's exercise and save the result somewhere you can revisit it.",
+            "Paste this follow-up: <em>\"Based on how that went, suggest one way I could share what I learned with a colleague this week.\"</em>",
+            "Share with the group one AI skill you're committing to building this week."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Turn a pile of leftovers into dinner",
+      "body": "This practices role prompting: you assign the AI a specific persona so its answer comes back sharper and more useful than a generic reply. Giving it a role focuses its expertise on exactly what you need.",
+      "prompt": "Act as a resourceful home cook who hates food waste. Suggest three simple dinners I can make tonight using only what I already have, with quick steps for each. Here's what's in my fridge and pantry: [paste your ingredients here]."
+    }
   }
 }
