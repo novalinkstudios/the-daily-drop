@@ -968,6 +968,76 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-07-29": {
+      intro: "Today's stories all point to the same shift: AI is redrawing the org chart, exposing the gap between deploying a tool and actually getting value from it, and turning the job search itself into an AI-versus-AI contest.",
+      trends: [
+        {
+          title: "The layer between strategy and execution is getting thinner",
+          body: "<cite index=\"1-2\">Gartner projects that by the end of 2026, 1 in 5 organizations will eliminate more than half of their middle management positions</cite>, and <cite index=\"2-1\">AI has given companies the justification to cut back, and middle management is feeling the squeeze</cite> (Newsweek, July 2026). The roles surviving the cut aren't the ones relaying status updates \u2014 they're the ones translating strategy into decisions and coaching people through change, since <cite index=\"2-8\">McKinsey's November 2025 report found demand for AI fluency grew sevenfold in job postings between 2023 and 2025</cite>.",
+          slants: {
+            strategy: "This is your cue to model workforce and succession plans around fewer layers now, before a reorg forces the redesign on someone else's timeline.",
+            leaders: "This is your cue to model workforce and succession plans around fewer layers now, before a reorg forces the redesign on someone else's timeline.",
+            operations: "Coordination work that used to sit with a manager is landing on ops teams directly, so build the handoffs before the layer disappears.",
+            pm: "With fewer middle managers to translate priorities, PMs are becoming the de facto bridge between leadership intent and team execution \u2014 worth naming out loud in your next status update.",
+            admin: "The tasks most at risk are scheduling, reporting, and status relay, so the fastest way to stay essential is to own the judgment calls those tasks used to hide."
+          },
+          challenge: {
+            steps: [
+              "Look at your last week's calendar and tag each meeting or task as either 'coordination/reporting' or 'judgment/decision-making.'",
+              "Pick one recurring coordination task \u2014 like a status update or scheduling thread \u2014 and open your company-approved AI tool.",
+              "Use this prompt: <em>\"Draft a reusable template for a weekly status update that highlights blockers, decisions needed, and next steps, based on a project with [general topic, no confidential details].\"</em>",
+              "Review the draft and adjust it to match how your team actually communicates.",
+              "Share the template in the group and ask who else wants to reclaim time from status reporting."
+            ]
+          }
+        },
+        {
+          title: "Companies deployed the AI. Most still haven't unlocked it.",
+          body: "A new global survey of 639 enterprise AI leaders found that <cite index=\"11-3\">the share of enterprises whose ROI fails to outpace their investment has held at 57% since 2025, even as enterprise AI production capability continues to climb</cite> (Domino Data Lab, July 2026). The report calls this a <cite index=\"13-4\">last-mile gap between AI models in production and the business users who need to unlock their value</cite> \u2014 the tools are live, but most people never got shown how to use them.",
+          slants: {
+            strategy: "Deployment metrics look great in a board deck, but the real KPI is adoption \u2014 push for that number in every AI initiative review.",
+            leaders: "Deployment metrics look great in a board deck, but the real KPI is adoption \u2014 push for that number in every AI initiative review.",
+            operations: "The last-mile gap is an enablement problem, which means ops teams that build simple training loops will out-earn teams that just wait for usage to happen.",
+            pm: "Add 'adoption rate 30 days post-launch' as a real project milestone instead of letting 'go-live' count as done.",
+            admin: "You likely already have access to a tool nobody walked you through \u2014 closing that gap for yourself is a fast, personal win this week."
+          },
+          challenge: {
+            steps: [
+              "Pick one AI tool your company already licenses that you haven't fully explored.",
+              "Choose one task you do weekly that feels tedious \u2014 sorting, summarizing, or drafting.",
+              "Use this prompt: <em>\"Walk me through how to use this tool for [task type], step by step, as if I've never tried it before.\"</em>",
+              "Try the workflow once on a real (non-confidential) task and time how long it takes versus doing it manually.",
+              "Share what you learned in the group so someone else can skip the trial-and-error."
+            ]
+          }
+        },
+        {
+          title: "Hiring just became AI arguing with AI",
+          body: "<cite index=\"24-4\">HireVue's 2026 report noted that almost three in four candidates now use AI to create resumes</cite>, and companies have responded with their own screening tools \u2014 yet <cite index=\"24-7\">only a mere 41% of hiring teams fully trust AI</cite> (Forbes, July 2026). Both sides are automating the same funnel, which means the humans who show real specificity are the ones actually getting through.",
+          slants: {
+            strategy: "Workforce planning now has to account for a hiring funnel that's noisier and slower even though it's more automated \u2014 factor that into headcount timelines.",
+            leaders: "Workforce planning now has to account for a hiring funnel that's noisier and slower even though it's more automated \u2014 factor that into headcount timelines.",
+            operations: "Time-to-hire is stretching despite more AI in the process, so it's worth auditing whether your screening stack is actually filtering or just adding steps.",
+            pm: "When staffing a project team fast, remember that a polished AI-written resume tells you less than one specific, verifiable example of past work.",
+            admin: "If you coordinate interviews or first-pass resume review, a quick verification step \u2014 one direct follow-up question \u2014 catches more than another filter ever will."
+          },
+          challenge: {
+            steps: [
+              "Open a document with your own resume or LinkedIn summary \u2014 something personal, not a company file.",
+              "Paste one or two bullet points into your company-approved AI tool or any AI assistant.",
+              "Use this prompt: <em>\"Review this resume bullet and tell me if it reads like generic AI filler. Then suggest a version with one specific, concrete detail only I could know.\"</em>",
+              "Compare the two versions and pick the one that sounds like an actual person did the work.",
+              "Share your before-and-after in the group \u2014 it's a fun way to spot the difference together."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Let AI plan something you've been putting off",
+        body: "Pick a personal project you keep meaning to start \u2014 a trip, a big cooking project, or a tricky message you need to send someone. Use ChatGPT, Claude, Gemini, or Perplexity, all free, and try a technique that makes AI far more useful: asking it to interview you before it gives you an answer.",
+        prompt: "\"I want your help with [your personal project]. Before you give me any suggestions, ask me five questions to understand what I actually need and what constraints I'm working with. Then give me your recommendation.\""
+      }
+    },
   "2026-07-28": {
     "intro": "Tuesday. Momentum keeps building: assistants that handle busywork on their own, faster models doing more per dollar, and fresh data showing AI is becoming a normal part of how you work.",
     "trends": [
