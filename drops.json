@@ -2777,5 +2777,76 @@
       "body": "Pick a personal project you keep meaning to start — a trip, a big cooking project, or a tricky message you need to send someone. Use ChatGPT, Claude, Gemini, or Perplexity, all free, and try a technique that makes AI far more useful: asking it to interview you before it gives you an answer.",
       "prompt": "\"I want your help with [your personal project]. Before you give me any suggestions, ask me five questions to understand what I actually need and what constraints I'm working with. Then give me your recommendation.\""
     }
+  },
+  "2026-07-31": {
+    "intro": "Today's throughline: the gap between what leaders believe about AI and what they've actually built for it, whether that's office space, your calendar, or your next brainstorm.",
+    "trends": [
+      {
+        "title": "Leaders bet on AI growing headcount, not cutting it",
+        "body": "A new JLL survey of over 2,200 C-suite and real estate leaders found <em>60% expect their workforces to grow, not shrink, because of AI</em>, with the most AI-advanced organizations actually hiring more full-time staff and entry-level talent. But there's a catch: <em>only 31% are actively preparing spaces and systems for human-AI collaboration</em>, even though 78% expect AI to reshape their real estate strategy (JLL, July 2026).",
+        "source_url": "https://www.jll.com/en-us/newsroom/ai-redesigns-jobs-not-cuts-them",
+        "slants": {
+          "strategy": "If your workforce plan assumes growth but your operating model hasn't changed, you're planning for a future you haven't actually built yet.",
+          "leaders": "If your workforce plan assumes growth but your operating model hasn't changed, you're planning for a future you haven't actually built yet.",
+          "operations": "Optimism about AI headcount doesn't fix the process gaps — 36% of leaders still cite skills gaps as the top barrier to making it real.",
+          "pm": "Build \"redesign the workflow\" into your project charter, not just \"roll out the tool,\" or you'll hit this same execution gap mid-project.",
+          "admin": "You may be the first to notice when scheduling, space, or supply systems haven't caught up to leadership's AI ambitions — flag it early."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task or process on your team that already uses AI in some form.",
+            "Open your company-approved AI tool and ask: <em>\"Here's a task I do with AI: [describe it]. What would need to change in my role, process, or team setup for this to actually work better — not just faster?\"</em>",
+            "Read the suggestions and circle one you could realistically try this month.",
+            "Share that one idea in the group, with a note on whether you'll test it."
+          ]
+        }
+      },
+      {
+        "title": "AI saves you time, then quietly asks for some of it back",
+        "body": "Glean's Work AI Institute surveyed 6,000 digital workers and found <em>87% use AI at work and say it saves 11 hours a week</em> — but only 13% say their organization is actually performing better because of it. The reason: workers spend an average of <em>6.4 hours a week \"botsitting\"</em> — feeding AI context, checking its output, and cleaning up mistakes (Glean Work AI Institute, June 2026).",
+        "source_url": "https://www.glean.com/blog/work-ai-index-productivity-paradox",
+        "slants": {
+          "strategy": "When you build the business case for AI ROI, count the babysitting hours, not just the adoption rate — that's where the real return lives or dies.",
+          "leaders": "When you build the business case for AI ROI, count the babysitting hours, not just the adoption rate — that's where the real return lives or dies.",
+          "operations": "Treat AI output review as a formal step in your process, not an invisible extra task nobody accounts for.",
+          "pm": "Add a line item for verification and cleanup time when you estimate how long an AI-assisted task will actually take.",
+          "admin": "If you're switching between several AI tools daily, the context you re-explain each time is exactly the hidden labor this report is describing."
+        },
+        "challenge": {
+          "steps": [
+            "For one workday, jot down every time you have to fix, recheck, or re-explain something to AI.",
+            "At day's end, add up roughly how many minutes that took.",
+            "Ask your company-approved AI tool: <em>\"Here's a list of things I had to redo or fix after using you today: [list]. What's one change to how I prompt you that would cut this cleanup time?\"</em>",
+            "Try the suggestion tomorrow and see if the list gets shorter.",
+            "Share your before-and-after time in the group."
+          ]
+        }
+      },
+      {
+        "title": "Your brainstorm needs a head start before AI joins it",
+        "body": "A new MIT Sloan Management Review synthesis of four separate studies found that <em>AI assistance consistently improved individual output quality but narrowed the collective diversity of ideas</em> across groups, from short stories to circular-economy solutions. The fix researchers identified is simple: <em>having people generate their own ideas first, then bring in AI</em>, preserves nearly as much variety as fully human brainstorming (MIT Sloan Management Review, July 2026).",
+        "source_url": "https://sloanreview.mit.edu/article/the-hidden-cost-of-ai-assisted-creativity/",
+        "slants": {
+          "strategy": "For scenario planning or options analysis, generate your own list before opening AI, or every plan across the org starts converging on the same few ideas.",
+          "leaders": "For scenario planning or options analysis, generate your own list before opening AI, or every plan across the org starts converging on the same few ideas.",
+          "operations": "Process-improvement workshops should start with a human-only round of ideas before anyone opens a chatbot.",
+          "pm": "Risk registers and mitigation plans benefit from this too — brainstorm your own risks first so AI expands the list instead of narrowing it.",
+          "admin": "Even something like event themes or agenda ideas gets better when you scribble your own three options before asking AI for more."
+        },
+        "challenge": {
+          "steps": [
+            "Next time you need fresh ideas for anything — a plan, a process, an agenda — spend 5 minutes writing your own list first, no AI involved.",
+            "Then ask your company-approved AI tool: <em>\"Here are my initial ideas: [list them]. Give me 5 more that are genuinely different from these, not just variations.\"</em>",
+            "Compare the two lists and notice how many of AI's ideas overlap with yours versus how many are new.",
+            "Share which round — yours or AI's — produced your best idea."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan your next weekend off — but make it interview you first",
+      "body": "Pick a free tool — ChatGPT, Claude, Gemini, or Perplexity — and use it to plan a low-key weekend getaway or a day trip you'd actually enjoy. The trick is a prompting technique called \"ask me questions first,\" where you make the AI gather information before it gives advice, so you get an itinerary that fits you instead of a generic list.",
+      "prompt": "I want to plan a relaxing weekend trip within 3 hours of where I live. Before you suggest anything, ask me 5 questions about my budget, interests, and energy level. Then give me 3 ranked options based on my answers."
+    }
   }
 }
