@@ -2848,5 +2848,77 @@
       "body": "Pick a free tool — ChatGPT, Claude, Gemini, or Perplexity — and use it to plan a low-key weekend getaway or a day trip you'd actually enjoy. The trick is a prompting technique called \"ask me questions first,\" where you make the AI gather information before it gives advice, so you get an itinerary that fits you instead of a generic list.",
       "prompt": "I want to plan a relaxing weekend trip within 3 hours of where I live. Before you suggest anything, ask me 5 questions about my budget, interests, and energy level. Then give me 3 ranked options based on my answers."
     }
+  },
+  "2026-08-01": {
+    "intro": "Today's stories are about three different kinds of accounting: what your AI spend actually buys you, what AI quietly takes off your plate, and what you owe your future leaders if you skip the entry-level rungs on the way there.",
+    "trends": [
+      {
+        "title": "AI spend just became a forecasting problem, not a shopping list",
+        "body": "As companies move from simple copilots to full agentic workflows, McKinsey finds that <em>organizations with high forecasting maturity save 10 percent more on AI spend than their peers on average</em>, yet most haven't built that muscle yet — <em>only 20–25 percent of companies have mature AI FinOps practices in place</em> (McKinsey, July 2026). Guessing at AI usage the way teams used to guess at cloud bills is starting to cost real money.",
+        "source_url": "https://mckinsey.com/capabilities/quantumblack/our-insights/the-cost-of-intelligence-how-cios-can-manage-ai-demand-at-scale",
+        "slants": {
+          "strategy": "Build AI demand forecasting into your next planning cycle the same way you'd forecast headcount or capital spend — it's now a strategy input, not an IT afterthought.",
+          "leaders": "Build AI demand forecasting into your next planning cycle the same way you'd forecast headcount or capital spend — it's now a strategy input, not an IT afterthought.",
+          "operations": "Track which processes are actually driving AI usage and cost so you can flag runaway spend before finance does.",
+          "pm": "Add a line for AI tool usage to your project budgets — assuming it's free or negligible is how projects quietly overrun.",
+          "admin": "If you manage software licenses or expense approvals, expect more questions about which AI tools are actually earning their keep."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pull up your calendar or task list from the past week.",
+            "List every task where you used AI — drafting, summarizing, research, formatting, etc.",
+            "Ask it: <em>\"Here's a list of tasks I used AI for this week. Which ones likely delivered the most time savings, and which ones probably weren't worth the effort? Help me spot the pattern.\"</em>",
+            "Compare the answer to your own gut sense — does it match where you actually felt AI helped most?",
+            "Share in the group: one task where AI clearly paid off, and one where it didn't."
+          ]
+        }
+      },
+      {
+        "title": "Your CRM notes just got an AI co-writer",
+        "body": "Microsoft's Sales Agent and Service Agent are <em>now generally available inside Microsoft 365 Copilot, Outlook, Teams, and Dynamics 365</em> (CX Today, July 2026), letting sellers <em>capture key takeaways, objections, priorities, and follow-up commitments, then add those notes to CRM or update opportunity fields without breaking their flow</em>. It's a real signal of where enterprise tooling is headed: less switching between apps, more AI quietly doing the paperwork inside the tools you already use.",
+        "source_url": "https://www.cxtoday.com/marketing-sales-technology/microsoft-sales-agent-service-agent-general-availability/",
+        "slants": {
+          "strategy": "Watch this as a preview of what 'AI embedded in the flow of work' will look like for planning and reporting tools, not just sales and service.",
+          "leaders": "Watch this as a preview of what 'AI embedded in the flow of work' will look like for planning and reporting tools, not just sales and service.",
+          "operations": "Service teams get automatic case context and history at the start of the day instead of digging for it — that's hours back for actual problem-solving.",
+          "pm": "If your projects touch CRM data, expect status updates and stakeholder notes to arrive more current and less stale, since reps are logging them in real time.",
+          "admin": "Some of the meeting-recap and data-entry work you currently own may start showing up pre-drafted — your value shifts to catching what the AI missed."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one recurring task in your week that feels like pure busywork — updating a tracker, compiling a status recap, logging notes after a call.",
+            "Open your company-approved AI tool and describe the task in detail.",
+            "Ask: <em>\"Here's a recurring task I do every week: [describe it]. Draft a simple way I could hand the first pass of this to an AI assistant, and tell me exactly where a human still needs to check the work.\"</em>",
+            "Read the output and mark which steps you'd actually trust an AI tool with today versus which need your eyes.",
+            "Share your one biggest hand-off opportunity in the group."
+          ]
+        }
+      },
+      {
+        "title": "Cutting entry-level jobs quietly borrows against your future leaders",
+        "body": "A widely discussed HBR piece this summer names a cost most companies haven't put on a spreadsheet: <em>the entry-level job pipeline is thinning globally, and the consequences of eliminating these types of roles in favor of AI are compounding</em> (Harvard Business Review, June 2026). The logic is blunt — <em>eliminate entry-level roles, and you reduce the headcount that justifies mid-level managers; reduce mid-level managers, and you shrink the pool feeding director and VP pipelines</em>, a bill that <em>won't come due for years</em>.",
+        "source_url": "https://hbr.org/2026/06/your-talent-strategy-has-to-keep-up-with-your-ai-transformation",
+        "slants": {
+          "strategy": "Factor 'leadership pipeline health' into any workforce plan that leans on automating junior work — it's a multi-year risk, not a quarterly savings line.",
+          "leaders": "Factor 'leadership pipeline health' into any workforce plan that leans on automating junior work — it's a multi-year risk, not a quarterly savings line.",
+          "operations": "If AI is absorbing the routine tasks juniors used to learn on, build a deliberate way for them to still get hands-on reps — don't let training happen by accident.",
+          "pm": "Look for ways to give junior team members real ownership on a project phase instead of only having them review AI-generated drafts.",
+          "admin": "If you're early in your career, seek out stretch assignments now — the traditional 'learn by doing the grunt work' path is narrowing, so you'll need to ask for exposure directly."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one junior colleague or new hire you currently work with.",
+            "Open your company-approved AI tool and ask: <em>\"I want to help a junior teammate build real judgment, not just review AI output. Give me three specific ways I could involve them in a project this month so they get hands-on experience.\"</em>",
+            "Pick the one idea that feels most realistic for you to actually do this month.",
+            "Share it in the group — and tag the colleague if it feels right."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a weekend that isn't just another to-do list",
+      "body": "Pick a trip, a day out, or even a big cook-off you've been putting off, and use ChatGPT, Claude, Gemini, or Perplexity to plan it — but this time, make the AI work for the details instead of just spitting out a generic itinerary.",
+      "prompt": "\"I want to plan a [weekend trip / dinner party / day out] focused on [relaxation / adventure / trying something new]. Before you suggest anything, ask me questions about my budget, pace, and what I want to feel like by the end of it — then use my answers to build the plan.\""
+    }
   }
 }
