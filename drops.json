@@ -2920,5 +2920,76 @@
       "body": "Pick a trip, a day out, or even a big cook-off you've been putting off, and use ChatGPT, Claude, Gemini, or Perplexity to plan it — but this time, make the AI work for the details instead of just spitting out a generic itinerary.",
       "prompt": "\"I want to plan a [weekend trip / dinner party / day out] focused on [relaxation / adventure / trying something new]. Before you suggest anything, ask me questions about my budget, pace, and what I want to feel like by the end of it — then use my answers to build the plan.\""
     }
+  },
+  "2026-08-03": {
+    "intro": "Today's stories are about the gap between what AI can do and what your organization is actually ready for — in governance, in prompting, and in hiring.",
+    "trends": [
+      {
+        "title": "Companies are running AI agents faster than they can govern them",
+        "body": "McKinsey's 2026 AI Trust Maturity Survey <em>gathered responses from approximately 500 organizations</em> already deploying agentic AI, and found that only about one-third of them report a mature level of strategy, governance, and controls for the autonomous systems they've already turned on (McKinsey, 2026). That gap matters because once an agent acts on its own, the decision is already made before anyone reviews it.",
+        "source_url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-agentic-era",
+        "slants": {
+          "strategy": "This is your cue to build the governance roadmap now, before agent rollout outpaces your ability to explain what they did and why.",
+          "leaders": "This is your cue to build the governance roadmap now, before agent rollout outpaces your ability to explain what they did and why.",
+          "operations": "Before letting any agent touch a live process, confirm there's a documented, fast 'off switch' someone can actually pull.",
+          "pm": "Add a governance checkpoint to any project plan that includes AI agents — treat it like a milestone, not an afterthought.",
+          "admin": "If you're using an AI scheduling or inbox agent, it's worth asking IT what data it can see and who's accountable if it gets something wrong."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task where you or your team already lets AI act with minimal review (drafting, scheduling, data lookups).",
+            "Open your company-approved AI tool and ask: <em>\"Help me write a 5-line checklist to review before I let AI act automatically on this kind of task, covering what could go wrong and who should sign off.\"</em>",
+            "Read the checklist and cut anything that doesn't apply to your actual workflow — keep it to 5 lines or fewer.",
+            "Share your checklist in the group chat and ask if anyone else's team has already built something similar."
+          ]
+        }
+      },
+      {
+        "title": "The smartest prompt in the world still fails without the right context",
+        "body": "Datadog's 2026 State of AI Engineering report found that <em>context quality — not volume — is now the limiting factor for AI agents</em>, since most teams don't even use the full context window their models allow. The lesson for anyone typing into a chat box: a clever prompt on a blank slate still produces a generic answer.",
+        "source_url": "https://www.datadoghq.com/state-of-ai-engineering/",
+        "slants": {
+          "strategy": "Before asking AI for a forecast or plan, feed it your actual assumptions, targets, and constraints — not just the question.",
+          "leaders": "Before asking AI for a forecast or plan, feed it your actual assumptions, targets, and constraints — not just the question.",
+          "operations": "Build a reusable 'context pack' of your team's SOPs and process docs so every AI request starts from the same baseline, not from zero.",
+          "pm": "Paste in the project's real status, risks, and timeline before asking AI to summarize or flag issues — generic prompts get generic project updates.",
+          "admin": "Give AI the specific names, dates, and formats you use daily instead of a bare-bones request — it cuts editing time in half."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a task you'd normally hand AI with a short, bare prompt (like 'write a status update' or 'summarize this').",
+            "First, ask it with almost no context: <em>\"Write a short project status update.\"</em> Save that output.",
+            "Now try it with real (non-confidential) detail: <em>\"Write a short project status update for a team of 5, currently on track but 2 days behind on one deliverable, audience is my manager who prefers bullet points.\"</em>",
+            "Compare the two outputs side by side — notice how much more usable the second one is with almost no extra effort.",
+            "Share both versions in the group to show the difference context makes."
+          ]
+        }
+      },
+      {
+        "title": "AI fluency just moved from 'nice to have' to a baseline job requirement",
+        "body": "NACE's spring 2026 survey found that <em>more than one-third of entry-level jobs now require AI skills</em>, nearly triple what employers reported just six months earlier. That mirrors a bigger shift McKinsey flagged last year: demand for AI fluency in job postings has jumped nearly sevenfold in two years, faster than any other skill tracked.",
+        "source_url": "https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025",
+        "slants": {
+          "strategy": "Workforce planning models need an 'AI fluency' line item now, the same way they track technical or language skills.",
+          "leaders": "Workforce planning models need an 'AI fluency' line item now, the same way they track technical or language skills.",
+          "operations": "Look at which frontline roles are being paired with AI training versus which are just being asked to 'figure it out' — that gap becomes a retention risk.",
+          "pm": "Add AI fluency to your team's skills matrix when staffing projects — it's becoming as relevant as tool experience or domain knowledge.",
+          "admin": "Documenting the AI tools you already use well is now a legitimate resume line, not just a footnote."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one task where you've already used AI successfully in the past month (drafting, summarizing, brainstorming, scheduling).",
+            "Open any AI assistant and ask: <em>\"Help me turn this into one strong resume or self-review bullet point: I used AI to [describe your task] and it helped me [describe the result].\"</em>",
+            "Review the draft and tighten it to one sentence that sounds like you, not a template.",
+            "Share your bullet point in the group — it's a low-key way to see how differently everyone is already using AI."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI help you plan something just for you this week",
+      "body": "Pick something personal you've been putting off — a trip, a tricky email to a friend or family member, or figuring out a confusing bill — and try it with a free tool like ChatGPT, Claude, Gemini, or Perplexity.",
+      "prompt": "\"Before you help me with [your task], ask me 3 questions first so you understand what I actually need — then give me your suggestion.\""
+    }
   }
 }
