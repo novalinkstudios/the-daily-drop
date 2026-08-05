@@ -2991,5 +2991,78 @@
       "body": "Pick something personal you've been putting off — a trip, a tricky email to a friend or family member, or figuring out a confusing bill — and try it with a free tool like ChatGPT, Claude, Gemini, or Perplexity.",
       "prompt": "\"Before you help me with [your task], ask me 3 questions first so you understand what I actually need — then give me your suggestion.\""
     }
+  },
+  "2026-08-05": {
+    "intro": "Today's stories all point to the same quiet shift: AI isn't replacing the humans in the middle, the tools building it are getting radically easier to use, and the biggest blocker left is how honest we're willing to be about the time it saves.",
+    "trends": [
+      {
+        "title": "Managers aren't getting replaced by AI — they're getting redefined",
+        "body": "Gartner once predicted that AI would flatten hierarchies, with <cite index=\"16-1\">20% of organizations using AI to flatten their structure, eliminating more than half of current middle management positions</cite> by the end of this year. New Salesforce research says the opposite is happening on the ground: <cite index=\"17-1\">AI is making the middle manager even more important, and raising the stakes for companies to get their enablement right for the AI era</cite>. Harvard Business Review has even named the emerging version of the job — <cite index=\"16-10\">Harvard Business Review published \"To Thrive in the AI Era, Companies Need Agent Managers\" in February 2026</cite> — the person who defines tasks for AI agents, reviews their output, and handles the exceptions that agents can't.",
+        "source_url": "https://www.salesforce.com/news/stories/middle-managers-vital-age-of-ai/",
+        "slants": {
+          "strategy": "Start mapping which roles on your org chart are shifting from 'coordinator' to 'agent supervisor' — that's the headcount conversation you'll be asked about next planning cycle.",
+          "leaders": "Use your positional influence now to claim the 'agent manager' framing for your own role before someone else defines it for you.",
+          "operations": "Audit which status-update and reporting tasks eat your team's week, since those are exactly what agents are already absorbing.",
+          "pm": "Redesign your status-reporting workflow so an agent drafts the update and you spend that reclaimed time on the judgment calls stakeholders actually need from you.",
+          "admin": "The coordination and scheduling skills you've built are shifting toward oversight work, not disappearing — that's worth naming in your next review."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "List the five most common status-update or reporting tasks you do in a typical week.",
+            "Prompt: <em>\"Here are five recurring status-update or reporting tasks I do each week: [list them]. For each one, tell me whether an AI agent could draft a first version, and what human judgment step should stay with me.\"</em>",
+            "Review the response and pick one task to test handing the first draft to AI next week.",
+            "Share in the group: post the one task you're testing and why."
+          ]
+        }
+      },
+      {
+        "title": "You no longer need to know what a 'trigger' is to build an automation",
+        "body": "<cite index=\"30-1\">After an extended beta, Zapier's AI agent layer hit general availability in July</cite>, and the bigger deal isn't the launch — it's what changed underneath it: <cite index=\"30-2\">it lets you build multi-step agents using natural language prompts rather than drag-and-drop Zap construction</cite>. Describing an outcome in plain English is now enough to build the workflow behind it.",
+        "source_url": "https://zapier.com/blog/zapier-agents-guide/",
+        "slants": {
+          "strategy": "Factor this into vendor and budget conversations — 'ease of building' is no longer a reason to greenlight a big consulting spend on automation.",
+          "leaders": "Encourage your team to try building one small automation themselves this week; it's a low-risk way to build AI confidence without a formal training program.",
+          "operations": "Look at your most repetitive multi-step handoffs — the ones that used to need an IT ticket — and see if you can describe them into existence instead.",
+          "pm": "Consider automating recurring project admin like status collection or file routing by simply describing the steps, no build sprint required.",
+          "admin": "This is the tool category where admin professionals often become the fastest experts in the building — plain-language building plays to skills you already have."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool (or an approved automation platform if you have one).",
+            "Pick one repetitive task with clear steps, like summarizing weekly updates or routing a recurring request.",
+            "Prompt: <em>\"I want to automate this task: [describe the task in plain language]. Break it into the exact steps an agent would need, including where a human should review before it goes out.\"</em>",
+            "Review the steps it gives you and note where you'd want a human check before trusting it fully.",
+            "Share in the group: post the task you'd automate first and why."
+          ]
+        }
+      },
+      {
+        "title": "The time AI saves you might be the thing you're hiding",
+        "body": "A new Forbes analysis of workplace survey data found that <cite index=\"36-1\">66% of employees fake productivity, staying online or slowing down, with 73% of managers admitting similar behavior</cite>. The root cause isn't laziness — <cite index=\"36-7\">companies demand AI transformation but reward employees for appearing constantly busy</cite>, so workers quietly hide the very time savings leadership says it wants to see.",
+        "source_url": "https://www.forbes.com/sites/niritcohen/2026/08/02/ai-saves-time-66-of-employees-stay-online-to-hide-it/",
+        "slants": {
+          "strategy": "Build 'what did AI free up, and what did we do with it' into your next planning review, or you'll never see the real capacity you've gained.",
+          "leaders": "Say out loud, in your next team meeting, that reclaimed time from AI is safe to report — your team is watching for permission, not asking for it.",
+          "operations": "If your team measures activity instead of output, that metric is quietly training people to hide their AI gains — worth flagging to whoever owns the dashboard.",
+          "pm": "Reframe status updates to track deliverables hit, not hours logged, so AI-driven speed shows up as a win instead of a risk to report.",
+          "admin": "If AI is cutting your task time, document it as freed-up capacity for higher-value work rather than something to quietly absorb into busywork."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one task this week where AI genuinely saved you time.",
+            "Prompt: <em>\"I saved about [X] minutes this week using AI on [task]. Help me write two or three sentences framing this as freed-up capacity for higher-value work, not something to downplay.\"</em>",
+            "Read the draft back and edit it until it sounds like you, not a press release.",
+            "Decide if you'd feel comfortable saying that sentence to your own manager this week — no pressure either way.",
+            "Share in the group: post the framing sentence you landed on."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan something you've been putting off",
+      "body": "Pick a personal task you've been avoiding — planning a trip, writing a tough text to a friend, or decoding a confusing bill — and try it in ChatGPT, Claude, Gemini, or Perplexity (all free to use).",
+      "prompt": "Before you answer, ask me at least three clarifying questions about what I actually need. Then give me two or three ranked options, not just one answer, and tell me the tradeoffs of each. Here's my situation: [describe your task]."
+    }
   }
 }
