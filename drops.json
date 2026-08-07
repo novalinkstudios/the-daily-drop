@@ -3840,5 +3840,78 @@
       "body": "Everyone has one — a conversation you keep delaying because you're not sure how to start, what they'll say, or how you'll handle it. Tonight, try something that makes AI surprisingly useful: have it play the other person. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I need to have a conversation with [someone — a family member, friend, neighbor, partner] about [topic]. I'm nervous because [what worries you about it]. Play their role and respond the way they realistically would. I'll say my opening line and you react — then coach me on what landed well and what I could say differently.\"<br><br>The technique — <em>having AI simulate the other person's responses</em> — lets you rehearse without the stakes. You hear how your words might land, spot the weak points in your approach, and walk into the real conversation calmer. Try it on anything you've been avoiding — the practice round takes the edge off."
     }
+  },
+  "2026-08-06": {
+    "intro": "Thursday. Three pieces of good news hiding in the data: the skills that matter most in an AI economy are the ones you already have, there's a clear pattern behind the AI projects that actually succeed, and the next big operational redesign at your company needs the people who know how things really work.",
+    "trends": [
+      {
+        "title": "Your best skills just became more valuable",
+        "source_url": "https://www.mckinsey.com/mgi/media-center/human-skills-will-matter-more-than-ever-in-the-age-of-ai",
+        "body": "McKinsey Global Institute mapped roughly 10,500 skills by how much automation reshapes them — and the results are encouraging. The skills with the lowest automation exposure? <em>Leadership, coaching, negotiation, and empathy</em>. The ones most affected are narrow technical tasks like SQL queries and invoice processing. More than 70% of skills employers seek today are used in both automatable and non-automatable work, which means <em>most skills aren't going away — they're being upgraded</em>. Problem-solving becomes problem-framing. Your experience gets more valuable, not less.",
+        "slants": {
+          "strategy": "Your ability to frame the right question is becoming more valuable than running the analysis — that's a skill worth investing in across your team.",
+          "leaders": "The skills your team built over years — coaching, negotiating, reading a room — are the ones AI reinforces, not replaces. Name that value and build on it.",
+          "operations": "Your deep knowledge of how processes actually work is what makes you the best person to shape where AI fits. That expertise is appreciating, not depreciating.",
+          "pm": "Problem-framing is your wheelhouse — scoping, prioritizing, and asking the right questions is what PMs already do. AI just makes that skill more central.",
+          "admin": "The judgment calls you make every day — tone, timing, context, what the executive actually needs — are in the most durable skill category. That's your strength."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one skill you use daily — summarizing, scheduling, reviewing, analyzing, coordinating.",
+            "Paste this prompt: <em>\"Here is a skill I use regularly at work: [describe it]. How is AI changing how this skill is applied — not whether it's needed, but how the best practitioners use it differently now? Give me one specific way the skill is shifting and one example of what 'upgraded' looks like.\"</em>",
+            "Read the response and compare it to your own experience — does the shift it describes match what you're already seeing?",
+            "Paste this follow-up: <em>\"Now give me a 2-step exercise I can do this week to practice the upgraded version of this skill, using AI as a tool rather than a replacement.\"</em>",
+            "Share your skill shift with the group — what's changing about how you apply it, and what stayed the same?"
+          ]
+        }
+      },
+      {
+        "title": "Successful AI projects share one simple habit",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+        "body": "Gartner surveyed more than 3,400 organizations investing in agentic AI and found a clear pattern: <em>the projects that succeed are the ones that start with defined goals, cost guardrails, and a governance plan</em>. Over 40% of agentic AI projects are expected to be cut by end of 2027 — not because the technology doesn't work, but because nobody set a clear target for what success looks like. The good news? <em>That's entirely within your control.</em> The teams that scope AI the way they'd scope any strategic initiative are the ones seeing real returns.",
+        "slants": {
+          "strategy": "Define what success looks like in measurable terms before your next AI initiative kicks off — the clearest targets produce the strongest results.",
+          "leaders": "The most valuable thing you can do for an AI pilot right now is give it a clear mission — what does it need to deliver, by when, and how will you know it's working?",
+          "operations": "Build in a 90-day checkpoint with clear criteria: is this saving time, reducing errors, or improving quality? A simple check-in keeps good projects on track.",
+          "pm": "Scope agentic AI the way you'd scope any project — goals, budget, timeline, and success criteria. That discipline is exactly why the best AI projects have a PM behind them.",
+          "admin": "Your feedback on whether an AI tool is actually saving time is one of the most valuable signals a pilot can get. Speak up — it helps the whole team invest wisely."
+        },
+        "challenge": {
+          "steps": [
+            "Think about an AI tool or feature your team adopted in the last six months. Has anyone measured whether it's delivering real value?",
+            "Open your company-approved AI tool and paste: <em>\"My team adopted [name the tool or feature] for [describe the task]. We haven't formally measured its impact. Help me design a simple 3-question evaluation: one question about time saved, one about output quality, and one about whether it created any new work or problems. Keep it something I could answer in 5 minutes.\"</em>",
+            "Answer the three questions honestly based on your own experience with the tool.",
+            "Paste the results back and ask: <em>\"Based on these answers, should we double down on this tool, adjust how we use it, or consider dropping it? Give me a one-sentence recommendation.\"</em>",
+            "Share your evaluation with the group — the honest assessments help everyone make better decisions about which tools earn their keep."
+          ]
+        }
+      },
+      {
+        "title": "The next big redesign needs you in the room",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-23-gartner-survey-reveals-80-percent-of-ceos-say-artificial-intelligence-will-force-operational-capability-overhauls",
+        "body": "Gartner surveyed 469 CEOs and found that <em>80% are actively rethinking how their operations work in an AI-assisted world</em>. Today, 54% say automation only touches specific tasks. By 2028, most expect to expand into AI-assisted decision-making and smarter workflows. That means <em>how work gets done at your company is about to be redesigned</em> — and the people who understand how it actually works today, not just how it's drawn on a slide, are exactly who that redesign needs most.",
+        "slants": {
+          "strategy": "The best operational redesigns start with the people who run the current operation. Get their perspective into the planning room early — it's the highest-value input you have.",
+          "leaders": "This is your team's moment to shape what comes next. The operational knowledge your people carry is the design input that makes the difference between a plan that works and one that doesn't.",
+          "operations": "You know where the workarounds live, where the handoffs work, and where the process on paper doesn't match reality. That knowledge is your seat at the table — claim it.",
+          "pm": "Operational redesigns are multi-quarter programs, and PM skills are what keep them from stalling at the whiteboard. If scoping hasn't started, this is your opening.",
+          "admin": "The workflows you manage are being rethought. The people who can document how things actually work — not how they're supposed to — will have the most influence on what comes next."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one operational process you're involved in — approvals, reporting, scheduling, procurement, onboarding — anything that follows a repeatable pattern.",
+            "Open your company-approved AI tool and paste: <em>\"Here's an operational process I'm part of: [describe it in detail, without confidential info]. Map out the current workflow step by step, then identify which steps could be enhanced by AI and which ones require human judgment. Be specific about why each judgment step needs a person.\"</em>",
+            "Compare the AI's map to how the process actually works in practice. Note where it's accurate and where it misses the informal steps, workarounds, or judgment calls only an insider would know.",
+            "Paste this follow-up: <em>\"Here's what your map missed: [list the informal steps or workarounds]. Redraft the workflow including these realities. Which steps are the best candidates for AI now, and which ones need a human even more than before?\"</em>",
+            "Share your process map with the group — the gap between how a process is designed and how it actually works is where the most valuable redesign insights live."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Build your perfect weekend movie marathon — without scrolling for an hour.",
+      "body": "The irony of having every streaming service: you spend more time choosing than watching. Tonight, try something different — instead of telling AI a genre, describe the mood you're going for. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I want to set up a movie or TV marathon for this weekend. Instead of a genre, here's the mood I'm going for: [describe it — e.g., 'something that makes me feel like anything is possible,' 'cozy and low-stakes,' 'smart and gripping but not stressful,' 'nostalgic without being cheesy']. I have about [X] hours. Build me a marathon — 3 to 5 picks, in the order I should watch them, with a one-line reason each one fits the mood. Include at least one I probably haven't seen.\"<br><br>The technique — <em>describing the mood you want instead of naming a category</em> — works for more than movies. Try it next time you ask AI for music, books, recipes, or even meeting formats. 'I want to feel energized' gets sharper results than 'give me something upbeat.'"
+    }
   }
 }
