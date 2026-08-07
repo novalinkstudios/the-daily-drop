@@ -32,20 +32,14 @@ def save_drops(drops):
         json.dump(drops, f, indent=2, ensure_ascii=False)
 
 
-def fetch_entry():
-    """Pull today's content from industry-trends-ref instead of generating."""
-    print(f"Fetching content from industry-trends for {TODAY}...")
+def fetch_source():
+    """Pull the full industry-trends archive so we can backfill any gaps."""
+    print("Fetching archive from industry-trends...")
     try:
         with urllib.request.urlopen(INDUSTRY_TRENDS_DROPS_URL, timeout=30) as r:
-            source_drops = json.loads(r.read().decode("utf-8"))
+            return json.loads(r.read().decode("utf-8"))
     except Exception as e:
         raise RuntimeError(f"Could not fetch industry-trends drops.json: {e}")
-    if TODAY not in source_drops:
-        raise ValueError(
-            f"industry-trends has no entry for {TODAY} yet. "
-            "Make sure it ran first, then re-trigger this workflow."
-        )
-    return source_drops[TODAY]
 
 
 
@@ -126,10 +120,10 @@ def to_js(d, e):
     return '\n  '.join(lines)
 
 
-def inject_html(entry):
+def inject_html(day, entry):
     with open(INDEX_PATH, encoding="utf-8") as f:
         html = f.read()
-    if f'"{TODAY}"' in html:
+    if f'"{day}"' in html:
         print("index.html already up to date.")
         return
     start = html.find("const DROPS = {")
@@ -141,20 +135,28 @@ def inject_html(entry):
         return
     pos = after + m.start()
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
-        f.write(html[:pos] + to_js(TODAY, entry) + ",\n  " + html[pos:])
-    print("index.html updated.")
+        f.write(html[:pos] + to_js(day, entry) + ",\n  " + html[pos:])
+    print(f"index.html updated for {day}.")
 
 
 def main():
     drops = load_drops()
-    if TODAY in drops:
-        print(f"{TODAY} already published.")
+    source = fetch_source()
+
+    missing = sorted(d for d in source if d not in drops)
+    if not missing:
+        print("Already in sync with industry-trends — nothing to publish.")
         sys.exit(0)
-    entry = fetch_entry()
-    entry = ensure_leaders_slants(entry)
-    drops[TODAY] = entry
+
+    if TODAY not in source:
+        print(f"Note: industry-trends has no entry for {TODAY} yet.")
+
+    print(f"Publishing {len(missing)} drop(s): {', '.join(missing)}")
+    for day in missing:
+        entry = ensure_leaders_slants(source[day])
+        drops[day] = entry
+        inject_html(day, entry)
     save_drops(drops)
-    inject_html(entry)
     print("Done.")
 
 
