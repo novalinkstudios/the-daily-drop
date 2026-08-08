@@ -3913,5 +3913,76 @@
       "body": "The irony of having every streaming service: you spend more time choosing than watching. Tonight, try something different — instead of telling AI a genre, describe the mood you're going for. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I want to set up a movie or TV marathon for this weekend. Instead of a genre, here's the mood I'm going for: [describe it — e.g., 'something that makes me feel like anything is possible,' 'cozy and low-stakes,' 'smart and gripping but not stressful,' 'nostalgic without being cheesy']. I have about [X] hours. Build me a marathon — 3 to 5 picks, in the order I should watch them, with a one-line reason each one fits the mood. Include at least one I probably haven't seen.\"<br><br>The technique — <em>describing the mood you want instead of naming a category</em> — works for more than movies. Try it next time you ask AI for music, books, recipes, or even meeting formats. 'I want to feel energized' gets sharper results than 'give me something upbeat.'"
     }
+  },
+  "2026-08-07": {
+    "intro": "Friday. Three patterns to carry into the weekend: how to spot the candidates who actually know how to work with AI, the biggest productivity drain at work already has a fix, and the institutional knowledge in your head is worth more than you think.",
+    "trends": [
+      {
+        "title": "Hiring is about to test for two things at once — and you need to know what to look for",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2025-10-21-gartner-unveils-top-predictions-for-it-organizations-and-users-in-2026-and-beyond",
+        "body": "Gartner's strategic predictions paint a dual picture of where hiring is headed. By 2027, <em>75% of hiring processes will include formal testing for AI proficiency</em> — not just for technical roles, but across marketing, finance, operations, and HR. But here's the twist: in the same timeframe, <em>50% of organizations will also require \"AI-free\" assessments</em> to verify that candidates can think, reason, and solve problems without AI assistance. If you're involved in hiring, you now need to evaluate for both — and the candidates who can do both are the ones worth fighting for.",
+        "slants": {
+          "strategy": "Build both checks into your hiring criteria now. The candidates who can use AI effectively and reason independently are the ones who'll strengthen your team's strategic capacity.",
+          "leaders": "When you're interviewing, ask candidates to walk through a problem twice — once describing how they'd use AI, and once describing how they'd solve it without it. The contrast tells you more than either answer alone.",
+          "operations": "The best ops hires will be the ones who know when to lean on AI and when to trust their own troubleshooting instincts. Test for both in your interview process.",
+          "pm": "When evaluating candidates, look for people who can use AI to accelerate their work but can also scope, prioritize, and make trade-offs on their own. That combination is becoming the bar.",
+          "admin": "If you're part of the hiring process — screening resumes, scheduling interviews, sitting on panels — knowing what AI proficiency looks like in practice helps you spot the strongest candidates."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last person you interviewed or helped evaluate for a role on your team. Did the process test for any AI-related skills?",
+            "Open your company-approved AI tool and paste: <em>\"I'm involved in hiring for [describe the role or team]. Help me design two short interview questions: one that tests whether a candidate can use AI effectively for this type of work, and one that tests whether they can think critically and solve problems without AI. Each question should take 5 minutes to answer and reveal genuine skill, not rehearsed buzzwords.\"</em>",
+            "Review the questions and adjust them based on what you know about the role — the AI gives you a starting structure, but your context makes it real.",
+            "Share your two-question approach in the group — building a library of AI-aware interview questions helps everyone hire stronger."
+          ]
+        }
+      },
+      {
+        "title": "Your meetings aren't unproductive — they're undocumented",
+        "source_url": "https://metrigy.com/metrigy-releases-ai-for-business-success-2025-26-research-study/",
+        "body": "Metrigy's AI for Business Success study of 1,100 companies found that <em>42% are planning to roll out AI meeting assistants in the next year</em>, and nearly 40% have already deployed them. The reason is hard to argue with: the average knowledge worker now spends over 21 hours a week in meetings, 71% of which senior managers call unproductive, and <em>nearly half of all action items discussed are never captured</em>. That's not a meeting problem — it's a systems problem. AI meeting assistants handle the capture layer so people can focus on the thinking layer.",
+        "slants": {
+          "strategy": "If your strategy depends on meetings to align people, and half the action items vanish afterward, AI capture isn't a nice-to-have — it's a reliability upgrade for your operating rhythm.",
+          "leaders": "Ask your team a simple question: \"After our last three meetings, could you find every action item without digging through your notes?\" The answer tells you whether meeting capture is worth prioritizing.",
+          "operations": "Every handoff that depends on someone remembering what was said in a meeting is a failure point. AI meeting tools turn verbal agreements into trackable commitments.",
+          "pm": "Half your project risks live in meeting notes nobody wrote down. AI meeting capture is the cheapest risk-reduction tool available right now.",
+          "admin": "If you've ever spent 30 minutes reconstructing what was decided in a meeting so you could act on it, you already know the problem. AI meeting tools solve exactly this."
+        },
+        "challenge": {
+          "steps": [
+            "Count your meetings from this past week. Estimate how many hours total — include the prep time and follow-up, not just the calendar blocks.",
+            "Pick one meeting from the week where something important was decided or assigned. Can you find the specific action items right now, without digging through notes or asking someone?",
+            "Open your company-approved AI tool and paste: <em>\"I spent approximately [X] hours in meetings this week. Here's a list of my recurring meetings and their purposes: [list them]. Help me identify which meetings could benefit most from AI-assisted note capture and action-item tracking, and which ones might not need to be meetings at all.\"</em>",
+            "Try the suggestion on one meeting next week — either add AI capture or convert the meeting to a different format.",
+            "Share your meeting audit results in the group — the total hours and the 'this didn't need to be a meeting' list tend to surprise people."
+          ]
+        }
+      },
+      {
+        "title": "The knowledge in your head is worth trillions — and most companies aren't capturing it",
+        "source_url": "https://www.deloitte.com/us/en/insights/topics/talent/knowledge-management-plan.html",
+        "body": "A joint Deloitte and eGain report puts a number on what's being lost: <em>more than 30 million Americans will turn 65 in the next four years</em>, representing $6.9 to $9.6 trillion in institutional knowledge at risk. And <em>92% of organizations aren't effectively capturing it</em>. The knowledge that matters most — why a process was designed that way, which vendor workaround actually works, how to read the room in a client meeting — lives in people's heads, not in documentation. If you're one of those people, your expertise just became a strategic asset.",
+        "slants": {
+          "strategy": "The institutional knowledge walking out your door isn't in your documentation — it's in the judgment calls, the workarounds, and the context nobody wrote down. Build a capture plan before the retirement wave hits your team.",
+          "leaders": "Identify the three people on your team whose departure would cause the most knowledge loss. Start structured knowledge capture with them this quarter — not as an exit task, but as a current one.",
+          "operations": "The workarounds, tribal knowledge, and 'it works this way because of that one time' context you carry is irreplaceable. Documenting it now makes it durable — and makes you indispensable in a different way.",
+          "pm": "Every project has institutional context that isn't in the project plan — the stakeholder preferences, the historical decisions, the unofficial dependencies. Capturing it is a PM value-add that compounds over time.",
+          "admin": "You know things nobody else knows — how the approval chain actually works, who needs to be CC'd, which process on paper doesn't match reality. That knowledge is genuinely valuable. Start writing it down."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one thing you know at work that isn't written down anywhere — a process quirk, a vendor relationship, a historical decision that still affects how things are done.",
+            "Open your company-approved AI tool and paste: <em>\"I have institutional knowledge about [describe the topic] that isn't documented anywhere. Interview me about it — ask me 5 specific questions to extract the most important details, the 'why' behind the decisions, and the context a new person would need to understand it. Then turn my answers into a short knowledge document someone else could use.\"</em>",
+            "Review the document and fill in anything the AI missed — especially the judgment calls and the reasons behind them.",
+            "Save the document somewhere your team can find it, and share your experience in the group — what did you know that you didn't realize was undocumented?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a game night that actually fits your group — not just the internet's top 10.",
+      "body": "Generic game recommendations assume you have a group of enthusiastic adults who all love the same things. Real life is messier: mixed ages, different energy levels, someone who hates competition, someone who gets bored easily. Tonight, try a technique that fixes that. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I want to plan a game night for [number] people. Here's who's coming: [describe the group — ages, personalities, what they enjoy, any landmines to avoid like 'my cousin hates trivia' or 'two people are super competitive']. Recommend 3 games we could play, in the order we should play them, with a one-line reason each one fits this specific group. Include one game none of us have probably tried before.\"<br><br>The technique — <em>describing the people, not just the activity</em> — works any time you ask AI for recommendations. 'Plan a dinner for 6' gets generic. 'Plan a dinner for 6 where two are vegetarian, one is adventurous, and the host hates cooking under pressure' gets useful."
+    }
   }
 }
