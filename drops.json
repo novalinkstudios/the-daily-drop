@@ -4199,5 +4199,78 @@
       "body": "You've probably scrolled through room design inspiration and thought, 'that's nice, but it's not my room, my budget, or my style.' Tonight, try an approach that starts with what you actually have. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I want to refresh my [room — living room, bedroom, home office, kitchen, whatever needs it]. Here's what I'm working with: the room is roughly [size], the furniture I want to keep is [list what stays], my budget is around $[amount or 'as low as possible'], and my style is [describe it however you like — 'warm and calm,' 'modern but not cold,' 'I just want it to feel less cluttered']. Suggest a redesign plan — what to move, what to add, what to remove — that works within these constraints. Prioritize by impact: what single change would make the biggest difference first?\"<br><br>The technique — <em>telling AI what to keep, not just what you want</em> — gives it real constraints to work within instead of generating an idealized version of a room you don't have. It works any time you ask for advice: 'I want to change X, but Y and Z need to stay' produces sharper, more useful answers than a blank-slate request."
     }
+  },
+  "2026-08-11": {
+    "intro": "Today's drop covers a regulatory deadline that just moved, an AI bill that's starting to look like a utility bill, and a skill that's quietly losing its shine while a bigger one takes its place.",
+    "trends": [
+      {
+        "title": "The EU just gave everyone two more years on AI rules — don't waste them",
+        "body": "On August 2, the next phase of the EU AI Act was set to require strict oversight for AI used in hiring, essential services, and biometrics — but regulators pushed the deadline to <em>December 2, 2027</em> as part of a broader postponement <em>(Al Jazeera, August 2026)</em>. The delay isn't a retreat from AI oversight, just a pause button — and the companies that use this runway to build real governance now will be the ones not scrambling in 2027.",
+        "source_url": "https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt",
+        "slants": {
+          "strategy": "Use the extra runway to build your AI governance framework now, while there's no deadline pressure forcing rushed decisions.",
+          "leaders": "Get your team AI-risk literate this year so you're leading policy, not reacting to it, when enforcement actually lands.",
+          "operations": "Audit which of your team's AI-touching processes would fall into 'high-risk' categories, and fix the gaps before the clock restarts.",
+          "pm": "Add an AI-governance checkpoint to any project roadmap that extends past 2027, even if it feels early.",
+          "admin": "Start a simple log of which AI tools you use for which tasks — that habit pays off the moment documentation gets required."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Ask it: <em>\"List three ways AI could be used in a role like mine that would count as 'high-risk' under categories like employment decisions, essential services, or biometric data — explain each in plain language.\"</em>",
+            "Compare the list to how your team actually uses AI day to day.",
+            "Flag one task where you're not sure whether it counts — that's your gap to raise with a manager.",
+            "Share what you found in the group."
+          ]
+        }
+      },
+      {
+        "title": "Your AI tool just started sending you a bill that looks like a utility statement",
+        "body": "AI pricing is shifting from flat subscriptions to metered, pay-per-task charges — OpenAI's Business and Enterprise rate card now shows a spreadsheet task running <em>5 to 20 credits</em> and a PowerPoint task 10 to 50, with charging for PowerPoint tasks starting after August 6 <em>(Lilach Bullock, August 2026)</em>. Enterprise pricing experts note this shift is a governance decision, not just a purchasing one, because agent workflows can burn far more tokens than a simple chat.",
+        "source_url": "https://www.lilachbullock.com/ai-news-this-week-9-august-2026/",
+        "slants": {
+          "strategy": "Rebuild your AI cost forecasts around usage volume, not seat count — the budgeting math just changed.",
+          "leaders": "Ask your team which AI tasks are worth the metered cost and which ones were just convenient — that's now a real budget conversation.",
+          "operations": "Start tracking cost-per-task for AI-assisted work the way you'd track cost-per-unit for any other resource.",
+          "pm": "Build AI usage costs into project budgets as a line item instead of treating the tool as a fixed sunk cost.",
+          "admin": "Notice which repeated AI tasks you run most often — those add up fastest under metered pricing, and it's worth knowing which ones."
+        },
+        "challenge": {
+          "steps": [
+            "List three tasks you regularly hand off to AI.",
+            "Ask your company-approved AI tool: <em>\"For each of these three tasks, rate how much real value it delivers and how much time it saves me. Then tell me which one I'd keep doing manually if every AI request cost money like a utility bill.\"</em>",
+            "Read the answer and see if it matches your gut sense.",
+            "Pick one task to reconsider based on the response.",
+            "Share your result in the group."
+          ]
+        }
+      },
+      {
+        "title": "Writing a clever prompt just stopped being the impressive part",
+        "body": "As AI models get better at inferring intent from a single line, the specialized skill of prompt engineering is losing ground to something bigger: knowing when AI should touch a task at all and judging whether its output is actually right <em>(Bernard Marr, Forbes, January 2026)</em>. One recent analysis put it plainly: modern tools <em>can often infer the audience, tone, structure, and likely next steps</em> from minimal input, which shifts the real work to critical thinking, not wording <em>(HackerNoon, 2026)</em>.",
+        "source_url": "https://www.forbes.com/sites/bernardmarr/2026/01/20/why-prompt-engineering-isnt-the-most-valuable-ai-skill-in-2026/",
+        "slants": {
+          "strategy": "Shift training investment away from prompt tricks and toward teaching people to define goals, guardrails, and decision criteria for AI.",
+          "leaders": "Coach your team to ask 'should AI touch this at all?' before 'how do I word this better?' — that's the higher-value question now.",
+          "operations": "Standardize where human review sits in an AI workflow instead of fine-tuning prompt wording — that's where the real risk hides.",
+          "pm": "Define clear human sign-off points in any AI-assisted project step, since judgment matters more than the prompt that got you there.",
+          "admin": "Spend less time memorizing prompt formulas and more time getting sharp at spotting when an AI answer feels off."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a task you'd normally spend time carefully wording a prompt for.",
+            "Instead, give your AI tool a one-line, plain-language version of the request.",
+            "Then ask it: <em>\"What follow-up questions should you have asked me before answering, to get this right the first time?\"</em>",
+            "Compare its follow-up questions to what you actually needed — notice the gap.",
+            "Share what surprised you in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan something fun for once — not a spreadsheet in sight",
+      "body": "Pick a personal project you've been putting off — a weekend trip, a dinner party menu, or finally decoding that confusing utility bill — and try it in ChatGPT, Claude, Gemini, or Perplexity, all free to use.",
+      "prompt": "Ask me questions first before you give me any plan or answer — I want you to understand exactly what I need before you suggest anything. Here's what I'm working with: [describe your trip / meal / bill / project in a sentence or two]."
+    }
   }
 }
