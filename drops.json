@@ -4127,5 +4127,78 @@
       "body": "Everyone has one: a concept you smile and nod through in conversations but couldn't explain to someone else. How interest rates actually work, what a tariff does, how your retirement account grows, what blockchain is for. Tonight, try a technique that makes AI an unusually good teacher. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"Explain [your topic] to me at three levels of depth. Level 1: explain it like I'm hearing about it for the first time — use an everyday analogy and keep it to 2-3 sentences. Level 2: now add the key details someone would need to have an informed conversation about it. Level 3: go deeper — what do people who actually work with this concept understand that casual observers miss?\"<br><br>The technique — <em>asking for layered depth instead of a single explanation</em> — lets you stop at whatever level feels right and go deeper only when you're ready. It works for anything: a medical term your doctor used, a financial concept in the news, a technology you keep seeing in headlines. You control the depth; the AI provides the ladder."
     }
+  },
+  "2026-08-10": {
+    "intro": "Monday. This week the theme is orchestration — enterprise agents are going mainstream, one dashboard can now run them all, and adoption just hit record highs. The tools are lining up behind you.",
+    "trends": [
+      {
+        "title": "Enterprise AI agents are going fully mainstream",
+        "source_url": "https://agentic.ai/news",
+        "body": "AI agents just graduated from experiment to standard-issue teammate. Google made its Gemini Enterprise Agent Platform generally available, with agents that hold context for days, and Gartner projects <em>40% of enterprise apps will embed task-specific AI agents by the end of 2026, up from under 5% in 2025 (Gartner)</em>. The assistants inside your everyday tools are about to do far more of the heavy lifting for you.",
+        "slants": {
+          "strategy": "Agents becoming standard means the advantage shifts to teams that deploy them thoughtfully first — map now where a persistent agent could own a whole workflow before your competitors do.",
+          "leaders": "Your people are about to get always-on AI teammates, so start setting the norms for how your team hands work to them — early clarity turns a wave of new tools into a real edge.",
+          "operations": "Agents that keep context for days can carry multi-step processes you've had to babysit, so pick one recurring workflow to hand off and watch how much smoother it runs.",
+          "pm": "Persistent agents can track dependencies and follow up across days, expanding how many moving parts you can confidently keep in the air at once.",
+          "admin": "As agents become standard-issue, being the person who knows how to brief and steer them makes you indispensable across every team you support."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick one multi-step process you currently manage start to finish yourself.",
+            "Paste this prompt: <em>\"Here's a multi-step process I run regularly: [describe each step]. Act as an assistant that owns this workflow and show me how you'd handle it end to end, and what you'd need from me at each step.\"</em>",
+            "Run the next real instance of that process using its plan and note which steps it genuinely took off your plate.",
+            "Paste this follow-up: <em>\"Turn this into a reusable briefing I can hand you every time this comes up, including exactly what to check before you finish.\"</em>",
+            "Share your reusable briefing with the group so others can adapt it for their own workflows."
+          ]
+        }
+      },
+      {
+        "title": "One dashboard to run all your AI helpers",
+        "source_url": "https://sanalabs.com/agents-blog/ai-workflow-automation-agents-workday-sana-2026",
+        "body": "Juggling a dozen AI tools is about to get a lot simpler. Workday launched Sana, an \"AI operating system for work\" that lets teams build, orchestrate, and manage all their agents from a single interface, arriving just as <em>91% of businesses now use AI in at least one capacity, up from 78% in 2024 (2026 AI in the Workplace report)</em>. A unified control panel means less tool-switching and more getting things done.",
+        "slants": {
+          "strategy": "A single layer over all your AI tools makes capability easier to scale and govern, so think about standardizing how your team accesses agents rather than letting tools sprawl.",
+          "leaders": "One orchestration hub lets you see and shape how your team actually uses AI, turning scattered experiments into a coordinated advantage.",
+          "operations": "Running every agent from one place cuts the overhead of switching between tools, so consolidate your workflows and reclaim the friction you lose between apps.",
+          "pm": "A unified command center for AI means you can coordinate multiple assistants on a project the way you coordinate people, simplifying what used to be tangled.",
+          "admin": "Mastering one hub that controls every AI tool makes you the go-to person who keeps the whole team's stack running smoothly."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and list every separate AI feature or tool you currently bounce between in a week.",
+            "Paste this prompt: <em>\"Here are the different AI tools and features I switch between: [list them]. Help me design one simple, consistent workflow that covers most of these so I'm not constantly jumping around.\"</em>",
+            "Put that consolidated workflow into practice for a full day and note where the switching friction disappeared.",
+            "Paste this follow-up: <em>\"Refine this into a one-page routine I can follow every morning to run my whole day from one place.\"</em>",
+            "Share your one-page routine with the group so everyone can streamline their own tool sprawl."
+          ]
+        }
+      },
+      {
+        "title": "AI is quietly giving your week hours back",
+        "source_url": "https://azumo.com/artificial-intelligence/ai-insights/ai-in-workplace-statistics",
+        "body": "The clearest payoff of AI right now is time on your calendar. Workplace research shows AI is trimming <em>more than 3.5 hours of administrative work per week, with 58% of employees now using it regularly (2026 workplace statistics)</em>. Those reclaimed hours are yours to point at the work that actually moves things forward.",
+        "slants": {
+          "strategy": "Hours saved are only an advantage if they're redirected on purpose, so decide where your team's freed-up time should compound into bigger wins.",
+          "leaders": "With more than half your team already saving real time weekly, the leadership move is to channel those hours toward the high-judgment work only they can do.",
+          "operations": "The admin time AI is trimming is exactly the room you need for the process fixes you keep postponing, so claim it for one improvement this week.",
+          "pm": "A few hours back each week is space to get ahead of risks and stakeholders instead of reacting to them, widening how much of a project you can shape.",
+          "admin": "The routine work AI takes off your plate is your opening to step into the visible, higher-value tasks that raise your profile across the org."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool and pick the single most repetitive admin task in your week.",
+            "Paste this prompt: <em>\"This admin task eats a chunk of my week: [describe it]. Show me the fastest way to do it with your help, from start to finish, so it takes a fraction of the time.\"</em>",
+            "Do this week's version of that task the new way and write down exactly how many minutes you saved.",
+            "Paste this follow-up: <em>\"Now suggest one higher-value thing I could do with the time I just freed up, and help me take the first step today.\"</em>",
+            "Share with the group the task you sped up and how you're spending the time you got back."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Plan a stress-free weekend trip",
+      "body": "This one practices structured output — asking the AI to return its answer in a specific format so you get something you can act on immediately instead of a wall of text. Telling it the exact shape you want (a day-by-day table) makes the result far more useful.",
+      "prompt": "Plan a weekend trip for me and return it as a day-by-day itinerary table with columns for time, activity, and estimated cost. Here are the details: [paste your destination, dates, and budget here]"
+    }
   }
 }
