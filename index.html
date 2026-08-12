@@ -980,6 +980,76 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-12": {
+      intro: "Wednesday. Three patterns: AI is showing up inside the apps you already use, the companies winning the AI performance race are investing in people as much as technology, and your workforce plan needs a faster clock.",
+      trends: [
+        {
+          title: "AI is quietly arriving inside the tools you already use",
+          body: "Gartner projects that <em>40% of enterprise applications will feature task-specific AI agents by the end of 2026</em> \u2014 up from less than 5% in 2025. This isn't about downloading a new AI tool. Your CRM, project tracker, and office suite are all getting embedded agents that handle specific tasks inside the tool. The question is shifting from 'which AI tool should I try?' to 'what is the AI in my existing tools already doing?'",
+          slants: {
+            strategy: "Map which of your team's enterprise apps already have embedded AI features \u2014 the advantage isn't adopting new tools, it's knowing what the ones you're paying for can already do.",
+            leaders: "Your team is about to encounter AI features they didn't ask for inside tools they already use \u2014 proactively frame what's changing and why, before confusion fills the gap.",
+            operations: "Run an inventory of the AI features already active in your ops stack \u2014 some may be making decisions or drafting outputs your team hasn't reviewed yet.",
+            pm: "Add a standing question to project kickoffs: 'Which tools in this workflow have AI features turned on, and who's reviewing what they produce?'",
+            admin: "Check the AI assistant features in the tools you use daily \u2014 scheduling, drafting, sorting \u2014 and spend 10 minutes learning what they already do on your behalf."
+          },
+          challenge: {
+            steps: [
+              "List the five tools you use most often at work \u2014 your email client, project tracker, CRM, documents app, whatever's in your daily rotation.",
+              "Open your company-approved AI tool and paste: <em>\"I use these five tools at work: [list them]. For each one, tell me whether it has built-in AI features like agents, copilots, or smart assistants \u2014 and what those features actually do. Be specific about capabilities, not marketing language.\"</em>",
+              "Pick one tool from the list that has AI features you haven't explored yet.",
+              "Spend 10 minutes testing one of those features on a real task.",
+              "Share what you found \u2014 and which tool surprised you \u2014 in the group."
+            ]
+          }
+        },
+        {
+          title: "The companies pulling ahead on AI invest equally in people and performance",
+          body: "McKinsey's State of Organizations 2026 surveyed over 10,000 senior executives and found a pattern worth memorizing: <em>organizations that invest equally in people development and operational performance are four times more likely to sustain top-tier financial results</em>, grow revenue twice as fast, and carry half the earnings volatility. Most companies are overweighting the technology and underweighting the humans using it \u2014 and the financial data says that's the wrong ratio.",
+          slants: {
+            strategy: "Audit your AI budget split \u2014 how much goes to tools and infrastructure versus helping people learn to use them well? The 4x multiplier lives in the balance.",
+            leaders: "If your team's AI rollout has been mostly 'here's a new tool, figure it out,' the data says that approach leaves most of the value on the table.",
+            operations: "This validates what ops teams already know: deploying a tool without redesigning the workflow and training the people is a half-finished job.",
+            pm: "Build people readiness into every AI-related project plan as a real budget line \u2014 not a nice-to-have, but a driver of whether the project delivers.",
+            admin: "If your organization rolled out AI tools without enough training or support, that's not a you problem \u2014 it's a pattern McKinsey just put a number on."
+          },
+          challenge: {
+            steps: [
+              "Think about the last AI tool or feature your team adopted \u2014 Copilot, an AI assistant in your CRM, a drafting tool, whatever landed most recently.",
+              "Open your company-approved AI tool and ask: <em>\"My team recently adopted [name the tool or feature]. I'd estimate we spent roughly [your best guess] on the tool itself. How much should we have budgeted for training, workflow redesign, and change management to get full value? Give me a rough ratio and a short checklist of what 'people investment' should include.\"</em>",
+              "Compare the AI's suggestion to what actually happened with your rollout.",
+              "Identify one people-investment item that was skipped or underfunded.",
+              "Share what you'd do differently in the group \u2014 the patterns across teams are revealing."
+            ]
+          }
+        },
+        {
+          title: "Your workforce plan is updating too slowly for what's coming",
+          body: "Same McKinsey report, different alarm: <em>two-thirds of the skills organizations need within five years will be entirely different from those in demand today</em>. That pace makes annual workforce planning a rearview-mirror exercise. The recommendation: treat workforce planning like financial forecasting \u2014 quarterly, rolling, and scenario-based \u2014 so skill gaps get caught before they become crises.",
+          slants: {
+            strategy: "If your workforce plan updates once a year, it's projecting from assumptions that are already stale \u2014 shift to quarterly reviews with a rolling 12-month horizon.",
+            leaders: "Ask your team: what skills did you need this quarter that weren't on anyone's radar six months ago? The answer tells you whether your planning cadence is keeping up.",
+            operations: "Ops teams feel skill shifts first \u2014 when a new AI capability changes a process, the skills needed to run it change too, and annual plans can't catch that.",
+            pm: "Treat skill requirements as a living part of the project plan, not a fixed assumption \u2014 the same project may need different capabilities by the time it ships.",
+            admin: "The skills that make you valuable are shifting faster than any formal training program tracks \u2014 take ownership of your own learning plan and revisit it every quarter."
+          },
+          challenge: {
+            steps: [
+              "List the top 3 skills you rely on most at work right now.",
+              "Open your company-approved AI tool and paste: <em>\"I work as a [your role] and my top 3 skills right now are: [list them]. Based on how AI is changing work in my field, tell me which of these will still be in high demand in 3 years, which will decline in importance, and what 1\u20132 new skills I should start building now. Be specific and honest.\"</em>",
+              "Read the response and notice whether any of the 'declining' skills surprise you.",
+              "Pick one new skill from the suggestions and find one free way to start practicing it this week.",
+              "Share your skill audit in the group \u2014 the patterns across roles are where the real insights show up."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Build a stress toolkit that fits your actual schedule \u2014 not a wellness brochure.",
+        body: "Generic stress advice assumes you have an hour, a yoga mat, and a quiet room. Real life offers two minutes between obligations if you're lucky. Tonight, try a technique that makes AI advice usable: ask for options at different time scales, so you get something that fits no matter how much bandwidth you have. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I want a personal stress management toolkit \u2014 just for me, not work advice. Here's what my stress actually looks like: [describe it in a sentence \u2014 bad sleep, racing thoughts, too many decisions, a hard conversation I keep avoiding, whatever fits]. Give me three tiers: a 2-minute reset I can do anywhere, a 15-minute practice for evenings, and one weekly habit that builds resilience over time. For each tier, give me exactly one technique \u2014 not a list of five, just the single best one for someone like me.\"<br><br>The technique \u2014 <em>asking for tiered options by time commitment</em> \u2014 works any time generic advice falls flat because it ignores your actual life. Try it with exercise plans, cooking, learning a skill, or anything else where one-size-fits-all doesn't."
+      }
+    },
   "2026-08-11": {
       intro: "Today's drop covers a regulatory deadline that just moved, an AI bill that's starting to look like a utility bill, and a skill that's quietly losing its shine while a bigger one takes its place.",
       trends: [
