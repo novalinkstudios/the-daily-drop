@@ -980,6 +980,76 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-13": {
+      intro: "Thursday. Three patterns worth naming: the teams getting the most from AI are deliberate about which decisions they delegate, the AI projects that pay off measure outcomes instead of adoption, and the fastest path to scaling AI agents turns out to be governance.",
+      trends: [
+        {
+          title: "The teams getting the most from AI are treating decision-making as a skill, not a side effect",
+          body: "Deloitte's 2026 Global Human Capital Trends surveyed over 9,000 leaders and surfaced a gap worth naming: <em>60% of executives use AI in decision-making, but only 5% say they manage it well</em>. The risk isn't that AI makes bad calls. It's that nobody defined which decisions AI should touch, what level of autonomy it gets, or who's accountable when it's wrong. The companies pulling ahead are treating decision-making like a discipline \u2014 mapping decisions by stakes and reversibility before handing any of them to a machine.",
+          slants: {
+            strategy: "Map your team's decisions by stakes and reversibility \u2014 delegate the low-stakes, reversible ones first and keep human judgment on the rest.",
+            leaders: "The question to ask isn't \"does AI help us decide faster?\" \u2014 it's \"who's accountable when AI gets this one wrong?\"",
+            operations: "You're probably already delegating routine decisions to AI without calling it that \u2014 naming them makes the risk visible.",
+            pm: "Add a \"decision authority\" column to your project plans \u2014 which decisions are human-only, which are AI-assisted, which are AI-led.",
+            admin: "When you route a decision through AI, keep a one-line note of what it recommended and what you actually did \u2014 that trail protects you."
+          },
+          challenge: {
+            steps: [
+              "List three decisions you make regularly at work \u2014 one low-stakes, one medium, one that really matters.",
+              "Open your company-approved AI tool and paste: <em>\"Here are three decisions I make regularly: [list them with a sentence of context each]. For each one, tell me: should I delegate this to AI, use AI as an advisor, or keep it fully human? Explain the risk of getting that wrong for each.\"</em>",
+              "Read the output and compare it to how you're actually handling those decisions today \u2014 where's the mismatch?",
+              "Pick the one decision where your current approach and the AI's recommendation are furthest apart.",
+              "Share your decision map in the group \u2014 the patterns across roles reveal which decisions people are over- or under-delegating."
+            ]
+          }
+        },
+        {
+          title: "The AI projects that pay off all share one thing: they measured what matters",
+          body: "Gartner surveyed 782 I&O leaders and found that <em>only 28% of AI projects fully succeed and meet ROI expectations</em>, while 20% fail outright. The top reason for failure wasn't bad technology \u2014 it was expecting too much, too fast, and measuring activity instead of outcomes. The projects that pay off share a pattern: they connect AI to a business result during execution, not just in the pitch deck.",
+          slants: {
+            strategy: "Shift your AI metrics from adoption rates to business outcomes \u2014 usage tells you people logged in, not whether anything improved.",
+            leaders: "Before greenlighting the next AI initiative, ask: what specific outcome will we measure, and how will we know this worked in 90 days?",
+            operations: "If your AI project is tracking \"hours saved\" but nobody can point to what those hours went toward, the ROI is theoretical.",
+            pm: "Build measurable success criteria into the project charter before the pilot starts \u2014 retrofitting ROI metrics after launch rarely works.",
+            admin: "If an AI tool was rolled out to your team and nobody's checked whether it actually helped, you're in good company \u2014 but asking the question is worth doing."
+          },
+          challenge: {
+            steps: [
+              "Pick one AI tool or feature your team uses \u2014 Copilot, an AI assistant, a drafting tool, whatever's in your daily workflow.",
+              "Open your company-approved AI tool and paste: <em>\"My team uses [name the tool] for [describe the main use case]. Help me build a simple ROI check: What business outcome should this tool be improving? How would I measure it? What would 'success' look like after 90 days? Give me 3 specific, measurable indicators \u2014 not just 'productivity' or 'efficiency.'\"</em>",
+              "Compare the AI's suggested metrics to what your team is actually tracking (if anything).",
+              "Identify one metric you could start measuring this month without any new tools or processes.",
+              "Share your ROI check in the group \u2014 the gap between what teams measure and what matters is where the real conversation starts."
+            ]
+          }
+        },
+        {
+          title: "Good governance is turning out to be the fastest path to scaling AI agents",
+          body: "McKinsey's 2026 AI Trust Maturity Survey assessed roughly 500 organizations on their readiness for agentic AI \u2014 systems that plan, decide, and act on their own. The finding: <em>only 30% of organizations have reached maturity level 3 or higher in AI governance</em>, with an average score of 2.3 out of 5. Two-thirds cite security as the top barrier to scaling agentic AI. The gap between \"we use AI tools\" and \"we can govern AI that acts autonomously\" is where the real risk lives.",
+          slants: {
+            strategy: "Before your organization deploys AI agents, ask the hard question: who owns the decision when an agent acts on its own and gets it wrong?",
+            leaders: "Your team's governance maturity determines how fast you can safely adopt agentic AI \u2014 investing in governance now is investing in speed later.",
+            operations: "If an AI agent automates a process, you still need someone who understands that process well enough to know when the agent is wrong \u2014 don't automate away the expertise.",
+            pm: "Agentic AI in a project workflow means decisions happen without a meeting \u2014 make sure your governance framework covers who reviews those decisions and when.",
+            admin: "As AI tools start acting more independently, keep a log of what they do automatically \u2014 that visibility is your safety net when something goes sideways."
+          },
+          challenge: {
+            steps: [
+              "Think about one process in your work where AI already makes or recommends a decision without a human reviewing every instance.",
+              "Open your company-approved AI tool and paste: <em>\"I work as a [your role]. Here's a process where AI acts with some autonomy in my work: [describe it]. Help me build a quick governance check: Who's accountable if it's wrong? How would someone spot a problem? What should be logged? What's the escalation path?\"</em>",
+              "Read the output and ask yourself: does your team actually have clear answers to those four questions today?",
+              "Pick the one governance gap that feels most urgent \u2014 the one where a mistake would be hardest to catch or fix.",
+              "Share your governance check in the group \u2014 comparing across roles reveals which risks are most overlooked."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Build an emergency kit list that actually fits your household \u2014 not the internet's generic version.",
+        body: "Most emergency prep advice is written for a hypothetical family of four in a suburb. Your actual situation \u2014 your climate risks, your living space, your household, your budget \u2014 changes what you need. Tonight, try a technique that makes generic AI advice specific: give it your real constraints and ask it to prioritize by what's actually likely and actually consequential. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I live in [your area \u2014 e.g., 'the Gulf Coast,' 'an apartment in a northern city,' 'a house in wildfire country'] with [who lives with you \u2014 partner, kids, pets, just me]. My budget for emergency prep is around $[amount]. Based on the actual risks where I live, build me a prioritized emergency kit list \u2014 rank items by how likely I'll need them times how bad it would be without them. Skip anything generic that doesn't apply to my situation. Then give me the top 3 things to do this weekend to be meaningfully more prepared.\"<br><br>The technique \u2014 <em>asking AI to prioritize by likelihood times consequence instead of giving a generic list</em> \u2014 works whenever you need advice tailored to your actual risk profile. Try it with health decisions, financial planning, home maintenance, or anything else where one-size-fits-all advice wastes your time."
+      }
+    },
   "2026-08-12": {
       intro: "Wednesday. Three patterns: AI is showing up inside the apps you already use, the companies winning the AI performance race are investing in people as much as technology, and your workforce plan needs a faster clock.",
       trends: [
