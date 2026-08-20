@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-19": {
+      intro: "Wednesday. Three things worth knowing today: the people absorbing the most AI pressure aren't who you'd guess, a new word just landed for a problem everyone recognizes, and the most valuable AI skill just shifted under your feet.",
+      trends: [
+        {
+          title: "Middle managers are becoming AI's most important quality layer",
+          body: "Harvard Business Review studied AI adoption across organizational levels and found a pattern that should concern every org chart: <em>AI is elevating juniors and seniors while overloading middle managers</em>. Junior employees are seeing dramatic productivity gains. Senior leaders are expanding strategic scope. But middle managers are stuck in a new layer of invisible work \u2014 validating AI outputs, catching low-quality AI-generated content, coaching their teams on when and how to use AI \u2014 all while facing unchanged delivery pressure and no formal support.",
+          slants: {
+            strategy: "When you're planning AI rollouts, budget for the middle \u2014 the managers who'll validate, coach, and quality-check everything the tool produces.",
+            leaders: "If your managers seem stretched, check whether AI added responsibilities without removing any. The answer is almost always yes.",
+            operations: "The quality-check layer between AI output and final deliverable usually lands on one person. Make sure that person has time and authority to do it well.",
+            pm: "Your project timelines assume AI speeds things up \u2014 but if a manager is reviewing every AI-assisted output, the bottleneck just moved, not disappeared.",
+            admin: "If you're the person who catches the errors AI introduced before they reach a client or executive, that role just became more important \u2014 and worth naming."
+          },
+          challenge: {
+            steps: [
+              "Think about your own role for a moment: are you producing AI-assisted work, reviewing it, or both?",
+              "Open your company-approved AI tool and paste: <em>\"I'm a [your role] and I've noticed that AI tools have added new responsibilities to my plate \u2014 things like reviewing AI-generated drafts, coaching colleagues on AI use, or validating AI outputs for accuracy. List the 5 most common hidden tasks that AI adoption creates for people in roles like mine, and for each one, suggest whether it should stay with me, be shared, or be built into a team process.\"</em>",
+              "Review the list. How many of those hidden tasks are you already doing without anyone naming them?",
+              "Share your count in the group \u2014 the pattern will show where the invisible AI workload is landing."
+            ]
+          }
+        },
+        {
+          title: "Teams are raising the bar on AI output \u2014 and now there's a word for what falls short",
+          body: "Researchers at Stanford and BetterUp Labs coined a term for the polished-looking AI output that doesn't actually move work forward: <em>workslop</em>. Their survey of 1,150 U.S. desk workers found it everywhere: <em>40% had received workslop in just the past month</em>, and the average worker estimates 15% of all work they receive is AI-generated filler. The cost isn't just wasted time \u2014 1.8 hours per instance on average \u2014 it's trust. Over half of recipients said they viewed the sender as less reliable afterward.",
+          slants: {
+            strategy: "The fastest way to erode confidence in an AI initiative is to let the output quality slide. Set a visible standard: if it wouldn't clear review without AI, it doesn't clear review with it.",
+            leaders: "If your team is producing more but the quality feels thinner, you're probably looking at workslop. Name it, set the bar, and give people permission to send less but send better.",
+            operations: "Every piece of workslop triggers a review-revise-redo cycle. One clear quality gate before handoff saves more time than the AI generated in the first place.",
+            pm: "When a deliverable arrives fast and polished but the substance is shallow, that's a project risk \u2014 not a productivity win. Build in a quick substance check before marking it complete.",
+            admin: "Your instinct for 'this reads fine but something's off' is exactly the skill that catches workslop. Trust that instinct \u2014 it's more valuable now than ever."
+          },
+          challenge: {
+            steps: [
+              "Think about the last piece of AI-assisted work someone sent you \u2014 a draft, a summary, an analysis, anything.",
+              "Open your company-approved AI tool and paste: <em>\"I received a [type of document] from a colleague that may have been AI-generated. What are 5 specific signs that a work product is workslop \u2014 AI-generated content that looks polished but lacks real substance? Give me a quick checklist I can use in under 2 minutes.\"</em>",
+              "Apply the checklist retroactively to that piece of work. How many signs did it hit?",
+              "Share your checklist and your score in the group \u2014 building a shared vocabulary for quality makes everyone's work better."
+            ]
+          }
+        },
+        {
+          title: "The most valuable AI skill just changed \u2014 and it's one you already have",
+          body: "Gartner declared it plainly: <em>context engineering is in, prompt engineering is out</em>. The shift means the most valuable skill for working with AI is no longer crafting the perfect question \u2014 it's giving AI the right background before you ask. Domain knowledge, organizational context, the history behind a decision, the constraints nobody wrote down \u2014 the people who share those things with AI get dramatically better results than anyone optimizing their phrasing.",
+          slants: {
+            strategy: "Your institutional knowledge just became an AI multiplier. The person who can explain why a decision was made \u2014 not just what was decided \u2014 gets better AI output than any prompt template.",
+            leaders: "Stop sending your team to prompt engineering workshops. Start asking: 'What context would AI need to do this well?' That question unlocks real value.",
+            operations: "The operator who knows why a process exists \u2014 not just how to run it \u2014 can give AI context that transforms generic output into something actually useful.",
+            pm: "Before your team prompts AI, have them answer one question: 'What does AI not know about this situation that would change its answer?' That's context engineering in one sentence.",
+            admin: "The background knowledge you carry \u2014 who needs what, why things are done a certain way, what the real priorities are \u2014 is exactly the context that makes AI useful instead of generic."
+          },
+          challenge: {
+            steps: [
+              "Pick a task you've used AI for recently where the output was decent but generic \u2014 a draft, a plan, an analysis that needed heavy editing.",
+              "Open your company-approved AI tool and try it again, but this time front-load the context: <em>\"Before I ask you anything, here's what you need to know: [describe the background \u2014 who the audience is, what's been tried before, what constraints exist, why this matters, what the real goal is]. Now, with that context: [your original request].\"</em>",
+              "Compare the two outputs side by side. How much closer did the context-rich version land to what you actually needed?",
+              "Share the before-and-after difference in the group \u2014 the gap is usually larger than people expect."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Find the subscriptions you forgot you're paying for.",
+        body: "Everyone has them \u2014 the streaming service you signed up for one show, the app trial that converted, the annual renewal you meant to cancel. Most subscription audits fail because you only review what you remember. Tonight, try a technique that fixes that: ask AI to find what you missed. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I want to audit my recurring subscriptions and memberships. Here are the ones I know about: [list everything you can think of \u2014 streaming, apps, gym, software, deliveries, memberships, insurance add-ons, whatever]. Now: what am I probably forgetting? List the 10 most commonly forgotten subscription categories for someone like me, and ask me yes or no for each one.\"<br><br>The technique \u2014 <em>asking AI to surface what you haven't thought of</em> \u2014 turns it from a calculator into an auditor. It works for any blind-spot problem: risks you haven't considered, stakeholders you forgot to loop in, steps you skipped in a plan. The best AI results come not from better questions, but from asking AI to find the questions you didn't ask."
+      }
+    },
   "2026-08-18": {
       intro: "Today's themes all point the same direction: as AI takes over more of the doing, the value shifts to judgment, orchestration, and knowing how to direct a finished result instead of just a draft.",
       trends: [
