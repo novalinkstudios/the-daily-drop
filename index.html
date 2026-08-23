@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-22": {
+      intro: "Three patterns worth your attention: the AI investment that actually pays off targets expertise bottlenecks most teams overlook, a new approach to scaling professional knowledge just landed in production, and the barrier that kept sensitive work away from AI is falling fast.",
+      trends: [
+        {
+          title: "Your middle office is AI's biggest untapped opportunity",
+          body: "HBR examined why heavy AI investment isn't translating to results and found a clear answer: most companies are overlooking expertise-heavy processes like contract review, compliance, and risk management. Research linking AI adoption surveys to payroll data found that <em>the effect on earnings and hours after two years of broad AI rollouts was statistically indistinguishable from zero</em>. The fix: target processes where difficult cases still get handed to specialists, build AI that learns from those experts as they work, and redirect freed time to higher-value decisions (HBR, August 2026).",
+          slants: {
+            strategy: "The biggest AI ROI sits in expertise bottlenecks \u2014 processes where tough calls queue up for specialists. Map those before greenlighting another chatbot rollout.",
+            leaders: "Direct your next AI investment toward where your best people spend time on routine escalations. The leverage is freeing their judgment for harder problems, not replacing it.",
+            operations: "Audit where difficult cases pile up waiting for an expert. Those queues are your highest-value AI targets \u2014 far more impactful than speeding up tasks that were already fast.",
+            pm: "Scope your next AI project around measurable escalation reduction rather than time-saved. That framing connects AI output to business results leaders actually fund.",
+            admin: "The expertise you've built \u2014 knowing which cases are routine and which need a specialist \u2014 is exactly the judgment AI needs to learn from. That pattern recognition makes you central to how AI gets deployed well."
+          },
+          challenge: {
+            steps: [
+              "Think about your work over the past two weeks. Identify one process where a difficult case had to be escalated to someone more senior or specialized.",
+              "Write down what made it difficult \u2014 ambiguity, risk, unusual circumstances, missing information, or something else?",
+              "Open your company-approved AI tool and paste: <em>\"In my role as a [your role], we regularly escalate [type of case] to specialists when [what makes it difficult]. Help me identify: (1) what patterns in these escalations could AI learn to handle or pre-sort, (2) what should always stay with a human expert, and (3) how the specialist's time could be redirected to higher-value work if routine escalations dropped by half.\"</em>",
+              "Review the response \u2014 does it match your intuition about where the real expertise bottleneck lives?",
+              "Share your escalation pattern and one insight in the group \u2014 the variety across roles shows where AI has the most room to help."
+            ]
+          }
+        },
+        {
+          title: "Expert knowledge is becoming scalable \u2014 without losing the judgment behind it",
+          body: "Axios reports that Twin1 AI emerged from stealth with $20 million in funding to build AI systems that preserve and scale individual professionals' expertise across an organization. Unlike generic assistants, these digital twins are <em>grounded in the user's actual work context \u2014 emails, meetings, documents, decisions \u2014 preserving the judgment, relationships, and institutional knowledge</em> that make specialists irreplaceable. Already deployed with professional services firms including Linklaters and Orrick, the model points toward a future where growing an organization's capability doesn't always require growing headcount (Axios, August 2026).",
+          slants: {
+            strategy: "Institutional knowledge is a strategic asset that walks out the door every time someone leaves. Building systems that capture and scale specialist judgment protects that investment.",
+            leaders: "Develop your team by making senior expertise accessible to junior members through structured knowledge capture \u2014 not just shadowing or documentation, but systems that preserve how your best people think.",
+            operations: "Identify the one or two people whose absence creates an immediate bottleneck. Their expertise is your scaling constraint \u2014 and now there are concrete approaches to extending it.",
+            pm: "Projects slow down when they depend on one specialist's availability. Building the team's collective expertise into accessible systems reduces single-point-of-failure risk on every timeline.",
+            admin: "The institutional knowledge you carry \u2014 who to call, how things actually work, what the real priorities are \u2014 is exactly the kind of expertise organizations are learning to value and scale."
+          },
+          challenge: {
+            steps: [
+              "Think about the one person in your team or department who everyone goes to for a specific kind of question. What do they know that isn't written down anywhere?",
+              "Open your company-approved AI tool and paste: <em>\"On my team, one person is the go-to expert for [describe their specialty]. The knowledge they carry that isn't documented includes [list what you can \u2014 context, relationships, judgment calls, history]. Help me design a lightweight system to capture and share this expertise: what questions should I ask them, how should the answers be structured, and where should the knowledge live so others can access it without always interrupting the expert?\"</em>",
+              "Try one element of the system this week \u2014 even a single documented decision framework counts.",
+              "Share what you learned about capturing expertise in the group \u2014 the challenge of preserving judgment, not just facts, is universal."
+            ]
+          }
+        },
+        {
+          title: "The trust barrier keeping sensitive work off AI just dropped",
+          body: "OpenAI announced zero data retention for its frontier models, meaning eligible enterprise customers' <em>prompts and responses are not retained after processing and are not available to OpenAI personnel or used for training</em>. For teams that have been cautious about running contracts, strategy documents, or financial analyses through AI, this removes the most commonly cited objection. The broader signal: AI providers are now competing on enterprise trust, and organizations that limited AI to low-stakes tasks can begin expanding into work where the leverage is highest (OpenAI, August 2026).",
+          slants: {
+            strategy: "Revisit your AI governance framework \u2014 the categories of work you classified as too sensitive for AI may need updating now that zero-retention options exist at the frontier tier.",
+            leaders: "If your team avoids AI for anything involving client data or strategy, update the conversation. The privacy landscape shifted \u2014 check whether your guidelines still reflect the actual risk.",
+            operations: "Processes involving sensitive documents \u2014 contracts, compliance reviews, vendor assessments \u2014 that were excluded from AI pilots can now be reconsidered with zero-retention guarantees in place.",
+            pm: "Project deliverables that touch confidential data no longer need to be carved out of AI-assisted workflows by default. Check with your security team whether updated policies open new scope.",
+            admin: "Sensitive communications and documents you handle \u2014 executive scheduling, contract routing, confidential correspondence \u2014 may now be fair game for AI assistance under updated data policies. Ask your IT team what's changed."
+          },
+          challenge: {
+            steps: [
+              "Think about one task you regularly do at work where you avoid AI because the content feels too sensitive \u2014 a contract, a personnel matter, a strategy document, anything.",
+              "Open your company-approved AI tool and paste: <em>\"I work as a [your role]. I currently avoid using AI for [describe the sensitive task] because of data privacy concerns. Without me sharing any actual sensitive content, help me think through: (1) what questions I should ask my IT or security team about our AI data policies, (2) what a safe pilot would look like if the policies allow it, and (3) what guardrails I should put in place even with zero-retention guarantees.\"</em>",
+              "Review the questions it generates \u2014 bring one or two to your IT team this week.",
+              "Share which category of sensitive work you'd most like to bring AI into \u2014 and what's holding you back \u2014 in the group. The patterns reveal where organizations can unlock the most value."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Find your next great book in 5 minutes flat.",
+        body: "End-of-summer reading lists are everywhere, but most of them are generic. Tonight, skip the bestseller lists and let AI interview you instead. Use any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"Before you recommend anything, interview me. Ask me 5 questions about what I've read and enjoyed recently, what I'm in the mood for right now, and what I absolutely don't want. Then, based only on my answers, give me 3 book recommendations ranked by how confident you are I'll love them. For each one, tell me in one sentence why it fits what I told you.\"<br><br>The technique \u2014 <em>asking AI to interview you before it answers</em> \u2014 works for any recommendation problem. Restaurants, podcasts, gifts, vacation destinations, even career moves. When you let AI gather context first instead of guessing from a one-line request, the quality of its answers jumps dramatically. You're teaching it to think like a good friend who knows you, not a search engine ranking by popularity."
+      }
+    },
   "2026-08-21": {
       intro: "Friday. Three things to carry into the weekend: the companies getting the most from AI are aiming it somewhere most aren't, the readiness gap has a fix that's simpler than you'd think, and the teams pulling ahead are designing something most haven't started yet.",
       trends: [
