@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-23": {
+      intro: "Three signals heading into a new week: a model that maps where AI value is compounding, a tooling shift that makes multi-model AI strategies practical, and a change in how leaders talk about AI and teams that tells you more than any forecast.",
+      trends: [
+        {
+          title: "A new model shows which capabilities AI will grow \u2014 and which it will compress",
+          body: "Forrester released a model this week scoring more than 200 technology and service markets on how AI will reshape them. The pattern is clear: <em>skills-based services like consulting, implementation, and creative work face the most pressure</em>, while categories focused on AI governance, security, and enablement are positioned to grow. The useful question isn't whether AI will affect your work \u2014 it's whether the specific value you deliver is in a compounding category or a compressing one.",
+          slants: {
+            strategy: "Map your team's deliverables against the model's four categories. The exercise isn't about predicting headcount changes \u2014 it's about knowing where to invest next.",
+            leaders: "If your team delivers skills-based services internally, start the conversation about expanding into governance and enablement before someone else frames it for you.",
+            operations: "Process governance, compliance tracking, and documentation moved from overhead to growth category in Forrester's model. That's a shift worth owning.",
+            pm: "Projects that build AI governance and enablement infrastructure are entering a stronger funding environment. Know which of yours qualifies.",
+            admin: "Coordinating AI tools across teams, tracking vendor compliance, managing rollout logistics \u2014 those are growing service categories in this model, not shrinking ones."
+          },
+          challenge: {
+            steps: [
+              "Pick one deliverable your team regularly produces \u2014 an internal report, a recurring analysis, a process you manage.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I deliver [describe the deliverable] for my organization. Evaluate whether AI is more likely to compress this service's value (because AI can replicate the underlying skill) or compound it (because it enables, governs, or secures AI adoption). Give me your reasoning in three bullets.\"</em>",
+              "Read the response and note whether you agree with the assessment.",
+              "Share your deliverable, its likely trajectory, and whether you agreed with AI's reasoning in the group."
+            ]
+          }
+        },
+        {
+          title: "The case for using more than one AI model just got easier to make",
+          body: "Ramp launched an AI model router this week that lets organizations switch between models from OpenAI, Anthropic, and others through a single API \u2014 optimizing for cost, speed, or quality per task. Companies already using it have <em>reduced AI inference costs by 40% on average</em> without changing output quality. The bigger signal: the tooling layer between your team and AI providers is maturing fast. Picking one AI vendor is becoming less important than knowing which tasks need which model tier (TechCrunch, August 2026).",
+          slants: {
+            strategy: "A multi-model strategy reduces vendor lock-in and lets you optimize AI spending per use case. If your current approach is one vendor for everything, that's leaving money and capability on the table.",
+            leaders: "Don't force your team to pick one AI tool. The routing layer means each workflow can use what works best \u2014 and switching costs just dropped to near zero.",
+            operations: "Model routing turns AI vendor management from a procurement decision into an optimization problem. Match simple tasks to cheaper models and complex ones to frontier models.",
+            pm: "A 40% cost reduction on AI inference means more projects clear the ROI threshold. Revisit any AI initiative that stalled on unit economics.",
+            admin: "You don't need to become an expert in every AI tool. Routing services handle model selection automatically \u2014 your job is knowing which tasks to send through the system."
+          },
+          challenge: {
+            steps: [
+              "List three tasks your team currently uses AI for (or could). Categorize each as simple (summarizing, formatting), medium (drafting, analyzing), or complex (strategy, multi-step reasoning).",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I have three AI tasks at different complexity levels: simple ([describe]), medium ([describe]), and complex ([describe]). For each, recommend whether I need a frontier model or whether a faster, cheaper model would produce the same quality. Explain what I'd gain and lose by matching model tier to task complexity.\"</em>",
+              "Look at the response \u2014 does it change your assumption about needing the most powerful model for everything?",
+              "Share your three tasks and which model tier AI recommended for each in the group."
+            ]
+          }
+        },
+        {
+          title: "Leaders are learning a better way to talk about AI and teams",
+          body: "Axios reports a notable shift in how executives frame AI and workforce decisions. Where early adopters led with replacement metrics \u2014 Klarna's CEO publicly boasted AI was doing the work of 700 agents \u2014 the new playbook separates AI adoption from headcount messaging. Patreon's CEO frames restructuring as strategic, not AI-driven; Microsoft's chief people officer states that eliminated roles are 'not being replaced by AI.' <em>The shift reflects a hard-won lesson: how you communicate AI's role in your organization shapes whether your team sees opportunity or threat</em> (Axios, August 2026).",
+          slants: {
+            strategy: "Your AI communication strategy is itself a strategic asset. How you frame AI internally determines whether your best people lean in or start updating their resumes.",
+            leaders: "Separate the AI story from the headcount story \u2014 not because they're unrelated, but because combining them tells your team the wrong thing about their future.",
+            operations: "When you communicate process changes involving AI, lead with what's expanding \u2014 scope, quality, speed \u2014 rather than what's shrinking. The framing shapes adoption.",
+            pm: "How you introduce AI-augmented workflows to project teams sets the tone. Position the tool as a capability upgrade for the team, not a signal about future staffing.",
+            admin: "When new AI tools arrive in your workflow, you're often the first to notice how they're described internally. If the messaging feels threatening rather than empowering, flag it \u2014 your perspective shapes how the rest of the team receives it."
+          },
+          challenge: {
+            steps: [
+              "Think about how AI has been introduced or discussed in your organization \u2014 in emails, town halls, or team meetings. Was the framing positive, neutral, or anxiety-inducing?",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I'm a [your role] and my organization is adopting AI tools for [describe one area]. Help me write a two-paragraph internal message to my team introducing this change. The message should: (1) be honest about what's changing, (2) emphasize how this makes their work better rather than smaller, and (3) invite questions instead of shutting them down.\"</em>",
+              "Review the draft. Does it sound like something your team would trust \u2014 or does it read like corporate spin?",
+              "Share your draft or key phrases in the group \u2014 seeing how different roles frame the same kind of change is the most useful part."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Your Monday morning routine could use a second opinion.",
+        body: "The start of a new week is when most people think about how their mornings should go \u2014 and then do the same thing they did last week. Tonight, try something different with a free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"Here's my typical Monday morning routine, from alarm to starting work: [describe yours honestly \u2014 including the parts you're not proud of]. Suggest a better version that gets me to my desk more focused and less rushed. Then argue against your own suggestion \u2014 what might not actually work for someone with my real constraints?\"<br><br>That second step \u2014 <em>argue against your own suggestion</em> \u2014 is one of the most useful prompting habits you can build. It pushes AI past the polished 'ideal day' answer and into advice that fits your actual life."
+      }
+    },
   "2026-08-22": {
       intro: "Three patterns worth your attention: the AI investment that actually pays off targets expertise bottlenecks most teams overlook, a new approach to scaling professional knowledge just landed in production, and the barrier that kept sensitive work away from AI is falling fast.",
       trends: [
