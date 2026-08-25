@@ -980,6 +980,140 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-25": {
+      intro: "Three patterns worth watching this week: AI is saving workers a full day but most organizations have no plan for it, governing AI agents is harder than building them, and the productivity multiplier from daily AI practice now has a number behind it.",
+      trends: [
+        {
+          title: "AI saves workers a full day each week \u2014 but most organizations have no plan for what to do with it",
+          body: "BCG's fourth annual AI at Work survey of nearly 12,000 workers found that <em>42% of regular AI users save a full workday each week</em>. But the strategy gap is stark: 66% report getting limited or no guidance on how to use the time saved. Companies with a clear AI strategy see 25 percentage points more impact \u2014 while simply buying better tools adds only 5. The bottleneck isn't adoption. It's direction (BCG, June 2026).",
+          slants: {
+            strategy: "You're the person who defines what freed-up time gets redirected toward. Without that answer, the productivity gains evaporate into busywork.",
+            leaders: "Ask your team what they're doing with the time AI is saving them. If the answer is more of the same, the strategy needs work.",
+            operations: "The time savings are real \u2014 42% report gaining a full day back. The ops question is whether that time is being reallocated to higher-value work or absorbed by more meetings.",
+            pm: "If AI is saving your team a day per week, your project timelines and capacity models should reflect it. Otherwise you're planning around the old math.",
+            admin: "When AI saves time in your workflow, deciding what to do with it is your call \u2014 not a policy someone else writes. That's a real opportunity to take on higher-value work."
+          },
+          challenge: {
+            steps: [
+              "Estimate how much time AI saves you personally each week \u2014 even a rough guess counts. Is it 30 minutes? Two hours? A full day?",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I save approximately [X hours per week] using AI at work. Right now, that time goes to [describe what you currently do with it]. Suggest three higher-value ways I could redirect that time based on my role as a [your role], ranked by strategic impact.\"</em>",
+              "Pick the suggestion that surprised you most and try redirecting your saved time there for one day this week.",
+              "Share your time estimate and where you're redirecting it in the group \u2014 the variety of answers is always eye-opening."
+            ]
+          }
+        },
+        {
+          title: "Gartner's first Hype Cycle for Agentic AI puts governance at the center",
+          body: "Gartner published its first-ever Hype Cycle dedicated to agentic AI, mapping over 30 technologies \u2014 and the standout finding isn't about capability. It's about control. <em>Only 17% of organizations have deployed AI agents, but over 60% plan to within two years.</em> Gartner predicts more than 40% of those projects will be canceled by end of 2027, primarily because organizations deployed agents without a governance plan, not because the technology failed (Gartner, 2026).",
+          slants: {
+            strategy: "Before your organization scales AI agents, someone needs to own the governance framework. If that person doesn't exist yet, that's a strategic gap worth raising now.",
+            leaders: "Define the guardrails before the pilot ends. An agent that sends a client communication or writes to a production system without a human checkpoint is a different risk profile than a chatbot.",
+            operations: "Your SOPs for AI tools need a new chapter. An agent that executes tasks autonomously requires different controls than a tool that suggests answers for a human to review.",
+            pm: "Agentic AI projects need a governance milestone before the deployment milestone. Building it into the plan early avoids the retrofit when compliance calls.",
+            admin: "If your team is experimenting with AI agents, tracking which ones have access to which systems is already part of your coordination work \u2014 and it's becoming more valuable, not less."
+          },
+          challenge: {
+            steps: [
+              "List the AI tools your team currently uses that can take actions on their own \u2014 sending emails, updating records, scheduling meetings, or generating documents without a human clicking approve.",
+              "For each one, note whether there's a formal policy governing what it can and can't do.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I have [number] AI tools that can take autonomous actions in my workflow. Help me draft a simple one-page governance checklist: what should each tool be allowed to do, what requires human approval, and who owns the policy?\"</em>",
+              "Share your checklist draft or your count of ungoverned tools in the group \u2014 the total is usually higher than anyone expects."
+            ]
+          }
+        },
+        {
+          title: "AI super-users are 5x more productive \u2014 and the pattern behind it is surprisingly simple",
+          body: "Writer's 2026 enterprise survey of 2,400 workers and executives found that <em>AI super-users are 5x more productive than their peers</em>, and 92% of C-suites are actively investing in developing this group. But the gains aren't spreading evenly: only 29% of organizations see significant ROI from AI overall, because the productivity boost concentrates in the people who've built a daily habit \u2014 not those who tried it once and moved on (Writer, 2026).",
+          slants: {
+            strategy: "The ROI gap isn't a technology problem \u2014 it's a practice problem. Organizations seeing returns are the ones where AI use became a daily habit, not a quarterly experiment.",
+            leaders: "Identify your team's early AI adopters and give them a visible role: mentoring one colleague each. Peer learning scales the productivity gains faster than any formal training program.",
+            operations: "A small ops team using AI daily can outperform a larger team that isn't. That changes how you think about capacity planning and headcount requests.",
+            pm: "If some team members are 5x more productive with AI than others, your resource estimates need to account for that variance \u2014 or you'll consistently mis-scope.",
+            admin: "You don't need to become a power user overnight. The pattern in the data is clear: the people who got productive started with one task, got comfortable, then expanded. Start with one."
+          },
+          challenge: {
+            steps: [
+              "Rate your own AI fluency honestly: <em>\"Never used it\"</em>, <em>\"Tried it once or twice\"</em>, <em>\"Use it weekly\"</em>, or <em>\"Use it daily.\"</em>",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I'm a [your role] who currently uses AI [your frequency]. Give me one specific task I do regularly that I could start doing with AI this week, and write me the exact prompt I'd use to get started.\"</em>",
+              "Try the AI-generated prompt on that one task before the end of the day.",
+              "Share your starting fluency level and the task you tried in the group \u2014 the mix of starting points is always wider than people expect."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Tonight, let AI play sleep coach \u2014 and find out what your evening routine is actually doing to your rest.",
+        body: "Most of us know we should sleep better but aren't sure which specific habits are helping and which are quietly working against us. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity) and try this:",
+        prompt: "\"Act as a sleep scientist. Here's what my typical evening looks like from dinner to bedtime: [describe your routine \u2014 when you eat, screen time, caffeine cutoff, what you do in the last hour, when you go to bed, when you wake up]. Based on the research, tell me which two habits are working for me and which two are most likely hurting my sleep quality. Then give me one small change I can try tonight.\"<br><br>That opening line \u2014 <em>act as a sleep scientist</em> \u2014 is called a persona prompt. It focuses the AI's response through a specific lens of expertise, so you get targeted advice instead of generic tips. Try swapping in other roles: act as a nutritionist, act as a financial planner, act as a patient teacher."
+      }
+    },
+  "2026-08-24": {
+      intro: "Three patterns to start your week: strategy is becoming a system you design rather than a meeting you survive, your team's AI tools have outgrown your governance, and the training gap holding back AI adoption is simpler to fix than most leaders think.",
+      trends: [
+        {
+          title: "Strategy is becoming a system \u2014 and your role in it is shifting",
+          body: "HBR's August issue argues that AI isn't just a tool for executing strategy \u2014 it's reshaping how strategy gets made. The key insight: AI <em>expands the capacity of the strategy-making system itself</em> by widening the option set, stress-testing plans through structured debate free from internal politics, and maintaining richer competitive models than any planning team could build alone. The shift for strategists is clear: less time building baseline analyses, more time exercising the judgment that determines which options actually fit your organization (HBR, August 2026).",
+          slants: {
+            strategy: "Your value is moving from building the strategic analysis to pressure-testing AI-generated options against organizational realities only you understand.",
+            leaders: "Give your strategy team access to AI scenario-planning tools \u2014 the advantage isn't having better data, it's exploring more options before committing.",
+            operations: "AI can maintain continuously updated competitive and market models. The quarterly strategy refresh can become a living process instead of a last-minute scramble.",
+            pm: "Strategic planning cycles are compressing. Projects that depend on annual planning approvals need a faster path as AI-assisted strategy becomes more iterative.",
+            admin: "When strategy meetings shift from presenting analyses to debating AI-generated options, meeting prep changes too \u2014 framing the right questions matters more than formatting the right deck."
+          },
+          challenge: {
+            steps: [
+              "Think about one strategic decision your team is currently weighing or recently made \u2014 a resource allocation, a process change, a new initiative.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"We're deciding whether to [describe the decision]. Generate five alternative approaches we haven't considered, then argue against the two strongest options from the perspective of a skeptical executive.\"</em>",
+              "Review the alternatives. Did AI surface an option your team hadn't discussed?",
+              "Share the most surprising alternative in the group \u2014 and whether the counterargument changed your thinking."
+            ]
+          }
+        },
+        {
+          title: "Your team already adopted AI \u2014 now you can turn that into a strategic advantage",
+          body: "Zylo's 2026 SaaS Management Index found that the average organization now spends <em>$1.2 million a year on AI-native applications \u2014 up 108% year over year</em>. But the real finding is what IT doesn't see: 77% of IT leaders discovered AI-powered tools and features they didn't know their teams were using, and 78% reported unexpected charges tied to AI consumption. The gap between AI adoption and AI governance isn't closing \u2014 it's widening (Zylo, 2026).",
+          slants: {
+            strategy: "Untracked AI spending is a strategic blind spot. You can't optimize what you can't measure \u2014 and right now, most organizations can't see a third of their AI footprint.",
+            leaders: "Your team is already using AI tools you haven't approved. The practical question isn't whether to allow it \u2014 it's whether to govern it before the next budget review surfaces surprises.",
+            operations: "Audit your team's actual AI tool usage before the next renewal cycle. Consumption-based AI pricing makes costs less predictable \u2014 knowing what's running is the first step to managing it.",
+            pm: "If your project budget doesn't account for AI tool costs, you're likely undercounting. Build in a buffer for consumption-based AI features that charge by usage, not by seat.",
+            admin: "You're often the first to notice when a new tool shows up in the workflow. That visibility is valuable \u2014 flagging unknown AI tools early helps the team avoid surprise costs and security gaps."
+          },
+          challenge: {
+            steps: [
+              "Open a blank note and list every AI tool you've personally used for work in the past month \u2014 including free tiers, browser extensions, and features built into tools you already use.",
+              "Mark each one: <em>\"Approved by IT\"</em>, <em>\"Not sure\"</em>, or <em>\"Definitely not approved.\"</em>",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I use [number] AI tools at work, but only [number] are formally approved. What questions should I ask my IT or security team to understand which tools are safe to keep using and which I should stop?\"</em>",
+              "Share your count in the group \u2014 how many were approved versus not? The aggregate picture is usually eye-opening."
+            ]
+          }
+        },
+        {
+          title: "The AI training gap costs trillions \u2014 and the fix is simpler than most programs assume",
+          body: "IDC's workforce readiness report puts a number on the AI skills gap: <em>$5.5 trillion in lost productivity, delayed products, and missed revenue globally</em>. Over 90% of enterprises expect critical skills shortages this year. But the biggest barrier to closing the gap isn't budget or access \u2014 it's time. 41% of employees say they can't find time to learn AI skills during the workday, even when training is available. Only a third of employees received any AI training in the past year (IDC via Workera, 2026).",
+          slants: {
+            strategy: "If your AI strategy doesn't include protected learning time, you're planning around a workforce that doesn't exist yet. The readiness gap is a strategy gap.",
+            leaders: "Carve out dedicated learning time for your team \u2014 even 30 minutes a week. The top barrier to AI upskilling isn't resistance or budget. It's that people literally can't find the hours.",
+            operations: "The fastest way to close the ops-side skills gap: pair one AI-fluent team member with one who isn't, on a real task. Learning by doing beats training modules every time.",
+            pm: "Build AI learning into project timelines as part of the work, not as an add-on after delivery. Teams that learn the tool while doing the work retain more than those who take a course and forget.",
+            admin: "You don't need a formal AI course to start building fluency. The 10-minute challenges in this group are exactly the kind of low-pressure practice that works \u2014 and you're already doing them."
+          },
+          challenge: {
+            steps: [
+              "Think about the last time you learned a new tool or skill at work. How did you actually learn it \u2014 a formal course, a colleague, trial and error, or something else?",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I want to get better at using AI for [one task you do regularly]. Design a 5-day learning plan where I spend no more than 15 minutes per day. Each day should teach me one specific technique I can apply immediately to my real work.\"</em>",
+              "Pick Day 1 from the plan and try it right now.",
+              "Share your 5-day plan or Day 1's technique in the group \u2014 crowdsourcing learning plans is one of the fastest ways to find what actually works."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "It's Monday \u2014 let AI plan your dinners for the week in 10 minutes.",
+        body: "The hardest part of meal prep isn't the cooking \u2014 it's deciding what to make. Tonight, stop scrolling recipes and let AI do the thinking. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I need to plan dinners for this week. Here's what I'm working with: [list what's already in your fridge and pantry, your budget, how many people you're feeding, and any dietary restrictions]. Give me 5 dinner options ranked by how little grocery shopping I'd need to do. For the top pick, give me a step-by-step recipe.\"<br><br>That ranking instruction \u2014 <em>ranked by how little shopping I'd need</em> \u2014 teaches AI to optimize for your real constraint instead of giving you five equally impractical ideas. Try swapping in other ranking criteria next time: fastest prep time, fewest dishes to wash, most kid-friendly."
+      }
+    },
   "2026-08-23": {
       intro: "Three signals heading into a new week: a model that maps where AI value is compounding, a tooling shift that makes multi-model AI strategies practical, and a change in how leaders talk about AI and teams that tells you more than any forecast.",
       trends: [
