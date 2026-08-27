@@ -5346,5 +5346,76 @@
       "body": "Pick a free tool — ChatGPT, Claude, Gemini, or Perplexity — and use it to plan a small trip or outing you've been meaning to take. The trick is to make it ask you questions before it gives you an answer, so you get options that actually fit you.",
       "prompt": "I want to plan a weekend trip within 3 hours of [your city] for under $400. Ask me clarifying questions first, then give me 3 ranked options with pros and cons for each."
     }
+  },
+  "2026-08-27": {
+    "intro": "Three things worth sitting with on a Thursday: the personal productivity gains from AI are proven, but organizations haven't figured out how to make them add up yet — and the two missing pieces are institutional knowledge and manager support.",
+    "trends": [
+      {
+        "title": "Personal AI productivity is proven — the organizational payoff is the next unlock",
+        "source_url": "https://www.techtimes.com/articles/325590/20260826/record-ai-spending-cant-move-earnings-needle-94-enterprises-mckinsey-finds.htm",
+        "body": "McKinsey's 2026 State of AI survey of 1,719 executives puts a number on the gap everyone senses: <em>80% of individual workers report productivity gains from AI, but only 6% of organizations see significant earnings impact</em>. Ninety percent of function-level use cases remain stuck in pilot mode. The gains are real at the desk — they just aren't compounding across the org chart yet.",
+        "slants": {
+          "strategy": "This is a design problem, not a tool problem — map where individual productivity gains are disappearing between teams.",
+          "leaders": "Pick one team already seeing individual gains and ask what they'd need to make those gains visible at the business-unit level.",
+          "operations": "You can spot the handoff points where one person's AI-assisted output sits in a queue built for the old pace.",
+          "pm": "Track cycle time alongside output quality — if AI is making people faster but the project still takes the same number of weeks, the bottleneck is in the process.",
+          "admin": "Your view across teams is exactly what's needed here — you see where work speeds up and where it slows back down."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one task you've personally sped up with AI in the last month. Write it down, along with roughly how much time it saved.",
+            "Now ask yourself: did that time savings change anything downstream? Did the next step in the process move faster because you finished sooner?",
+            "Open your company-approved AI tool and paste this: <em>\"I sped up [your task] using AI, but the downstream process didn't get faster. What are three possible reasons my time savings aren't compounding into team-level results?\"</em>",
+            "Read the response and identify the one reason that feels most true for your team.",
+            "Share that reason in the group — and whether you have any ideas for unblocking it."
+          ]
+        }
+      },
+      {
+        "title": "The most valuable thing you can train AI on might already be in your building",
+        "source_url": "https://siliconangle.com/2026/08/24/thomson-reuters-launches-proprietary-ai-model-for-legal-work/",
+        "body": "Thomson Reuters just launched its own AI model, trained on decades of proprietary legal, tax, and regulatory content for $40 million. The result <em>matches frontier models on domain tasks at a fraction of the inference cost</em> — not because the architecture is novel, but because the training data is. The signal for every organization: your accumulated institutional knowledge is becoming your most strategic AI input.",
+        "slants": {
+          "strategy": "Start inventorying the institutional knowledge that's trapped in documents, SOPs, and senior employees' expertise — it's potential AI training data.",
+          "leaders": "Invest in capturing and structuring your team's knowledge now, while the people who hold it are still available to verify what AI produces from it.",
+          "operations": "The process documentation you've been maintaining isn't just compliance overhead anymore — it's the foundation for AI that actually understands how work moves here.",
+          "pm": "Lessons-learned databases and project templates are suddenly worth organizing well — they're the kind of structured knowledge AI can actually build on.",
+          "admin": "You know where the real institutional knowledge lives — the shared drive no one's cleaned, the procedures doc everyone references but nobody updates. That's the starting line."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one area where your team has deep, accumulated knowledge — a process you've refined over years, a set of decisions that follow unwritten rules, or a document library that holds real expertise.",
+            "Open your company-approved AI tool and paste this: <em>\"If an organization wanted to build an AI system that understands how [your area] works, what kinds of documents and institutional knowledge would it need to capture first? List them in priority order.\"</em>",
+            "Compare the response to what actually exists — is that knowledge captured somewhere, or does it live mostly in people's heads?",
+            "Share one item from the list that you realized isn't written down anywhere with the group."
+          ]
+        }
+      },
+      {
+        "title": "The manager — not the tool — is what decides whether AI adoption lifts a team",
+        "source_url": "https://www.gallup.com/workplace/712976/ai-effect-workplace-culture.aspx",
+        "body": "Gallup's workforce study finds AI adoption pushing culture in both directions almost equally: among employees at companies using AI, <em>24% say culture improved and 25% say it got worse</em>. The deciding variable is the manager. Where managers actively champion AI use, engagement sits at 48%; without that support, it drops to 30%. Meanwhile, half of CHROs say they lack confidence in their managers' readiness to guide employees on AI.",
+        "slants": {
+          "strategy": "Factor manager readiness into every AI rollout plan — a tool adoption without a people adoption strategy is a coin flip.",
+          "leaders": "You don't need to be an AI expert to lead here — you need to be visibly trying it and making space for your team to experiment alongside you.",
+          "operations": "When you share what worked and what didn't in your own AI experiments, you lower the barrier for everyone around you.",
+          "pm": "Build a five-minute AI tip into your next team meeting — normalizing the tool matters more than perfecting the workflow.",
+          "admin": "Every time you show a colleague a shortcut you found in an AI tool, you're doing exactly what the data says makes adoption work."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last time you tried something new with AI at work. Did you share what happened — what worked, what surprised you, what flopped?",
+            "Open your company-approved AI tool and paste this: <em>\"I want to share a practical AI tip with my team at our next meeting. Give me three options for a 2-minute live demo that requires no prep and shows an immediately useful result. Assume the audience is new to AI and slightly skeptical.\"</em>",
+            "Pick the one that fits your team best and try it yourself first.",
+            "Share it at your next team gathering — then tell the group how it landed."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "End-of-summer bucket list — but this time, structured enough to actually finish something.",
+      "body": "Summer's winding down and the year is two-thirds done. Somewhere in the back of your mind there's a list of things you keep meaning to do. Tonight, pull it out and give it some structure. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I'm going to list everything I've been meaning to do — big and small, serious and fun. Organize them into categories, then rank each category by which item would make me happiest to have finished by December 31. For the top 3 overall, give me the single smallest next step I could take this week.\"<br><br>The technique here is <em>structured decomposition</em> — breaking a vague wish list into categories, priorities, and next actions. It turns \"someday\" into \"this Saturday.\""
+    }
   }
 }
