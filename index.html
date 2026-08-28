@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-28": {
+      intro: "Three signals heading into the weekend: the talent pipeline is reshaping around AI in ways that favor organizations investing in their people, the era of faking AI skills is ending, and the value of your judgment has never been more visible.",
+      trends: [
+        {
+          title: "The talent pipeline is shifting \u2014 and it favors organizations that develop from within",
+          body: "Stanford's updated analysis of millions of U.S. payroll records finds that <em>young worker employment in AI-exposed fields is now 19% below trend \u2014 up from 13% a year ago</em>, while experienced workers show no comparable gap. The effect operates through reduced hiring, not layoffs \u2014 and the implication is clear: organizations investing in developing their existing people have a growing advantage over those counting on an unchanged talent pipeline.",
+          slants: {
+            strategy: "Map which entry-level roles on your org chart carry the most AI-exposed skills \u2014 those are the positions where internal development paths matter most.",
+            leaders: "Your current team members just became harder to replace externally. Invest in their growth now, while the development opportunity is still ahead of the competition.",
+            operations: "Junior ops roles built around data entry, report generation, and routine analysis are shifting fastest \u2014 redesign them around the judgment and quality layer above the output.",
+            pm: "If your project plans depend on hiring junior analysts or coordinators, factor in a tighter market \u2014 or scope the work for a smaller, more experienced team augmented by AI.",
+            admin: "Your institutional knowledge and organizational judgment are exactly the skills the market is increasingly short of. That's not changing \u2014 it's accelerating."
+          },
+          challenge: {
+            steps: [
+              "Think about the roles on your team that were originally designed for someone early in their career \u2014 the coordinator, the analyst, the junior specialist.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I manage a team that includes entry-level roles like [describe them]. Given that AI can now handle much of the routine output these roles were designed for, help me redesign one of these positions to focus on judgment, quality control, and stakeholder communication \u2014 the parts AI can't do well.\"</em>",
+              "Compare the redesigned role to the original. Would you hire differently for it?",
+              "Share your before-and-after role description in the group \u2014 the evolution tells you a lot about where value is heading."
+            ]
+          }
+        },
+        {
+          title: "People stopped pretending to know AI \u2014 and real fluency is filling the gap",
+          body: "A WalkMe survey finds the share of employees who admit to faking AI knowledge in meetings <em>dropped from 45% to 28% in one year</em> \u2014 but it also exposed what was hiding underneath. Ninety percent of workers say they feel confident using AI, yet <em>only 25% say it works well on the first try</em>. The pretending era is ending \u2014 the building-real-fluency era is just getting started.",
+          slants: {
+            strategy: "Confidence without competence is the current state of most AI adoption. The organizations that close that gap with structured daily practice will pull ahead.",
+            leaders: "If your team says they're comfortable with AI but the results are inconsistent, that's not a tool problem \u2014 it's a practice problem. Build repetition into the workflow.",
+            operations: "A 75% first-try failure rate means most people are doing extra rounds of editing and reprompting. That hidden rework is worth finding and fixing.",
+            pm: "Factor in the learning curve when scoping AI-assisted work. A task that takes 10 minutes for a practiced user can take 40 for someone still building fluency.",
+            admin: "Every time you get a better result from AI on your second or third attempt, you're building exactly the kind of practical fluency that separates confident from competent."
+          },
+          challenge: {
+            steps: [
+              "Pick a task you've used AI for recently \u2014 something where you didn't get the result you wanted on the first try.",
+              "Open your company-approved AI tool and try the task again, but this time add: <em>\"Before you answer, ask me three clarifying questions about what I actually need, who the audience is, and what format works best.\"</em>",
+              "Compare the two results. Was the second attempt closer to what you needed?",
+              "Share the difference in the group \u2014 and the clarifying question that made the biggest impact."
+            ]
+          }
+        },
+        {
+          title: "When AI handles the first draft, your judgment becomes the product",
+          body: "MIT's committee on AI in education published a finding with clear workplace implications: AI can now <em>produce credible solutions to almost any standard written assignment</em> \u2014 essays, analyses, problem sets, and code. If that holds at one of the most rigorous universities in the world, it holds in your office too. The premium is shifting fast \u2014 from producing the first draft to knowing whether the draft is right, complete, and suited to the actual need.",
+          slants: {
+            strategy: "Your planning team's edge isn't in generating analyses \u2014 it's in knowing which analyses matter and which assumptions to challenge.",
+            leaders: "Develop your team's evaluation skills as deliberately as their production skills. Assessing AI output is becoming as important as creating work from scratch.",
+            operations: "When anyone can generate a standard operating procedure with AI, the value shifts to the person who knows whether it actually reflects how work moves through the organization.",
+            pm: "AI-generated project plans and risk registers look polished. The PM who knows which risks are real and which are boilerplate is worth more than the tool that produced the list.",
+            admin: "You've always been the person who notices what's missing from a document \u2014 the context, the history, the unwritten rule. That eye is exactly what AI can't supply."
+          },
+          challenge: {
+            steps: [
+              "Take a work product you created recently \u2014 a report, a memo, a plan, a summary. Make sure it contains nothing confidential.",
+              "Open your company-approved AI tool, describe the document's purpose in one sentence, and paste: <em>\"Write a first draft of [describe the document and its purpose]. Make it professional and thorough.\"</em>",
+              "Compare AI's version to yours. Where did it get close, and where did it miss something only you would know?",
+              "Share the one thing AI missed in the group \u2014 those gaps are exactly where your judgment lives."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Friday night, nothing at stake \u2014 let AI help you find the side project you'll actually stick with.",
+        body: "The weekend is for things you choose, not things you're assigned. But finding the right hobby or side project usually stalls in the 'I don't know where to start' phase. Tonight, let AI narrow the options based on your actual life. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I have about [X hours] of free time per week, a budget of roughly [$ amount] per month for hobbies, and I'm drawn to [list 2-3 interests \u2014 making things, learning, being outdoors, puzzles, cooking, whatever]. I've tried [anything you started and abandoned] before. Suggest five side projects or hobbies that fit those constraints, ranked by how quickly I'd feel a sense of progress. For the top pick, give me exactly what to do this weekend to get started.\"<br><br>The technique here is <em>constraint-based filtering</em> \u2014 instead of asking for a generic list, you give AI your real limitations upfront. The result is options you could actually pursue, not aspirational suggestions that assume unlimited time and money."
+      }
+    },
   "2026-08-27": {
       intro: "Three things worth sitting with on a Thursday: the personal productivity gains from AI are proven, but organizations haven't figured out how to make them add up yet \u2014 and the two missing pieces are institutional knowledge and manager support.",
       trends: [
