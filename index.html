@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-29": {
+      intro: "Three Saturday reads: AI agents are moving into the tools you already use, the organizations proving AI outcomes are pulling far ahead, and the era of demanding proof has quietly arrived.",
+      trends: [
+        {
+          title: "AI agents are becoming a built-in feature of your CRM",
+          body: "Salesforce and Anthropic announced Claudeforce this week, making Claude the default reasoning engine across the Salesforce ecosystem. The launch ships with <em>37 prebuilt sales skills</em> that let sellers query live CRM data, prep sales calls, review deals, and update records directly from Claude \u2014 without opening Salesforce. Agentforce workforce units grew 97% last quarter. Open beta arrives in September.",
+          slants: {
+            strategy: "When AI reasoning is embedded in your existing data layer, the strategic question shifts from 'which AI tool?' to 'which workflows should agents own first?'",
+            leaders: "Ask your team which recurring CRM tasks they'd hand to an agent tomorrow \u2014 the answers will reveal where your process bottlenecks actually live.",
+            operations: "Agent-ready CRM means your data quality matters more than ever. Clean data produces useful agent output; messy data produces confident mistakes.",
+            pm: "Pipeline reviews, status updates, and deal tracking are exactly the kind of structured, repetitive work agents handle well \u2014 start scoping which reporting tasks you'd hand off.",
+            admin: "You already know the CRM better than most. That makes you the person who spots when an agent's output doesn't match how things actually work here."
+          },
+          challenge: {
+            steps: [
+              "Open your company-approved AI tool and paste this prompt: <em>\"I use [name your CRM] daily. List five repetitive tasks I probably do in my CRM every week that an AI agent could handle. For each one, be specific about what the agent would do and what I'd still need to verify.\"</em>",
+              "Review the list. Which task would you trust an agent with today, and which would need better data or clearer rules first?",
+              "For the one you'd trust, write a one-sentence acceptance criteria \u2014 what would the agent need to get right for you to stop doing it manually?",
+              "Share your top pick and your acceptance criteria in the group."
+            ]
+          }
+        },
+        {
+          title: "The organizations measuring their AI are pulling four times ahead on customer satisfaction",
+          body: "Talkdesk's new State of Agentic Automation in CX report surveyed 252 director-level decision makers and found a striking gap: <em>98% of organizations have deployed AI somewhere in their customer journey, but just 5% can clearly quantify its impact on business outcomes</em>. Only 15% combine agentic AI with cross-departmental orchestration. The organizations at the highest maturity level are four times more likely to report major customer satisfaction gains.",
+          slants: {
+            strategy: "If your AI business case still says 'efficiency gains' without specific numbers, you're in the 95%. Define what 'working' looks like before the next budget cycle.",
+            leaders: "Ask your team one question this week: 'How would we know if our AI deployment was actually improving outcomes?' If nobody has a clear answer, that's the priority.",
+            operations: "The measurement gap is almost always a data-connection problem \u2014 if your AI touches customers in one system but outcomes live in another, the proof can't surface.",
+            pm: "Build measurement milestones into every AI project plan \u2014 not just 'deployed' but 'producing measurable change in [specific metric] by [date].'",
+            admin: "You see the customer journey across systems every day. That cross-functional visibility is exactly what most organizations are missing when they try to connect AI to results."
+          },
+          challenge: {
+            steps: [
+              "Think of one AI-assisted process your team uses today \u2014 an automated response, a chatbot, an AI-generated summary, anything that touches a customer or internal workflow.",
+              "Open your company-approved AI tool and paste: <em>\"We use AI for [describe the process]. Help me design three simple metrics to prove whether this deployment is actually improving outcomes \u2014 not just whether it's being used, but whether it's making things measurably better.\"</em>",
+              "Pick the metric that would be most convincing to a skeptical executive.",
+              "Share that metric and how you'd measure it in the group."
+            ]
+          }
+        },
+        {
+          title: "AI expectations are getting more realistic \u2014 and that's where real value starts",
+          body: "BCC Research's AI Sentiment Index for July 2026, released this week, <em>dropped from 77.86 to 75.10</em> \u2014 not because interest is fading, but because industries are applying stricter standards to separate routine improvements from genuine structural change. Chemicals, energy, and technology lead both adoption and spend. The signal: enterprises are moving past 'AI is exciting' into 'prove it works in our operations.'",
+          slants: {
+            strategy: "Cooling hype is your window. When AI stops being a boardroom buzzword, it becomes a planning tool \u2014 and that's where your skills matter most.",
+            leaders: "The teams that thrive in the 'prove it' era are the ones already measuring. If you haven't set success criteria for your AI projects, now is the time.",
+            operations: "This is your moment. Operations has always been about proof \u2014 cycle times, error rates, throughput. Apply those same standards to every AI deployment.",
+            pm: "The shift from 'exciting pilot' to 'operational proof' is a project management challenge. Scope it, measure it, report on it \u2014 this is exactly what you do.",
+            admin: "When the hype settles, the value of people who know how things actually work goes up. Your operational knowledge is what turns AI experiments into reliable processes."
+          },
+          challenge: {
+            steps: [
+              "Think of one AI tool or process your team adopted in the last six months.",
+              "Open your company-approved AI tool and paste: <em>\"My team started using AI for [describe it] about [X months] ago. Help me write three 'proof of value' questions I could answer with data we probably already have \u2014 to show whether this AI is actually improving our work, not just making it feel different.\"</em>",
+              "Pick the question that would be easiest to answer with data you can access today.",
+              "Share your proof-of-value question in the group \u2014 and whether you already know the answer."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Saturday night sorted \u2014 build a custom trivia night in 10 minutes.",
+        body: "Whether it's two people or a full room, trivia is better when it's personal. Let AI build a round tuned to your actual group. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I'm hosting a casual trivia night for [number] people. The group includes [describe ages, interests, inside jokes, or topics they'd enjoy]. Build me 4 rounds of 5 questions each \u2014 mix easy, medium, and hard so nobody feels left out. Include one wildcard round based on something only this specific group would find funny or impressive. Format it so I can read questions aloud with answers hidden below each one.\"<br><br>The technique here is <em>audience-aware calibration</em> \u2014 instead of asking for generic trivia, you're giving AI enough context about your specific group to tailor difficulty and topics. The result feels custom because it is."
+      }
+    },
   "2026-08-28": {
       intro: "Three signals heading into the weekend: the talent pipeline is reshaping around AI in ways that favor organizations investing in their people, the era of faking AI skills is ending, and the value of your judgment has never been more visible.",
       trends: [
