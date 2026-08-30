@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-30": {
+      intro: "A Sunday scan: hidden text can fool your AI email tools, enterprise AI spending finally has guardrails, and how people find information is quietly shifting in AI's favor.",
+      trends: [
+        {
+          title: "Hidden text can silently rewrite what your AI email tools tell you",
+          body: "Forcepoint X-Labs demonstrated that hidden text in an email \u2014 invisible to you in Outlook \u2014 can silently rewrite what an AI summarizer tells you. In their proof of concept, <em>invisible instructions shifted an invoice deadline by two weeks and deleted a name from the summary</em>, with a 100% success rate across ten runs. The fix isn't fear \u2014 it's treating AI summaries the way you'd treat any unsigned memo: useful, but worth verifying when it matters.",
+          slants: {
+            strategy: "If your team uses AI-generated summaries to make decisions, build a habit of spot-checking the ones attached to deadlines, dollar amounts, or approvals.",
+            leaders: "This is a good reason to ask your team: where are we trusting AI summaries without a second look? The answer shapes your next security conversation.",
+            operations: "Any process that routes work based on an AI summary \u2014 ticket triage, invoice processing, escalation rules \u2014 needs a verification step for high-stakes items.",
+            pm: "Add AI summary accuracy to your risk register for any workflow that depends on automated summaries to set priorities or deadlines.",
+            admin: "You already double-check important details before acting on them. That instinct is now a security practice \u2014 and it's more valuable than ever."
+          },
+          challenge: {
+            steps: [
+              "Think about the last time you relied on an AI-generated summary \u2014 an email recap, a meeting transcript, a document brief.",
+              "Open your company-approved AI tool and paste: <em>\"I rely on AI-generated summaries for [describe the workflow]. What are three things I should always verify manually before acting on a summary, and why?\"</em>",
+              "Pick the one verification habit that would be easiest to add to your daily routine.",
+              "Share your new verification habit in the group \u2014 and whether the AI flagged something you hadn't thought of."
+            ]
+          }
+        },
+        {
+          title: "Enterprise AI spending just got its first real guardrails",
+          body: "Google Cloud this week added hard monthly spending caps for Gemini Enterprise that <em>pause AI agent API calls when the budget hits its limit</em> \u2014 with alerts at 50%, 80%, and 100% of the configured amount. They also launched pay-as-you-go pricing with no base subscription. The signal isn't about Google specifically \u2014 it's that enterprise AI cost governance is moving from 'track and hope' to 'cap and control.'",
+          slants: {
+            strategy: "If your AI pilots don't have spending caps yet, this is the template. Define the ceiling before the experiment scales, not after.",
+            leaders: "Cost visibility changes the AI adoption conversation from 'should we try this?' to 'what is this experiment worth?' \u2014 which is the question you actually want to answer.",
+            operations: "Hard caps that pause agent calls mean your runaway-cost scenario just got a safety net. Ask your cloud team whether your current AI deployments have equivalent controls.",
+            pm: "Budget alerts at 50%, 80%, and 100% give you natural checkpoints to evaluate whether an AI workflow is delivering value proportional to its cost.",
+            admin: "If you manage vendor invoices or cloud billing, knowing that AI spending can be capped and alerted means fewer surprise line items to chase down."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or service your team pays for \u2014 or is evaluating.",
+              "Open your company-approved AI tool and paste: <em>\"My team uses [name the AI tool or service]. Help me build a simple cost-tracking framework with three columns: what we're spending, what it's producing, and whether the value justifies the cost. Include one question I should ask monthly to catch spending that isn't delivering results.\"</em>",
+              "Review the framework. Does your team currently track any of these things?",
+              "Share your one monthly question in the group \u2014 the one that would catch waste earliest."
+            ]
+          }
+        },
+        {
+          title: "People are finding information differently \u2014 and what arrives is higher quality",
+          body: "Brainlabs analyzed 54 advertisers across 14 months and found that <em>organic search sessions fell 10.5% after AI Overviews became common, but visitors arriving from AI platforms convert at 1.5 times the rate</em>. AI-driven key events rose 335%. The volume is shrinking, but the quality is going up \u2014 people who click through from an AI answer are further along in their thinking and more ready to act.",
+          slants: {
+            strategy: "Your competitive intelligence workflows built on traditional search may be missing what AI-first researchers find. Audit how your team discovers information, not just what they find.",
+            leaders: "If your team still measures success by how many people visit a page, it's time to shift the metric to what visitors do when they get there.",
+            operations: "The internal knowledge base that ranks well in search may matter less than the one that answers the question directly. Structure your documentation for AI retrieval, not just keyword matching.",
+            pm: "When your stakeholders arrive at a meeting having already asked an AI tool, the conversation starts further ahead. Prepare for questions that skip the basics.",
+            admin: "The way people search for internal answers is changing too. If you maintain shared resources, clear structure and plain language help AI tools read and summarize them accurately."
+          },
+          challenge: {
+            steps: [
+              "Pick a work-related question you'd normally search for \u2014 something about a process, a tool, or a best practice.",
+              "Search for it twice: once in a traditional search engine, and once in a free AI tool (ChatGPT, Claude, Gemini, or Perplexity).",
+              "Compare the two experiences. Which got you to a useful answer faster? Which required more clicking and scanning?",
+              "Share the comparison in the group \u2014 and whether the AI tool changed how you'd search for something next time."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Sunday night kitchen adventure \u2014 let AI pick the one cooking skill worth learning tonight.",
+        body: "You don't need another recipe. You need one technique that makes dozens of recipes better. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I'd describe my cooking skill level as [beginner / comfortable / adventurous]. I mostly cook [type of food you usually make]. Pick one cooking technique I probably don't use that would most improve my everyday meals. Explain why it matters, walk me through it step by step like I've never done it before, and give me one simple dish to try it on tonight with ingredients I probably already have.\"<br><br>The technique here is <em>targeted depth over breadth</em> \u2014 instead of asking for a recipe list, you're asking AI to diagnose the single highest-leverage skill gap and teach it deeply. One technique fully understood beats ten recipes bookmarked and forgotten."
+      }
+    },
   "2026-08-29": {
       intro: "Three Saturday reads: AI agents are moving into the tools you already use, the organizations proving AI outcomes are pulling far ahead, and the era of demanding proof has quietly arrived.",
       trends: [
