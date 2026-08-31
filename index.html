@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-08-31": {
+      intro: "Monday reset: AI is reshaping how strategy gets made, enterprise agents are arriving faster than teams can govern them, and the transformation that works is about redesigning work \u2014 not cutting it.",
+      trends: [
+        {
+          title: "Strategy-making is being quietly rebuilt around AI",
+          body: "HBR's August coverage explores how AI is changing the strategy process itself. AI can now generate and evaluate thousands of strategic options, build <em>continually updated views of markets and competitors</em>, and stress-test plans through structured debate free of internal politics. The organizations seeing real gains aren't bolting AI onto existing strategy rituals \u2014 they're building it into the process from the start.",
+          slants: {
+            strategy: "Your planning cycle can now include structured red-teaming at scale \u2014 not just one devil's advocate in the room.",
+            leaders: "Give your strategy team permission to use AI as a sparring partner before the final deck is built, not after.",
+            operations: "The competitive landscape scan that used to take a week can now update continuously \u2014 ask what that changes about your planning cadence.",
+            pm: "AI-generated scenario analysis can feed directly into your risk registers and dependency maps.",
+            admin: "You're often the first to spot when a plan doesn't match reality on the ground \u2014 AI can help you articulate that pattern faster."
+          },
+          challenge: {
+            steps: [
+              "Pick a strategic question your team is currently working through \u2014 a market entry, a resource allocation decision, a process change.",
+              "Open your company-approved AI tool and paste: <em>\"Here's a strategic decision we're considering: [describe it in 2\u20133 sentences, keeping it general enough to avoid confidential details]. Argue against this from three different perspectives: a skeptical CFO, a frontline operator, and a competitor. Be specific about which assumptions are weakest.\"</em>",
+              "Read the three arguments. Identify one assumption you hadn't pressure-tested.",
+              "Share what surprised you most in the group \u2014 which perspective landed hardest?"
+            ]
+          }
+        },
+        {
+          title: "Gartner's first agentic AI hype cycle names what's real \u2014 and what's not ready",
+          body: "Gartner released its inaugural Hype Cycle for Agentic AI, and the headline is a useful reality check: agentic AI sits at the <em>Peak of Inflated Expectations</em>. Only 17% of organizations have deployed agents, though over 60% plan to within two years. The telling signal is what else made the chart \u2014 governance, security, and cost-management tools now sit alongside core agent tech. Enterprises are learning to ask \"how do we control this?\" before \"how do we scale this?\"",
+          slants: {
+            strategy: "Use this hype cycle as a filter: which agent capabilities are production-ready today, and which are still two years out?",
+            leaders: "The governance question is yours to own \u2014 setting guardrails now is cheaper than retrofitting them after a pilot scales.",
+            operations: "If your team is evaluating agent tools, ask vendors where they sit on this hype cycle \u2014 and what their governance story is.",
+            pm: "Agent projects need a governance plan from day one, not as a phase-two add-on.",
+            admin: "You'll likely be among the first to use task-specific agents in daily workflows \u2014 your feedback on what works shapes what gets scaled."
+          },
+          challenge: {
+            steps: [
+              "Think about one repetitive, rule-based workflow your team handles today \u2014 approvals routing, data entry, report generation, ticket triage.",
+              "Open your company-approved AI tool and paste: <em>\"I manage a workflow that involves [describe the steps briefly]. If an AI agent could handle parts of this autonomously, which steps would be safe to delegate, which would need human review, and what could go wrong?\"</em>",
+              "Review the response and note which steps the AI flagged as needing human oversight.",
+              "Share your workflow breakdown in the group \u2014 what did the AI say should stay human?"
+            ]
+          }
+        },
+        {
+          title: "The AI transformation that works is redesigning work, not replacing people",
+          body: "A new HBR piece makes the case plainly: organizations focused on headcount reduction are getting less from AI than those redesigning how work gets done. The approach that delivers results starts by <em>breaking roles into tasks, identifying where AI genuinely improves performance, and rebuilding processes around the right mix of human and machine</em>. It's not about fewer people \u2014 it's about better-designed work.",
+          slants: {
+            strategy: "Map your team's work at the task level, not the role level \u2014 that's where the real AI opportunities live.",
+            leaders: "Frame AI adoption as a work-design project, not a workforce-reduction project, and you'll get better results and stronger buy-in.",
+            operations: "The processes that benefit most from AI aren't the ones with the most people \u2014 they're the ones with the most handoffs.",
+            pm: "When scoping an AI initiative, start with a task inventory of the affected workflow \u2014 it changes what's actually automatable.",
+            admin: "The parts of your role that feel most routine are the parts AI can take over \u2014 freeing you to do more of the judgment work that only you can do."
+          },
+          challenge: {
+            steps: [
+              "Pick one role on your team \u2014 yours or someone else's \u2014 and list the 5\u20137 core tasks that fill a typical week.",
+              "Next to each task, write one label: <em>\"AI could draft this\"</em>, <em>\"AI could review this\"</em>, <em>\"AI could automate this\"</em>, or <em>\"This needs a human.\"</em>",
+              "Look at the split. Ask yourself: if AI handled the first three categories, what would this person spend their time on instead?",
+              "Share your task map in the group \u2014 and name the one task that surprised you most."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Got a savings goal you keep meaning to start? Let AI build the plan in 5 minutes.",
+        body: "Whether it's a trip, a new piece of furniture, or just a proper rainy-day fund \u2014 the hardest part is knowing how much to set aside and for how long. Let AI do the math and give you options. Try this in ChatGPT, Claude, Gemini, or Perplexity (all free on the web):",
+        prompt: "\"I want to save $[amount] for [your goal \u2014 a trip, a gadget, a holiday fund, an emergency cushion] by [target month and year]. I currently have $[what you've saved so far] set aside, and I can realistically put away about $[amount] per [week or month]. Give me 3 savings plans ranked from most comfortable to most aggressive, and tell me exactly what I'd need to cut or change in each one.\"<br><br>That last move \u2014 <em>ranked options with explicit trade-offs</em> \u2014 is one of the most useful prompting patterns you can learn. It turns AI from a single-answer machine into a decision-support tool."
+      }
+    },
   "2026-08-30": {
       intro: "A Sunday scan: hidden text can fool your AI email tools, enterprise AI spending finally has guardrails, and how people find information is quietly shifting in AI's favor.",
       trends: [

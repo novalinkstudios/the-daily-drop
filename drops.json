@@ -5627,5 +5627,75 @@
       "body": "You don't need another recipe. You need one technique that makes dozens of recipes better. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I'd describe my cooking skill level as [beginner / comfortable / adventurous]. I mostly cook [type of food you usually make]. Pick one cooking technique I probably don't use that would most improve my everyday meals. Explain why it matters, walk me through it step by step like I've never done it before, and give me one simple dish to try it on tonight with ingredients I probably already have.\"<br><br>The technique here is <em>targeted depth over breadth</em> — instead of asking for a recipe list, you're asking AI to diagnose the single highest-leverage skill gap and teach it deeply. One technique fully understood beats ten recipes bookmarked and forgotten."
     }
+  },
+  "2026-08-31": {
+    "intro": "Monday reset: AI is reshaping how strategy gets made, enterprise agents are arriving faster than teams can govern them, and the transformation that works is about redesigning work — not cutting it.",
+    "trends": [
+      {
+        "title": "Strategy-making is being quietly rebuilt around AI",
+        "source_url": "https://hbr.org/2026/08/strategy-making-gets-an-ai-boost",
+        "body": "HBR's August coverage explores how AI is changing the strategy process itself. AI can now generate and evaluate thousands of strategic options, build <em>continually updated views of markets and competitors</em>, and stress-test plans through structured debate free of internal politics. The organizations seeing real gains aren't bolting AI onto existing strategy rituals — they're building it into the process from the start.",
+        "slants": {
+          "strategy": "Your planning cycle can now include structured red-teaming at scale — not just one devil's advocate in the room.",
+          "leaders": "Give your strategy team permission to use AI as a sparring partner before the final deck is built, not after.",
+          "operations": "The competitive landscape scan that used to take a week can now update continuously — ask what that changes about your planning cadence.",
+          "pm": "AI-generated scenario analysis can feed directly into your risk registers and dependency maps.",
+          "admin": "You're often the first to spot when a plan doesn't match reality on the ground — AI can help you articulate that pattern faster."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a strategic question your team is currently working through — a market entry, a resource allocation decision, a process change.",
+            "Open your company-approved AI tool and paste: <em>\"Here's a strategic decision we're considering: [describe it in 2–3 sentences, keeping it general enough to avoid confidential details]. Argue against this from three different perspectives: a skeptical CFO, a frontline operator, and a competitor. Be specific about which assumptions are weakest.\"</em>",
+            "Read the three arguments. Identify one assumption you hadn't pressure-tested.",
+            "Share what surprised you most in the group — which perspective landed hardest?"
+          ]
+        }
+      },
+      {
+        "title": "Gartner's first agentic AI hype cycle names what's real — and what's not ready",
+        "source_url": "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+        "body": "Gartner released its inaugural Hype Cycle for Agentic AI, and the headline is a useful reality check: agentic AI sits at the <em>Peak of Inflated Expectations</em>. Only 17% of organizations have deployed agents, though over 60% plan to within two years. The telling signal is what else made the chart — governance, security, and cost-management tools now sit alongside core agent tech. Enterprises are learning to ask \"how do we control this?\" before \"how do we scale this?\"",
+        "slants": {
+          "strategy": "Use this hype cycle as a filter: which agent capabilities are production-ready today, and which are still two years out?",
+          "leaders": "The governance question is yours to own — setting guardrails now is cheaper than retrofitting them after a pilot scales.",
+          "operations": "If your team is evaluating agent tools, ask vendors where they sit on this hype cycle — and what their governance story is.",
+          "pm": "Agent projects need a governance plan from day one, not as a phase-two add-on.",
+          "admin": "You'll likely be among the first to use task-specific agents in daily workflows — your feedback on what works shapes what gets scaled."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one repetitive, rule-based workflow your team handles today — approvals routing, data entry, report generation, ticket triage.",
+            "Open your company-approved AI tool and paste: <em>\"I manage a workflow that involves [describe the steps briefly]. If an AI agent could handle parts of this autonomously, which steps would be safe to delegate, which would need human review, and what could go wrong?\"</em>",
+            "Review the response and note which steps the AI flagged as needing human oversight.",
+            "Share your workflow breakdown in the group — what did the AI say should stay human?"
+          ]
+        }
+      },
+      {
+        "title": "The AI transformation that works is redesigning work, not replacing people",
+        "source_url": "https://hbr.org/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles",
+        "body": "A new HBR piece makes the case plainly: organizations focused on headcount reduction are getting less from AI than those redesigning how work gets done. The approach that delivers results starts by <em>breaking roles into tasks, identifying where AI genuinely improves performance, and rebuilding processes around the right mix of human and machine</em>. It's not about fewer people — it's about better-designed work.",
+        "slants": {
+          "strategy": "Map your team's work at the task level, not the role level — that's where the real AI opportunities live.",
+          "leaders": "Frame AI adoption as a work-design project, not a workforce-reduction project, and you'll get better results and stronger buy-in.",
+          "operations": "The processes that benefit most from AI aren't the ones with the most people — they're the ones with the most handoffs.",
+          "pm": "When scoping an AI initiative, start with a task inventory of the affected workflow — it changes what's actually automatable.",
+          "admin": "The parts of your role that feel most routine are the parts AI can take over — freeing you to do more of the judgment work that only you can do."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one role on your team — yours or someone else's — and list the 5–7 core tasks that fill a typical week.",
+            "Next to each task, write one label: <em>\"AI could draft this\"</em>, <em>\"AI could review this\"</em>, <em>\"AI could automate this\"</em>, or <em>\"This needs a human.\"</em>",
+            "Look at the split. Ask yourself: if AI handled the first three categories, what would this person spend their time on instead?",
+            "Share your task map in the group — and name the one task that surprised you most."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Got a savings goal you keep meaning to start? Let AI build the plan in 5 minutes.",
+      "body": "Whether it's a trip, a new piece of furniture, or just a proper rainy-day fund — the hardest part is knowing how much to set aside and for how long. Let AI do the math and give you options. Try this in ChatGPT, Claude, Gemini, or Perplexity (all free on the web):",
+      "prompt": "\"I want to save $[amount] for [your goal — a trip, a gadget, a holiday fund, an emergency cushion] by [target month and year]. I currently have $[what you've saved so far] set aside, and I can realistically put away about $[amount] per [week or month]. Give me 3 savings plans ranked from most comfortable to most aggressive, and tell me exactly what I'd need to cut or change in each one.\"<br><br>That last move — <em>ranked options with explicit trade-offs</em> — is one of the most useful prompting patterns you can learn. It turns AI from a single-answer machine into a decision-support tool."
+    }
   }
 }
