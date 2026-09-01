@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-01": {
+      intro: "Three Tuesday reads: AI chatbots are proving to be powerful fact-checking partners, giving AI agents a clear identity makes them trustworthy teammates, and the world's most valuable company just made AI its new CEO's day-one priority.",
+      trends: [
+        {
+          title: "AI chatbots are proving to be powerful fact-checking partners",
+          body: "NPR partnered with NewsGuard to test six major chatbots against 30 false narratives pushed by China, Iran, and Russia. The result: <em>chatbots debunked the falsehoods about three-quarters of the time, outperforming traditional search engines</em>. Search engines failed to challenge a false narrative 18 out of 120 queries; chatbots failed just 12 out of 180. The edge isn't speed \u2014 it's synthesis. AI tools are better at reading context, weighing sources, and flagging contradictions than a ranked list of links.",
+          slants: {
+            strategy: "When AI is better at separating signal from noise than search, your competitive intelligence workflow deserves a second look.",
+            leaders: "Encourage your team to cross-check important claims with an AI tool \u2014 not as a replacement for judgment, but as a faster first filter.",
+            operations: "Any process that depends on web research for verification now has a stronger alternative sitting unused on your desktop.",
+            pm: "Add AI-assisted verification as a step in your research phase \u2014 especially when a project decision rests on external data or market claims.",
+            admin: "Next time you're fact-checking details for a briefing or report, try running the claim through an AI tool alongside your usual search \u2014 the comparison is eye-opening."
+          },
+          challenge: {
+            steps: [
+              "Think of a claim, statistic, or piece of advice you've seen shared recently \u2014 something you weren't 100% sure about but didn't take time to verify.",
+              "Search for it in a traditional search engine and note what you find in the first few results.",
+              "Now open your company-approved AI tool and paste: <em>\"Is this claim accurate: [paste the claim]. Give me the evidence for and against, and cite your sources.\"</em>",
+              "Compare the two experiences \u2014 which gave you a clearer, more trustworthy answer?",
+              "Share your comparison in the group \u2014 and whether you'll change how you verify information going forward."
+            ]
+          }
+        },
+        {
+          title: "Giving AI agents a clear identity makes them trustworthy teammates",
+          body: "VentureBeat published an analysis that reshapes how organizations should think about AI agent security: <em>the first security control for autonomous agents isn't an API gateway \u2014 it's a unique identity with tracked permissions and accountability</em>. Unlike chatbots, agents decide which tools to use, which APIs to call, and how to sequence actions on their own. That autonomy demands a security model built around who the agent is, not just where it connects.",
+          slants: {
+            strategy: "If your AI roadmap includes agents that take actions \u2014 not just answer questions \u2014 identity and permissions planning needs to start now, not after the pilot.",
+            leaders: "Ask your security team one question: do we know which AI agents have access to which systems, and can we audit what they did? If the answer is vague, that's your priority.",
+            operations: "Agents touching production systems without tracked identities create the same risk as unmanaged service accounts \u2014 invisible, powerful, and hard to audit after something goes wrong.",
+            pm: "Every agent-based project plan should include an identity and permissions milestone alongside the technical build \u2014 treat it like defining roles and access for a new team member.",
+            admin: "You already track who has access to what in your workflows. That same instinct applies to AI agents \u2014 if an agent can send an email or update a record, someone should know which one did it."
+          },
+          challenge: {
+            steps: [
+              "List the AI tools your team uses that can take actions on their own \u2014 sending messages, updating records, generating documents, scheduling meetings.",
+              "For each one, ask yourself: if something went wrong, could I trace which tool did it and what permissions it had?",
+              "Open your company-approved AI tool and paste: <em>\"I manage a team that uses AI tools which can [describe the actions]. Help me draft a simple tracking checklist: what identity should each tool have, what permissions does it need, and how do we audit what it does? Keep it to one page.\"</em>",
+              "Share your checklist draft in the group \u2014 the conversation about agent accountability is one most teams haven't had yet."
+            ]
+          }
+        },
+        {
+          title: "Apple's new CEO starts day one with AI as the defining challenge",
+          body: "John Ternus officially became Apple's CEO today, inheriting the world's most valuable company with a clear mandate: <em>close the gap in artificial intelligence</em>. His first product unveiling on September 9 will showcase a rebuilt Siri and the company's first foldable iPhone. When a company at Apple's scale makes AI the defining priority for a leadership transition, it signals something broader: AI capability is moving from a department initiative to the central business question.",
+          slants: {
+            strategy: "When AI becomes the defining metric for CEO performance at this scale, it's worth asking: is your organization's AI capability part of the leadership scorecard, or still sitting in a pilot report?",
+            leaders: "AI fluency is becoming a core leadership expectation \u2014 not something you delegate to a technical team and check in on quarterly.",
+            operations: "Apple's challenge is the same one every operations team faces at a different scale: integrating AI into existing products and workflows without breaking what already works.",
+            pm: "Watch how Apple sequences its AI rollout over the next 100 days \u2014 the pattern of prioritizing, shipping, and iterating applies at any scale.",
+            admin: "When AI becomes the top priority at a company this visible, it raises the bar everywhere. The good news: your practical AI experience is exactly what leadership teams need most."
+          },
+          challenge: {
+            steps: [
+              "Think about how your own organization talks about AI at the leadership level. Is it a strategic priority with named owners, or still an experiment scattered across a few teams?",
+              "Open your company-approved AI tool and paste: <em>\"If our CEO made AI our organization's top priority tomorrow, what are three things that would need to change about how my team works? Be specific about process, skills, and decision-making.\"</em>",
+              "Read the response and identify one change your team could start on this week \u2014 without waiting for a mandate from above.",
+              "Share that one change in the group \u2014 the best ideas often come from the people closest to the work."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "September is here \u2014 let AI sort your closet before the season changes.",
+        body: "The weather is shifting, and somewhere in your closet there's a pile of things you haven't worn since last fall and another pile you wore all summer but probably shouldn't keep. Tonight, skip the overwhelm and let AI do the sorting logic. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I'm doing a seasonal closet switch. Here's roughly what I have: [describe your wardrobe \u2014 how much, what types, what's stuffed in the back, what you wear constantly, what hasn't been touched in a year]. My climate is [your area]. My lifestyle is mostly [office / casual / active / mixed]. Tell me what to remove first, what to keep, and what one item I should add if I buy anything this fall. Be ruthless \u2014 I want a smaller, better closet, not a reorganized messy one.\"<br><br>The technique here is <em>subtractive prompting</em> \u2014 instead of asking AI to add ideas, you're asking it what to cut. It's one of the most underused prompting moves: start with everything you have and let AI tell you what to remove. Works for closets, meeting agendas, and project scopes alike."
+      }
+    },
   "2026-08-31": {
       intro: "Monday reset: AI is reshaping how strategy gets made, enterprise agents are arriving faster than teams can govern them, and the transformation that works is about redesigning work \u2014 not cutting it.",
       trends: [
