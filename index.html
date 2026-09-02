@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-02": {
+      intro: "Three things shaping the landscape today: AI pricing is shifting from tokens to outcomes, the organizations seeing real AI impact are the ones redesigning workflows, and a 100-year-old manufacturer is betting $100 million on training its people.",
+      trends: [
+        {
+          title: "AI pricing is moving from 'pay per word' to 'pay when it works'",
+          body: "The Information reports that OpenAI is quietly testing outcome-based pricing with select enterprise customers \u2014 <em>charging only when an AI agent successfully completes a task end-to-end</em>, rather than billing per token consumed. Salesforce and Zendesk are piloting similar models. The vendor absorbs the cost of failed attempts, not the buyer \u2014 a meaningful transfer of risk that changes how enterprises evaluate AI investments.",
+          slants: {
+            strategy: "Outcome-based pricing changes the ROI conversation from 'what did we spend on AI?' to 'what did AI deliver?' \u2014 a much easier case to make.",
+            leaders: "When evaluating AI vendor contracts, ask whether they offer pay-for-performance options \u2014 it shifts risk to the vendor and gives your team room to experiment.",
+            operations: "If your AI tools charge by the token, every failed automation attempt costs money. Outcome-based models reward getting the workflow right, not just running it.",
+            pm: "Budget forecasting for AI projects gets simpler when you're paying for completed tasks, not raw compute \u2014 tie costs to deliverables, not usage.",
+            admin: "The next time you're comparing AI tool proposals, look for pricing tied to what it actually finishes \u2014 it's a built-in quality guarantee."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or feature your team uses (or is considering). Write down how it's currently priced \u2014 per user, per token, flat fee, or something else.",
+              "Open your company-approved AI tool and paste: <em>\"I'm evaluating an AI tool for [describe the use case]. It's currently priced [describe the pricing model]. Help me build a simple cost-per-outcome framework: what counts as a 'completed task' for this use case, what's a fair price per completion, and what questions should I ask the vendor about outcome-based pricing?\"</em>",
+              "Review the framework and identify one question you hadn't thought to ask.",
+              "Share your best question in the group \u2014 it might save someone else a bad deal."
+            ]
+          }
+        },
+        {
+          title: "88% of organizations now use AI regularly \u2014 and the ones seeing bottom-line impact share one practice",
+          body: "McKinsey's 2026 State of AI survey finds that <em>88% of organizations now report regular AI use and 62% are experimenting with AI agents</em>. But meaningful bottom-line impact remains rare \u2014 only organizations that fundamentally redesign workflows around AI, rather than layering it on top of existing processes, are seeing real EBIT gains. The takeaway: adoption isn't the hard part anymore. Rewiring how work actually gets done is.",
+          slants: {
+            strategy: "With 88% of organizations using AI, adoption alone is no longer a differentiator \u2014 the competitive edge belongs to teams that redesign workflows around it.",
+            leaders: "The McKinsey data is clear: impact comes from rethinking how work gets done, not just buying tools. Champion one workflow redesign in your team this quarter and measure the before and after.",
+            operations: "Most AI impact comes from process redesign, not tool selection. Look at your highest-volume workflows and ask where AI could change the sequence of steps, not just speed up one of them.",
+            pm: "The projects delivering real AI value aren't 'add AI to step 4' \u2014 they're 'redesign the whole process with AI as a core input.' Scope your next initiative that way.",
+            admin: "You know better than anyone how processes actually run day to day. That knowledge is exactly what makes workflow redesign work \u2014 you're the person who spots what AI should replace, and what it shouldn't."
+          },
+          challenge: {
+            steps: [
+              "Make a quick list of every AI tool or feature your team or department uses today \u2014 official or unofficial.",
+              "Next to each one, write one of three labels: <em>\"pilot\"</em>, <em>\"scaled (used across teams)\"</em>, or <em>\"not sure.\"</em>",
+              "For anything labeled 'pilot' or 'not sure,' write one sentence about what would need to happen for it to scale.",
+              "Share your list and your biggest scaling bottleneck in the group."
+            ]
+          }
+        },
+        {
+          title: "Caterpillar is spending $100 million to train its workforce on AI \u2014 not to replace them",
+          body: "Caterpillar announced a <em>$100 million, five-year commitment to train all 118,000 employees in AI, autonomy, and robotics</em>. The company built tools like the Cat AI Assistant, which lets field technicians use voice commands to pull up repair procedures on the spot. The key lesson from a decade of automating mining operations: deployment depends on experienced operators redesigning workflows, not engineers installing models.",
+          slants: {
+            strategy: "Caterpillar's bet is clear: the people who know the work are the ones best positioned to redesign it with AI. Build your AI strategy around domain expertise, not just technical talent.",
+            leaders: "A $100 million training commitment from a 100-year-old manufacturer sends a signal \u2014 invest in your people's AI fluency now, and they'll lead the change for you.",
+            operations: "The Cat AI Assistant gives field techs instant access to procedures via voice. Think about where your frontline teams spend the most time searching for information \u2014 that's your first AI win.",
+            pm: "Caterpillar's approach scales because it embeds AI into existing workflows, not alongside them. When scoping your next AI project, start with the workflow the team already knows.",
+            admin: "The people who understand how processes actually work are the ones who make AI useful. Caterpillar is betting on exactly that \u2014 and so can you."
+          },
+          challenge: {
+            steps: [
+              "Pick one repetitive task in your role that involves looking something up \u2014 a procedure, a policy, a contact, a template.",
+              "Open your company-approved AI tool and paste: <em>\"I frequently need to [describe the task]. Right now I [describe how you currently find the information]. Design a faster workflow where AI handles the lookup and I focus on the judgment call. Keep it simple enough to try this week.\"</em>",
+              "Try the suggested workflow once and note whether it saved time or added friction.",
+              "Share what you tried and what happened in the group \u2014 especially if it didn't work. Those lessons are just as valuable."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Got a big purchase you've been going back and forth on? Let AI build the decision for you.",
+        body: "Whether it's a laptop, a mattress, an appliance, or a car \u2014 the analysis paralysis is real. Tonight, stop comparing spec sheets and let AI help you figure out what actually matters to you. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I'm trying to decide between [option A] and [option B] for [what it's for]. My budget is [range]. Before you compare them, ask me five questions about how I'll actually use it, what I care about most, and what would make me regret the purchase. Then build a comparison table weighted by my priorities \u2014 not by the spec sheet.\"<br><br>The technique here is <em>weighted criteria framing</em> \u2014 instead of asking AI to compare two things generically, you're asking it to build the comparison around your specific priorities. The result is a decision framework you trust, not a feature-by-feature list someone else wrote. Try it for any tough call: two apartments, two vacation plans, two schools for your kid."
+      }
+    },
   "2026-09-01": {
       intro: "Three Tuesday reads: AI chatbots are proving to be powerful fact-checking partners, giving AI agents a clear identity makes them trustworthy teammates, and the world's most valuable company just made AI its new CEO's day-one priority.",
       trends: [
