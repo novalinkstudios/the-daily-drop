@@ -980,6 +980,75 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-03": {
+      intro: "Three things from this week worth sitting with \u2014 and one way to sort out the September rush tonight.",
+      trends: [
+        {
+          title: "Enterprise AI data controls just caught up with the concerns",
+          body: "Anthropic announced Enterprise Frontier Safeguards this week \u2014 a system that lets companies <em>store all AI activity data in their own cloud buckets with their own encryption keys</em>. Automated misuse detection still runs, but no Anthropic employee sees the data. The signal: AI vendors are no longer asking enterprises to \"just trust us\" \u2014 they're building the kind of data controls that compliance teams actually sign off on.",
+          slants: {
+            strategy: "This shifts the AI vendor evaluation from \"is it safe enough?\" to \"which vendor gives us the most control?\" \u2014 a much more productive question.",
+            leaders: "If data concerns have been your team's reason to hold off on AI, check whether that objection still holds \u2014 the vendor landscape has moved fast.",
+            operations: "Customer-managed keys and activity logging mean you can bring AI into regulated workflows that were off-limits six months ago.",
+            pm: "Your next AI vendor RFP needs a data residency and key management section \u2014 add it to the template now.",
+            admin: "When your org adopts these controls, you'll want to understand the access and audit policies before they roll out \u2014 not after."
+          },
+          challenge: {
+            steps: [
+              "Pick one task where your team has hesitated to use AI because of data sensitivity \u2014 a report, a process, a type of document.",
+              "Open your company-approved AI tool and paste: <em>\"What enterprise data controls should I look for when evaluating AI tools for sensitive workflows? List the top 5, explain what each one protects, and tell me what question to ask the vendor about each.\"</em>",
+              "Review the list and identify one control you didn't know existed.",
+              "Share that finding in the group \u2014 your discovery might answer someone else's holdout question."
+            ]
+          }
+        },
+        {
+          title: "AI models got cheaper again \u2014 and the real story is what happens next in your tools",
+          body: "Google shipped Gemini 3.8 Flash this week at <em>$0.75 per million input tokens</em> \u2014 its third model release in six weeks. The price of running capable AI keeps falling, and that matters even if you never touch an API. The companies building your work tools \u2014 email, docs, project management \u2014 can now afford to run better models underneath them. Expect the AI features in the software you already use to get quietly smarter this quarter.",
+          slants: {
+            strategy: "Falling AI costs mean your vendor's \"premium AI tier\" becomes the default faster than your contract renewal cycle \u2014 factor that into negotiations.",
+            leaders: "Cheaper AI lowers the barrier for more teams to experiment without a budget fight. That's an opening to expand adoption across your org.",
+            operations: "AI features in your existing tools are about to improve \u2014 it's worth revisiting ones you tried six months ago and dismissed.",
+            pm: "If you've been scoping projects around \"we can't afford the AI version,\" that constraint is loosening. Recheck your options.",
+            admin: "The smart compose, auto-sort, and summarize features in your email and calendar tools are getting better under the hood. Give them another try."
+          },
+          challenge: {
+            steps: [
+              "Pick one work tool you use daily \u2014 your email client, project tracker, or document editor.",
+              "Open its settings or help section and search for \"AI\" or \"smart features.\"",
+              "Find one AI feature you either didn't know existed or tried once and gave up on.",
+              "Use it on a real task today \u2014 even a small one \u2014 and note whether it helped.",
+              "Share what you found in the group: which tool, which feature, and whether it was actually useful."
+            ]
+          }
+        },
+        {
+          title: "AI infrastructure investment just hit a record \u2014 and it reaches further than you'd think",
+          body: "Dell reported quarterly results this week: <em>AI server orders hit $60.9 billion in a single quarter</em>, pushing the total backlog to $95 billion. That's not just a tech-industry headline \u2014 it's a preview of what's coming to your desktop. The companies building your email, project tools, and collaboration platforms are buying this infrastructure to make their AI features faster, smarter, and cheaper to run. The tools you use every day are about to get noticeably more capable.",
+          slants: {
+            strategy: "Multi-year AI infrastructure bets mean the organizations investing now will build capabilities that late movers can't quickly replicate \u2014 factor AI readiness into your competitive analysis.",
+            leaders: "The investment signal is clear: building your team's AI fluency now is an investment that compounds, not a nice-to-have you can push to next quarter.",
+            operations: "As AI infrastructure scales, expect it to move from standalone tools to something embedded in every system you manage. Start thinking about how your workflows adapt.",
+            pm: "AI infrastructure spending at this scale means your next enterprise software upgrade will include new AI capabilities. Plan for the change management now.",
+            admin: "When new AI features land in the tools you already use, you'll be the person people ask \"how does this work?\" Getting curious now puts you ahead."
+          },
+          challenge: {
+            steps: [
+              "Open a blank note or document.",
+              "List three tools you use every day at work \u2014 your email client, project tracker, collaboration app, whatever they are.",
+              "Next to each one, write down one thing it does today that it couldn't do two years ago \u2014 look for AI-powered features you might take for granted.",
+              "Now write one prediction: <em>\"In 12 months, I think [tool name] will also be able to [...]\"</em>",
+              "Share your predictions in the group \u2014 we'll check back in a year to see who got closest."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "September hit like a wall? Let AI help you sort what actually matters.",
+        body: "The post-summer reset can feel overwhelming \u2014 routines shift, responsibilities pile up, and everything seems urgent at once. Tonight, use a free AI tool (ChatGPT, Claude, Gemini, or Perplexity) to separate what matters from what's just loud:",
+        prompt: "\"Here's everything on my mind right now: [list 5\u20137 things stressing you out \u2014 home stuff, family logistics, personal goals, whatever's buzzing]. Sort these into three buckets: things I can act on this week, things I can influence but not fully control, and things I need to let go of for now. For each 'act on this week' item, give me one concrete 15-minute first step I could take tonight.\"<br><br>The technique is <em>categorization before action</em> \u2014 teaching AI to organize your thinking before jumping to solutions. You'll find you already knew the answer; you just needed to see it laid out."
+      }
+    },
   "2026-09-02": {
       intro: "Three things shaping the landscape today: AI pricing is shifting from tokens to outcomes, the organizations seeing real AI impact are the ones redesigning workflows, and a 100-year-old manufacturer is betting $100 million on training its people.",
       trends: [
