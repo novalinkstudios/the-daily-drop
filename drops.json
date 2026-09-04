@@ -5910,5 +5910,75 @@
       "body": "The post-summer reset can feel overwhelming — routines shift, responsibilities pile up, and everything seems urgent at once. Tonight, use a free AI tool (ChatGPT, Claude, Gemini, or Perplexity) to separate what matters from what's just loud:",
       "prompt": "\"Here's everything on my mind right now: [list 5–7 things stressing you out — home stuff, family logistics, personal goals, whatever's buzzing]. Sort these into three buckets: things I can act on this week, things I can influence but not fully control, and things I need to let go of for now. For each 'act on this week' item, give me one concrete 15-minute first step I could take tonight.\"<br><br>The technique is <em>categorization before action</em> — teaching AI to organize your thinking before jumping to solutions. You'll find you already knew the answer; you just needed to see it laid out."
     }
+  },
+  "2026-09-04": {
+    "intro": "Three things worth sitting with this Friday — and one reason to stop scrolling tonight.",
+    "trends": [
+      {
+        "title": "Healthcare just proved AI can earn trust with the most sensitive data — and cleared the path for everyone",
+        "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources/",
+        "body": "OpenAI announced this week that healthcare organizations can now connect their Epic electronic health records to ChatGPT Health — giving clinicians <em>read-only AI access to appointment notes, lab results, medications, and specialist documentation across 325 million patients</em>. Physicians rated 99.1% of responses as safe across over 4,000 evaluations. Healthcare is the industry with the highest data-sensitivity bar in any sector, and it just said yes. That opens the door for every other industry wondering whether AI can be trusted with real enterprise data.",
+        "slants": {
+          "strategy": "Healthcare solved the \"can we trust AI with sensitive data?\" question — your industry can follow the same playbook of read-only access and clinician-in-the-loop design.",
+          "leaders": "This is a great moment to ask your team: what data systems could benefit from AI-assisted lookups, now that the safety model is proven?",
+          "operations": "Read-only AI access to enterprise systems is the winning pattern — you get instant insights without the risk of AI changing anything in your source of record.",
+          "pm": "Scope your next AI pilot around read-only integration with an existing system. It's the lowest-risk, highest-learning way to prove value fast.",
+          "admin": "When AI connects to the systems you manage, \"read-only\" is the key detail — it looks things up but doesn't change records. That's a safety model you can feel confident explaining."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one system at work where you spend time manually looking up information — a database, a records system, a knowledge base, a ticketing tool.",
+            "Open your company-approved AI tool and paste: <em>\"If an AI assistant had read-only access to [name the system], what are the top 5 questions it could answer instantly that currently take me 10+ minutes to research? For each one, describe what I'd ask and what a useful answer looks like.\"</em>",
+            "Pick the one that would save you the most time and write a one-paragraph case for why it's worth piloting.",
+            "Share your best use case in the group — someone else probably has the same system and the same pain point."
+          ]
+        }
+      },
+      {
+        "title": "One in three companies skipped a software purchase and built it with AI instead",
+        "source_url": "https://www.hpcwire.com/aiwire/2026/09/02/mckinsey-report-enterprise-ai-is-becoming-a-two-speed-race/",
+        "body": "McKinsey's 2026 State of AI survey found that <em>32% of organizations decided against buying at least one software product because they could build it internally using AI coding tools</em>. Among high performers — the 6% of companies attributing 5% or more of earnings to AI — nearly half skipped a purchase. The build-vs-buy calculus that has shaped enterprise software for decades is shifting, and the organizations willing to build are pulling ahead.",
+        "slants": {
+          "strategy": "Build-vs-buy analysis now needs a third column: \"build with AI.\" It's no longer hypothetical — a third of organizations are already doing it.",
+          "leaders": "Encourage your team to prototype one internal tool need with AI before defaulting to a vendor search. The speed will surprise you.",
+          "operations": "Custom-built tools only work if they fit the real workflow. Ops teams who define the requirements clearly get better results than those who defer to IT alone.",
+          "pm": "Next time your team needs a new capability, add \"build it with AI\" alongside buy and custom dev — it's often faster and cheaper than either.",
+          "admin": "If your team is evaluating a new tool, your knowledge of how the actual workflow runs is what makes the build-vs-buy decision land right. Speak up early."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one tool or feature your team has wished existed — a dashboard, a report generator, a tracker, something that would save time every week.",
+            "Open your company-approved AI tool and paste: <em>\"I need a tool that [describe what it does in 2–3 sentences]. Compare three paths to getting it: buying off-the-shelf software, hiring a developer, or building a prototype with AI coding tools. For each, give me a rough time-to-working-version, cost range, and the biggest risk.\"</em>",
+            "Review the comparison and note which option you wouldn't have considered a year ago.",
+            "Share your comparison in the group — especially if the AI-built option surprised you."
+          ]
+        }
+      },
+      {
+        "title": "Half of U.S. workers now use AI — and the factor that decides whether it sticks is their manager",
+        "source_url": "https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx",
+        "body": "Gallup's 2026 workforce data shows that <em>52% of U.S. workers now use AI at work</em>, a sharp jump from last year. But the most striking finding is about what drives real impact: employees whose managers actively champion AI are <em>8.7 times more likely to say AI has genuinely changed how they work</em>. Despite all the investment, only 12% of workers strongly believe that's happened. The bottleneck isn't tools or budget — it's whether someone in the room is modeling the behavior.",
+        "slants": {
+          "strategy": "If your AI adoption numbers are flat, look at management behavior before you look at the platform. An 8.7x multiplier is hard to beat with a better tool.",
+          "leaders": "You don't need to be an AI expert — you need to be visibly using it, talking about it, and making space for your team to experiment. That's the multiplier.",
+          "operations": "Half the workforce is on board. The question for ops is whether the right half — the people running your core processes — are among them.",
+          "pm": "If your project team isn't adopting AI, the data says the fastest move is a manager who demonstrates it — not another training session.",
+          "admin": "You're often the first to notice the gap between tools people actually use and ones that sit untouched. That observation is valuable — share it upward."
+        },
+        "challenge": {
+          "steps": [
+            "Rate your direct manager's AI support on a 1–5 scale (1 = never mentions it, 5 = regularly uses and encourages it). Then rate your team's actual AI usage the same way.",
+            "Open your company-approved AI tool and paste: <em>\"I'm a [your role] trying to encourage AI adoption on my team. Our manager support level is [your rating] and our team usage is [your rating]. Give me three specific, low-effort actions I could take this week to move both numbers up by one point — each should take less than 15 minutes.\"</em>",
+            "Pick one action from the list and do it before end of day.",
+            "Share which action you chose in the group — and let us know next week whether it landed."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Friday night, nothing at stake — let AI be your movie programmer.",
+      "body": "Stop scrolling through streaming apps hoping something jumps out. Tonight, try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I want to watch something tonight. My mood is [describe it — cozy, intense, funny, mind-bending, whatever]. I've recently enjoyed [name 2–3 shows or movies]. Build me a 3-movie marathon where each pick shifts the tone slightly. For each one, tell me in one sentence why it fits my mood and what it adds to the sequence.\"<br><br>The technique is <em>asking AI to explain its reasoning for each recommendation</em>. Instead of a generic list, you get picks that connect — and you start seeing how much better AI gets when you ask it to show its work."
+    }
   }
 }
