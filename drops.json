@@ -5980,5 +5980,148 @@
       "body": "Stop scrolling through streaming apps hoping something jumps out. Tonight, try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I want to watch something tonight. My mood is [describe it — cozy, intense, funny, mind-bending, whatever]. I've recently enjoyed [name 2–3 shows or movies]. Build me a 3-movie marathon where each pick shifts the tone slightly. For each one, tell me in one sentence why it fits my mood and what it adds to the sequence.\"<br><br>The technique is <em>asking AI to explain its reasoning for each recommendation</em>. Instead of a generic list, you get picks that connect — and you start seeing how much better AI gets when you ask it to show its work."
     }
+  },
+  "2026-09-05": {
+    "intro": "AI is showing up in new places this week — as a teammate, as a policy question, and as a line in the law.",
+    "trends": [
+      {
+        "title": "Your AI teammate has a name — and 800 subagents behind it",
+        "source_url": "https://blogs.cisco.com/news/my-agent-and-the-rise-of-ambient-intelligence-ciscos-next-step-in-enterprise-ai",
+        "body": "Cisco launched MyAgent across all 90,000 employees last week. The agent sits on Circuit, Cisco's multi-model AI platform, and <em>connects across Outlook, Webex, Jira, and SharePoint to handle supervised autonomous workflows</em>. Behind each personal agent sit 800+ specialized subagents — and for cost control, 50–60% of requests run on open-weight models, not frontier ones. Every action that touches something outside the system still requires your explicit approval.",
+        "slants": {
+          "strategy": "Map which of your planning workflows could feed into MyAgent — the synthesis step you do manually may be one it already handles.",
+          "leaders": "Your team's first question won't be 'what can it do?' — it'll be 'is it safe to use?' Have that answer ready before they ask.",
+          "operations": "The value isn't in one tool — it's in the connections between your tools finally talking to each other across 800 subagents.",
+          "pm": "Supervised autonomous workflows mean your status updates and cross-system syncs just got faster to produce.",
+          "admin": "Every action outside the system still requires your approval — you're the quality gate, not a bystander."
+        },
+        "challenge": {
+          "steps": [
+            "Open MyAgent (or your company-approved AI tool if you don't have access yet).",
+            "Pick one task you did this week that required pulling information from more than one system — a report, a meeting prep, a status update.",
+            "Describe the task to the tool with this prompt: <em>\"I need to [describe the task]. Walk me through the steps you'd take to complete it, including which systems you'd need access to.\"</em>",
+            "Compare its proposed workflow to yours. Where does it save time? Where would you still need to step in?",
+            "Share your comparison in the group — what surprised you about where AI could (or couldn't) help?"
+          ]
+        }
+      },
+      {
+        "title": "Performative AI adoption just got a reality check",
+        "source_url": "https://www.theinformation.com/briefings/exclusive-meta-tells-engineers-ai-token-usage-part-performance-reviews",
+        "body": "Meta told employees this week that it <em>will not use AI adoption dashboards or token counts to evaluate performance</em>. The reversal comes after the company tied reviews to \"AI-driven impact\" and employees challenged the practice in court, arguing that automated productivity metrics penalized workers on protected leave. The lesson: measuring how much AI people use is not the same as measuring whether it helps.",
+        "slants": {
+          "strategy": "If your AI adoption KPIs measure activity instead of outcomes, you're incentivizing busy work with a new tool.",
+          "leaders": "The fastest path to real adoption isn't a dashboard — it's showing your team one workflow where AI saves them 20 minutes.",
+          "operations": "Process metrics should capture what got better — fewer errors, faster turnaround — not which tool was used.",
+          "pm": "Track whether the project shipped faster or smoother, not whether every team member logged into the AI tool.",
+          "admin": "Your value was never in how many tools you use. It's in the judgment you bring to every task — AI-assisted or not."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool you've tried at work — even briefly.",
+            "Open a blank note and write two columns: <em>\"What it actually helped with\"</em> and <em>\"What I used it for just to try it.\"</em>",
+            "Be honest about which column has more entries.",
+            "Now write one sentence finishing this thought: <em>\"The most useful thing AI has done for me at work so far is ___.\"</em>",
+            "Share that sentence in the group — no pressure to be impressive, just honest."
+          ]
+        }
+      },
+      {
+        "title": "The first AI emotion surveillance ban just cleared California's legislature",
+        "source_url": "https://www.hrdive.com/news/california-ban-on-workplace-ai-emotion-surveillance-heads-to-newsom/829207/",
+        "body": "California's AB 1883 passed the legislature on August 30 and now sits on Governor Newsom's desk. If signed, it would <em>prohibit employers from using AI tools to infer or predict an employee's emotional state, or to collect neural data</em>. The bill doesn't ban workplace monitoring entirely — it draws a specific line at AI reading your feelings. It's the first law of its kind in the U.S. and signals where the boundary is heading: AI can assist your work, but it shouldn't assess your mood.",
+        "slants": {
+          "strategy": "Whether or not this bill applies to your state, it sets the expectation: AI that monitors outputs is accepted, AI that monitors emotions is not.",
+          "leaders": "This draws a useful line for any AI policy you're shaping — tool assistance yes, sentiment surveillance no.",
+          "operations": "If you're evaluating new AI tools, add one question to your checklist: does this collect any biometric or sentiment data?",
+          "pm": "Compliance teams should watch this closely — similar bills are likely coming in other states and could affect tool choices.",
+          "admin": "You have the right to use AI as a tool without it studying how you feel about using it."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"List 5 types of data that AI workplace tools commonly collect about employees. For each, explain whether it measures work output or personal behavior.\"</em>",
+            "Read the list and identify which types you'd be comfortable with and which cross a line for you.",
+            "Write one sentence about where you'd draw the boundary between helpful AI monitoring and uncomfortable surveillance.",
+            "Share your boundary line in the group — this is a conversation worth having out loud."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "September's electric bill just arrived — let AI find the savings hiding in your routine.",
+      "body": "Pull up your latest electric or gas bill (or estimate your monthly amount) and open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity).",
+      "prompt": "\"My electric bill was about $[amount] last month. I live in a [house/apartment] in [climate]. Give me 3 specific things I can change this month to lower it, ranked by how much each one would save. For each, estimate the monthly savings in dollars.\"<br><br>Ranking by a specific criterion — <em>estimated dollar savings</em> — forces the AI to prioritize instead of giving you a generic list. That's a technique worth using everywhere: 'rank by impact,' 'rank by effort,' 'rank by cost.'"
+    }
+  },
+  "2026-09-06": {
+    "intro": "Sunday edition — three things reshaping the AI landscape right now, and one for your reading list tonight.",
+    "trends": [
+      {
+        "title": "The AI frontier moved this week — and the best plans are built to flex",
+        "source_url": "https://www.axios.com/2026/09/03/axios-interview-sam-altmans-sobering-siren",
+        "body": "OpenAI launched GPT-6 Astra on Wednesday with a million-token context window and capabilities so advanced the company rated it \"Critical\" under its own safety framework. Then CEO Sam Altman told Axios at the G20 that next-generation models will be <em>\"sobering for everybody\"</em> — a signal that the pace of capability growth is outrunning even the builders' comfort. For anyone locking in 2027 roadmaps this quarter, the takeaway is clear: the organizations that build flexibility into their AI plans will lead. The ones that plan for a fixed endpoint will be replanning by January.",
+        "slants": {
+          "strategy": "Build your AI strategy for flexibility, not for a specific model generation — what matters in six months may not exist yet today.",
+          "leaders": "If your team's AI roadmap assumes today's tools are the ceiling, revisit it now. The floor is about to move.",
+          "operations": "Every workflow designed around current AI limitations has a shelf life. Build in review cycles, not permanent architectures.",
+          "pm": "Add a standing check-in to every AI-dependent project: are the assumptions we started with still true?",
+          "admin": "The tools on your desktop will look different in six months. Staying curious now means you won't be scrambling later."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"I'm planning work for the next 6 months. List 3 AI capabilities that exist today that didn't exist 6 months ago, and for each one, describe how it could change a typical planning or strategy workflow.\"</em>",
+            "Read the list and identify one capability that would change how you personally plan or prioritize.",
+            "Share that one capability in the group — what surprised you most about how fast things moved?"
+          ]
+        }
+      },
+      {
+        "title": "Nvidia just bought the platform 18 million developers use to share AI — and promised to keep it open",
+        "source_url": "https://www.cnn.com/2026/09/03/tech/nvidia-hugging-face-ai-acquisition",
+        "body": "Nvidia agreed to acquire Hugging Face for <em>$13 billion</em> — the AI community's go-to platform for sharing models, datasets, and tools. More than 200,000 companies use it to discover and deploy AI. Nvidia says the platform will stay open, but the deal signals that AI's infrastructure layer is consolidating fast. The companies building your tools increasingly depend on a shrinking number of platforms, chip makers, and model providers. That's not a crisis — it's a planning variable worth understanding.",
+        "slants": {
+          "strategy": "Map your AI supply chain: which vendors depend on which platforms and chip makers. Consolidation creates dependencies worth understanding.",
+          "leaders": "When the infrastructure under your AI tools changes hands, ask your tech leads one question: does this affect our options?",
+          "operations": "If your team builds on open-source models, this acquisition is worth tracking — access and terms could shift over time.",
+          "pm": "Add vendor concentration risk to your next AI project review. One acquisition can change the landscape underneath you.",
+          "admin": "You don't need to understand the deal — but knowing that the AI tools your organization relies on depend on a few key players helps you ask sharper questions."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools your team uses or is evaluating — Copilot, ChatGPT, Gemini, Claude, or anything built on top of them.",
+            "Open your company-approved AI tool and paste: <em>\"Explain in plain language: what is Hugging Face, why does it matter to the AI tools companies use, and what might change for enterprise customers now that Nvidia is acquiring it? Keep it under 200 words.\"</em>",
+            "Read the summary and identify one thing you didn't know about how AI tools depend on shared infrastructure.",
+            "Share your takeaway in the group — this is the kind of background that makes AI conversations at work more grounded."
+          ]
+        }
+      },
+      {
+        "title": "20% of companies are capturing 74% of AI's value — and spending isn't the difference",
+        "source_url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+        "body": "PwC's 2026 AI Performance study surveyed 1,217 senior executives and found a stark divide: <em>the top 20% of companies generate 7.2 times more AI-driven gains</em> than the average competitor, with profit margins running 4 percentage points higher. The difference isn't budget — it's approach. Top performers use AI to pursue new revenue and redesign how value gets created. The majority are still layering AI onto existing processes and wondering why the results feel incremental.",
+        "slants": {
+          "strategy": "If your AI strategy starts and ends with efficiency, you're in the 80%. The leaders are asking: what can we do now that we couldn't do before?",
+          "leaders": "Give one team permission to use AI to build something new — not just optimize something old. That's where the 7.2x multiplier lives.",
+          "operations": "Efficiency gains are real, but they plateau. The next level is using AI to redesign the process, not just speed it up.",
+          "pm": "In your next project proposal, add one line: what would this project look like if AI were part of the design, not just a tool we bolt on?",
+          "admin": "Your close-to-the-ground view of how work actually flows is exactly what leadership needs when deciding where AI can create something new — not just do the same thing faster."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one process or workflow your team runs regularly — a report, a review cycle, an approval chain, whatever you touch most often.",
+            "Open your company-approved AI tool and paste: <em>\"I run a [describe the process] every [frequency]. Right now we use AI to [describe current use, or say 'we don't yet']. Instead of just making this faster, suggest 3 ways AI could fundamentally change what this process produces or how it creates value. Be specific and practical.\"</em>",
+            "Pick the suggestion that feels most realistic and write one sentence about what it would take to try it.",
+            "Share your best redesign idea in the group — someone else probably runs a similar process and would benefit from hearing it."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Sunday night, stack unread — let AI build you a reading list that actually fits.",
+      "body": "Instead of scrolling \"best books\" lists that all recommend the same titles, try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"Here are the last 3 books (or articles, or podcasts) I finished and enjoyed: [list them]. Find the hidden thread connecting what I liked about all three — the theme or style I'm drawn to that I might not have named myself. Then recommend 3 books I've probably never heard of that pull on that same thread. For each, tell me in one sentence what it shares with my picks and one sentence about what it adds that's new.\"<br><br>The technique is <em>pattern recognition before recommendation</em> — asking AI to identify what you actually like before suggesting what's next. You'll get picks that feel personal instead of generic, and you'll learn something about your own taste in the process."
+    }
   }
 }
