@@ -6335,5 +6335,75 @@
       "body": "Fall means get-togethers — a birthday, a football watch party, a neighborhood potluck, a long-overdue dinner with friends. Tonight, let AI help you plan one using a technique that works for any kind of planning. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I'm planning a [describe your gathering — dinner for 8, a birthday party, a neighborhood potluck, whatever fits]. Before you give me a plan, tell me the three things most likely to go wrong with this kind of event. Then build me a simple plan that prevents each one.\"<br><br>The technique is called a <em>pre-mortem</em> — asking AI to predict failures before they happen, then plan around them. It works for any kind of planning, from events to projects to big decisions. Try it anytime you catch yourself jumping straight to the plan without asking 'what could go wrong?'"
     }
+  },
+  "2026-09-10": {
+    "intro": "Three signals worth catching today — and one for your evening that could save you real money this fall.",
+    "trends": [
+      {
+        "title": "Enterprise AI just moved from 'buy a tool' to 'embed a team'",
+        "source_url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+        "body": "Accenture and Google Cloud launched the Accenture Gemini Enterprise Business Group this week — <em>deploying 1,000 forward-deployed engineers directly inside enterprise clients</em> to build production AI applications. They follow Microsoft ($2.5 billion, 6,000 engineers), Amazon ($1 billion), and OpenAI and Anthropic, who all launched similar embedded programs in recent months. The message: the tools alone weren't enough, so the deployment model just became the product.",
+        "slants": {
+          "strategy": "The competitive question is shifting from tool selection to deployment depth — update your evaluation criteria to ask how AI experts integrate with your actual workflows.",
+          "leaders": "If your AI vendor relationship is still license-and-support, ask what embedded deployment options exist before your next renewal.",
+          "operations": "Forward-deployed engineers succeed because they learn your actual workflows, not your org chart — the ops teams that document processes well get the most from this model.",
+          "pm": "When scoping an AI project, ask whether the vendor offers embedded engineering support — it changes the implementation timeline and risk profile significantly.",
+          "admin": "When outside engineers embed in your organization to build AI workflows, your knowledge of how things actually run becomes the most valuable input in the room."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or feature your team has been trying to adopt — something that hasn't fully taken hold yet.",
+            "Open your company-approved AI tool and paste: <em>\"We've been trying to adopt [describe the tool or feature] but it hasn't fully taken hold. Diagnose the gap: is it a tool problem, a workflow problem, or a people problem? For each diagnosis, suggest one specific fix we could try this week.\"</em>",
+            "Read the response and identify which diagnosis feels most honest for your team.",
+            "Share your diagnosis and suggested fix in the group — most teams will recognize their own gap in someone else's."
+          ]
+        }
+      },
+      {
+        "title": "Managers use AI solo — the teams that use it together are seeing better results",
+        "source_url": "https://hbr.org/2026/09/ai-can-enhance-every-stage-of-teamwork-under-two-conditions",
+        "body": "New HBR research from <em>more than 300 managers across 35 organizations</em> found that managers routinely use AI for individual tasks but rarely bring it into meetings and collaborative work. When AI shows up in team settings without intentional design, it can actually reduce engagement and narrow participation. The teams seeing real gains are using AI across the full arc — before, during, and after meetings — not just as a live tool in the room.",
+        "slants": {
+          "strategy": "If your AI adoption strategy focuses only on individual productivity, you're missing where most decisions actually happen — in the room, with the team.",
+          "leaders": "Before rolling AI into team meetings, set two ground rules: everyone knows the AI is there, and the team — not the tool — owns the output.",
+          "operations": "AI pre-work before a meeting — drafting agendas, summarizing context, flagging risks — saves more time than AI during a meeting. Start there.",
+          "pm": "Structure your meeting prep, facilitation, and follow-up as three separate AI touchpoints — doing all three is what the research says works.",
+          "admin": "You're often the person who makes meetings actually run. AI can handle the prep and the notes — your judgment about what matters in the room is the part that stays human."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a recurring meeting you run or participate in — a weekly check-in, a project review, a planning session.",
+            "Before the next one, open your company-approved AI tool and paste: <em>\"I have a recurring [describe the meeting — type, frequency, purpose]. Help me design a 3-step AI workflow: what should AI prepare before the meeting, how could it support the discussion during, and what should it summarize or track after? Keep each step to one concrete action.\"</em>",
+            "Try at least the 'before' step at your next meeting and notice whether the conversation starts differently.",
+            "Share what you tried in the group — did the AI pre-work change how the meeting went?"
+          ]
+        }
+      },
+      {
+        "title": "Most companies built AI reskilling programs — the next step is making sure people actually use them",
+        "source_url": "https://gloat.com/blog/workforce-redeployment-gap/",
+        "body": "Gloat's latest analysis of AI workforce restructuring surfaces a striking number: <em>77% of HR leaders say they offer targeted AI career mobility programs, but only 19% of employees have experienced or even recognized one</em>. The 58-point gap isn't about bad intentions — it's about visibility. Programs buried in HR portals that employees rarely visit are programs that aren't running.",
+        "slants": {
+          "strategy": "If your AI workforce plan includes reskilling and redeployment, audit whether your team can actually find those programs — a 58-point visibility gap means the investment isn't landing.",
+          "leaders": "The fastest way to close the visibility gap is to talk about development paths in your regular one-on-ones — don't wait for HR to surface them.",
+          "operations": "Embed reskilling touchpoints in the workflows your team already uses — a program people discover during their normal workday gets adopted; a portal they visit once a year doesn't.",
+          "pm": "When AI projects reshape team structures, build internal communication and pathway visibility into the project plan — it's a deliverable, not an afterthought.",
+          "admin": "You see which programs people actually engage with and which ones gather dust — that perspective makes you the right person to flag what's working and what needs a better rollout."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company's intranet or HR portal and search for terms like 'AI training,' 'reskilling,' or 'career mobility.' Note how long it takes to find something useful.",
+            "Open your company-approved AI tool and paste: <em>\"I manage a team and want to make sure they know about the AI training and career development programs our organization offers. The challenge is that most employees can't find these programs. Give me three specific ways I could surface reskilling opportunities to my team — using channels and touchpoints they already engage with, not a new system.\"</em>",
+            "Pick the suggestion that seems most realistic for your team.",
+            "Share what you tried — or what you discovered was missing — in the group. Most teams haven't talked about this gap openly."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Got a money goal before year-end? Let AI reverse-engineer the plan.",
+      "body": "The holidays are coming, a big purchase is on your radar, or you just want to end the year with a cushion. Instead of vaguely resolving to 'save more,' try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I want to have $[amount] saved by [date — December 31, a birthday, a trip, whatever fits]. I currently have $[starting amount or zero] set aside. My monthly take-home is roughly $[amount]. Work backwards from my goal: tell me exactly how much I need to set aside per week, where that money could realistically come from based on common spending patterns, and give me a week-by-week tracker I can follow. Be specific — don't just say 'cut expenses.'\"<br><br>The technique is <em>reverse-engineering</em> — instead of asking AI a vague question, you give it a specific target and ask it to work backwards to a plan that fits your actual numbers. Try it for any goal: a fitness target, a reading list, a home project. Start with the finish line and let AI map the steps back to today."
+    }
   }
 }
