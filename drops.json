@@ -6475,5 +6475,75 @@
       "body": "Fall is prime baking season, and there's probably one thing you've always wanted to make — bread from scratch, pie crust, cinnamon rolls, whatever — that you've never attempted because it feels too hard. Tonight, open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I've always wanted to try baking [name the thing — sourdough, pie from scratch, croissants, whatever intimidates you]. The thing that's stopped me is [describe your specific fear — I'll mess up the dough, I don't understand yeast, my oven runs hot, I'll waste ingredients]. Start by telling me why that specific fear is more fixable than I think. Then give me a beginner-friendly version of the recipe that protects against my weak spot. Mark the one step where beginners mess up most — and tell me exactly how to know I've done it right.\"<br><br>The technique is <em>naming your fear before asking for help</em>. When you tell AI what specifically intimidates you, it gives guidance tailored to your actual anxiety — not a generic tutorial that assumes confidence you don't have yet. Try it beyond baking: 'I want to negotiate my cable bill but I'm afraid of confrontation,' or 'I want to start running but I'm worried I'll look ridiculous.' The more specific the fear, the more useful the help."
     }
+  },
+  "2026-09-12": {
+    "intro": "Saturday briefing — three signals worth a few minutes, and one curiosity experiment for tonight.",
+    "trends": [
+      {
+        "title": "Your team is building AI skills — just not where you'd expect",
+        "source_url": "https://www.icims.com/company/newsroom/septemberinsights2026/",
+        "body": "iCIMS's September workforce report found that <em>the share of workers teaching themselves AI skills jumped from 22% to 30% in a single year — while employer-provided training stayed flat at roughly one in six</em>. Meanwhile, 42% of employees expect their role to change significantly due to AI within the next year — but only 17% use AI frequently today. The motivation to learn is clearly there. The organizational support isn't keeping up.",
+        "slants": {
+          "strategy": "If your workforce is self-teaching AI, the question isn't whether they're learning — it's whether they're learning the things your strategy needs most.",
+          "leaders": "Ask your team what they've taught themselves about AI in the last three months — the answers will tell you where your formal training plan has gaps.",
+          "operations": "Self-taught AI users may be building workflows you don't know about — that's innovation and risk in the same package.",
+          "pm": "When staffing AI-enabled projects, ask candidates about self-directed learning alongside formal credentials — the most capable people are often the ones who taught themselves.",
+          "admin": "If you've been experimenting with AI on your own, you're ahead of most — and your organization should be asking what you've learned."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last AI skill you picked up on your own — a prompting technique, a new tool, a workflow shortcut.",
+            "Open your company-approved AI tool and paste: <em>\"I've been teaching myself [describe what you learned] on my own time. Help me turn this into a one-paragraph pitch to my manager for why the team should invest in this skill formally. Include one specific business outcome it could improve and one risk of not developing it.\"</em>",
+            "Read the output and refine it until it sounds like you — not like a template.",
+            "Share your pitch (or just the concept) in the group — most teams have no idea what their people are already learning."
+          ]
+        }
+      },
+      {
+        "title": "AI tools are connecting directly to your document library — no more copy-paste",
+        "source_url": "https://www.uctoday.com/project-management/dropbox-brings-files-enterprise-search-and-calendar-scheduling-into-chatgpt/",
+        "body": "This week, ChatGPT added native connections to Dropbox, Box, and SharePoint — joining Google Drive. <em>Users can now work with cloud-stored documents directly, without uploading copies into the chat</em>, and existing file permissions carry over. The shift from \"paste text into a chat window\" to \"AI works with your actual document library\" changes who benefits most — and raises the value of well-organized files.",
+        "slants": {
+          "strategy": "When AI can search your document library, the quality of your filing system becomes a competitive advantage — messy folders mean worse AI output.",
+          "leaders": "This is a good moment to revisit your team's document hygiene — AI tools can only be as useful as the information they can find.",
+          "operations": "Cross-referencing SOPs, vendor contracts, and internal guides just went from a multi-tab exercise to a single conversation.",
+          "pm": "Project documentation scattered across three platforms is now accessible from one AI interface — if your file structure is clear enough for the tool to navigate.",
+          "admin": "You already know where everything lives. As AI tools start surfacing documents on their own, your organizational knowledge becomes the map they follow."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one folder or document library you work with regularly — a project folder, a shared drive, a team wiki.",
+            "Open your company-approved AI tool and paste: <em>\"I manage a [type of folder or library] with about [number] files, organized by [describe the current structure]. If an AI tool could search this library and pull relevant documents for me, what would the folder structure need to look like for it to find the right file on the first try? Give me three specific improvements I could make this week.\"</em>",
+            "Pick the one improvement that's most realistic and start applying it.",
+            "Share what you changed in the group — most people discover their folder structure was designed for humans alone, not for AI and humans working together."
+          ]
+        }
+      },
+      {
+        "title": "AI access is now a strategy question — not just a feature comparison",
+        "source_url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+        "body": "OpenAI paused new sign-ups for its $200-a-month Pro plan this week after demand for its latest model, Astra, strained system capacity. The company's product lead called the demand <em>\"unprecedented\"</em> — the first time a major AI provider has hit a public access ceiling. Lower-cost plans remain available, but the signal is clear: when a tool becomes essential, access planning matters as much as feature selection.",
+        "slants": {
+          "strategy": "Treat AI tool access like any critical dependency — a single-vendor strategy works until it doesn't. Build optionality now.",
+          "leaders": "Check whether your team has access to more than one AI tool. The goal isn't to pick a winner — it's to ensure continuity when demand spikes.",
+          "operations": "When a critical tool goes temporarily unavailable, teams with a documented fallback keep moving. Write that fallback plan now, not during the outage.",
+          "pm": "For any project with an AI dependency, add tool-access risk to the risk register — this week showed it's not theoretical.",
+          "admin": "Keep a running list of which AI tools your team uses and what each one handles. If one goes down, you're the person who knows what breaks first."
+        },
+        "challenge": {
+          "steps": [
+            "List the AI tools you or your team currently rely on — even the informal ones.",
+            "Open your company-approved AI tool and paste: <em>\"My team uses [list the tools] for [describe your main use cases]. If our primary tool went offline for a week, what would break first? For each risk, suggest one backup approach we could set up in under 30 minutes — so we're ready instead of scrambling.\"</em>",
+            "Identify the one workflow that has no backup today.",
+            "Share your biggest single point of failure in the group — most teams are surprised how much rides on one tool."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Saturday night curiosity — pick something ordinary and find out how it's actually made.",
+      "body": "Your phone case, your morning coffee, a cotton T-shirt, a pencil — you use them without thinking. But every object has a production story with at least one step that would genuinely surprise you. Tonight, pick one and open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I use a [name the everyday object] every day without thinking about it. Walk me through how it's actually made, from raw materials to the finished product in my hand. But don't give me the encyclopedia version — focus on the one step in the process that most people would never guess exists. Explain that step in detail and tell me why it matters.\"<br><br>The technique is <em>asking AI to filter for surprise instead of completeness</em>. Generic prompts get generic answers. When you tell AI what kind of response you want — the most surprising part, the most counterintuitive step, the most expensive ingredient — it stops listing everything and starts thinking about what's actually interesting. Try it on any topic: 'What's the one thing about [subject] that most people get completely wrong?'"
+    }
   }
 }
