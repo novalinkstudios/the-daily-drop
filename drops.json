@@ -6545,5 +6545,76 @@
       "body": "Your phone case, your morning coffee, a cotton T-shirt, a pencil — you use them without thinking. But every object has a production story with at least one step that would genuinely surprise you. Tonight, pick one and open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I use a [name the everyday object] every day without thinking about it. Walk me through how it's actually made, from raw materials to the finished product in my hand. But don't give me the encyclopedia version — focus on the one step in the process that most people would never guess exists. Explain that step in detail and tell me why it matters.\"<br><br>The technique is <em>asking AI to filter for surprise instead of completeness</em>. Generic prompts get generic answers. When you tell AI what kind of response you want — the most surprising part, the most counterintuitive step, the most expensive ingredient — it stops listing everything and starts thinking about what's actually interesting. Try it on any topic: 'What's the one thing about [subject] that most people get completely wrong?'"
     }
+  },
+  "2026-09-13": {
+    "intro": "Three signals this week that the AI story is bigger — and calmer — than most people think.",
+    "trends": [
+      {
+        "title": "The biggest AI companies just asked the world to slow down",
+        "source_url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+        "body": "Anthropic CEO Dario Amodei published a 3,800-word essay on Friday calling for the AI industry to <em>deliberately slow the pace of capability improvements</em>. OpenAI's Sam Altman posted his agreement within hours. The message from both frontier labs: progress will still feel fast — but the industry needs time to verify what it's building before pushing further.",
+        "slants": {
+          "strategy": "Your planning window just got wider. Use it to build a real AI strategy, not just react to each new release.",
+          "leaders": "This is a signal to invest in team readiness now — the pace may ease, but the direction isn't changing.",
+          "operations": "Slower capability releases mean more time to pressure-test your workflows before the next wave arrives.",
+          "pm": "Fewer surprise platform changes means more predictable project timelines for AI-dependent initiatives.",
+          "admin": "The frantic 'new tool every week' cycle may ease up — giving you time to actually learn the tools you already have."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank document or note.",
+            "Write down the 3 AI tools or features your team currently uses (or has talked about using).",
+            "Next to each one, write one of these labels: <em>\"We're using this well,\"</em> <em>\"We've tried it but haven't stuck with it,\"</em> or <em>\"We haven't started yet.\"</em>",
+            "For the one marked 'haven't started yet,' write one concrete next step you could take this week.",
+            "Share your assessment in the group — where is your team in the adoption curve?"
+          ]
+        }
+      },
+      {
+        "title": "The Pentagon just made AI infrastructure a defense priority",
+        "source_url": "https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain/",
+        "body": "The Department of Defense is in talks to lend <em>$5 billion to AI cloud startup Fluidstack</em> through its Office of Strategic Capital — by far the office's largest deal to date. The money isn't for weapons. It's for data center supply chains: power, cooling, and the physical infrastructure AI runs on. AI compute is being treated like critical national infrastructure.",
+        "slants": {
+          "strategy": "When defense budgets fund AI infrastructure, it tells you AI is no longer a discretionary line item — it's a utility.",
+          "leaders": "Frame AI investments to your executives the way governments are framing them: as infrastructure, not experiments.",
+          "operations": "Cloud compute capacity and reliability are becoming strategic considerations, not just IT procurement details.",
+          "pm": "Factor AI compute availability into long-term project planning — it's becoming a resource constraint like headcount or budget.",
+          "admin": "The tools you rely on run in these data centers. Understanding the infrastructure story helps you see what's coming next."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or platform your team depends on (or is evaluating).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I'm evaluating an AI tool for my team. What questions should I ask the vendor about infrastructure reliability, data residency, and long-term availability?\"</em>",
+            "Review the list and pick the three questions most relevant to your organization.",
+            "Share your top question in the group — what would you most want to know about the infrastructure behind your AI tools?"
+          ]
+        }
+      },
+      {
+        "title": "Companies are redesigning roles with AI — and keeping the people in them",
+        "source_url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+        "body": "The Federal Reserve Bank of New York published new survey data: <em>only 4% of service firms reported laying off workers because of AI</em> in the past six months, while 61% of service firms now use AI — up from 40% last year. The pattern is clear: companies are using AI to change what people do, not to replace who does it.",
+        "slants": {
+          "strategy": "The strategic playbook is role evolution, not headcount reduction. Plan for changing positions, not disappearing ones.",
+          "leaders": "Share this data with your team. The 'am I being replaced?' question has a clear answer from the Fed: overwhelmingly, no.",
+          "operations": "The 61% adoption rate means your peers are already using AI. The question isn't whether to start — it's how to start well.",
+          "pm": "When scoping AI projects, plan for role redesign — new responsibilities, new skills — not role elimination.",
+          "admin": "Your role is evolving, not shrinking. The data says companies are investing in how work gets done, not cutting who does it."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task you do regularly that you think AI could partially handle.",
+            "Open your company-approved AI tool and try this prompt: <em>\"I currently [describe the task]. Walk me through how AI could handle the routine parts while I focus on the parts that need judgment, context, or relationships.\"</em>",
+            "Read the response and note which parts of the task you'd want to keep and which you'd gladly hand off.",
+            "Share your split in the group — what's the task, and what did you want to keep?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Fall is almost here — let AI help you figure out what your home actually needs before the season turns.",
+      "body": "Seasonal home prep is one of those things everyone means to do but rarely plans well. Tonight, try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I live in [your region/climate]. Tell me what I'm probably forgetting to do to get my home ready for fall and early winter. For each item, tell me how urgent it is and roughly how long it takes.\"<br><br>That technique — <em>tell me what I'm forgetting</em> — turns AI into a second brain that catches your blind spots. It works for home prep, project plans, travel packing, or any checklist where you're building from memory."
+    }
   }
 }
