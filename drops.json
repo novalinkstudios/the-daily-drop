@@ -6616,5 +6616,75 @@
       "body": "Seasonal home prep is one of those things everyone means to do but rarely plans well. Tonight, try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I live in [your region/climate]. Tell me what I'm probably forgetting to do to get my home ready for fall and early winter. For each item, tell me how urgent it is and roughly how long it takes.\"<br><br>That technique — <em>tell me what I'm forgetting</em> — turns AI into a second brain that catches your blind spots. It works for home prep, project plans, travel packing, or any checklist where you're building from memory."
     }
+  },
+  "2026-09-14": {
+    "intro": "Monday briefing — three things worth knowing as you set the week's direction.",
+    "trends": [
+      {
+        "title": "AI agents just got job titles — and that changes how you plan your team",
+        "source_url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+        "body": "Salesforce introduced seven named AI agents last week, each built for a specific enterprise function: Casey for customer service, Hunter for outbound sales, Piper for pipeline generation, Marshall for supply chain, and three more across commerce, IT, and customer experience. These aren't generic assistants — they're <em>specialists with defined roles, memory that spans months, and the ability to pursue goals over weeks</em>. Alongside them, Salesforce launched a governance framework for managing agents across multiple vendors. The shift from 'AI as a feature' to 'AI as a named teammate with a specific job' is how enterprise software is heading.",
+        "slants": {
+          "strategy": "When vendors start naming agents by function, it's a signal to map where role-specific AI fits in your org — not as a headcount swap, but as a capacity multiplier.",
+          "leaders": "Your team will soon be evaluated on how well they direct AI agents, not just how well they work themselves. Start building that muscle now.",
+          "operations": "Named, function-specific agents mean your process documentation becomes the blueprint they follow — invest in clarity before you invest in agents.",
+          "pm": "Project staffing conversations are about to include a new question: which parts of this work belong to a human and which belong to a named agent?",
+          "admin": "When an AI agent handles the routine parts of a function you support, your contextual knowledge — who needs what, when, and why — becomes the input that makes the agent useful."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one function on your team that involves a lot of recurring, structured work — customer inquiries, report generation, scheduling, data entry.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"If I could assign a specialized AI agent to handle the routine parts of [describe the function], what would its job description look like? List its responsibilities, the decisions it can make on its own, and the ones that still need a human.\"</em>",
+            "Read the response and ask yourself: does your team's current process documentation give an agent enough clarity to actually do this?",
+            "Share your AI agent 'job description' in the group — it reveals where your workflows are clear enough for AI and where they're not."
+          ]
+        }
+      },
+      {
+        "title": "Meta bet AI would replace its managers — and just reversed course",
+        "source_url": "https://fortune.com/2026/09/12/meta-year-of-efficiency-managers-ai-investment/",
+        "body": "Meta moved 7,000 employees into its new Applied AI division this year, flattened the hierarchy, and stretched some manager spans to <em>50 direct reports</em> — betting that AI could absorb the coordination work managers do. This week, Fortune reported that Meta is quietly asking individual contributors whether they'd like to return to management roles. The bet didn't pay off. AI handled tasks, but it didn't replace the judgment, context, and people work that holds a team together.",
+        "slants": {
+          "strategy": "If your AI-driven restructuring plan assumes management layers can be thinned, Meta's reversal is worth studying — the coordination work didn't disappear, it just went unmanaged.",
+          "leaders": "The value you add as a people leader — setting direction, resolving ambiguity, developing your team — isn't the part AI absorbs. It's the part that makes AI work.",
+          "operations": "Flattened structures only work when information flows cleanly. If your team's AI tools haven't solved that, your managers are still the connective tissue.",
+          "pm": "AI can automate status updates and surface risks, but someone still needs to make the call on scope, priority, and trade-offs — that's the manager's role AI didn't replace.",
+          "admin": "Your ability to coordinate across people, systems, and schedules is exactly the kind of work AI struggled to absorb at Meta. That skill is rising in value, not falling."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the management or coordination work in your team — the parts that keep things moving between people, not just between systems.",
+            "Open your company-approved AI tool and paste: <em>\"My team's coordination work includes [describe 2–3 examples — status syncs, escalation handling, stakeholder updates, calendar management]. For each one, tell me which parts AI could realistically handle today and which parts still need a human making judgment calls. Be honest about the limits.\"</em>",
+            "Look at the split. Notice how much of coordination is about judgment, relationships, and context — not just information routing.",
+            "Share your most surprising finding in the group — most people discover the human layer is bigger than they assumed."
+          ]
+        }
+      },
+      {
+        "title": "Organizations trust their AI agents far more than the evidence supports",
+        "source_url": "https://www.harness.io/press-and-news/new-report-reveals-ai-agent-confidence-gap",
+        "body": "Harness surveyed 700 organizations already running AI agents and found a striking gap: enterprise confidence in agent governance scores <em>74–77% across every domain — security, inventory, cost control, rollback</em> — but actual controls come in 30 to 55 points lower. The starkest example: 75% of organizations say their agents are secure end-to-end, but only 23% have a dedicated AI-agent security layer in production. The risk isn't that agents fail — it's that teams believe they're governed when they're not.",
+        "slants": {
+          "strategy": "Before expanding AI agent deployments, run an honest gap analysis between what your team believes is in place and what's actually running in production.",
+          "leaders": "Ask your team one question this week: 'If our AI agent did something unexpected right now, how would we know?' The answer reveals whether your governance is real or assumed.",
+          "operations": "A 30-point gap between confidence and controls means your incident response plan for AI agents probably hasn't been tested. Build the drill before you need it.",
+          "pm": "Add a governance verification step to every AI project plan — not 'do we have a policy?' but 'is the policy actually running in production?'",
+          "admin": "When new AI tools arrive without a clear explanation of who's watching them, your instinct to ask 'how do we know this is working correctly?' is exactly the question that closes the gap."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or automated workflow your team uses today.",
+            "Open your company-approved AI tool and paste: <em>\"We use [describe the tool or workflow]. Help me create a 5-question 'governance reality check' that compares what we believe is true about its security, accuracy, and oversight versus what we can actually verify. For each question, include a way to test whether the answer is real or assumed.\"</em>",
+            "Run through the five questions honestly. Count how many you can verify versus how many are assumptions.",
+            "Share your verified-vs-assumed ratio in the group — the gap is usually wider than anyone expects."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Monday morning — before the week starts pulling you in ten directions, let AI help you redesign the part that sets your tone.",
+      "body": "Your morning routine (or lack of one) shapes more of your day than you realize. Instead of scrolling someone else's '5 AM miracle morning,' try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"Here's what my weekday mornings actually look like right now: [describe honestly — when you wake up, what you do first, when you leave, what feels rushed or wasted]. I have [X minutes] between waking up and starting work. Redesign my morning to fit three things: something that wakes me up physically, something that sets my mental focus for the day, and something I actually enjoy. Don't add time I don't have — work within my real constraints.\"<br><br>The technique is <em>constraint-based prompting</em> — giving AI your real limits upfront (time, energy, obligations) so the answer fits your actual life instead of an ideal one. Try it for any planning question: 'I have $50 and two hours,' or 'I can only exercise at home with no equipment,' or 'I need to cook dinner in 20 minutes with what's already in my kitchen.' The tighter the constraints, the more useful the answer."
+    }
   }
 }
