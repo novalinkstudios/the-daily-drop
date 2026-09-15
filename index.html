@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-15": {
+      intro: "Tuesday briefing \u2014 three signals that the AI world is growing up, and one for tonight that gets you moving.",
+      trends: [
+        {
+          title: "Your phone's AI assistant just quietly became worth using",
+          body: "Apple released iOS 27 on Monday with a redesigned Siri built on large language models. It can now search through your texts, emails, and calendar to answer personal questions, handle natural follow-up conversations, and pull real-time information from the web. TechCrunch's headline says it all: <em>\"I'm actually using Siri again.\"</em> The upgrade is opt-in and in beta, but the signal is clear \u2014 the AI most people already carry just crossed from gimmick to genuinely capable assistant.",
+          slants: {
+            strategy: "When a billion-device platform ships real AI by default, the baseline expectation for AI literacy shifts \u2014 your planning should assume it.",
+            leaders: "The team members who experiment with low-stakes personal AI first are the ones who adopt workplace AI tools fastest. Encourage the curiosity.",
+            operations: "Siri can now search across personal apps to find answers in context. The same interaction pattern is coming to enterprise tools \u2014 start getting comfortable with it now.",
+            pm: "iOS 27's Siri handles multi-step requests with follow-up context \u2014 the same conversation pattern you'll see in the next wave of project management AI features.",
+            admin: "Your phone can now find that text from last week, pull up the address, and draft a reply \u2014 all in one conversation. That's real time back in your day."
+          },
+          challenge: {
+            steps: [
+              "If you have an iPhone, update to iOS 27 and opt in to Siri AI (or join the waitlist). On Android, open Google Gemini \u2014 it offers similar conversational capabilities.",
+              "Try a question that requires personal context: <em>\"What time is my first meeting tomorrow?\"</em> or <em>\"Find the address that [name] texted me last week.\"</em>",
+              "Follow up in the same conversation with something like <em>\"How long will it take to get there from home?\"</em> \u2014 notice how it keeps the thread.",
+              "Share what surprised you in the group \u2014 most people don't realize their phone's AI can already do this."
+            ]
+          }
+        },
+        {
+          title: "AI's biggest competitors are building shared safety standards together",
+          body: "The Washington Post reported Sunday that Anthropic, OpenAI, and Google have been discussing the creation of a joint safety body \u2014 <em>an independent organization that would set shared standards for testing and deploying frontier AI systems</em>. The proposal isn't a moratorium. It's a governance framework designed to give enterprise buyers clearer signals about which systems meet agreed-upon safety benchmarks. The political path is uncertain, but the industry impulse toward shared standards is unmistakable.",
+          slants: {
+            strategy: "Shared safety standards across AI providers would simplify vendor evaluation \u2014 common benchmarks instead of vendor-specific claims.",
+            leaders: "When competitors voluntarily coordinate on safety, it signals that governance isn't slowing innovation \u2014 it's becoming the foundation for trust.",
+            operations: "Standardized safety benchmarks would let your compliance and audit teams rely on third-party verification instead of building every assessment from scratch.",
+            pm: "Add 'safety certification status' to your AI vendor evaluation criteria \u2014 it's becoming a differentiator, not a checkbox.",
+            admin: "When AI tools carry shared safety certifications, the question 'is this safe to use?' gets a much clearer answer \u2014 which helps everyone adopt with more confidence."
+          },
+          challenge: {
+            steps: [
+              "Think about the AI tools your team uses or is evaluating \u2014 list them in a quick note.",
+              "Open your company-approved AI tool and paste: <em>\"I'm evaluating AI tools for my organization. Help me build a 5-question safety and governance checklist I can use to compare vendors. Focus on: data handling, output reliability, human oversight, and third-party verification. Keep each question practical enough to ask in a vendor meeting.\"</em>",
+              "Review the checklist and identify the one question your team hasn't been asking.",
+              "Share your top question in the group \u2014 building a collective checklist helps everyone make better vendor decisions."
+            ]
+          }
+        },
+        {
+          title: "The AI industry just crossed from cash-burning to profitable",
+          body: "Anthropic told investors this week that it expects to be <em>profitable for the second consecutive quarter, with gross margins exceeding 80%</em>, as it prepares for a public offering. Meanwhile, OpenAI has delayed its own IPO to 2027 to focus on safety \u2014 but its revenue continues to grow rapidly. The pattern is clear: the companies building your AI tools aren't venture-funded experiments anymore. They're becoming sustainable businesses, and that changes the calculus for anyone weighing a long-term AI investment.",
+          slants: {
+            strategy: "When your AI vendor is profitable and heading for public markets, the question 'will this tool still exist in three years?' has a much stronger answer. Plan accordingly.",
+            leaders: "If anyone on your team is hesitant about AI because 'it might be a fad,' the financial fundamentals now argue otherwise. The infrastructure is staying.",
+            operations: "Profitable AI companies invest in reliability, uptime, and enterprise support \u2014 the operational stability of your tools is tied to the financial health behind them.",
+            pm: "Add vendor financial health to your AI project risk assessments. A profitable, soon-to-be-public company offers different continuity than a pre-revenue startup.",
+            admin: "The tools you're learning aren't going anywhere. When the companies behind them are financially stable, your investment in building those skills is safe."
+          },
+          challenge: {
+            steps: [
+              "Pick the AI tool you use most at work \u2014 or the one you've been meaning to try seriously.",
+              "Open that tool and paste: <em>\"I want to get genuinely good at using you for [describe one specific task \u2014 drafting emails, summarizing documents, preparing meeting notes, analyzing data]. Give me a 5-day practice plan where each day builds on the last. Start simple and add one new technique each day.\"</em>",
+              "Follow Day 1 today. Notice what feels easier than expected and what needs practice.",
+              "Share your Day 1 experience in the group \u2014 which tool did you pick, and what was your first useful discovery?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "September evenings are perfect \u2014 let AI build a walking plan that starts where you actually are.",
+        body: "Most fitness advice assumes you're already active. The best AI habit here: tell it exactly where you're starting \u2014 honestly, no inflation \u2014 and let it build from there. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+        prompt: "\"I want to start walking regularly but here's where I actually am: [describe honestly \u2014 'I barely walk beyond the parking lot,' 'I walk the dog for 10 minutes,' 'I used to run but it's been months']. My schedule looks like [describe \u2014 '20 minutes before dinner,' 'mornings are packed but evenings are free']. Build me a 2-week walking plan that starts from exactly where I am \u2014 make Week 1 feel easy. I'd rather finish thinking 'that wasn't enough' than 'I can't do this.' For each day, tell me how long, where to go, and one thing to pay attention to on the walk.\"<br><br>The technique is <em>starting-point prompting</em> \u2014 telling AI exactly where you are right now, not where you wish you were. Generic plans fail because they assume a starting line you haven't reached yet. Try it for anything: 'I haven't cooked in weeks,' 'I've never meditated,' 'I have $37 until Friday.' The more honest the input, the more useful the output."
+      }
+    },
   "2026-09-14": {
       intro: "Monday briefing \u2014 three things worth knowing as you set the week's direction.",
       trends: [

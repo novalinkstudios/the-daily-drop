@@ -6686,5 +6686,75 @@
       "body": "Your morning routine (or lack of one) shapes more of your day than you realize. Instead of scrolling someone else's '5 AM miracle morning,' try this in your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"Here's what my weekday mornings actually look like right now: [describe honestly — when you wake up, what you do first, when you leave, what feels rushed or wasted]. I have [X minutes] between waking up and starting work. Redesign my morning to fit three things: something that wakes me up physically, something that sets my mental focus for the day, and something I actually enjoy. Don't add time I don't have — work within my real constraints.\"<br><br>The technique is <em>constraint-based prompting</em> — giving AI your real limits upfront (time, energy, obligations) so the answer fits your actual life instead of an ideal one. Try it for any planning question: 'I have $50 and two hours,' or 'I can only exercise at home with no equipment,' or 'I need to cook dinner in 20 minutes with what's already in my kitchen.' The tighter the constraints, the more useful the answer."
     }
+  },
+  "2026-09-15": {
+    "intro": "Tuesday briefing — three signals that the AI world is growing up, and one for tonight that gets you moving.",
+    "trends": [
+      {
+        "title": "Your phone's AI assistant just quietly became worth using",
+        "source_url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+        "body": "Apple released iOS 27 on Monday with a redesigned Siri built on large language models. It can now search through your texts, emails, and calendar to answer personal questions, handle natural follow-up conversations, and pull real-time information from the web. TechCrunch's headline says it all: <em>\"I'm actually using Siri again.\"</em> The upgrade is opt-in and in beta, but the signal is clear — the AI most people already carry just crossed from gimmick to genuinely capable assistant.",
+        "slants": {
+          "strategy": "When a billion-device platform ships real AI by default, the baseline expectation for AI literacy shifts — your planning should assume it.",
+          "leaders": "The team members who experiment with low-stakes personal AI first are the ones who adopt workplace AI tools fastest. Encourage the curiosity.",
+          "operations": "Siri can now search across personal apps to find answers in context. The same interaction pattern is coming to enterprise tools — start getting comfortable with it now.",
+          "pm": "iOS 27's Siri handles multi-step requests with follow-up context — the same conversation pattern you'll see in the next wave of project management AI features.",
+          "admin": "Your phone can now find that text from last week, pull up the address, and draft a reply — all in one conversation. That's real time back in your day."
+        },
+        "challenge": {
+          "steps": [
+            "If you have an iPhone, update to iOS 27 and opt in to Siri AI (or join the waitlist). On Android, open Google Gemini — it offers similar conversational capabilities.",
+            "Try a question that requires personal context: <em>\"What time is my first meeting tomorrow?\"</em> or <em>\"Find the address that [name] texted me last week.\"</em>",
+            "Follow up in the same conversation with something like <em>\"How long will it take to get there from home?\"</em> — notice how it keeps the thread.",
+            "Share what surprised you in the group — most people don't realize their phone's AI can already do this."
+          ]
+        }
+      },
+      {
+        "title": "AI's biggest competitors are building shared safety standards together",
+        "source_url": "https://www.washingtonpost.com/technology/2026/09/14/anthropic-openai-google-discussed-creating-new-ai-safety-body/",
+        "body": "The Washington Post reported Sunday that Anthropic, OpenAI, and Google have been discussing the creation of a joint safety body — <em>an independent organization that would set shared standards for testing and deploying frontier AI systems</em>. The proposal isn't a moratorium. It's a governance framework designed to give enterprise buyers clearer signals about which systems meet agreed-upon safety benchmarks. The political path is uncertain, but the industry impulse toward shared standards is unmistakable.",
+        "slants": {
+          "strategy": "Shared safety standards across AI providers would simplify vendor evaluation — common benchmarks instead of vendor-specific claims.",
+          "leaders": "When competitors voluntarily coordinate on safety, it signals that governance isn't slowing innovation — it's becoming the foundation for trust.",
+          "operations": "Standardized safety benchmarks would let your compliance and audit teams rely on third-party verification instead of building every assessment from scratch.",
+          "pm": "Add 'safety certification status' to your AI vendor evaluation criteria — it's becoming a differentiator, not a checkbox.",
+          "admin": "When AI tools carry shared safety certifications, the question 'is this safe to use?' gets a much clearer answer — which helps everyone adopt with more confidence."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools your team uses or is evaluating — list them in a quick note.",
+            "Open your company-approved AI tool and paste: <em>\"I'm evaluating AI tools for my organization. Help me build a 5-question safety and governance checklist I can use to compare vendors. Focus on: data handling, output reliability, human oversight, and third-party verification. Keep each question practical enough to ask in a vendor meeting.\"</em>",
+            "Review the checklist and identify the one question your team hasn't been asking.",
+            "Share your top question in the group — building a collective checklist helps everyone make better vendor decisions."
+          ]
+        }
+      },
+      {
+        "title": "The AI industry just crossed from cash-burning to profitable",
+        "source_url": "https://www.irishtimes.com/business/2026/09/14/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter/",
+        "body": "Anthropic told investors this week that it expects to be <em>profitable for the second consecutive quarter, with gross margins exceeding 80%</em>, as it prepares for a public offering. Meanwhile, OpenAI has delayed its own IPO to 2027 to focus on safety — but its revenue continues to grow rapidly. The pattern is clear: the companies building your AI tools aren't venture-funded experiments anymore. They're becoming sustainable businesses, and that changes the calculus for anyone weighing a long-term AI investment.",
+        "slants": {
+          "strategy": "When your AI vendor is profitable and heading for public markets, the question 'will this tool still exist in three years?' has a much stronger answer. Plan accordingly.",
+          "leaders": "If anyone on your team is hesitant about AI because 'it might be a fad,' the financial fundamentals now argue otherwise. The infrastructure is staying.",
+          "operations": "Profitable AI companies invest in reliability, uptime, and enterprise support — the operational stability of your tools is tied to the financial health behind them.",
+          "pm": "Add vendor financial health to your AI project risk assessments. A profitable, soon-to-be-public company offers different continuity than a pre-revenue startup.",
+          "admin": "The tools you're learning aren't going anywhere. When the companies behind them are financially stable, your investment in building those skills is safe."
+        },
+        "challenge": {
+          "steps": [
+            "Pick the AI tool you use most at work — or the one you've been meaning to try seriously.",
+            "Open that tool and paste: <em>\"I want to get genuinely good at using you for [describe one specific task — drafting emails, summarizing documents, preparing meeting notes, analyzing data]. Give me a 5-day practice plan where each day builds on the last. Start simple and add one new technique each day.\"</em>",
+            "Follow Day 1 today. Notice what feels easier than expected and what needs practice.",
+            "Share your Day 1 experience in the group — which tool did you pick, and what was your first useful discovery?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "September evenings are perfect — let AI build a walking plan that starts where you actually are.",
+      "body": "Most fitness advice assumes you're already active. The best AI habit here: tell it exactly where you're starting — honestly, no inflation — and let it build from there. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I want to start walking regularly but here's where I actually am: [describe honestly — 'I barely walk beyond the parking lot,' 'I walk the dog for 10 minutes,' 'I used to run but it's been months']. My schedule looks like [describe — '20 minutes before dinner,' 'mornings are packed but evenings are free']. Build me a 2-week walking plan that starts from exactly where I am — make Week 1 feel easy. I'd rather finish thinking 'that wasn't enough' than 'I can't do this.' For each day, tell me how long, where to go, and one thing to pay attention to on the walk.\"<br><br>The technique is <em>starting-point prompting</em> — telling AI exactly where you are right now, not where you wish you were. Generic plans fail because they assume a starting line you haven't reached yet. Try it for anything: 'I haven't cooked in weeks,' 'I've never meditated,' 'I have $37 until Friday.' The more honest the input, the more useful the output."
+    }
   }
 }
