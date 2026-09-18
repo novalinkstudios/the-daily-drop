@@ -6896,5 +6896,75 @@
       "body": "You take dozens of photos a week, but how many of them actually look the way the moment felt? Tonight, let AI turn your phone camera into a mini photography class. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I want to take better photos with my phone. Before you give me tips, ask me 5 questions first — about what I usually photograph, what frustrates me about my photos, what kind of shots I admire, what lighting I typically shoot in, and what I've already tried. Then give me 3 personalized composition tips I can practice tonight with whatever's in front of me.\"<br><br>The technique here is <em>ask-me-first prompting</em> — instead of accepting generic advice, you tell AI to interview you before answering. The result is advice shaped to your actual situation, not a one-size-fits-all listicle. Try it anytime you're tempted to ask a broad question — make AI ask first, then answer."
     }
+  },
+  "2026-09-18": {
+    "intro": "Friday briefing — three reasons the AI shift is landing more gently than the headlines suggest, and one creative dare for tonight.",
+    "trends": [
+      {
+        "title": "The Fed checked the data — AI is reshaping work, not eliminating it",
+        "source_url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+        "body": "The New York Federal Reserve's latest regional business surveys paint a clearer picture than the headlines: among firms that use AI, <em>only 4% of service firms reported laying off workers due to AI — while more than a third are actively retraining people</em>. AI adoption is rising sharply (over 60% of service firms, roughly half of manufacturers), but most firms describe their investment as modest. The story isn't mass replacement — it's gradual transformation, and businesses are choosing to bring their people along.",
+        "slants": {
+          "strategy": "When the Federal Reserve's own data says AI adoption is driving retraining over layoffs, that's a planning input you can bring to your next budget conversation.",
+          "leaders": "Share this data with your team — it's concrete evidence that investing in people's AI skills is what organizations are actually choosing, not just talking about.",
+          "operations": "More than 60% of service firms now use AI, but most describe their investments as modest — you don't need a massive rollout to get started.",
+          "pm": "If your project plans assume AI adoption requires headcount reductions, the Fed's data says most firms are choosing upskilling instead. Adjust your assumptions.",
+          "admin": "The data confirms what matters most: businesses are investing in helping people grow with AI, not replacing them. Your institutional knowledge is part of what makes that work."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank document or note and list the top 3 tasks in your role that feel most repetitive or time-consuming this week.",
+            "Open your company-approved AI tool and paste: <em>\"I'm a [your role] at a large enterprise. Here are my 3 most repetitive weekly tasks: [list them]. For each one, tell me whether it's a strong candidate for AI assistance, a partial candidate, or something that genuinely requires human judgment — and explain why in one sentence.\"</em>",
+            "Review the split — did AI flag something you could hand off that you hadn't considered?",
+            "Share your three-task split in the group and call out the one that surprised you."
+          ]
+        }
+      },
+      {
+        "title": "Workers are quietly stretching past their job titles — and AI is how",
+        "source_url": "https://openai.com/index/unlocking-new-ways-of-working/",
+        "body": "OpenAI's research team analyzed <em>over 1.5 million work-related ChatGPT conversations</em> from April through July 2026 and found something the org chart won't show you yet: workers are regularly using AI to take on tasks associated with other occupations — and some are making those tasks a recurring part of their workflow. Jobs may be reshaping from the inside well before titles or headcounts change.",
+        "slants": {
+          "strategy": "If your workforce planning is built around static job descriptions, these findings suggest the real work has already drifted — strategy needs to track how roles are actually evolving, not just how they're titled.",
+          "leaders": "Your people are already using AI to stretch into cross-functional work. The opportunity is to recognize it, develop it, and build teams that can flex across traditional boundaries.",
+          "operations": "When someone in ops uses AI to handle a task that used to require a data analyst, the process gets faster — recognizing those shifts helps you staff and plan more effectively.",
+          "pm": "If team members are quietly picking up cross-functional tasks with AI, your project staffing assumptions may already be outdated — in a good way.",
+          "admin": "Every time you use AI to handle something beyond your official responsibilities — a data pull, a first-draft analysis, a process map — you're expanding what your role can deliver."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last month — did you use AI to help with a task that isn't technically in your job description?",
+            "Open your company-approved AI tool and paste: <em>\"I'm a [your role]. Recently I used AI to help me [describe the cross-functional task]. What adjacent skills would make me even more versatile in this direction? Give me 3 specific, concrete suggestions I could act on this quarter.\"</em>",
+            "Pick the suggestion that feels most natural to your current work and note one small step you could take this week.",
+            "Share your cross-functional AI win in the group — what task outside your job description did AI help you tackle?"
+          ]
+        }
+      },
+      {
+        "title": "Your AI assistant is becoming a workspace — and your next first draft starts there",
+        "source_url": "https://claude.com/blog/cowork-is-now-claude",
+        "body": "Anthropic merged its separate AI tools into a single platform this week — Claude now handles conversations, document drafting, slide creation, and visual design <em>all in one window, without switching between apps</em> (Anthropic, September 2026). It's the latest signal in a broader pattern: AI platforms are evolving from chatbots you consult into workspaces where actual deliverables get built. When your AI assistant can produce the memo, the deck, and the mockup inside the same conversation, the practical question shifts from 'how do I use AI?' to 'where do I start my work?'",
+        "slants": {
+          "strategy": "When AI platforms become full work environments, your AI strategy should account for the workflow shift — teams will start building deliverables inside AI, not just asking it questions.",
+          "leaders": "'Try it for your next first draft' is a simpler ask than 'learn a new AI tool' — a unified AI workspace lowers the adoption barrier for hesitant team members.",
+          "operations": "A single AI workspace that handles documents, slides, and visuals means fewer tool handoffs — one place to draft process documentation, training materials, and workflow diagrams.",
+          "pm": "When your AI assistant can produce the project brief, the stakeholder deck, and the status update in one session, prep time drops and you spend more time on actual decisions.",
+          "admin": "The next time you need a document, a quick slide deck, or a layout, start inside your AI assistant — one tool, one conversation, multiple outputs."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a real but low-stakes deliverable you have coming up — a meeting summary, a project update, or a brief for your team.",
+            "Open your company-approved AI tool and paste: <em>\"I need to create [describe your deliverable — e.g., a one-page project update for my team]. Walk me through it: first draft the content, then suggest how to organize it as a clean document, then recommend which points deserve a visual or a slide. Let's build the whole thing in this conversation.\"</em>",
+            "Review what came back — did the AI produce something you'd normally need two or three separate tools to create?",
+            "Share your experience in the group — what deliverable did you build entirely inside your AI assistant, and how did it compare to your usual multi-tool workflow?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Friday night, nothing at stake — write something short and let AI coach you through one real edit.",
+      "body": "You don't need to be a writer. You just need 10 minutes and a willingness to put a few sentences on a page. The magic here isn't what AI writes — it's what it teaches you about your own writing. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
+      "prompt": "\"I just wrote a short piece — [paste your 3–8 sentences: a micro-story, a poem, a personal reflection, a letter you'd never send, whatever came out]. Don't rewrite it. Instead, give me exactly one piece of specific feedback — not 'good job' or 'nice imagery,' but one concrete thing I could change that would make the biggest difference. Show me the before and after of just that one change so I can see why it works.\"<br><br>The technique here is <em>single-edit feedback</em> — instead of asking AI to rewrite your work or shower you with generic praise, you ask for one targeted fix. You learn more from one specific change than from a full rewrite, because you see exactly what shifted and why. Try this with any draft — an email, a proposal, a personal note: 'don't rewrite it, just tell me the one thing that would improve it most.'"
+    }
   }
 }
