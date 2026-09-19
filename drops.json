@@ -6966,5 +6966,78 @@
       "body": "You don't need to be a writer. You just need 10 minutes and a willingness to put a few sentences on a page. The magic here isn't what AI writes — it's what it teaches you about your own writing. Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"I just wrote a short piece — [paste your 3–8 sentences: a micro-story, a poem, a personal reflection, a letter you'd never send, whatever came out]. Don't rewrite it. Instead, give me exactly one piece of specific feedback — not 'good job' or 'nice imagery,' but one concrete thing I could change that would make the biggest difference. Show me the before and after of just that one change so I can see why it works.\"<br><br>The technique here is <em>single-edit feedback</em> — instead of asking AI to rewrite your work or shower you with generic praise, you ask for one targeted fix. You learn more from one specific change than from a full rewrite, because you see exactly what shifted and why. Try this with any draft — an email, a proposal, a personal note: 'don't rewrite it, just tell me the one thing that would improve it most.'"
     }
+  },
+  "2026-09-19": {
+    "intro": "Today's threads all point the same direction: the tools are outrunning the rulebooks, the smart move is managing AI systems rather than just picking one, and getting better at AI no longer requires a training budget.",
+    "trends": [
+      {
+        "title": "Company AI rules are a work in progress, and that's fine",
+        "body": "A new EY survey found <em>just under half of large companies have bypassed their own AI governance policies to deploy tools quickly</em>, and roughly half say their governance framework doesn't even cover agentic AI yet <cite index=\"57-3,57-4\">Just under half (47%) of organizations have circumvented AI policies for urgent deployments, a survey by EY concluded. The survey of 202 US-based senior AI decision-makers at companies with at least $1 billion in revenue found that almost half say their firms have bypassed AI governance processes when they needed to quickly deploy the technology.</cite> That's not chaos, it's a sign your organization is moving fast enough that policy needs to catch up, and there's real opportunity for whoever builds the update cycle.",
+        "source_url": "https://www.corporatecomplianceinsights.com/news-roundup-september-18-2026/",
+        "slants": {
+          "strategy": "This is your opening to propose a quarterly (not annual) governance refresh tied to actual project launches instead of a calendar date.",
+          "leaders": "Create a simple, visible way for your team to flag \"we need an exception\" instead of quietly working around the rules.",
+          "operations": "Since <cite index=\"57-7\">nearly two in five (39%) of agentic AI-using companies said accountability for maintaining or monitoring machine agents after deployment is undefined</cite>, you can be the one who builds the simple ownership list nobody else has gotten to yet.",
+          "pm": "Add one line to your project intake form: which AI tool is involved and who owns it, so accountability exists before launch, not after.",
+          "admin": "Start a simple shared log of which AI tools your team actually uses and who approved them, it's a small habit that gives leadership a head start."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Ask it to build you a starting template: <em>\"Create a simple table template with columns for: AI tool name, team or owner, use case, and approval status — something a team could use to track AI tool usage responsibly.\"</em>",
+            "Review the columns it suggests and adjust anything that doesn't fit how your team actually works.",
+            "Share the template in your team chat as a starting point for a lightweight AI-use log.",
+            "Share your result in the group."
+          ]
+        }
+      },
+      {
+        "title": "The real AI question is shifting from 'which model' to 'how do we run it'",
+        "body": "Industry coverage this week noted that <em>the next phase of enterprise AI depends less on getting the newest model and more on whether companies can actually manage the ones they already have</em> <cite index=\"21-4,21-5,21-6\">As companies move beyond experiments and put AI into more parts of their businesses, they're meeting a separate set of challenges. The questions are increasingly about which models should handle which tasks, whether the underlying data is good enough, who and what AI systems can access and whether existing governance can keep up. Several developments this week point to the same conclusion: The next phase of enterprise AI may depend less on access to the latest models and more on whether companies can actually manage them.</cite> That's good news for anyone who's felt behind on the newest model, because the advantage is shifting toward whoever organizes the toolkit well.",
+        "source_url": "https://aibusiness.com/generative-ai/enterprise-ai-is-becoming-operations-problem",
+        "slants": {
+          "strategy": "Build a simple right-tool-for-the-task map instead of standardizing on one AI platform for everything, some tasks need less horsepower than you think.",
+          "leaders": "Give your team explicit permission to use a lighter, cheaper AI tool for routine work instead of defaulting to the flashiest option available.",
+          "operations": "You're well positioned to own the traffic-control function: deciding which AI system handles which type of request and tracking what's actually working.",
+          "pm": "Start asking \"which AI tool is handling this step, and why\" as a standard project question, the same way you'd ask about staffing or budget.",
+          "admin": "Keep a simple one-page reference of which AI tool the office uses for which task, so colleagues stop guessing and start asking you."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Think of two tasks you regularly use AI for, one where accuracy really matters and one that's more routine.",
+            "Prompt: <em>\"I use AI for two tasks: [Task A] and [Task B]. Help me think through whether each task needs a powerful AI tool or if a simpler, faster one would work just as well. Ask me questions if you need more detail.\"</em>",
+            "Review its reasoning and note anything that surprises you about where you might be over- or under-using AI.",
+            "Share your result in the group."
+          ]
+        }
+      },
+      {
+        "title": "Free AI training just crossed 3 million learners, no budget approval needed",
+        "body": "<em>Adobe's Digital Academy has now reached more than 3 million learners this year</em> with free creative, digital, and AI training, and it's partnering with LinkedIn to offer AI courses in dozens of languages <cite index=\"74-1,74-8\">Adobe says its Digital Academy has reached more than 3 million learners this year as it expands free creative, digital, and AI training around the world. Adobe and LinkedIn offer free AI training for marketers in 47 languages, covering digital marketing, content creation, social media, data analytics, and agentic workflows</cite>. If you've been waiting on a formal training budget to build AI skills on your team, that wait is over.",
+        "source_url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+        "slants": {
+          "strategy": "Point your team toward free, vendor-backed AI courses now instead of waiting for the next L&D budget cycle to approve something formal.",
+          "leaders": "Assign one free 20-minute AI course per quarter and treat finishing it as a visible growth signal, not another box to check.",
+          "operations": "Use a shared free module to standardize how your whole team approaches a repeatable task, closing a skill gap without spending a dime.",
+          "pm": "Add a simple AI skills checklist built from free courses to your onboarding packet for new hires and contractors.",
+          "admin": "Be the first on your team to try a free module and become the go-to person who shows everyone else how it works."
+        },
+        "challenge": {
+          "steps": [
+            "Find one free AI training resource, Adobe Digital Academy, LinkedIn Learning's free AI courses, or whatever your company already offers.",
+            "Pick a module that takes 20 minutes or less and relates to your role.",
+            "After finishing it, open your company-approved AI tool and prompt: <em>\"I just learned about [skill or technique from the module]. Give me a simple example of how I could use this in my day-to-day work as a [your role].\"</em>",
+            "Try out the example the AI gives you.",
+            "Share your result in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Let AI plan your next weekend before you lift a finger",
+      "body": "Pick something personal, a weekend trip, a dinner party menu, or a tricky message you need to send a friend, and try this in ChatGPT, Claude, Gemini, or Perplexity, all free to use.",
+      "prompt": "I want to plan a weekend trip to [destination, or 'somewhere within 3 hours of my city']. Before you suggest anything, ask me questions about my budget, who's coming, and what kind of trip I want. Once you have that, give me three ranked options with a short reason for each."
+    }
   }
 }
