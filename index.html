@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-20": {
+      intro: "Sunday briefing \u2014 three things that shifted in AI this week, and one stargazing experiment for tonight.",
+      trends: [
+        {
+          title: "The world spent $2.7 trillion on AI this year \u2014 the edge is in picking it up",
+          body: "Gartner's latest forecast, released this week, puts global AI spending at <em>$2.7 trillion in 2026 \u2014 up 49.5% from last year</em>. But the largest slice goes to tech providers buying AI-optimized servers, cloud capacity, and chips. The infrastructure is being built at historic scale. For most teams, the bottleneck isn't access to AI \u2014 it's whether anyone has picked up what's already available and put it to work.",
+          slants: {
+            strategy: "The infrastructure investment has been made. Your strategic edge now is deploying what's already available, not waiting for the next platform.",
+            leaders: "Your team likely has access to more AI capability than they're using. The highest-ROI move right now is adoption support, not more procurement.",
+            operations: "AI infrastructure is scaling up fast, which means the tools your workflows depend on will get faster and cheaper, not more expensive.",
+            pm: "If your project plans assume AI tools aren't ready yet, check again \u2014 the infrastructure buildout suggests the tools are ahead of most teams' readiness.",
+            admin: "The technology is already there. The advantage goes to whoever starts using it consistently \u2014 and that can be you, with your current tools, this week."
+          },
+          challenge: {
+            steps: [
+              "Open your company-approved AI tool \u2014 whatever's already available to you at work.",
+              "Think of one task you did manually last week that took more than 30 minutes \u2014 a summary, a comparison, a first draft, a batch of emails.",
+              "Paste this prompt: <em>\"I spent about [time] on [describe the task] last week. Walk me through how I could use AI to cut that time in half. Be specific about what I'd paste in, what I'd ask for, and what I'd need to verify in the output.\"</em>",
+              "Try the suggestion on a low-stakes version of the task this week.",
+              "Share your result in the group \u2014 what task did you speed up, and by how much?"
+            ]
+          }
+        },
+        {
+          title: "AI is now leading a quarter of the work that builds its own successor",
+          body: "Anthropic disclosed this week that Claude now <em>leads 26% of the R&D work building the next version of Claude \u2014 up from under 1% in February</em> (The Washington Post, September 2026). At the 'leads' level, the model completes most of a task end-to-end from a high-level prompt while the human supervises. Over 90% of Anthropic's AI research now involves AI as a collaborator or better. The signal for everyone else: the highest-value human skill in an AI-heavy workflow is knowing what to ask for and whether the result is right.",
+          slants: {
+            strategy: "If the company building the AI needs humans to supervise, not hand-hold, that's the same skill profile your AI-augmented teams need. Hire and develop for judgment.",
+            leaders: "The 'leads vs. collaborates vs. does it alone' framework is a useful way to talk about AI roles on your own team \u2014 borrow it for your next planning conversation.",
+            operations: "When AI handles more execution, the ops value shifts to defining clear inputs and verifying outputs. That's a process design opportunity, not a threat.",
+            pm: "The best mental model for AI on your projects: it leads the draft, you lead the review. Structure your workflows around that handoff.",
+            admin: "Even at a company that builds AI, the human is the one who decides whether the work is done right. Your review and verification skills are the part that doesn't automate away."
+          },
+          challenge: {
+            steps: [
+              "Think of a recurring task where you already use AI \u2014 a draft, a summary, a data cleanup.",
+              "Open your company-approved AI tool and paste: <em>\"I want to shift from doing this task myself to supervising AI doing it. Here's the task: [describe it]. Give me a 3-step handoff plan: what I should give the AI upfront, what the AI should deliver back, and what I should check before approving the output.\"</em>",
+              "Try the handoff plan on a low-stakes version of the task this week. Note where you had to intervene.",
+              "Share your handoff plan and what you learned in the group \u2014 the best templates will save everyone time."
+            ]
+          }
+        },
+        {
+          title: "Enterprise AI just got a spending dashboard \u2014 and it changes the conversation",
+          body: "Cisco announced new Splunk capabilities this week that let organizations <em>track AI agent spending, coding-agent usage, and model behavior in a single observability dashboard</em> (NetworkWorld, September 2026). The new Tokenomics feature ties token expenditure to specific agents and employees in real time, while Agent Observability flags hallucinations, data leaks, and unsafe actions with runtime guardrails. For the first time, AI adoption has the same visibility layer that cloud spending got a decade ago \u2014 and that changes the business case conversation from 'how much does AI cost' to 'what is AI doing for us.'",
+          slants: {
+            strategy: "When you can tie AI costs to business outcomes in real time, the ROI conversation stops being theoretical. Push for this kind of observability in your AI stack.",
+            leaders: "Token-level spending visibility means you can see which teams are getting value from AI and which are just burning tokens. Use it to guide enablement, not cuts.",
+            operations: "Runtime guardrails that catch hallucinations and data leaks before they reach users are exactly the kind of control that makes scaling AI agents safe.",
+            pm: "Add AI token costs to your project dashboards the same way you track cloud compute. The tooling now exists to make that easy.",
+            admin: "When AI tools track their own usage and costs, it's easier to show your manager the value you're getting \u2014 and make the case for more access."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool your team uses regularly. Do you know how much it costs per month \u2014 or what it's being used for most?",
+              "Open your company-approved AI tool and paste: <em>\"Help me design a simple AI usage tracker for my team. I want to log: what tool was used, what task it was used for, roughly how long it took, and whether the output was useful. Give me a spreadsheet template with columns and a one-sentence instruction for each column.\"</em>",
+              "Set up the tracker (even a shared spreadsheet works) and fill in your own usage for the past week.",
+              "Share your tracker template in the group \u2014 simple visibility is the first step to proving AI's value to leadership."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Tonight, step outside and let AI turn you into a backyard astronomer \u2014 no telescope required.",
+        body: "September skies are some of the best for stargazing, and you don't need equipment to enjoy them. Tonight, grab your phone and open ChatGPT, Claude, Gemini, or Perplexity:",
+        prompt: "\"I'm standing outside at about [your city or zip code] at [time, e.g., 9pm] tonight, September 20. I don't have a telescope \u2014 just my eyes. Tell me the 3 most impressive things I can see in the sky right now: planets, constellations, or anything unusual. For each one, tell me exactly where to look (direction and how high above the horizon), what it looks like to the naked eye, and one fascinating fact about it. Start with the easiest to spot.\"<br><br>The technique here is <em>constraint-based prompting</em> \u2014 by telling the AI exactly what you have (just your eyes), where you are, and when, you force it to skip generic answers and give you something specific and actionable. It works anytime you want personalized advice: give AI your exact constraints first, and it stops guessing what you need."
+      }
+    },
   "2026-09-19": {
       intro: "Today's threads all point the same direction: the tools are outrunning the rulebooks, the smart move is managing AI systems rather than just picking one, and getting better at AI no longer requires a training budget.",
       trends: [
