@@ -7181,5 +7181,77 @@
       "body": "Open your free AI tool of choice (ChatGPT, Claude, Gemini, or Perplexity) and try a prompt that teaches you two things at once: how to get ranked recommendations, and how to pressure-test them.",
       "prompt": "\"I'm looking for my next 5 books to read this fall. Here's what I've enjoyed recently: [name 2–3 books, or just describe what you liked about them — the genre, the feeling, the pace]. Rank your recommendations from 'most likely to love' to 'biggest stretch for me.' For each one, tell me who this book is perfect for — and who should probably skip it.\"<br><br>That last part — <em>tell me who should skip it</em> — is a prompting move worth keeping. Asking AI to argue against its own recommendation forces sharper, more honest answers."
     }
+  },
+  "2026-09-22": {
+    "intro": "Tuesday briefing — three ways AI is reshaping the human side of work, and one seasonal experiment for tonight.",
+    "trends": [
+      {
+        "title": "AI is becoming a coworker — and the workplace isn't ready for that relationship",
+        "source_url": "https://www.cnbc.com/2026/09/20/ai-jobs-worker-fears.html",
+        "body": "CNBC reported this weekend that some organizations are already exploring <em>\"robot relations\" departments</em> — a function distinct from HR, built to manage the growing dynamic between human employees and the AI systems that now instruct, monitor, and evaluate them. The backdrop: <em>90% of U.S. managers say their firms have adopted at least one AI tool to direct or assess workers</em>. The shift isn't coming — it's here. Organizations that name this dynamic and build structures around it will manage it better than those who treat it as just another software rollout.",
+        "slants": {
+          "strategy": "Map where AI currently makes or influences decisions about people on your team — scheduling, evaluation, workload routing. That map is your starting point for smarter governance.",
+          "leaders": "Your team's relationship with AI is a management issue now, not just a tech one. Check in on how people feel about the AI tools they work alongside — the answers will shape your next move.",
+          "operations": "If AI tools are shaping how work gets assigned or measured in your area, make sure those rules are visible, documented, and reviewed — not buried in a vendor's defaults.",
+          "pm": "When AI is part of the project workflow, add it to the stakeholder map. Who configured it, what decisions does it influence, and who reviews those decisions?",
+          "admin": "You're often the first to notice when a new system changes how work actually flows. That perspective is exactly what organizations need as AI takes on a bigger role in daily operations."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank document or note.",
+            "List every way AI currently touches your daily work — drafting, scheduling, prioritizing, reviewing, recommending, approving. Include tools you use directly and ones that run in the background.",
+            "Next to each one, write who configured it and whether you can see how it makes its decisions: <em>\"transparent: yes/no, configured by: [name or unknown].\"</em>",
+            "Pick one that's less transparent than you'd like and raise it with your manager or team this week.",
+            "Share what you found in the group — the most common blind spots will help everyone."
+          ]
+        }
+      },
+      {
+        "title": "Only 7% of managers bring AI into the room when their team is there",
+        "source_url": "https://hbr.org/2026/09/ai-can-enhance-every-stage-of-teamwork-under-two-conditions",
+        "body": "A Harvard Business Review study of <em>more than 300 managers across 35 organizations</em> found that while most managers use AI regularly for solo tasks, <em>only 7% actively use it in team settings</em> — meetings, workshops, collaborative decisions. The researchers found AI can improve every stage of teamwork, from preparation to challenging assumptions to capturing lessons afterward. But only under two conditions: the leader has to intentionally bring AI into the process, and they have to provide the right context. Individual AI adoption is well underway. Team-level AI adoption has barely started.",
+        "slants": {
+          "strategy": "If your team's AI use is purely individual, you're capturing productivity gains but missing the bigger prize: better collective thinking and sharper decisions.",
+          "leaders": "You set the tone. Bringing AI into one team meeting — even as an experiment — signals that it's a shared tool for better thinking, not just a personal shortcut.",
+          "operations": "The next process improvement opportunity isn't a new tool — it's using the AI tools you already have in your team's existing meetings and reviews.",
+          "pm": "Try running your next project retrospective with AI: paste the key discussion points and ask it to spot patterns and blind spots the team might have missed.",
+          "admin": "You coordinate the meetings, the agendas, and the follow-ups. You're in the best position to suggest where AI could help the group work better together."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one upcoming team meeting or working session this week.",
+            "Before the meeting, open your company-approved AI tool and paste: <em>\"We're meeting to discuss [topic]. Here are the key points: [list them]. What are 3 assumptions we're probably making that we should challenge? Frame each one as a question I can ask the group.\"</em>",
+            "Bring those questions to the meeting and use at least one.",
+            "After the meeting, note whether the AI-generated question shifted the conversation.",
+            "Share the experience in the group — did bringing AI-prepared questions into a team setting change anything?"
+          ]
+        }
+      },
+      {
+        "title": "Having an AI strategy matters five times more than having better AI tools",
+        "source_url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+        "body": "BCG surveyed <em>nearly 12,000 workers, managers, and leaders across more than a dozen countries</em> and found the single biggest driver of AI business impact isn't the model or the platform — it's whether the organization has a clear strategy for using it. A clear AI strategy <em>lifts measurable business impact by 25 percentage points; better tools alone move it about 5</em>. Meanwhile, 74% of frontline workers now use AI regularly, but 66% say they get limited or no guidance on what to do with the time they save. The gap between AI adoption and AI value isn't about technology. It's about direction.",
+        "slants": {
+          "strategy": "If your organization has deployed AI tools without telling people what they're for, the strategy gap is your biggest unrealized return. Close it before buying anything new.",
+          "leaders": "The highest-leverage move you can make this quarter isn't adopting a new tool — it's telling your team, clearly, what you want them to use the existing ones for.",
+          "operations": "When people save time with AI but have no guidance on what to do with it, the time disappears. Build the answer into your process: time saved goes toward specific higher-value work.",
+          "pm": "Add one line to your next project brief: \"AI tools should be used for [these specific tasks] in this project.\" That's strategy at the project level, and it compounds.",
+          "admin": "If no one has told you what to do with the time AI saves you, decide for yourself — and share what you chose. Your answer might become your team's playbook."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"I work in [describe your role and team briefly]. We have AI tools available but no clear strategy for how to use them. Draft a one-paragraph AI purpose statement for my team — what we use AI for, what we don't, and what we do with the time it saves. Keep it under 100 words.\"</em>",
+            "Read the draft and edit it until it sounds like something you'd actually post on your team's shared space.",
+            "Share your AI purpose statement draft in the group — the best ones will help others write their own."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Fall starts today — let AI help you prep your home before the cold arrives.",
+      "body": "Seasonal home prep always feels bigger than it is. Tonight, open ChatGPT, Claude, Gemini, or Perplexity (all free) and let AI turn the vague \"I should get ready for winter\" feeling into a plan you can actually follow.",
+      "prompt": "\"I live in [describe your home — apartment, house, condo] in [your region or climate]. Fall just started and I want to prepare for colder weather. Give me a prioritized checklist of seasonal home prep tasks, organized into three groups: do this weekend, do this month, and do before first frost. For each task, tell me roughly how long it takes and whether I need any supplies.\"<br><br>The technique here — <em>organize into groups by urgency</em> — is a prompting pattern worth keeping. Whenever AI gives you a big list, ask it to rank or group by a specific criterion. You'll get answers you can actually act on instead of a wall of text."
+    }
   }
 }
