@@ -7253,5 +7253,75 @@
       "body": "Seasonal home prep always feels bigger than it is. Tonight, open ChatGPT, Claude, Gemini, or Perplexity (all free) and let AI turn the vague \"I should get ready for winter\" feeling into a plan you can actually follow.",
       "prompt": "\"I live in [describe your home — apartment, house, condo] in [your region or climate]. Fall just started and I want to prepare for colder weather. Give me a prioritized checklist of seasonal home prep tasks, organized into three groups: do this weekend, do this month, and do before first frost. For each task, tell me roughly how long it takes and whether I need any supplies.\"<br><br>The technique here — <em>organize into groups by urgency</em> — is a prompting pattern worth keeping. Whenever AI gives you a big list, ask it to rank or group by a specific criterion. You'll get answers you can actually act on instead of a wall of text."
     }
+  },
+  "2026-09-23": {
+    "intro": "Wednesday briefing — three signals that AI is moving fast: in pricing, in security, and in global governance.",
+    "trends": [
+      {
+        "title": "Frontier AI costs just fell 40% in a single day",
+        "source_url": "https://www.cnbc.com/2026/09/22/anthropic-openai-cheaper-ai-models.html",
+        "body": "On Monday, Anthropic and OpenAI released cheaper, faster frontier models within minutes of each other. Anthropic's Opus 5.5 dropped pricing <em>40% below its predecessor</em> while matching top-tier benchmarks, and OpenAI followed with GPT-6 Sol and Luna at half the cost of their previous generation. The message: frontier AI capability is commoditizing faster than most enterprise procurement cycles can keep up with.",
+        "slants": {
+          "strategy": "Your next vendor evaluation should weight cost-per-task and switching cost more heavily than raw capability — because capability is converging across providers.",
+          "leaders": "The economics now favor giving your team room to experiment with multiple AI providers rather than locking into a single vendor early.",
+          "operations": "If your team signed annual AI contracts this quarter, check whether the new pricing tiers change your cost assumptions — they probably do.",
+          "pm": "Multi-vendor AI comparison testing just became practical at project scale. Build optionality into your next project plan instead of defaulting to one provider.",
+          "admin": "The free tiers of major AI tools just got substantially more powerful. If you've been using the basic versions, ten minutes of exploration will show you what's changed."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task you've used AI for recently — a draft, a summary, a brainstorm.",
+            "Open your company-approved AI tool and run that task again, saving the output.",
+            "If your company approves a second AI tool, run the same task there and compare side by side: <em>\"Which response was more useful for my specific need, and why?\"</em>",
+            "Share your comparison in the group — the patterns will help everyone pick the right tool for the right job."
+          ]
+        }
+      },
+      {
+        "title": "Cisco's security team just cracked a new class of AI-powered threats — and open-sourced the fix",
+        "source_url": "https://siliconangle.com/2026/09/22/cisco-talos-finds-malware-that-puts-its-next-move-to-a-four-model-vote/",
+        "body": "Cisco Talos discovered CLOSEDQUORUM, a credential stealer that operates without any human command-and-control server. Instead, it queries <em>four commercial LLMs every 5–15 minutes and lets them vote on its next move</em> — the first known malware where AI makes the tactical decisions autonomously. The good news: Talos simultaneously released CAIRN, an open-source toolkit for detecting AI-powered threats using metadata analysis alone.",
+        "slants": {
+          "strategy": "Autonomous AI adversaries change the threat model. Your next risk assessment should distinguish between AI-assisted attacks and AI-governed ones — the defense strategies are different.",
+          "leaders": "Your security team is already ahead on this. Make sure they have the bandwidth to stay there, and share the story with peers — awareness is the first line of defense.",
+          "operations": "CAIRN detects threats through behavioral metadata, not code detonation. That pattern — catching what AI does, not what it contains — is the direction security tooling is heading.",
+          "pm": "If your project touches external-facing systems, add an AI-specific threat review to the security checklist. The attack surface is evolving faster than annual audits can cover.",
+          "admin": "Knowing why security policies update so often makes them easier to follow and explain. This is one of those reasons — and your company is already building the response."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"I work in [describe your role briefly]. Explain in plain language what 'AI-governed malware' means, why it's different from traditional malware, and one thing a non-security person in my role should know about it.\"</em>",
+            "Read the response and identify one thing you didn't know before.",
+            "Share that one insight in the group — security awareness spreads best peer to peer."
+          ]
+        }
+      },
+      {
+        "title": "AI just got a seat at the UN Security Council",
+        "source_url": "https://www.securitycouncilreport.org/whatsinblue/2026/09/artificial-intelligence-high-level-briefing-2.php",
+        "body": "Today, the UN Security Council convened its first high-level briefing on AI and international security, chaired by France during the 81st General Assembly. The briefer list: <em>the heads of OpenAI, Anthropic, and Hugging Face alongside the co-chair of the UN's AI panel — all in the same room with diplomats from 15 nations</em>. This follows weeks of public calls from major AI labs to slow frontier model development. AI governance just moved from think-tank conversation to the same institutional stage as nuclear nonproliferation and climate.",
+        "slants": {
+          "strategy": "International AI standards are moving from hypothetical to probable. Start mapping which current AI workflows would need to change under a disclosure or audit requirement.",
+          "leaders": "When your team asks whether AI regulation is coming, the honest answer is now that it's being negotiated at the UN. Use that clarity to invest in governance now rather than retrofitting later.",
+          "operations": "Compliance requirements from international agreements take years to arrive, but organizations that prepare early avoid the most painful retrofits.",
+          "pm": "Add a regulatory-readiness checkpoint to any AI-dependent project plan. If international standards land mid-project, you want to know where you stand.",
+          "admin": "You know where every document, process, and approval lives. When AI governance standards arrive, that institutional knowledge becomes the map everyone needs."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"I work at a large technology company. The UN Security Council just held its first high-level briefing on AI and international security. In plain language, what are the three most likely types of AI regulation that could affect how my company uses AI internally? For each one, give me one question I should ask my leadership.\"</em>",
+            "Review the three scenarios and pick the one most relevant to your day-to-day work.",
+            "Share your chosen scenario and question in the group — the diversity of roles will surface angles no single person would catch alone."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Pick a moment in history that's always intrigued you — and let AI connect it to something happening right now.",
+      "body": "You don't need a history degree to enjoy a good deep dive. Pick any event, era, or figure you've been curious about — the space race, the fall of Rome, the invention of the printing press, anything — and open ChatGPT, Claude, Gemini, or Perplexity (all free):",
+      "prompt": "\"Tell me the story of [historical event, era, or figure] in a way that would surprise someone who thinks they already know the basics. Focus on one detail or decision that changed how things played out. Then connect that detail to something happening in the world right now — what's the parallel, and what can we learn from how it played out last time?\"<br><br>That technique — <em>connect this to something happening now</em> — is relevance bridging. It turns any topic from trivia into insight. Works for history, science, economics — anything you want to understand more deeply without just memorizing facts."
+    }
   }
 }
