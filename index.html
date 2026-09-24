@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-24": {
+      intro: "Thursday briefing \u2014 three lessons on working alongside AI: what it can search, what it can't judge, and what you need time to learn.",
+      trends: [
+        {
+          title: "AI just made its first solo scientific discovery \u2014 and the method matters more than the finding",
+          body: "Anthropic opened a biology lab and reported its first result this week: Claude autonomously flagged a previously unknown enzyme system in bacteriophage DNA, one resembling the repeats behind CRISPR. <em>Roughly 950 AI agents ran for 21 hours, scanning 200,000 candidates and narrowing 3,500 to 20 worth investigating.</em> The finding needs lab validation. But the pattern \u2014 AI handles the exhaustive search, humans apply the judgment \u2014 works for any team sitting on more information than they can manually review.",
+          slants: {
+            strategy: "The pattern \u2014 AI scans a massive landscape, you decide what's worth pursuing \u2014 applies directly to market analysis, competitive intelligence, and strategic opportunity mapping.",
+            leaders: "If 950 agents can narrow 200,000 candidates to 20, think about what your team could do with a clear question and the tools they already have. The bottleneck is the question, not the technology.",
+            operations: "This is a scaled version of filter-then-verify. If your team reviews large volumes of anything \u2014 documents, tickets, applications \u2014 the same pipeline applies at your scale.",
+            pm: "The research pipeline here mirrors good project structure: define the question, set the criteria, let AI filter, then hand the shortlist to the experts for review.",
+            admin: "AI handled the volume; humans handled the judgment calls. That's the same skill you practice every time you triage, prioritize, and route work to the right person."
+          },
+          challenge: {
+            steps: [
+              "Pick one work task where you regularly sort through a large set \u2014 emails to triage, vendors to compare, documents to review, or candidates to evaluate.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I need to sort through [describe what you're sorting]. Here are the criteria that matter most: [list 2\u20133 criteria]. Give me a filtering framework I can apply to narrow a large batch down to the 3\u20135 items that deserve my full attention.\"</em>",
+              "Apply the framework to your next batch and note which items it surfaced \u2014 and whether you would have caught them on your own.",
+              "Share your filtering framework in the group \u2014 the best ones will help everyone spend less time searching and more time deciding."
+            ]
+          }
+        },
+        {
+          title: "The one part of an AI workflow you should never automate",
+          body: "404 Media reported this week that OpenAI fired multiple contractors from its AI training program for using AI tools to do the work they were hired for. Their job: read real ChatGPT conversations and evaluate whether the responses were accurate and helpful. <em>When contractors outsourced that evaluation to other AI tools, the pattern was detectable \u2014 repetitive phrasing, unusually fast completions, flattened judgment.</em> The irony makes headlines, but the lesson is universal: in every AI-assisted workflow, there's a judgment layer that only works when a human actually does it.",
+          slants: {
+            strategy: "Every AI workflow has a point where human judgment is the quality control. Identify those points in your processes \u2014 and make sure they're staffed with people who are exercising judgment, not just signing off.",
+            leaders: "The contractors were not lazy \u2014 they used the tools available. The failure was structural: nobody made clear which part of the job required their thinking, not just their time. Make that distinction for your team.",
+            operations: "If your process includes a human review step for AI-generated work, audit whether that review is genuinely happening \u2014 or whether it has become a checkbox.",
+            pm: "When you design AI-assisted workflows, label each step clearly: <em>AI generates</em> vs. <em>human evaluates</em>. That label prevents the exact problem OpenAI discovered.",
+            admin: "Your ability to read something and say \"this doesn't sound right\" or \"this is missing context\" is exactly the skill these contractors were hired for \u2014 and exactly what made the difference when it was absent."
+          },
+          challenge: {
+            steps: [
+              "Think about one task where you currently review AI-generated output \u2014 a draft, a summary, a recommendation, or a set of meeting notes.",
+              "On your next review, spend at least 5 focused minutes reading the output before you accept it. No skimming.",
+              "Write down every judgment call you made: <em>\"I changed this because...\", \"I added context about...\", \"I caught this error...\"</em>",
+              "Share your list in the group \u2014 the patterns will show everyone where human review adds the most value."
+            ]
+          }
+        },
+        {
+          title: "AI training doubled this year \u2014 the missing piece is time to actually learn",
+          body: "Workera's 2026 State of Skills Intelligence report, released this week, surveyed 1,000 employees at large U.S. companies and found that <em>the share of organizations offering AI-specific training rose from 25% to 58% in one year</em>. But the access is not translating into capability: <em>56% of employees say they have no time at work to actually build the skills</em>. The training exists. The calendar doesn't. For anyone who has been meaning to start but hasn't found the opening, the obstacle is not motivation or access \u2014 it's permission to block the time.",
+          slants: {
+            strategy: "AI training without protected time is a budget line with no output. If your organization offers AI learning, advocate for dedicated hours to use it \u2014 even 30 minutes a week compounds fast.",
+            leaders: "Your team probably has access to more AI training than they're using. The highest-leverage move: explicitly give them time to learn. Put it on the calendar, not just the learning portal.",
+            operations: "The gap between 'training available' and 'skills built' is a scheduling problem, not a motivation problem. Treat AI learning the way you treat compliance training: scheduled and protected.",
+            pm: "Build a 15-minute AI skill-building block into your project team's weekly rhythm. When learning is part of the workflow instead of outside it, it actually happens.",
+            admin: "If your packed schedule is the reason you haven't started, this is your permission slip. Fifteen minutes over lunch with a free AI tool teaches more than any course you never have time to take."
+          },
+          challenge: {
+            steps: [
+              "Block 15 minutes on your calendar this week \u2014 label it <em>\"AI learning time.\"</em>",
+              "Open your company-approved AI tool (or a free one: ChatGPT, Claude, Gemini, or Perplexity) and pick one real work task you have been curious about trying with AI.",
+              "Try it. Pick something low-risk \u2014 a public article to summarize, a non-confidential email to draft, a question you have been meaning to research.",
+              "After 15 minutes, write down one thing you learned: <em>\"AI is good/bad/surprising at [specific thing] in my work.\"</em>",
+              "Share your one-thing-learned in the group \u2014 and whether you plan to keep the 15-minute block next week."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Thursday night, think of someone who made a difference for you \u2014 and let AI help you say it right.",
+        body: "Gratitude is one of those things we feel often but express rarely \u2014 usually because we can't find the right words. Tonight, open ChatGPT, Claude, Gemini, or Perplexity (all free):",
+        prompt: "\"There's someone I want to thank: [describe who they are \u2014 a friend, a family member, a neighbor, a former teacher]. Here's what they did: [describe the specific thing, in as much detail as you can remember]. Here's why it mattered to me: [say what changed for you because of it]. Help me write a short, genuine message to them \u2014 not formal, not over-the-top, just honest. Then give me a version that's half the length, in case I want to send it as a text.\"<br><br>That structure \u2014 <em>who, what they did, why it mattered</em> \u2014 is a technique called layered context. The more specific detail you give AI before asking it to write, the more personal and genuine the result. Vague input gets generic output. Specific input gets something that sounds like you."
+      }
+    },
   "2026-09-23": {
       intro: "Wednesday briefing \u2014 three signals that AI is moving fast: in pricing, in security, and in global governance.",
       trends: [
