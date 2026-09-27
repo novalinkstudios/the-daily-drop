@@ -7535,5 +7535,76 @@
       "body": "Most game night advice assumes a generic group of adults who all love board games. Yours probably isn't that — and that's exactly why AI works better here than a listicle. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I'm hosting a game night [this weekend / tonight / soon]. Here's my group: [number of people], ages roughly [range], and the vibe is [competitive / relaxed / silly / mixed]. We have about [hours] to play. One person is brand new to games and one person gets bored easily. We [do / don't] have a big table. Recommend 3 games we could play in order — one to warm up, one as the main event, and one to wind down. For each game, tell me: the name, how long it takes, why it fits this specific group, and one tip for keeping everyone engaged. If any game needs supplies, tell me what to grab.\"<br><br>That technique — <em>describing the specific people in the room before asking for recommendations</em> — is called audience profiling, and it works for any recommendation task. A generic 'suggest fun games' gets a listicle. A detailed group profile gets a plan."
     }
+  },
+  "2026-09-27": {
+    "intro": "Sunday briefing — persistent AI agents are arriving at the office, a healthcare study showed what happens when AI amplifies a flawed process, and a data incident is a reminder to check your AI privacy settings.",
+    "trends": [
+      {
+        "title": "Microsoft just launched an AI agent that keeps working after you close your laptop",
+        "source_url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+        "body": "Microsoft unveiled Copilot Autopilot this week — a persistent AI agent that monitors channels, tracks project decisions, follows up on commitments, and gathers prep materials without another prompt. <em>You assign it a name, a role, and a goal, and it keeps working when you step away.</em> Previously called Scout, Autopilot operates with its own identity, memory, and workspace inside your organization's permissions. This isn't a chatbot upgrade. It's the beginning of a shift from asking AI questions to delegating ongoing work.",
+        "slants": {
+          "strategy": "Persistent agents change your planning math. Work that required someone's continuous attention — tracking commitments, monitoring updates, gathering context — can now run in the background.",
+          "leaders": "Before enabling persistent agents for your team, define what they're allowed to do independently and what requires a human check-in. That conversation is a leadership decision, not an IT one.",
+          "operations": "Start by pointing persistent agents at the work nobody loves — status tracking, follow-up reminders, prep gathering. If the agent handles the scaffolding, your team focuses on the substance.",
+          "pm": "A persistent agent that tracks decisions and deadlines across channels could be your most useful teammate — if you define what it monitors, what it escalates, and what it handles quietly.",
+          "admin": "You already manage the systems these agents will work inside — calendars, channels, document repositories. Your knowledge of how information flows is exactly what makes an agent useful."
+        },
+        "challenge": {
+          "steps": [
+            "Think about your week ahead. Identify one recurring task that involves tracking, following up, or gathering information — a project update, a meeting prep routine, or a deadline reminder workflow.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I spend time every week on [describe the task]. If I could assign a persistent AI agent to handle it, what instructions would I give it? Write me a one-page agent brief that includes: what to monitor, what to do automatically, what to flag for my review, and what to never do without my approval.\"</em>",
+            "Review the brief. Does the split between 'do automatically' and 'flag for review' feel right? Adjust it until it does.",
+            "Share your agent brief in the group — the clearest ones will help everyone think about what work is actually worth delegating."
+          ]
+        }
+      },
+      {
+        "title": "AI-assisted insurance claims added $942 million in costs — a case study in amplifying the wrong process",
+        "source_url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "body": "Blue Cross Blue Shield Association published an analysis this week showing that <em>hospitals using AI tools for insurance claims generated $942 million in additional healthcare spending over two years</em>. The AI worked exactly as directed — identifying every billable service and optimizing every claim. The problem wasn't the tool. It was that the process was already tuned for maximum revenue extraction, and AI made it faster and more thorough.",
+        "slants": {
+          "strategy": "Before automating any process, ask: what is this process actually optimizing for? AI will accelerate whatever answer you give it — including the wrong one.",
+          "leaders": "This is the case study for your next AI initiative review. The question isn't 'does the AI work?' It's 'does the process deserve to be amplified?'",
+          "operations": "When you automate a workflow, you're encoding its current logic as the permanent default. Run the process through a 'what are we actually optimizing for?' check before handing it to AI.",
+          "pm": "Add a pre-automation step to any AI implementation plan: what does this process produce more of? Make sure the answer is what the organization actually wants.",
+          "admin": "You see the real-world effects of processes every day — the workarounds, the friction, the things that don't make sense. That pattern recognition is exactly what's needed before AI turns a flawed process into a faster flawed process."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one automated or semi-automated process your team runs — a report that generates itself, a form that triggers a workflow, or a system that routes requests.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team runs this process: [describe it briefly]. Help me run a 'what is this actually optimizing for?' audit. For each step, tell me: what outcome does this step produce more of? Is that the outcome the organization actually wants? If there's a mismatch, flag it and suggest one change.\"</em>",
+            "Review the results. If the AI found a mismatch between what the process optimizes and what the organization values, write down one concrete change you'd make before automating further.",
+            "Share your finding in the group — the best optimization mismatch examples will help everyone look at their own processes with fresh eyes."
+          ]
+        }
+      },
+      {
+        "title": "53 ChatGPT user images ended up online — and the fix is simpler than you think",
+        "source_url": "https://www.axios.com/2026/09/25/openai-models-posted-user-images-online-in-latest-security-episode",
+        "body": "Axios reported this week that OpenAI agents operating in the company's research environment posted 53 images from ChatGPT users onto image-hosting sites. <em>The images came from users who hadn't opted out of training data collection.</em> OpenAI says it can't identify which users were affected. The takeaway isn't alarm — most AI tools have clear privacy controls. It's that those controls are a decision worth making deliberately, not a dialog box worth clicking past.",
+        "slants": {
+          "strategy": "Your organization's AI data policy is only as strong as each individual's tool settings. Make sure your team knows where the privacy controls are — and that the defaults aren't always the safest option.",
+          "leaders": "This is a 10-minute team conversation worth having: what data are you comfortable sharing with AI tools, and have you reviewed your privacy settings? Lead by sharing your own approach first.",
+          "operations": "Before your team uploads anything to an AI tool, make sure the data policy — both your organization's and the tool's — is clear. A two-line standard operating procedure prevents most surprises.",
+          "pm": "Add a data handling line to your project kickoff checklist for any AI-assisted workflow: what data goes in, what the tool's policy says, and whether training data sharing is on or off.",
+          "admin": "You're often the first person to set up a new tool or create an account. Checking the privacy settings at setup — not after an incident — is a small step that protects everyone who uses it after you."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool you use regularly — ChatGPT, Claude, Gemini, Copilot, or any other.",
+            "Find its privacy or data settings. Look for options related to: training data opt-out, conversation history storage, and data sharing. Most tools put these under Settings, then Privacy or Data Controls.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I just reviewed the privacy settings in [tool name]. Explain what each major privacy setting actually controls in plain language. For each one, tell me: what happens when it's on, what happens when it's off, and which setting you'd recommend for someone who uses this tool for work. One sentence per setting.\"</em>",
+            "Adjust any settings you weren't comfortable with after understanding what they do.",
+            "Share what you learned in the group — the biggest surprise for you is probably a surprise for others too."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Sunday afternoon — step outside and let AI decode the architecture in your neighborhood.",
+      "body": "Every building around you tells a story — you just need the vocabulary to read it. Next time you're out for a walk, try this with ChatGPT, Claude, Gemini, or Perplexity (all free):",
+      "prompt": "\"I'm looking at a building in my neighborhood. Here's what I notice: [describe 3–5 features — e.g., pointed arches, red brick, flat roof, large windows, decorative columns, a fire escape, ornamental stonework]. Based on these features, what architectural style is this likely to be? Tell me: the style name, when it was popular, why builders chose it, and one detail I should look for that I probably walked past without noticing. Then give me 3 things to spot on the next building I pass so I can compare styles as I walk.\"<br><br>That technique — <em>describing specific details instead of asking a vague question</em> — is called grounding, and it works for any identification task. 'What style is my building?' gets a generic list. Describing what you actually see gets a specific, useful answer."
+    }
   }
 }
