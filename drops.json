@@ -7606,5 +7606,75 @@
       "body": "Every building around you tells a story — you just need the vocabulary to read it. Next time you're out for a walk, try this with ChatGPT, Claude, Gemini, or Perplexity (all free):",
       "prompt": "\"I'm looking at a building in my neighborhood. Here's what I notice: [describe 3–5 features — e.g., pointed arches, red brick, flat roof, large windows, decorative columns, a fire escape, ornamental stonework]. Based on these features, what architectural style is this likely to be? Tell me: the style name, when it was popular, why builders chose it, and one detail I should look for that I probably walked past without noticing. Then give me 3 things to spot on the next building I pass so I can compare styles as I walk.\"<br><br>That technique — <em>describing specific details instead of asking a vague question</em> — is called grounding, and it works for any identification task. 'What style is my building?' gets a generic list. Describing what you actually see gets a specific, useful answer."
     }
+  },
+  "2026-09-28": {
+    "intro": "Monday briefing — slow governance is creating shadow AI at ten times the scale of shadow IT, the most in-demand AI skill turns out to be judgment, and most CIOs have lost sight of the AI agents running inside their organizations.",
+    "trends": [
+      {
+        "title": "When approval takes longer than the experiment, teams stop asking for permission",
+        "source_url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
+        "body": "AWS's Reimagine 2026 report interviewed 154 executives across 128 organizations and found a pattern: <em>organizations still applying six-month review processes to AI experiments that take two weeks are pushing adoption underground</em>. One executive described shadow AI as \"shadow IT at ten times the scale.\" Only 24% of organizations have a documented approach to responsible AI use — not because they don't care about governance, but because their governance wasn't designed for this speed.",
+        "slants": {
+          "strategy": "If your AI approval process takes longer than the experiment it's approving, the process is the risk — not the AI.",
+          "leaders": "Ask your team one direct question this week: have you tried an AI tool without going through the approval process? The honest answer tells you whether your governance is working.",
+          "operations": "A two-page AI use policy that ships this week protects more than a 40-page framework that ships next quarter.",
+          "pm": "Add a governance checkpoint to your AI project timelines that matches the speed of the work — days, not months.",
+          "admin": "You already know which tools your team actually uses versus which ones are officially approved. That gap is exactly what leadership needs to hear about."
+        },
+        "challenge": {
+          "steps": [
+            "Think about your team's current process for approving a new AI tool or use case. How long does it take from request to approval? Write that number down.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work at a large enterprise. Our AI governance process currently takes [your number] to approve a new tool or use case. Most AI experiments take about two weeks. Design a lightweight, one-page AI use policy that covers: what's allowed without approval, what needs a quick review, and what's off-limits. Make it clear enough that someone could read it in five minutes and know exactly what to do.\"</em>",
+            "Compare the AI's draft to your current process. Where is the biggest gap between how fast your team works and how fast governance moves?",
+            "Share your one-page draft or your biggest gap insight in the group."
+          ]
+        }
+      },
+      {
+        "title": "The most in-demand AI skill isn't prompting — it's knowing when the output is wrong",
+        "source_url": "https://www.hrdive.com/news/ibm-report-warns-ai-could-erode-human-skills-deemed-vital-by-chros/831124/",
+        "body": "IBM's latest CHRO study surveyed 1,500 chief human resource officers and 8,800 employees globally and found a striking disconnect. <em>71% of CHROs say the ability to supervise, validate, and override AI output is the workforce's most essential skill</em> — but only 29% of employees rank judgment as important. Meanwhile, 60% of employees worry AI is eroding their critical thinking. The gap isn't about AI literacy. It's about who understands that judgment — not speed — is the premium.",
+        "slants": {
+          "strategy": "Your value was never the first draft. It's knowing which parts of AI's output to trust, which to question, and which to throw away.",
+          "leaders": "Build validation into your team's AI workflows as the actual work — not as an afterthought. The team that checks AI output well is the team producing the strongest results.",
+          "operations": "Every AI-generated report, summary, or recommendation needs someone who knows the domain well enough to catch what's wrong. That person just became more important, not less.",
+          "pm": "When you review an AI-generated project plan or status update, the skill isn't accepting it faster — it's catching what it missed about context only you have.",
+          "admin": "You catch errors that systems miss every day — a name spelled wrong, a meeting that conflicts, a detail that doesn't match what was said. That instinct is exactly what AI supervision requires."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a task you've recently used AI to help with — a draft, a summary, an analysis, or a recommendation.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I used AI to help me [describe the task]. Now I want to practice validating the output. Give me a checklist of 5 things I should verify before trusting any AI-generated [type of output] in a professional setting. For each item, explain what to look for and give one example of how AI commonly gets it wrong.\"</em>",
+            "Run that checklist against your recent AI output. Did you catch anything you would have missed without the checklist?",
+            "Share your checklist and what you found in the group — the most useful validation habits will help everyone work with AI more confidently."
+          ]
+        }
+      },
+      {
+        "title": "Most CIOs have lost track of their AI agents — and the ones succeeding are building visibility, not more gates",
+        "source_url": "https://www.dataiku.com/company/news/global-ai-confessions-report-cio-edition-2026",
+        "body": "Dataiku's Global AI Confessions report surveyed 685 CIOs across eight countries and found that <em>84% say employees are creating AI agents and applications faster than IT can govern them</em>. Meanwhile, 72% can't consistently measure the business outcomes of their agents, and 47% have already shut down more than 20 agents this year. The organizations getting this right aren't adding more approval layers. They're building visibility into where agents exist and what they're doing.",
+        "slants": {
+          "strategy": "Before building the next AI agent, ask: do we know how many we already have running? The most strategic move right now might be an inventory, not another deployment.",
+          "leaders": "Your team may already be building AI agents you don't know about. That's not a discipline problem — it's a signal that your people are moving faster than your infrastructure. Build the visibility to support them.",
+          "operations": "An AI agent inventory is an operations task, not an IT task. You already track tools, workflows, and process owners — extending that to AI agents is the natural next step.",
+          "pm": "Add \"AI tools and agents in use\" to your project kickoff template. If the team is using agents, the project plan should reflect it — including who's responsible for the output.",
+          "admin": "You're often the first to notice when a new tool appears in a workflow or a process changes without explanation. Flagging it helps — it's exactly the kind of visibility leadership needs right now."
+        },
+        "challenge": {
+          "steps": [
+            "Take five minutes and list every AI tool or agent you personally use at work — company-approved or not. Include anything from a chatbot to an automated summary feature to a browser extension.",
+            "Next to each one, note: what it does, whether IT knows about it, and whether anyone reviews its output.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use these AI tools at work: [list them]. For each one, tell me one risk I should be aware of — related to data privacy, accuracy, or security — and one simple safeguard I can put in place today.\"</em>",
+            "Share your tool count and your biggest surprise in the group — most people discover they use more AI than they realized."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Monday evening — call your phone or internet provider and let AI help you pay less.",
+      "body": "Negotiating a recurring bill sounds awkward, but it's one of the highest-value 15-minute conversations you can have. Before you pick up the phone, try this with ChatGPT, Claude, Gemini, or Perplexity (all free):",
+      "prompt": "\"I'm about to call [provider name] to negotiate my monthly bill of [amount]. I've been a customer for [how long]. First, role-play as the retention agent I'll speak to — walk me through what I should open with, how you'd push back, and what I should say next. Then switch to coaching mode and give me the 3 strongest phrases to use and one thing I should never say.\"<br><br>That technique — <em>asking AI to play the other side of a conversation before you have it</em> — is called adversarial role-play, and it works for negotiations, difficult personal conversations, and anywhere you want to walk in having already heard the pushback."
+    }
   }
 }
