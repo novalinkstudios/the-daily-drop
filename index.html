@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-09-30": {
+      intro: "Wednesday briefing \u2014 AI agents are hitting a real-world wall that has nothing to do with the models, Harvard Business Review finds AI expands work instead of shrinking it, and a new enterprise AI competitor just improved every buyer's negotiating position.",
+      trends: [
+        {
+          title: "AI agents need more than intelligence \u2014 they need the ecosystem to cooperate",
+          body: "Meta's Muse agent launched to 2.5 million downloads and partnerships with Walmart, Shopify, and Expedia \u2014 then hit a wall. <em>Amazon blocked it. Resy blocked it.</em> The pattern is clear: the next bottleneck for AI agents isn't how smart they are \u2014 it's whether the platforms they need to act on will let them in. For anyone building an AI agent strategy, the question just shifted from \"which model?\" to \"which partnerships?\"",
+          slants: {
+            strategy: "Your AI agent strategy is now a partnership strategy. Map which platforms your workflows depend on and assess which ones are likely to cooperate with \u2014 or block \u2014 third-party agents.",
+            leaders: "When evaluating AI agent vendors for your team, ask one question first: which platforms have they secured access to? A capable agent that can't reach your key services is a demo, not a solution.",
+            operations: "The agents that will actually automate multi-step workflows are the ones with real integrations, not just impressive demos. Prioritize vendors with signed platform partnerships over those with the flashiest model.",
+            pm: "Any project plan that assumes an AI agent can seamlessly connect to another platform now needs a risk line: what happens if that platform says no?",
+            admin: "The tools you use daily \u2014 calendars, booking systems, procurement portals \u2014 are exactly the ones agents need access to. Your feedback on which integrations matter most is more valuable than ever."
+          },
+          challenge: {
+            steps: [
+              "List three platforms or services your team uses daily that an AI agent would need to connect to in order to automate a workflow \u2014 email, calendars, project tools, procurement systems, anything.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I work at a large enterprise. My team relies on these three platforms daily: [list them]. If we deployed an AI agent to automate workflows across these tools, what integration challenges or access restrictions should we anticipate? For each platform, tell me whether it typically supports third-party AI agents, and what questions we should ask the vendor.\"</em>",
+              "Review the response and identify one platform that might resist agent access. Think about what your team's workaround would be.",
+              "Share your integration map and your biggest surprise in the group."
+            ]
+          }
+        },
+        {
+          title: "New research: AI doesn't shrink work \u2014 it expands what people can do",
+          body: "Harvard Business Review's latest research collection includes a finding that flips the productivity narrative. In field studies of AI agents, employees didn't just do their existing work faster \u2014 they <em>crossed occupational boundaries and tackled more complex, multi-step projects they wouldn't have attempted before</em>. AI expanded the scope of what people considered their job. The productivity gain is real, but the bigger story is the capability gain.",
+          slants: {
+            strategy: "AI's highest value isn't efficiency \u2014 it's expanding what your team can take on. The planning question shifts from \"how much time do we save?\" to \"what could we now attempt that we couldn't before?\"",
+            leaders: "Your team members are already using AI to stretch into adjacent work. That's a signal to encourage \u2014 it means you can assign more ambitious projects with confidence that the tools will help them deliver.",
+            operations: "When AI helps your team handle work that used to require a specialist, the cost and timeline of cross-functional projects changes. Factor that expanded capability into your next capacity plan.",
+            pm: "Scope growth used to be purely a risk. Now it's sometimes a signal that your team's capability has expanded. Learn to distinguish between unplanned drift and newly possible ambition.",
+            admin: "If AI has helped you take on tasks outside your usual lane \u2014 analytics, drafting, research \u2014 that's not overreach. It's your role growing. Name it and own it."
+          },
+          challenge: {
+            steps: [
+              "Think about a task or project you've recently handed off to someone else \u2014 or avoided entirely \u2014 because it felt outside your skill set.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I'm a [your role]. There's a task I've been avoiding because it's outside my usual expertise: [describe it briefly]. Walk me through how I could use AI to produce a strong first attempt \u2014 what do I need to provide, what prompts should I use, and what should I check in the output before sharing it? Assume I'm a beginner at this specific task but competent at my job.\"</em>",
+              "Follow the steps on a real, non-confidential example. Notice how far you get before you need a specialist.",
+              "Share what you attempted and what surprised you in the group \u2014 the breakthroughs from stepping outside your lane are the best kind."
+            ]
+          }
+        },
+        {
+          title: "Enterprise AI just got more competitive \u2014 and that's good news for every buyer",
+          body: "Meta announced its Enterprise Platform this week, hiring MongoDB CEO CJ Desai to lead it and opening Muse APIs to businesses alongside integrations with Asana, Zoom, Slack, and Salesforce. A day later, it launched Muse for Small Business. The significance isn't just another platform \u2014 it's that <em>every major technology company now has an enterprise AI offering</em>, and the competition is driving costs down and capability up. If your organization is evaluating AI tools, your negotiating position just improved.",
+          slants: {
+            strategy: "More competition means more leverage. Use this moment to benchmark your current AI vendor's pricing and capabilities against the growing field \u2014 the gap may surprise you.",
+            leaders: "A more competitive enterprise AI market means your team can access better tools at lower cost \u2014 but only if someone is actively tracking the landscape. Assign that responsibility before the next renewal cycle.",
+            operations: "New platform entries mean new integration options. If a workflow is blocked because your current vendor doesn't connect to a key system, check whether a newer competitor does.",
+            pm: "When a project's AI tooling budget looks tight, a quick competitive scan may surface a newer option that handles the same job for less. Build vendor comparison into your planning cycle.",
+            admin: "As AI tools get simpler and more affordable, they reach more roles faster. If your team hasn't been offered AI tools yet, the price competition across vendors may change that math soon."
+          },
+          challenge: {
+            steps: [
+              "Identify one AI tool your team currently uses or has considered \u2014 Copilot, Gemini Enterprise, Claude for Work, or any other platform.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team currently uses [tool name] for [what you use it for]. List the top 3 enterprise alternatives available right now. Compare them on cost, key features, integration ecosystem, and any known limitations. Be specific and current.\"</em>",
+              "Identify one capability or price point where a competitor beats your current tool. Even if you don't switch, that data strengthens your next vendor conversation.",
+              "Share your comparison and what stood out in the group."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Wednesday evening \u2014 fall just started. Let AI build you a season bucket list that actually fits your life.",
+        body: "October starts tomorrow and the best fall moments disappear fast. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"It's early fall and I want to make the most of the season. I live in [your area], I have about [X hours] of free time on weekends, and my budget for fun is [a realistic number]. Give me 10 fall activities \u2014 ranked by how much joy-per-dollar they deliver \u2014 and for each one, tell me when in the season to do it so I don't miss the window.\"<br><br>That last move \u2014 <em>asking AI to rank options by a specific criterion</em> \u2014 is called constrained ranking. It forces the AI to prioritize instead of just listing, and it works any time you need a recommendation that fits your actual constraints."
+      }
+    },
   "2026-09-29": {
       intro: "Tuesday briefing \u2014 California's governor has until tomorrow to set the legal standard for AI in workplace decisions, Gallup found the single biggest predictor of AI adoption success, and new Fed data shows what businesses are actually doing with AI.",
       trends: [
