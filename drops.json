@@ -7886,5 +7886,75 @@
       "body": "Generic top-ten lists never match the room. Whether you want cozy fall comfort, a spooky October series, or a deep-cut marathon for your most opinionated friend, the key is describing the feeling you're after — not just the genre. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to plan a movie marathon for [tonight / this weekend / this month]. Here's the vibe I'm going for: [describe the feeling — e.g., 'cozy and a little eerie, like sitting by a fire during a storm' or 'fun and lightweight, good for a group that can't agree on anything']. We have about [number] hours and [number] people. [Add any constraints — e.g., 'one person hates jump scares' or 'we've already seen everything mainstream']. Recommend [number] movies in the order we should watch them. For each one, tell me why it fits the vibe, why it belongs in that spot in the sequence, and where to stream it.\"<br><br>That technique — <em>describing the feeling you want instead of naming a genre</em> — is called emotional cueing. It works for any recommendation task: playlists, restaurants, books, weekend plans. 'Suggest something scary' gets a list. 'Suggest something that feels like walking through fog at dusk' gets a curated experience."
     }
+  },
+  "2026-10-02": {
+    "intro": "Friday briefing — Google's newest model can produce a million tokens in one pass, Coursera found that critical thinking is surging alongside AI skills, and frontier AI pricing dropped 80% in a single week.",
+    "trends": [
+      {
+        "title": "What changes when AI can produce a million tokens in one pass",
+        "source_url": "https://www.ghacks.net/2026/10/02/google-launches-gemini-4-argon-with-a-1-million-token-output-limit-starting-with-cyber-defenders/",
+        "body": "Google launched Gemini 4 Argon this week with a <em>1 million token output limit</em> — a 15x jump from the previous generation's 64,000. That's roughly 750,000 words in one pass. The practical shift: tasks that required iterative back-and-forth — a complete process audit, a detailed competitive analysis, a comprehensive strategy document — can now be completed in <em>one continuous draft</em>. The bottleneck moves from generation to review.",
+        "slants": {
+          "strategy": "A complete strategic analysis that once took multiple AI sessions can now happen in one pass. The review and pressure-testing stage — not the drafting — is where your time belongs.",
+          "leaders": "When AI can produce a 200-page analysis in minutes, your team's judgment and critical review skills become the premium. Invest in that side of the equation.",
+          "operations": "End-to-end process audits — the kind that take weeks to scope and compile — can now be drafted in a single run. Your expertise is knowing what's worth auditing and what the output missed.",
+          "pm": "Comprehensive project documentation — risk registers, stakeholder analyses, scope documents — can be generated in one pass. Your value is knowing what's missing, not writing every page.",
+          "admin": "You can now ask for complete, detailed drafts of complex documents — event plans, onboarding packets, policy comparisons — without breaking the request into pieces. One well-framed prompt, one thorough output."
+        },
+        "challenge": {
+          "steps": [
+            "Think of a document your team needs but no one has had time to create — a comprehensive process guide, a vendor comparison, a policy summary, or a detailed plan.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Create a comprehensive [document type] for [context]. Include these sections: [list 3–5 sections you need]. For each section, provide specific details, examples, and actionable recommendations. Be thorough — I want a complete working draft, not an outline.\"</em>",
+            "Read the full output. Mark the three strongest sections and the one that needs the most human judgment to correct or complete.",
+            "Share what you generated and what surprised you about the draft's quality in the group."
+          ]
+        }
+      },
+      {
+        "title": "Critical thinking is the co-skill to AI — and enrollment data proves it",
+        "source_url": "https://blog.coursera.org/global-skills-report-2026/",
+        "body": "Coursera's 2026 Global Skills Report, released this week, found that GenAI enrollments among enterprise learners are up <em>234% year over year</em>. But the adjacent data point is more revealing: among those same GenAI learners, critical thinking enrollments are up <em>185%</em>. People aren't just learning to use AI — they're simultaneously investing in the skill that makes AI output trustworthy: the ability to evaluate whether it's right.",
+        "slants": {
+          "strategy": "The strongest AI strategy pairs tool adoption with judgment development. The data confirms it: the professionals investing most in AI are also investing most in the skills to verify its output.",
+          "leaders": "When your team asks for AI training, pair it with critical thinking development. The highest-performing learners are already doing this on their own — formalize it.",
+          "operations": "Validating AI output is now a core operational skill. The teams building structured evaluation habits are catching errors before they cascade through a process.",
+          "pm": "Every project plan that relies on AI output should include explicit review and validation steps. The cost of unchecked AI output is higher than the time saved generating it.",
+          "admin": "Your instinct for spotting when something doesn't look right is a critical thinking skill — and the data shows it's one of the most in-demand capabilities in the workforce right now. Keep sharpening it."
+        },
+        "challenge": {
+          "steps": [
+            "Find a piece of AI-generated content you've received or created recently — a summary, analysis, recommendation, or draft. Make sure it doesn't contain confidential information.",
+            "Open your company-approved AI tool and paste the content, then add this prompt: <em>\"Act as a critical reviewer of this AI-generated text. For each major claim or recommendation, tell me: (1) what evidence supports it, (2) what's been left out or oversimplified, and (3) one question I should answer before trusting it. Be specific and direct.\"</em>",
+            "Read the critique carefully. Identify one gap or assumption you would have missed without this second pass.",
+            "Share your biggest takeaway in the group — the blind spots people find are often the most valuable part of this exercise."
+          ]
+        }
+      },
+      {
+        "title": "Frontier AI pricing dropped 80% in a week — and the deployment math changed with it",
+        "source_url": "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second",
+        "body": "OpenAI released GPT-6.1 Sol this week at <em>$2 per million input tokens — one-fifth the cost of GPT-6 Astra</em> — while matching Astra's capability on major benchmarks. Google's Gemini 4 Argon launched at the same price point. In a single week, the cost of running a frontier-class AI model fell 80%. The implication is practical: <em>AI projects that didn't pencil out at last month's pricing are now worth a second look</em>.",
+        "slants": {
+          "strategy": "Revisit every AI business case you shelved this year due to cost. At one-fifth the per-task price, the ROI calculation for several of those projects has likely flipped.",
+          "leaders": "If budget was the reason your team couldn't scale an AI pilot beyond a small group, that constraint just loosened significantly. Ask which shelved ideas deserve a second look.",
+          "operations": "Higher-volume, routine tasks — the ones too expensive to run through frontier AI at previous pricing — are now economically viable. Re-evaluate which manual processes could justify the new cost.",
+          "pm": "If your AI project cost estimates use pricing from even two months ago, they're likely overstated by 3–5x. Update them before your next planning cycle.",
+          "admin": "When per-task costs drop this sharply, the question shifts from 'which teams get AI tools?' to 'which tasks should every team run through AI?' Your knowledge of which recurring tasks consume the most time is exactly the input that answers that question."
+        },
+        "challenge": {
+          "steps": [
+            "Identify one task your team does regularly that involves analysis, summarization, or research — something that currently takes significant time.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team spends approximately [X hours per week] on [describe the task]. Help me build a quick business case for using AI to handle the first draft. Assume AI costs $2 per million input tokens and $10 per million output tokens. Estimate the token volume for this task, calculate the weekly AI cost, and compare it to the current time investment. Show the math simply.\"</em>",
+            "Review the business case. Would this math have worked at 5x the cost? The difference reveals how much the pricing shift changes your team's options.",
+            "Share your back-of-envelope business case in the group — even rough numbers help everyone see where the economics have shifted."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Friday night, cold front rolling in — let AI walk you through a baking project you've never tried.",
+      "body": "October is prime baking season, and the best way to learn a new technique is to have a patient teacher walk you through every step. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to bake something new this weekend. My experience: [be specific — e.g., 'I can follow a recipe but I've never worked with yeast' or 'I've made cookies but nothing with layers or pastry']. Equipment: [what I have — oven, stand mixer, bread pans, etc.]. Time: about [X hours] including wait time. Suggest three options ranked by how impressive the result is relative to how forgiving the recipe is. For whichever I pick, walk me through every step — and at each key stage, tell me what it should look like, smell like, and feel like so I know I'm on track.\"<br><br>That move — <em>describing your exact experience instead of saying 'beginner'</em> — is experience-level calibration. AI adjusts its instructions to your specific gaps, not a generic skill tier. It works for any learning task: cooking, fitness, DIY, gardening. 'I can follow a recipe but I've never worked with yeast' gets better guidance than 'I'm a beginner at baking.'"
+    }
   }
 }
