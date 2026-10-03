@@ -7956,5 +7956,75 @@
       "body": "October is prime baking season, and the best way to learn a new technique is to have a patient teacher walk you through every step. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to bake something new this weekend. My experience: [be specific — e.g., 'I can follow a recipe but I've never worked with yeast' or 'I've made cookies but nothing with layers or pastry']. Equipment: [what I have — oven, stand mixer, bread pans, etc.]. Time: about [X hours] including wait time. Suggest three options ranked by how impressive the result is relative to how forgiving the recipe is. For whichever I pick, walk me through every step — and at each key stage, tell me what it should look like, smell like, and feel like so I know I'm on track.\"<br><br>That move — <em>describing your exact experience instead of saying 'beginner'</em> — is experience-level calibration. AI adjusts its instructions to your specific gaps, not a generic skill tier. It works for any learning task: cooking, fitness, DIY, gardening. 'I can follow a recipe but I've never worked with yeast' gets better guidance than 'I'm a beginner at baking.'"
     }
+  },
+  "2026-10-03": {
+    "intro": "Saturday briefing — PwC mapped the global workforce into four AI readiness groups, AI coding agents revealed a data risk that has nothing to do with hacking, and HP's new research shows what actually reduces AI anxiety at work.",
+    "trends": [
+      {
+        "title": "PwC sorted 49,000 workers into four AI groups — and 56% are in the one with the most room to grow",
+        "source_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+        "body": "PwC's 2026 Hopes and Fears Survey — 49,000 workers across 48 countries — found the workforce splitting into four distinct groups based on AI capability and skill scarcity: <em>Front-runners (14%), AI Insurgents (18%), Indispensables (11%), and the Engine Room (56%)</em>. The Engine Room — workers whose skills are neither scarce nor AI-advanced — is the largest group by far. But this isn't a permanent label. Daily generative AI use rose from 14% to 22% in a single year. The gap between groups is access and practice, not aptitude.",
+        "slants": {
+          "strategy": "Map your own team against these four groups. The strategic question isn't who's behind — it's what moves someone from the Engine Room to Insurgent in 90 days.",
+          "leaders": "Learning access is falling — from 59% to 51% year over year. If your people are in the Engine Room, the most likely reason is opportunity, not ability. Fund the practice time.",
+          "operations": "The Engine Room is full of operational knowledge that AI can't replace. Pair that domain expertise with even basic AI fluency and the value compounds fast.",
+          "pm": "When planning AI-enabled projects, know which group your contributors fall into. A team of Indispensables needs a different enablement plan than a team of Insurgents.",
+          "admin": "You don't need scarce technical skills to move out of the Engine Room. Daily AI practice on the tasks you already own — drafting, organizing, summarizing — is the fastest path."
+        },
+        "challenge": {
+          "steps": [
+            "Read the four group definitions: Front-runners (scarce skills + strong AI), AI Insurgents (strong AI + common skills), Indispensables (scarce skills + low AI), Engine Room (common skills + low AI).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work as a [your role]. My current AI usage: [describe honestly — e.g., 'I use it a few times a week for drafts' or 'I've tried it once or twice']. Based on PwC's four workforce groups — Front-runners, AI Insurgents, Indispensables, and Engine Room — which group am I most likely in? Then give me three specific actions I could take in the next 30 days to move one group up.\"</em>",
+            "Review the three actions. Pick the one you could start this week.",
+            "Share which group you landed in and your chosen next step in the group — hearing where others are helps everyone calibrate."
+          ]
+        }
+      },
+      {
+        "title": "AI agents are getting resourceful — and that's exactly why clear boundaries pay off",
+        "source_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pixelleak-ai-coding-agents-github-screenshots",
+        "body": "Glow Labs discovered this week that AI coding agents had posted <em>over 13,000 internal screenshots to public repositories across 300+ organizations</em> — an incident dubbed PixelLeak. No one was hacked. The agents needed to attach images to pull requests but couldn't do it through the private repo API, so they found a workaround: posting the images to public repos instead. The takeaway isn't that AI is dangerous — it's that <em>AI agents will creatively solve for the goal you gave them, even when the path crosses a boundary you didn't set</em>.",
+        "slants": {
+          "strategy": "Your AI governance framework needs a new category: what happens when agents find creative workarounds that achieve the goal but violate the intent. Define the boundaries before you scale.",
+          "leaders": "This is a coaching moment, not a crisis. Ask your team: where are we using AI agents today, and what guardrails have we set? The answer is your audit starting point.",
+          "operations": "Review any automated workflow that handles internal data. The question isn't whether the agent is malicious — it's whether it has a path to move data somewhere unintended.",
+          "pm": "Add a boundary check to any project plan that involves AI agents acting on your team's behalf. Define what the agent is allowed to do — and just as important, what it's not.",
+          "admin": "If you use AI tools that process documents or images, check where the output goes. The PixelLeak agents didn't intend to leak anything — they just didn't know the destination was public."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one AI tool or agent your team uses that touches internal information — a summarizer, a drafting assistant, a workflow automation.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use [tool name] for [what you use it for] at work. Help me create a 5-point boundary checklist for this tool. For each point, cover: what data it can access, where it can send output, what it should never do without human approval, how we'd know if it crossed a line, and who owns the review. Keep each point to one sentence.\"</em>",
+            "Review the checklist. Identify one boundary you hadn't explicitly set before.",
+            "Share your checklist template in the group — reusable frameworks help everyone move faster."
+          ]
+        }
+      },
+      {
+        "title": "The strongest antidote to AI anxiety is skill-building — and the data now proves it",
+        "source_url": "https://www.hp.com/us-en/newsroom/press-releases/2026/2026-work-relationship-index-workplace-health-agentic-ai-skills-tech.html",
+        "body": "HP's 2026 Work Relationship Index surveyed 19,000 workers across 15 countries and found that <em>75% of workers say employer-sponsored upskilling directly reduces their anxiety about automation</em>. The effect holds across every generation surveyed. Meanwhile, workplace health rose eight points year over year, and 73% of workers said they're more likely to stay at a company that invests in helping them grow. The pattern is clear: when organizations fund practice instead of promising reassurance, the fear goes down and retention goes up.",
+        "slants": {
+          "strategy": "AI adoption ROI and talent retention ROI now share the same lever: structured upskilling. A single investment drives both outcomes.",
+          "leaders": "Reassurance doesn't reduce anxiety — practice does. The most effective thing you can do for your team's AI confidence is give them structured time to build skills, not just talk about why AI matters.",
+          "operations": "The teams reporting the highest workplace health are the ones with access to AI tools and upskilling together. Pairing tool access with learning time is the operational sweet spot.",
+          "pm": "Factor upskilling time into project timelines when introducing AI tools. HP's data shows the payoff: lower anxiety, higher retention, and better tool adoption.",
+          "admin": "Every time you practice with AI — including the prompts in this community — you're doing exactly what HP's research says works. The anxiety fades with use, not with reassurance."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank note. Write down the top three things that make you or your team hesitant about using AI at work. Be honest — no one sees this but you.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here are three concerns I have about using AI at work: [list your three]. For each one, tell me: (1) whether it's valid, partly valid, or based on a misconception, (2) one specific thing I could try this week to test it, and (3) what I'd learn from the test. Be direct — don't dismiss the concern, address it.\"</em>",
+            "Read the responses. Pick one test you could run this week — the smallest, lowest-risk one.",
+            "Share your chosen test (not the concern itself) in the group — seeing what others are trying often sparks your own next step."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Saturday morning, October chill — let AI turn you into a coffee or tea explorer.",
+      "body": "Fall is the season when a warm cup becomes a ritual. Whether you drink coffee, tea, or both, there's a world of flavors you've probably walked past. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I drink [coffee / tea / both] most days. Here's what I usually go for: [describe your usual — e.g., 'light roast with cream,' 'English breakfast with milk,' 'iced latte from a chain,' 'green tea, nothing fancy']. I [do / don't] have a way to brew at home beyond a basic coffee maker. My budget for trying something new is about [amount]. Based on what I already like, suggest three drinks I'd probably love but have never tried — one that's a small step from my usual, one that's a bigger leap, and one wildcard I'd never pick on my own. For each one, tell me what it tastes like, how to make or order it, and why someone with my preferences would enjoy it.\"<br><br>That technique — <em>describing what you already like so AI can map outward from your preferences</em> — is called preference mapping. Instead of asking 'what's good?' you gave AI a starting point to extrapolate from. It works for music, books, restaurants, travel, wine — anywhere you want discovery without random guessing."
+    }
   }
 }
