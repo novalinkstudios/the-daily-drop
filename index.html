@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-05": {
+      intro: "Monday briefing \u2014 Wall Street's hottest new AI skill is coordination, PwC projects $31.6 trillion in AI infrastructure with an open return question, and Check Point's research shows why the smartest AI agent deployments start with clear boundaries.",
+      trends: [
+        {
+          title: "Wall Street's fastest-growing AI skill is one most managers already have",
+          body: "CNBC reported that AI-related job postings at major banks \u2014 JPMorgan Chase, Citigroup, Capital One \u2014 <em>surged 49% this year to 139,819 listings</em>. The fastest-growing skill isn't coding or model building. It's agent orchestration \u2014 coordinating teams of specialized AI agents to work together \u2014 with demand up <em>1,721% in a single year</em>. The roles are going to people who know how to scope a problem, define rules, and manage handoffs between agents. That sounds a lot like what the best project managers and operations leaders already do.",
+          slants: {
+            strategy: "The next wave of AI value isn't in the model \u2014 it's in the orchestration layer. Teams that can coordinate multiple AI agents around a business objective will outpace those still using one tool at a time.",
+            leaders: "Agent orchestration is project management for AI \u2014 scoping, delegation, handoffs, quality checks. When developing your team's AI capabilities, start with the people who already manage complex workflows.",
+            operations: "Coordinating multiple AI agents across a process is an operations discipline, not a coding one. The domain expertise to know which steps need human review is what makes orchestration work.",
+            pm: "Agent orchestration may be the most natural AI skill extension for project managers \u2014 you already think in dependencies, handoffs, and checkpoints. That mental model translates directly.",
+            admin: "You coordinate people, tools, and systems across an organization every day. The ability to scope what an AI agent should and shouldn't do is the same judgment applied in a new context."
+          },
+          challenge: {
+            steps: [
+              "Pick one recurring workflow you manage \u2014 a weekly report, an approval chain, a meeting prep sequence. List every step from start to finish.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Here's a workflow I manage every week: [paste your steps]. For each step, tell me: could an AI agent handle this entirely, could it assist a human doing this, or does it require a human entirely? Then sketch how two or three AI agents could divide the work \u2014 what would each one own, and where would they hand off to each other or to me?\"</em>",
+              "Read the breakdown. Notice how many steps fall into the 'assist' category \u2014 that's where orchestration lives.",
+              "Share your workflow sketch in the group \u2014 comparing workflows helps everyone see the pattern."
+            ]
+          }
+        },
+        {
+          title: "$31.6 trillion in AI infrastructure is getting built, but the return question is wide open",
+          body: "PwC and Oxford Economics published a projection that stopped a few boardrooms mid-sentence: <em>$31.6 trillion in cumulative AI infrastructure spending through 2050</em>, with annual investment rising from $800 billion this year to $1.8 trillion by mid-century. The U.S. alone is expected to capture 48%. But Bain & Company added the uncomfortable footnote \u2014 firms in the AI buildout <em>need to find $4.2 trillion in new revenue over the next five years</em> to justify the spend. The infrastructure is getting built regardless. The question is whether organizations are ready to use it.",
+          slants: {
+            strategy: "The infrastructure won't be the bottleneck \u2014 your organization's readiness will be. The strategic priority isn't buying more AI tools; it's redesigning the work that makes those tools pay off.",
+            leaders: "When the board asks whether you're keeping up with AI investment, the honest answer often isn't about tools \u2014 it's about whether your team knows how to use them. Workforce readiness is the higher-leverage investment.",
+            operations: "Capacity is scaling faster than most organizations can absorb. The operations teams that build AI into daily workflows \u2014 not annual initiatives \u2014 will capture the most value from this buildout.",
+            pm: "Project plans that treat AI adoption as a technology rollout miss the point. The implementation that matters is process redesign, and that's a project management problem.",
+            admin: "Trillion-dollar numbers can feel abstract, but the practical impact is concrete: the AI tools available to your organization will keep getting more powerful. Your readiness to use them well is the variable that matters."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool your organization already pays for \u2014 Copilot, Gemini Enterprise, or another company-approved tool.",
+              "Open that tool and paste this prompt: <em>\"I have access to [tool name] at work but I'm only using it for [describe your current use \u2014 e.g., 'drafting emails' or 'summarizing documents']. What are three things this tool can probably do that I haven't tried yet? For each one, give me the exact first step to try it \u2014 something I can do in under 5 minutes.\"</em>",
+              "Pick one suggestion and try it right now. The point isn't to master it \u2014 it's to see what's already available.",
+              "Share what you discovered in the group \u2014 the gap between what we pay for and what we use is usually bigger than anyone expects."
+            ]
+          }
+        },
+        {
+          title: "AI agents work best with clear boundaries, and setting them is a management skill",
+          body: "Check Point published research showing that <em>a single email containing hidden instructions can manipulate an AI agent</em> connected to your inbox \u2014 potentially triggering actions across linked accounts without you clicking anything. The finding isn't a reason to avoid AI agents. It's a reason to deploy them the way smart organizations already do: <em>with clear boundaries, defined permissions, and human checkpoints for consequential actions</em>. The best deployments treat agent scope the same way you'd treat a new hire \u2014 explicit about what they can do, clear about when to escalate.",
+          slants: {
+            strategy: "AI agent governance isn't a security checkbox \u2014 it's a strategic competency. Organizations that define clear agent boundaries now will scale agent deployments faster than those who retrofit guardrails later.",
+            leaders: "Before your team deploys any AI agent with access to real systems, ask one question: what is it allowed to do without asking a human first? If no one has a clear answer, that's the first thing to define.",
+            operations: "Treat AI agent permissions the way you treat system access \u2014 least privilege, defined scope, regular review. The operational discipline you already use for access control applies directly here.",
+            pm: "When scoping an AI agent deployment, define the boundaries before you define the capabilities. A clear rule like 'this agent can read but not send' prevents more problems than any amount of post-deployment monitoring.",
+            admin: "You already manage who has access to what across systems and calendars. Extending that same thinking to AI agents \u2014 what they can see, what they can change, when they need to ask \u2014 is a natural fit for your skill set."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or feature you use at work that connects to your data \u2014 email drafts, document summaries, calendar management, anything.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I use an AI tool at work that connects to [what it connects to \u2014 e.g., my email, my documents, my calendar]. Help me think through what it should and shouldn't be able to do. Ask me five yes-or-no questions about what I'm comfortable with \u2014 like 'Should it send emails on your behalf?' or 'Should it access documents shared by others?' \u2014 then summarize my answers as a simple permissions policy I could share with my team.\"</em>",
+              "Review your permissions policy. Most people discover they've never explicitly defined what their AI tools should be allowed to do.",
+              "Share your top boundary rule in the group \u2014 the one you'd want every AI tool to follow."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Monday night, lights out earlier \u2014 let AI diagnose your sleep pattern before you try to fix it.",
+        body: "Most sleep advice is generic because most people describe their problem generically. The trick is telling AI exactly what your nights actually look like \u2014 the honest version, not the aspirational one. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Here's what my sleep actually looks like: I go to bed around [time], fall asleep around [time], wake up [how many times], and get up at [time]. The thing that bothers me most is [what \u2014 e.g., 'I can't fall asleep,' 'I wake up at 3 AM,' 'I'm exhausted by noon']. Before suggesting anything, tell me what pattern you see in my answers. Then give me three changes ranked by how easy they are to start tonight \u2014 not next week, tonight.\"<br><br>That last move \u2014 <em>rank by how easy they are to start right now</em> \u2014 is immediacy ranking. Instead of getting a perfect plan you'll never follow, you get one thing you can try tonight. It works for sleep, exercise, nutrition, or any habit you've been meaning to change."
+      }
+    },
   "2026-10-04": {
       intro: "Sunday briefing \u2014 HBR argues verification is the new competitive bottleneck, ServiceNow's AI service desk deploys inside Slack in a single day, and Anthropic is training enterprise AI engineers the way hospitals train doctors.",
       trends: [
