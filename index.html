@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-07": {
+      intro: "Wednesday briefing \u2014 SailPoint finds AI agents are in production at 79% of enterprises but only 2% have built proper controls, Atlassian launches a protocol for agents to work alongside humans as real teammates, and ServiceNow turns workflow improvement into a continuous, AI-powered loop.",
+      trends: [
+        {
+          title: "AI agents have crossed into mainstream production \u2014 governance is the next step",
+          body: "SailPoint's 2026 Horizons of Identity Security report surveyed 340 senior IT, security, and risk leaders globally. <em>79% of enterprises now run AI agents in production</em>, but only 2% have deployed purpose-built identity security for those agents. The agents are doing real work \u2014 processing data, executing tasks, making decisions. The governance layer hasn't caught up yet, and that's the next frontier for organizations that want to scale with confidence.",
+          slants: {
+            strategy: "AI agents in production is the win \u2014 the gap is in governing what those agents can access and do. Your AI strategy needs a governance chapter that's as detailed as the deployment plan.",
+            leaders: "If your teams are using AI agents, ask whether anyone owns the access controls. Naming that owner now \u2014 before an incident forces it \u2014 is a leadership move, not a technical one.",
+            operations: "Operations teams often have the best view of which agents touch which systems. You're well-positioned to map agent access and flag where the controls haven't been built yet.",
+            pm: "Every AI agent deployment should include a governance workstream \u2014 who can the agent access, what can it do, and who reviews that scope? Treat it as a deliverable, not an afterthought.",
+            admin: "If you're coordinating across systems and tools, you already think about access and permissions. That same instinct applied to AI agents is exactly what governance looks like in practice."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or agent your team uses regularly \u2014 Copilot, a chatbot, an automated workflow, anything that acts on its own.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I manage or work with an AI agent that [describe what it does \u2014 e.g., 'drafts responses to customer inquiries' or 'summarizes meeting notes and sends action items']. Help me create a simple access checklist: what data does this agent need access to, what data should it never see, and who should review its scope every quarter? Give me a one-page format I could share with my team.\"</em>",
+              "Review the checklist and adjust it for your actual setup \u2014 even a rough version is better than nothing.",
+              "Share your checklist format in the group \u2014 governance doesn't need to be complicated to be useful."
+            ]
+          }
+        },
+        {
+          title: "Atlassian builds a protocol for agents to work as teammates, not tools",
+          body: "At Team '26 Europe in Amsterdam, Atlassian introduced AMP \u2014 the Agentic Multiplayer Protocol \u2014 designed to let AI agents participate in team workflows as defined contributors. AMP standardizes how agents receive work, hand off to humans, and coordinate with other agents inside tools like Jira and Confluence. <em>The shift is structural: agents aren't being added as features \u2014 they're being designed into how teams are organized.</em>",
+          slants: {
+            strategy: "When agents become teammates with defined roles and handoffs, the planning function changes. Strategy teams need to think about team composition differently \u2014 which work stays human, which gets assigned to an agent, and how they coordinate.",
+            leaders: "This is an early signal of what team structure looks like in 18 months. Start thinking about which of your team's recurring workflows could benefit from a defined AI contributor \u2014 not a one-off tool, but a persistent role.",
+            operations: "Standardized handoffs between humans and agents solve one of the biggest friction points in automation: the last mile where automated output needs human judgment. A defined protocol means fewer dropped balls.",
+            pm: "Agent-as-teammate changes how you plan work. If an agent owns a defined step \u2014 research, drafting, data collection \u2014 your project plan needs to account for its capacity and its limitations, just like any other contributor.",
+            admin: "You've always been the person who knows how to route work to the right person. When some of those contributors are AI agents, that coordination skill becomes even more valuable \u2014 and protocols like AMP make it manageable."
+          },
+          challenge: {
+            steps: [
+              "Pick one recurring team workflow \u2014 a weekly report, an intake process, a review cycle \u2014 and list every step from start to finish.",
+              "For each step, label it: <em>\"human only,\"</em> <em>\"agent could assist,\"</em> or <em>\"agent could own this.\"</em>",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Here's a team workflow where I've labeled each step as human-only, agent-assisted, or agent-owned: [paste your list]. For the steps labeled 'agent could own,' describe what a good handoff would look like \u2014 what information does the agent need to start, and what should it deliver back to the team?\"</em>",
+              "Review the handoff descriptions. The value isn't always in doing the work \u2014 it's in defining the handoff clearly.",
+              "Share your labeled workflow in the group \u2014 comparing team workflows helps everyone spot the pattern."
+            ]
+          }
+        },
+        {
+          title: "Workflow improvement becomes a continuous loop, not a quarterly project",
+          body: "ServiceNow launched AI Workflow Factory, a capability that uses agentic AI to <em>discover where work can be improved, build the automation, and keep refining it in a continuous loop</em>. Instead of treating process improvement as a project with a start and end date, the system watches how work actually flows, identifies friction, and proposes changes \u2014 continuously. For operations teams, this means the gap between 'we know this process is slow' and 'we fixed it' gets much shorter.",
+          slants: {
+            strategy: "Continuous process improvement used to be a Lean aspiration. When AI can spot inefficiencies and propose fixes on its own, it becomes a default capability \u2014 and the organizations that treat it as one will compound gains faster.",
+            leaders: "If your team reviews processes quarterly, an AI that reviews them daily changes the math. The leadership decision is giving teams permission to act on what the AI finds \u2014 not just report it.",
+            operations: "This is the ops capability that matches how you already think. You've always known which processes are slow. Now there's infrastructure to catch the ones you haven't noticed yet \u2014 and propose the fix alongside the finding.",
+            pm: "Process improvement as a continuous loop means fewer standalone optimization projects and more incremental gains baked into daily operations. The PM role shifts from leading improvement initiatives to governing the pace of change.",
+            admin: "The workflows you manage every day \u2014 scheduling, routing, approvals \u2014 are exactly the kind AI can watch and improve. When the system suggests a better routing rule or a step that could be skipped, your judgment on whether to accept it is the critical check."
+          },
+          challenge: {
+            steps: [
+              "Pick one workflow or process you touch every week that feels slower or clunkier than it should be.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I run this process every week: [describe the process step by step]. It takes me about [time estimate]. Identify the two steps that are probably causing the most friction \u2014 where I'm waiting, duplicating effort, or doing something manually that could be automated \u2014 and for each one, suggest a specific change I could test next week.\"</em>",
+              "Pick one of the two suggestions and try it during your next cycle of that process.",
+              "Share what you changed and what happened in the group \u2014 even small process wins add up fast."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "October is ticking \u2014 let AI build you a holiday gift strategy before the rush hits.",
+        body: "The holidays are closer than they feel, and the best gift-givers aren't the ones who spend the most \u2014 they're the ones who plan early. Tonight, open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I need to buy gifts for [number] people this holiday season. My total budget is around $[amount]. Here's who's on my list: [e.g., 'my partner, two kids ages 8 and 12, my parents, and three friends']. For each person, suggest two gift ideas \u2014 one thoughtful and one practical \u2014 and keep a running total so I stay on budget. If I'm over, tell me where to cut.\"<br><br>That move \u2014 <em>giving AI your constraints up front and asking it to track them</em> \u2014 is constraint-based planning. Instead of a generic gift list, you get a plan that fits your actual life. It works for any planning task where budget, time, or headcount matters."
+      }
+    },
   "2026-10-06": {
       intro: "Tuesday briefing \u2014 EY's new CEO survey shows most firms have AI productivity gains they can't prove, Workday's workforce data reveals the AI skill that's actually declining, and Forbes makes the case that your AI strategy is only as strong as your people plan.",
       trends: [
