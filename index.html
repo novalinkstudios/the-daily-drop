@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-10": {
+      intro: "Saturday briefing \u2014 Google builds one persistent AI agent that works across all your apps, new research confirms the skills AI can't replace are the ones gaining value, and Gartner creates its first market category for AI agents in HR.",
+      trends: [
+        {
+          title: "Google builds one AI agent that works across all your apps \u2014 not just its own",
+          body: "At Gemini at Work 2026 on Wednesday, Google introduced a single persistent AI agent that works across Gmail, Docs, Slides, Slack, and Microsoft 365 \u2014 <em>one agent with shared memory that knows your context everywhere you work</em>. It can spin up sub-agents for individual jobs, route tasks to different AI models, and handle multi-day projects in the background. The product is in private preview for enterprise customers, with nearly 90% of the Fortune 100 already using Gemini Enterprise. The direction: AI at work is consolidating from a dozen separate tools into one agent that follows you across platforms.",
+          slants: {
+            strategy: "The tool-selection question gets simpler. The governance question \u2014 what one agent can access across every platform \u2014 gets bigger. Build the evaluation framework now.",
+            leaders: "When one agent spans every app your team uses, adoption stops being a per-tool conversation. The leadership challenge shifts to setting clear boundaries for what the agent can and can't do.",
+            operations: "One agent with cross-platform context reduces the handoffs where information gets lost. The ops opportunity is designing workflows that take advantage of that continuity.",
+            pm: "Project information scattered across email, docs, and chat is the PM's daily friction. An agent that connects all three can draft status updates from real activity \u2014 but the PM decides what's accurate.",
+            admin: "You already coordinate across email, calendars, and documents. A universal agent built for that same cross-platform work is designed around the kind of judgment you exercise every day."
+          },
+          challenge: {
+            steps: [
+              "Think about a recurring task where you pull information from multiple tools \u2014 assembling a meeting agenda from emails and docs, compiling a weekly update from different channels, or prepping a report from scattered sources.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I regularly need to [describe the task \u2014 e.g., 'pull project updates from email threads, a shared doc, and a chat channel to build a weekly status report']. If I had one AI agent that could see across all these tools, what would I want it to do? Write a short 'agent brief': what information it gathers, what it produces, and what it checks with me before acting.\"</em>",
+              "Review the brief. Notice which parts you'd trust the agent to handle and which you'd want to approve \u2014 that boundary is the foundation of good AI governance.",
+              "Share your agent brief in the group \u2014 the patterns in what people want to delegate reveal where the most time is lost to tool-switching today."
+            ]
+          }
+        },
+        {
+          title: "The skills AI can't replace are the ones gaining value fastest",
+          body: "New research from Toronto Metropolitan University, funded by the Future Skills Centre, examined how AI is changing early-career work in one of the most AI-impacted fields. The finding cuts across industries: <em>93% of employers say human-centered skills \u2014 judgment, decision-making, and working through problems \u2014 are more important as AI handles routine tasks</em>. But the study also identified an entry-level paradox: the routine work AI now automates is the same work that used to train newcomers. The skills that matter most are gaining value. The challenge is making sure people still get the experience to build them.",
+          slants: {
+            strategy: "Invest in developing the human skills that AI makes more valuable \u2014 judgment, critical thinking, and problem-framing \u2014 not just the technical skills that keep pace with the tools.",
+            leaders: "If AI handles the tasks that used to develop your team's judgment, create new learning opportunities deliberately. Stretch assignments and decision-making practice don't happen by accident anymore.",
+            operations: "Operational excellence depends on knowing when to escalate, when the process doesn't fit, and when the data looks wrong. That judgment is built through reps \u2014 and teams need to protect those reps even as AI takes on routine work.",
+            pm: "New team members used to learn by doing the routine work. If AI handles that now, onboarding needs to change \u2014 pairing people with complex tasks earlier, with stronger coaching support.",
+            admin: "Your ability to read context, manage exceptions, and know what the process can't capture is exactly what this research says employers value most. AI handles the repeatable parts; your judgment handles everything else."
+          },
+          challenge: {
+            steps: [
+              "Think about someone newer on your team \u2014 or remember your own first year. List three routine tasks that taught you how things actually work around here.",
+              "For each task, consider whether AI could now handle some or all of it \u2014 and what learning experience would be lost if it did.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Here are three routine tasks that help newer team members build judgment and learn how our organization works: [list them]. For each one, if AI takes over part of the task, suggest one alternative way to give that person the same learning experience \u2014 something that builds their judgment without relying on the routine work itself.\"</em>",
+              "Share one of the alternative learning ideas in the group \u2014 the entry-level paradox affects every team, and the solutions are worth comparing."
+            ]
+          }
+        },
+        {
+          title: "AI agents in HR just graduated from experiment to expected",
+          body: "Gartner published its inaugural Emerging Market Quadrant for AI Agents in Human Resources this week \u2014 the first time the analyst firm created a dedicated market category for AI agents in HR. The signal matters more than the vendor rankings: <em>when Gartner builds a market map for a technology, it has crossed from pilot project to infrastructure that enterprises are expected to evaluate</em>. AI agents now handle recruiting, onboarding, and employee questions at scale. For organizations still treating AI in people operations as a future consideration, the analyst community just moved the timeline up.",
+          slants: {
+            strategy: "When Gartner creates a market category, the conversation shifts from 'should we experiment?' to 'which solution fits our needs?' Your AI strategy for people operations should include an evaluation framework, not just a pilot plan.",
+            leaders: "AI agents in HR will change the employee experience your team delivers \u2014 from how fast people get answers to how smoothly onboarding runs. Shape what that experience looks like before it arrives by default.",
+            operations: "HR operations \u2014 recruiting workflows, onboarding sequences, employee support \u2014 are the structured, high-volume processes where AI agents add the most value. Market maturity means the evaluation criteria and benchmarks now exist.",
+            pm: "An HR technology rollout that puts AI agents in front of employees is one of the most people-sensitive projects in any organization. The change management and communication planning matter as much as the technology.",
+            admin: "If AI agents start handling employee questions and onboarding tasks, the people who know how those processes actually work day to day become essential to getting the implementation right. Your institutional knowledge is the guardrail."
+          },
+          challenge: {
+            steps: [
+              "Think about one people-related process you interact with regularly \u2014 onboarding, requesting time off, getting a question answered by HR, submitting an expense report, or scheduling training.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I interact with this HR or people-operations process regularly: [describe it \u2014 e.g., 'onboarding new team members onto our tools and systems' or 'submitting and tracking expense reports']. If an AI agent handled the routine parts, what would improve for the employee? What would still need a human? Give me a simple before-and-after comparison.\"</em>",
+              "Review the comparison. The 'still needs a human' column often reveals where the real value lives in a process.",
+              "Share your before-and-after comparison in the group \u2014 the parts that need human judgment tend to be the same across organizations."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Saturday night, creative energy \u2014 let AI help you design a board game based on your actual life.",
+        body: "Your commute, your weekend habits, the people you deal with, the decisions you make \u2014 they're all game mechanics waiting to happen. Tonight, describe your typical week to AI and let it turn your real life into a playable board game concept. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I want to design a board game based on my actual life. Here's what a typical week looks like for me: [describe your routine \u2014 commute, work, errands, hobbies, the people you interact with, the small wins and frustrations]. Now map my life onto board game mechanics: what's the goal (what does 'winning' my week look like)? What are the obstacles (chance cards)? What resources do players collect? What are the trade-offs? Give me a full concept: a name, 3-5 core rules, a board layout description, and one mechanic that captures something uniquely specific about my life \u2014 not generic. Make it a game I'd actually want to play with friends.\"<br><br>That technique \u2014 <em>asking AI to translate concepts from one domain into another</em> \u2014 is analogy mapping. Instead of describing your life directly, you forced AI to find structural parallels in a completely different system, which surfaces patterns you wouldn't spot otherwise. It works beyond games: map your team's workflow onto a restaurant kitchen to find bottlenecks, map a tough decision onto a chess position to clarify trade-offs, or map your career onto a road trip to figure out where you're actually headed."
+      }
+    },
   "2026-10-09": {
       intro: "Friday briefing \u2014 Microsoft's AI chief backs a Nobel laureate's research showing 95% of work stays human, Cisco builds AI agents directly into Webex as digital coworkers, and Forbes finds the hardest part of the AI skills race has shifted from teaching to measuring.",
       trends: [
