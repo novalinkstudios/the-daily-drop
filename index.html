@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-11": {
+      intro: "Sunday briefing \u2014 Microsoft's CEO calls for AI with a human-controlled emergency brake, an automation giant merges customer conversations with back-office work, and your business software is quietly gaining AI agents of its own.",
+      trends: [
+        {
+          title: "Microsoft's CEO says AI needs an emergency brake he controls",
+          body: "Satya Nadella told CNBC this week that advanced AI systems need <em>containment, independent controls, and an emergency brake that humans control</em>. Microsoft's internal code of conduct now says its AI models should never set their own goals or resist human input \u2014 even if that means trading capability for safety. This isn't a critic raising alarm from the sidelines. It's the CEO of the company with the largest AI investment choosing the copilot model over the autopilot model. The direction for every organization adopting AI: build oversight in from day one, not after something goes wrong.",
+          slants: {
+            strategy: "When the largest AI investor voluntarily limits capability for safety, treat it as a planning signal: your AI strategy should include a governance framework from the start, not as a phase-two add-on.",
+            leaders: "Set the tone now. If your team sees you treating AI oversight as part of how you adopt \u2014 not a brake on adoption \u2014 they'll build that discipline into their own work.",
+            operations: "Every automated workflow needs a human checkpoint designed in advance. Map where a person reviews, approves, or overrides before the workflow goes live \u2014 not after something breaks.",
+            pm: "AI governance checkpoints belong on your project timeline the same way security reviews do. Build them into planning, not as a late gate that delays launch.",
+            admin: "You already catch when a process doesn't fit the situation \u2014 when the template doesn't match the request, when the system says one thing but the context says another. That instinct is exactly what 'human in the loop' means."
+          },
+          challenge: {
+            steps: [
+              "Think about one task where you use AI output without much review \u2014 auto-drafted emails, meeting summaries, report sections, or search results you paste in.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I use AI to help me [describe the task]. What could go wrong if I trusted the output without reviewing it? Give me 3 specific failure scenarios tied to this exact type of work \u2014 not generic risks, but realistic situations where the output could be wrong in ways I might not catch.\"</em>",
+              "Read the failure scenarios. Pick the one most likely to actually happen in your work and write down one simple check you could add to catch it.",
+              "Share that check in the group \u2014 the failure modes people identify reveal where human oversight matters most."
+            ]
+          }
+        },
+        {
+          title: "Automation Anywhere buys Boost.ai to connect conversations with back-office work",
+          body: "Automation Anywhere agreed to acquire Boost.ai, a Norway-based conversational AI company whose platform handles customer interactions in <em>over 36 languages with resolution rates above 90%</em>. The deal connects two worlds that usually live apart: the front-office conversations customers have and the back-office workflows that fulfill what they need. It's the company's second AI acquisition in a year, following its purchase of Aisera for enterprise knowledge and employee service. The direction: the handoff between 'customer asks for something' and 'someone makes it happen' is becoming automated end to end.",
+          slants: {
+            strategy: "Vendor consolidation means fewer platforms with broader reach. Your technology stack planning should account for tools that now span customer-facing and internal operations in a single flow.",
+            leaders: "When customer conversations trigger back-office actions automatically, the quality of those automated workflows reflects directly on your team. Invest in getting the handoffs right before the automation runs ahead of your standards.",
+            operations: "The manual handoff between 'request received' and 'fulfillment started' is where most delays and errors live. Evaluate where connecting those two steps could eliminate the re-entry and routing that slows things down.",
+            pm: "Integration projects that connect customer-facing systems to internal workflows are deeply cross-functional. Start mapping the stakeholders and dependencies early \u2014 these rollouts touch more teams than they look like they will.",
+            admin: "If customer requests start flowing directly into automated workflows, the people who understand how those processes actually work become essential to making sure the automation handles exceptions correctly."
+          },
+          challenge: {
+            steps: [
+              "Pick one process where someone asks for something and that request triggers work by a different team \u2014 a service request, an IT ticket, an onboarding form, or a procurement approval.",
+              "Map the handoff: how does the request get from the person asking to the team fulfilling it? Note each step where information gets re-entered, forwarded, or converted from one format to another.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Here's a workflow where a request from [type of requester] triggers work by [type of team]: [describe the steps you mapped]. Where are the most likely points of delay, data loss, or miscommunication? For each one, what would it look like if the request flowed directly from intake to fulfillment without manual re-entry?\"</em>",
+              "Share the biggest friction point you found in the group \u2014 the handoff problems are usually similar across organizations, and the solutions are worth comparing."
+            ]
+          }
+        },
+        {
+          title: "Your CRM is getting AI agents of its own",
+          body: "Microsoft announced 30 new AI-powered capabilities across Dynamics 365 this week, including a <em>Sales Development Agent that autonomously researches prospects, drafts outreach, and manages follow-ups</em> \u2014 entering public preview in November. A separate Service Agent handles customer inquiries inside Microsoft 365. The pattern goes beyond one vendor: business software across CRM, ERP, and HR is gaining agents that act on their own, not just tools that assist when asked. AI fluency is shifting from 'learn a new tool' to 'understand what the tools you already use can now do without you.'",
+          slants: {
+            strategy: "AI arriving inside existing platforms changes the build-vs-buy calculation. Before investing in standalone AI tools, check what your current software vendors are shipping \u2014 the capability gap may be smaller than you think.",
+            leaders: "When AI agents show up inside the tools your team already uses, adoption happens by default. The leadership opportunity is shaping how your team works with those agents \u2014 setting expectations before the features just appear.",
+            operations: "Autonomous agents in your CRM and service desk mean routine tasks start happening without a person initiating them. Review your current workflows to identify which steps are about to run on their own \u2014 and which still need human judgment.",
+            pm: "Software updates that add autonomous agents change how the platform behaves, not just what it can do. Treat these updates like a process change, not just a feature release \u2014 they affect workflows, roles, and training needs.",
+            admin: "New AI features in the tools you use daily means the learning curve is shorter \u2014 you already know the platform. Your advantage is understanding the workflows these agents will try to automate, so you can spot when they get it wrong."
+          },
+          challenge: {
+            steps: [
+              "Pick one business application your team uses daily \u2014 your CRM, project management tool, HR system, or service desk.",
+              "Open the application's release notes or 'what's new' page and look for any recent AI or agent features that have been added in the last six months.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I use [name of application] for [what you use it for]. What AI or automation features has this platform added recently that I might not be using yet? For each one, tell me in one sentence what it does and whether it acts on its own or only when I ask it to.\"</em>",
+              "Share one feature you discovered in the group \u2014 most teams are sitting on capabilities their tools already have."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Sunday evening, quiet house. Let AI help you write a personal motto you'd actually live by.",
+        body: "Most personal mission statements sound like corporate posters because people try to write them from scratch. The trick is telling AI about your actual values, habits, and priorities \u2014 then letting it draft something, then pushing back until it sounds like you. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Here are three things I care about most in how I live my life: [list them \u2014 e.g., 'being honest even when it's awkward,' 'making time for the people who matter,' 'staying curious about things I don't understand']. Write me a personal motto in one sentence. Then argue against it \u2014 tell me what it leaves out or what it gets wrong. Then write a revised version that survives your own criticism.\"<br><br>That technique \u2014 <em>asking AI to draft, critique, and revise in one pass</em> \u2014 is iterative refinement. Instead of accepting the first output, you build the pushback into the prompt itself. Works for any writing where the first draft is never the right one: bios, emails, plans, or anything you want to feel true, not just polished."
+      }
+    },
   "2026-10-10": {
       intro: "Saturday briefing \u2014 Google builds one persistent AI agent that works across all your apps, new research confirms the skills AI can't replace are the ones gaining value, and Gartner creates its first market category for AI agents in HR.",
       trends: [
