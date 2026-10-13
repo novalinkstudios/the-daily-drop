@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-13": {
+      intro: "Three signals from the week that tell you where AI's value is actually landing \u2014 and one low-stakes thing to try tonight.",
+      trends: [
+        {
+          title: "The IMF confirmed: AI investment is holding up the global economy",
+          body: "The IMF's October World Economic Outlook, released today at its Annual Meetings in Bangkok, credits AI-related investment as a key force holding global growth at 3.1%. But chief economist Silvana Tenreyro warns <em>growth is concentrating in a small number of firms and sectors in the AI supply chain</em> \u2014 and if productivity gains don't materialize, the IMF estimates a 1.1% GDP shortfall by 2028.",
+          slants: {
+            strategy: "Your strategic plans likely assume AI will deliver productivity gains \u2014 now there's a number attached to what happens if they stall.",
+            leaders: "This is the business case for moving your team's AI initiatives from pilot to production \u2014 the cost of stalling is no longer abstract.",
+            operations: "If your AI projects are still in experiment mode, this data says the window for proving operational value is narrowing.",
+            pm: "Use this to sharpen your AI project business cases \u2014 leadership needs to see the cost of delay, not just the benefit of action.",
+            admin: "The productivity gains your organization is counting on include the work you do \u2014 your input on what actually saves time matters more than ever."
+          },
+          challenge: {
+            steps: [
+              "Think of one AI tool or workflow your team has been piloting or discussing but hasn't fully adopted yet.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"We've been piloting [describe the AI tool or workflow]. Help me write a one-paragraph business case that quantifies the cost of NOT adopting it \u2014 what are we losing each month in time, quality, or capacity?\"</em>",
+              "Review the output and adjust the numbers to reflect your team's reality.",
+              "Share the result in the group \u2014 what surprised you about the cost of delay?"
+            ]
+          }
+        },
+        {
+          title: "AI spending just crossed a milestone: running beats building for the first time",
+          body: "Gartner's latest infrastructure forecast shows a turning point: <em>enterprise spending on AI inference ($23.3 billion) has surpassed training ($19 billion) for the first time</em>, with 55% of AI infrastructure budgets now supporting production workloads. The shift signals that enterprises are moving from model-building to embedding AI into applications, business processes, and customer experiences \u2014 work that requires continuous operation, not periodic experiments.",
+          slants: {
+            strategy: "When the money moves from building to running, AI shifts from an R&D line item to an operating cost \u2014 plan your budgets accordingly.",
+            leaders: "Your team needs to shift from 'how to experiment with AI' to 'how to operate and maintain AI systems' \u2014 invest in that transition now.",
+            operations: "AI is becoming a system you run, not a project you watch \u2014 treat it with the same operational rigor as your other production infrastructure.",
+            pm: "AI deployments now need uptime targets, maintenance schedules, and performance monitoring \u2014 add them to your project plans.",
+            admin: "The tools you rely on daily are increasingly AI-powered underneath \u2014 knowing how to spot when they're not working right is a new and valuable skill."
+          },
+          challenge: {
+            steps: [
+              "List the AI-powered tools your team currently uses in daily work \u2014 not pilots, but production tools people depend on.",
+              "For each tool, write down who owns its performance: who notices when it's slow, inaccurate, or down?",
+              "If no one owns it, open your company-approved AI tool and try this prompt: <em>\"I manage a team that uses [name the AI tool] daily. Help me draft a lightweight ownership checklist: who monitors performance, how we escalate issues, and when we review whether it's still delivering value.\"</em>",
+              "Share your list in the group \u2014 you'll likely discover tools no one is formally watching."
+            ]
+          }
+        },
+        {
+          title: "The world's top economic institutions just put 'small AI' on the global agenda",
+          body: "The IMF-World Bank Annual Meetings, which opened this week in Bangkok, dedicated a marquee session to <em>\"Small AI: More and Better Jobs\"</em> \u2014 exploring how affordable, practical AI tools can improve productivity and create employment across economies. The signal from the world's largest economic institutions: the biggest AI opportunity isn't frontier models or massive infrastructure. It's targeted AI that makes existing work better.",
+          slants: {
+            strategy: "Targeted, smaller AI investments often deliver faster ROI than headline-grabbing platform bets \u2014 build your roadmap around them.",
+            leaders: "Encourage your teams to find the small, repeatable wins \u2014 the 30-minutes-saved-per-week kind \u2014 before chasing the big transformations.",
+            operations: "The best AI wins in ops are usually boring: automating a handoff, cleaning a data feed, summarizing a log. Start there.",
+            pm: "Build your AI roadmap around high-frequency tasks with clear before-and-after metrics, not moonshots that take a year to measure.",
+            admin: "You're the ideal audience for small AI \u2014 tools that handle the repetitive parts of your work so you can focus on the judgment calls only you can make."
+          },
+          challenge: {
+            steps: [
+              "Pick one task you do every week that's repetitive but important \u2014 formatting a report, summarizing meeting notes, sorting requests by priority.",
+              "Time yourself doing it once. Write down how long it takes.",
+              "Open your company-approved AI tool and hand it the task with a clear prompt: <em>\"Here's [describe the task and include a non-confidential example]. Complete this for me and format the output the way I'd normally deliver it.\"</em>",
+              "Compare the result to your usual output. Note what it got right, what it missed, and how long the whole process took.",
+              "Share your time comparison in the group \u2014 what was your 'small AI' win?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Fall break or holiday trip coming up? Let AI settle the 'where should we go' debate tonight.",
+        body: "Every trip starts with the same stalemate \u2014 too many options, everyone has a different priority. Tonight, hand the decision to AI and learn a prompting technique that works for any tough comparison. Use any free tool: ChatGPT, Claude, Gemini, or Perplexity.",
+        prompt: "\"I'm choosing between [Destination A] and [Destination B] for a [trip length] trip in [month]. My priorities in order: 1) [e.g., food scene], 2) [e.g., budget under $X/day], 3) [e.g., walkability]. Compare them head-to-head on each priority, score each destination 1\u20135, then give me a final recommendation with one thing I'd miss by not choosing the other.\"<br><br>The technique here: <em>giving AI ranked criteria and asking for a structured head-to-head</em>. It works for any decision \u2014 vacations, software tools, even which neighborhood to move to."
+      }
+    },
   "2026-10-12": {
       intro: "Monday briefing \u2014 the AI skills bar has already moved past basic prompting, SAP acquires a company that maps what your workforce actually does, and the largest industrial AI deal in history signals where investment is heading next.",
       trends: [
