@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-14": {
+      intro: "Three things from this week that change how you think about AI quality, AI agents, and AI doing business, plus one low-pressure thing to try at home tonight.",
+      trends: [
+        {
+          title: "The next AI productivity unlock is better review, not faster output",
+          body: "A survey of 300 senior engineering leaders found that <em>81% of organizations have had a production incident linked to AI-generated code</em> in the past six months. The speed is real, and AI tools do produce code faster, but 35% of that code reaches production before engineers have fully understood it. The opportunity: teams that build strong review processes now are turning AI speed into AI reliability.",
+          slants: {
+            strategy: "Every AI productivity business case needs a line item for quality. Speed gains that create incidents aren't gains.",
+            leaders: "If your team uses AI to produce any deliverable, ask one question: who reviews the AI-generated output before it ships? If no one has a clear answer, that's your first fix.",
+            operations: "Faster production helps most when quality keeps pace. The same pattern applies to any AI-generated output (reports, analysis, configurations), not just code.",
+            pm: "Add an explicit review gate for AI-generated deliverables in your project workflows. The time saved on creation disappears fast if quality slips downstream.",
+            admin: "This pattern applies beyond code. Any AI-generated output (reports, emails, summaries) benefits from a quick human review before it goes out the door. Your eye for what looks right is the quality gate."
+          },
+          challenge: {
+            steps: [
+              "Think of one type of work your team regularly produces with AI assistance, such as reports, analysis, presentations, communications, or documentation.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team uses AI to help produce [type of work]. Design a lightweight quality gate: a 3-step review checklist that catches the most common AI mistakes before the work reaches its audience. Make it fast enough to use every time, not just sometimes.\"</em>",
+              "Review the checklist and adjust it based on what your team actually misses most often.",
+              "Share your checklist in the group. The patterns across teams reveal where AI-generated work is most likely to slip through."
+            ]
+          }
+        },
+        {
+          title: "Google's new workplace agent keeps working after you close your laptop",
+          body: "Google launched a persistent Gemini agent that works across Workspace, Slack, and Microsoft 365 and <em>keeps running in the background for hours or days after you assign it a task</em>. It gets its own email address, calendar, and Drive storage. It can schedule meetings by checking attendees' availability, assemble slide decks from project files, and hand work to sub-agents. The shift: AI moves from answering questions in a chat window to running tasks autonomously in the background.",
+          slants: {
+            strategy: "The planning question shifts from 'what can AI do in one conversation?' to 'what can AI accomplish overnight while no one is watching?' That changes what's worth delegating.",
+            leaders: "Persistent agents working autonomously means your team needs clearer guardrails, not fewer people. Define what agents can do on their own and what still requires a human decision.",
+            operations: "When agents run for hours without supervision, you need monitoring. Treat autonomous AI workflows the way you'd treat any unattended process: logs, alerts, and a rollback plan.",
+            pm: "Tasks you'd normally assign to someone for a half-day (compiling data, drafting summaries across tools, scheduling across calendars) are becoming candidates for autonomous delegation.",
+            admin: "An AI agent with its own email and calendar is a new kind of team member to coordinate with. Understanding what it can schedule, draft, and file helps you stay ahead of the workflow."
+          },
+          challenge: {
+            steps: [
+              "Pick one recurring task that takes your team more than an hour and involves pulling information from multiple tools, such as compiling a weekly report, prepping meeting agendas, or gathering project updates across platforms.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I spend about [X hours] per week on [describe the task]. The information lives across [list the tools or sources]. Write me a step-by-step delegation brief, as if I were handing this to an assistant who works overnight and delivers a finished result by morning. Be specific about inputs, where to find them, and what the finished output should look like.\"</em>",
+              "Read the brief. If it's clear enough that someone unfamiliar with the task could follow it, the task is a strong candidate for automation.",
+              "Share your delegation brief in the group. The clearer you can describe a task, the closer it is to being fully automated."
+            ]
+          }
+        },
+        {
+          title: "AI agents just got a shared language for doing business on your behalf",
+          body: "Meta, Sierra, Walmart, Stripe, and Shopify announced the Personal Agent Protocol, <em>an open standard for how AI assistants identify themselves, authenticate, and interact with a business on your behalf</em>. The protocol gives businesses a way to recognize AI agents, set permission levels, and define what actions agents can take. The v0.1 spec drops later this month.",
+          slants: {
+            strategy: "Organizations that design their customer-facing systems for AI agents as users, not just people, are getting ahead of a shift that's already underway.",
+            leaders: "Start the conversation now: when a customer's AI agent contacts your business, who handles it? The answer shapes your service design and how you staff for the future.",
+            operations: "Your customer-facing workflows will soon need to handle agent-initiated requests alongside human ones. Audit your intake processes for how they'd respond to a non-human visitor.",
+            pm: "Add 'AI agent as user' to your product and service requirements. Authentication, session management, and permission scoping all need design decisions you haven't made yet.",
+            admin: "You may soon receive requests from AI agents acting on behalf of customers or partners. Understanding how these agents authenticate and what they can ask for helps you respond effectively."
+          },
+          challenge: {
+            steps: [
+              "Think about one customer-facing process your organization runs, such as placing an order, scheduling a service, requesting information, or filing a support ticket.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Imagine a customer's AI assistant contacts our [describe the process] to complete a request on the customer's behalf, without a human on the other end. Walk me through what would need to adapt: authentication, form entry, identity verification, payment, or handoff to a human. List the top 3 areas to prepare.\"</em>",
+              "Review the output and identify which friction point your team could realistically address first.",
+              "Share your top finding in the group. The patterns reveal where organizations have the biggest opportunity to get ready for AI-to-business interactions."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Wednesday night, October chill settling in. Let AI play home maintenance expert before winter sneaks up on you.",
+        body: "Most people wait until the first freeze to think about winterizing. Tonight, get ahead of it with a checklist built for your actual home, not a generic one. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Act as an experienced home maintenance expert. I live in [your region or climate, e.g., 'the mid-Atlantic' or 'the Pacific Northwest'] in a [type of home: apartment, townhouse, house, condo]. It's mid-October. Give me a prioritized seasonal prep checklist, ranked by urgency and how much damage I'd prevent by doing each item now versus waiting until December. For each item, tell me the estimated time and whether I can do it myself or need a professional.\"<br><br>The technique here: <em>asking AI to act as a specific expert and prioritize by consequence, not just by category</em>. It works for any planning task (health decisions, financial moves, career steps) where what you do first matters more than doing everything at once."
+      }
+    },
   "2026-10-13": {
       intro: "Three signals from the week that tell you where AI's value is actually landing \u2014 and one low-stakes thing to try tonight.",
       trends: [
