@@ -980,6 +980,76 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-15": {
+      intro: "Thursday check-in: three signals about the gap between AI spending and AI value, plus one low-pressure thing to try at home tonight.",
+      trends: [
+        {
+          title: "Organizations that measure AI value now are building the strongest case for investment",
+          body: "Gartner's latest analysis estimates that <em>over $3.5 trillion in AI infrastructure spending could be exposed to impairment by the end of 2030</em> if the revenue those investments are meant to generate doesn't materialize. Infrastructure remains the largest line item in global AI budgets, and the pace keeps accelerating. The message isn't to stop spending. It's that organizations connecting investment to measured outcomes are the ones whose spending holds up.",
+          slants: {
+            strategy: "Every AI initiative on your roadmap should have a clear line from investment to measured value, not just projected value.",
+            leaders: "Ask your teams what their AI tools are delivering today, in specific terms. The habit of measuring early separates sustainable AI programs from ones that get cut in the next budget cycle.",
+            operations: "Operational AI that reduces cycle time, error rates, or manual steps produces the clearest ROI evidence. If you're running those gains, start documenting them now.",
+            pm: "Add 'how will we measure this?' to every AI-related project plan. The projects with clear metrics survive budget reviews; the ones without don't.",
+            admin: "When you save time with AI (faster document prep, smoother scheduling, cleaner communications) keep a note. Those specific examples are the evidence that proves AI's value in your role."
+          },
+          challenge: {
+            steps: [
+              "Pick one AI-assisted task you do regularly: drafting, research, scheduling, analysis, or data entry.",
+              "The next time you do this task, time yourself: how long with AI versus your best estimate for how long without it.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I used AI to [describe the task] and saved approximately [time saved]. Help me write a two-sentence value statement that describes this in terms a budget reviewer would care about: time saved per week, quality improvement, or capacity freed up.\"</em>",
+              "Save that statement somewhere you can find it. One specific example is more persuasive than any general claim about AI productivity.",
+              "Share your value statement in the group. The patterns across roles show where AI is delivering the most measurable impact."
+            ]
+          }
+        },
+        {
+          title: "The teams where AI is working best have one thing in common: engaged managers",
+          body: "Jabra's WorkLife 2026 report surveyed 6,000 knowledge workers and found a paradox: <em>85% are doing more work than a year ago, even with AI saving them time</em>. The time comes back, but the workload grows to fill it. The bright spot: about 15% of workers, those with the right tools, guidance, and support, are 1.75x more optimistic about their careers. The clearest differentiator? <em>People whose managers actively guide them on AI are 4x more likely to feel optimistic about their career.</em>",
+          slants: {
+            strategy: "AI time savings without deliberate reallocation just produce more busywork. Plan for what people do with the time they get back.",
+            leaders: "Your direct involvement matters most. Spending 15 minutes showing your team how you use AI teaches more than any training course because it gives them permission to try.",
+            operations: "If your team's workload grew despite AI tools, audit what expanded. The time AI freed up probably got absorbed by reporting, meetings, or process overhead, and those are fixable.",
+            pm: "Track where AI saves time in your project workflows, then protect that time from being filled by new tasks. Saved time that becomes more meetings isn't a productivity gain.",
+            admin: "If AI is saving you 30 minutes a day but your task list keeps growing, the problem isn't the tool. It's that no one decided what you should stop doing. That conversation is worth starting."
+          },
+          challenge: {
+            steps: [
+              "Think about one task where AI has saved you time in the past month: drafting, summarizing, researching, or formatting.",
+              "Write down what you did with that saved time. Be honest: did you use it for something valuable, or did more work fill the gap?",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I save about [X minutes] per week using AI for [describe the task]. But my overall workload hasn't decreased. Help me identify what's expanding to fill the gap, what kinds of work tend to grow when teams get faster. Then suggest one thing I could stop or reduce to actually keep the time I'm saving.\"</em>",
+              "Read the response and pick one specific thing you could stop doing or delegate this week.",
+              "Share your one 'stop doing' item in the group. The answers are almost always things everyone else is doing too."
+            ]
+          }
+        },
+        {
+          title: "Half of CEOs already see AI driving real productivity gains",
+          body: "EY's October CEO Outlook surveyed 1,200 CEOs across 21 countries. <em>Half named AI as their biggest driver of material productivity gains</em> over the past 12 months. But only 16% have real-time visibility into AI ROI, and 23% say the gains get absorbed by operational complexity before reaching the bottom line. Separately, <em>72% expect skills shortages to become a bigger barrier to growth than access to capital</em>. The productivity is real, and the measurement and the talent pipeline are catching up fast.",
+          slants: {
+            strategy: "If your leadership says AI is working but can't show where, build the measurement layer before the next budget review asks for proof.",
+            leaders: "Your team probably knows where AI is helping and where it isn't. Create a simple way for them to tell you: a monthly check-in, a shared doc, or one standing question in your next one-on-one.",
+            operations: "The 23% of gains lost to operational complexity is an ops problem, not an AI problem. Simplify the processes around AI before adding more AI to them.",
+            pm: "Build AI performance metrics into your project dashboards the same way you track timeline and budget. If the AI component doesn't have a success metric, it stays a pilot forever.",
+            admin: "Your close-up view of how work actually flows gives you a perspective on where AI is helping and where it's adding friction. That perspective is exactly what leadership needs to hear."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool your team or organization invested in during the past year.",
+              "Write down two things: what it was supposed to improve, and whether anyone is currently tracking that improvement.",
+              "If no one is tracking it, open your company-approved AI tool and paste this prompt: <em>\"My organization adopted [name the AI tool] to improve [describe the goal]. No one is currently measuring whether it's working. Design a 3-metric dashboard I could build in a spreadsheet to track its impact over 90 days. Make the metrics specific, measurable, and something I can collect without special tools.\"</em>",
+              "Build the dashboard and fill in the first data point this week.",
+              "Share your dashboard idea in the group. The measurement gaps are usually similar across organizations, and so are the solutions."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Thursday night, brain still buzzing. Pick one topic you've always been curious about and finally understand it.",
+        body: "The best way to learn something new with AI is to ask for it at three depths: kid-level, grown-up level, and expert level. You'll be surprised how much clicks into place when you hear the same idea explained three different ways. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I want to understand [topic you're curious about, like how the stock market actually works, why we dream, how batteries store energy, how a court case moves through the system, anything]. Explain it to me at three levels: first, how you'd explain it to a curious 10-year-old. Second, how you'd explain it to a smart adult who's never studied it. Third, the one nuance or debate that experts actually argue about. Keep each level to 3-4 sentences.\"<br><br>The technique: <em>progressive depth</em>. Instead of getting one generic explanation, you're asking AI to layer understanding from intuition to nuance. It works for any topic (financial concepts, medical results, legal processes, technical systems) and it's the fastest way to go from 'I've heard of this' to 'I actually get it.'"
+      }
+    },
   "2026-10-14": {
       intro: "Three things from this week that change how you think about AI quality, AI agents, and AI doing business, plus one low-pressure thing to try at home tonight.",
       trends: [
