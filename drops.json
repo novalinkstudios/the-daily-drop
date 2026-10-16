@@ -8872,5 +8872,77 @@
       "body": "The best way to learn something new with AI is to ask for it at three depths: kid-level, grown-up level, and expert level. You'll be surprised how much clicks into place when you hear the same idea explained three different ways. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to understand [topic you're curious about, like how the stock market actually works, why we dream, how batteries store energy, how a court case moves through the system, anything]. Explain it to me at three levels: first, how you'd explain it to a curious 10-year-old. Second, how you'd explain it to a smart adult who's never studied it. Third, the one nuance or debate that experts actually argue about. Keep each level to 3-4 sentences.\"<br><br>The technique: <em>progressive depth</em>. Instead of getting one generic explanation, you're asking AI to layer understanding from intuition to nuance. It works for any topic (financial concepts, medical results, legal processes, technical systems) and it's the fastest way to go from 'I've heard of this' to 'I actually get it.'"
     }
+  },
+  "2026-10-16": {
+    "intro": "Friday wrap-up — three signals about the gap between what leaders assume about AI readiness and what's actually happening on the ground, plus something fun to try at home tonight.",
+    "trends": [
+      {
+        "title": "The AI training gap has a number — and it points to a fix",
+        "source_url": "https://knowledge.wharton.upenn.edu/special-report/2026-ai-adoption-report/",
+        "body": "Wharton's fourth annual AI Adoption Report surveyed 1,416 U.S. respondents — and for the first time, included entry- and mid-level employees alongside leaders. The gap: <em>78% of leaders believe employees receive adequate AI training, while only 56% of employees agree</em>. The ROI picture follows the same pattern. 80% of leaders report positive returns from AI, but only 28% call them strong. The clearest fix: organizations that measure AI against growth outcomes — revenue impact, quality gains, capacity created — are <em>nearly three times more likely to report strong ROI</em> than those tracking efficiency alone.",
+        "slants": {
+          "strategy": "If your AI metrics only track time saved, you're measuring the floor. Growth-oriented metrics — revenue impact, quality improvement, new capacity — predict strong ROI nearly three times better.",
+          "leaders": "Ask your team directly: do you feel equipped to use AI well? The 22-point gap between what leaders believe and what employees experience starts closing with one honest conversation.",
+          "operations": "When leadership assumes training is adequate and the front line disagrees, the gap usually shows up in process quality. Check with the people running AI-assisted workflows — their feedback is your early warning system.",
+          "pm": "Build a feedback loop between AI tool rollout and user experience. A project that launches an AI tool without checking whether people feel prepared to use it is leaving value on the table.",
+          "admin": "If your AI training felt generic or unhelpful, you're in the majority. The most useful step: tell your manager specifically what would help — 'show me how to use this for the work I actually do' beats another all-hands webinar."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI training or guidance you've received at work in the past six months. Rate it honestly: did it help you do your actual job better?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work as a [your role]. The AI training I've received so far has been [describe it honestly — generic, helpful, nonexistent, etc.]. Design a 30-minute self-directed learning plan that would actually help me use AI in my specific work. Focus on one high-value task I do regularly, not general concepts.\"</em>",
+            "Try the first step of the plan this week.",
+            "Share what you learned in the group — what did you wish someone had shown you months ago?"
+          ]
+        }
+      },
+      {
+        "title": "Your team's AI skills are further along than your org chart shows",
+        "source_url": "https://www.oysterhr.com/library/new-oyster-research-ai-is-changing-the-workforce-faster-than-jobs-can-keep-up",
+        "body": "Oyster's 2026 Global AI Talent Report analyzed 15,000 job descriptions and surveyed over 1,000 HR leaders. The headline finding: <em>95% of companies have employees doing AI work their jobs never asked for</em>. Meanwhile, AI skill requirements in job postings tripled from 5% in 2022 to 15% in the first half of 2026 — but that still leaves most roles formally silent on AI even as the people in them use it daily. The talent is already there. The org chart just hasn't noticed.",
+        "slants": {
+          "strategy": "If your workforce is adopting AI informally, you already have adoption. What you're missing is visibility — and visibility is what lets you scale what works and catch what doesn't.",
+          "leaders": "The fastest way to discover your team's real AI capabilities: ask them. A 10-minute conversation about what tools they use and what they've figured out reveals more than any formal skills audit.",
+          "operations": "Informal AI adoption means undocumented workflows. If a key team member leaves and their AI-powered process goes with them, you lose the efficiency and the knowledge. Start capturing what people have built.",
+          "pm": "When scoping a new project, ask the team what AI tools they already use for similar work. You may find your team has more capability than the project plan assumes.",
+          "admin": "If you've built AI shortcuts or workflows that save you time, document them — even informally. That knowledge makes you more valuable and helps the next person in your role hit the ground running."
+        },
+        "challenge": {
+          "steps": [
+            "Take five minutes and list every AI tool or feature you've used at work in the past month — not just the official ones, but any AI capability in any tool (autocomplete, smart search, AI-generated summaries, chatbots).",
+            "Next to each, note whether it's part of your official job description or something you figured out on your own.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here are the AI tools and features I use at work: [list them]. Help me write a one-paragraph AI skills snapshot that describes what I can actually do with AI — written for a manager or HR person who needs to understand my real capabilities, not just my job title.\"</em>",
+            "Save that snapshot for your next performance review or development conversation.",
+            "Share your list in the group — the pattern of informal AI adoption across roles is usually bigger than anyone expects."
+          ]
+        }
+      },
+      {
+        "title": "The organizations getting the most from AI are redesigning work one task at a time",
+        "source_url": "https://newsroom.workday.com/2026-10-13-Workday-Introduces-Work-Intelligence-to-Help-Customers-Design-Work-for-AI",
+        "body": "Workday launched Work Intelligence at its annual conference, a tool that <em>breaks every job into its component tasks, maps the skills each task requires, and tracks which tasks AI is changing in real time</em>. The premise: org charts and job titles don't reveal where AI fits. Tasks do. Built on an ontology of more than 75,000 skills across 3,450 customers, it shows leaders which parts of a role are being augmented, which are being automated, and which are staying human — a level of specificity that job-level planning can't match.",
+        "slants": {
+          "strategy": "Strategy built on 'AI will change roles' is too vague to act on. Strategy built on 'AI is handling these four tasks in this role' gives you a plan you can resource and measure.",
+          "leaders": "Start the conversation with your team around tasks, not titles. 'Which parts of your day could AI handle?' gets better answers — and less anxiety — than 'how will AI affect your job?'",
+          "operations": "Operational efficiency gains come from knowing which specific steps in a process are candidates for AI. A task-level view beats a role-level assumption every time.",
+          "pm": "When AI changes a few tasks inside a role, the rest of the role shifts too. Project staffing models that account for task-level changes produce more realistic timelines and resource plans.",
+          "admin": "You know better than anyone which parts of your day are repetitive and which require judgment. That distinction is exactly what task-level planning tries to capture — and your perspective makes it more accurate."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task you do every week that takes more than 30 minutes — a report, a review, a data pull, a coordination effort.",
+            "Break that single task into its substeps. Write each step on a separate line — aim for 4 to 6 substeps.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here are the substeps of a task I do weekly: [paste your list]. For each substep, tell me: could AI fully handle this, partially assist, or does this require human judgment? For any 'partially assist' substep, describe exactly what AI would do and what I should still do myself to keep the quality high.\"</em>",
+            "Look at the breakdown and identify one substep where AI assistance would save the most time without sacrificing quality.",
+            "Share your one-task breakdown in the group — the detail reveals opportunities that job-level thinking misses."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Friday night, nothing planned — let AI play bartender and surprise you with something new.",
+      "body": "No recipe books, no Pinterest scrolling. Just tell AI what you actually have on hand and let it build a drink around your real ingredients — cocktails or mocktails, your call. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to make a drink tonight. Here's what I have: [list whatever bottles, mixers, fruits, herbs, or sodas you actually have — no shopping trip allowed]. Make me three options ranked by how impressive they'll taste. For each one, tell me the one small thing I could do to elevate it from good to great. If I'm missing a common ingredient, suggest a swap from what I already listed.\"<br><br>The technique here: <em>constraint-based creativity</em>. Instead of asking AI to suggest anything from anywhere, you give it your real boundaries and ask it to optimize within them. The tighter the constraint, the more creative and practical the output. Works just as well for meal planning, budgeting, or scheduling — any time you need the best answer from what you actually have, not what you wish you had."
+    }
   }
 }
