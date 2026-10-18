@@ -9016,5 +9016,75 @@
       "body": "Here's a fun one: you write the opening of a story, AI continues it, then you take it somewhere unexpected. Back and forth, three rounds each, and see where you end up. The trick is steering AI's output by how you respond to it — not by planning ahead. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"We're going to write a short story together, taking turns. I'll write 2-3 sentences, then you continue with 2-3 sentences, and we'll go back and forth for three rounds each. Here's the rule: each turn has to build on what just happened — no ignoring the other person's twist. I'll start. [Write your opening — set a scene, introduce a character, create a small tension. Example: 'The elevator stopped between floors. The man in the gray coat looked at his watch, then at the ceiling, then at me. He said, I was hoping it would be you.']\"<br><br>That technique — <em>turn-based co-creation, where you steer by responding rather than by instructing</em> — teaches you something valuable about working with AI: the best results come from reacting to what AI gives you, not just telling it what to do. Instead of one big prompt, you shape the output through a conversation. Works for brainstorming, planning, writing, or any creative task where the best ideas come from building on surprises."
     }
+  },
+  "2026-10-18": {
+    "intro": "Sunday briefing — three signals that the era of ungoverned AI is ending, plus a fun one for tonight.",
+    "trends": [
+      {
+        "title": "AI agents are getting ID badges — and that’s exactly the right direction",
+        "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx",
+        "body": "ServiceNow launched AI Passport this week — <em>a cryptographically signed credential that defines an AI agent’s identity, permitted actions, accessible systems, and accountable owner</em>. Unlike audit logs that review what happened after the fact, AI Passport checks at runtime, before the agent acts. If an agent strays outside its scope, the system can redirect, restrict, or shut it down. NVIDIA is a launch partner. The signal: governance is becoming something you build into AI infrastructure, not something you bolt on later.",
+        "slants": {
+          "strategy": "If your AI roadmap doesn’t include an agent governance framework, it’s incomplete. The organizations building identity and permission layers now will scale AI faster — because they can trust what they’ve deployed.",
+          "leaders": "Set the expectation now: every AI agent in your organization should have a defined scope, an owner, and a clear boundary. That’s not bureaucracy — it’s how you build confidence to do more with AI.",
+          "operations": "Think of AI Passport the way you think about service accounts in your infrastructure — identity, permissions, and audit trails. If your AI agents don’t have that structure today, start mapping it.",
+          "pm": "Add agent governance to your project risk register the same way you add data security and access controls. The earlier you define what an AI agent can and can’t do, the fewer surprises in production.",
+          "admin": "You already manage access, permissions, and exceptions for people and systems. AI agents are joining that list — and your understanding of how access controls actually work day to day makes you essential to getting it right."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or feature your team uses regularly — a chatbot, an automation, an AI assistant built into your workflow software.",
+            "Ask yourself three questions: Who owns it? What can it access? What happens if it makes a mistake? Write down your honest answers.",
+            "If any answer is ‘I don’t know,’ open your company-approved AI tool and paste this prompt: <em>\"I manage a team that uses [describe the AI tool]. Help me create a one-page AI agent profile: who owns it, what data it can access, what actions it can take on its own, and who to contact if something goes wrong. Keep it simple enough to pin on a shared team page.\"</em>",
+            "Share your agent profile template in the group — the gaps people find are usually the same ones across organizations."
+          ]
+        }
+      },
+      {
+        "title": "Enterprise AI just graduated from experiment mode to risk mode",
+        "source_url": "https://darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+        "body": "CompTIA’s latest research finds that <em>six in ten organizations are now moving from experimentation toward enterprise-wide AI implementation</em> — and the conversation has shifted with them. The biggest concern is no longer adoption speed. It’s execution risk: governance, cybersecurity, and workforce readiness. Among surveyed companies, <em>98% say risk management is important to their AI strategy</em>, and 48% identify cybersecurity as a key focus of their AI spending. The experiment phase is over. The operations phase has started.",
+        "slants": {
+          "strategy": "Your AI roadmap needs a risk management chapter that sits alongside — not behind — your adoption plan. The organizations treating risk as a parallel workstream are the ones moving fastest into production.",
+          "leaders": "Shift the team conversation from ‘explore AI’ to ‘use AI responsibly and measure what happens.’ That framing gives people both permission and guardrails.",
+          "operations": "Apply the same rigor to AI that you apply to any production system: uptime expectations, incident response plans, and regular reviews of what’s working and what isn’t.",
+          "pm": "Add a risk review milestone to every AI-related project. The projects that surface risks early keep their timelines; the ones that discover risks in production don’t.",
+          "admin": "Your instinct for noticing when a process breaks or a tool behaves unexpectedly is a risk management skill. As AI becomes part of daily operations, that instinct becomes more valuable, not less."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool your team uses in its daily workflow — not a pilot, but something people depend on.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team relies on [name the AI tool] for [describe how you use it]. Create a lightweight risk checklist for this tool: three things that could go wrong, how we’d know it happened, and what we’d do about it. Keep it practical — something a team lead could review in five minutes.\"</em>",
+            "Review the checklist and adjust it based on what you actually worry about. One honest risk you add from experience is worth more than three generic ones.",
+            "Share your checklist in the group — the risk patterns across teams reveal where organizations need the most attention."
+          ]
+        }
+      },
+      {
+        "title": "Your next AI teammate will have its own email address",
+        "source_url": "https://learn.microsoft.com/microsoft-agent-365/builder/identity",
+        "body": "Microsoft’s Copilot Studio now lets organizations give AI agents <em>their own Microsoft Entra identity, mailbox, and Teams presence</em> — the same infrastructure real employees use. The agent shows up in your directory, receives and sends email, and joins meetings. Admins control what it can access, and it can’t read confidential-labeled documents or reach outside the tenant. The shift is worth noticing: AI is moving from a tool inside your apps to a named entity in your organizational directory. That changes how work gets delegated, tracked, and governed.",
+        "slants": {
+          "strategy": "When AI agents become visible entities in your org directory, workforce planning needs to account for them. Start thinking about agent capacity the way you think about headcount — with defined roles, boundaries, and oversight.",
+          "leaders": "An AI agent with its own email and calendar is a new kind of delegation. Define what it handles, what it escalates, and who reviews its work — the same way you’d onboard any new team member.",
+          "operations": "Agents in your directory means agents in your workflows. Review how your processes handle requests from non-human entities: routing rules, approval chains, and escalation paths all need to account for AI participants.",
+          "pm": "When an AI agent can receive tasks via email and join meetings, your project communication plans need to include how the agent fits. Define its role in the project the way you’d define any contributor’s.",
+          "admin": "You manage calendars, coordinate across teams, and route requests to the right people. When AI agents join that ecosystem with their own email and presence, your coordination skills become the bridge between human and AI workflows."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one recurring task that currently gets handed off between people via email — a weekly update request, a scheduling coordination, or a document routing workflow.",
+            "Imagine that task had a dedicated AI agent with its own email address, handling the routine parts. Write down what it would do and what a human would still need to review.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"A recurring task on my team involves [describe the task and the email/communication flow]. If an AI agent had its own email address and could handle the routine parts, write a short ‘agent job description’: what it sends, what it receives, what it does on its own, and what it flags for a human. Keep it to one paragraph.\"</em>",
+            "Share your agent job description in the group — the tasks people choose reveal where email-based coordination wastes the most time."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Sunday evening, October dark — write a letter to yourself one year from now.",
+      "body": "A time capsule is more fun when you don’t just list predictions — you capture who you actually are right now, so future-you can see how much changed. The trick: ask AI to interview you first, then assemble the letter. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"Write me a time capsule letter dated October 18, 2027 — exactly one year from today. Write it as if future-me is writing back to present-me. Here’s what’s true about my life right now: [describe 3–4 things — your job, a goal you’re working toward, something you’re worried about, and one small thing making you happy]. Based on those details, have future-me reflect on what changed, what I was right to worry about (and what I wasn’t), and one thing I’ll be glad I didn’t give up on. Keep the tone warm and specific — no generic inspiration. End with one line of advice from future-me to present-me.\"<br><br>That technique — <em>temporal framing, where you ask AI to write from a specific point in time</em> — produces surprisingly personal output because it forces the model to project your details forward rather than giving generic advice. The more specific your starting details, the more useful the letter. It works for goal-setting, decision-making, career planning, or any moment where you want to zoom out and see the bigger arc."
+    }
   }
 }
