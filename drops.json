@@ -9086,5 +9086,77 @@
       "body": "A time capsule is more fun when you don’t just list predictions — you capture who you actually are right now, so future-you can see how much changed. The trick: ask AI to interview you first, then assemble the letter. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"Write me a time capsule letter dated October 18, 2027 — exactly one year from today. Write it as if future-me is writing back to present-me. Here’s what’s true about my life right now: [describe 3–4 things — your job, a goal you’re working toward, something you’re worried about, and one small thing making you happy]. Based on those details, have future-me reflect on what changed, what I was right to worry about (and what I wasn’t), and one thing I’ll be glad I didn’t give up on. Keep the tone warm and specific — no generic inspiration. End with one line of advice from future-me to present-me.\"<br><br>That technique — <em>temporal framing, where you ask AI to write from a specific point in time</em> — produces surprisingly personal output because it forces the model to project your details forward rather than giving generic advice. The more specific your starting details, the more useful the letter. It works for goal-setting, decision-making, career planning, or any moment where you want to zoom out and see the bigger arc."
     }
+  },
+  "2026-10-19": {
+    "intro": "Today: the gap between building AI tools and actually shipping them, why widespread adoption hasn't meant connected workflows, and the moment cost became the central AI question. Plus one for home.",
+    "trends": [
+      {
+        "title": "Your team can build AI tools now, but shipping them is the real skill",
+        "source_url": "https://hbr.org/2026/10/turn-vibe-coded-prototypes-into-tools-your-company-can-actually-use",
+        "body": "HBR reports on what's being called the <em>deployment gap</em>: nearly one in three executives in McKinsey's 2026 AI survey said their organization decided against buying at least one software product because internal teams could build it with AI coding tools. The catch: a working prototype is not a production-ready tool. Reliability, security, maintenance, and governance are what separate a demo from something your team can depend on. The organizations closing that gap are the ones treating deployment as a discipline, not an afterthought.",
+        "slants": {
+          "strategy": "The ability to prototype with AI is now table stakes. The strategic advantage comes from having the governance, testing, and operational processes to actually ship and maintain what your teams build.",
+          "leaders": "Encourage experimentation, and invest equally in the infrastructure that turns experiments into dependable tools. A team that builds fast but can't deploy reliably will burn out and lose trust.",
+          "operations": "Every AI prototype that reaches production without proper testing, monitoring, and rollback plans becomes your problem. Build the deployment checklist now, before the backlog grows.",
+          "pm": "Add a deployment-readiness review to any project that involves AI-built tools. The prototype demo is not the finish line. Production stability is.",
+          "admin": "When teams build AI tools quickly, you're often the first to notice what breaks in the real workflow. That feedback loop, from daily use back to the builders, is what turns a prototype into something that actually works."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one task on your team that someone has automated or semi-automated with AI, like a report generator, a chatbot, a document drafter, or a workflow shortcut.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team built a quick AI tool that [describe what it does]. Help me create a five-question deployment readiness checklist: Does it handle errors gracefully? Is there a human review step? Is the data it accesses properly scoped? Who maintains it? What happens if it goes down? Format it as a simple checklist I can share.\"</em>",
+            "Review the checklist and adjust based on what you know about how the tool actually gets used day to day.",
+            "Share your checklist in the group. The readiness gaps people find tend to be the same ones every team discovers too late."
+          ]
+        }
+      },
+      {
+        "title": "Two-thirds of companies use AI, but almost none have connected the pieces",
+        "source_url": "https://www.channelinsider.com/ai/pipefy-ai-adoption-workflow-orchestration/",
+        "body": "A Pipefy survey of U.S. companies finds that <em>67% now use AI in at least some processes, but just 6.6% have orchestrated their AI workflows end to end</em>. That tracks with a separate WSJ Intelligence study of 801 C-suite executives, which found the average enterprise now runs 183 AI tools, and 85% lack the systems to connect them. The bottleneck isn't adoption anymore. It's integration: making the tools talk to each other and feed into a coherent workflow rather than sitting in silos.",
+        "slants": {
+          "strategy": "If your AI strategy focuses on adding more tools without a plan to connect them, you're compounding the problem. The next phase of strategic value comes from orchestration: linking tools into workflows that produce compounding results.",
+          "leaders": "Ask your team leads a simple question: which AI tools do your people actually use, and do any of them talk to each other? The answer will tell you more about your AI maturity than any adoption dashboard.",
+          "operations": "You already know what happens when systems don't integrate: manual handoffs, duplicated work, and data that lives in three places. AI tools are creating the same pattern. Mapping the connections is the first step to fixing it.",
+          "pm": "When scoping an AI project, map not just the tool but the upstream and downstream systems it needs to connect to. A brilliant AI tool that requires manual copy-paste between systems will lose its value fast.",
+          "admin": "You see the full picture of how information flows across teams and tools, and where it breaks. That perspective is exactly what's needed to identify where AI tools are creating new handoff gaps instead of closing old ones."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one workflow you're involved in that uses an AI tool at some point: drafting, summarizing, scheduling, analyzing, or routing information.",
+            "Map the full flow on paper or in a note: where does the information start, which tools touch it, and where does the output end up?",
+            "Circle every point where a human has to manually move information from one tool to another. Those are your integration gaps.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here's a workflow my team uses: [describe the flow and the manual handoff points you circled]. Suggest one practical way to reduce the manual steps, using integrations, automations, or tool features we might already have access to. Keep it realistic for a team that doesn't have engineering resources.\"</em>",
+            "Share your workflow map and the AI's suggestion in the group. The patterns across teams reveal where organizations waste the most effort."
+          ]
+        }
+      },
+      {
+        "title": "The AI question for CIOs just flipped: from 'can we build?' to 'what does it cost?'",
+        "source_url": "https://www.gartner.com/en/articles/hype-cycle-for-artificial-intelligence",
+        "body": "Gartner's 2026 AI Hype Cycle makes the shift official: <em>the defining enterprise question has moved from whether you can build with AI to whether you can account for what it's doing and what it costs</em>. With the Gartner IT Symposium opening this week to 7,000-plus CIOs, the opening keynote is titled \"Shaping an Effective Enterprise AI Economy,\" a clear sign that AI governance and cost management have moved to the center of the CIO agenda. For every team using AI, the follow-up question is no longer 'is it useful?' but 'is it worth what we're spending?'",
+        "slants": {
+          "strategy": "Build AI cost visibility into your planning process now. The organizations that can tie AI spending to specific outcomes will make sharper investment decisions, and have a stronger case when budgets tighten.",
+          "leaders": "Start asking your teams to track not just what AI helps them accomplish, but what it costs: in tokens, in licenses, in the time spent reviewing AI output. That visibility is how you make the case for scaling what works.",
+          "operations": "You already track cost-per-process for the systems you manage. Extend that discipline to AI tools: what's the token spend, the license cost, and the human review overhead? The data will show which AI investments are paying off.",
+          "pm": "Include AI costs (tool licenses, API usage, review time) as a line item in your project budgets. When AI spending is visible, it's manageable. When it's hidden, it becomes the surprise at quarterly review.",
+          "admin": "You manage budgets, track expenses, and spot when costs creep up. Those same skills apply to AI spending, and as organizations start treating AI as a cost center, the people who can track and report on it become essential."
+        },
+        "challenge": {
+          "steps": [
+            "List the AI tools your team uses regularly: paid subscriptions, enterprise licenses, built-in features, or API-based tools.",
+            "For each one, estimate the monthly cost (or note if you don't know, that's useful data too).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses these AI tools: [list them with estimated monthly costs]. Help me build a simple AI cost tracker: a table with columns for tool name, monthly cost, primary use case, and a rough estimate of hours saved per month. Include a row for 'total' and a note about which tools overlap in function.\"</em>",
+            "Review the tracker for any tools that overlap or that cost more than the time they save.",
+            "Share your AI cost tracker template in the group. Most teams discover they're paying for overlap they didn't know about."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Monday evening, fresh start energy. Let AI help you find the subscriptions quietly draining your wallet.",
+      "body": "We all have subscriptions we forgot about or services we barely use. The trick is getting AI to think like an auditor: systematic, thorough, and judgment-free. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to audit my personal subscriptions and recurring charges. Here are the ones I can remember: [list what you know: streaming, apps, memberships, software, boxes, gym, etc.]. First, ask me five questions to help me remember ones I might be forgetting. Then organize everything into a table with columns for: service name, monthly cost, how often I actually use it, and a recommendation (keep, downgrade, or cancel). Rank the 'cancel' suggestions by how much I'd save per year.\"<br><br>That technique, <em>asking AI to interview you before it organizes</em>, catches things you'd miss on your own because you're prompting the model to probe your blind spots rather than just working with what you hand it."
+    }
   }
 }
