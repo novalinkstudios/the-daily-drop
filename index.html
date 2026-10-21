@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-21": {
+      intro: "Wednesday's three: why AI is about to get much better with numbers than words, what happens when software is built to throw away, and the judgment problem most organizations haven't noticed yet.",
+      trends: [
+        {
+          title: "AI is moving past text: quantitative models are the next strategic frontier",
+          body: "Gartner unveiled its Top 10 Strategic Technology Trends for 2027 at the IT Symposium in Orlando yesterday, and the top trend isn't another chatbot or writing assistant. It's <em>Large Quantitative Models</em>, AI architectures built specifically for numbers: financial forecasts, demand planning, operational simulations. Gartner predicts <em>LQMs will replace LLMs in 25% of strategic forecasting and operational modeling by 2030</em>. The next wave of AI value won't come from writing faster. It'll come from thinking quantitatively.",
+          slants: {
+            strategy: "Your AI roadmap probably centers on content and communication tools. The organizations pulling ahead next will be the ones applying AI to forecasting, modeling, and quantitative decision-making.",
+            leaders: "Start asking your analysts and planners what they'd do with AI that understands numbers the way current tools understand text. The answer shapes where your next AI investment goes.",
+            operations: "Demand forecasting, capacity modeling, and resource optimization are about to get a purpose-built AI layer. If those decisions still run on spreadsheets and intuition, this is the upgrade worth watching.",
+            pm: "Project forecasting (timeline estimates, resource needs, risk probabilities) is exactly the kind of quantitative work these models are built for. The PMs who understand their data will get the most from them.",
+            admin: "Budget tracking, expense analysis, and financial reporting are quantitative tasks that AI has mostly overlooked until now. Purpose-built number models mean AI assistance for the work you actually do is coming."
+          },
+          challenge: {
+            steps: [
+              "Think about one recurring decision at work that depends on a forecast, an estimate, or a quantitative judgment: a budget projection, a demand forecast, a resource allocation, or a timeline estimate.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I regularly make decisions based on [describe the quantitative task]. Today I do it by [describe your method: spreadsheet, gut feel, historical patterns, etc.]. What would change if I had an AI model built specifically for this kind of quantitative analysis? Walk me through what better inputs, faster modeling, and pattern detection would look like for this specific decision.\"</em>",
+              "Read the response and identify one area where better quantitative analysis would meaningfully improve the decision.",
+              "Share your finding in the group. The decisions people identify reveal where quantitative AI will create the most value."
+            ]
+          }
+        },
+        {
+          title: "Gartner says 80% of new apps will be built to throw away, and that's the point",
+          body: "At the same Symposium session, Gartner named <em>disposable applications</em> as a 2027 strategic trend: purpose-built software designed to be retired once its business purpose is fulfilled. The prediction: <em>80% of new applications will be intentionally disposable by 2029</em>. As AI makes building task-specific tools faster and cheaper, software shifts from long-term platform investment to something closer to a project deliverable: built, used, and retired when the job is done.",
+          slants: {
+            strategy: "If your software procurement assumes every tool is a long-term commitment, it's about to collide with a world where most applications are built for a specific purpose and retired when it's done. Plan for shorter software lifecycles.",
+            leaders: "Give your teams permission to build or request tools that solve one problem well and then go away. The instinct to consolidate everything onto a permanent platform works against the speed disposable apps offer.",
+            operations: "Disposable apps mean your software inventory will change faster. Build the operational discipline now (onboarding, data handling, decommissioning) so quick-turn tools don't become quick-turn liabilities.",
+            pm: "This is practical news for project-specific needs. Instead of fighting for features on a shared platform, project teams can build purpose-fit tools that ship with the project and retire when it ends.",
+            admin: "When software comes and goes faster, the people who track licenses, manage access, and handle data cleanup become even more essential. Your knowledge of what tools exist and who uses them is the governance layer."
+          },
+          challenge: {
+            steps: [
+              "Think about one tool or system your team uses that was built for a specific purpose but has stuck around long past its original need: a tracker, a dashboard, a reporting template, a shared document nobody updates.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team still uses [describe the tool and its original purpose]. It was built for [original need] but that need has changed or ended. Help me evaluate it: Is it still earning its keep? What would we lose if we retired it today? And if we retired it, what's the simplest replacement for the one or two things we still actually use it for?\"</em>",
+              "Review the response honestly. If the tool is mostly habit rather than value, draft a one-paragraph retirement plan.",
+              "Share your finding in the group. The tools people identify as 'still here but shouldn't be' reveal how much overhead lives in software nobody questions."
+            ]
+          }
+        },
+        {
+          title: "Most CIOs have no plan to keep AI from quietly weakening their team's thinking",
+          body: "A Gartner survey of 533 CIOs surfaced a risk that doesn't show up on any adoption dashboard: <em>only 40% have a strategy to prevent AI from eroding employees' independent judgment</em>. Gartner predicts that by 2030, <em>30% of organizations will find AI has weakened decision-making in at least one core role</em>. The fix isn't less AI. It's what Gartner calls \"useful friction\": verification steps that require people to evaluate the basis of AI outputs, tools that question premises instead of just delivering answers, and incentives that reward thinking, not just speed.",
+          slants: {
+            strategy: "An AI strategy that only measures speed and output is optimizing for the thing that erodes judgment. Add a measure for decision quality: not just how fast answers arrive, but how well your team can explain and defend them.",
+            leaders: "Try this test: ask a team member to walk you through the reasoning behind an AI-assisted recommendation without reopening the tool. If they can't, the AI is doing the thinking and the team is doing the clicking.",
+            operations: "When AI handles the analysis and your team handles the approval, the approval becomes a rubber stamp unless you design the process to require real engagement. Build one verification step into your most critical AI-assisted workflows.",
+            pm: "If your project team relies on AI for estimates, risk assessments, or status summaries, build in a challenge round: a step where someone argues against the AI's output before it's accepted. That friction keeps judgment sharp.",
+            admin: "You already do this naturally: when a system gives you an answer that doesn't match what you know about the situation, you question it. That instinct, checking AI output against your own experience, is exactly the skill that prevents judgment erosion."
+          },
+          challenge: {
+            steps: [
+              "Pick one decision you made in the past week where AI played a role: a recommendation, a draft, a summary, or an analysis that informed your choice.",
+              "Without reopening the AI tool, try to explain the reasoning behind the output. Why did it recommend what it did? What assumptions was it making? What would change the answer?",
+              "If you struggle to explain it, open your company-approved AI tool and paste this prompt: <em>\"I used AI to [describe what you used it for]. I accepted the output but I can't fully explain the reasoning behind it. Help me build a 3-question checklist I can use every time I get an AI-generated recommendation: questions that force me to engage with the reasoning, not just the result.\"</em>",
+              "Use that checklist once this week on a real AI output.",
+              "Share your checklist in the group. The questions people come up with reveal what kinds of AI reasoning are hardest to verify."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Think of someone who deserves a small surprise this week and let AI help you plan it.",
+        body: "Not a birthday, not a holiday. Just a person who could use something thoughtful: a friend going through a tough stretch, a coworker who carried the team, a neighbor who's always helpful. Tonight, let AI turn a vague nice idea into a specific, doable plan. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I want to do something thoughtful for [describe the person and why they deserve it, without using their name]. Here's what I know about them: [list a few things they enjoy, their schedule, or what's going on in their life]. My budget is [amount or 'free']. I need to pull this off by [day]. Give me five ideas ranked from easiest to most memorable. For each one, tell me exactly what I'd need to do and how long it would take. Then pick the one you think hits the best balance of effort and impact, and explain why.\"<br><br>The technique: <em>ranking with a best-pick commitment</em>. Instead of asking AI for a list and deciding yourself, you ask it to rank the options by specific criteria and then pick the winner for you. This forces AI to weigh tradeoffs rather than give you a noncommittal menu. It works for any decision where you have too many decent options: choosing a gift, picking a weekend plan, selecting a tool, or prioritizing a to-do list."
+      }
+    },
   "2026-10-20": {
       intro: "Tuesday's three: why the AI value gap has a number now, what it means when agents earn employee-level oversight, and the productivity question most organizations aren't asking yet.",
       trends: [
