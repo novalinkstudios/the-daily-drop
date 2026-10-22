@@ -9300,5 +9300,76 @@
       "body": "Not a birthday, not a holiday. Just a person who could use something thoughtful: a friend going through a tough stretch, a coworker who carried the team, a neighbor who's always helpful. Tonight, let AI turn a vague nice idea into a specific, doable plan. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to do something thoughtful for [describe the person and why they deserve it, without using their name]. Here's what I know about them: [list a few things they enjoy, their schedule, or what's going on in their life]. My budget is [amount or 'free']. I need to pull this off by [day]. Give me five ideas ranked from easiest to most memorable. For each one, tell me exactly what I'd need to do and how long it would take. Then pick the one you think hits the best balance of effort and impact, and explain why.\"<br><br>The technique: <em>ranking with a best-pick commitment</em>. Instead of asking AI for a list and deciding yourself, you ask it to rank the options by specific criteria and then pick the winner for you. This forces AI to weigh tradeoffs rather than give you a noncommittal menu. It works for any decision where you have too many decent options: choosing a gift, picking a weekend plan, selecting a tool, or prioritizing a to-do list."
     }
+  },
+  "2026-10-22": {
+    "intro": "Thursday's three: why one dollar in five of tech spending is heading to AI, the fastest path to better AI agents, and why AI accountability is getting personal.",
+    "trends": [
+      {
+        "title": "One dollar in five: AI is about to claim a real share of every tech budget",
+        "source_url": "https://www.forrester.com/press-newsroom/forresters-2027-technology-and-security-predictions-ai-will-account-for-20-of-all-business-technology-spend/",
+        "body": "Forrester released its 2027 predictions this week with a number that puts AI spending in perspective: <em>AI will account for 20% of all business technology spending next year</em>, out of a projected $6.1 trillion global technology budget. That's one dollar in five. But here's the pressure underneath: only 53% of tech leaders expect their budgets to beat inflation, meaning nearly half will fund AI growth by cutting somewhere else. The organizations with the clearest picture of what AI is delivering will make those tradeoffs best.",
+        "slants": {
+          "strategy": "The budget question has shifted from \"should we spend on AI?\" to \"what do we spend less on to fund it?\" A clear map of AI value by initiative is how you protect the investments that are working and build the case for new ones.",
+          "leaders": "If your team's AI tools are producing real results, start documenting them now. When budget conversations tighten, the teams with specific evidence keep their funding and their momentum.",
+          "operations": "A fifth of the tech budget flowing to AI means your operational systems are about to get more AI capabilities whether you requested them or not. Start evaluating what's coming in the tools you already use so you're ready to adopt what works.",
+          "pm": "Project budgets that don't explicitly account for AI costs will absorb them invisibly. Build AI spending into your project financial plans now, before it becomes the surprise line item at quarterly review.",
+          "admin": "As AI takes a larger share of tech budgets, the people who track tool usage, license renewals, and actual adoption rates have the data that proves whether the spending is worth it. That's you."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools your team uses and estimate roughly what they cost per month (subscriptions, licenses, and built-in features you're paying for).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team spends approximately [amount or 'I'm not sure'] per month on AI tools. Help me build a quick AI budget health check: a table with columns for tool name, estimated monthly cost, what it's used for, and whether we have evidence it's delivering value. If I can't name a specific value for a tool, flag it as 'needs a closer look.'\"</em>",
+            "Review the table and identify one AI investment that's clearly earning its keep and one that needs a closer look.",
+            "Share your findings in the group. The tools people flag as clearly worth it versus needs a closer look reveal where AI spending is landing best across roles."
+          ]
+        }
+      },
+      {
+        "title": "The biggest AI upgrade isn't a better model. It's better data",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027",
+        "body": "Gartner named <em>AI context platforms</em> as a top strategic technology trend for 2027 at the IT Symposium in Orlando this week. The premise: AI agents are only as good as the information they're given. Context platforms supply agents with the business knowledge, semantic relationships, and structured data they need to act accurately. Gartner's projection: <em>companies that prioritize semantics in their AI-ready data could raise agent accuracy by up to 80% and cut costs by up to 60% by 2027</em>. For most organizations, the highest-leverage AI improvement isn't a newer model. It's cleaner, better-organized data.",
+        "slants": {
+          "strategy": "Before investing in a more powerful AI model, audit the data feeding your current one. An 80% accuracy gain from better context is a higher-leverage move than a model upgrade, and it's cheaper.",
+          "leaders": "When AI gives your team a wrong or unhelpful answer, ask whether the problem is the tool or the information it's working with. Most of the time, it's the information, and fixing that is faster than switching tools.",
+          "operations": "Your operational data (process docs, SOPs, system records, institutional knowledge) is what AI agents need to perform well. If that data is scattered, outdated, or unstructured, even the best AI will underperform.",
+          "pm": "When a project deploys an AI tool, add a data readiness check: is the information the tool needs accessible, current, and well-structured? Projects that skip this step spend more time correcting AI output than they save.",
+          "admin": "You maintain the documents, records, and institutional knowledge that AI agents rely on to get things right. Well-organized information isn't just good housekeeping. It directly determines how well AI performs for everyone."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool your team uses regularly and think about the last time it gave an inaccurate or unhelpful answer.",
+            "Ask yourself: did it fail because the tool is limited, or because it didn't have the right context: missing information, outdated documents, unclear terminology, or data it couldn't access?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses [describe the AI tool] for [describe the task]. The most common errors involve [describe them briefly]. Help me create a 'context audit' for this tool: a table with three columns: information the tool needs, where that information lives now, and its status (current, outdated, or missing). Then identify the single quickest fix that would improve accuracy the most.\"</em>",
+            "Review the table and pick one piece of missing or outdated context you could update this week.",
+            "Share your context audit in the group. The patterns reveal where organizations lose the most AI accuracy to fixable information gaps."
+          ]
+        }
+      },
+      {
+        "title": "AI accountability is getting a name, and that's how organizations build trust",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-it-symposium-xpo-2026-orlando-day-3-highlights",
+        "body": "Gartner closed the IT Symposium this week with a prediction that puts a name on AI accountability: <em>by 2030, 80% of Global 500 companies will contractually designate their CIO or chief AI officer as the \"Evidence Custodian\"</em>, personally responsible for proving how AI systems act, decide, and comply. Gartner also predicts that insurers, not regulators, will drive governance standards through underwriting requirements for AI liability coverage. The shift is clarifying: accountability is moving from \"someone should own this\" to a named executive with contractual obligations. That specificity is what makes scaling AI possible.",
+        "slants": {
+          "strategy": "AI accountability is heading toward personal, contractual responsibility at the executive level. Organizations that start mapping who owns what in AI governance now will be ready when contracts and insurers make specificity the standard.",
+          "leaders": "The Evidence Custodian concept means someone will need to show, with documentation, how AI systems behave. Build that habit in your teams now. Every audit trail and decision log you create today becomes evidence that proves your AI is well-managed.",
+          "operations": "When AI accountability becomes a contractual requirement, the operational records you already keep (system logs, access controls, incident reports) become the evidence base. Your documentation discipline is about to become even more valuable.",
+          "pm": "Add evidence and auditability as a standard requirement in any project that deploys AI. The projects building documentation into their workflows now are the ones that will pass accountability reviews smoothly.",
+          "admin": "You already document processes, maintain records, and manage audit trails. As AI accountability becomes personal and contractual for executives, those skills put you at the center of how your organization proves its AI systems are working as intended."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool or system your team uses and ask yourself: if someone asked how this AI makes decisions and whether you can prove it, could you answer?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses [describe the AI tool and what it does]. If our organization needed to prove how this system works, including what data it uses, what decisions it makes, and who's responsible, what evidence would we need? Create a simple five-item AI evidence checklist of things we should be documenting right now to be ready for accountability requirements. Keep it practical for a non-technical team.\"</em>",
+            "Review the checklist and note which items your team already has in place and which are gaps.",
+            "Share your checklist in the group. The documentation gaps people find are almost always the same, and knowing them early is far better than discovering them during an audit."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Halloween is nine days out. Let AI build you the perfect movie marathon for your actual evening.",
+      "body": "No more scrolling through streaming apps for an hour trying to find something good. Tell AI exactly what you're working with (your scare tolerance, your crowd, your time, your subscriptions) and let it curate a lineup that fits. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to plan a Halloween movie marathon for [this weekend / Halloween night / a weeknight]. Before you suggest anything, here's what matters: my scare tolerance is [can't handle jump scares / love being terrified / prefer creepy-atmospheric over gory / mostly want fun-spooky]. I'm watching with [alone / partner / kids / friends, note ages if relevant]. I have about [X hours]. I can access [list your streaming services]. Build me a lineup in watching order, with a one-sentence reason for each pick and a 'what to expect' note so I know what I'm getting into. Start atmospheric and build intensity as the night goes on. If any pick might be too much for my group, flag it and suggest a swap.\"<br><br>The technique: <em>progressive narrowing</em>. Instead of asking for a generic best-of list, you feed AI your real constraints one at a time (mood, audience, time, access) and each one sharpens the output. The result fits your actual situation instead of giving you the same ten movies every list recommends. Works for any curated recommendation: restaurant picks for a group with mixed diets, book lists for a specific mood, gift ideas within a real budget, or travel plans with real scheduling constraints."
+    }
   }
 }
