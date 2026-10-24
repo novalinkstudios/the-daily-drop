@@ -9443,5 +9443,78 @@
       "body": "Mundane moments hide comedy gold. Think of the dullest thing you did this week (a long hold with customer service, a grocery run, waiting for a software update) and let AI rewrite it. Open any free tool (ChatGPT, Claude, Gemini, or Perplexity):",
       "prompt": "\"Here's something boring that happened to me: [describe the event in 2-3 sentences]. Rewrite this same event three ways: (1) as a stand-up comedy bit, (2) as a dramatic movie trailer voiceover, (3) as a nature documentary narration.\"<br><br>The technique here is <em>same content, different genres</em>. It teaches you that the framing you give AI matters as much as the facts. Try swapping in other genres (noir detective, cooking show, sports commentary) and notice how each one pulls out different details."
     }
+  },
+  "2026-10-24": {
+    "intro": "Saturday's three: what happens after you give 330,000 people AI at once, why agent security just became an open-source discipline, and the skill shift that came into focus at Nvidia's Berlin keynote. Plus a weekend prompt for your kitchen.",
+    "trends": [
+      {
+        "title": "Volkswagen gave every employee AI — and the harder question surfaced",
+        "source_url": "https://letsdatascience.com/news/microsoft-equips-330000-volkswagen-group-employees-with-copi-7d9d97f9",
+        "body": "Microsoft announced this week that Volkswagen Group has rolled Copilot out to <em>more than 330,000 employees</em>, with 300,000 active monthly users and 26,000 AI agents live across engineering, production, procurement, and sales. The technology distribution problem is effectively solved at VW's scale. The question that remains: are workflows actually changing, or is AI just accelerating the old ones?",
+        "slants": {
+          "strategy": "Seat count tells you adoption happened. Usage patterns tell you whether the work is actually being redesigned.",
+          "leaders": "Your teams probably have AI access already. The leadership move is giving someone permission to change how the work gets done with it.",
+          "operations": "26,000 agents across a global enterprise means someone needs to own the inventory. If nobody tracks what's running, nobody can improve it.",
+          "pm": "Large-scale AI rollouts create a new project category: tracking which agents are active, what they do, and whether they're still worth running.",
+          "admin": "You're often the first to notice which tools people actually use versus which ones IT deployed. That signal is worth surfacing."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools your team has access to right now. Pick one that's been available for at least a month.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I want to evaluate how well my team is actually using an AI tool we adopted. Ask me 5 diagnostic questions about how people are using it, then tell me whether we have an adoption gap, a workflow gap, or both.\"</em>",
+            "Answer the questions based on what you've observed — not what the rollout plan promised.",
+            "Read the diagnosis and identify the one insight that surprised you most.",
+            "Share that insight in the group: adoption gap, workflow gap, or something else entirely?"
+          ]
+        }
+      },
+      {
+        "title": "Agent security is now an open-source discipline — and a leadership one",
+        "source_url": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell",
+        "body": "At GTC Berlin this week, Nvidia showcased OpenShell, an <em>open-source runtime that sandboxes AI agents with kernel-level isolation</em> and declarative policy controls. The timing isn't academic — Gartner projects 40% of enterprise apps will embed agents by year's end, up from under 5% last year. When agents act autonomously, the question shifts from \"does this tool work?\" to \"who sets the boundaries?\"",
+        "slants": {
+          "strategy": "Agent governance belongs in the strategy conversation now, not after the first incident.",
+          "leaders": "Ask your teams one question: do we know what our AI agents are authorized to do? If the answer takes more than a minute, there's a gap to close.",
+          "operations": "Sandboxing and policy controls for agents are the equivalent of access controls for people. Ops teams are a natural fit to own this.",
+          "pm": "Every AI agent in production needs an owner, a scope, and a review cycle — the same discipline you'd apply to any integration.",
+          "admin": "If agents are scheduling meetings, sending messages, or moving files, you're in the blast radius. Knowing what they can and can't do protects your work."
+        },
+        "challenge": {
+          "steps": [
+            "List every AI-powered tool or feature your team uses that takes actions without a human clicking \"send\" — scheduling, drafting, routing, summarizing, or sending.",
+            "For each one, write down: what it's authorized to do, who set those permissions, and when they were last reviewed.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here's a list of AI agents and automated tools my team uses, along with what each one is allowed to do: [paste your list]. Identify which ones have the broadest access and suggest one practical guardrail for each.\"</em>",
+            "Pick the one guardrail that would be easiest to put in place this week.",
+            "Share your finding in the group: which agent or tool had broader access than you expected?"
+          ]
+        }
+      },
+      {
+        "title": "The skill that matters now: directing AI, not just using it",
+        "source_url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+        "body": "At GTC Berlin, Jensen Huang argued that <em>AI will create more builders, not replace them</em> — because the tools now let anyone direct computation who can describe what they want. Volkswagen's 26,000 active agents back the point from the enterprise side: somebody has to specify what each one does, evaluate whether it's working, and course-correct when it drifts. The shift isn't from human work to AI work. It's from executing tasks to directing systems that execute for you.",
+        "slants": {
+          "strategy": "The competitive advantage isn't having AI. It's having people who know how to point it at the right problems.",
+          "leaders": "Invest in your team's ability to specify, evaluate, and correct AI output. That's the new core competency — and it's coachable.",
+          "operations": "The ops skill rising fastest is orchestration: knowing which agent handles what, when to trust its output, and when to override.",
+          "pm": "Project managers who translate business goals into clear AI instructions are becoming the connective tissue between strategy and execution.",
+          "admin": "Your ability to specify exactly what's needed — the context, the constraints, the exceptions — is the skill AI can't replicate."
+        },
+        "challenge": {
+          "steps": [
+            "Pick a task you completed this week that involved writing, analysis, or planning. Choose something that doesn't contain confidential information.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I'm going to describe a task I did this week. Help me figure out which part was the real value I added versus which part AI could have handled. Here's the task: [describe it in 3-4 sentences].\"</em>",
+            "Read the breakdown. Identify the part AI flagged as your unique contribution.",
+            "Now ask a follow-up: <em>\"What's one skill I could build to get better at directing AI on the parts it could handle, so I spend more time on the parts only I can do?\"</em>",
+            "Share that skill in the group: what's the one directing skill you'd invest in first?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Saturday evening — pick a country you've never cooked from and let AI be your sous chef.",
+      "body": "You don't need a recipe book. You need a conversation. Pick any country, tell AI what's in your kitchen, and cook something new tonight. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and start here:",
+      "prompt": "\"I want to cook something from [country] tonight. Here's what's in my fridge and pantry: [list 8-10 ingredients]. What's one authentic dish I could pull off with these? Walk me through it step by step, and tell me the one technique that makes it taste right.\"<br><br>Then keep the conversation going: <em>\"What if I don't have [ingredient]?\"</em> or <em>\"What's the most common mistake with this dish?\"</em> The technique is <em>multi-turn dialogue</em> — treating AI like a knowledgeable friend you can keep asking questions, rather than a search bar you type into once. Each follow-up sharpens the result."
+    }
   }
 }
