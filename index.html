@@ -980,6 +980,76 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-25": {
+      intro: "Sunday's three: why AI costs keep climbing even as prices fall, the skill shift that separates the next wave of AI-ready teams, and what it means when employees find their own AI tools. Plus a low-key prompt that starts in your fridge.",
+      trends: [
+        {
+          title: "AI got cheaper, and enterprise bills went up anyway",
+          body: "Token prices fell roughly 67% year-over-year according to recent benchmarks, but the FinOps Foundation's 2026 State of FinOps report found that <em>73% of enterprises exceeded their original AI cost projections</em>. Bain's 2026 Automation Survey tells a similar story: nearly 40% of companies that measured AI cost savings landed below 10%, despite targeting 11\u201320%. The paradox isn't mysterious. Agentic workflows, reasoning models, and expanding use cases consume tokens faster than prices drop. The organizations getting ahead aren't chasing cheaper models. They're tracking what they consume and why.",
+          slants: {
+            strategy: "Build AI cost forecasting the same way you forecast headcount: by use case, not by unit price. Volume is the variable that matters.",
+            leaders: "Ask your teams for usage data, not just license counts. The gap between what you're paying and what you're getting is where the real budget conversation lives.",
+            operations: "Ops teams that track token consumption per workflow can identify which automations earn their cost and which ones quietly drain budget.",
+            pm: "Add an AI consumption line to every project budget. The surprise isn't that AI costs money. It's that nobody planned for how much.",
+            admin: "You already reconcile invoices and track tool usage. Applying that same discipline to AI costs gives leadership the visibility they're missing."
+          },
+          challenge: {
+            steps: [
+              "Think about the AI tools your team uses and estimate whether your organization's AI spending has gone up, down, or stayed the same in the last six months.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I want to understand my team's AI cost profile. Ask me 5 questions about which AI tools we use, how often, and for what tasks. Then estimate whether we're likely spending more than planned and suggest two ways to get better visibility into AI costs without cutting useful tools.\"</em>",
+              "Answer the questions based on what you know (estimates are fine).",
+              "Read the suggestions and pick the one that would be easiest to start this week.",
+              "Share your pick in the group: what's one practical way your team could get better visibility into AI spending?"
+            ]
+          }
+        },
+        {
+          title: "The skill that's rising fastest isn't prompting. It's building",
+          body: "Workday's October 2026 Global Workforce Report analyzed job data from 550+ enterprise employers and found a clear inflection: <em>demand for basic AI prompting skills peaked in January 2026 and fell 25%</em> in the months after. Over the same period, demand for hands-on skills like building AI tools and automating workflows <em>rose 51%</em>. The shift makes sense. Once everyone can prompt, the value moves to the people who can wire AI into actual business processes. And the readiness gap is real: 79% of workers say they know which skills they need, but only 66% say their employer helps them build those skills.",
+          slants: {
+            strategy: "Prompting fluency was table stakes. The next competitive edge is knowing how to integrate AI into the workflows that drive your business metrics.",
+            leaders: "Close the support gap: your people know what skills they need, but two-thirds say you're not helping them get there. Targeted enablement pays for itself.",
+            operations: "The ops person who can build a workflow automation is now more valuable than the one who can write a great prompt. The skill ladder has shifted.",
+            pm: "When scoping AI projects, budget for capability building, not just tool access. Teams that can build their own automations move faster on the next project too.",
+            admin: "You already know how the actual processes work. Adding the ability to wire AI into those processes makes you the person who connects strategy to reality."
+          },
+          challenge: {
+            steps: [
+              "Look at your own AI usage over the past month. Roughly estimate how much was basic prompting (asking a question, generating a draft) versus building something repeatable (a template, a workflow, an automated step).",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Here's how I currently use AI at work: [describe 2-3 tasks]. Help me identify one of these that I could turn into a repeatable workflow or template instead of doing it from scratch each time. Walk me through the first two steps to build that.\"</em>",
+              "Read the suggestion and decide whether it's practical for your situation.",
+              "If it is, try building the first step this week. If not, ask the AI to suggest a simpler alternative.",
+              "Share what you found in the group: what's one task you could move from one-off prompting to a repeatable workflow?"
+            ]
+          }
+        },
+        {
+          title: "Employees are finding their own AI tools, and the reason matters",
+          body: "Lenovo's 2026 Work Reborn survey of 6,000 employees found that <em>up to one-third of workers use AI tools outside IT oversight</em>, and 31% of AI users say they've received no training from their employer. Deloitte's 25,000-person UK study tells the same story from the spending side: <em>17% of workers pay for their own AI tools</em> to use at work, adding up to nearly a billion pounds a year. These aren't rogue employees. They're people solving real problems with whatever's available because the approved options aren't meeting their needs. The organizations that treat unsanctioned tool use as feedback and respond with better tools, clearer guidance, and faster approval will close the gap fastest.",
+          slants: {
+            strategy: "Unsanctioned tool adoption is free market research on where your official AI strategy has gaps. Use it.",
+            leaders: "Instead of cracking down on unapproved tools, find out why people chose them. The answer usually points to a workflow your approved tools don't cover well.",
+            operations: "When employees build workarounds, it means the official process has friction they couldn't wait for you to fix. That's an ops signal worth investigating.",
+            pm: "Track which unofficial tools show up in your team's work. They reveal unmet needs that belong in your next project intake conversation.",
+            admin: "You see which tools people actually reach for when nobody's checking. That ground-level view is exactly what IT and leadership need to improve the official toolkit."
+          },
+          challenge: {
+            steps: [
+              "Think about whether you've ever used an AI tool for work that wasn't officially provided or approved by your organization. (No judgment, this is about patterns, not compliance.)",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I want to do a quick personal AI tool audit. Ask me 5 questions about the AI tools I use, which ones are officially approved, and what gaps the unofficial ones fill. Then summarize what my usage pattern reveals about unmet needs in my organization's AI toolkit. Keep it constructive, I want actionable insights, not a compliance report.\"</em>",
+              "Answer honestly. The goal is to identify the gap, not the violation.",
+              "Read the summary and identify one unmet need you could flag constructively to your team or IT.",
+              "Share the pattern (not the specific tool) in the group: what gap are unofficial AI tools filling in your workplace?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Open your fridge, describe what you see, and let AI turn it into dinner.",
+        body: "No recipes, no grocery runs, no meal-planning apps. Just tell AI exactly what's sitting on your shelves right now and let it work backward from ingredients to a meal. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Here's everything in my fridge and pantry right now: [list what you see, be specific, e.g. half a red onion, leftover rice, two eggs, sriracha, one sad lime]. I have about [30 minutes / 1 hour] to cook. My skill level is [beginner / comfortable / adventurous]. Give me 3 meal options ranked by how little effort they take, with a difficulty rating and estimated time for each. For my top pick, give me step-by-step instructions written for someone who doesn't want to Google what 'deglaze' means. Then suggest one cheap ingredient under $3 I could add next time to unlock a whole new set of meals from similar leftovers.\"<br><br>The technique: <em>constraint-based reasoning</em>. Instead of browsing recipes and hoping you have the ingredients, you flip the process: give AI your actual constraints first (what you have, your time, your skill level) and let it reason backward to a solution. The tighter your constraints, the more creative and practical the output. Works for packing a suitcase, furnishing a room on a budget, or planning a day trip with limited hours."
+      }
+    },
   "2026-10-24": {
       intro: "Saturday's three: what happens after you give 330,000 people AI at once, why agent security just became an open-source discipline, and the skill shift that came into focus at Nvidia's Berlin keynote. Plus a weekend prompt for your kitchen.",
       trends: [
