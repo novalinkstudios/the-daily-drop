@@ -9589,5 +9589,77 @@
       "body": "No recipes, no grocery runs, no meal-planning apps. Just tell AI exactly what's sitting on your shelves right now and let it work backward from ingredients to a meal. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"Here's everything in my fridge and pantry right now: [list what you see, be specific, e.g. half a red onion, leftover rice, two eggs, sriracha, one sad lime]. I have about [30 minutes / 1 hour] to cook. My skill level is [beginner / comfortable / adventurous]. Give me 3 meal options ranked by how little effort they take, with a difficulty rating and estimated time for each. For my top pick, give me step-by-step instructions written for someone who doesn't want to Google what 'deglaze' means. Then suggest one cheap ingredient under $3 I could add next time to unlock a whole new set of meals from similar leftovers.\"<br><br>The technique: <em>constraint-based reasoning</em>. Instead of browsing recipes and hoping you have the ingredients, you flip the process: give AI your actual constraints first (what you have, your time, your skill level) and let it reason backward to a solution. The tighter your constraints, the more creative and practical the output. Works for packing a suitcase, furnishing a room on a budget, or planning a day trip with limited hours."
     }
+  },
+  "2026-10-26": {
+    "intro": "Monday's three: the monitoring gap your AI dashboards won't show you, why AI's trillion-dollar value math just got harder, and what happens when AI decisions move faster than anyone's been named to own them. Plus a holiday prompt for smarter gift planning.",
+    "trends": [
+      {
+        "title": "Cisco's Splunk survey: AI agents are outpacing the systems built to watch them",
+        "source_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/splunk-state-of-observability-2026-avoiding-the-hidden-costs-of-ai-agents.html",
+        "body": "Cisco's Splunk State of Observability 2026 surveyed 2,050 IT and engineering professionals across 10 countries. The gap it found: <em>87% say monitoring AI agents is a priority, but 54% can't effectively measure agent output quality</em> and 56% can't accurately control AI costs. Meanwhile, 83% are concerned about unintended consequences from agents running in production. Deploying is outrunning verifying — and the costs of getting that wrong aren't theoretical.",
+        "slants": {
+          "strategy": "If your AI strategy has a deployment timeline but no observability plan, the strategy has a blind spot worth fixing this quarter.",
+          "leaders": "Ask your team one question this week: do we know what our AI agents are actually doing? If nobody can answer in under a minute, that's your next agenda item.",
+          "operations": "Agent monitoring is operations work. The same discipline you apply to uptime and SLAs now applies to output quality — and ops teams are the natural fit to own it.",
+          "pm": "Add an observability milestone to every AI project plan. Deploying an agent without monitoring is launching a product without instrumentation.",
+          "admin": "When AI tools send messages, schedule meetings, or move files on your behalf, knowing what they actually did — and whether they got it right — is part of managing your own workflow."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools you or your team use at work. Pick one that runs regularly or takes actions on its own — a scheduling assistant, a summarization tool, an automated report.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use an AI tool at work that [describe what it does]. Help me create a simple 5-question weekly checklist I can use to verify it's working correctly — focusing on output quality, not just whether it runs. Keep each question practical and answerable in under a minute.\"</em>",
+            "Try answering each question about your chosen tool right now. Note which ones you can't answer — those are your visibility gaps.",
+            "Share one gap you discovered in the group: what can't you currently verify about your AI tools?"
+          ]
+        }
+      },
+      {
+        "title": "AI's trillion-dollar value pool has a cost problem nobody planned for",
+        "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-ai-value-curve-the-economics-of-applying-ai-to-existing-work",
+        "body": "McKinsey's latest analysis of AI economics puts the annual global value pool at <em>$2.52 trillion</em> — but that number assumes current costs hold. Factor in the full price of running AI (model fees, human review, rework, and integration) and a 30% cost increase shrinks the U.S. pool alone by $320 billion. Across large companies scaling AI agents, <em>only 6% report AI generating at least 5% of EBIT</em>. The value is real. The costs are eating it faster than most organizations are tracking.",
+        "slants": {
+          "strategy": "The business case for AI doesn't close at the token price. It closes when total cost — including human review and rework — stays below the cost of doing the work manually.",
+          "leaders": "Ask teams to report AI costs the way they report project costs: total investment in, value out. Not just the tool subscription line.",
+          "operations": "Tracking AI cost per workflow — not per license — is how you find the savings everyone else is leaving on the table.",
+          "pm": "Build cost tracking into AI project scopes from day one. The organizations seeing real returns aren't spending less — they're measuring more.",
+          "admin": "You already know which tasks take the most time. The value math starts there — not with the most impressive demo, but with the most expensive manual process."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task you or your team does regularly that involves AI — drafting, summarizing, analyzing, or generating content.",
+            "Estimate how long the task takes with AI (including prompting, reviewing, and fixing the output) versus how long it took without AI.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use AI to help me [describe the task]. With AI it takes about [X minutes] including review and fixes. Without AI it took [Y minutes]. Help me figure out whether this is saving real time when I account for all the overhead — prompting, reviewing, reworking, and context-switching. Then suggest one specific way to reduce the overhead.\"</em>",
+            "Read the analysis and decide: are your time savings real, or is overhead eating the gain?",
+            "Share your finding in the group: is your AI-assisted task actually faster when you count everything?"
+          ]
+        }
+      },
+      {
+        "title": "AI decisions are moving faster than anyone's been named to own them",
+        "source_url": "https://www.prnewswire.com/news-releases/report-ai-is-changing-leadership-faster-than-organizations-are-adapting-302914361.html",
+        "body": "New research tracking how AI is reorganizing the management layer found that <em>37% of leaders say ownership of AI-related decisions is inconsistent or unclear</em> within their organization. Among companies where AI is deeply integrated, 85% have clear decision ownership. Among those still exploring, only 26% do. AI creates decisions fast enough to outrun the structures meant to handle them — and the people accountable for clearing the resulting bottlenecks often haven't been named yet.",
+        "slants": {
+          "strategy": "When more than a third of leaders say AI decision ownership is unclear, that's not an adoption problem — it's a structure problem worth solving before the next planning cycle.",
+          "leaders": "Name the owner for every AI-related decision in your area this month. Ambiguity at the top cascades into paralysis below.",
+          "operations": "Clear ownership of AI decisions means clear escalation paths. Ops teams move faster when they know who to call — not who to wait for.",
+          "pm": "If your project involves AI, add a decision-rights row to your RACI chart. Who approves the model? Who owns output quality? If the answer is unclear, that's your first risk to resolve.",
+          "admin": "You usually know who actually decides what in practice, even when the org chart doesn't say. That institutional knowledge is worth surfacing — especially when new AI decisions don't have obvious owners yet."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI-related decision your team has faced recently — adopting a new tool, setting usage guidelines, deciding who reviews AI output, or choosing which workflows to automate.",
+            "Write down who made that decision. If you're not sure, that's the insight.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team needs to make decisions about AI tools and workflows, but ownership isn't always clear. Here's a recent example: [describe the decision]. Help me draft a simple one-page AI decision-rights template that clarifies who proposes, who reviews, who approves, and who gets informed. Keep it practical — something I could share in a 15-minute team conversation.\"</em>",
+            "Review the template and mark which roles map to real people on your team — and which ones have no name yet.",
+            "Share what you found in the group: where is AI decision ownership clearest on your team, and where is it still a gray area?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "The holidays are a month out. Let AI help you build a gift plan before your wallet does the thinking.",
+      "body": "Before the rush starts, spend 10 minutes with a free AI tool (ChatGPT, Claude, Gemini, or Perplexity — all have free web versions) and plan ahead:",
+      "prompt": "\"Here's my gift list this year: [list the people and your rough budget for each, e.g. 'Mom — $50, best friend — $30, partner — $100, coworker exchange — $25']. For each person, suggest 3 gift ideas ranked by how personal they feel, not how expensive they are. Flag any I could make or partially DIY to save money without it feeling cheap. Then total everything up and tell me honestly if I'm over budget — and where to trim if I am.\"<br><br>The technique: <em>criterion switching</em>. You gave AI the same list and constraints, ranked by thoughtfulness. Now re-run the exact same prompt but change the ranking to 'easiest to ship,' 'most likely to actually get used,' or 'biggest surprise factor.' Same data, different lens, completely different answers. The ranking criterion is the lever — and learning to change it is one of the most useful prompting habits you can build."
+    }
   }
 }
