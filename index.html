@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-10-27": {
+      intro: "Tuesday's three: the security gap hiding in AI agents nobody's using, why 'agent operations' is becoming a real career path, and the one factor that predicts whether your team actually adopts AI. Plus tonight's homework: let AI be your museum curator.",
+      trends: [
+        {
+          title: "Most enterprise AI agents are idle, and still holding the keys",
+          body: "Arrakis Security's 2026 Autonomous Agents Threat Report analyzed thousands of agents across enterprise environments and found a pattern: <em>76% of AI agents hadn't run in 60 days, but still held live credentials and active connections</em>. A quarter of those dormant agents could be triggered by an unsigned external webhook. And 70% could reach sensitive systems with almost no data loss prevention in place. When an employee leaves, their access is revoked the same day. When an agent goes quiet, most organizations have no process, or even an owner, to do the same.",
+          slants: {
+            strategy: "Add agent lifecycle management to your security review. If you're deploying AI agents without a retirement plan for them, you're accumulating risk without tracking it.",
+            leaders: "Ask your team this week: how many AI agents do we have running, and who owns each one? If the answer takes more than a day to assemble, that's the gap to close.",
+            operations: "Idle agents with live credentials are an ops problem with an ops solution: inventory, audit, rotate, decommission. Treat them like any other access review.",
+            pm: "Add an agent decommissioning step to every AI project closeout. An agent that outlives its project shouldn't outlive its access.",
+            admin: "If you helped set up an AI tool or agent for a project that's finished, flagging it for review is exactly the kind of institutional awareness that prevents problems."
+          },
+          challenge: {
+            steps: [
+              "Think about the AI tools and agents your team uses: automated assistants, scheduled summarizers, bots that monitor or route information.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"Help me create a simple AI agent inventory template. I need columns for: agent name, what it does, who owns it, what systems it can access, when it was last used, and whether it's still needed. Keep it to a single-page spreadsheet I could fill in during one meeting.\"</em>",
+              "Fill in as many rows as you can from memory. Mark any agent where you're not sure who owns it or when it last ran.",
+              "Share your template in the group, and flag the row that surprised you most."
+            ]
+          }
+        },
+        {
+          title: "Agent operations is becoming a real career path, and CompTIA just started building the credential",
+          body: "CompTIA announced it's developing <em>AgentOps+, the first vendor-neutral certification for professionals who deploy, secure, monitor, and govern AI agents</em>. The credential spans AI, cybersecurity, cloud infrastructure, and IT operations, reflecting the reality that managing agents is now a cross-functional discipline, not a side task. The urgency is clear: a KPMG survey found 54% of organizations are actively deploying AI agents, but Deloitte reports <em>only 21% have a mature governance model</em> for them. The gap between deployment speed and operational readiness is where this new role lives.",
+          slants: {
+            strategy: "When a certification body formalizes a skill, it signals where hiring demand is headed. Factor agent operations into your workforce plan now, before the talent market prices it in.",
+            leaders: "You don't need to wait for the exam. Identify who on your team already touches agent deployment, security, and monitoring, and start building that cross-functional skill set intentionally.",
+            operations: "This is your territory. The skills CompTIA is codifying (deployment, monitoring, incident response, governance) are operations fundamentals applied to a new surface area.",
+            pm: "Every AI project with agents needs someone accountable for their operational lifecycle. Adding that role to project scoping now is easier than retrofitting it later.",
+            admin: "If you coordinate access, permissions, and tool configurations, you're already doing parts of this work. Recognizing it, and naming it, makes it visible and valuable."
+          },
+          challenge: {
+            steps: [
+              "Pick one AI agent or automated AI tool your team uses (a scheduling bot, a summarizer, an automated workflow).",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I manage (or work with) an AI agent that [describe what it does]. Help me build a quick operational health check for it, with 5 questions covering: Is it still needed? Who owns it? What can it access? How do we know it's working correctly? What's the plan if it breaks? One sentence per question, practical enough to answer in a 10-minute conversation.\"</em>",
+              "Try answering the five questions. Note which ones you can answer immediately and which ones require asking someone else.",
+              "Share your health check in the group and flag which question was hardest to answer."
+            ]
+          }
+        },
+        {
+          title: "The strongest predictor of AI adoption at work isn't the tool, it's the manager",
+          body: "Gallup's 2026 workplace research keeps pointing to the same finding: <em>employees whose managers actively support AI use are 1.7 times more likely to use it frequently</em>. And when frequent AI use combines with strong manager support, employee engagement runs 14 points above the national average. Meanwhile, among workers who have AI tools available but don't use them, 46% say they simply prefer their current way of working. The unlock isn't better software or more training hours. It's a manager who makes space for experimentation and signals that it's safe to try.",
+          slants: {
+            strategy: "Your AI adoption strategy has a single highest-leverage input: manager behavior. Invest in manager enablement before you invest in more tools.",
+            leaders: "Your team watches what you do more than what you say. Using AI visibly (in meetings, in shared work, in how you make decisions) gives permission in a way that a policy memo never will.",
+            operations: "If adoption is stalling, look at the manager layer before you look at the tech stack. Ops teams with supportive managers adopt faster, and the data now proves it.",
+            pm: "Add a manager-support checkpoint to AI rollout plans. If the team's manager isn't actively backing the tool, the rollout will stall regardless of how good the training is.",
+            admin: "When your manager tries a new AI tool alongside you, not just asks you to learn it, that changes the dynamic. If it hasn't happened yet, this data gives you a good reason to suggest it."
+          },
+          challenge: {
+            steps: [
+              "Think about your own manager (or, if you are one, think about how you've approached AI with your team).",
+              "Rate these three statements honestly: my manager has tried an AI tool themselves, my manager has encouraged me to experiment with AI at work, and my manager has discussed how AI fits into our team's goals.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I'm a [your role] and I want to help my manager (or my team, if I'm the manager) get more comfortable with AI at work. Based on what works (people learn best from low-risk, visible, shared experiences), give me 3 specific, small actions I could take this week to make AI feel more normal and less intimidating on my team. Keep each action under two sentences.\"</em>",
+              "Pick the one action that feels most doable and try it this week.",
+              "Share in the group: which action did you pick, and how did it land?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Tonight, pick an art movement you've always heard of but never really understood, and let AI walk you through it.",
+        body: "Impressionism, Bauhaus, Surrealism, Art Deco, Afrofuturism: you've seen the words on museum walls and in design articles, but could you explain what actually made the movement matter? Tonight, find out. Open any free AI tool (ChatGPT, Claude, Gemini, or Perplexity) and try this:",
+        prompt: "\"You are a museum curator who specializes in [pick an art movement, e.g., Impressionism]. I know almost nothing about it. In plain language, walk me through: what was the world like when this started, what were these artists reacting against, show me 3 specific works that capture the core idea (with the artist's name and year), and tell me one way this movement still shapes things I see today. Keep it conversational, like we're standing in front of the paintings.\"<br><br>The technique: <em>expert persona</em>. By asking AI to adopt a specific role (curator, coach, historian), you get answers shaped by that perspective's depth and vocabulary instead of generic encyclopedia summaries. Try it with any subject: ask a nutritionist about your groceries, a mechanic about that dashboard light, or an architect about buildings on your block."
+      }
+    },
   "2026-10-26": {
       intro: "Monday's three: the monitoring gap your AI dashboards won't show you, why AI's trillion-dollar value math just got harder, and what happens when AI decisions move faster than anyone's been named to own them. Plus a holiday prompt for smarter gift planning.",
       trends: [
