@@ -9803,5 +9803,75 @@
       "body": "We all have one: the appliance, the laptop, the piece of furniture, the winter jacket that's been sitting in multiple browser tabs for weeks. Tonight, stop comparing and let AI build you a decision framework. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I'm deciding between [option A] and [option B] (e.g., two laptops, two mattresses, two winter coats — whatever you've been mulling over). Here's what matters to me, ranked: [list 3-5 criteria, e.g., durability, comfort, price, looks, reviews]. Score each option on each criterion on a 1-10 scale, weight the scores by my ranking, and show me the total. Then tell me which one wins — and tell me honestly if the gap is big enough to matter or if I should just pick the one I like more.\"<br><br>The technique: <em>weighted decision matrix</em>. Instead of asking AI 'which should I buy?' (which gives you a generic opinion), you gave it your criteria and your priorities. The AI's job isn't to choose — it's to apply your values consistently so you can see the math behind your gut feeling. Works for any decision with competing options: apartments, schools, job offers, vacation destinations."
     }
+  },
+  "2026-10-29": {
+    "intro": "Thursday's three: AI just moved into the enterprise systems your teams already use, one company started managing AI agents the way it manages people, and the executive conversation shifted from experimentation to governance. Plus a prompt to get your home ready for winter before the cold arrives.",
+    "trends": [
+      {
+        "title": "AI is moving into the operating system, not sitting beside it",
+        "source_url": "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
+        "body": "At Oracle AI World on October 27, Oracle and OpenAI announced a partnership that embeds ChatGPT, Codex, and OpenAI's agent capabilities directly into Oracle's enterprise applications, database, and cloud infrastructure. This isn't another standalone AI tool. <em>It's AI wired into the ERP, finance, and supply chain systems that organizations already run on.</em> The pattern is clear: AI is shifting from a tool you switch to into a layer inside the tools you already use. The teams that understand their existing systems best are positioned to get the most from this shift.",
+        "slants": {
+          "strategy": "When AI is embedded in your ERP and finance stack, the strategic question changes from 'which AI tool should we buy?' to 'how do we redesign processes to use what's already inside our systems?'",
+          "leaders": "Your teams don't need to learn a new tool. They need to understand that the tools they already use now have AI capabilities worth exploring. Start by identifying which workflows would benefit first.",
+          "operations": "Embedded AI means fewer integration headaches and more automation that runs where the data already lives. Map your highest-volume manual processes to find where this hits hardest.",
+          "pm": "AI inside the project's own platform means shorter implementation timelines and fewer vendor conversations. Scope your next AI initiative around capabilities your existing stack already offers.",
+          "admin": "The tools you already know are gaining AI features. Your familiarity with how those systems actually work gives you a head start in figuring out which new capabilities are worth using."
+        },
+        "challenge": {
+          "steps": [
+            "List the 3 enterprise software platforms your team uses most (e.g., ERP, CRM, HR system, project management tool).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use [name your top 3 enterprise tools] at work. For each one, tell me: what AI features have been added or announced in 2026, and which of those features would save time on routine tasks like reporting, data entry, or approvals? Keep each answer to 2-3 sentences.\"</em>",
+            "Review the results and pick one AI feature in a tool you already use that you haven't tried yet.",
+            "Try it this week and share in the group: what embedded AI feature surprised you most?"
+          ]
+        }
+      },
+      {
+        "title": "SK Telecom is managing AI agents the way it manages people",
+        "source_url": "https://www.telecomtv.com/content/ai/sk-telecom-is-building-an-agentic-ai-workforce-55691/",
+        "body": "SK Telecom published its first AI Governance Report on October 26, and it reads less like a tech policy and more like an HR framework. <em>Every AI agent gets an employee ID, a recorded role, a named supervisor, and tracked work history.</em> Agents with higher autonomy or business impact are supervised by senior staff. They can be suspended or retired after performance reviews. The carrier even logs execution history so anomalies can trigger an immediate shutdown. It's the first major enterprise to treat AI agents with the same lifecycle rigor as human employees — and it signals where governance is heading for everyone else.",
+        "slants": {
+          "strategy": "If your organization deploys AI agents, ask whether you could name each one, its owner, and its access level today. If not, that's the governance gap to close before you scale.",
+          "leaders": "Assign every AI agent on your team an owner the same way you'd assign a direct report. When nobody is accountable for an agent's output, the risk accumulates silently.",
+          "operations": "Agent lifecycle management is operations work: inventory, access review, performance tracking, retirement. The discipline is the same one you apply to systems and permissions already.",
+          "pm": "Add agent governance milestones to your project plans: who owns the agent, what it can access, how its output gets reviewed, and what triggers a shutdown or retirement.",
+          "admin": "You already manage onboarding checklists, access requests, and offboarding for people. Extending that same discipline to AI agents is a natural fit — and an increasingly valuable one."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI agents or automated tools your team uses — bots, scheduled workflows, automated assistants.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Help me create a simple 'AI agent personnel file' template with these fields: agent name, purpose, owner, systems it can access, autonomy level (low/medium/high), last reviewed date, and retirement criteria. Format it as a table I could fill in during one meeting.\"</em>",
+            "Fill in the template for one agent or automated tool you know about. Note where you have gaps.",
+            "Share the template in the group and flag: which field was hardest to fill in?"
+          ]
+        }
+      },
+      {
+        "title": "The executive AI conversation just shifted from 'should we?' to 'how do we govern this?'",
+        "source_url": "https://www.cnbc.com/2026/10/28/cnbc-technology-summit-live-updates.html",
+        "body": "At CNBC's 2026 TEC Summit this week, the conversation among technology executives wasn't about whether to adopt AI. It was about how to govern, scale, and pay for what they've already started. <em>One speaker called the debate over pausing AI development \"almost irrelevant to most enterprises\"</em> — the technology is in production and the questions are operational. That shift matters. When the C-suite moves from experimentation to governance, it means AI decisions are being absorbed into the same structures that manage budgets, risk, and talent. The organizations ahead right now aren't the ones with the best models. They're the ones with the clearest ownership.",
+        "slants": {
+          "strategy": "The strategic advantage isn't adopting AI first anymore. It's having governance structures that let you scale AI decisions faster than competitors who are still figuring out who approves what.",
+          "leaders": "If your team is still in the 'should we use AI?' conversation, the rest of the market is moving on. Shift the question to 'who owns this, and how do we measure it?'",
+          "operations": "Governance at scale is an operations problem. The frameworks for risk management, compliance, and process documentation you already maintain are exactly what AI governance needs.",
+          "pm": "AI project planning now includes governance checkpoints alongside delivery milestones. Adding them early is faster than retrofitting them when the C-suite asks.",
+          "admin": "When executives shift to governance mode, they need people who understand process, documentation, and compliance — skills you already bring to the table."
+        },
+        "challenge": {
+          "steps": [
+            "Think about your organization's current approach to AI: are you still experimenting, actively scaling, or somewhere in between?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My organization is at the [experimenting / scaling / somewhere in between] stage of AI adoption. Help me identify the 3 most important governance questions we should answer before going further. For each question, tell me who in the organization should own the answer and what 'good' looks like. Keep it practical — one paragraph per question.\"</em>",
+            "Review the questions and check: does your organization have clear answers to any of them? Mark the ones that are still open.",
+            "Share in the group: which governance question does your organization most need to answer right now?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Thursday evening, before it gets any colder — let AI build you a winter-prep checklist for your actual home.",
+      "body": "Generic winterizing lists are everywhere. What you need is one built for your situation: your climate, your home type, your skill level, and your budget. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I live in [your city or region] in a [house/apartment/condo/townhouse]. It's [describe your situation: e.g., 'my first winter here,' 'an older home with drafty windows,' 'a rental so I can't do major work']. My budget for winter prep is about [amount]. My DIY skill level is [beginner/intermediate/handy]. Give me a prioritized winter-prep checklist — most impactful items first — customized to my situation. For each item, tell me the rough cost, how long it takes, and whether I need help or can do it myself. Skip anything that doesn't apply to my setup.\"<br><br>The technique: <em>constraint-loaded prompting</em>. Instead of asking for generic advice, you gave AI five constraints up front (location, home type, situation, budget, skill level). The more constraints you provide, the more specific and useful the output becomes. Try it with anything: ask for a fitness plan with your schedule, injuries, and equipment, or a meal plan with your dietary restrictions, kitchen tools, and grocery budget. Constraints are what turn a generic answer into your answer."
+    }
   }
 }
