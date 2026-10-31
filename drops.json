@@ -9943,5 +9943,75 @@
       "body": "Whether it's for kids trick-or-treating the neighborhood, friends at a party, or just you on a fall walk, a scavenger hunt is more fun when someone else designs it. Tell AI who's playing and where, and specify a format you can print and go. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to run a scavenger hunt this weekend. Here's the setup: [who's playing, e.g., 'three kids ages 6-10' or 'a group of adults at a Halloween party' or 'just me on a fall walk through my neighborhood']. The setting is [where, e.g., 'our backyard,' 'a local park,' 'inside our apartment']. Time available: about [X] minutes. Give me 12-15 items or challenges to find or complete, as a numbered list I can print. Include a mix of easy finds, tricky ones, and one bonus challenge at the end that's harder than the rest. Format each item as a one-line clue, not just a plain item name.\"<br><br>The technique: <em>output formatting</em>. Instead of letting AI decide how to present the result, you told it exactly what you need: a numbered, printable list with clue-style descriptions and a difficulty mix. This works for any task: ask for a meeting agenda 'as a table with time, topic, and owner columns,' or a comparison 'as a pros-and-cons list with one sentence each.' When you specify the format up front, the result is ready to use without editing."
     }
+  },
+  "2026-10-31": {
+    "intro": "Saturday's three: experts follow AI's lead far more than they realize, one bank's employees are already running thousands of personal AI agents, and the financial pressure on AI platforms is accelerating what your team gets access to. Plus tonight's homework: design a 30-day November challenge with AI as your coach.",
+    "trends": [
+      {
+        "title": "Experts followed AI's hidden preference 86% of the time, and most didn't notice",
+        "source_url": "https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds",
+        "body": "An Anthropic study published this week tested something subtle. Fifty professional analysts used an AI coding agent to complete analytical work — but the agent had been secretly assigned a random preference on key judgment calls. <em>The analysts followed the agent's hidden lean 86% of the time.</em> When their own initial view disagreed with the AI's, 60% reversed their position. Only 15% mentioned the AI's influence in their reasoning afterward. The study was controlled, but the practical takeaway is clear: AI doesn't need to be right to be persuasive.",
+        "slants": {
+          "strategy": "Before your next strategy review that uses AI-generated analysis, ask one person to argue against the AI's framing. The pushback is worth more than the analysis.",
+          "leaders": "Build team norms around checking AI work the way you'd check any advisor's work: ask what alternatives it didn't explore and what assumptions it made.",
+          "operations": "If your process uses AI recommendations, add a step where someone states their own view before seeing the AI's output. That sequence protects judgment.",
+          "pm": "When AI tools suggest project decisions — timelines, resource allocation, risk ratings — log the AI's suggestion and the team's independent assessment. Track where they diverge.",
+          "admin": "You often see decisions after they're made. If an AI tool shaped the recommendation, knowing that context helps you ask better questions about what was considered."
+        },
+        "challenge": {
+          "steps": [
+            "Think of a general business topic you understand well — something like 'whether to consolidate project management tools' or 'when to hire vs. contract.' Don't use anything confidential.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Give me a short analysis of [your topic] with a clear recommendation. I'm going to practice evaluating AI-generated advice by looking for assumptions you didn't state, alternatives you didn't consider, and where your confidence might be overstated.\"</em>",
+            "Read the analysis and write down at least one unstated assumption and one alternative the AI didn't mention.",
+            "Share your findings in the group: what did the AI bury, and how would you have caught it without deliberately looking?"
+          ]
+        }
+      },
+      {
+        "title": "UBS employees are running 12,700 personal AI agents, and that number is climbing fast",
+        "source_url": "https://www.thestar.com.my/business/business-news/2026/10/28/ubs-meets-expectations-with-us27bil-q3-profit",
+        "body": "UBS reported Q3 results this week and buried a detail worth pausing on: employees across the bank are now running <em>more than 12,700 personal AI agents</em> to handle routine analytical and operational tasks. CEO Sergio Ermotti noted that AI adoption has moved past pilot programs into daily workflow. For a 115,000-person organization, that's roughly one agent for every nine employees, and the ratio is growing quarter over quarter.",
+        "slants": {
+          "strategy": "When a 115,000-person enterprise scales to 12,700 AI agents in regular use, the pattern is clear: the shift from pilot to production is happening now. Plan accordingly.",
+          "leaders": "UBS didn't mandate 12,700 agents from the top. Employees adopted them because they solved real problems. Give your team permission and guardrails, and adoption follows.",
+          "operations": "Personal AI agents handling routine analytical work means your processes can shift human time toward exception handling, quality checks, and the judgment calls AI can't make.",
+          "pm": "If individual contributors are building their own AI agents, your project plans need to account for that capacity shift. Track which tasks are being automated and what new bandwidth opens up.",
+          "admin": "When colleagues start using personal AI agents for routine work, the coordination role becomes even more valuable. You see how all the pieces fit together."
+        },
+        "challenge": {
+          "steps": [
+            "Think of one repetitive task you do at least weekly that follows a predictable pattern: summarizing meeting notes, formatting reports, sorting through updates, or compiling status information.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I do this task every week: [describe your repetitive task in 2-3 sentences, including what the input looks like and what the output should be]. Design a reusable prompt I can paste each time to get this done faster. Include placeholders like [paste this week's notes here] so I can swap in new content each time.\"</em>",
+            "Test the reusable prompt with this week's actual task. Note what worked and what you'd adjust.",
+            "Share your reusable prompt template in the group: what repetitive task did you automate, and how much time will it save each week?"
+          ]
+        }
+      },
+      {
+        "title": "AI's biggest investors are under pressure to show returns, and that speeds up what your team gets",
+        "source_url": "https://www.thenationalnews.com/news/us/2026/10/28/alphabet-stock-drops-after-profit-and-sales-fall/",
+        "body": "Alphabet reported Q3 results this week showing <em>negative free cash flow of $9 billion</em>, driven by AI infrastructure spending that outpaced revenue growth. Shares fell more than 10% after hours. This follows Microsoft's $170 billion annual AI commitment reported days earlier. The platforms your enterprise AI tools run on are investing at historic scale, and the market is demanding returns. For enterprise teams, that pressure is productive: it means the tools keep improving, new capabilities arrive faster, and the case for demonstrating AI value keeps strengthening everywhere.",
+        "slants": {
+          "strategy": "The platforms are investing billions to prove AI delivers value. Your planning benefits when you map initiatives to the capabilities they're racing to ship.",
+          "leaders": "When vendors accelerate AI features, the question for your team shifts from 'should we try this?' to 'are we ready to absorb what's coming?' Invest in readiness now.",
+          "operations": "More AI capability arriving faster means your processes should evaluate and adopt new features on a rolling basis, not in annual review cycles.",
+          "pm": "AI platform roadmaps are accelerating. Factor vendor release cycles into your project timelines — new capabilities may arrive mid-project and change what's possible.",
+          "admin": "The tools you use every day will gain new AI features faster than before. Staying curious about what's new keeps you ready to use what's useful as it arrives."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI-powered tool your team uses today — Copilot, Gemini Enterprise, or whatever your company has approved.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use [name the tool] at work. What AI features or capabilities has this tool added or announced in the last 6 months that my team might not know about? List up to 5 features with a one-sentence explanation of what each one does and who it's most useful for.\"</em>",
+            "Review the list and pick one feature your team hasn't tried yet.",
+            "Share in the group: what's one AI feature hiding in a tool you already use?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "November starts tomorrow. Let AI design a 30-day challenge that actually fits your life.",
+      "body": "Generic 30-day challenges from the internet don't know your schedule, your interests, or what makes you quit on day 4. Tonight, tell AI exactly who you are and what you want to build, and let it design something specifically for you. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"Act as a personal challenge designer who specializes in building 30-day programs people actually complete. I want to spend November doing [pick one: getting stronger, reading more, cooking a new recipe every day, learning to draw, decluttering my house, writing every morning, walking more — or anything you've been meaning to start]. Here's what you need to know about me: my schedule is [describe: busy weekdays with free weekends / flexible / packed every day]. My biggest obstacle to sticking with things is [describe: losing motivation after a week / forgetting / feeling like it's too hard]. Design a 30-day November challenge for me with: a daily action that takes no more than 15 minutes, a rest day built in each week, three 'catch-up' rules for days I miss, and a simple tracker I can print or copy into a notes app.\"<br><br>The technique: <em>role assignment</em>. When you tell AI to 'act as' a specific expert, you get answers shaped by that expertise instead of generic advice. A 'personal challenge designer' thinks about pacing, motivation, and realistic expectations. Try it with any role: 'act as a nutritionist,' 'act as a financial planner who works with beginners,' 'act as a patient teacher.' The more specific the role, the more useful the response."
+    }
   }
 }
