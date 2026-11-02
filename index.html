@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-11-02": {
+      intro: "Monday's three: banks are writing the first rules for AI agents, one bank's all-in AI strategy is delivering \u20ac194 million in measurable value, and the most in-demand AI skill turns out to be one you've been using for years. Plus tonight's homework: redesign your morning routine with one AI-coached change.",
+      trends: [
+        {
+          title: "Banks are writing the first rulebook for AI agents",
+          body: "Major US banks including JPMorgan, Citi, Bank of America, and Schwab are actively blocking third-party AI agents from customer accounts. <em>Schwab says it's stopping unauthorized agents a double-digit number of times every week.</em> The trigger: agents were logging in with customers' own credentials and taking actions nobody authorized. Some banks are allowing read-only access as a middle ground, but the signal is clear \u2014 the first industry-wide trust framework for AI agents is being built right now, and every sector is paying attention.",
+          slants: {
+            strategy: "Your AI agent roadmap needs a section on partner readiness. If the institutions you work with aren't ready to accept agent-to-agent interactions, your timeline shifts.",
+            leaders: "Run a quick audit: which of your team's AI tools interact with external systems? Make sure someone owns the relationship between your agents and the organizations they touch.",
+            operations: "Any process where an AI agent accesses a partner system \u2014 banking, procurement, compliance \u2014 needs a documented fallback for when the partner changes the rules.",
+            pm: "If your project plan assumes AI agents will handle cross-organizational tasks like approvals or data pulls, flag the dependency now. External controls are tightening faster than most plans account for.",
+            admin: "You manage the interfaces between your organization and the outside world every day. As AI agents start crossing those boundaries, your knowledge of vendor rules and partner expectations becomes essential."
+          },
+          challenge: {
+            steps: [
+              "Think about one workflow in your team that crosses an organizational boundary \u2014 a vendor portal, a banking platform, a partner system, a government filing. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I work in [your role] and my team has a workflow that involves [describe the cross-boundary interaction \u2014 e.g., submitting invoices to a vendor portal, pulling reports from a partner platform]. If we used an AI agent to handle this, what are the top 3 concerns the partner organization would likely raise? For each concern, suggest one practical safeguard. Keep each answer to 2 sentences.\"</em>",
+              "Review the concerns and identify one your team hasn't discussed yet.",
+              "Share in the group: what cross-boundary workflow did you examine, and what concern hadn't been on your radar?"
+            ]
+          }
+        },
+        {
+          title: "Santander's all-in AI strategy is delivering real returns: \u20ac194 million and counting",
+          body: "Santander's Q3 2026 earnings put a number on what broad AI access looks like: <em>\u20ac194 million in measurable AI-driven business value in nine months</em>, tracking toward a \u20ac1 billion target by 2028. The move that made the difference wasn't a pilot or an innovation lab. They extended AI tools to all 185,000 employees and measured what happened. The returns came from both new revenue and cost savings, spread across the entire organization \u2014 not concentrated in one team.",
+          slants: {
+            strategy: "Santander's numbers show what most pilot programs can't: AI ROI scales when access does. If your AI strategy is still gated to select teams, the business case for broader access just got a benchmark.",
+            leaders: "The decision to give every employee AI access is a leadership call, not a technology one. Santander tracked the results and found value across the board. You can make the same case with data from your own organization.",
+            operations: "When AI tools reach every team, gains compound \u2014 one department's AI-improved output becomes another's cleaner input. That's the difference between isolated efficiency wins and a system-wide improvement.",
+            pm: "Projects that build AI into the workflow from day one deliver returns faster than ones that bolt it on later. Santander's \u20ac194 million gives you a concrete benchmark for your next project proposal.",
+            admin: "When the whole organization gets AI access, the people handling the most repetitive cross-functional work see the most immediate benefit. That's administrative professionals \u2014 and those returns are part of Santander's total."
+          },
+          challenge: {
+            steps: [
+              "Think about one task you do regularly that's repetitive but important: formatting reports, reconciling information, summarizing meetings, triaging requests. Don't use anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I spend approximately [time estimate] per week on [describe your repetitive task]. Walk me through exactly how I could use AI to cut that time in half. Be specific: what do I prepare, what do I ask the AI to do, and what do I check before using the output? Assume I'm new to using AI for this kind of work.\"</em>",
+              "Try the AI-assisted version once this week and note how long it takes compared to your usual approach.",
+              "Share in the group: what task did you test, how much time did you save, and would you use AI for it again?"
+            ]
+          }
+        },
+        {
+          title: "The most in-demand AI skill isn't technical \u2014 it's the one you already use every day",
+          body: "Randstad's 2026 Tech Talent Report surveyed over 1,100 hiring decision-makers across 11 countries and found a counterintuitive bottleneck. <em>61% of employers say communication and stakeholder management skills are harder to find than technical AI skills.</em> Organizations can train people on tools. What they can't easily train is the ability to take what AI produces and turn it into a decision a roomful of people will trust. That skill commands the real premium \u2014 and it doesn't require a single line of code.",
+          slants: {
+            strategy: "The strategic advantage isn't AI itself \u2014 it's the person who connects AI output to the decision the business needs. Build your team around that translation skill, not tool proficiency alone.",
+            leaders: "When hiring or developing your team, weight communication and judgment as heavily as technical AI skills. Randstad's data says the market already does.",
+            operations: "The bottleneck in most AI-enabled processes isn't the model \u2014 it's the handoff between AI output and human decision. Streamlining that handoff is an operations challenge, not a technical one.",
+            pm: "The PM who can explain what the AI found, what it missed, and what the team should do next is more valuable than the PM who knows every tool's features. That's your lane.",
+            admin: "You've spent years translating between systems, people, and priorities. That's exactly the skill employers say they can't find enough of. AI doesn't replace it \u2014 it makes it more visible and more valued."
+          },
+          challenge: {
+            steps: [
+              "Think about a recent piece of work where you explained something complex to someone who needed it simpler: a report summary, a project update, a recommendation for a decision-maker. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I need to explain [describe the complex topic in 1-2 sentences] to [describe the audience: a senior leader, a cross-functional team, a non-technical stakeholder]. Give me three versions: a one-sentence summary for an email subject line, a three-sentence version for a quick message, and a one-paragraph version for a formal update. Each version should emphasize what this means for the audience, not just what happened.\"</em>",
+              "Compare the AI's versions to how you originally communicated it. Note what AI did well and what you'd improve.",
+              "Share in the group: what did you learn about how AI handles audience-aware communication, and where did your human judgment add something the AI missed?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Monday reset. Tonight, hand AI your morning routine and ask it to find the one change that would actually stick.",
+        body: "Most morning routines weren't designed \u2014 they just happened. You wake up, check your phone, rush through coffee, and realize the morning is gone before you did anything on purpose. Tonight, describe your actual morning to AI and ask for one coached change. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Here's how my typical weekday morning actually goes, honestly: [describe your morning from alarm to starting work \u2014 include the good, the bad, and the parts you'd never post online]. I have roughly [number] hours between waking up and starting work. Act as a personal productivity coach. Don't redesign my whole morning \u2014 find the single highest-leverage change. One swap, one addition, or one thing to stop doing that would make the biggest difference in how I feel when I sit down to work. Explain why that one change matters more than the others you considered, and give me a specific plan to try it tomorrow morning.\"<br><br>The technique: <em>single-change coaching</em>. Instead of asking AI for a full overhaul (which feels overwhelming and gets abandoned by Wednesday), you asked for the one move with the highest return. When AI has to rank and prioritize, it gives you reasoning you can actually evaluate \u2014 and one change you might actually make. This works any time you're tempted to ask for a complete plan: ask for the single most important thing first."
+      }
+    },
   "2026-11-01": {
       intro: "Sunday's three: there's a 53-point gap between how leaders and employees see AI readiness, workers are quietly finding their own AI tools when the approved ones don't fit, and AI skills now carry a 62% wage premium that has nothing to do with coding. Plus tonight's homework: plan your Thanksgiving potluck dish with AI as your sous chef.",
       trends: [
