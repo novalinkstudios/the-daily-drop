@@ -980,6 +980,74 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-11-04": {
+      intro: "Wednesday's three: data platforms are building the trust layer that makes AI agents safe to deploy, organizations labeling AI-assisted work early are earning a lasting credibility edge, and AI watermarking is becoming built-in infrastructure with early adopters already ahead. Plus tonight's homework: let AI run a quick security checkup on your personal accounts.",
+      trends: [
+        {
+          title: "Enterprise data platforms are building the trust layer that makes AI agents safe to scale",
+          body: "BigDATAwire reports that Snowflake, Databricks, and SAP are all building agent control planes into their existing data governance catalogs. The question driving enterprise AI strategy has shifted: it's no longer <em>\"what data can AI access?\"</em> but <em>\"what actions can AI agents take on their own?\"</em> The companies that already own your data layer want to own your agent layer too, with identity, permissions, and audit trails that give leadership a clear line of sight into what agents are doing.",
+          slants: {
+            strategy: "If your AI agent strategy lives in a different system than your data governance, you're building two control planes that should be one. Map the overlap before your vendors do it for you.",
+            leaders: "The teams managing data governance and AI deployment may be reporting to different people right now. Connect them before the first agent audit question lands on your desk.",
+            operations: "Every agent touching a production system needs the same access controls, logging, and approval gates you'd give a new contractor with system access. The tooling is arriving. Make sure your requirements shape it.",
+            pm: "Agent governance adds a new dependency to every AI-enabled project: who approves the agent's permissions, who reviews its actions, and who's accountable when something goes sideways. Build it into the charter now.",
+            admin: "You already manage access requests, permission changes, and audit trails for people. AI agents will need the same process, and your experience running it is exactly what the governance conversation needs."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or automated process your team uses that takes actions without asking first: sending messages, updating records, generating reports, or making recommendations. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"We use an AI tool that [describe what it does in one sentence]. Help me create a simple governance checklist: who authorized this tool's access, what can it do without human approval, how do we track what it's done, who reviews its output, and what's the process if it makes a mistake? Format it as a checklist I could bring to a team meeting. Keep it jargon-free.\"</em>",
+              "Review the checklist. Identify the question your team hasn't answered yet.",
+              "Share in the group: what governance gap did you find, and who should own the answer?"
+            ]
+          }
+        },
+        {
+          title: "Organizations labeling AI-assisted work now are building the credibility edge that lasts",
+          body: "CNBC reports that researchers tracked more than 220 AI-generated or AI-enhanced political ads in the 2026 midterms, with total spending topping <em>$137 million, up from under $50,000 in 2024</em>. Roughly 73% carried no AI disclosure label, and there's still no federal law requiring one. The lesson extends well past politics: when AI-generated content scales faster than the systems meant to verify it, <em>the ability to evaluate what you're reading becomes a core professional skill</em>.",
+          slants: {
+            strategy: "Your organization produces strategy documents, reports, and recommendations that inform real decisions. If no one can tell which analysis was drafted by a person versus an AI, that's a credibility gap worth addressing before someone else raises it.",
+            leaders: "Set a team norm now: AI-assisted work gets labeled, not as a penalty, but as a quality signal. Teams that build this habit early earn trust, not suspicion.",
+            operations: "When AI-generated reports or forecasts enter your workflows without labels, errors compound silently. A simple provenance tag, even an informal one, makes quality review possible.",
+            pm: "If your project deliverables include AI-generated content (and they likely do), start documenting it. When the audit question arrives, the teams with clean records will be the ones that keep moving.",
+            admin: "You're often the first person to touch a document before it reaches a decision-maker. Your instinct for what sounds off, what needs a source, and what's missing context is more valuable than ever."
+          },
+          challenge: {
+            steps: [
+              "Find a short article, summary, or document you read recently that felt polished but didn't have a clear author or source. (Don't use anything confidential.)",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I'm going to share a short piece of text. Tell me: does this read like it was written by a person, generated by AI, or a mix? What specific signals are you picking up on? Then give me 3 questions I should ask about any document before I trust its conclusions. Make them practical, not technical.\"</em> Then paste the text.",
+              "Review the three questions. Think about whether you ask them consistently.",
+              "Share in the group: what signals helped you evaluate the content, and which question will you start asking routinely?"
+            ]
+          }
+        },
+        {
+          title: "AI watermarking is becoming built-in infrastructure, giving early adopters a compliance head start",
+          body: "Starting November 7, xAI will add invisible statistical watermarks to all Grok API text output by default, a move driven by the <em>EU AI Act's December 2 compliance deadline</em> for generative AI systems. xAI had previously declined to watermark text; Anthropic already watermarks Claude output globally. The pattern is clear: tracking whether AI produced something is moving from optional to <em>standard infrastructure</em>. Organizations thinking about internal content provenance now, even informally, will be better positioned when their industry's version of this requirement arrives.",
+          slants: {
+            strategy: "Content provenance is becoming a compliance requirement, not a voluntary practice. If your team uses AI for customer-facing content, partner communications, or regulatory filings, the tracking question is already heading your direction.",
+            leaders: "Start a simple conversation with your team: what do we produce with AI assistance, and how would we show that if asked? The answer doesn't need to be perfect yet; it just needs to exist.",
+            operations: "Process documentation, SOPs, and internal reports generated with AI will eventually need provenance tracking. Building it into the template now costs almost nothing; retrofitting later costs real time.",
+            pm: "Add a line to your project deliverables template: 'AI tools used in production of this document.' Ten seconds per deliverable creates an audit trail that saves hours later.",
+            admin: "When content labels become standard, you'll be the person people ask to manage the tracking. Getting familiar with what content provenance means now puts you ahead of that moment."
+          },
+          challenge: {
+            steps: [
+              "Open a blank note and list 3 types of content your team produces regularly: reports, emails, presentations, SOPs, proposals, anything.",
+              "Next to each one, write a label: <em>\"fully human-written\"</em>, <em>\"AI-assisted\"</em>, or <em>\"mostly AI-generated.\"</em>",
+              "For each item you labeled AI-assisted or AI-generated, ask yourself: would a reader know AI was involved? Is there any record of which tool was used?",
+              "Pick one content type where the answer to both questions is no. Sketch what a lightweight tracking step would look like.",
+              "Share in the group: what content type surprised you, and what simple labeling step would you add?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Tonight, let AI run a quick security checkup on your personal accounts.",
+        body: "Most of us have dozens of online accounts and a handful of passwords shared across too many of them. You don't need to fix everything tonight, just find out where you stand. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"Walk me through a personal account security checkup, one category at a time. Start with email accounts, then banking, then social media, then shopping sites, then anything else I might forget. For each category, ask me: how many accounts do I have, do any share the same password, is two-factor authentication turned on, and when did I last update the password? After we go through all the categories, give me a prioritized action list: what to fix first, what can wait, and one quick win I can do in under five minutes right now.\"<br><br>The technique: <em>systematic sweep prompting</em>. Instead of asking one broad question, you're telling the AI to walk through a domain category by category, asking the same set of questions for each. This surfaces gaps you'd miss with a general ask. It works for any personal audit: reviewing your insurance coverage area by area, checking emergency preparedness room by room, or evaluating your fitness routine muscle group by muscle group. Don't paste any actual passwords or account numbers into the chat."
+      }
+    },
   "2026-11-03": {
       intro: "Tuesday's three: Gartner says AI strategy miscalculation just became a top-five enterprise risk, Cisco is testing whether a tiny team with unlimited AI tokens can rewrite 98% of its legacy code, and enterprise leaders are still spending on AI \u2014 but now they want proof it works. Plus tonight's homework: Thanksgiving is three weeks out \u2014 let AI help you write a toast you'll actually want to give.",
       trends: [
