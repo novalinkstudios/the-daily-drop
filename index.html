@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-11-05": {
+      intro: "Thursday's three: AI agents are now doing 80% of enterprise AI work and the investment is following, AI-powered security scanning just made the Linux kernel measurably safer in 10 days, and multi-agent orchestration is going mainstream with Meta's latest acquisition. Plus tonight's homework: build a winter reading list that actually matches how you read.",
+      trends: [
+        {
+          title: "AI agents are now doing 80% of enterprise AI work, and the investment data shows why",
+          body: "Menlo Ventures' 2026 State of Enterprise AI report, released this week from a survey of nearly 400 U.S. enterprise decision-makers, found a shift most planning teams missed: <em>autonomous AI agents now consume 80% of token usage</em> on platforms built for model interaction, and enterprises are spending roughly 2.5 times their planned AI budgets as a result. Total enterprise AI spending hit $176.8 billion by September \u2014 up 5.4x from last year. The overruns aren't waste. They're a signal that agents are doing more work than anyone forecasted.",
+          slants: {
+            strategy: "If your 2027 AI budget is based on 2025 usage patterns, it's already wrong. Agents consume tokens at a rate humans never did \u2014 rebuild the forecast before planning season ends.",
+            leaders: "Ask your finance and AI teams to sit in the same room this week. The gap between planned and actual AI spend is a conversation that gets harder the longer you wait.",
+            operations: "Agent-driven token consumption means your AI cost structure looks more like cloud compute than software licensing. Build the same monitoring and alerting you'd use for any scaling infrastructure.",
+            pm: "Every project using AI agents needs a token budget line item, reviewed monthly. The projects that track consumption early are the ones that stay funded through the next review cycle.",
+            admin: "When the AI budget conversations start \u2014 and they will \u2014 you're likely managing the calendars, briefing documents, and meeting prep. Knowing that agent usage is the main cost driver gives you context to ask the right questions."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or automated process your team uses regularly. Estimate how often it runs without someone actively watching \u2014 daily, hourly, continuously. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team uses an AI tool for [describe the use case in one sentence]. It runs [how often]. Help me build a simple cost-awareness checklist: what usage metrics should we track, how do we estimate what it costs per month, who should review the spend, and what would a healthy usage-to-value ratio look like? Keep it practical \u2014 assume I'm not a finance person.\"</em>",
+              "Review the checklist and identify the one metric your team isn't tracking yet.",
+              "Share in the group: what surprised you about how much AI is running in the background, and what metric would you start tracking first?"
+            ]
+          }
+        },
+        {
+          title: "AI-powered security scanning just made the Linux kernel measurably safer in 10 days",
+          body: "OpenAI published results this week from an autonomous security pipeline that analyzed the Linux kernel. In a single run, the agents identified 2,308 candidates, reproduced 1,724 vulnerabilities, and produced <em>948 working privilege-escalation exploits \u2014 including 10 attack techniques kernel experts hadn't seen before</em>. The cost: $1.2 million in API credits, about $1,279 per exploit. Hundreds of patches have already been sent to Linux maintainers. AI isn't replacing security teams. It's giving defenders a tool that works at a scale no human team could match.",
+          slants: {
+            strategy: "When AI can audit infrastructure at this speed, the question shifts from \"can we afford thorough security testing?\" to \"can we afford not to run it continuously?\" Factor that into your risk planning.",
+            leaders: "This is a concrete example to share with your team: AI found vulnerabilities that human experts missed, and humans decided which ones to fix and how. That's the partnership model worth building toward.",
+            operations: "Continuous automated security scanning at this scale means your vulnerability management process needs to handle volume. Start thinking about how your team would triage 948 findings, not 48.",
+            pm: "Security testing timelines in your project plans may need updating. When AI can run a 10-day scan that would take months manually, the bottleneck shifts from finding problems to prioritizing fixes.",
+            admin: "The next time someone asks \"what does AI actually do?\" \u2014 this is a clear answer. AI found nearly a thousand security flaws, and humans are fixing them. That's a story worth knowing."
+          },
+          challenge: {
+            steps: [
+              "Think about a recurring task in your work that involves reviewing, checking, or verifying something \u2014 catching errors in reports, auditing records, reviewing documents for completeness. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I regularly [describe your review or checking task in 1-2 sentences]. Right now it takes me about [time estimate]. If an AI tool could do a first pass on this task, what would it check for? Give me a 'first-pass checklist' the AI could run, and a 'human judgment checklist' for what I'd still need to verify myself. Make both checklists concrete and specific to my task.\"</em>",
+              "Compare the two checklists. Notice what AI could handle at scale and what genuinely requires your judgment.",
+              "Share in the group: what task did you examine, and where did you draw the line between AI's first pass and your own review?"
+            ]
+          }
+        },
+        {
+          title: "Multi-agent orchestration is going mainstream \u2014 Meta just acquired the startup leading it",
+          body: "Meta acquired Conductor on Tuesday, a Y Combinator-backed startup whose platform lets engineers <em>run multiple AI agents in parallel, each in its own isolated workspace</em>, then review and merge their output. The same day, OpenAI announced plans to acquire Pierre Computer, another developer tools startup. The pattern matters beyond engineering: the next wave of AI productivity isn't one chatbot doing one task. It's coordinated teams of agents working simultaneously on different pieces of the same problem \u2014 with a human reviewing the results.",
+          slants: {
+            strategy: "Multi-agent orchestration is moving from research concept to acquired product. When planning AI-enabled workflows, think beyond single-tool automation toward coordinated agent teams that divide complex work.",
+            leaders: "The skill your team will need next isn't prompting a single AI tool \u2014 it's reviewing and integrating output from multiple agents working on different parts of the same problem. Start building that review muscle now.",
+            operations: "Parallel agent workflows mean more output to quality-check, merge, and validate. The challenge shifts from \"how do we get AI to do the work\" to \"how do we manage the volume of AI-produced work.\"",
+            pm: "When AI agents work in parallel on different project components, your coordination role becomes more important, not less. Someone has to define what each agent works on, set the quality bar, and integrate the pieces.",
+            admin: "As AI tools multiply from one assistant to coordinated teams of agents, the person who tracks what's running, what needs review, and what's been approved becomes essential. That coordination skill is already in your toolkit."
+          },
+          challenge: {
+            steps: [
+              "Think about a complex task you've worked on recently that had multiple parts \u2014 a large report with sections, an event with many logistics, a project with several workstreams. Don't share anything confidential.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I recently worked on [describe the multi-part task in 1-2 sentences]. Imagine I could assign different AI agents to work on each part simultaneously. Break this task into 3-4 parallel pieces an AI could draft independently, then describe what my review process should look like when all the pieces come back. What would I check for consistency? What would I need to adjust? What would only I know how to integrate?\"</em>",
+              "Review the breakdown. Identify the integration step that requires your specific knowledge or judgment.",
+              "Share in the group: what complex task did you break down, and what part of the integration could only a human handle?"
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Heading into the long evenings \u2014 tonight, build a reading list that actually matches how you read.",
+        body: "Most book recommendation lists are built for some average reader who doesn't exist. Tonight, teach AI your actual reading habits and preferences, and let it find books you'll actually finish. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I want to build a reading list for the next few months. Before you recommend anything, ask me these questions one at a time: What are the last 3 books I read (or tried to read)? What did I like and dislike about each one? Do I prefer fiction, nonfiction, or a mix? How long do I usually have to read in one sitting? Do I tend to abandon books, and if so, what makes me quit? After I answer all five, recommend 5 books ranked by how likely I am to actually finish and enjoy them, based on my specific answers. For each book, tell me in one sentence why it fits me specifically \u2014 not why it's generally good.\"<br><br>The technique: <em>preference profiling</em>. Instead of asking for generic recommendations, you gave AI your actual behavior patterns \u2014 what you liked, what you quit, how you read. When AI knows your preferences and constraints, it filters for fit, not popularity. This works whenever you're choosing from too many options: podcasts, recipes, vacation spots, online courses. Describe how you actually use the thing, not just what category you want."
+      }
+    },
   "2026-11-04": {
       intro: "Wednesday's three: data platforms are building the trust layer that makes AI agents safe to deploy, organizations labeling AI-assisted work early are earning a lasting credibility edge, and AI watermarking is becoming built-in infrastructure with early adopters already ahead. Plus tonight's homework: let AI run a quick security checkup on your personal accounts.",
       trends: [
