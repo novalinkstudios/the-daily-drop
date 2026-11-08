@@ -10504,5 +10504,75 @@
       "body": "Open your free tool of choice (ChatGPT, Claude, Gemini, or Perplexity) and try this prompt. It teaches you to ask AI to explain something from two competing perspectives, a powerful way to build real understanding of any complex topic:",
       "prompt": "\"I've always been curious about [pick a historical event or era: the moon landing, the fall of the Berlin Wall, the invention of the printing press, anything]. Explain what happened from two opposing perspectives: someone who thought it was the best thing that could happen, and someone who thought it was a mistake. Keep each perspective to 3 or 4 sentences, then tell me one thing most people get wrong about it.\"<br><br>The trick: asking for <em>two opposing perspectives</em> forces AI to go deeper than a textbook summary. You get the tensions, the tradeoffs, and the nuance. That's how real understanding works. Try it on anything you're curious about."
     }
+  },
+  "2026-11-08": {
+    "intro": "Sunday's three: the organizations redirecting AI-freed time toward specific outcomes are pulling ahead of those just counting saved hours, strategy-first workforce planning is outperforming by 1.4x and any organization can make the shift, and a practical AI skills framework says start from your business goals — not a generic training catalog. Plus tonight's homework: design your ideal winter evening wind-down before the short days settle in.",
+    "trends": [
+      {
+        "title": "The teams redirecting AI-freed time are pulling ahead of the teams just measuring it",
+        "source_url": "https://www.cpapracticeadvisor.com/2026/11/05/gartner-identifies-three-steps-for-cfos-to-turn-ai-time-savings-into-business-value/193286/",
+        "body": "Gartner published guidance this week urging finance leaders to stop treating AI time savings as an end point. The insight that should change planning conversations: <em>most organizations measure hours saved but never decide where those hours go</em>. Gartner analyst Alexander Gstalder puts it plainly: \"AI-generated capacity is a resource, not a return.\" The recommended fix: define which business outcomes deserve the freed capacity, build time redeployment into how teams are measured, and track what people do with saved time — not just the time itself.",
+        "slants": {
+          "strategy": "The strongest AI business cases don't just measure hours saved — they name where those hours go next. That destination is the real return on your AI investment.",
+          "leaders": "Ask your team this week: where is the time AI saves you actually going? The conversation itself changes behavior — and gives you the information to make a smarter redeployment decision.",
+          "operations": "Freed capacity is valuable enough to protect. Name it, track it, and decide where it goes — the same discipline you'd bring to any new resource allocation.",
+          "pm": "Track 'time redirected to higher-value work' alongside 'time saved by AI' in your project metrics. The first one tells you whether the investment is compounding.",
+          "admin": "When AI handles drafts, scheduling, and formatting faster, the extra capacity in your day is real. Deciding where that time goes — toward priorities that use your judgment and expertise — is a professional development opportunity worth claiming."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one task where AI saves you time at work — even 20 minutes a week. Be honest about where that freed time actually goes right now.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I save about [time estimate] per week because AI helps me with [describe the task]. Right now that time mostly goes to [describe honestly: more meetings, catching up on email, nothing specific]. Help me write a one-paragraph 'capacity plan' that names three specific higher-value activities I could redirect that time toward — things that use my judgment, build relationships, or advance a strategic priority. Rank them by impact and explain your reasoning.\"</em>",
+            "Review the plan. Pick the one redirect you could realistically start this week.",
+            "Share your capacity plan in the group: where is your AI-freed time going today, and where will you send it instead?"
+          ]
+        }
+      },
+      {
+        "title": "Strategy-first workforce planning is outperforming by 1.4x, and the shift is within reach",
+        "source_url": "https://it-online.co.za/2026/11/06/strategic-workforce-planning-in-the-ai-era/",
+        "body": "IT-Online reports on Gartner's latest workforce planning research, and the performance gap is clear: <em>only 19% of organizations have workforce planning practices that effectively account for AI's impact</em> on how work gets done. The organizations that do are 1.4 times more likely to exceed revenue goals and 1.5 times more likely to exceed cost goals. Gartner's framework starts from a question most planning teams skip: what capabilities does your strategy actually need — not what workforce do you already have?",
+        "slants": {
+          "strategy": "The strongest workforce plans start from strategy: what capabilities do we need, and how do people and AI combine to deliver them? That framing keeps the plan forward-looking instead of anchored to old assumptions.",
+          "leaders": "The 19% of organizations planning effectively for AI are outperforming on revenue and costs. Ask your HR partner this week: does our workforce plan account for how AI is changing what each role actually does?",
+          "operations": "Operational teams are evolving fastest as AI shifts daily task mixes. Refreshing your capacity assumptions to reflect what AI now handles keeps your team's plan matched to how the work actually gets done.",
+          "pm": "When AI reshapes which tasks take time and which don't, project staffing assumptions shift too. A quick capabilities check at kickoff — what can AI handle, where does the team need to flex — keeps plans grounded.",
+          "admin": "You see which parts of the workload have changed and which haven't. That ground-level perspective is exactly what workforce planners need to get the AI picture right — and they rarely have access to it."
+        },
+        "challenge": {
+          "steps": [
+            "Think about your own role. List the three tasks you spend the most time on each week.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here are the three tasks I spend the most time on at work: [list them, without sharing confidential details]. For each one, tell me: is this task likely to stay roughly the same, shift significantly, or be mostly handled by AI within the next two years? Then suggest one skill or activity I should be building toward as each task evolves. Keep each answer to two sentences.\"</em>",
+            "Look at the predictions. Identify one shift you hadn't considered before.",
+            "Share in the group: what task evolution surprised you, and what skill are you starting to build toward?"
+          ]
+        }
+      },
+      {
+        "title": "AI skills planning works when it starts from your goals, not a generic training catalog",
+        "source_url": "https://www.prnewswire.com/news-releases/organizations-ai-success-starts-with-an-employee-skills-strategy-new-guide-published-by-hr-advisory-firm-mclean-amp-company-302926732.html",
+        "body": "McLean & Company published a guide this week on building AI skills strategies that stick. The firm's core argument: most organizations start AI training from <em>generic skill lists and trending course catalogs instead of their own strategic priorities</em>. The guide defines <em>19 foundational AI skills — 9 technical and 10 durable</em> — and lays out a four-step framework: set the scope from your strategy, build a customized skills library, prioritize against real business needs, then embed the skills across the organization. The mix your team needs depends on your context, not an industry benchmark.",
+        "slants": {
+          "strategy": "Your AI skills investment should trace back to strategic priorities. If you can draw a line from a training program to a business outcome, the program earns its budget. If you can't, it needs reframing.",
+          "leaders": "When investing in AI training, start by asking: what does our strategy need people to be able to do with AI? The answer shapes a better curriculum than any vendor catalog.",
+          "operations": "The 10 durable skills in McLean's framework — things like critical evaluation, ethical reasoning, and change readiness — are the ones that keep your team effective even as the tools change underneath them.",
+          "pm": "When scoping AI-enabled projects, match the skills your team has to what the project demands. The gap between the two is your real training plan — far more useful than a generic AI course.",
+          "admin": "The durable skills on McLean's list — communication, organizational knowledge, adaptability — are ones you use every day. A framework that names them as AI-era skills makes your experience visible as the asset it is."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI skill you've been meaning to develop — better prompting, evaluating AI output, using a specific tool, or something else entirely.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I want to get better at [describe the AI skill]. But instead of a generic learning plan, help me connect this skill to my actual work. I work in [your role] and my top priority this quarter is [describe one real priority, without sharing confidential details]. Design a 3-step practice plan that builds the skill while making progress on that priority. Each step should take under 30 minutes and use tools I already have access to.\"</em>",
+            "Try the first step this week. Notice whether tying the skill to real work makes it stick better than a standalone tutorial.",
+            "Share in the group: what AI skill are you building, and how did connecting it to an actual priority change your approach?"
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "The evenings are getting shorter. Tonight, let AI design your ideal winter wind-down.",
+      "body": "Winter comfort isn't about what you do — it's about how you want to feel when the evening starts. Most of us default to scrolling or streaming without designing the experience we actually want. Tonight, tell AI your real situation and the mood you're reaching for, and let it build something personal. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to design my ideal winter evening routine — something I'll actually look forward to on dark, cold weeknights. Here's my situation: I usually get home around [time], my evenings are [solo / with a partner / with kids / with roommates], my space is [cozy apartment / big house / one main room], and the feeling I want by the end of the night is [pick one: genuinely relaxed / creative and energized / warm and connected to someone / quietly content]. Build me a 90-minute evening plan with specific suggestions: something to eat or drink, something to do with my hands or mind, and a way to wind down before sleep. Don't make it aspirational — make it doable on a Tuesday when I'm tired. Then suggest one small purchase under $15 that would make the whole routine better.\"<br><br>The technique: <em>mood-first prompting</em>. Instead of asking AI for 'winter evening ideas,' you described the feeling you want to end up with. When AI knows your emotional target — not just the topic — it filters for suggestions that actually match, instead of giving you a generic list. Try this whenever you're designing an experience: planning a weekend, choosing a restaurant, picking a vacation. Start with how you want to feel, then let AI work backward to the specifics."
+    }
   }
 }
