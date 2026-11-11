@@ -10715,5 +10715,75 @@
       "body": "Fall evenings call for a great movie marathon, but scrolling through streaming apps for 40 minutes isn't it. Tonight, give AI your real preferences and let it build a curated lineup instead of a random list. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to plan a movie marathon for this weekend, three or four films that work together as a set. Here's what I'm in the mood for: [pick a vibe: cozy and heartwarming / edge-of-my-seat suspense / laugh-out-loud comedy / thought-provoking and quiet / visually stunning]. I've recently loved [name one or two movies you enjoyed]. I'm not in the mood for [anything you want to avoid]. Give me five options, ranked by how well they match the vibe I described. For each one, tell me in one sentence why it fits. Then pick the top three and suggest what order to watch them in for the best flow across the evening.\"<br><br>The technique: <em>ranked-option prompting</em>. Instead of asking AI for generic 'movie recommendations,' you gave it a specific criterion (your vibe) and asked it to rank options against that single measure. This works anytime you're choosing between options: restaurants, weekend plans, vacation spots, even which task to tackle first. Define the one thing that matters most, ask for a ranked list against it, and you skip the generic suggestions entirely."
     }
+  },
+  "2026-11-11": {
+    "intro": "Wednesday's three: organizations are discovering that human expertise is more valuable in the AI era than they expected — and the market is responding. AI skills are building real career capital, and the pay conversation is finally opening up. Plus a global survey of 3,700 leaders shows AI investments are delivering real returns, with a clearer picture of what to build next. Tonight's homework: pick something you use every day and let AI show you how it's actually made.",
+    "trends": [
+      {
+        "title": "Human expertise is proving its value in the AI era — and the market is pricing it in",
+        "source_url": "https://fortune.com/2026/11/09/ai-rebounding-20-us-workers-replaced-higher-pay-job-security/",
+        "body": "SHL's mid-year survey found a pattern researchers are calling \"AI rebounding\": <em>19.1% of American workers whose roles were handed to AI say their employer later asked them to return</em> — often at better terms. Among those returning, 51% negotiated a substantial raise and 42% secured written job-security guarantees. The takeaway isn't about AI failing. It's that organizations are learning, in real time, which human skills — judgment, context, institutional knowledge — are genuinely irreplaceable.",
+        "slants": {
+          "strategy": "This is useful planning data: human-AI collaboration delivers more than full replacement. Build your workforce strategy around pairing people with AI, not choosing between them.",
+          "leaders": "Investing in your team's development alongside AI adoption is paying off — organizations that kept their people through the transition are ahead of those now rehiring.",
+          "operations": "Your institutional knowledge — how things actually connect, where the edge cases live — is exactly what makes AI implementations work. That's a strength to build on.",
+          "pm": "The strongest AI rollouts pair technology with knowledge-transfer planning. Build that into your project timelines and you'll avoid the re-learn cycle.",
+          "admin": "Your understanding of how things actually work — the context, the relationships, the unwritten rules — is proving to be exactly the expertise AI needs alongside it. That's real leverage."
+        },
+        "challenge": {
+          "steps": [
+            "Think about a process or task in your area that's been automated or could be automated soon.",
+            "Open your company-approved AI tool and paste: <em>\"I work in [your role]. One process in my area that's been (or could be) automated is [describe it]. What institutional knowledge, context, or human judgment does this process depend on that would be hard to replace? List the top 3 things, and for each one, suggest how to capture or preserve that knowledge before it's lost.\"</em>",
+            "Review the list — is there something you take for granted that would be difficult to replace?",
+            "Share your top 'hard-to-replace' insight in the group."
+          ]
+        }
+      },
+      {
+        "title": "AI skills are building real career capital — and the pay conversation is opening up",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399638/0/en/payscale-s-ai-workforce-impact-report-ai-is-boosting-productivity-but-employers-struggle-to-put-a-price-on-it.html",
+        "body": "Payscale's 2026 AI Workforce Impact Report shows the value of AI skills is becoming hard to ignore: <em>56% of workers believe AI skills should command higher pay, and 83% of executives say their organizations pay or plan to pay more for them</em>. The recognition is real and growing. The compensation frameworks are catching up — half of employers say they're actively reworking salary structures to reflect AI capabilities. For anyone building AI skills right now, the career capital is accumulating whether or not the paycheck has moved yet.",
+        "slants": {
+          "strategy": "AI skills are becoming a recognized driver of team performance. Factor them into your talent development and compensation planning — the market is heading there.",
+          "leaders": "83% of executives plan to reward AI skills. Make sure your team knows that investment in learning is seen and valued — it accelerates adoption and retention.",
+          "operations": "The AI skills your team is building are making processes faster and more reliable. Recognizing that contribution keeps the momentum going.",
+          "pm": "Team members who've invested in AI skills are delivering more. Factor skill development into how you recognize contributions — it builds a stronger project team.",
+          "admin": "Every AI skill you build adds to your career capital. Document what you've learned and the outcomes it's produced — it belongs in your next development conversation."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank note and list 2-3 AI skills you've developed in the past year — tools you've learned, prompts you've refined, workflows you've improved with AI.",
+            "Open your company-approved AI tool and paste: <em>\"I work as a [your role]. Here are the AI skills I've developed recently: [list them]. Help me write a short AI skills impact statement — 3-4 sentences that connect each skill to a specific efficiency gain or outcome I could reference in a development conversation.\"</em>",
+            "Review the statement and adjust anything that doesn't match your actual experience.",
+            "Share one AI skill you've built and the outcome it produced in the group — helping others see what's possible builds community momentum."
+          ]
+        }
+      },
+      {
+        "title": "AI investments are delivering real returns — and showing organizations exactly what to build next",
+        "source_url": "https://www.kyndryl.com/us/en/about-us/news/2026/11/global-enterprise-ai-readiness-gap",
+        "body": "Kyndryl's global survey of 3,700 senior leaders brings a clear positive signal: <em>64% now see positive returns on AI investments, up 10 points from last year</em>. That momentum is giving organizations a sharper picture of what comes next — 58% now know their technology estate needs re-architecture to scale AI further, and the most forward-looking are already investing in security, governance, and infrastructure alongside their AI programs. The pattern is healthy: early wins are funding the foundation for durable value.",
+        "slants": {
+          "strategy": "AI ROI is real and growing. Use that evidence to build the case for the next wave — infrastructure, governance, and architecture investments that scale what's already working.",
+          "leaders": "The returns give you a concrete story to tell: AI is working, and now the smart investment is in the foundation that makes it sustainable. That's a compelling budget conversation.",
+          "operations": "The clearer picture of what infrastructure needs upgrading is actually good news — it means you can plan the work instead of reacting to it.",
+          "pm": "Early AI wins create momentum for the next phase. Add infrastructure readiness milestones to your project plans so the scaling path is clear from the start.",
+          "admin": "When AI tools work well, good infrastructure is why. Understanding that connection helps you advocate for the right investments and troubleshoot more effectively."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or process your team relies on — something that's already delivering value.",
+            "Open your company-approved AI tool and paste: <em>\"My team uses AI for [describe the use case]. It's working well, but I want to think about risks as we depend on it more. Give me a simple 4-question risk check for this use case: one question about data quality, one about security, one about what happens if the tool goes down, and one about governance.\"</em>",
+            "Answer the four questions honestly — even quick answers reveal gaps worth addressing.",
+            "Share your biggest 'aha' from the risk check in the group — awareness is the first step toward readiness."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Tonight, pick something you use every day and find out how it's actually made.",
+      "body": "Your phone, your coffee, a zipper, a pencil, a pane of glass — pick any everyday object and let AI walk you through the surprisingly complex journey from raw materials to the thing in your hand. It's a 10-minute rabbit hole that changes how you see ordinary things. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to understand how [name the object — a ballpoint pen, a stick of butter, a ceramic mug, whatever you're curious about] is actually made. Walk me through the full process from raw materials to finished product, step by step. For each step, tell me one thing that would surprise most people. Keep it conversational — I'm curious, not studying for an exam.\"<br><br>The technique here is <em>process breakdown prompting</em> — instead of asking 'tell me about X,' you ask AI to walk you through a process step by step with a specific lens (in this case, surprises). It turns a flat answer into a story. Use this anytime you want to understand something complex: 'walk me through how a mortgage actually works, step by step' or 'how does a bill become a law — and what surprises most people at each stage?'"
+    }
   }
 }
