@@ -10858,5 +10858,76 @@
       "body": "We all have one — the talk with a friend, a family member, or a neighbor that keeps getting pushed to next week. Tonight, instead of rehearsing it in your head (where you always win), let AI play the other person so you can hear how your words actually land. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I need to have a conversation with [relationship — e.g., my neighbor, my sibling, a friend] about [topic — e.g., splitting a shared cost, setting a boundary, returning something borrowed]. Play their role. Respond as they realistically would — not hostile, but not a pushover either. After each exchange, briefly coach me on what landed well and what I could say differently. Let's go — I'll start.\"<br><br>That last move — <em>asking AI to coach you between exchanges</em> — turns a simple role-play into a feedback loop. You'll walk into the real conversation having already heard the hard parts."
     }
+  },
+  "2026-11-13": {
+    "intro": "Friday's three: new data shows most companies are buying AI tools without investing in the people who use them — and the ones who do are pulling ahead. United Airlines just showed what proactive AI agent governance looks like in practice. And the world's largest chipmaker made a billion-dollar vote of confidence in AI's long-term future. Tonight's homework: let AI help you recreate the comfort food you've been missing.",
+    "trends": [
+      {
+        "title": "The companies investing in their people's AI skills are building an advantage most haven't started",
+        "source_url": "https://forbes.com/sites/sandervantnoordende/2026/11/12/only-3-of-employers-prioritize-building-ai-skills-in-house-that-has-to-change",
+        "body": "A Forbes analysis of Randstad's latest workforce data surfaces a striking gap: <em>only 3% of employers prioritize building AI skills in-house</em>, while 63% rely on external flexible talent instead. Meanwhile, entry-level job postings requiring AI skills have grown <em>more than fivefold since early 2025</em>. The demand for AI-capable people is accelerating — but most organizations are hiring for those skills rather than developing the people they already have. The ones investing in internal skill-building are creating an advantage that's hard to replicate from the outside.",
+        "slants": {
+          "strategy": "Internal AI fluency compounds in ways external hires can't match — your people already know the business. Make skills development a line item in your AI strategy, not an afterthought.",
+          "leaders": "If you're developing your team's AI capabilities alongside tool adoption, you're ahead of 97% of employers. Keep investing — that combination of AI skill and institutional knowledge is the real competitive edge.",
+          "operations": "The best AI implementations come from people who know the process AND the tool. Supporting your team's AI development pays off in fewer missteps and faster adoption.",
+          "pm": "Build AI skill-building into your project timelines. Teams that learn alongside the rollout deliver better outcomes than teams handed a tool they weren't prepared for.",
+          "admin": "Every AI skill you develop in-house makes you more valuable — you bring the context and judgment that no outside hire arrives with. That combination is exactly what the data says employers need most."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI skill you wish your team was stronger at — prompting, reviewing AI output, knowing when to trust AI and when to override it.",
+            "Open your company-approved AI tool and paste: <em>\"I manage or work on a team of [size] people in [your function]. We use AI for [describe current uses]. The biggest AI skill gap on our team is [describe it]. Design a lightweight 4-week learning plan — one 15-minute activity per week — that builds this skill progressively. Each week should include a specific exercise, not just reading. Make it practical enough that someone could start this week.\"</em>",
+            "Review the plan and adjust it based on what you know about your team's capacity and comfort level.",
+            "Share your 4-week plan in the group — other teams are facing the same gap, and your plan could be exactly what someone else needs."
+          ]
+        }
+      },
+      {
+        "title": "United Airlines shows what proactive AI agent governance looks like",
+        "source_url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+        "body": "United Airlines announced this week that it will block unauthorized third-party AI agents from booking flights and managing reservations. The airline cited real concerns: <em>sharing account credentials with AI assistants could expose sensitive information and lead to unintended purchases</em>, and automated check-in processes bypass safety acknowledgments that regulations require from humans. It's an early example of what every organization will navigate — deciding where AI agents are welcome and where they need human-only gates.",
+        "slants": {
+          "strategy": "Every organization will face this question: which systems can AI agents access, and which need human-only gates? Start mapping those boundaries now, before the pressure arrives.",
+          "leaders": "United's move is a governance decision, not an anti-AI one. The teams that define clear rules for agent access proactively will avoid reactive policy-making later.",
+          "operations": "Any process that touches customer data, financial transactions, or regulatory compliance needs explicit rules for AI agent involvement. This is what proactive boundary-setting looks like.",
+          "pm": "Add 'AI agent access boundaries' to your project risk assessments. As agents grow more capable, knowing where they can and can't operate becomes a planning requirement.",
+          "admin": "The processes you manage — scheduling, account access, approvals — are exactly the ones AI agents are learning to handle. Understanding where boundaries belong helps you protect what matters and stay ahead of policy changes."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the tools and platforms your team uses daily — scheduling systems, internal portals, customer databases, approval workflows.",
+            "Open your company-approved AI tool and paste: <em>\"I work in [your role] at a large organization. We regularly use tools like [list 2-3 platforms]. For each one, help me evaluate whether an AI agent should have full access, limited access, or no unsupervised access. Consider: what data could it reach? What actions could it take? What could go wrong if it acted without human oversight? Present your answer as a simple table.\"</em>",
+            "Review the table. Identify one system where the boundaries aren't currently defined in your organization.",
+            "Share your access evaluation in the group — thinking through these boundaries together builds better governance for everyone."
+          ]
+        }
+      },
+      {
+        "title": "AI's infrastructure just got a billion-dollar vote of confidence",
+        "source_url": "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908",
+        "body": "TSMC — the company that manufactures the chips powering most of the world's AI systems — approved up to <em>$1 billion in direct investments in OpenAI and Anthropic</em>, two of the leading AI model companies. When the hardware layer and the model layer are investing in each other, it tells us something important: <em>AI infrastructure is being built for long-term demand, not a short-term cycle</em>. For anyone still wondering whether AI is here to stay, the supply chain is answering with capital.",
+        "slants": {
+          "strategy": "When infrastructure companies invest in model companies, they're pricing in long-term demand. Build your AI strategy around permanent capability, not a pilot you'll revisit next year.",
+          "leaders": "This is useful context for any team member wondering whether AI skills are worth the investment. The infrastructure is being built for the long haul — and so should your team's capabilities.",
+          "operations": "Permanent infrastructure means the AI tools you're learning today will be upgraded and expanded, not abandoned. Invest in understanding the fundamentals — they'll compound.",
+          "pm": "AI projects aren't one-off experiments anymore. Build your AI project frameworks to scale and iterate over time, not to wrap up and sunset.",
+          "admin": "Every AI skill you're building right now is an investment in permanent capability. The companies building the infrastructure aren't hedging — and the skills you're developing will keep paying off."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank note and write down three AI-related skills or habits you've developed in the last six months — prompting techniques, tools you've learned, workflows you've improved.",
+            "Next to each one, note whether you've been treating it as a temporary experiment or as a skill you're building for the long term.",
+            "Open your company-approved AI tool and paste: <em>\"I've been developing these AI skills: [list your three]. Help me turn each one into a durable capability I can build on. For each skill, suggest one way to deepen it over the next month — a specific practice, a technique to learn, or a new application to try. Keep each suggestion practical and under two sentences.\"</em>",
+            "Pick one skill to deepen this month and commit to a specific first step.",
+            "Share your plan in the group — seeing what others are building helps everyone level up together."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "This weekend, let AI help you recreate the comfort food you've been missing.",
+      "body": "Everyone has a dish that takes them somewhere — a grandparent's kitchen, a childhood apartment, a restaurant you haven't been to in years. The problem is, you remember the feeling more than the recipe. Tonight, give AI the feeling and let it work backward to the dish. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"There's a dish I've been wanting to recreate but I don't have an exact recipe. Here's what I remember: [describe the dish — not just the name, but the details: 'my grandmother's chicken soup that was more broth than chunky, always had dill, slightly lemony, she served it with crusty bread' or 'a noodle dish from a tiny restaurant I went to in college — wide flat noodles, savory and a little sweet, with crispy shallots on top' or 'the mac and cheese my neighbor used to make that had a crunchy breadcrumb top and tasted smoky']. My cooking skill level: [beginner/intermediate/confident]. Equipment I have: [oven, stovetop, instant pot, etc.]. Help me reverse-engineer this dish. Give me a recipe that gets as close as possible to what I described, explain which ingredients create the specific flavors and textures I remember, and suggest one substitution in case I can't find a key ingredient. If my description matches a known regional or traditional dish, tell me what it's called.\"<br><br>The technique here is <em>emotional context prompting</em>. Instead of searching for a recipe by name, you described how the food made you feel and what your senses remember — the texture, the smell, the setting. AI gets dramatically better results when you include sensory and emotional details alongside the practical facts. Try this anytime you're trying to find or recreate something from memory: 'help me find a song — it was slow, piano-heavy, heard it in a coffee shop in 2019' or 'I'm looking for a book — it had a blue cover, was about a family, and made me cry on a plane.' The richer the memory, the closer AI gets to what you're actually looking for."
+    }
   }
 }
