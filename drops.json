@@ -10929,5 +10929,75 @@
       "body": "Everyone has a dish that takes them somewhere — a grandparent's kitchen, a childhood apartment, a restaurant you haven't been to in years. The problem is, you remember the feeling more than the recipe. Tonight, give AI the feeling and let it work backward to the dish. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"There's a dish I've been wanting to recreate but I don't have an exact recipe. Here's what I remember: [describe the dish — not just the name, but the details: 'my grandmother's chicken soup that was more broth than chunky, always had dill, slightly lemony, she served it with crusty bread' or 'a noodle dish from a tiny restaurant I went to in college — wide flat noodles, savory and a little sweet, with crispy shallots on top' or 'the mac and cheese my neighbor used to make that had a crunchy breadcrumb top and tasted smoky']. My cooking skill level: [beginner/intermediate/confident]. Equipment I have: [oven, stovetop, instant pot, etc.]. Help me reverse-engineer this dish. Give me a recipe that gets as close as possible to what I described, explain which ingredients create the specific flavors and textures I remember, and suggest one substitution in case I can't find a key ingredient. If my description matches a known regional or traditional dish, tell me what it's called.\"<br><br>The technique here is <em>emotional context prompting</em>. Instead of searching for a recipe by name, you described how the food made you feel and what your senses remember — the texture, the smell, the setting. AI gets dramatically better results when you include sensory and emotional details alongside the practical facts. Try this anytime you're trying to find or recreate something from memory: 'help me find a song — it was slow, piano-heavy, heard it in a coffee shop in 2019' or 'I'm looking for a book — it had a blue cover, was about a family, and made me cry on a plane.' The richer the memory, the closer AI gets to what you're actually looking for."
     }
+  },
+  "2026-11-14": {
+    "intro": "Saturday's three: new data from 2,000+ executives shows most companies with AI in production haven't connected the investment to business results — and the ones measuring it are finding the returns. The talent world is shifting from hiring AI skills to growing them in-house. And a closer look at readiness data reveals the factor most organizations are still overlooking: change management. Tonight's homework: let AI help you build a year-end giving plan that matches your values.",
+    "trends": [
+      {
+        "title": "The companies measuring their AI investment are finding returns the rest are missing",
+        "source_url": "https://www.prnewswire.com/news-releases/79-of-enterprises-report-ai-agents-in-production-but-only-15-have-fully-tied-ai-investment-to-pl-outcomes-302937385.html",
+        "body": "Genpact's Autonomy in Practice report — surveying more than 2,000 executives across 17 industries — found that <em>79% of enterprises now have AI agents running in production, but only 15% have connected that investment to profit-and-loss outcomes</em>. Nearly half of funded AI projects didn't deliver their expected value. The gap isn't about technology or tools. It's about measurement: knowing what AI is doing, what it costs, and what it's returning.",
+        "slants": {
+          "strategy": "If your AI roadmap doesn't include how you'll measure outcomes, it's a spending plan — not a strategy. Connecting AI investment to business metrics is the step that turns activity into advantage.",
+          "leaders": "Ask your team to define what success looks like for each AI initiative — in outcomes, not adoption numbers. The leaders asking that question are in the top 15%.",
+          "operations": "You're closest to where AI meets the actual work. Tracking what changes — time saved, errors caught, decisions improved — gives the organization the measurement data it's missing.",
+          "pm": "Build outcome metrics into every AI project from the start. 'We deployed it' isn't a milestone — 'it improved X by Y' is.",
+          "admin": "The next time someone asks what AI is doing for the team, your perspective carries real weight — you see the before and after of every process change."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or process your team has adopted in the last six months.",
+            "Open your company-approved AI tool and paste: <em>\"My team recently started using AI for [describe the task or process]. Help me define 3 simple metrics we could track to measure whether this AI use is actually delivering value — not just adoption metrics like 'number of users' but outcome metrics like time saved, error reduction, or quality improvement. For each metric, suggest a practical way to measure it without building a new system.\"</em>",
+            "Review the metrics and pick the one that would be easiest to start tracking this week.",
+            "Share your metric in the group — helping others see what 'AI value' looks like in practice makes the whole community stronger."
+          ]
+        }
+      },
+      {
+        "title": "The talent strategy is shifting from hiring AI skills to developing them",
+        "source_url": "https://www.informationweek.com/it-staffing-careers/ask-the-experts-build-or-buy-your-ai-talent-",
+        "body": "An InformationWeek analysis of General Assembly's State of Tech Talent survey — covering 500 talent acquisition professionals — found that <em>83% now say their company's success depends more on upskilling existing employees for AI than on hiring new people</em>. That's a sharp reversal from 2024, when two-thirds of companies planned to buy AI talent externally. The shift is driven by cost, but also by recognition: the people who already know your business are your fastest path to AI fluency.",
+        "slants": {
+          "strategy": "The most effective AI talent strategies start with the people already in the building. Internal AI fluency compounds on institutional knowledge that external hires take months to develop.",
+          "leaders": "Investing in your current team's AI skills is acceleration, not just retention. Teams that learn AI alongside the work deliver results faster than teams assembled from scratch.",
+          "operations": "You don't need an AI specialist to improve how AI fits into your workflows. You need the people who know those workflows to learn what AI can do — and that's already you.",
+          "pm": "When scoping AI work, factor in time for the team to learn alongside the build. Projects that combine doing with learning produce better, more sustainable outcomes.",
+          "admin": "Your existing process knowledge plus AI fluency is a combination that can only be built from the inside — and it's exactly what the research says organizations need most."
+        },
+        "challenge": {
+          "steps": [
+            "Open a blank note and write down three skills you use regularly in your current role — process skills, communication skills, or technical skills all count.",
+            "Open your company-approved AI tool and paste: <em>\"I work in [your role] and these are three skills I use daily: [list them]. For each one, suggest one specific way AI could make me more effective — not by replacing the skill, but by augmenting it. Then suggest one AI-related skill I could develop that builds directly on each existing strength. Keep each suggestion to one sentence.\"</em>",
+            "Look at the results and identify the one suggestion that feels most useful and most achievable in the next two weeks.",
+            "Share your top pick in the group — seeing how others are building AI skills on top of their existing strengths helps everyone find their starting point."
+          ]
+        }
+      },
+      {
+        "title": "Change management is the factor separating AI adoption that sticks from AI adoption that stalls",
+        "source_url": "https://www.itpro.com/business/digital-transformation/ai-readiness-is-still-scuppering-enterprise-ambitions-and-workforce-skills-are-a-leading-pain-point",
+        "body": "An ITPro analysis of enterprise AI readiness data surfaces a pattern: <em>fewer than a third of organizations have formally updated roles and responsibilities for AI, and only 29% have fully implemented change management</em> for AI adoption. Tools are arriving faster than organizations are preparing people to use them. The companies closing this gap aren't spending more on technology — they're investing in the organizational groundwork that makes adoption stick.",
+        "slants": {
+          "strategy": "Your AI strategy needs a change management chapter. The organizations seeing results are spending as much energy preparing their people as they are selecting their tools.",
+          "leaders": "If your team is getting new AI tools without updated roles, training, or support structures, adoption will stall. Closing that gap is a leadership move, not a technology purchase.",
+          "operations": "Documented processes and clear role definitions are the foundation that makes AI adoption smooth. The ops teams with these in place are the ones adopting fastest.",
+          "pm": "Add change management milestones to every AI rollout plan. The data is clear: technology without organizational preparation delivers less than half its potential.",
+          "admin": "When new AI tools arrive without clear guidance on how they fit into your work, that's a gap in the rollout — not a gap in you. Naming what's missing helps the whole team move forward."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the last time a new AI tool or feature was introduced to your team. How much preparation came with it?",
+            "Open your company-approved AI tool and paste: <em>\"My team recently adopted [name or describe the AI tool or feature]. Help me evaluate our change management on five dimensions: 1) Were roles and responsibilities updated? 2) Was training provided before launch? 3) Was there a feedback channel for questions? 4) Were success metrics defined? 5) Was there follow-up after the first month? For each dimension, I'll tell you how we did, and then suggest one practical step to close any gap.\"</em>",
+            "Answer honestly, review the suggestions, and pick the one gap that would make the biggest difference if closed.",
+            "Share your assessment in the group — every team has these gaps, and naming them is the first step to closing them."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Year-end giving season is here. Tonight, let AI help you give smarter — not just more.",
+      "body": "Most of us give on impulse during the holidays — an email arrives, a friend shares a link, and we donate without much thought. There's nothing wrong with generosity, but a little structure helps your giving reflect what you actually care about and how far your budget can go. Tonight, hand AI your values and your budget and let it build a plan. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to be more intentional about my charitable giving this year. Here's what I care about most: [list 2-3 causes, e.g., 'education access, local hunger relief, environmental conservation']. My total giving budget for the rest of the year is approximately [amount]. I've already given to [list any, or 'nothing yet this year']. Help me build a giving plan: suggest 2-3 specific, well-regarded organizations for each cause, explain briefly what makes each one effective, and recommend how to split my budget across them based on my stated priorities. Flag any year-end tax deadlines I should know about.\"<br><br>The technique here is <em>structured evaluation with constraints</em>. Instead of asking AI for a generic list of charities, you gave it your values, your budget, and your existing commitments — the criteria it should optimize for. AI produces dramatically better recommendations when you define what 'good' looks like upfront. Try this anytime you need to choose between options: 'help me pick between these two apartments given my priorities' or 'compare these insurance plans for someone in my situation.' The more specific your constraints, the more useful the output."
+    }
   }
 }
