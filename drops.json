@@ -10999,5 +10999,75 @@
       "body": "Most of us give on impulse during the holidays — an email arrives, a friend shares a link, and we donate without much thought. There's nothing wrong with generosity, but a little structure helps your giving reflect what you actually care about and how far your budget can go. Tonight, hand AI your values and your budget and let it build a plan. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to be more intentional about my charitable giving this year. Here's what I care about most: [list 2-3 causes, e.g., 'education access, local hunger relief, environmental conservation']. My total giving budget for the rest of the year is approximately [amount]. I've already given to [list any, or 'nothing yet this year']. Help me build a giving plan: suggest 2-3 specific, well-regarded organizations for each cause, explain briefly what makes each one effective, and recommend how to split my budget across them based on my stated priorities. Flag any year-end tax deadlines I should know about.\"<br><br>The technique here is <em>structured evaluation with constraints</em>. Instead of asking AI for a generic list of charities, you gave it your values, your budget, and your existing commitments — the criteria it should optimize for. AI produces dramatically better recommendations when you define what 'good' looks like upfront. Try this anytime you need to choose between options: 'help me pick between these two apartments given my priorities' or 'compare these insurance plans for someone in my situation.' The more specific your constraints, the more useful the output."
     }
+  },
+  "2026-11-15": {
+    "intro": "Sunday's three: Adobe is building AI that learns your brand once and applies it everywhere, keeping creative teams in control. A Stanford review of classroom AI confirms what enterprises are discovering too: experienced professionals paired with AI produce the strongest results. And AT&T is running nearly 500 agentic AI workflows in production, with a smart model for scaling them further. Tonight's homework: let AI fact-check something you've always believed.",
+    "trends": [
+      {
+        "title": "Adobe is building AI that learns your brand and keeps creative teams in control",
+        "source_url": "https://thelettertwo.com/2026/11/14/adobe-ai-strategy-next-decade-max-2026",
+        "body": "At Adobe MAX 2026, the company unveiled <em>Brand Intelligence, an AI system that learns from both written brand guidelines and unwritten institutional knowledge</em> and applies them automatically across creative tools. The feature works inside Photoshop, Illustrator, InDesign, and Firefly, with a new Intelligent Reflow capability that adapts designs to new formats while staying on brand. The strategic bet is clear: <em>AI handles the repetitive production work while experienced creatives stay in the driver's seat</em> (thelettertwo, November 2026).",
+        "slants": {
+          "strategy": "Brand-aware AI changes the content production equation. When AI can enforce brand standards at scale, your team spends less time on compliance reviews and more time on creative strategy.",
+          "leaders": "This is the model to watch: AI that learns how your team works, then handles the repetitive execution. Set your team up to define the brand standards clearly, and the tools will carry them forward.",
+          "operations": "Intelligent Reflow means one design can automatically adapt to dozens of formats. That collapses a production bottleneck your team probably manages manually today.",
+          "pm": "Content production timelines get shorter when brand compliance is built into the tools instead of added as a review step. Factor that into your next campaign plan.",
+          "admin": "If your organization uses Adobe tools, the brand standards you help maintain are about to become even more valuable. Well-documented guidelines feed directly into AI that keeps every asset on brand."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one piece of content your team produces repeatedly: a slide template, a report format, a social graphic, a newsletter layout.",
+            "Open your company-approved AI tool and paste: <em>\"My team regularly produces [describe the content type]. Help me create a brand consistency checklist with six items: the fonts, colors, logo placement, tone of voice, required disclaimers, and formatting rules that should be the same every time. For each item, write one sentence describing the standard. Then suggest which of these six an AI tool could enforce automatically vs. which need human judgment.\"</em>",
+            "Review the checklist and identify the items where your team spends the most time on manual consistency checks.",
+            "Share your top time-consuming consistency check in the group. Knowing where teams spend manual effort helps everyone spot automation opportunities."
+          ]
+        }
+      },
+      {
+        "title": "Experienced professionals paired with AI are producing the strongest results, a Stanford review confirms",
+        "source_url": "https://www.chalkbeat.org/2026/11/13/ai-research-review-shows-tools-help-teachers-more-than-students/",
+        "body": "A Stanford SCALE review of <em>roughly 20 rigorous causal studies</em> on AI in K-12 education found that experienced teachers using AI tools consistently save time and produce higher-quality work. The review found that domain expertise is what makes the partnership effective: professionals who understand the work get the best results from AI, because they know the right questions to ask and can spot when an output needs correction. <em>Expertise plus AI outperforms either one alone</em> (Chalkbeat, November 2026).",
+        "slants": {
+          "strategy": "The pattern is clear: AI multiplies what skilled professionals already know. Build your AI strategy around developing expertise alongside deploying tools, and you get compounding returns from both investments.",
+          "leaders": "Pair AI rollouts with skill-building. Experienced team members get the most from these tools, and structured onboarding helps newer colleagues build the expertise that makes AI effective faster.",
+          "operations": "AI works best as a force multiplier for people who already understand the work. Your team's process knowledge is the ingredient that turns a generic AI tool into a high-performing one.",
+          "pm": "Design your AI rollout in phases by skill level. Experienced users can start generating value immediately, and their workflows become the templates that help the rest of the team ramp up.",
+          "admin": "Your deep knowledge of how processes actually work is exactly what makes AI tools effective in your hands. The research confirms it: domain expertise plus AI produces the strongest outcomes."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool you use at work. Consider: does it work better because of what you already know about the task?",
+            "Open your company-approved AI tool and paste: <em>\"I'm experienced in [describe your area of expertise]. Help me identify three specific ways my existing knowledge makes AI outputs better in my work, for example, knowing which questions to ask, recognizing when an output is wrong, or knowing what context to provide. For each one, suggest how I could teach this to someone newer on my team so they get better results too.\"</em>",
+            "Review the three areas and pick one where you could mentor a colleague this week.",
+            "Share your best 'expertise plus AI' tip in the group. The knowledge that makes AI work better is worth passing along."
+          ]
+        }
+      },
+      {
+        "title": "AT&T is running nearly 500 agentic AI workflows in production, with a smart model for scaling more",
+        "source_url": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
+        "body": "AT&T reported this week that it has <em>nearly 500 agentic AI workflows running in production, processing over 1 million transactions per month</em> across customer provisioning, network operations, sales, and knowledge retrieval. The company uses what it calls a <em>\"learner's permit\" model</em>: agents start under human oversight and earn autonomy after accuracy reaches the mid-to-high 90% range (SiliconANGLE, November 2026). AT&T plans to triple its production workflow count in 2027.",
+        "slants": {
+          "strategy": "AT&T's playbook is a blueprint worth studying: start with high-volume, rule-based tasks, measure accuracy rigorously, and expand scope once the numbers confirm the agent is ready.",
+          "leaders": "The 'learner's permit' concept gives your team a concrete framework. AI earns autonomy by demonstrating competence, just like a new hire would. Set clear accuracy thresholds before expanding any agent's authority.",
+          "operations": "AT&T started with the workflows ops teams know best: provisioning, routing, status checks. Identify your highest-volume, most repetitive processes first. Those are where agentic AI delivers the fastest wins.",
+          "pm": "500 workflows did not ship overnight. Build your AI deployment roadmap in tiers: supervised pilot, accuracy validation, graduated autonomy. Each tier has its own success criteria before moving to the next.",
+          "admin": "The workflows AT&T automated first, like provisioning, knowledge retrieval, and routing, are the same kinds of structured, repetitive tasks you manage daily. Your understanding of how these processes actually work is what makes the automation accurate."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one repetitive task your team handles at high volume, something that follows a consistent pattern and takes up significant time.",
+            "Open your company-approved AI tool and paste: <em>\"My team handles [describe the repetitive task] at high volume. Help me design a 'learner's permit' evaluation plan for an AI agent that could help with this task. Include: 1) What accuracy metric would I track? 2) What's a reasonable threshold before the agent works unsupervised? 3) What are three specific failure modes I should watch for? 4) How would I set up a human review process during the learning phase? Keep each answer to two sentences.\"</em>",
+            "Review the plan and assess whether your team has the data to measure that accuracy metric today.",
+            "Share your chosen task and accuracy metric in the group. Comparing notes helps everyone design better pilot programs."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Sunday night, curious mind. Pick something you've always believed and let AI show you what the evidence actually says.",
+      "body": "We all carry facts we picked up somewhere and never questioned: goldfish have three-second memories, you lose most of your body heat through your head, the Great Wall of China is visible from space. Some are true, some aren't, and some are more complicated than the simple version. Tonight, pick one belief and ask AI to give you the full picture. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I've always believed that [state the fact you've never questioned]. Before you tell me whether it's true or false, do this: first, present the strongest evidence supporting it. Then, present the strongest evidence against it. Then give me your verdict with a confidence level, how sure are you? Finally, explain where this belief probably came from and why it spread.\"<br><br>The technique here is <em>adversarial evidence framing</em>: asking AI to argue both sides before giving you an answer. This forces a more balanced, evidence-based response instead of a simple yes or no. Try it anytime you need to evaluate something: 'before recommending an option, argue for and against each one' or 'before you answer, show me what someone who disagrees would say.' You get sharper answers when you make AI work for its conclusion."
+    }
   }
 }
