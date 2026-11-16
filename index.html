@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-11-16": {
+      intro: "Monday's three: new data from 3,700 leaders shows most organizations are stacking up AI pilots faster than they can scale them. A sharper picture is emerging of what separates AI delivery from AI hype \u2014 and it's not the model. Plus McKinsey research explains why faster AI analysis can actually slow down your best decisions. Tonight's homework: let AI plan your meals for the week.",
+      trends: [
+        {
+          title: "Most organizations have more AI pilots running than they can realistically scale",
+          body: "Kyndryl's third annual Readiness Report \u2014 surveying 3,700 senior leaders across 21 countries \u2014 found that <em>70% of organizations now have more AI pilots running than they can realistically scale</em>. And 58% say innovation stalls after proof of concept. The encouraging part: 64% report positive returns on AI investments, up 10 points from 2025. The gains are real. They're just concentrated in experiments rather than operations (Kyndryl, November 2026).",
+          slants: {
+            strategy: "If your AI roadmap has more pilots than production deployments, the strategic question isn't 'what to try next' \u2014 it's 'what's worth scaling and what should stop.'",
+            leaders: "Your team probably has more AI experiments running than clear success criteria. Pick one pilot, define what 'production-ready' looks like, and put the resources behind graduating it.",
+            operations: "The transition from pilot to production is an ops challenge: integration, data quality, monitoring, handoffs. Your team's operational rigor is what makes pilots stick.",
+            pm: "Pilot-to-production is a project management problem. Build a graduation checklist: success metrics met, integration tested, support model defined, handoff documented.",
+            admin: "When a pilot works but doesn't scale, the gap is usually in the day-to-day processes \u2014 exactly the area you know best. Your operational insight is what turns experiments into lasting improvements."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or experiment your team has piloted in the past six months.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team piloted [describe the AI tool or experiment]. Help me create a simple 'graduation checklist' with five criteria for deciding whether this pilot is ready to scale into production. For each criterion, include: what to measure, what 'good enough' looks like, and one red flag that means it's not ready yet. Keep each criterion to two sentences.\"</em>",
+              "Review the checklist and identify which criterion your pilot would struggle with most.",
+              "Share your biggest graduation gap in the group \u2014 comparing notes helps everyone build better pilot-to-production plans."
+            ]
+          }
+        },
+        {
+          title: "Workflow readiness is what separates AI delivery from AI hype",
+          body: "Asana's CPO Arnab Bose argued this week that the industry's fixation on which AI model is best misses the point: <em>without clear workflows, shared context, and governance, AI agents don't have enough to work with</em>. The real bottleneck isn't model capability \u2014 it's whether your processes are documented, your handoffs are defined, and your permissions are mapped. Workflow readiness determines whether AI delivers or stalls (Technology Magazine, November 2026).",
+          slants: {
+            strategy: "The model debate is a vendor story. Your strategic advantage comes from whether your workflows \u2014 processes, permissions, context \u2014 are clean enough for AI to operate inside.",
+            leaders: "Before investing in the next AI tool, invest in mapping your team's actual workflows. Clear processes are the infrastructure that makes every AI tool more effective.",
+            operations: "You already know where the undocumented workarounds live. Making those visible and structured is the work that unlocks AI agent value across the organization.",
+            pm: "Project timelines often underestimate workflow preparation. Build workflow mapping and documentation into the first phase of any AI rollout \u2014 it saves time in every phase after.",
+            admin: "The processes that live in your head \u2014 the ones nobody's written down \u2014 are exactly what AI agents need to work effectively. Your knowledge of how things actually flow is the missing ingredient."
+          },
+          challenge: {
+            steps: [
+              "Pick one workflow your team does regularly \u2014 a recurring process with multiple steps and handoffs.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I want to evaluate whether this workflow is ready for AI. The workflow is: [describe it briefly \u2014 the steps, who's involved, what triggers it]. Score it on five dimensions: 1) Is it documented? 2) Are the inputs and outputs clear? 3) Are the decision points defined? 4) Are permissions and approvals mapped? 5) Could someone new follow it without asking questions? For each, give a quick yes/no/partial and one sentence explaining why.\"</em>",
+              "Look at your results and identify the one dimension that needs the most work before AI could help with this workflow.",
+              "Share your workflow readiness score in the group \u2014 it helps everyone see where the real preparation work is."
+            ]
+          }
+        },
+        {
+          title: "AI speeds up analysis, but human judgment is becoming the new bottleneck",
+          body: "McKinsey Quarterly's strategy research shows that <em>AI can speed up analysis 10\u201320x</em> \u2014 one strategy team cut five weeks of financial analysis to under two days. But the human judgment needed to turn analysis into sound decisions can't be compressed the same way. The risk: teams skip interpretation and risk testing, or push it to junior staff who haven't built the judgment yet. <em>Analysis now runs on AI time, but decisions still run on human time</em> (McKinsey Quarterly, November 2026).",
+          slants: {
+            strategy: "Faster analysis doesn't mean faster strategy. Reserve senior judgment for high-stakes decisions, and design clear guardrails for which decisions AI can support without senior review.",
+            leaders: "If your team is producing analysis faster with AI, make sure you're investing equal time in reviewing it carefully. Speed without scrutiny creates risk, not advantage.",
+            operations: "Faster data doesn't help if decisions downstream aren't keeping pace. Build review checkpoints into your workflows so AI-generated analysis gets the scrutiny it needs.",
+            pm: "Faster analysis can create bottlenecks at decision points. Adjust your project timelines to account for the review and alignment steps that still run on human time.",
+            admin: "When AI produces more analysis faster, the people who can evaluate what matters \u2014 and flag what doesn't look right \u2014 become more important, not less. That's your skill."
+          },
+          challenge: {
+            steps: [
+              "Think about a recent decision your team made that relied on data or analysis \u2014 nothing confidential, just the general shape of it.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"My team recently made a decision about [describe it briefly \u2014 no confidential details]. Help me map the 'judgment chain' behind it: 1) What analysis informed the decision? 2) What assumptions were we making? 3) What risks did we weigh? 4) What could have gone wrong if we'd skipped the review step and just acted on the raw analysis? Keep each answer to two sentences.\"</em>",
+              "Look at the 'what could have gone wrong' answer. Does it reveal a risk your team should pay more attention to going forward?",
+              "Share your insight in the group \u2014 understanding where human judgment adds the most value helps everyone protect those moments."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Monday evening, fresh start. Let AI plan your meals for the week so you're not scrambling by Wednesday.",
+        body: "Every Monday starts with the same question: what are we eating this week? Most of us default to the same five meals or give up and order delivery by Wednesday. Tonight, hand AI your real constraints and ask for a plan that actually fits your life. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I need a meal plan for this week \u2014 Monday through Friday dinners. Here are my constraints: I have about [20/30/45 minutes] to cook on weeknights, I enjoy [list 2\u20133 cuisines or flavors], I don't eat [any restrictions or 'no restrictions'], and my grocery budget is roughly [amount]. Give me the plan as a table with columns: Day | Meal | Prep Time | Key Ingredients. Then give me a single combined grocery list organized by store section (produce, protein, dairy, pantry). No recipe should need more than 6 ingredients.\"<br><br>The technique here is <em>output formatting</em>. Instead of asking AI to 'help with meal planning' and getting a wall of text, you told it exactly what shape you want the answer in \u2014 a table, then a sectioned list. This works every time you need AI output you'll actually use: 'give me a table with columns for\u2026' or 'organize this as a numbered list grouped by\u2026' The more specific your format request, the more immediately useful the output."
+      }
+    },
   "2026-11-15": {
       intro: "Sunday's three: Adobe is building AI that learns your brand once and applies it everywhere, keeping creative teams in control. A Stanford review of classroom AI confirms what enterprises are discovering too: experienced professionals paired with AI produce the strongest results. And AT&T is running nearly 500 agentic AI workflows in production, with a smart model for scaling them further. Tonight's homework: let AI fact-check something you've always believed.",
       trends: [
