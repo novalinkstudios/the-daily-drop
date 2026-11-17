@@ -11139,5 +11139,75 @@
       "body": "Every Monday starts with the same question: what are we eating this week? Most of us default to the same five meals or give up and order delivery by Wednesday. Tonight, hand AI your real constraints and ask for a plan that actually fits your life. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I need a meal plan for this week — Monday through Friday dinners. Here are my constraints: I have about [20/30/45 minutes] to cook on weeknights, I enjoy [list 2–3 cuisines or flavors], I don't eat [any restrictions or 'no restrictions'], and my grocery budget is roughly [amount]. Give me the plan as a table with columns: Day | Meal | Prep Time | Key Ingredients. Then give me a single combined grocery list organized by store section (produce, protein, dairy, pantry). No recipe should need more than 6 ingredients.\"<br><br>The technique here is <em>output formatting</em>. Instead of asking AI to 'help with meal planning' and getting a wall of text, you told it exactly what shape you want the answer in — a table, then a sectioned list. This works every time you need AI output you'll actually use: 'give me a table with columns for…' or 'organize this as a numbered list grouped by…' The more specific your format request, the more immediately useful the output."
     }
+  },
+  "2026-11-17": {
+    "intro": "Tuesday's three: new research shows the enterprises keeping their agentic AI projects alive share one habit: they defined success before they started building. A third of U.S. companies have employees already using AI tools on their own, which signals exactly the kind of enthusiasm that simple governance policies can channel into real results. And Forrester data confirms a milestone worth celebrating: 82% of enterprises now have AI in production, and the ones investing in infrastructure and governance are starting to scale. Tonight's homework: let AI audit your subscriptions before the holiday spending hits.",
+    "trends": [
+      {
+        "title": "The enterprises keeping their agentic AI projects alive share one simple habit",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404301/0/en/new-research-reveals-54-of-enterprises-have-abandoned-agentic-ai-projects-due-to-unclear-business-value.html",
+        "body": "SnapLogic's 2026 Agentic Enterprise Readiness Index, fielded by 3GEM across four countries, found that <em>the organizations keeping agentic AI projects on track share one trait: they defined clear business value before they started building</em>. While 54% of enterprises have paused projects for lack of that clarity, 85% say they're ready to scale once the foundation is set. The pattern is straightforward: start with a measurable outcome and the technology has something to aim at (SnapLogic/3GEM, November 2026).",
+        "slants": {
+          "strategy": "Before greenlighting your next AI initiative, write one sentence: 'This succeeds when [specific measurable outcome].' If you can't finish that sentence, the project isn't ready to start.",
+          "leaders": "Half of enterprises paused AI projects not for lack of budget or technology, but for lack of a clear outcome. Helping your team define what 'done well' looks like is the highest-leverage move you can make right now.",
+          "operations": "AI projects gain momentum when someone maps the tool to a specific operational outcome. Your knowledge of what actually needs to improve is the key ingredient in AI planning conversations.",
+          "pm": "Add a one-sentence business value statement as a required gate before any AI project kicks off. It's the single step that keeps more projects on track than any technical fix.",
+          "admin": "If an AI project near you feels unclear about what it's trying to accomplish, naming that early is a real contribution. Clarity at the start prevents wasted effort down the road."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or initiative your team has considered, started, or put on hold.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team is considering using AI for [describe the initiative briefly]. Help me write a one-sentence success statement: not 'we deployed it' but a specific, measurable outcome we'd want to see. Then give me three yes-or-no questions we should answer before moving forward: one about whether we have the right data, one about who owns the result, and one about how we'll know it's working.\"</em>",
+            "Review the success statement and three questions. Can your team answer all three today?",
+            "Share your success statement in the group. Seeing how others define 'done' for AI projects sharpens everyone's thinking."
+          ]
+        }
+      },
+      {
+        "title": "Employees are already using AI tools, and simple governance policies help them move faster",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403731/0/en/more-than-34-of-u-s-companies-report-that-employees-use-ai-tools-with-no-governance-policy-according-to-pipefy-survey.html",
+        "body": "A Pipefy survey published this week found that <em>more than 34% of U.S. companies have employees already using AI tools on their own</em>. That's genuine enthusiasm worth channeling. <em>Organizations that set clear, simple policies aren't slowing adoption; they're giving their teams the confidence to move faster</em> (Pipefy, November 2026).",
+        "slants": {
+          "strategy": "An AI governance policy is an enablement tool, not a compliance burden. The organizations that make AI usage clear and safe will adopt faster, not slower.",
+          "leaders": "If your team is using AI without formal guidelines, that's enthusiasm worth channeling. Set simple, positive policies ('here's what's safe, here's what's not') and watch confidence grow across the board.",
+          "operations": "Clear AI policies reduce hidden friction in every workflow. When people know what's allowed, they spend less time hesitating and more time getting value from the tools they already have.",
+          "pm": "Make 'AI usage guidelines confirmed' a standard line item in project kickoffs. One five-minute conversation at the start prevents weeks of uncertainty later.",
+          "admin": "If you've been using AI tools but aren't sure what's formally OK at your organization, you're in good company: over a third of companies haven't defined it yet. Raising the question is a contribution, not a complaint."
+        },
+        "challenge": {
+          "steps": [
+            "Think about how AI tools are used on your team today: formally, informally, or somewhere in between.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Help me draft a simple, one-page AI usage guideline for a team of [your team size] in [your function]. Include: which types of data are safe to use with AI tools and which aren't, three things everyone should do when using AI (like reviewing output before sharing), and three things to avoid (like pasting confidential data into public tools). Keep it under 250 words, friendly, and practical.\"</em>",
+            "Review the draft and adjust it based on what you know about your organization's existing rules and culture.",
+            "Share your draft guideline in the group. Other teams are navigating the same question, and your version could be the starting point someone else needs."
+          ]
+        }
+      },
+      {
+        "title": "82% of enterprises now have AI in production, and the path to scaling is getting clearer",
+        "source_url": "https://www.forrester.com/blogs/ai-has-a-scaling-problem/",
+        "body": "Forrester's 2026 State of AI survey found that <em>82% of enterprises now run at least one generative AI application in production</em>, a milestone that would have seemed unlikely two years ago. The next frontier: <em>11% have already scaled AI at the business-unit level</em>, and 14% at the enterprise level. The organizations moving into that tier are the ones investing in the data infrastructure, governance, and processes that support more than one application at a time (Forrester, November 2026).",
+        "slants": {
+          "strategy": "The 82-to-11 gap tells the story: getting AI running is the starting line, not the finish. The strategic work is building the infrastructure and governance that let it scale across the organization.",
+          "leaders": "If your team has AI in production, you've already cleared a major hurdle. The next step, scaling beyond one use case, is where your leadership in clearing organizational barriers makes the biggest difference.",
+          "operations": "Scaling AI means scaling the operations around it: data pipelines, monitoring, handoff processes, support models. Those are ops challenges, and your team is built to solve them.",
+          "pm": "Plan for two distinct phases in any AI rollout: 'get it running' and 'get it scaled.' The second phase has its own scope, timeline, and success criteria. Treat it as a separate project with its own plan.",
+          "admin": "Most organizations have AI running, and the work of scaling it is organizational, not technical. Your understanding of how the organization actually operates is a key ingredient in that next step."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or capability your team already uses, even something small like an AI-assisted drafting tool or automated summary.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses AI for [describe the use case]. It works well for us, but it hasn't spread beyond our immediate team. Help me identify three barriers that might be preventing it from scaling more widely: one related to data or infrastructure, one related to processes or workflows, and one related to people or training. For each barrier, suggest one practical first step to address it. Keep each answer to two sentences.\"</em>",
+            "Review the three barriers. Which one feels most accurate for your situation?",
+            "Share your top barrier and first step in the group. Understanding what prevents scaling helps everyone plan smarter."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Before the holiday spending kicks in, let AI audit your subscriptions tonight.",
+      "body": "You know that moment when you check your bank statement and spot three things you forgot you were paying for? Everyone has subscription creep — the streaming service from a free trial, the app you used twice, the premium tier you don't need. Tonight, hand AI your list and let it sort the keepers from the cuts. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"Here are the subscriptions and recurring charges I'm currently paying for: [list each one with the monthly or annual cost — streaming, apps, memberships, services, insurance add-ons, everything you can find on your statement]. Sort them into three categories: 1) Keep — I use this regularly and it's worth the cost, 2) Downgrade — I could switch to a cheaper plan or a free alternative, 3) Cancel — I rarely use this or forgot I had it. For each 'Downgrade' item, suggest a specific cheaper alternative. For each 'Cancel' item, note if there's a free version that covers what I actually need. Then total up my potential monthly savings.\"<br><br>The technique here is <em>structured categorization</em>. Instead of a vague 'help me save money on subscriptions,' you gave AI your actual data and told it exactly how to organize the output — three named categories with a specific action for each one. This works every time you need to sort, prioritize, or evaluate a list: 'organize my to-do list into urgent, important, and can-wait' or 'categorize these expenses as fixed, variable, and discretionary.' The clearer your categories, the more useful the result."
+    }
   }
 }
