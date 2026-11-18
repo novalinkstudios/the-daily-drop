@@ -11209,5 +11209,77 @@
       "body": "You know that moment when you check your bank statement and spot three things you forgot you were paying for? Everyone has subscription creep — the streaming service from a free trial, the app you used twice, the premium tier you don't need. Tonight, hand AI your list and let it sort the keepers from the cuts. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"Here are the subscriptions and recurring charges I'm currently paying for: [list each one with the monthly or annual cost — streaming, apps, memberships, services, insurance add-ons, everything you can find on your statement]. Sort them into three categories: 1) Keep — I use this regularly and it's worth the cost, 2) Downgrade — I could switch to a cheaper plan or a free alternative, 3) Cancel — I rarely use this or forgot I had it. For each 'Downgrade' item, suggest a specific cheaper alternative. For each 'Cancel' item, note if there's a free version that covers what I actually need. Then total up my potential monthly savings.\"<br><br>The technique here is <em>structured categorization</em>. Instead of a vague 'help me save money on subscriptions,' you gave AI your actual data and told it exactly how to organize the output — three named categories with a specific action for each one. This works every time you need to sort, prioritize, or evaluate a list: 'organize my to-do list into urgent, important, and can-wait' or 'categorize these expenses as fixed, variable, and discretionary.' The clearer your categories, the more useful the result."
     }
+  },
+  "2026-11-18": {
+    "intro": "Wednesday's three: data from more than 10,000 companies shows enterprises are cutting single-provider AI dependency in half — the strategic shift to multi-model flexibility is well underway. Apple just launched a 200,000-person study to systematically measure how people build trust in AI, and the approach is a blueprint for any organization's rollout. And this week's new U.S. rules signal that AI governance has moved from IT departments to executive leadership conversations. Tonight's homework: let AI redesign your daily routine around how you actually live.",
+    "trends": [
+      {
+        "title": "The shift to multi-provider AI strategies is happening faster than anyone expected",
+        "source_url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+        "body": "Databricks launched its AI Index this week, tracking model usage across more than 10,000 companies on its platform. The standout finding: <em>the share of enterprises relying on a single AI provider dropped from 64% to 28% between July and November</em>. Open-weight models surged from 7% to 31% of enterprise token traffic in the same period. The strategic signal is clear: organizations are moving from \"pick one provider\" to \"match the right model to each task\" (Databricks, November 2026).",
+        "slants": {
+          "strategy": "Multi-model flexibility is becoming the strategic default — build your AI roadmap around workload fit, not vendor loyalty.",
+          "leaders": "Give your teams permission to test more than one AI tool for different tasks — the data shows that's already becoming the enterprise norm.",
+          "operations": "Standardize your governance layer across all AI tools rather than standardizing on one tool — consistent oversight matters more than consistent branding.",
+          "pm": "If your project depends on a single AI tool, that's a risk on the register — plan for model flexibility from the start.",
+          "admin": "Getting comfortable with two or three AI tools instead of one makes you more versatile — each handles different types of tasks better."
+        },
+        "challenge": {
+          "steps": [
+            "List the AI tools your team currently has access to — Copilot, Gemini Enterprise, Claude for Work, or any other company-approved options.",
+            "Pick one routine task you do regularly — summarizing a document, drafting an email, or organizing information.",
+            "Run the same task through two different approved tools and compare the results side by side.",
+            "Open either tool and paste this prompt: <em>\"I just compared two AI tools on the same task. Tool A gave me [describe the result briefly] and Tool B gave me [describe the result briefly]. Help me build a quick decision guide: based on this comparison, when should I default to each tool? Consider speed, accuracy, tone, and depth. Keep it to a simple three-row table.\"</em>",
+            "Share your comparison in the group — which tool won for your task, and what surprised you?"
+          ]
+        }
+      },
+      {
+        "title": "Apple is building the playbook for AI trust — and it starts with measurement",
+        "source_url": "https://apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+        "body": "Apple and clinical AI platform OpenEvidence launched a 12-month study this week enrolling up to 200,000 iPhone users to systematically measure how people build trust in AI health tools. The study tracks <em>what drives confidence, how well people understand AI answers, and whether the tool helps them prepare for real conversations with their doctors</em>. The domain is health, but the method is universal: the most reliable way to build trust in any AI rollout is to measure it — not assume it (Apple, November 2026).",
+        "slants": {
+          "strategy": "If your AI rollout plan doesn't include a way to measure trust, you're guessing at adoption — build measurement into the plan from the start.",
+          "leaders": "Before scaling AI to the next team, ask one question: how do we know the current team trusts it? The answer should be data, not anecdotes.",
+          "operations": "Build a simple feedback loop into every AI workflow — even a one-question check after each use gives you real signal about what's working.",
+          "pm": "Track adoption confidence alongside performance metrics — a tool people don't trust is a tool they'll quietly stop using.",
+          "admin": "Your honest feedback about whether an AI tool helps or confuses you is exactly what your organization needs to hear — it's data, not complaining."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool your team uses or has piloted — Copilot, an internal chatbot, or any company-approved AI tool.",
+            "Give it a task you've done manually before — summarize a document, draft talking points, or organize a to-do list. Use non-confidential content.",
+            "Before reading the AI output, write one sentence describing what a good result would look like for this task.",
+            "Now read the output and rate it honestly: did it meet, exceed, or fall short of your expectation? Note one thing it got right and one thing that was off.",
+            "Share your before-and-after comparison in the group — the gap between what you expected and what you got is where trust actually gets built."
+          ]
+        }
+      },
+      {
+        "title": "AI governance is moving from IT's checklist to the leadership table",
+        "source_url": "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
+        "body": "The U.S. Commerce Department issued a 132-page interim rule this week tightening AI chip access requirements — drafted at the direction of Treasury and the National Security Council, not just the technical agencies. The specifics are about export controls, but the pattern is showing up everywhere: <em>AI governance decisions are moving from IT departments to executive leadership</em>. Organizations where AI governance is a strategic conversation — covering access, risk, and competitive positioning — are building a stronger foundation than those still treating it as a compliance checkbox (Nextgov, November 2026).",
+        "slants": {
+          "strategy": "If AI governance at your organization still lives entirely in IT, it's time to bring those conversations to the strategy table — the decisions are too consequential to delegate.",
+          "leaders": "Ask your team this week: who decides what AI tools we use and how we govern them? If nobody has a clear answer, that's the conversation worth starting.",
+          "operations": "AI governance touches procurement, risk, compliance, and workflow design — treat it as an operating conversation, not a purely technical one.",
+          "pm": "Every AI-dependent project benefits from a governance checkpoint: who approves the tool, who reviews the output, and who owns the risk.",
+          "admin": "You see the daily reality of how AI tools get used and avoided across your team — that perspective belongs in the governance conversation."
+        },
+        "challenge": {
+          "steps": [
+            "Think about the AI tools your team or department uses. Write down who decided to adopt them and who, if anyone, oversees how they're used.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I want to draft three simple governance questions my team should be able to answer about how we use AI tools. The questions should cover: who approves which tools we use, what data we can and can't put into them, and how we review AI-generated output before acting on it. Keep each question to one sentence and make them practical, not bureaucratic.\"</em>",
+            "Review the three questions. Can you answer all three right now? Note which ones you can answer and which ones you're unsure about.",
+            "Share your three questions and your honest self-assessment in the group — the gaps across the community will tell a useful story."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Wednesday evening reset. Let AI redesign your daily routine around how you actually live — not how you wish you did.",
+      "body": "By Wednesday, most routines are already fraying — the workout that got skipped, the morning quiet time eaten by email, the bedtime drifting past midnight again. The problem usually isn't willpower. It's that most routines are designed for an ideal life instead of a real one. Tonight, let AI learn your real constraints before giving you advice. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to redesign my daily routine so it actually fits my life. Before you give me any advice, ask me five questions about how my days really go — my wake-up time, my energy patterns, my non-negotiable commitments, what keeps falling off the schedule, and what I wish I had more time for. Then build me a realistic weekday routine based on my actual answers, not a generic template. Mark which parts are flexible and which aren't.\"<br><br>That opening move — <em>ask me questions before you advise me</em> — is one of the most useful prompting habits you can build. It forces AI to tailor its answer to your real situation instead of giving generic advice. Use it everywhere: \"before you recommend a plan, ask me five questions about my constraints\" or \"before you suggest options, learn what matters most to me.\" The better AI understands your actual life, the better its answers get."
+    }
   }
 }
