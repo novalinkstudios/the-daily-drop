@@ -11351,5 +11351,75 @@
       "body": "Generic trivia is fine. Trivia built around the people playing it is better — inside jokes land harder, niche interests make better categories, and the right difficulty keeps everyone in the game. Tonight, let AI build you a custom trivia round for your next gathering. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to create a fun trivia game for a gathering with [describe the group — family holiday dinner, friendsgiving, game night, etc.]. The players are [list a few names or descriptions and one thing each person is into — e.g., 'my brother who's obsessed with 90s hip-hop, my mom who watches every true crime documentary, my friend who knows every national park']. Before you write any questions, ask me: what's the age range, what topics should I avoid, and do I want it competitive or casual? Then create 15 trivia questions in 3 themed rounds of 5 — make sure each round has at least one question that plays to a specific player's strengths so everyone gets a moment. Include answers on a separate list I can keep on my phone.\"<br><br>The technique here is <em>audience calibration</em>. Instead of asking for generic trivia, you gave AI the specific people who'll be playing and asked it to tailor the content to them. This works for any group activity: 'plan a playlist for these specific friends' or 'suggest conversation starters for this mix of people.' When AI knows who it's designing for, the output goes from serviceable to personal."
     }
+  },
+  "2026-11-20": {
+    "intro": "Friday's three: a 40,500-person global study shows the single biggest factor in whether workers adapt to AI isn't the technology — it's whether they helped shape the change. New Gallup data reveals exactly which parts of the workday AI is reclaiming and which it hasn't touched. And the case for AI training just got clearer: trained users report nearly double the productivity gains. Tonight's homework: dark evenings are here — let AI design your perfect cozy night in.",
+    "trends": [
+      {
+        "title": "Workers who help redesign their own roles are three times more willing to adapt to AI",
+        "source_url": "https://fortune.com/2026/11/19/ai-leadership-test-workers-empathy-adecco-denis-machuel/",
+        "body": "Adecco's seventh annual Global Workforce of the Future study — surveying 40,500 workers across 36 countries — found that <em>96% of workers involved in redesigning their own roles are willing to adapt to AI, compared with 29% of those left out of the process</em>. The pattern holds across industries and geographies. The organizations where adaptation is working aren't deploying better tools — they're <em>involving people in deciding how the tools fit</em> (Adecco, November 2026).",
+        "slants": {
+          "strategy": "When you're planning where AI fits in your organization, the most effective decision isn't which tool to deploy — it's which people to involve in deciding how it's used.",
+          "leaders": "Invite your team into the conversation about how AI changes their work. The data is clear: involvement doesn't slow adoption — it's what makes adoption stick.",
+          "operations": "Workflow redesign works best when the people running the workflows help shape the changes. Your operational expertise is the input that makes AI implementations practical.",
+          "pm": "Build stakeholder input on role changes into the early phase of every AI project plan. The projects that skip this step are the ones that stall at adoption.",
+          "admin": "Your perspective on how AI tools fit your actual workflow is exactly what redesign conversations need — and the research shows including it makes the whole change more likely to succeed."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one process or task in your role that could be improved or partly handled by AI — something you know well.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work as [your role] and one task I do regularly is [describe it]. I want to think through how AI could improve this task while keeping the parts that need human judgment. For each step in this task, tell me: could AI handle this, could AI assist while I lead, or does this need my full attention? Then describe what the redesigned version of this task would look like.\"</em>",
+            "Review the redesigned version. Does it feel like a genuine improvement, or did it miss something about how the task actually works? Note what it got right and what it missed.",
+            "Share your redesigned task idea in the group — the best redesigns come from the people who actually do the work."
+          ]
+        }
+      },
+      {
+        "title": "AI is reclaiming hours for desk work — meetings and collaboration haven't budged",
+        "source_url": "https://www.gallup.com/workplace/716585/ai-changing-employees-spend-time-work.aspx",
+        "body": "Gallup's latest workplace survey found that among frequent AI users, <em>52% spend less time searching for information and 47% spend less time writing and drafting</em>. But the gains aren't uniform: 78% report no change in time spent collaborating, and most see no shift in customer-facing work or meetings. AI is sharpening the parts of your day you do alone at a screen — the solo research, the first drafts, the information hunts (Gallup, November 2026).",
+        "slants": {
+          "strategy": "AI's biggest time savings are in research and drafting — the foundation of strategic analysis. That's where your team should build AI fluency first.",
+          "leaders": "AI helps most with desk work, not people work. Help your team focus AI on the solo tasks that consume their time, so they have more energy for the collaboration and leadership that still need a human.",
+          "operations": "Information gathering and document drafting are where AI delivers the clearest operational time savings. If your team hasn't started using AI for these tasks, that's the starting point with the highest payoff.",
+          "pm": "Status reports, research summaries, and draft documentation are the PM tasks AI handles best. Redirect the time you save toward stakeholder alignment and risk management — the parts AI can't do yet.",
+          "admin": "The research confirms what many of you already experience: AI is strongest at helping with writing drafts and finding information fast. Build those two habits first, and the confidence to use AI for more follows naturally."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one task from this week that involved searching for information or writing a first draft — a report, a summary, an email, a research question.",
+            "Open your company-approved AI tool and try doing that same task with AI assistance. Paste this prompt: <em>\"I need to [search for / draft] [describe the task]. Here's the context: [one or two sentences about what you need]. Give me a clear, organized result I can review and edit. Flag anything you're uncertain about.\"</em>",
+            "Compare the AI-assisted version to how long the task normally takes you. Note what was faster, what still needed your editing, and what felt different about the process.",
+            "Share your time comparison in the group — knowing which tasks get the biggest boost helps everyone prioritize where to start."
+          ]
+        }
+      },
+      {
+        "title": "Organizations investing in AI training are seeing nearly double the productivity returns",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/19/3406312/0/en/the-adecco-group-global-study-ai-delivers-more-value-when-people-are-involved-in-work-redesign.html",
+        "body": "Adecco's 2026 study surfaced a striking gap: <em>AI training participation dropped from 77% to 67% in a single year</em>, even as AI use at work keeps climbing. But among AI users who received training, 93% report higher productivity — nearly double the 47% among untrained users. The investment case is straightforward: <em>training doesn't just help adoption, it roughly doubles the return people get from using AI</em> (Adecco, November 2026).",
+        "slants": {
+          "strategy": "If your AI strategy includes tool deployment but not structured training, you're capturing about half the potential value. Training is the multiplier that turns AI access into AI results.",
+          "leaders": "AI training participation is falling industry-wide, which means organizations that invest in it now have a genuine competitive advantage. Make AI learning easy, relevant, and ongoing — not a one-time checkbox.",
+          "operations": "Trained AI users get nearly double the productivity gains from the same tools. Advocating for training on your team is the most efficient way to improve what you're already getting from AI.",
+          "pm": "Factor training time into every AI rollout timeline. The data shows it roughly doubles productivity outcomes — skipping it to save time actually costs more in the long run.",
+          "admin": "If you haven't had formal AI training yet, you're in the majority — and the data says it could roughly double what you get from the tools you already use. It's worth asking your manager about."
+        },
+        "challenge": {
+          "steps": [
+            "Rate your own AI confidence on a scale of 1–5: 1 is 'never used it' and 5 is 'use it daily and trust the results.'",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I'd rate my AI confidence at [your number] out of 5. I work as [your role]. Give me a personalized three-step learning plan to move up one level in the next two weeks. Each step should be something specific I can do this week — not 'take a course' but 'try this exact thing.' Include one prompt I should try, one habit to build, and one resource to check out. Keep the whole plan under 150 words.\"</em>",
+            "Try the first step today or over the weekend. Note whether the suggestion felt useful and realistic for your level.",
+            "Share your confidence rating and your first step in the group — seeing where others are helps normalize the learning curve and gives everyone ideas."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Friday evening, shorter days. Let AI design three cozy nights in — one for every mood.",
+      "body": "November evenings are getting dark early, and most of us default to the same routine: scroll, stream, sleep. What if tonight felt a little more intentional? Let AI plan three different cozy evenings — matched to whether you're drained, restless, or in the mood for something special — so you always have a plan that fits. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want three different cozy evening plans I can rotate through this winter. Design one for when I'm completely drained and just need comfort, one for when I'm restless and need something engaging, and one for when I want to make the evening feel special. For each plan, include: something to eat or drink that takes under 20 minutes, a specific activity (not just 'relax'), and what atmosphere to set (lighting, music, or background sound). My preferences: I enjoy [list 2–3 things you like — reading, cooking, puzzles, baths, specific music, a genre of show]. Keep each plan to 4–5 lines so I can scan them quickly.\"<br><br>The technique here is <em>scenario planning</em>: instead of asking AI for one recommendation, you asked for multiple options designed around different conditions you can't predict in advance. This works whenever a decision depends on a variable — your mood, your energy, your budget, your audience. Try it everywhere: 'give me three versions of this message — formal, friendly, and brief' or 'plan three dinners — one quick, one ambitious, one for guests.' When you give AI a range of scenarios, you get options you can actually use."
+    }
   }
 }
