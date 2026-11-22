@@ -980,6 +980,73 @@
      Key format: "YYYY-MM-DD"
      ════════════════════════════════════════════════════════════════ */
   const DROPS = {
+  "2026-11-22": {
+      intro: "Sunday's three: five major banks just redrew the line on who's responsible when AI agents act on your behalf \u2014 and the pattern matters well beyond banking. New research shows the real AI skills gap isn't about training access, it's about the distance between feeling ready and being ready. And AI tools are starting to specialize by business function, changing how organizations evaluate them. Tonight's homework: Thanksgiving is this week \u2014 let AI help you put what you're genuinely grateful for into words.",
+      trends: [
+        {
+          title: "Who's responsible when AI agents act on your behalf? Banks just answered \u2014 and every organization should pay attention",
+          body: "This week, five major U.S. banks \u2014 JPMorgan, Citi, Bank of America, PNC, and Citizens \u2014 updated their terms to state that <em>customers are responsible for actions taken by third-party AI agents on their accounts, even if the agent is compromised</em>. No major customer losses have been reported; this is preemptive governance, not damage control. The pattern extends far beyond banking: as AI agents start acting across more systems on behalf of people and organizations, <em>the question of who's accountable when an agent makes a mistake is moving from theoretical to contractual</em> (TechCrunch, November 2026).",
+          slants: {
+            strategy: "Any AI agent strategy needs a liability chapter. If your agents interact with external systems \u2014 vendor portals, financial platforms, procurement tools \u2014 map who owns the risk before something goes wrong.",
+            leaders: "Ask one question this week: if an AI agent acting on our behalf made an error in an external system, who in our organization would own that outcome? If nobody has a clear answer, that's the conversation to start.",
+            operations: "Review the terms of service for every external platform your team's AI tools connect to. Banks moved first, but vendors and platforms across your supply chain will follow.",
+            pm: "Add a liability and accountability section to your next AI project plan \u2014 especially for any agent that interacts with systems outside your organization.",
+            admin: "If AI tools in your workflow connect to banking, purchasing, or vendor platforms, those platforms may now hold you responsible for what the agent does. Knowing the terms protects you."
+          },
+          challenge: {
+            steps: [
+              "Think about one AI tool or automated workflow your team uses that connects to an external system \u2014 a vendor portal, a financial platform, a procurement tool, or even email.",
+              "Open your company-approved AI tool and paste this prompt: <em>\"I want to build a simple risk checklist for AI tools that interact with external systems on my behalf. Give me five questions my team should answer before connecting an AI agent to any external platform. Cover: who authorizes the connection, what the agent is allowed to do, who's liable if it makes an error, how we monitor what it does, and how we revoke access if needed. Keep each question to one sentence.\"</em>",
+              "Review your five questions. Can you answer all of them for the AI tools your team uses today?",
+              "Share your checklist in the group \u2014 most teams haven't thought through external AI liability yet, and your five questions could save someone a costly surprise."
+            ]
+          }
+        },
+        {
+          title: "The gap between feeling AI-ready and being AI-ready is where the real opportunity lives",
+          body: "A Forbes analysis published Friday draws on multiple workforce studies to identify an emerging pattern: <em>workers report growing confidence in their AI abilities, while employers see a widening skills gap</em>. ZipRecruiter's 2026 AI Worker Report found that only 34% of workers believe they can master AI skills without help, and <em>nearly half are learning entirely on their own time</em> with no formal support. The disconnect isn't about tools or access \u2014 it's about the gap between casual familiarity and genuine fluency (Forbes, November 2026).",
+          slants: {
+            strategy: "If your AI readiness assessment relies on self-reported confidence, you're measuring comfort, not capability. Build skill assessments around demonstrated outcomes, not surveys.",
+            leaders: "The workers who say they're comfortable with AI may not be the ones who use it most effectively. Create low-stakes opportunities for people to demonstrate AI skills \u2014 not just claim them.",
+            operations: "Nearly half of workers are learning AI on their own time. That means your team's AI practices may be inconsistent. Share what actually works across the team to build real, shared fluency.",
+            pm: "When planning an AI rollout, don't assume team confidence means team readiness. Build a quick skills check into the project plan \u2014 have people use the tool on a real task before full deployment.",
+            admin: "If you've been figuring out AI tools on your own, you're in the majority \u2014 nearly half of workers are doing the same. The next step is sharing what you've learned, because self-taught skills become team knowledge when you share them."
+          },
+          challenge: {
+            steps: [
+              "Rate your own AI readiness honestly \u2014 not how confident you feel, but how often you use AI tools to produce real work output each week.",
+              "Open your company-approved AI tool and try this skill check: pick a real, non-confidential work task you'd normally do manually. Paste this prompt: <em>\"Help me [describe the task]. After you give me the result, rate how well you think you did on a scale of 1 to 5, and tell me one thing I should double-check before using this output.\"</em>",
+              "Compare the AI output to what you would have produced on your own. Where was it better? Where did it miss something you would have caught?",
+              "Share your self-assessment in the group \u2014 the gap between how ready you felt and how ready you actually were is the most useful thing to talk about."
+            ]
+          }
+        },
+        {
+          title: "AI tools are starting to specialize by business function \u2014 and that changes how organizations should choose them",
+          body: "Google's launch of Gemini 4 Neon this week signals a broader industry shift: <em>AI models are being built and benchmarked for specific business functions, not just general intelligence</em>. Neon ranked first on independent benchmarks for legal research, tax analysis, and financial modeling \u2014 areas where domain-specific performance matters more than general chat ability. With a million-token context window designed for working across spreadsheets, documents, and complex data, <em>the era of one-size-fits-all AI is giving way to tools optimized for how specific functions actually work</em> (Google, November 2026).",
+          slants: {
+            strategy: "General-purpose AI is a starting point, not a destination. As models specialize, the strategic question shifts from 'do we use AI?' to 'which AI fits which function best?'",
+            leaders: "When evaluating AI tools for your team, start asking what each tool is specifically optimized for \u2014 a model built for financial analysis will consistently outperform a general assistant on that task.",
+            operations: "If your team's AI tool struggles with domain-specific work, the problem may be the tool's fit, not your prompting. Specialized AI reduces the gap between 'it can help' and 'it actually works for our use case.'",
+            pm: "Match the AI tool to the project type. A model optimized for legal review or financial analysis gives better results on those tasks than a general chatbot \u2014 and that specificity reduces rework.",
+            admin: "If a general AI tool hasn't been useful for your specific work, that may change as AI specializes. Tools designed for your domain \u2014 finance, operations, administration \u2014 are becoming available and are worth trying."
+          },
+          challenge: {
+            steps: [
+              "Think about one task where you've tried using a general AI tool and the result was just OK \u2014 not bad, but not good enough to actually use.",
+              "Open your company-approved AI tool and try the same task with explicit domain context. Paste this prompt: <em>\"I need help with [describe the task]. Important context: I work in [your function \u2014 finance, legal, operations, project management, administration] and the output needs to meet these standards: [name one or two specific requirements \u2014 accuracy of numbers, correct terminology, appropriate tone, compliance with a process]. Apply domain expertise for my function, not general knowledge.\"</em>",
+              "Compare this result to your earlier attempt. Did adding domain context improve the output? Note where the difference showed up most.",
+              "Share your before-and-after in the group \u2014 it helps everyone see how much domain specificity changes what AI can do."
+            ]
+          }
+        }
+      ],
+      homework: {
+        title: "Thanksgiving is this week. Tonight, let AI help you say what you're genuinely grateful for \u2014 not just the easy answers.",
+        body: "Everyone knows they're grateful for family, health, and friends. But the gratitude that actually lands \u2014 the kind that makes someone's day \u2014 is specific. Tonight, let AI push past the obvious and help you name what you're really thankful for this year. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+        prompt: "\"I want to express real gratitude this Thanksgiving, but I want to go deeper than the usual list. Start by asking me three questions: what was the hardest moment of my year, who showed up for me when it mattered, and what's one small thing I started taking for granted. Then, based on my answers, help me write three specific thank-you messages \u2014 one to a person who helped me through something difficult, one to someone whose everyday presence I've been overlooking, and one to myself for something I handled well this year. Keep each message to 3\u20134 sentences and make them sound like me, not like a greeting card.\"<br><br>The technique here is <em>progressive disclosure</em>. Instead of asking AI for the finished product up front, you asked it to draw out details first \u2014 getting progressively deeper before generating the output. This works whenever the best answer depends on information you haven't thought to share yet: 'ask me three questions about my situation before recommending a solution' or 'help me think through the variables before we build the plan.' When AI uncovers the right details first, the output fits your real life instead of guessing at it."
+      }
+    },
   "2026-11-21": {
       intro: "Saturday's three: new IBM data reveals what doubles AI return on investment \u2014 and it's not the technology. Microsoft is building toward AI agents that understand your organization, not just the internet. And fresh data shows what it takes for people to trust AI agents to act on their behalf. Tonight's homework: the holidays are almost here \u2014 let AI help you write a card or letter that actually sounds like you.",
       trends: [
