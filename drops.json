@@ -11561,5 +11561,75 @@
       "body": "Everyone knows they're grateful for family, health, and friends. But the gratitude that actually lands — the kind that makes someone's day — is specific. Tonight, let AI push past the obvious and help you name what you're really thankful for this year. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to express real gratitude this Thanksgiving, but I want to go deeper than the usual list. Start by asking me three questions: what was the hardest moment of my year, who showed up for me when it mattered, and what's one small thing I started taking for granted. Then, based on my answers, help me write three specific thank-you messages — one to a person who helped me through something difficult, one to someone whose everyday presence I've been overlooking, and one to myself for something I handled well this year. Keep each message to 3–4 sentences and make them sound like me, not like a greeting card.\"<br><br>The technique here is <em>progressive disclosure</em>. Instead of asking AI for the finished product up front, you asked it to draw out details first — getting progressively deeper before generating the output. This works whenever the best answer depends on information you haven't thought to share yet: 'ask me three questions about my situation before recommending a solution' or 'help me think through the variables before we build the plan.' When AI uncovers the right details first, the output fits your real life instead of guessing at it."
     }
+  },
+  "2026-11-23": {
+    "intro": "Monday's three: the organizations connecting AI strategy to workforce planning are already pulling ahead, and new data shows how to join them. Nvidia's record $115.8 billion quarter means enterprise AI capabilities are about to get a lot more accessible. And Microsoft's Ignite conference painted a picture of AI as the new operating layer for how work gets done. Tonight's homework: Black Friday is almost here, so let AI build you a smart decision matrix before you buy.",
+    "trends": [
+      {
+        "title": "The organizations connecting AI strategy to workforce planning are already pulling ahead",
+        "source_url": "https://www.conference-board.org/press/ai-implications-workforce-planning",
+        "body": "A Conference Board report released last week surveyed 775 organizations and found that <em>the 11% who have fully integrated AI's effects into workforce and financial planning are seeing clearer results</em>. Another 35% have started for some functions, and 34% are actively discussing it. The opportunity is wide open: connecting your people strategy to your technology strategy is one of the clearest ways to accelerate what AI can do for your organization (The Conference Board, November 2026).",
+        "slants": {
+          "strategy": "Connecting your AI roadmap to your workforce plan turns two separate strategies into one coherent advantage. That alignment is the highest-leverage move you can make this quarter.",
+          "leaders": "Ask your HR and technology leads one energizing question this week: when we plan headcount and skills for next year, how can we account for the new capabilities AI is creating in those roles?",
+          "operations": "Operational workflows are evolving fast, and that creates a chance to redesign roles around what people do best. Teams that update job descriptions alongside AI rollouts stay ahead of the curve.",
+          "pm": "Every AI project plan can include a section on how it elevates the work: which tasks shift, which skills become more important, and what people get to learn next.",
+          "admin": "Your role is evolving, and you can shape that evolution. Documenting how AI is changing your day-to-day work gives leadership the data they need to plan, and it positions you as part of the solution."
+        },
+        "challenge": {
+          "steps": [
+            "Think about your own role. List three tasks you do regularly that have changed, or could change, because of AI tools available today.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work in [your function]. Here are three tasks in my role that AI is changing: [list them]. For each task, help me describe: what I used to do manually, what AI can now handle, and what new skill or judgment I need to add. Format it as a simple three-column table.\"</em>",
+            "Review the table. If you spot a shift that your current job description doesn't reflect yet, you've just found an opportunity to shape how your role evolves.",
+            "Share your three-task table in the group. It helps the whole community see how roles are actually evolving, one task at a time."
+          ]
+        }
+      },
+      {
+        "title": "Nvidia's $115.8 billion quarter means enterprise AI capabilities are about to get a lot more accessible",
+        "source_url": "https://www.techrepublic.com/article/news-nvidia-revenue-doubles-ai-demand/",
+        "body": "Nvidia reported $115.8 billion in quarterly revenue last week, <em>up 103% year over year, with $107.6 billion from data centers alone</em>. The enterprise and AI cloud segment grew 195% year over year. This is bigger than one company's earnings. It signals that the infrastructure powering enterprise AI is scaling at a pace that will make powerful AI capabilities available to every organization sooner than most planning cycles anticipate (TechRepublic, November 2026).",
+        "slants": {
+          "strategy": "Infrastructure spending at this scale means AI capabilities will become more accessible and more affordable. The organizations that invest in readiness now will be first to benefit.",
+          "leaders": "AI infrastructure is scaling fast, which means your teams will have access to increasingly powerful tools. Investing in learning capacity now puts your organization in the best position to use them well.",
+          "operations": "More infrastructure means more AI-powered tools arriving in your vendor stack over the next 12 months. Building a clear process for evaluating new AI capabilities keeps your team ready to move.",
+          "pm": "AI capabilities are improving faster than most project timelines assume. Building flexibility into your plans for new tools and features keeps projects current and competitive.",
+          "admin": "More AI infrastructure means the tools you use will get more capable, faster. Staying fluent now, even at a basic level, means you'll be the first to benefit when those improvements arrive."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one software tool or platform your team uses every day: your project management tool, your document editor, or your communication platform.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I use [tool name] every day for work. What AI features has this tool added or announced in the last six months? List the top three, with a one-sentence explanation of what each one does and how it could save me time.\"</em>",
+            "Check the AI's list against what you've actually tried. Chances are, at least one feature exists that you haven't explored yet.",
+            "Pick one feature you haven't tried, spend 10 minutes testing it on a real task, and share what you found in the group."
+          ]
+        }
+      },
+      {
+        "title": "Microsoft just showed the enterprise world what it looks like when AI becomes the operating layer for work",
+        "source_url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/",
+        "body": "At Ignite 2026 last week, Microsoft repositioned Copilot from an AI assistant to <em>what CEO Satya Nadella called \"the new OS for work\"</em>: a platform where Word, Excel, and PowerPoint are built into the AI, not the other way around. It launched Autopilot for autonomous recurring tasks and Copilot Workspaces for people and agents to collaborate in shared spaces. The shift signals something exciting beyond one vendor's roadmap: <em>AI is moving from a tool you open to a layer that runs underneath how work happens</em> (SiliconAngle, November 2026).",
+        "slants": {
+          "strategy": "When AI moves from application to platform, the exciting question becomes: which AI platform will your workflows run on? That's worth exploring now, while choices are still open.",
+          "leaders": "In this vision, your team will use AI embedded in every document, meeting, and workflow. Start thinking about adoption as integration, not introduction, and you'll be ahead of the curve.",
+          "operations": "Autonomous agents handling recurring tasks means your SOPs can evolve to free up your team's time for higher-value work. Map which repeatable processes an agent could take on, and which ones benefit most from a human in the loop.",
+          "pm": "As AI becomes the layer that work runs on, project management tools will follow. Watch for your PM platform to add agent-based automation, and start thinking about which project tasks you'd trust an agent to handle.",
+          "admin": "This shift means the tools you already use (Word, Excel, Outlook) are becoming AI-native. The skills you're building now with AI will apply directly inside the tools you use every day."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one recurring task in your work week that follows the same pattern every time: a status update, a report, a data pull, or a scheduling routine.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I have a recurring work task: [describe it in 2 to 3 sentences: what it involves, how often, and roughly how long it takes]. If an AI agent could handle part of this autonomously, which steps could it do on its own, and which steps would still need my judgment? Be specific about where I'd need to review its work.\"</em>",
+            "Look at the split the AI suggests. Does it match your instinct about where human judgment matters most?",
+            "Share your task breakdown in the group. Seeing which steps people would and wouldn't hand to an agent is one of the most useful conversations happening right now."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Black Friday is almost here. Let AI help you spend smarter and feel great about every purchase.",
+      "body": "The deals start hitting your inbox tomorrow, and a smart framework beats impulse every time. Tonight, pick one purchase you've been considering and let AI help you build a decision matrix before the sales start. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I'm thinking about buying [describe the item or choosing between two options]. Before I decide, help me build a weighted decision matrix. First, ask me five questions: what's my budget, what do I value most in this purchase, how often I'll use it, what would make this purchase feel like a win, and whether I need it now or just want it now. Then, based on my answers, create a comparison table with weighted scores for each option. At the end, give me one sentence: buy, wait, or skip, and why.\"<br><br>The technique here is <em>weighted criteria analysis</em>. Instead of asking AI 'should I buy this?', you asked it to uncover your real priorities first and then score options against them. This works for any decision with competing factors: 'help me compare these two apartments using weighted criteria,' 'score these three vacation options by what matters most to my family,' or 'rate these candidates against our actual hiring priorities.' When you give AI a framework instead of asking for an answer, the recommendation reflects your values, not a generic default."
+    }
   }
 }
