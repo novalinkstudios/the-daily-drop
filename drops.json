@@ -11701,5 +11701,75 @@
       "body": "The hardest part of Thanksgiving dinner isn't any single dish. It's getting them all done simultaneously. Oven conflicts, cooling times, last-minute tasks that pile up at 3:45 PM: it's a logistics puzzle. Tonight, let AI work backward from your serving time and build a step-by-step schedule. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I'm cooking Thanksgiving dinner for [number] people. Here's my menu: [list your dishes, be as specific as you can]. I want everything ready to serve at [time, e.g., 4:00 PM]. I have [describe your setup, e.g., one oven, four burners, one slow cooker]. Work backward from serving time and build me a step-by-step cooking schedule. For each dish, include when to start prep, when to start cooking, and when it comes out. Flag any oven conflicts and suggest solutions. At the top, tell me what I can do tonight or tomorrow to get ahead.\"<br><br>The technique here is <em>reverse timeline planning</em>: giving AI a fixed deadline and your real constraints, then letting it work backward to build the schedule. This works for any event with a hard end time: a product launch, a move-in day, a party, or a presentation. The key is being specific about your constraints. AI can only plan around limitations it knows about."
     }
+  },
+  "2026-11-25": {
+    "intro": "Wednesday's three: the organizations building AI governance now are clearing the runway to scale — Forrester's 2027 predictions show what happens when governance doesn't keep pace with ambition. AI just moved from the cloud to the laptop on your desk, with AI-capable PCs now making up nearly 60% of enterprise shipments. And the honest conversation about what AI actually does in real workflows — versus what leaders think it does — is 2027's biggest unlock. Tonight's homework: got a houseplant that's struggling? Let AI diagnose what it actually needs.",
+    "trends": [
+      {
+        "title": "The organizations building AI governance now are clearing the runway to scale",
+        "source_url": "https://www.forbes.com/sites/forrester/2026/11/23/ai-enters-a-new-era-of-enterprise-disruption-in-2027/",
+        "body": "Forrester's 2027 predictions, published this week, draw a sharp line: <em>at least three well-known enterprises will reverse or delay a flagship AI deployment next year because governance couldn't keep pace with ambition</em>. Risk reviews are expected to delay or block a third of enterprise AI software purchases. Meanwhile, AI will account for roughly <em>one in every five dollars of business technology spending</em> globally. The organizations investing in governance now are building the foundation to move fast when others stall (Forrester, November 2026).",
+        "slants": {
+          "strategy": "Your AI roadmap needs a governance chapter as detailed as the technology chapter. The organizations scaling AI fastest in 2027 will be the ones who built the guardrails first.",
+          "leaders": "Ask your team one question before year-end: for every AI initiative we're running, can we name who's accountable, what data it touches, and how we'd explain a mistake? Clear answers now prevent costly reversals later.",
+          "operations": "Governance is the operational foundation that lets AI initiatives move from pilot to production. Build clear ownership, escalation paths, and review cycles into every AI workflow now — it's what separates the organizations that scale from the ones that stall.",
+          "pm": "Add a governance readiness checkpoint to every AI project plan: who approves the tool, who reviews outputs, who owns errors, and what's the rollback plan. Projects without that checkpoint are the ones Forrester predicts will stall.",
+          "admin": "When AI governance is clear — which tools are approved, what data you can use, who reviews the output — you can use AI with confidence instead of guessing. If those answers are fuzzy in your organization, you've found a question worth raising."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI tool or AI-assisted process your team currently uses — Copilot, a chatbot, an automated workflow, or any company-approved AI tool.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Help me create a governance health check for one AI tool my team uses. The tool is: [name or describe it]. Give me five yes-or-no questions covering: who approved this tool, what data it accesses, who reviews its output before we act on it, what happens when it makes a mistake, and whether we can turn it off or roll back. Keep each question to one sentence.\"</em>",
+            "Answer the five questions honestly. If you can answer all five with confidence, your governance is in good shape. If not, you've identified the gaps worth raising with your team.",
+            "Share your governance health check in the group — most teams haven't done this exercise yet, and your five questions could become a useful template for everyone."
+          ]
+        }
+      },
+      {
+        "title": "AI just moved from the cloud to the laptop on your desk",
+        "source_url": "https://www.benzinga.com/markets/earnings/26/11/63610829/hp-posts-strong-q4-earnings-with-ai-pcs-nearly-60-of-shipments",
+        "body": "HP's fourth-quarter earnings, reported this week, show that <em>AI-capable PCs reached nearly 60% of enterprise shipments</em>, ahead of the company's own 50% target. Commercial PC revenue grew 23% year over year. This signals something broader than one company's results: <em>AI capabilities are moving from cloud services you log into to hardware built into the laptop your company hands you</em>. On-device AI means faster processing, better data privacy, and tools that work even without an internet connection (HP Q4 2026, November 2026).",
+        "slants": {
+          "strategy": "AI-capable hardware changes your planning model. Instead of budgeting only for software licenses, factor device refresh cycles into your AI readiness timeline — the capability is shifting to the endpoint.",
+          "leaders": "Your team's next laptop refresh will likely include built-in AI features. Talk to IT now about what those features enable, so your team is ready to use them on day one instead of discovering them by accident.",
+          "operations": "On-device AI processes data locally, which means faster results and fewer questions about where sensitive data goes. For teams handling operational data, local processing addresses one of the biggest adoption concerns.",
+          "pm": "On-device AI removes a major dependency from your project plans: you no longer need reliable cloud connectivity for every AI-assisted task. For distributed teams or field work, that's a practical upgrade worth factoring in.",
+          "admin": "The next computer your company gives you will likely have AI features built right in — things like smart search, document summarization, and writing assistance that work without a separate login. Getting comfortable with AI tools now puts you ahead when those features arrive on your desk."
+        },
+        "challenge": {
+          "steps": [
+            "Check what AI features are already available on your current work computer. On Windows, look for Copilot in the taskbar or search for 'AI features' in Settings. On Mac, check for Apple Intelligence in System Settings.",
+            "If you find built-in AI features, try one on a low-stakes task: summarize a long email thread, search your files by describing what you're looking for, or generate a quick first draft of a routine message.",
+            "If you don't find AI features yet, open your company-approved AI tool and paste this prompt: <em>\"My work computer is a [describe it — Windows laptop, Mac, Chromebook, etc.]. What AI features are built into this device that I might not know about? List the top three with one sentence each explaining what they do and where to find them.\"</em>",
+            "Share what you discovered in the group — you'd be surprised how many people have AI features on their devices that they've never explored."
+          ]
+        }
+      },
+      {
+        "title": "The honest conversation about what AI actually does is 2027's biggest unlock",
+        "source_url": "https://www.forrester.com/blogs/predictions-2027-the-ai-expectations-gap-will-emerge-between-leaders-and-employees/",
+        "body": "Forrester's 2027 workforce predictions identify a disconnect worth watching: <em>the biggest obstacle to AI value next year will be the growing gap between what leaders think AI can do and what employees actually find it can do in their day-to-day work</em>. The firm also predicts that workplace AI monitoring will reduce the initiative of a third of employees, and that workers with higher AI aptitude will receive more powerful tools — creating a productivity divide. The fix isn't more technology. It's <em>grounding AI expectations in real workflow experience, not demos</em> (Forrester, November 2026).",
+        "slants": {
+          "strategy": "If your AI plans are built on executive enthusiasm but haven't been tested against frontline experience, the expectations gap is already forming. Ground your strategy in what people actually report, not what vendors promise.",
+          "leaders": "Ask your team one open question this week: where does AI actually help you, and where does it fall short? Their honest answers are worth more than any vendor demo — and they'll appreciate being asked.",
+          "operations": "The expectations gap shows up first in operations — leaders see AI potential in a polished demo, but the reality on the ground is messier. Documenting what works and what doesn't gives your organization real data to plan around.",
+          "pm": "Build a quick reality check into AI project milestones: compare what the tool was expected to deliver against what users actually report. That gap, tracked consistently, tells you more than any status update.",
+          "admin": "If the AI tools you've been given don't quite live up to what was promised, you're not alone — Forrester sees this pattern across industries. Your honest feedback about what works and what doesn't is exactly the input your organization needs to make better decisions."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool your team has been encouraged to use. Rate it honestly on two scales: how useful leadership expects it to be (1–5) and how useful you actually find it in your daily work (1–5).",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses [name the AI tool or describe what it does]. Leadership expects it to help with [describe their expectations]. My actual experience is [describe what works well and what falls short]. Help me write a constructive one-paragraph summary of this gap — focused on specific improvements that would make the tool more useful, not complaints. Keep it under 100 words so a busy manager can read it quickly.\"</em>",
+            "Review the summary. Does it capture your real experience? Adjust anything that feels off — the goal is honest, actionable feedback.",
+            "Share your expectations-versus-reality summary in the group — honest conversations about what AI tools actually deliver are some of the most useful ones this community can have."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Got a houseplant that's not doing great? Tonight, let AI play plant doctor and figure out what it actually needs.",
+      "body": "Yellow leaves, drooping stems, brown tips, mystery spots — most of us just guess and hope for the best. Tonight, pick the plant in your home that's looking the saddest and describe its symptoms to AI. You don't need to know the species. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I have a houseplant that isn't doing well. Here's what I can tell you: [describe the plant — size, leaf shape, where you keep it, how often you water it, and what's wrong: yellowing leaves, drooping, brown edges, leggy growth, spots, mushy stems, or whatever you're seeing]. Before you tell me what to do, walk through the most likely causes one by one. For each possible cause, tell me what specific symptom points to it and what I should check to confirm or rule it out. Then, based on the most likely diagnosis, give me a simple three-step recovery plan I can start tonight — and one thing I should stop doing immediately.\"<br><br>The technique here is <em>diagnostic prompting</em>. Instead of asking 'what's wrong with my plant?' and getting a generic care sheet, you asked AI to reason through possible causes before recommending a fix. That 'diagnose before you prescribe' structure gets you a targeted answer instead of a generic one. It works everywhere: 'before you recommend a solution, walk me through the most likely causes of this problem,' or 'list what could be going wrong and tell me how to test each one before I commit to a fix.' The best advice starts with the right diagnosis, not the most popular remedy."
+    }
   }
 }
