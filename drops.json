@@ -11771,5 +11771,75 @@
       "body": "Yellow leaves, drooping stems, brown tips, mystery spots — most of us just guess and hope for the best. Tonight, pick the plant in your home that's looking the saddest and describe its symptoms to AI. You don't need to know the species. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I have a houseplant that isn't doing well. Here's what I can tell you: [describe the plant — size, leaf shape, where you keep it, how often you water it, and what's wrong: yellowing leaves, drooping, brown edges, leggy growth, spots, mushy stems, or whatever you're seeing]. Before you tell me what to do, walk through the most likely causes one by one. For each possible cause, tell me what specific symptom points to it and what I should check to confirm or rule it out. Then, based on the most likely diagnosis, give me a simple three-step recovery plan I can start tonight — and one thing I should stop doing immediately.\"<br><br>The technique here is <em>diagnostic prompting</em>. Instead of asking 'what's wrong with my plant?' and getting a generic care sheet, you asked AI to reason through possible causes before recommending a fix. That 'diagnose before you prescribe' structure gets you a targeted answer instead of a generic one. It works everywhere: 'before you recommend a solution, walk me through the most likely causes of this problem,' or 'list what could be going wrong and tell me how to test each one before I commit to a fix.' The best advice starts with the right diagnosis, not the most popular remedy."
     }
+  },
+  "2026-11-26": {
+    "intro": "Today's three: new data shows small businesses are nearly eight times more likely to report that AI is creating jobs than cutting them — the narrative is shifting. Anthropic just shipped a way for enterprises to monitor AI safety without sending sensitive data to anyone outside their own environment. And Workday's completed acquisition signals that managing AI agent identities is becoming as formal a discipline as managing employee access. Tonight's homework: the family's together — let AI help you start a tradition worth repeating.",
+    "trends": [
+      {
+        "title": "Small businesses are nearly eight times more likely to say AI creates jobs than cuts them",
+        "source_url": "https://www.uschamber.com/economy/the-chambers-free-enterprise-opportunity-tour-rolls-into-detroit-with-groundbreaking-new-data-on-how-ai-is-creating-small-business-jobs",
+        "body": "The U.S. Chamber of Commerce's 2026 Empowering Small Business report, featured in its Free Enterprise Opportunity Tour this week, found that <em>47% of small businesses say AI is creating jobs at their companies, while only 6% report AI-related headcount reductions</em>. Among AI users, 95% are actively upskilling employees. The pattern is clear: at the businesses closest to their customers and operations, <em>AI is adding roles and expanding what people can do, not replacing them</em> (U.S. Chamber of Commerce, November 2026).",
+        "slants": {
+          "strategy": "When small businesses — the most resource-constrained organizations — report that AI adds roles, the signal for larger enterprises is even stronger. Build your workforce planning around expansion of capabilities, not reduction of headcount.",
+          "leaders": "Share this data point with your team: 47% of small businesses say AI is adding jobs. The organizations upskilling alongside AI tools are seeing growth — that's the case for your next training investment.",
+          "operations": "Small businesses using AI are growing their teams because AI handles the repetitive work and people move to higher-value tasks. Map where that same pattern applies in your operations.",
+          "pm": "When scoping AI projects, include a capability expansion section: not just what the tool does, but what people on the team can now take on with the time and information AI frees up.",
+          "admin": "The data confirms what many of you already experience: AI tools are giving you capacity for the higher-judgment work that was always there but crowded out by repetitive tasks."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one task AI has taken off your plate, or could take off your plate, in your current role.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I work as [your role]. AI tools now handle [describe the task AI does or could do for you]. With that time freed up, help me identify three higher-value activities I could take on instead — things that use my judgment, relationships, or institutional knowledge. For each one, describe the activity in one sentence and explain why it's hard for AI to do alone.\"</em>",
+            "Review the three suggestions. Which one would your manager be most excited to see you take on?",
+            "Share your top pick in the group — seeing how different roles are expanding helps everyone rethink what's possible."
+          ]
+        }
+      },
+      {
+        "title": "AI safety monitoring just got an enterprise-grade upgrade — and your data never leaves your environment",
+        "source_url": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/",
+        "body": "Anthropic launched Enterprise Frontier Safeguards in public beta this week, built with input from <em>more than 100 enterprise customers including Bridgewater, Salesforce, and Stripe</em>. The design: AI safety monitoring runs continuously, detecting misuse patterns across conversations, but <em>encrypted safety records stay in the customer's own cloud environment — not the vendor's</em>. The organization's security team controls the investigation and response, and it's available at no extra cost (Help Net Security, November 2026).",
+        "slants": {
+          "strategy": "When AI governance tools keep sensitive data in your own environment, one of the biggest barriers to AI adoption — data sovereignty concern — gets smaller. Factor this shift into your vendor evaluation criteria.",
+          "leaders": "If data security has been the reason your team hasn't expanded AI use, this is worth revisiting with your security lead. The governance tools are catching up to the deployment tools.",
+          "operations": "Enterprise-grade AI monitoring that works inside your existing cloud environment means your current security workflows and escalation paths can extend to cover AI oversight — integration, not a new silo.",
+          "pm": "Add AI safety monitoring to your project requirements checklist as a standard line item alongside data security and access controls. The tooling now exists to make it practical.",
+          "admin": "Tools like this mean your organization can use AI more broadly while keeping sensitive data under its own roof. When someone asks whether it's safe to use AI for a task, the answer is getting clearer."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one concern — yours or your team's — about data safety when using AI tools at work.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team has a concern about using AI tools at work: [describe the concern — data leaving our environment, sensitive information being stored by the vendor, lack of visibility into what AI does with our inputs, etc.]. Help me write three specific questions we should ask any AI vendor about how they handle our data. For each question, describe what a good answer looks like and what a red-flag answer looks like. Keep each answer to two sentences.\"</em>",
+            "Review the three questions. Could your team answer them about the AI tools you already use?",
+            "Share your vendor questions in the group — a shared set of data-safety questions helps everyone evaluate AI tools more confidently."
+          ]
+        }
+      },
+      {
+        "title": "AI agents are getting their own access badges — and that's a sign of maturity",
+        "source_url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Completes-Acquisition-of-C1-ai/default.aspx",
+        "body": "Workday completed its acquisition of C1.ai this week, adding identity governance controls designed specifically for AI agents. The design principle: <em>agents receive permissions for specific tasks and lose them once those tasks are complete</em>, with secret vaulting and human approval required for sensitive changes. This extends Workday's Agent System of Record so that the same access controls organizations use for employees now apply to AI agents. The signal is bigger than one deal: <em>managing who agents are and what they can touch is becoming a formal enterprise discipline</em> (Workday, November 2026).",
+        "slants": {
+          "strategy": "If your AI agent strategy doesn't include an identity and access plan for the agents themselves, you're managing a workforce without governance. Build agent access controls into your roadmap now, while agent counts are still manageable.",
+          "leaders": "Ask your IT and security teams one question: do we know what permissions our AI agents have, and do those permissions expire when the task is done? Clear answers build trust; unclear ones are a risk worth surfacing.",
+          "operations": "Agent identity governance is an operations problem you already know how to solve: who gets access, what can they change, who reviews, and how do we revoke. The same operational discipline applies to AI agents.",
+          "pm": "For any project that includes AI agents, add an identity and permissions section to the project plan: what the agent can access, who approves that access, and when it's revoked.",
+          "admin": "Just like you'd want to know who has access to your team's files and systems, knowing what AI agents can access — and making sure that access is limited to what they need — is becoming a standard part of organizational hygiene."
+        },
+        "challenge": {
+          "steps": [
+            "List any AI tools or agents your team uses that connect to company systems — email, documents, project management tools, databases, or vendor platforms.",
+            "For each one, ask yourself: do I know what it has access to? Could I revoke that access if needed?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses these AI tools that connect to our systems: [list them]. Help me create a simple agent access audit with four questions for each tool: 1) What data can it read? 2) What actions can it take? 3) Who approved this access? 4) How do we turn it off? Format it as a checklist I can fill in for each tool.\"</em>",
+            "Fill in what you can and note the gaps. Share your access audit template in the group — most teams haven't done this inventory yet, and your template could help others get started."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Tonight, everyone's together. Let AI help you design one new family tradition worth repeating every year.",
+      "body": "The best traditions didn't start with a plan — they started with one good evening that everyone wanted to do again. Tonight, while the family's already in the same room, let AI help you create something new that fits the people you're actually with. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"My family is together tonight and I want to start a new tradition. Here's who's here: [list the people and their ages, roughly]. Here are traditions we already love: [list 2-3 things your family does that everyone enjoys]. And here's one thing I wish we did more of together: [describe it — laughing more, storytelling, being outside, playing games, making something creative, etc.]. Based on who we are, what we already love, and what I wish we had more of — suggest three new traditions we could try tonight with zero preparation and no supplies. For each one: describe what it is in 2-3 sentences, explain why it fits our specific family, and give us one tip for making it stick next year.\"<br><br>The technique here is <em>pattern matching from examples</em>. Instead of asking AI to brainstorm from scratch, you gave it concrete examples of what already works for your family and asked it to find the pattern — then generate new ideas that match it. This works for any creative task: 'here are three meals my family loved — what do they have in common, and what else would we like?' or 'here are my three best vacations — what ties them together, and where should I go next?' When you give AI your real preferences as examples first, it stops guessing and starts designing around what you actually enjoy."
+    }
   }
 }
