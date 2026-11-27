@@ -11841,5 +11841,78 @@
       "body": "The best traditions didn't start with a plan — they started with one good evening that everyone wanted to do again. Tonight, while the family's already in the same room, let AI help you create something new that fits the people you're actually with. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"My family is together tonight and I want to start a new tradition. Here's who's here: [list the people and their ages, roughly]. Here are traditions we already love: [list 2-3 things your family does that everyone enjoys]. And here's one thing I wish we did more of together: [describe it — laughing more, storytelling, being outside, playing games, making something creative, etc.]. Based on who we are, what we already love, and what I wish we had more of — suggest three new traditions we could try tonight with zero preparation and no supplies. For each one: describe what it is in 2-3 sentences, explain why it fits our specific family, and give us one tip for making it stick next year.\"<br><br>The technique here is <em>pattern matching from examples</em>. Instead of asking AI to brainstorm from scratch, you gave it concrete examples of what already works for your family and asked it to find the pattern — then generate new ideas that match it. This works for any creative task: 'here are three meals my family loved — what do they have in common, and what else would we like?' or 'here are my three best vacations — what ties them together, and where should I go next?' When you give AI your real preferences as examples first, it stops guessing and starts designing around what you actually enjoy."
     }
+  },
+  "2026-11-27": {
+    "intro": "Friday's three: Anthropic's new enterprise study reveals that the biggest obstacle to AI value isn't resistance or bad tools — it's the pile-up of output nobody has time to review. That same study finds companies are hiring less because of AI, but almost none are laying people off — the real shift is quieter than the headlines suggest. And Canada just expanded its AI compute fund to a billion dollars, signaling that where AI runs is becoming as strategic as what it does. Tonight's homework: let AI help you turn your favorite recent moments into a memory journal before the details fade.",
+    "trends": [
+      {
+        "title": "The next unlock for AI at work: fixing the review bottleneck",
+        "source_url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+        "body": "Anthropic's economics team interviewed people across 58 US enterprise companies and published the findings this week. The top obstacle to AI delivering business value? Not employee resistance. Not bad tools. <em>Too much AI output for humans to review</em> — cited 49 times, ahead of resistance (43) and expert sign-off requirements (42). Nearly one in five deployments still delivers no measurable value. The bottleneck has moved from 'can AI produce this?' to <em>'can anyone verify it fast enough?'</em>",
+        "slants": {
+          "strategy": "The bottleneck moved from production to verification. Your AI strategy needs a review workflow, not just a generation workflow.",
+          "leaders": "If your team is producing 3x the drafts but reviews haven't scaled to match, the value is stuck in a queue. Invest in review capacity the same way you invest in AI tooling.",
+          "operations": "AI-generated reports, summaries, and analyses are only as useful as the verification process behind them. Speeding up review is the highest-leverage operational improvement right now.",
+          "pm": "Scope AI pilot reviews the same way you scope testing: with timelines, assigned reviewers, and clear accept/reject criteria. Unreviewed output is unfinished work.",
+          "admin": "When AI drafts a travel brief or meeting summary, the review step — checking tone, context, and accuracy — is where your judgment adds the most value. That skill is becoming more important, not less."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one AI-assisted task your team already does — a draft, a summary, a report, or an automated workflow.",
+            "In a document or notes app, map the current review process: who checks the output, roughly how long it takes, and where it usually gets stuck or delayed.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"I'm mapping the review process for [describe the task]. The current steps are: [paste your map]. Help me identify the three biggest bottlenecks slowing down verification, and suggest one practical change for each that my team could try this month. Keep each suggestion to two sentences.\"</em>",
+            "Pick the one suggestion that could save the most time this quarter and flag it for your next team discussion.",
+            "Share your bottleneck map and top suggestion in the group — most teams haven't done this exercise, and your map could become a useful template."
+          ]
+        }
+      },
+      {
+        "title": "AI isn't replacing workers — it's reshaping how teams grow",
+        "source_url": "https://explainx.ai/blog/anthropic-working-with-ai-enterprise-adoption-study-november-2026",
+        "body": "The same Anthropic study surfaced an important pattern about jobs: <em>two-thirds of the 58 companies are hiring less because of AI</em>, but almost none are laying people off because of it. Only two companies reported AI eliminating a role outright. Five dismissed workers who refused to use AI tools. The real pattern is quieter: roles go unfilled after someone leaves, contractors aren't renewed, and teams grow their output without growing headcount. <em>The workforce impact isn't dramatic cuts — it's a slow reshaping of how capacity gets built.</em>",
+        "slants": {
+          "strategy": "Workforce planning now has a third option between 'hire more' and 'cut headcount': redesign roles around AI and hold team size steady while growing output.",
+          "leaders": "The teams investing in AI fluency now are building capacity without adding cost — and that becomes the strongest case you can make in your next budget conversation.",
+          "operations": "When a departed colleague's work gets absorbed by AI-assisted workflows, capture the institutional knowledge before it walks out the door. Documentation is your team's insurance policy.",
+          "pm": "Staffing models built around 'we need three more people' are shifting to 'we need this AI workflow plus one reviewer.' Factor that into your next resource plan.",
+          "admin": "Your deep knowledge of how the organization actually runs — the unwritten rules, the real decision-makers, the context behind every process — is harder to replace than any task. That's your edge."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one role on your team that's currently open, recently vacated, or likely to turn over in the next year.",
+            "In a document or note, list the top five tasks that role handles (or handled).",
+            "Next to each task, label it: <em>\"AI can handle this now,\"</em> <em>\"AI can assist but needs a human,\"</em> or <em>\"Only a human can do this.\"</em>",
+            "Look at the split. If two or more tasks are AI-ready, consider whether the role needs to be refilled as-is — or whether a redesigned version would serve the team better.",
+            "Share your task split in the group and call out what surprised you — these conversations are shaping how teams think about growth."
+          ]
+        }
+      },
+      {
+        "title": "AI compute just became a matter of national policy",
+        "source_url": "https://www.unite.ai/canada-invests-700-million-more-to-expand-ai-compute-access-fund/",
+        "body": "Canada announced this week that it's expanding its AI Compute Access Fund to <em>C$1 billion</em>, with domestic cloud providers eligible for up to 80% of costs covered. Projects using compute hosted outside Canada won't qualify. It's the latest signal in a growing pattern: <em>governments are treating AI compute as critical national infrastructure</em>, not optional R&D spending. Where your AI workloads run — and under which jurisdiction — is becoming a strategic decision, not just a technical one.",
+        "slants": {
+          "strategy": "Data residency and compute sovereignty are moving from compliance footnotes to strategic planning inputs. If your AI roadmap doesn't account for jurisdiction, it's incomplete.",
+          "leaders": "Ask your infrastructure team one question this quarter: do we know where our AI workloads actually run, and what jurisdictions govern them? The answer will shape decisions for years.",
+          "operations": "Sovereign compute requirements add a new variable to vendor evaluation. Update your procurement criteria before the next renewal cycle so you're not scrambling when policy catches up.",
+          "pm": "If your project depends on a cloud AI service, add 'compute jurisdiction' to your risk register now. Policy changes in this space are moving faster than contract cycles.",
+          "admin": "When you're coordinating vendor contracts or tracking renewal timelines, flagging compute location as a checklist item is a small step that earns strategic credit."
+        },
+        "challenge": {
+          "steps": [
+            "Open your company-approved AI tool.",
+            "Paste this prompt: <em>\"Explain in plain language what 'sovereign AI compute' means, why governments are investing in it, and how it might affect where a large technology company builds AI-powered tools. Keep it under 200 words.\"</em>",
+            "Read the response and identify one thing you didn't know before.",
+            "Now ask a follow-up: <em>\"What's one question I should ask my IT or infrastructure team about where our AI workloads run and what rules apply?\"</em>",
+            "Share the question you got — and whether you plan to actually ask it — in the group."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Had a good week? Let AI help you turn your best moments into a memory journal before the details fade.",
+      "body": "Good moments blur fast. By next week you'll remember the big ones but lose the small details — the specific joke, the smell from the kitchen, the look on someone's face. Tonight, while it's fresh, let AI help you capture what mattered. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want to write a short memory journal entry about my week. Here's what happened in rough order: [describe 3-5 moments from your week — keep it casual, like you're telling a friend]. For each moment, ask me one follow-up question about a sensory detail I might be forgetting — what I heard, smelled, tasted, or felt. After I answer, weave my original description and the new details into a vivid 2-3 sentence journal entry for each moment. Keep my voice — don't make it sound literary.\"<br><br>The technique here is <em>sensory prompting</em>. Instead of asking AI to 'write about my week,' you asked it to pull out specific sensory details you hadn't thought to include. That back-and-forth unlocks richer output than a one-shot request ever could. Try it anytime you want depth: 'ask me what I noticed about the room before you describe it,' 'ask me how it felt before you write the thank-you note,' or 'ask me what surprised me before you summarize the event.' When you teach AI to interview you first, the result sounds like you — not like AI."
+    }
   }
 }
