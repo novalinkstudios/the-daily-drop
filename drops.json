@@ -11914,5 +11914,77 @@
       "body": "Good moments blur fast. By next week you'll remember the big ones but lose the small details — the specific joke, the smell from the kitchen, the look on someone's face. Tonight, while it's fresh, let AI help you capture what mattered. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
       "prompt": "\"I want to write a short memory journal entry about my week. Here's what happened in rough order: [describe 3-5 moments from your week — keep it casual, like you're telling a friend]. For each moment, ask me one follow-up question about a sensory detail I might be forgetting — what I heard, smelled, tasted, or felt. After I answer, weave my original description and the new details into a vivid 2-3 sentence journal entry for each moment. Keep my voice — don't make it sound literary.\"<br><br>The technique here is <em>sensory prompting</em>. Instead of asking AI to 'write about my week,' you asked it to pull out specific sensory details you hadn't thought to include. That back-and-forth unlocks richer output than a one-shot request ever could. Try it anytime you want depth: 'ask me what I noticed about the room before you describe it,' 'ask me how it felt before you write the thank-you note,' or 'ask me what surprised me before you summarize the event.' When you teach AI to interview you first, the result sounds like you — not like AI."
     }
+  },
+  "2026-11-28": {
+    "intro": "Saturday's three: enterprise AI spending has blown past $177 billion, but only one in five organizations has scaled beyond isolated pilots — the gap between investment and impact is the strategy question of the moment. McKinsey's latest data confirms that eight in ten workers feel more productive with AI, yet organizational returns stay flat unless the work itself gets redesigned. And Gartner's analysis of why half of GenAI projects stall after proof of concept points to readiness, not technology, as the deciding factor. Tonight's homework: let AI build you a reading list that actually fits your life right now.",
+    "trends": [
+      {
+        "title": "Enterprise AI spending is surging — but most organizations haven't moved past isolated pilots",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/25/3410268/0/en/ai-industry-enters-capital-supercycle-as-agentic-systems-and-infrastructure-investment-redefine-enterprise-adoption.html",
+        "body": "BCC Research's latest market analysis puts enterprise AI deployment spending above <em>$177 billion in 2026</em>, with agentic systems — AI that can execute multi-step tasks autonomously — driving the fastest-growing segment. Deloitte reports 74% of companies plan to deploy agentic AI within two years. But Gartner's survey tells the other half of the story: <em>only 22% of organizations have successfully scaled AI across multiple business units</em>. The money is flowing. The challenge is turning investment into coordinated, cross-functional deployment.",
+        "slants": {
+          "strategy": "If your AI roadmap is still a list of department-level pilots, the investment cycle is about to pass you by. Build the cross-functional coordination now.",
+          "leaders": "The difference between an AI budget and an AI strategy is a plan for how the pieces connect across teams. Ask your direct reports how their AI initiatives link to each other.",
+          "operations": "Agentic systems need process owners, not just tool owners. Start mapping which workflows span multiple departments — those are where scaled deployment creates the most value.",
+          "pm": "Multi-step AI agents introduce dependencies that look a lot like complex project dependencies. Your orchestration skills transfer directly — position yourself to lead agentic deployments.",
+          "admin": "As AI tools expand from individual productivity to cross-team workflows, the people who understand how information actually flows between departments become essential connectors."
+        },
+        "challenge": {
+          "steps": [
+            "Make a quick list of every AI tool or initiative your team uses or has access to — Copilot, a chatbot, an automation, a pilot program, anything.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team uses these AI tools and initiatives: [list them]. Help me map how they currently connect to each other (or don't). For each one, identify: 1) what it does, 2) what other tools or teams its output feeds into, and 3) where there's a gap — a manual step or a disconnected handoff. Format it as a simple connection map.\"</em>",
+            "Look at the gaps. Pick one disconnected handoff that, if streamlined, would save your team the most time.",
+            "Share your connection map in the group — seeing how other teams' AI tools link (or don't) helps everyone think about scaling past individual tools."
+          ]
+        }
+      },
+      {
+        "title": "AI is making individuals faster — but organizational returns stay flat until you redesign the work",
+        "source_url": "https://thenextweb.com/news/mckinsey-ai-productivity-paradox-enterprise-roi-capex",
+        "body": "McKinsey's 2026 State of AI survey reveals a striking gap: <em>eight in ten workers say AI improved their personal productivity</em>, yet the share of organizations attributing EBIT impact to AI held flat at 37%. Only 6% qualify as high performers. The difference? <em>Nearly 75% of high performers redesigned workflows around AI, compared with 25% of everyone else.</em> Most current tools accelerate existing work but largely preserve underlying workflows. The bigger gains require rethinking how the work gets done.",
+        "slants": {
+          "strategy": "Individual speedups don't compound into organizational returns unless the process changes. Your next planning cycle should include workflow redesign alongside tool deployment.",
+          "leaders": "If your team is using AI but the meetings, handoffs, and approval chains look identical to last year, you're capturing a fraction of the available value. Give one team permission to redesign a process end-to-end.",
+          "operations": "The highest-leverage operational move isn't adding AI to an existing workflow — it's rebuilding the workflow with AI as a core component from the start.",
+          "pm": "When scoping AI projects, include a process redesign phase as a deliverable, not an afterthought. The projects that skip it plateau at individual productivity gains.",
+          "admin": "You see the full workflow — the form that triggers the email that starts the approval that feeds the report. That end-to-end view is exactly what redesign needs. Bring it to the table."
+        },
+        "challenge": {
+          "steps": [
+            "Pick one workflow your team runs regularly — a reporting cycle, a planning process, an onboarding sequence, or an approval chain.",
+            "Sketch it out in 5-8 steps on paper or in a note, as it works today.",
+            "Open your company-approved AI tool and paste this prompt: <em>\"Here's a workflow my team runs: [paste your steps]. If we were designing this from scratch today with AI as a core tool — not bolted on after the fact — what would it look like? Redesign it in 5-8 steps, noting where AI handles a step, where a human handles it, and where the handoff happens. Keep each step to one sentence.\"</em>",
+            "Compare the two versions. What steps disappeared? What new steps appeared?",
+            "Share your before-and-after workflow in the group — the contrast often reveals opportunities others hadn't considered."
+          ]
+        }
+      },
+      {
+        "title": "Half of GenAI projects stall after proof of concept — and the fix is about readiness, not technology",
+        "source_url": "https://www.gartner.com/en/articles/genai-project-failure",
+        "body": "Gartner's analysis finds that <em>at least half of generative AI projects were abandoned after proof of concept</em>. The reasons aren't technical: poor data quality, escalating costs, unclear business value, and inadequate risk controls. The pattern is consistent — organizations launch pilots without connecting them to measurable outcomes, skip the data foundation work, and discover governance gaps only after they've invested. <em>The projects that survive share a discipline: they define the business case, the data requirements, and the governance model before the first prompt.</em>",
+        "slants": {
+          "strategy": "Before greenlighting the next AI pilot, require clear answers to three questions: what's the business outcome, is the data ready, and who owns the governance? If any answer is unclear, the pilot is premature.",
+          "leaders": "A failed AI pilot costs more than budget — it costs organizational confidence. Set your teams up to succeed by requiring a clear business case and data readiness check before any pilot launches.",
+          "operations": "Data quality is the most common reason AI projects stall. If your team touches the data that AI will use, investing in data hygiene now pays off in every project downstream.",
+          "pm": "Add a readiness gate before the pilot phase of any AI project: business case documented, data quality assessed, risk controls defined. It takes a week and saves months.",
+          "admin": "When someone proposes a new AI tool, the question isn't just 'will it work?' — it's 'is the data clean, is the process clear, and do we know what success looks like?' You can ask those questions."
+        },
+        "challenge": {
+          "steps": [
+            "Think about one AI tool or initiative your team has tried — whether it succeeded, stalled, or was quietly abandoned.",
+            "In a note, rate it on three dimensions: 1) Was the business outcome clearly defined before launch? 2) Was the data quality sufficient? 3) Were governance and risk controls in place?",
+            "Open your company-approved AI tool and paste this prompt: <em>\"My team ran an AI initiative that [succeeded / stalled / was abandoned]. The business case was [clear / vague / undefined]. The data quality was [good / mixed / poor]. Governance was [in place / partial / missing]. Based on these factors, give me a one-paragraph diagnosis of why it played out the way it did, and three specific things we should do differently next time. Be direct.\"</em>",
+            "Review the diagnosis. Does it match your experience? Note the one recommendation you'd push for next time.",
+            "Share your diagnosis in the group — collective post-mortems on AI projects help everyone avoid the same patterns."
+          ]
+        }
+      }
+    ],
+    "homework": {
+      "title": "Saturday downtime. Let AI build you a reading list that fits exactly where you are right now.",
+      "body": "Generic 'best books' lists are everywhere — but the best reading list is the one that matches your life at this exact moment. Whether you want to learn something, escape into a story, or finally explore a topic you've been curious about, AI can curate recommendations that fit your mood, your time, and your taste. Open ChatGPT, Claude, Gemini, or Perplexity (all free) and try this:",
+      "prompt": "\"I want a reading list of 5 books — but I want you to really understand what I need first. Here's what's going on: my current mood is [describe it — burnt out, curious, restless, cozy, ambitious, etc.]. The last book I loved was [title or describe what you liked about it]. I have about [X hours/minutes] per week to read. I'm drawn to [genres, topics, or styles — nonfiction, thrillers, history, science, memoir, etc.] and I want to avoid [anything you're not in the mood for]. Based on all of that, recommend 5 books. For each one: give me the title and author, a 2-sentence pitch for why it fits me specifically right now, and rate the time commitment (quick read, medium, or deep dive).\"<br><br>The technique here is <em>criteria layering</em>. Instead of asking for 'good book recommendations,' you gave AI multiple overlapping filters — mood, taste, time, and what you want to avoid — and asked it to find the intersection. This works anytime you need a personalized recommendation: 'here's my budget, my taste, and my constraints — find me the best option.' The more specific your criteria, the less generic the output."
+    }
   }
 }
